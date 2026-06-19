@@ -1,0 +1,36 @@
+name: Sync family places
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 22 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+      - run: npm run sync:places
+      - run: npm run build
+
+      - name: Commit updated place data
+        run: |
+          if git diff --quiet -- src/generated; then
+            echo "No place data changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/generated
+          git commit -m "data: sync tourism attractions"
+          git push

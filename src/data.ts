@@ -1,0 +1,42 @@
+export type Region = '北部' | '中部' | '南部' | '東部' | '離島'
+export type Setting = '室內' | '室外' | '室內外'
+export type Duration = '半日' | '一日' | '晚上'
+export type SourceType = '官方網站' | '部落格' | 'Instagram'
+
+export type Place = {
+  id: string
+  name: string
+  region: Region
+  city: string
+  district: string
+  ageMin: number
+  ageMax: number
+  setting: Setting
+  duration: Duration
+  category: string
+  rating: number | null
+  reviews: number
+  priceLabel: string
+  address: string
+  hours: string
+  lat: number
+  lng: number
+  image: string
+  accent: string
+  description: string
+  highlights: string[]
+  facilities: string[]
+  mapsUrl: string
+  sources: { type: SourceType; label: string; url: string }[]
+  dataSource: string
+  sourceId: string
+  qualityScore: number
+  updatedAt: string
+}
+
+export const ageOptions = [
+  { label: '全部年齡', value: 'all' },
+  { label: '0–2 歲', value: '0-2' },
+  { label: '3–5 歲', value: '3-5' },
+  { label: '6–12 歲', value: '6-12' },
+] as const

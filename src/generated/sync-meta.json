@@ -1,0 +1,25 @@
+{
+  "sourceUrl": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
+  "sourceUpdatedAt": "2026-06-19T02:30:55+08:00",
+  "generatedFromSourceAt": "2026-06-19T02:30:55+08:00",
+  "sourceCount": 5949,
+  "candidateCount": 3126,
+  "publishedCount": 1200,
+  "rejected": {
+    "inactive": 53,
+    "coordinate": 24,
+    "duplicate": 221,
+    "relevance": 2525,
+    "quality": 0
+  },
+  "categoryCounts": {
+    "交通迷": 14,
+    "假日散步": 12,
+    "動物萌友": 137,
+    "探索學習": 122,
+    "自然放電": 191,
+    "藝文美感": 97,
+    "親子樂園": 423,
+    "農場體驗": 204
+  }
+}
