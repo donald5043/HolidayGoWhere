@@ -83,7 +83,7 @@ async function ensureOllama() {
   }
 }
 
-async function generate(place) {
+async function generate(place, attempt = 1) {
   const prompt = [
     `景點：${place.name}`,
     `地區：${place.city}${place.district}`,
@@ -109,14 +109,26 @@ async function generate(place) {
       think: false,
       keep_alive: '30m',
       format: schema,
-      options: { temperature: 0, num_predict: 240, num_ctx: 4096 },
+      options: {
+        temperature: 0,
+        num_predict: attempt === 1 ? 360 : 480,
+        num_ctx: 4096,
+      },
       system: '你是台灣親子旅遊資料編輯。使用臺灣繁體中文，只能根據輸入資料整理，不可杜撰。嚴格輸出指定 JSON。',
       prompt,
     }),
   })
   if (!response.ok) throw new Error(`Ollama 錯誤：${response.status} ${await response.text()}`)
   const payload = await response.json()
-  return validate(JSON.parse(payload.response))
+  try {
+    return validate(JSON.parse(payload.response))
+  } catch (error) {
+    if (attempt < 2) {
+      console.warn(`${place.name} JSON 格式錯誤，自動重試…`)
+      return generate(place, attempt + 1)
+    }
+    throw error
+  }
 }
 
 async function main() {
