@@ -15,6 +15,9 @@ const META_FILE = path.join(OUTPUT_DIR, 'sync-meta.json')
 const SOURCE_URL =
   process.env.ATTRACTION_SOURCE_URL ||
   'https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip'
+const RESTAURANT_SOURCE_URL =
+  process.env.RESTAURANT_SOURCE_URL ||
+  'https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Restaurant-json.zip'
 const FEATURED_PLACES = Number(process.env.FEATURED_PLACES || 300)
 const regionFiles = {
   北部: 'places-north.json',
@@ -72,6 +75,10 @@ const accentByCategory = {
   自然放電: '#42b883',
   交通迷: '#f4c95d',
   假日散步: '#64a7a2',
+  親子餐廳: '#f2a65a',
+  咖啡下午茶: '#b98b73',
+  甜點冰品: '#df7bb4',
+  百貨商場: '#7e8bd6',
 }
 
 const fallbackImages = {
@@ -83,14 +90,35 @@ const fallbackImages = {
   自然放電: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=80',
   交通迷: 'https://images.unsplash.com/photo-1474487548417-781cb71495f3?auto=format&fit=crop&w=900&q=80',
   假日散步: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80',
+  親子餐廳: 'https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80',
+  咖啡下午茶: 'https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80',
+  甜點冰品: 'https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=80',
+  百貨商場: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=900&q=80',
 }
+
+const rainyRestaurantPattern =
+  /咖啡|下午茶|甜點|蛋糕|烘焙|茶館|茶屋|鬆餅|冰品|冰淇淋|親子餐廳|百貨|購物中心|商場/
+const familyRestaurantPattern = /親子|兒童|小朋友|家庭|寶寶|幼兒|遊戲區|兒童椅/
+const unreliableImageHosts = new Set(['khh.travel'])
 
 function cleanText(value) {
   return String(value || '')
+    .replace(/&nbsp;?/gi, ' ')
+    .replace(/&amp;/gi, '&')
     .replace(/<[^>]+>/g, ' ')
     .replace(/[\u0000-\u001F]/g, ' ')
     .replace(/\s+/g, ' ')
     .trim()
+}
+
+function fullAddress(city, district, street) {
+  const normalizedCity = cleanText(city).replace(/^台/, '臺')
+  const normalizedDistrict = cleanText(district)
+  const normalizedStreet = cleanText(street).replace(/^台/, '臺').replace(/^臺灣/, '')
+  if (!normalizedStreet) return `${normalizedCity}${normalizedDistrict}` || '地址請見官方資訊'
+  if (normalizedStreet.startsWith(normalizedCity)) return normalizedStreet
+  if (normalizedStreet.startsWith(normalizedDistrict)) return `${normalizedCity}${normalizedStreet}`
+  return `${normalizedCity}${normalizedDistrict}${normalizedStreet}`
 }
 
 function truncate(value, length = 150) {
@@ -143,6 +171,13 @@ function qualityScore(item, text) {
 
 function categoryFor(text) {
   return categoryRules.find(([, pattern]) => pattern.test(text))?.[0] || '假日散步'
+}
+
+function restaurantCategoryFor(text) {
+  if (/百貨|購物中心|商場/.test(text)) return '百貨商場'
+  if (/親子餐廳|兒童|小朋友|家庭|寶寶|幼兒|遊戲區/.test(text)) return '親子餐廳'
+  if (/甜點|蛋糕|烘焙|鬆餅|冰品|冰淇淋/.test(text)) return '甜點冰品'
+  return '咖啡下午茶'
 }
 
 function settingFor(text) {
@@ -272,6 +307,21 @@ function instagramHashtag(name) {
     .slice(0, 50) || '台灣親子景點'
 }
 
+function imageUrlsFor(item) {
+  return [...new Set(
+    (item.Images || [])
+      .map((entry) => cleanText(entry.URL))
+      .filter((url) => {
+        if (!/^https?:\/\//.test(url) || /not-found|no[-_]?image|default[-_]?image/i.test(url)) return false
+        try {
+          return !unreliableImageHosts.has(new URL(url).hostname)
+        } catch {
+          return false
+        }
+      }),
+  )].slice(0, 4)
+}
+
 function sourceLinks(item, name) {
   const sources = []
   if (/^https?:\/\//.test(item.WebsiteURL || '')) {
@@ -302,6 +352,12 @@ function normalizedKey(item) {
   return `${city}:${name}`
 }
 
+function restaurantKey(item) {
+  const name = cleanText(item.RestaurantName).replace(/[\s　\-—()（）·・]/g, '').toLowerCase()
+  const city = cleanText(item.PostalAddress?.City).replace(/^台/, '臺')
+  return `${city}:${name}`
+}
+
 async function download(url, target) {
   const response = await fetch(url, { headers: { 'user-agent': 'HolidayGoWhere/1.0 (open-data-sync)' } })
   if (!response.ok) throw new Error(`下載失敗：${response.status} ${response.statusText}`)
@@ -315,21 +371,35 @@ async function loadJson(file) {
 async function main() {
   const tempDir = await fs.mkdtemp(path.join(os.tmpdir(), 'holiday-go-where-'))
   const zipPath = path.join(tempDir, 'attractions.zip')
+  const restaurantZipPath = path.join(tempDir, 'restaurants.zip')
   const extractDir = path.join(tempDir, 'extracted')
+  const restaurantExtractDir = path.join(tempDir, 'restaurants')
 
   console.log(`下載觀光署景點資料：${SOURCE_URL}`)
-  await download(SOURCE_URL, zipPath)
+  console.log(`下載觀光署餐飲資料：${RESTAURANT_SOURCE_URL}`)
+  await Promise.all([
+    download(SOURCE_URL, zipPath),
+    download(RESTAURANT_SOURCE_URL, restaurantZipPath),
+  ])
   new AdmZip(zipPath).extractAllTo(extractDir, true)
+  new AdmZip(restaurantZipPath).extractAllTo(restaurantExtractDir, true)
 
   const attractionRoot = await loadJson(path.join(extractDir, 'AttractionList.json'))
   const serviceRoot = await loadJson(path.join(extractDir, 'AttractionServiceTimeList.json'))
   const feeRoot = await loadJson(path.join(extractDir, 'AttractionFeeList.json'))
+  const restaurantRoot = await loadJson(path.join(restaurantExtractDir, 'RestaurantList.json'))
+  const restaurantServiceRoot = await loadJson(path.join(restaurantExtractDir, 'RestaurantServiceTimeList.json'))
   const attractions = firstArray(attractionRoot, 'Attractions')
   const serviceTimes = firstArray(serviceRoot, 'AttractionServiceTimes')
   const fees = firstArray(feeRoot, 'AttractionFees')
+  const restaurants = firstArray(restaurantRoot, 'Restaurants')
+  const restaurantServiceTimes = firstArray(restaurantServiceRoot, 'RestaurantServiceTimes')
   const familyOpenData = await loadFamilyOpenData()
 
   const serviceTimeMap = new Map(serviceTimes.map((item) => [item.AttractionID, item.ServiceTimes || []]))
+  const restaurantServiceTimeMap = new Map(
+    restaurantServiceTimes.map((item) => [item.RestaurantID, item.ServiceTimes || []]),
+  )
   const feeMap = new Map(fees.map((item) => [item.AttractionID, item.Fees || []]))
   const seen = new Set()
   const rejected = { inactive: 0, coordinate: 0, duplicate: 0, relevance: 0, quality: 0 }
@@ -369,11 +439,13 @@ async function main() {
     const city = cleanText(item.PostalAddress?.City) || '臺灣'
     const district = cleanText(item.PostalAddress?.Town) || ''
     const street = cleanText(item.PostalAddress?.StreetAddress)
-    const address = `${city}${district}${street}` || '地址請見官方資訊'
+    const address = fullAddress(city, district, street)
     const category = categoryFor(text)
     const [ageMin, ageMax] = ageFor(text, category)
-    const image = (item.Images || []).find((entry) => /^https?:\/\//.test(entry.URL || ''))?.URL
+    const imageCandidates = imageUrlsFor(item)
+    const image = imageCandidates[0]
     const updatedAt = cleanText(item.UpdateTime || attractionRoot.UpdateTime)
+    const setting = settingFor(text)
 
     const baseFamilyAmenities = familyAmenitiesFor(item, text)
     const amenityEvidence = matchFamilyOpenData({ name, city, district, address, lat, lng }, familyOpenData)
@@ -386,7 +458,7 @@ async function main() {
       district,
       ageMin,
       ageMax,
-      setting: settingFor(text),
+      setting,
       duration: durationFor(item, text),
       category,
       rating: null,
@@ -397,6 +469,7 @@ async function main() {
       lat,
       lng,
       image: image || fallbackImages[category],
+      imageCandidates: imageCandidates.slice(1),
       accent: accentByCategory[category],
       description: truncate(item.Description, 180) || `${name}是適合安排親子假日出遊的景點。`,
       highlights: highlightsFor(text, category),
@@ -408,13 +481,125 @@ async function main() {
       sourceId: item.AttractionID,
       qualityScore: quality,
       updatedAt,
+      rainyDay: setting !== '室外' || /百貨|購物中心|商場|室內遊戲/.test(text),
+      placeType: '景點',
       _rank: relevance * 10 + quality,
     })
   }
 
+  const restaurantRejected = { inactive: 0, coordinate: 0, duplicate: 0, relevance: 0, quality: 0 }
+  let restaurantPublished = 0
+  for (const item of restaurants) {
+    if (![1, '1', true].includes(item.ServiceStatus)) {
+      restaurantRejected.inactive += 1
+      continue
+    }
+    const lat = Number(item.PositionLat)
+    const lng = Number(item.PositionLon)
+    if (!Number.isFinite(lat) || !Number.isFinite(lng) || lat < 21.7 || lat > 26.5 || lng < 118 || lng > 122.5) {
+      restaurantRejected.coordinate += 1
+      continue
+    }
+    const key = restaurantKey(item)
+    if (!key || seen.has(key)) {
+      restaurantRejected.duplicate += 1
+      continue
+    }
+
+    const text = cleanText([
+      item.RestaurantName,
+      item.Description,
+      item.Remarks,
+      ...(item.RestaurantFeatures || []).map((feature) => feature.Name || feature.Description || feature),
+      ...(item.Images || []).flatMap((image) => [image.Name, image.Description, ...(image.Keywords || [])]),
+    ].join(' '))
+    if (!rainyRestaurantPattern.test(text)) {
+      restaurantRejected.relevance += 1
+      continue
+    }
+    const imageCandidates = imageUrlsFor(item)
+    const description = cleanText(item.Description)
+    let quality = 0
+    if (description.length >= 60) quality += 3
+    if (description.length >= 120) quality += 2
+    if (imageCandidates.length) quality += 3
+    if (item.WebsiteURL) quality += 1
+    if (item.ServiceTimeInfo || restaurantServiceTimeMap.get(item.RestaurantID)?.length) quality += 1
+    if (familyRestaurantPattern.test(text)) quality += 3
+    if (quality < 4) {
+      restaurantRejected.quality += 1
+      continue
+    }
+    seen.add(key)
+
+    const name = cleanText(item.RestaurantName)
+    const city = cleanText(item.PostalAddress?.City).replace(/^台/, '臺') || '臺灣'
+    const district = cleanText(item.PostalAddress?.Town)
+    const street = cleanText(item.PostalAddress?.StreetAddress)
+    const address = fullAddress(city, district, street)
+    const category = restaurantCategoryFor(text)
+    const amenityEvidence = matchFamilyOpenData({ name, city, district, address, lat, lng }, familyOpenData)
+    const baseFamilyAmenities = familyAmenitiesFor(item, text)
+    const hoursItem = {
+      ...item,
+      AttractionID: item.RestaurantID,
+    }
+    const restaurantHoursMap = new Map([
+      [item.RestaurantID, restaurantServiceTimeMap.get(item.RestaurantID) || []],
+    ])
+
+    candidates.push({
+      id: item.RestaurantID,
+      name,
+      region: regionFor(city),
+      city,
+      district,
+      ageMin: 0,
+      ageMax: 12,
+      setting: '室內',
+      duration: '半日',
+      category,
+      rating: null,
+      reviews: 0,
+      priceLabel: '請查店家',
+      address,
+      hours: hoursFor(hoursItem, restaurantHoursMap),
+      lat,
+      lng,
+      image: imageCandidates[0] || fallbackImages[category],
+      imageCandidates: imageCandidates.slice(1),
+      accent: accentByCategory[category],
+      description: truncate(description, 180) || `${name}是可安排休息、用餐或下午茶的雨天備案。`,
+      highlights: familyRestaurantPattern.test(text)
+        ? ['室內休息', '親子用餐', '雨天備案']
+        : ['咖啡甜點', '爸媽充電', '雨天備案'],
+      facilities: facilitiesFor(item, text),
+      familyAmenities: mergeFamilyAmenities(baseFamilyAmenities, amenityEvidence),
+      mapsUrl: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${name} ${address}`)}`,
+      sources: sourceLinks(item, name),
+      dataSource: '交通部觀光署餐飲資訊資料庫 V2.1',
+      sourceId: item.RestaurantID,
+      qualityScore: quality,
+      updatedAt: cleanText(item.UpdateTime || restaurantRoot.UpdateTime),
+      rainyDay: true,
+      placeType: '餐飲',
+      _rank: 45 + quality * 4 + (familyRestaurantPattern.test(text) ? 18 : 0),
+    })
+    restaurantPublished += 1
+  }
+
   candidates.sort((a, b) => b._rank - a._rank || a.name.localeCompare(b.name, 'zh-Hant'))
   const allPlaces = candidates.map(({ _rank, ...place }) => place)
-  const featuredPlaces = allPlaces.slice(0, FEATURED_PLACES)
+  const featuredRainyRestaurants = Object.keys(regionFiles).flatMap((region) =>
+    allPlaces
+      .filter((place) => place.region === region && place.placeType === '餐飲')
+      .slice(0, 12),
+  )
+  const featuredIds = new Set(featuredRainyRestaurants.map((place) => place.id))
+  const featuredPlaces = [
+    ...allPlaces.filter((place) => !featuredIds.has(place.id)).slice(0, FEATURED_PLACES - featuredRainyRestaurants.length),
+    ...featuredRainyRestaurants,
+  ]
   const regionCounts = Object.fromEntries(
     Object.keys(regionFiles).map((region) => [
       region,
@@ -466,6 +651,9 @@ async function main() {
     sourceUpdatedAt: attractionRoot.UpdateTime,
     generatedFromSourceAt: attractionRoot.UpdateTime,
     sourceCount: attractions.length,
+    restaurantSourceCount: restaurants.length,
+    restaurantPublishedCount: restaurantPublished,
+    restaurantRejected,
     candidateCount: candidates.length,
     publishedCount: allPlaces.length,
     featuredCount: featuredPlaces.length,
@@ -479,6 +667,7 @@ async function main() {
   await fs.rm(tempDir, { recursive: true, force: true })
 
   console.log(`來源 ${attractions.length} 筆，發布全部親子候選 ${allPlaces.length} 筆`)
+  console.log(`餐飲來源 ${restaurants.length} 筆，新增雨天餐飲 ${restaurantPublished} 筆`)
   console.log(`首頁精選 ${featuredPlaces.length} 筆，分區：`, regionCounts)
   console.log('分類：', categoryCounts)
   console.log('親子設施覆蓋：', amenityCoverage)

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
+  <title id="title">親子景點圖片準備中</title>
+  <desc id="desc">小熊與孩子在彩虹和雲朵旁旅行的插圖</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff1dc"/>
+      <stop offset="1" stop-color="#dff4ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" rx="42" fill="url(#sky)"/>
+  <circle cx="120" cy="115" r="48" fill="#fff" opacity=".85"/>
+  <circle cx="178" cy="105" r="66" fill="#fff" opacity=".85"/>
+  <circle cx="242" cy="122" r="43" fill="#fff" opacity=".85"/>
+  <path d="M0 455 Q175 370 350 455 T700 455 T1050 455 V600 H0Z" fill="#9fd6b5"/>
+  <path d="M150 420 A300 300 0 0 1 750 420" fill="none" stroke="#ff8066" stroke-width="32"/>
+  <path d="M185 420 A265 265 0 0 1 715 420" fill="none" stroke="#f5c85b" stroke-width="28"/>
+  <path d="M218 420 A232 232 0 0 1 682 420" fill="none" stroke="#72b9df" stroke-width="26"/>
+  <g transform="translate(330 225)">
+    <circle cx="120" cy="110" r="100" fill="#9b6b4a"/>
+    <circle cx="50" cy="42" r="42" fill="#9b6b4a"/>
+    <circle cx="190" cy="42" r="42" fill="#9b6b4a"/>
+    <circle cx="50" cy="42" r="22" fill="#e6b98f"/>
+    <circle cx="190" cy="42" r="22" fill="#e6b98f"/>
+    <ellipse cx="120" cy="125" rx="60" ry="52" fill="#eac19c"/>
+    <circle cx="88" cy="96" r="10" fill="#283e3b"/>
+    <circle cx="152" cy="96" r="10" fill="#283e3b"/>
+    <ellipse cx="120" cy="124" rx="13" ry="10" fill="#283e3b"/>
+    <path d="M100 145 Q120 164 140 145" fill="none" stroke="#283e3b" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <rect x="272" y="505" width="356" height="58" rx="29" fill="#fff" opacity=".92"/>
+  <text x="450" y="543" text-anchor="middle" font-family="sans-serif" font-size="25" font-weight="700" fill="#31534e">景點照片準備中 🐻</text>
+</svg>

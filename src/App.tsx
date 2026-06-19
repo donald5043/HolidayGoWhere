@@ -30,6 +30,7 @@ const settings = ['全部', '室內', '室外', '室內外'] as const
 const durations = ['全部', '半日', '一日', '晚上'] as const
 const MAX_VISIBLE_PLACES = 120
 const MAX_MAP_PLACES = 50
+const FALLBACK_IMAGE = `${import.meta.env.BASE_URL}place-fallback.svg`
 type RegionName = Exclude<(typeof regions)[number], '全部'>
 
 const regionLoaders: Record<RegionName, () => Promise<Place[]>> = {
@@ -60,6 +61,52 @@ function compactNumber(value: number) {
   return value >= 10000 ? `${(value / 10000).toFixed(1)}萬` : value.toLocaleString('zh-TW')
 }
 
+function PlaceImage({
+  place,
+  className,
+  eager = false,
+}: {
+  place: Place
+  className: string
+  eager?: boolean
+}) {
+  const candidates = useMemo(
+    () => [...new Set([place.image, ...(place.imageCandidates || []), FALLBACK_IMAGE].filter(Boolean))],
+    [place.image, place.imageCandidates],
+  )
+  const [index, setIndex] = useState(0)
+
+  useEffect(() => {
+    setIndex(0)
+  }, [place.id])
+
+  useEffect(() => {
+    if (candidates[index] === FALLBACK_IMAGE) return
+    const timeout = window.setTimeout(
+      () => setIndex((current) => Math.min(current + 1, candidates.length - 1)),
+      3500,
+    )
+    return () => window.clearTimeout(timeout)
+  }, [candidates, index])
+
+  return (
+    <img
+      src={candidates[index]}
+      alt={`${place.name}照片`}
+      className={className}
+      loading={eager ? 'eager' : 'lazy'}
+      decoding="async"
+      referrerPolicy="no-referrer"
+      onLoad={(event) => {
+        if (event.currentTarget.naturalWidth < 80 || event.currentTarget.naturalHeight < 80) {
+          setIndex((current) => Math.min(current + 1, candidates.length - 1))
+        }
+      }}
+      onError={() => setIndex((current) => Math.min(current + 1, candidates.length - 1))}
+    />
+  )
+}
+
 function PlaceCard({
   place,
   onOpen,
@@ -75,8 +122,8 @@ function PlaceCard({
 }) {
   return (
     <article className="place-card" onClick={onOpen}>
-      <div className="place-image-wrap">
-        <img src={place.image} alt="" className="place-image" loading="lazy" />
+      <div className="place-image-wrap" style={{ backgroundImage: `url(${FALLBACK_IMAGE})` }}>
+        <PlaceImage place={place} className="place-image" />
         <span className="price-tag">{place.priceLabel}</span>
         <button
           className={`heart-button ${favorite ? 'is-favorite' : ''}`}
@@ -130,6 +177,7 @@ function App() {
   const [age, setAge] = useState<(typeof ageOptions)[number]['value']>('all')
   const [setting, setSetting] = useState<(typeof settings)[number]>('全部')
   const [duration, setDuration] = useState<(typeof durations)[number]>('全部')
+  const [rainyOnly, setRainyOnly] = useState(false)
   const [showFilters, setShowFilters] = useState(false)
   const [selected, setSelected] = useState<Place | null>(null)
   const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null)
@@ -204,16 +252,25 @@ function App() {
       return (
         textMatches &&
         ageMatches &&
+        (!rainyOnly || place.rainyDay === true) &&
         (setting === '全部' || place.setting === setting || (setting !== '室內外' && place.setting === '室內外')) &&
         (duration === '全部' || place.duration === duration)
       )
     })
-    if (!userLocation) return matches
-    return [...matches].sort(
-      (first, second) =>
-        distanceInKm(userLocation, first) - distanceInKm(userLocation, second),
-    )
-  }, [places, query, age, setting, duration, userLocation])
+    const sorted = [...matches]
+    if (rainyOnly) {
+      sorted.sort((first, second) =>
+        Number(second.placeType === '餐飲') - Number(first.placeType === '餐飲'),
+      )
+    }
+    if (!userLocation) return sorted
+    return sorted.sort((first, second) => {
+      if (rainyOnly && first.placeType !== second.placeType) {
+        return Number(second.placeType === '餐飲') - Number(first.placeType === '餐飲')
+      }
+      return distanceInKm(userLocation, first) - distanceInKm(userLocation, second)
+    })
+  }, [places, query, age, setting, duration, rainyOnly, userLocation])
   const displayedPlaces = useMemo(
     () => activeTab === 'favorites'
       ? filteredPlaces.filter((place) => favorites.includes(place.id))
@@ -238,6 +295,7 @@ function App() {
     setAge('all')
     setSetting('全部')
     setDuration('全部')
+    setRainyOnly(false)
   }
 
   const findNearbyPlaces = () => {
@@ -346,6 +404,9 @@ function App() {
                 <Baby size={15} />{item.label}
               </button>
             ))}
+            <button className={rainyOnly ? 'active rainy-filter' : 'rainy-filter'} onClick={() => setRainyOnly((value) => !value)}>
+              ☔ 雨天備案
+            </button>
           </div>
         </section>
 
@@ -482,7 +543,8 @@ function App() {
         <div className="modal-backdrop" onClick={() => setSelected(null)}>
           <aside className="place-detail" onClick={(event) => event.stopPropagation()}>
             <button className="modal-close" onClick={() => setSelected(null)} aria-label="關閉"><X /></button>
-            <div className="detail-image" style={{ backgroundImage: `url(${selected.image})` }}>
+            <div className="detail-image" style={{ backgroundImage: `url(${FALLBACK_IMAGE})` }}>
+              <PlaceImage place={selected} className="detail-photo" eager />
               <span>{selected.category}</span>
             </div>
             <div className="detail-content">

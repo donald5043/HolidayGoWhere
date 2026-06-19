@@ -58,6 +58,7 @@ export type Place = {
   lat: number
   lng: number
   image: string
+  imageCandidates?: string[]
   accent: string
   description: string
   highlights: string[]
@@ -69,6 +70,8 @@ export type Place = {
   sourceId: string
   qualityScore: number
   updatedAt: string
+  rainyDay?: boolean
+  placeType?: '景點' | '餐飲'
 }
 
 export const ageOptions = [
