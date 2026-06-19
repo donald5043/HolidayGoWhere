@@ -30,6 +30,15 @@ const settings = ['全部', '室內', '室外', '室內外'] as const
 const durations = ['全部', '半日', '一日', '晚上'] as const
 const MAX_VISIBLE_PLACES = 120
 const MAX_MAP_PLACES = 50
+type RegionName = Exclude<(typeof regions)[number], '全部'>
+
+const regionLoaders: Record<RegionName, () => Promise<Place[]>> = {
+  北部: () => import('./generated/places-north.json').then((module) => module.default as Place[]),
+  中部: () => import('./generated/places-central.json').then((module) => module.default as Place[]),
+  南部: () => import('./generated/places-south.json').then((module) => module.default as Place[]),
+  東部: () => import('./generated/places-east.json').then((module) => module.default as Place[]),
+  離島: () => import('./generated/places-islands.json').then((module) => module.default as Place[]),
+}
 
 function distanceInKm(
   from: { lat: number; lng: number },
@@ -113,6 +122,7 @@ function PlaceCard({
 
 function App() {
   const [places, setPlaces] = useState<Place[]>([])
+  const [placeCache, setPlaceCache] = useState<Partial<Record<(typeof regions)[number], Place[]>>>({})
   const [aiInsights, setAiInsights] = useState<Record<string, AiInsight>>({})
   const [placesStatus, setPlacesStatus] = useState<'loading' | 'ready' | 'error'>('loading')
   const [query, setQuery] = useState('')
@@ -141,10 +151,12 @@ function App() {
 
   useEffect(() => {
     let active = true
-    import('./generated/places.json')
+    import('./generated/places-featured.json')
       .then((module) => {
         if (!active) return
-        setPlaces(module.default as Place[])
+        const featured = module.default as Place[]
+        setPlaces(featured)
+        setPlaceCache({ 全部: featured })
         setPlacesStatus('ready')
       })
       .catch(() => {
@@ -154,6 +166,27 @@ function App() {
       active = false
     }
   }, [])
+
+  const selectRegion = async (nextRegion: (typeof regions)[number]) => {
+    setRegion(nextRegion)
+    const cached = placeCache[nextRegion]
+    if (cached) {
+      setPlaces(cached)
+      setPlacesStatus('ready')
+      return
+    }
+    if (nextRegion === '全部') return
+
+    setPlacesStatus('loading')
+    try {
+      const loaded = await regionLoaders[nextRegion]()
+      setPlaces(loaded)
+      setPlaceCache((current) => ({ ...current, [nextRegion]: loaded }))
+      setPlacesStatus('ready')
+    } catch {
+      setPlacesStatus('error')
+    }
+  }
 
   useEffect(() => {
     import('./generated/ai-insights.json')
@@ -170,7 +203,6 @@ function App() {
       const ageMatches = place.ageMin <= maxAge && place.ageMax >= minAge
       return (
         textMatches &&
-        (region === '全部' || place.region === region) &&
         ageMatches &&
         (setting === '全部' || place.setting === setting || (setting !== '室內外' && place.setting === '室內外')) &&
         (duration === '全部' || place.duration === duration)
@@ -181,7 +213,7 @@ function App() {
       (first, second) =>
         distanceInKm(userLocation, first) - distanceInKm(userLocation, second),
     )
-  }, [places, query, region, age, setting, duration, userLocation])
+  }, [places, query, age, setting, duration, userLocation])
   const displayedPlaces = useMemo(
     () => activeTab === 'favorites'
       ? filteredPlaces.filter((place) => favorites.includes(place.id))
@@ -202,7 +234,7 @@ function App() {
   }
 
   const clearFilters = () => {
-    setRegion('全部')
+    void selectRegion('全部')
     setAge('all')
     setSetting('全部')
     setDuration('全部')
@@ -303,7 +335,7 @@ function App() {
         <section className="quick-filters" aria-label="快速篩選">
           <div className="filter-group region-tabs">
             {regions.map((item) => (
-              <button key={item} className={region === item ? 'active' : ''} onClick={() => setRegion(item)}>
+              <button key={item} className={region === item ? 'active' : ''} onClick={() => void selectRegion(item)}>
                 {item}
               </button>
             ))}
@@ -343,6 +375,7 @@ function App() {
               <p>
                 {activeTab === 'favorites' ? '已收藏' : '找到'} <strong>{displayedPlaces.length}</strong> 個地點
                 {displayedPlaces.length > MAX_VISIBLE_PLACES && `・先顯示前 ${MAX_VISIBLE_PLACES} 筆`}
+                {region === '全部' && activeTab !== 'favorites' && '・選擇地區可查看完整景點'}
               </p>
             </div>
             <button

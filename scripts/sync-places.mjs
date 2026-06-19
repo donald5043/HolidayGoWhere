@@ -6,12 +6,18 @@ import AdmZip from 'adm-zip'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const OUTPUT_DIR = path.join(ROOT, 'src', 'generated')
-const OUTPUT_FILE = path.join(OUTPUT_DIR, 'places.json')
 const META_FILE = path.join(OUTPUT_DIR, 'sync-meta.json')
 const SOURCE_URL =
   process.env.ATTRACTION_SOURCE_URL ||
   'https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip'
-const MAX_PLACES = Number(process.env.MAX_PLACES || 1200)
+const FEATURED_PLACES = Number(process.env.FEATURED_PLACES || 300)
+const regionFiles = {
+  北部: 'places-north.json',
+  中部: 'places-central.json',
+  南部: 'places-south.json',
+  東部: 'places-east.json',
+  離島: 'places-islands.json',
+}
 
 const regions = {
   北部: ['臺北市', '台北市', '新北市', '基隆市', '桃園市', '新竹市', '新竹縣'],
@@ -390,28 +396,47 @@ async function main() {
   }
 
   candidates.sort((a, b) => b._rank - a._rank || a.name.localeCompare(b.name, 'zh-Hant'))
-  const places = candidates.slice(0, MAX_PLACES).map(({ _rank, ...place }) => place)
+  const allPlaces = candidates.map(({ _rank, ...place }) => place)
+  const featuredPlaces = allPlaces.slice(0, FEATURED_PLACES)
+  const regionCounts = Object.fromEntries(
+    Object.keys(regionFiles).map((region) => [
+      region,
+      allPlaces.filter((place) => place.region === region).length,
+    ]),
+  )
   const categoryCounts = Object.fromEntries(
-    [...new Set(places.map((place) => place.category))]
+    [...new Set(allPlaces.map((place) => place.category))]
       .sort()
-      .map((category) => [category, places.filter((place) => place.category === category).length]),
+      .map((category) => [category, allPlaces.filter((place) => place.category === category).length]),
   )
 
   await fs.mkdir(OUTPUT_DIR, { recursive: true })
-  await fs.writeFile(OUTPUT_FILE, `${JSON.stringify(places, null, 2)}\n`, 'utf8')
+  await fs.writeFile(
+    path.join(OUTPUT_DIR, 'places-featured.json'),
+    `${JSON.stringify(featuredPlaces, null, 2)}\n`,
+    'utf8',
+  )
+  for (const [region, file] of Object.entries(regionFiles)) {
+    const regionPlaces = allPlaces.filter((place) => place.region === region)
+    await fs.writeFile(path.join(OUTPUT_DIR, file), `${JSON.stringify(regionPlaces, null, 2)}\n`, 'utf8')
+  }
+  await fs.rm(path.join(OUTPUT_DIR, 'places.json'), { force: true })
   await fs.writeFile(META_FILE, `${JSON.stringify({
     sourceUrl: SOURCE_URL,
     sourceUpdatedAt: attractionRoot.UpdateTime,
     generatedFromSourceAt: attractionRoot.UpdateTime,
     sourceCount: attractions.length,
     candidateCount: candidates.length,
-    publishedCount: places.length,
+    publishedCount: allPlaces.length,
+    featuredCount: featuredPlaces.length,
+    regionCounts,
     rejected,
     categoryCounts,
   }, null, 2)}\n`, 'utf8')
   await fs.rm(tempDir, { recursive: true, force: true })
 
-  console.log(`來源 ${attractions.length} 筆，親子候選 ${candidates.length} 筆，發布 ${places.length} 筆`)
+  console.log(`來源 ${attractions.length} 筆，發布全部親子候選 ${allPlaces.length} 筆`)
+  console.log(`首頁精選 ${featuredPlaces.length} 筆，分區：`, regionCounts)
   console.log('分類：', categoryCounts)
 }
 

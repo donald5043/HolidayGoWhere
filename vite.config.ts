@@ -15,7 +15,27 @@ export default defineConfig({
         maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
         cleanupOutdatedCaches: true,
         clientsClaim: true,
-        skipWaiting: true
+        skipWaiting: true,
+        globIgnores: [
+          '**/places-north-*.js',
+          '**/places-central-*.js',
+          '**/places-south-*.js',
+          '**/places-east-*.js',
+          '**/places-islands-*.js'
+        ],
+        runtimeCaching: [
+          {
+            urlPattern: /\/assets\/places-(north|central|south|east|islands)-.*\.js$/,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'holiday-region-data',
+              expiration: {
+                maxEntries: 10,
+                maxAgeSeconds: 7 * 24 * 60 * 60
+              }
+            }
+          }
+        ]
       },
       manifest: {
         name: '假日去哪兒｜親子旅遊地圖',

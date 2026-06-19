@@ -3,7 +3,13 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
-const PLACES_FILE = path.join(ROOT, 'src', 'generated', 'places.json')
+const PLACE_FILES = [
+  'places-north.json',
+  'places-central.json',
+  'places-south.json',
+  'places-east.json',
+  'places-islands.json',
+]
 const OUTPUT_FILE = path.join(ROOT, 'src', 'generated', 'ai-insights.json')
 const OLLAMA_URL = process.env.OLLAMA_URL || 'http://127.0.0.1:11434'
 const MODEL = process.env.OLLAMA_MODEL || 'gemma4:e4b'
@@ -133,7 +139,13 @@ async function generate(place, attempt = 1) {
 
 async function main() {
   await ensureOllama()
-  const places = JSON.parse(await fs.readFile(PLACES_FILE, 'utf8'))
+  const places = (
+    await Promise.all(
+      PLACE_FILES.map(async (file) =>
+        JSON.parse(await fs.readFile(path.join(ROOT, 'src', 'generated', file), 'utf8')),
+      ),
+    )
+  ).flat()
   const insights = await loadExisting()
   const pending = places.filter((place) => {
     const current = insights[place.id]
