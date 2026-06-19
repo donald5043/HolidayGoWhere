@@ -211,6 +211,17 @@ function highlightsFor(text, category) {
   return candidates
 }
 
+function instagramHashtag(name) {
+  const withoutRegionPrefix = cleanText(name).replace(
+    /^(?:臺北|台北|新北|桃園|新竹|苗栗|臺中|台中|彰化|南投|雲林|嘉義|臺南|台南|高雄|屏東|宜蘭|花蓮|臺東|台東|澎湖|金門|連江)[縣市]?[：:]\s*/,
+    '',
+  )
+  return withoutRegionPrefix
+    .normalize('NFKC')
+    .replace(/[^\p{L}\p{N}_]/gu, '')
+    .slice(0, 50) || '台灣親子景點'
+}
+
 function sourceLinks(item, name) {
   const sources = []
   if (/^https?:\/\//.test(item.WebsiteURL || '')) {
@@ -220,10 +231,11 @@ function sourceLinks(item, name) {
   if (instagram) {
     sources.push({ type: 'Instagram', label: instagram.Name || `#${name}`, url: instagram.URL })
   } else {
+    const hashtag = instagramHashtag(name)
     sources.push({
       type: 'Instagram',
-      label: `搜尋 #${name.replace(/\s/g, '')}`,
-      url: `https://www.instagram.com/explore/search/keyword/?q=${encodeURIComponent(name)}`,
+      label: `查看 #${hashtag}`,
+      url: `https://www.instagram.com/explore/tags/${encodeURIComponent(hashtag)}/`,
     })
   }
   sources.push({
