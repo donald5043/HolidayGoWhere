@@ -12,7 +12,10 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg'],
       workbox: {
-        maximumFileSizeToCacheInBytes: 4 * 1024 * 1024
+        maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
+        cleanupOutdatedCaches: true,
+        clientsClaim: true,
+        skipWaiting: true
       },
       manifest: {
         name: '假日去哪兒｜親子旅遊地圖',
