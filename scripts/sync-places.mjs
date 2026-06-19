@@ -176,12 +176,43 @@ function hoursFor(item, serviceTimeMap) {
   }).join('；')
 }
 
-function facilitiesFor(item, text) {
-  const facilities = []
+function facilityTextFor(item, text) {
   const rawFacilities = Array.isArray(item.Facilities)
     ? item.Facilities.map((facility) => cleanText(facility.Name || facility.Description || facility)).join(' ')
     : cleanText(item.Facilities)
-  const all = `${text} ${rawFacilities}`
+  return cleanText([
+    text,
+    rawFacilities,
+    item.ParkingInfo,
+    item.Remarks,
+    item.TrafficInfo,
+  ].join(' '))
+}
+
+function familyAmenitiesFor(item, text) {
+  const all = facilityTextFor(item, text)
+  const status = (pattern) => pattern.test(all) ? 'confirmed' : 'notListed'
+  const parkingInfo = cleanText(item.ParkingInfo)
+
+  return {
+    accessibility: status(/無障礙|輪椅|身障|殘障/),
+    ramp: status(/無障礙坡道|坡道|斜坡道|無障礙通道/),
+    nursingRoom: status(/哺乳室|集乳室|育嬰室|母嬰室/),
+    diaperTable: status(/尿布台|換尿布|尿布床|嬰兒護理台/),
+    familyRestroom: status(/親子廁所|親子洗手間|兒童廁所|親子盥洗/),
+    parking: parkingInfo || /停車場|停車位|停車空間/.test(all) ? 'confirmed' : 'notListed',
+    strollerFriendly: status(/嬰兒車|娃娃車|推車友善|推車|輪椅|無障礙通道|坡道/),
+    parkingInfo: parkingInfo
+      ? truncate(parkingInfo, 140)
+      : /停車場|停車位|停車空間/.test(all)
+        ? '官方資料提及停車設施，車位與費用請出發前確認。'
+        : '官方資料尚未提供停車資訊。',
+  }
+}
+
+function facilitiesFor(item, text) {
+  const facilities = []
+  const all = facilityTextFor(item, text)
   const rules = [
     ['哺乳室', /哺乳/],
     ['尿布台', /尿布|換尿布/],
@@ -347,6 +378,7 @@ async function main() {
       description: truncate(item.Description, 180) || `${name}是適合安排親子假日出遊的景點。`,
       highlights: highlightsFor(text, category),
       facilities: facilitiesFor(item, text),
+      familyAmenities: familyAmenitiesFor(item, text),
       mapsUrl: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${name} ${address}`)}`,
       sources: sourceLinks(item, name),
       dataSource: '交通部觀光署觀光資訊資料庫 V2.1',

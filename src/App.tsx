@@ -502,9 +502,36 @@ function App() {
               </div>
               <div className="detail-section">
                 <h3>親子友善設施</h3>
+                {selected.familyAmenities && (
+                  <div className="amenity-grid">
+                    {[
+                      ['♿', '無障礙設施', selected.familyAmenities.accessibility],
+                      ['↗️', '無障礙坡道', selected.familyAmenities.ramp],
+                      ['🤱', '哺乳／育嬰室', selected.familyAmenities.nursingRoom],
+                      ['🧷', '尿布台', selected.familyAmenities.diaperTable],
+                      ['🚻', '親子廁所', selected.familyAmenities.familyRestroom],
+                      ['🛒', '推車友善', selected.familyAmenities.strollerFriendly],
+                      ['🅿️', '停車設施', selected.familyAmenities.parking],
+                    ].map(([icon, label, status]) => (
+                      <div className={`amenity-item ${status}`} key={label}>
+                        <span>{icon}</span>
+                        <div>
+                          <strong>{label}</strong>
+                          <small>{status === 'confirmed' ? '官方資料有提及' : '尚未確認'}</small>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                )}
                 <div className="facility-row">
                   {selected.facilities.map((item) => <span key={item}>{item}</span>)}
                 </div>
+                {selected.familyAmenities?.parkingInfo && (
+                  <div className="parking-note">
+                    <strong>停車說明</strong>
+                    <span>{selected.familyAmenities.parkingInfo}</span>
+                  </div>
+                )}
               </div>
               <div className="detail-section">
                 <h3>爸媽真實分享</h3>

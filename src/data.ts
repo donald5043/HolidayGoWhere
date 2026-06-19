@@ -2,6 +2,17 @@ export type Region = '北部' | '中部' | '南部' | '東部' | '離島'
 export type Setting = '室內' | '室外' | '室內外'
 export type Duration = '半日' | '一日' | '晚上'
 export type SourceType = '官方網站' | '部落格' | 'Instagram'
+export type AmenityStatus = 'confirmed' | 'notListed'
+export type FamilyAmenities = {
+  accessibility: AmenityStatus
+  ramp: AmenityStatus
+  nursingRoom: AmenityStatus
+  diaperTable: AmenityStatus
+  familyRestroom: AmenityStatus
+  parking: AmenityStatus
+  strollerFriendly: AmenityStatus
+  parkingInfo: string
+}
 export type AiInsight = {
   summary: string
   whyForKids: string[]
@@ -36,6 +47,7 @@ export type Place = {
   description: string
   highlights: string[]
   facilities: string[]
+  familyAmenities?: FamilyAmenities
   mapsUrl: string
   sources: { type: SourceType; label: string; url: string }[]
   dataSource: string
