@@ -29,6 +29,22 @@ const settings = ['全部', '室內', '室外', '室內外'] as const
 const durations = ['全部', '半日', '一日', '晚上'] as const
 const MAX_VISIBLE_PLACES = 120
 
+function distanceInKm(
+  from: { lat: number; lng: number },
+  to: { lat: number; lng: number },
+) {
+  const earthRadius = 6371
+  const toRadians = (value: number) => value * Math.PI / 180
+  const latDelta = toRadians(to.lat - from.lat)
+  const lngDelta = toRadians(to.lng - from.lng)
+  const a =
+    Math.sin(latDelta / 2) ** 2 +
+    Math.cos(toRadians(from.lat)) *
+      Math.cos(toRadians(to.lat)) *
+      Math.sin(lngDelta / 2) ** 2
+  return earthRadius * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
+}
+
 function compactNumber(value: number) {
   return value >= 10000 ? `${(value / 10000).toFixed(1)}萬` : value.toLocaleString('zh-TW')
 }
@@ -38,11 +54,13 @@ function PlaceCard({
   onOpen,
   favorite,
   onFavorite,
+  distance,
 }: {
   place: Place
   onOpen: () => void
   favorite: boolean
   onFavorite: () => void
+  distance?: number
 }) {
   return (
     <article className="place-card" onClick={onOpen}>
@@ -82,6 +100,9 @@ function PlaceCard({
         <div className="tag-row">
           <span><Baby size={13} />{place.ageMin}–{place.ageMax} 歲</span>
           <span><Clock3 size={13} />{place.duration}</span>
+          {distance !== undefined && (
+            <span className="distance-tag"><LocateFixed size={13} />距離約 {distance < 10 ? distance.toFixed(1) : Math.round(distance)} km</span>
+          )}
         </div>
       </div>
     </article>
@@ -98,6 +119,9 @@ function App() {
   const [duration, setDuration] = useState<(typeof durations)[number]>('全部')
   const [showFilters, setShowFilters] = useState(false)
   const [selected, setSelected] = useState<Place | null>(null)
+  const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null)
+  const [locationStatus, setLocationStatus] = useState<'idle' | 'loading' | 'ready' | 'error'>('idle')
+  const [locationMessage, setLocationMessage] = useState('')
   const [favorites, setFavorites] = useState<string[]>(() => {
     try {
       return JSON.parse(localStorage.getItem('holiday-go-where:favorites') || '[]')
@@ -128,7 +152,7 @@ function App() {
 
   const filteredPlaces = useMemo(() => {
     const [minAge, maxAge] = age === 'all' ? [0, 99] : age.split('-').map(Number)
-    return places.filter((place) => {
+    const matches = places.filter((place) => {
       const textMatches = `${place.name}${place.city}${place.district}${place.category}`
         .toLowerCase()
         .includes(query.toLowerCase())
@@ -141,7 +165,12 @@ function App() {
         (duration === '全部' || place.duration === duration)
       )
     })
-  }, [places, query, region, age, setting, duration])
+    if (!userLocation) return matches
+    return [...matches].sort(
+      (first, second) =>
+        distanceInKm(userLocation, first) - distanceInKm(userLocation, second),
+    )
+  }, [places, query, region, age, setting, duration, userLocation])
   const visiblePlaces = useMemo(
     () => filteredPlaces.slice(0, MAX_VISIBLE_PLACES),
     [filteredPlaces],
@@ -156,6 +185,39 @@ function App() {
     setAge('all')
     setSetting('全部')
     setDuration('全部')
+  }
+
+  const findNearbyPlaces = () => {
+    if (!navigator.geolocation) {
+      setLocationStatus('error')
+      setLocationMessage('這個瀏覽器不支援定位，請改用 Safari 或 Chrome。')
+      return
+    }
+
+    setLocationStatus('loading')
+    setLocationMessage('正在取得你的位置…')
+    navigator.geolocation.getCurrentPosition(
+      ({ coords }) => {
+        setUserLocation({ lat: coords.latitude, lng: coords.longitude })
+        setLocationStatus('ready')
+        setLocationMessage('已依距離重新排列景點，藍點是你的位置。')
+        document.querySelector('.explore-section')?.scrollIntoView({ behavior: 'smooth' })
+      },
+      (error) => {
+        const messages: Record<number, string> = {
+          1: '定位權限被關閉了，請到瀏覽器設定允許此網站使用位置。',
+          2: '目前無法取得位置，請確認手機定位服務與網路。',
+          3: '定位等待太久，請再試一次。',
+        }
+        setLocationStatus('error')
+        setLocationMessage(messages[error.code] || '無法取得位置，請稍後再試。')
+      },
+      {
+        enableHighAccuracy: false,
+        timeout: 10000,
+        maximumAge: 5 * 60 * 1000,
+      },
+    )
   }
 
   return (
@@ -242,12 +304,38 @@ function App() {
                 {filteredPlaces.length > MAX_VISIBLE_PLACES && `・先顯示前 ${MAX_VISIBLE_PLACES} 筆`}
               </p>
             </div>
-            <button className="location-button"><LocateFixed size={17} />我的附近</button>
+            <button
+              className={`location-button ${locationStatus === 'ready' ? 'is-active' : ''}`}
+              onClick={findNearbyPlaces}
+              disabled={locationStatus === 'loading'}
+              aria-label={locationStatus === 'loading' ? '正在取得位置' : '顯示我的附近'}
+            >
+              <LocateFixed size={17} />
+              {locationStatus === 'loading' ? '定位中…' : locationStatus === 'ready' ? '離我最近' : '我的附近'}
+            </button>
           </div>
+
+          {locationMessage && (
+            <div className={`location-notice ${locationStatus}`} role="status">
+              <LocateFixed size={16} />
+              <span>{locationMessage}</span>
+              <button
+                onClick={() => setLocationMessage('')}
+                aria-label="關閉定位訊息"
+              >
+                <X size={15} />
+              </button>
+            </div>
+          )}
 
           <div className="explore-grid">
             <div className="map-panel">
-              <MapView places={visiblePlaces} selected={selected} onSelect={setSelected} />
+              <MapView
+                places={visiblePlaces}
+                selected={selected}
+                onSelect={setSelected}
+                userLocation={userLocation}
+              />
               <div className="map-legend"><span /><span>點一下圖標查看景點</span></div>
             </div>
             <div className="results-panel">
@@ -271,6 +359,7 @@ function App() {
                   onOpen={() => setSelected(place)}
                   favorite={favorites.includes(place.id)}
                   onFavorite={() => toggleFavorite(place.id)}
+                  distance={userLocation ? distanceInKm(userLocation, place) : undefined}
                 />
               )) : (
                 <div className="empty-state">
