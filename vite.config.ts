@@ -2,7 +2,10 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
+const base = process.env.GITHUB_PAGES === 'true' ? '/HolidayGoWhere/' : '/'
+
 export default defineConfig({
+  base,
   plugins: [
     react(),
     VitePWA({
@@ -18,16 +21,17 @@ export default defineConfig({
         theme_color: '#fff8ec',
         background_color: '#fff8ec',
         display: 'standalone',
-        start_url: '/',
+        start_url: base,
+        scope: base,
         icons: [
           {
-            src: '/pwa-192x192.svg',
+            src: `${base}pwa-192x192.svg`,
             sizes: '192x192',
             type: 'image/svg+xml',
             purpose: 'any maskable'
           },
           {
-            src: '/pwa-512x512.svg',
+            src: `${base}pwa-512x512.svg`,
             sizes: '512x512',
             type: 'image/svg+xml',
             purpose: 'any maskable'

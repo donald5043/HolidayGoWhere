@@ -12,6 +12,28 @@ npm run dev
 
 互動地圖使用 Leaflet + OpenStreetMap，不需要 API Key、不需要綁信用卡。Google Maps 僅作為外部導航連結。
 
+## 網站部署
+
+正式網站使用 GitHub Pages：
+
+https://donald5043.github.io/HolidayGoWhere/
+
+推送到 repository 預設分支後，`.github/workflows/deploy-pages.yml` 會自動建置及部署。
+
+第一次使用需到 GitHub repository：
+
+1. 開啟 `Settings` → `Pages`。
+2. 在 `Build and deployment` 的 `Source` 選擇 `GitHub Actions`。
+3. 到 `Actions` 頁面執行 `Deploy website to GitHub Pages`，或再推送一次 commit。
+
+本機模擬 GitHub Pages 子路徑：
+
+```powershell
+$env:GITHUB_PAGES='true'
+npm run build
+npm run preview
+```
+
 ## 自動增加景點
 
 景點資料來自交通部觀光署「觀光資訊資料庫 V2.1」，目前每日更新且免費授權使用。
