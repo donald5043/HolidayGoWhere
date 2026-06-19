@@ -550,7 +550,7 @@ function App() {
                         <span>{icon}</span>
                         <div>
                           <strong>{label}</strong>
-                          <small>{status === 'confirmed' ? '官方資料有提及' : '尚未確認'}</small>
+                          <small>{status === 'confirmed' ? '官方資料有提及' : '官方資料未提供'}</small>
                         </div>
                       </div>
                     ))}

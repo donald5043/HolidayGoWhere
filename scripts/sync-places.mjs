@@ -199,6 +199,12 @@ function familyAmenitiesFor(item, text) {
   const all = facilityTextFor(item, text)
   const status = (pattern) => pattern.test(all) ? 'confirmed' : 'notListed'
   const parkingInfo = cleanText(item.ParkingInfo)
+  const trafficInfo = cleanText(item.TrafficInfo)
+  const parkingPattern = /停車場|停車位|停車空間|停放車輛|車輛停放|可停車|停車方便|停車處/
+  const parkingMention = trafficInfo
+    .split(/[。；;，,]/)
+    .map((part) => part.trim())
+    .find((part) => parkingPattern.test(part))
 
   return {
     accessibility: status(/無障礙|輪椅|身障|殘障/),
@@ -206,12 +212,14 @@ function familyAmenitiesFor(item, text) {
     nursingRoom: status(/哺乳室|集乳室|育嬰室|母嬰室/),
     diaperTable: status(/尿布台|換尿布|尿布床|嬰兒護理台/),
     familyRestroom: status(/親子廁所|親子洗手間|兒童廁所|親子盥洗/),
-    parking: parkingInfo || /停車場|停車位|停車空間/.test(all) ? 'confirmed' : 'notListed',
+    parking: parkingInfo || parkingPattern.test(all) ? 'confirmed' : 'notListed',
     strollerFriendly: status(/嬰兒車|娃娃車|推車友善|推車|輪椅|無障礙通道|坡道/),
     parkingInfo: parkingInfo
       ? truncate(parkingInfo, 140)
-      : /停車場|停車位|停車空間/.test(all)
-        ? '官方資料提及停車設施，車位與費用請出發前確認。'
+      : parkingMention
+        ? `${truncate(parkingMention, 110)}。車位與費用請出發前確認。`
+        : parkingPattern.test(all)
+          ? '官方資料提及停車設施，車位與費用請出發前確認。'
         : '官方資料尚未提供停車資訊。',
   }
 }
