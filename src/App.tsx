@@ -75,19 +75,24 @@ function PlaceImage({
     [place.image, place.imageCandidates],
   )
   const [index, setIndex] = useState(0)
+  const [loaded, setLoaded] = useState(false)
 
   useEffect(() => {
     setIndex(0)
+    setLoaded(false)
   }, [place.id])
 
   useEffect(() => {
-    if (candidates[index] === FALLBACK_IMAGE) return
+    if (loaded || candidates[index] === FALLBACK_IMAGE) return
     const timeout = window.setTimeout(
-      () => setIndex((current) => Math.min(current + 1, candidates.length - 1)),
+      () => {
+        setLoaded(false)
+        setIndex((current) => Math.min(current + 1, candidates.length - 1))
+      },
       3500,
     )
     return () => window.clearTimeout(timeout)
-  }, [candidates, index])
+  }, [candidates, index, loaded])
 
   return (
     <img
@@ -99,10 +104,16 @@ function PlaceImage({
       referrerPolicy="no-referrer"
       onLoad={(event) => {
         if (event.currentTarget.naturalWidth < 80 || event.currentTarget.naturalHeight < 80) {
+          setLoaded(false)
           setIndex((current) => Math.min(current + 1, candidates.length - 1))
+          return
         }
+        setLoaded(true)
       }}
-      onError={() => setIndex((current) => Math.min(current + 1, candidates.length - 1))}
+      onError={() => {
+        setLoaded(false)
+        setIndex((current) => Math.min(current + 1, candidates.length - 1))
+      }}
     />
   )
 }

@@ -79,6 +79,7 @@ const accentByCategory = {
   咖啡下午茶: '#b98b73',
   甜點冰品: '#df7bb4',
   百貨商場: '#7e8bd6',
+  室內餐廳: '#d88962',
 }
 
 const fallbackImages = {
@@ -94,11 +95,12 @@ const fallbackImages = {
   咖啡下午茶: 'https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80',
   甜點冰品: 'https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=80',
   百貨商場: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=900&q=80',
+  室內餐廳: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80',
 }
 
-const rainyRestaurantPattern =
-  /咖啡|下午茶|甜點|蛋糕|烘焙|茶館|茶屋|鬆餅|冰品|冰淇淋|親子餐廳|百貨|購物中心|商場/
 const familyRestaurantPattern = /親子|兒童|小朋友|家庭|寶寶|幼兒|遊戲區|兒童椅/
+const mallNamePattern =
+  /百貨|購物中心|購物廣場|商場|名品城|outlet|奧特萊斯|global mall|裕隆城|老虎城|夢時代|skm park|勤美誠品|大魯閣新時代/i
 const unreliableImageHosts = new Set(['khh.travel'])
 
 function cleanText(value) {
@@ -177,7 +179,8 @@ function restaurantCategoryFor(text) {
   if (/百貨|購物中心|商場/.test(text)) return '百貨商場'
   if (/親子餐廳|兒童|小朋友|家庭|寶寶|幼兒|遊戲區/.test(text)) return '親子餐廳'
   if (/甜點|蛋糕|烘焙|鬆餅|冰品|冰淇淋/.test(text)) return '甜點冰品'
-  return '咖啡下午茶'
+  if (/咖啡|下午茶|茶館|茶屋|早午餐/.test(text)) return '咖啡下午茶'
+  return '室內餐廳'
 }
 
 function settingFor(text) {
@@ -290,6 +293,7 @@ function highlightsFor(text, category) {
     自然放電: ['戶外散步', '自然觀察', '親子放電'],
     交通迷: ['交通主題', '拍照體驗', '小小車迷'],
     假日散步: ['輕鬆散步', '親子共遊', '在地探索'],
+    百貨商場: ['室內逛逛', '親子用餐', '雨天備案'],
   }[category]
   if (/戲水|噴水|水樂園/.test(text)) candidates[0] = '戲水消暑'
   if (/DIY|手作/.test(text)) candidates[1] = 'DIY 手作'
@@ -425,7 +429,8 @@ async function main() {
 
     const text = classificationText(item)
     const relevance = familyScore(text)
-    if (relevance < 4) {
+    const mall = mallNamePattern.test(cleanText(item.AttractionName))
+    if (relevance < 4 && !mall) {
       rejected.relevance += 1
       continue
     }
@@ -440,12 +445,12 @@ async function main() {
     const district = cleanText(item.PostalAddress?.Town) || ''
     const street = cleanText(item.PostalAddress?.StreetAddress)
     const address = fullAddress(city, district, street)
-    const category = categoryFor(text)
+    const category = mall ? '百貨商場' : categoryFor(text)
     const [ageMin, ageMax] = ageFor(text, category)
     const imageCandidates = imageUrlsFor(item)
     const image = imageCandidates[0]
     const updatedAt = cleanText(item.UpdateTime || attractionRoot.UpdateTime)
-    const setting = settingFor(text)
+    const setting = mall ? '室內' : settingFor(text)
 
     const baseFamilyAmenities = familyAmenitiesFor(item, text)
     const amenityEvidence = matchFamilyOpenData({ name, city, district, address, lat, lng }, familyOpenData)
@@ -456,8 +461,8 @@ async function main() {
       region: regionFor(city),
       city,
       district,
-      ageMin,
-      ageMax,
+      ageMin: mall ? 0 : ageMin,
+      ageMax: mall ? 12 : ageMax,
       setting,
       duration: durationFor(item, text),
       category,
@@ -481,7 +486,7 @@ async function main() {
       sourceId: item.AttractionID,
       qualityScore: quality,
       updatedAt,
-      rainyDay: setting !== '室外' || /百貨|購物中心|商場|室內遊戲/.test(text),
+      rainyDay: mall || setting !== '室外' || /百貨|購物中心|商場|室內遊戲/.test(text),
       placeType: '景點',
       _rank: relevance * 10 + quality,
     })
@@ -513,10 +518,6 @@ async function main() {
       ...(item.RestaurantFeatures || []).map((feature) => feature.Name || feature.Description || feature),
       ...(item.Images || []).flatMap((image) => [image.Name, image.Description, ...(image.Keywords || [])]),
     ].join(' '))
-    if (!rainyRestaurantPattern.test(text)) {
-      restaurantRejected.relevance += 1
-      continue
-    }
     const imageCandidates = imageUrlsFor(item)
     const description = cleanText(item.Description)
     let quality = 0
@@ -526,7 +527,7 @@ async function main() {
     if (item.WebsiteURL) quality += 1
     if (item.ServiceTimeInfo || restaurantServiceTimeMap.get(item.RestaurantID)?.length) quality += 1
     if (familyRestaurantPattern.test(text)) quality += 3
-    if (quality < 4) {
+    if (quality < 3) {
       restaurantRejected.quality += 1
       continue
     }
@@ -590,15 +591,38 @@ async function main() {
 
   candidates.sort((a, b) => b._rank - a._rank || a.name.localeCompare(b.name, 'zh-Hant'))
   const allPlaces = candidates.map(({ _rank, ...place }) => place)
-  const featuredRainyRestaurants = Object.keys(regionFiles).flatMap((region) =>
-    allPlaces
-      .filter((place) => place.region === region && place.placeType === '餐飲')
-      .slice(0, 12),
-  )
-  const featuredIds = new Set(featuredRainyRestaurants.map((place) => place.id))
+  const featuredRainyPlaces = Object.keys(regionFiles).flatMap((region) => {
+    const regional = allPlaces.filter((place) => place.region === region && place.rainyDay)
+    const selected = []
+    const selectedIds = new Set()
+    const quotas = [
+      ['百貨商場', 3],
+      ['咖啡下午茶', 3],
+      ['甜點冰品', 2],
+      ['親子餐廳', 2],
+      ['室內餐廳', 2],
+    ]
+    for (const [category, amount] of quotas) {
+      for (const place of regional.filter((item) => item.category === category).slice(0, amount)) {
+        if (!selectedIds.has(place.id)) {
+          selected.push(place)
+          selectedIds.add(place.id)
+        }
+      }
+    }
+    for (const place of regional) {
+      if (selected.length >= 12) break
+      if (!selectedIds.has(place.id)) {
+        selected.push(place)
+        selectedIds.add(place.id)
+      }
+    }
+    return selected
+  })
+  const featuredIds = new Set(featuredRainyPlaces.map((place) => place.id))
   const featuredPlaces = [
-    ...allPlaces.filter((place) => !featuredIds.has(place.id)).slice(0, FEATURED_PLACES - featuredRainyRestaurants.length),
-    ...featuredRainyRestaurants,
+    ...allPlaces.filter((place) => !featuredIds.has(place.id)).slice(0, FEATURED_PLACES - featuredRainyPlaces.length),
+    ...featuredRainyPlaces,
   ]
   const regionCounts = Object.fromEntries(
     Object.keys(regionFiles).map((region) => [
