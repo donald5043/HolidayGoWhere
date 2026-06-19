@@ -28,6 +28,7 @@ const regions = ['全部', '北部', '中部', '南部', '東部', '離島'] as 
 const settings = ['全部', '室內', '室外', '室內外'] as const
 const durations = ['全部', '半日', '一日', '晚上'] as const
 const MAX_VISIBLE_PLACES = 120
+const MAX_MAP_PLACES = 50
 
 function distanceInKm(
   from: { lat: number; lng: number },
@@ -122,6 +123,8 @@ function App() {
   const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null)
   const [locationStatus, setLocationStatus] = useState<'idle' | 'loading' | 'ready' | 'error'>('idle')
   const [locationMessage, setLocationMessage] = useState('')
+  const [activeTab, setActiveTab] = useState<'home' | 'explore' | 'favorites' | 'profile'>('home')
+  const [showProfile, setShowProfile] = useState(false)
   const [favorites, setFavorites] = useState<string[]>(() => {
     try {
       return JSON.parse(localStorage.getItem('holiday-go-where:favorites') || '[]')
@@ -171,9 +174,19 @@ function App() {
         distanceInKm(userLocation, first) - distanceInKm(userLocation, second),
     )
   }, [places, query, region, age, setting, duration, userLocation])
+  const displayedPlaces = useMemo(
+    () => activeTab === 'favorites'
+      ? filteredPlaces.filter((place) => favorites.includes(place.id))
+      : filteredPlaces,
+    [activeTab, favorites, filteredPlaces],
+  )
   const visiblePlaces = useMemo(
-    () => filteredPlaces.slice(0, MAX_VISIBLE_PLACES),
-    [filteredPlaces],
+    () => displayedPlaces.slice(0, MAX_VISIBLE_PLACES),
+    [displayedPlaces],
+  )
+  const mapPlaces = useMemo(
+    () => displayedPlaces.slice(0, MAX_MAP_PLACES),
+    [displayedPlaces],
   )
 
   const toggleFavorite = (id: string) => {
@@ -218,6 +231,26 @@ function App() {
         maximumAge: 5 * 60 * 1000,
       },
     )
+  }
+
+  const openExplore = (tab: 'explore' | 'favorites') => {
+    setActiveTab(tab)
+    setShowProfile(false)
+    window.setTimeout(
+      () => document.querySelector('.explore-section')?.scrollIntoView({ behavior: 'smooth' }),
+      0,
+    )
+  }
+
+  const openHome = () => {
+    setActiveTab('home')
+    setShowProfile(false)
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
+  const openProfile = () => {
+    setActiveTab('profile')
+    setShowProfile(true)
   }
 
   return (
@@ -300,8 +333,8 @@ function App() {
               <span className="section-kicker"><TentTree size={17} /> 為你精選</span>
               <h2>週末靈感地圖</h2>
               <p>
-                找到 <strong>{filteredPlaces.length}</strong> 個適合全家的地點
-                {filteredPlaces.length > MAX_VISIBLE_PLACES && `・先顯示前 ${MAX_VISIBLE_PLACES} 筆`}
+                {activeTab === 'favorites' ? '已收藏' : '找到'} <strong>{displayedPlaces.length}</strong> 個地點
+                {displayedPlaces.length > MAX_VISIBLE_PLACES && `・先顯示前 ${MAX_VISIBLE_PLACES} 筆`}
               </p>
             </div>
             <button
@@ -331,7 +364,7 @@ function App() {
           <div className="explore-grid">
             <div className="map-panel">
               <MapView
-                places={visiblePlaces}
+                places={mapPlaces}
                 selected={selected}
                 onSelect={setSelected}
                 userLocation={userLocation}
@@ -363,10 +396,12 @@ function App() {
                 />
               )) : (
                 <div className="empty-state">
-                  <span>🧸</span>
-                  <h3>這組條件還沒有景點</h3>
-                  <p>換個地區或放寬孩子年齡試試看。</p>
-                  <button onClick={clearFilters}>查看全部景點</button>
+                  <span>{activeTab === 'favorites' ? '💛' : '🧸'}</span>
+                  <h3>{activeTab === 'favorites' ? '還沒有收藏景點' : '這組條件還沒有景點'}</h3>
+                  <p>{activeTab === 'favorites' ? '看到喜歡的地點時，點愛心就能放進這裡。' : '換個地區或放寬孩子年齡試試看。'}</p>
+                  <button onClick={activeTab === 'favorites' ? () => openExplore('explore') : clearFilters}>
+                    {activeTab === 'favorites' ? '去探索景點' : '查看全部景點'}
+                  </button>
                 </div>
               )}
             </div>
@@ -375,11 +410,32 @@ function App() {
       </main>
 
       <nav className="bottom-nav" aria-label="主要導覽">
-        <a className="active" href="#"><Home size={21} /><span>首頁</span></a>
-        <a href="#explore"><Compass size={21} /><span>探索</span></a>
-        <a href="#favorites"><Heart size={21} /><span>收藏</span></a>
-        <a href="#profile"><Baby size={21} /><span>我的</span></a>
+        <button className={activeTab === 'home' ? 'active' : ''} onClick={openHome}><Home size={21} /><span>首頁</span></button>
+        <button className={activeTab === 'explore' ? 'active' : ''} onClick={() => openExplore('explore')}><Compass size={21} /><span>探索</span></button>
+        <button className={activeTab === 'favorites' ? 'active' : ''} onClick={() => openExplore('favorites')}><Heart size={21} /><span>收藏</span></button>
+        <button className={activeTab === 'profile' ? 'active' : ''} onClick={openProfile}><Baby size={21} /><span>我的</span></button>
       </nav>
+
+      {showProfile && (
+        <div className="modal-backdrop profile-backdrop" onClick={() => setShowProfile(false)}>
+          <aside className="profile-sheet" onClick={(event) => event.stopPropagation()}>
+            <button className="modal-close" onClick={() => setShowProfile(false)} aria-label="關閉"><X /></button>
+            <div className="profile-bear">🐻</div>
+            <h2>我的親子小檔案</h2>
+            <p>你的收藏與偏好會保存在這支手機裡。</p>
+            <div className="profile-stats">
+              <div><strong>{favorites.length}</strong><span>收藏景點</span></div>
+              <div><strong>{age === 'all' ? '全部' : age}</strong><span>孩子年齡</span></div>
+            </div>
+            <button className="profile-action" onClick={() => { setShowProfile(false); openExplore('favorites') }}>
+              <Heart size={18} />查看我的收藏
+            </button>
+            <button className="profile-action secondary" onClick={() => { setShowProfile(false); setShowFilters(true); openExplore('explore') }}>
+              <SlidersHorizontal size={18} />調整家庭偏好
+            </button>
+          </aside>
+        </div>
+      )}
 
       {selected && (
         <div className="modal-backdrop" onClick={() => setSelected(null)}>

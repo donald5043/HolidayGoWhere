@@ -59,6 +59,34 @@ function FitPlaces({
   return null
 }
 
+function KeepMapSized() {
+  const map = useMap()
+
+  useEffect(() => {
+    const container = map.getContainer()
+    let frame = 0
+    const refresh = () => {
+      cancelAnimationFrame(frame)
+      frame = requestAnimationFrame(() => map.invalidateSize({ pan: false }))
+    }
+    const observer = new ResizeObserver(refresh)
+    observer.observe(container)
+    window.addEventListener('resize', refresh)
+    window.addEventListener('orientationchange', refresh)
+    const timers = [0, 150, 500].map((delay) => window.setTimeout(refresh, delay))
+
+    return () => {
+      observer.disconnect()
+      cancelAnimationFrame(frame)
+      timers.forEach(window.clearTimeout)
+      window.removeEventListener('resize', refresh)
+      window.removeEventListener('orientationchange', refresh)
+    }
+  }, [map])
+
+  return null
+}
+
 export function MapView({ places, selected, onSelect, userLocation }: Props) {
   return (
     <MapContainer
@@ -69,12 +97,16 @@ export function MapView({ places, selected, onSelect, userLocation }: Props) {
       scrollWheelZoom
       className="open-map"
       zoomControl
+      preferCanvas
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
         maxZoom={19}
+        updateWhenIdle
+        keepBuffer={1}
       />
+      <KeepMapSized />
       <FitPlaces places={places} userLocation={userLocation} />
       {userLocation && (
         <CircleMarker
