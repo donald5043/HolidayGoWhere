@@ -3,6 +3,11 @@ import path from 'node:path'
 import os from 'node:os'
 import { fileURLToPath } from 'node:url'
 import AdmZip from 'adm-zip'
+import {
+  loadFamilyOpenData,
+  matchFamilyOpenData,
+  mergeFamilyAmenities,
+} from './family-open-data.mjs'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const OUTPUT_DIR = path.join(ROOT, 'src', 'generated')
@@ -322,6 +327,7 @@ async function main() {
   const attractions = firstArray(attractionRoot, 'Attractions')
   const serviceTimes = firstArray(serviceRoot, 'AttractionServiceTimes')
   const fees = firstArray(feeRoot, 'AttractionFees')
+  const familyOpenData = await loadFamilyOpenData()
 
   const serviceTimeMap = new Map(serviceTimes.map((item) => [item.AttractionID, item.ServiceTimes || []]))
   const feeMap = new Map(fees.map((item) => [item.AttractionID, item.Fees || []]))
@@ -369,6 +375,9 @@ async function main() {
     const image = (item.Images || []).find((entry) => /^https?:\/\//.test(entry.URL || ''))?.URL
     const updatedAt = cleanText(item.UpdateTime || attractionRoot.UpdateTime)
 
+    const baseFamilyAmenities = familyAmenitiesFor(item, text)
+    const amenityEvidence = matchFamilyOpenData({ name, city, district, address, lat, lng }, familyOpenData)
+
     candidates.push({
       id: item.AttractionID,
       name,
@@ -392,7 +401,7 @@ async function main() {
       description: truncate(item.Description, 180) || `${name}是適合安排親子假日出遊的景點。`,
       highlights: highlightsFor(text, category),
       facilities: facilitiesFor(item, text),
-      familyAmenities: familyAmenitiesFor(item, text),
+      familyAmenities: mergeFamilyAmenities(baseFamilyAmenities, amenityEvidence),
       mapsUrl: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${name} ${address}`)}`,
       sources: sourceLinks(item, name),
       dataSource: '交通部觀光署觀光資訊資料庫 V2.1',
@@ -417,6 +426,29 @@ async function main() {
       .sort()
       .map((category) => [category, allPlaces.filter((place) => place.category === category).length]),
   )
+  const amenityKeys = [
+    'accessibility',
+    'ramp',
+    'nursingRoom',
+    'diaperTable',
+    'familyRestroom',
+    'parking',
+    'strollerFriendly',
+  ]
+  const amenityCoverage = Object.fromEntries(
+    amenityKeys.map((key) => [
+      key,
+      allPlaces.filter((place) => place.familyAmenities?.[key] === 'confirmed').length,
+    ]),
+  )
+  const officialAmenityMatches = Object.fromEntries(
+    amenityKeys.map((key) => [
+      key,
+      allPlaces.filter((place) =>
+        place.familyAmenities?.evidence?.some((item) => item.amenities.includes(key)),
+      ).length,
+    ]),
+  )
 
   await fs.mkdir(OUTPUT_DIR, { recursive: true })
   await fs.writeFile(
@@ -440,12 +472,17 @@ async function main() {
     regionCounts,
     rejected,
     categoryCounts,
+    amenityCoverage,
+    officialAmenityMatches,
+    familyOpenData: familyOpenData.metadata,
   }, null, 2)}\n`, 'utf8')
   await fs.rm(tempDir, { recursive: true, force: true })
 
   console.log(`來源 ${attractions.length} 筆，發布全部親子候選 ${allPlaces.length} 筆`)
   console.log(`首頁精選 ${featuredPlaces.length} 筆，分區：`, regionCounts)
   console.log('分類：', categoryCounts)
+  console.log('親子設施覆蓋：', amenityCoverage)
+  console.log('官方設施資料新增確認：', officialAmenityMatches)
 }
 
 main().catch((error) => {

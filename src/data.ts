@@ -3,6 +3,14 @@ export type Setting = '室內' | '室外' | '室內外'
 export type Duration = '半日' | '一日' | '晚上'
 export type SourceType = '官方網站' | '部落格' | 'Instagram'
 export type AmenityStatus = 'confirmed' | 'notListed'
+export type FamilyAmenityKey =
+  | 'accessibility'
+  | 'ramp'
+  | 'nursingRoom'
+  | 'diaperTable'
+  | 'familyRestroom'
+  | 'parking'
+  | 'strollerFriendly'
 export type FamilyAmenities = {
   accessibility: AmenityStatus
   ramp: AmenityStatus
@@ -12,6 +20,13 @@ export type FamilyAmenities = {
   parking: AmenityStatus
   strollerFriendly: AmenityStatus
   parkingInfo: string
+  evidence?: {
+    amenities: FamilyAmenityKey[]
+    source: string
+    label: string
+    url: string
+    note: string
+  }[]
 }
 export type AiInsight = {
   summary: string

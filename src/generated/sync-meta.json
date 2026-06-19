@@ -29,5 +29,46 @@
     "藝文美感": 335,
     "親子樂園": 440,
     "農場體驗": 386
+  },
+  "amenityCoverage": {
+    "accessibility": 336,
+    "ramp": 19,
+    "nursingRoom": 295,
+    "diaperTable": 192,
+    "familyRestroom": 59,
+    "parking": 182,
+    "strollerFriendly": 33
+  },
+  "officialAmenityMatches": {
+    "accessibility": 297,
+    "ramp": 0,
+    "nursingRoom": 286,
+    "diaperTable": 192,
+    "familyRestroom": 57,
+    "parking": 0,
+    "strollerFriendly": 0
+  },
+  "familyOpenData": {
+    "nursingCount": 3996,
+    "toiletCount": 45679,
+    "nursingUpdatedAt": "2026-01-26 15:04:48",
+    "toiletUpdatedAt": "2026-06-19 09:07:12",
+    "sources": [
+      {
+        "id": 23750,
+        "label": "依法應設置哺集乳室公共場所名單",
+        "url": "https://data.gov.tw/dataset/23750"
+      },
+      {
+        "id": 23858,
+        "label": "自願設置哺集乳室名單",
+        "url": "https://data.gov.tw/dataset/23858"
+      },
+      {
+        "id": 30794,
+        "label": "全國公廁建檔資料",
+        "url": "https://data.gov.tw/dataset/30794"
+      }
+    ]
   }
 }

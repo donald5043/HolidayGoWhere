@@ -22,7 +22,7 @@ import {
   TentTree,
   X,
 } from 'lucide-react'
-import { ageOptions, type AiInsight, type Place } from './data'
+import { ageOptions, type AiInsight, type FamilyAmenityKey, type Place } from './data'
 import { MapView } from './MapView'
 
 const regions = ['全部', '北部', '中部', '南部', '東部', '離島'] as const
@@ -536,25 +536,48 @@ function App() {
               <div className="detail-section">
                 <h3>親子友善設施</h3>
                 {selected.familyAmenities && (
-                  <div className="amenity-grid">
-                    {[
-                      ['♿', '無障礙設施', selected.familyAmenities.accessibility],
-                      ['↗️', '無障礙坡道', selected.familyAmenities.ramp],
-                      ['🤱', '哺乳／育嬰室', selected.familyAmenities.nursingRoom],
-                      ['🧷', '尿布台', selected.familyAmenities.diaperTable],
-                      ['🚻', '親子廁所', selected.familyAmenities.familyRestroom],
-                      ['🛒', '推車友善', selected.familyAmenities.strollerFriendly],
-                      ['🅿️', '停車設施', selected.familyAmenities.parking],
-                    ].map(([icon, label, status]) => (
-                      <div className={`amenity-item ${status}`} key={label}>
-                        <span>{icon}</span>
-                        <div>
-                          <strong>{label}</strong>
-                          <small>{status === 'confirmed' ? '官方資料有提及' : '官方資料未提供'}</small>
-                        </div>
+                  <>
+                    <div className="amenity-grid">
+                      {[
+                        ['accessibility', '♿', '無障礙設施／廁所', selected.familyAmenities.accessibility],
+                        ['ramp', '↗️', '無障礙坡道', selected.familyAmenities.ramp],
+                        ['nursingRoom', '🤱', '哺乳／育嬰室', selected.familyAmenities.nursingRoom],
+                        ['diaperTable', '🧷', '尿布台', selected.familyAmenities.diaperTable],
+                        ['familyRestroom', '🚻', '親子廁所', selected.familyAmenities.familyRestroom],
+                        ['strollerFriendly', '🛒', '推車友善', selected.familyAmenities.strollerFriendly],
+                        ['parking', '🅿️', '停車設施', selected.familyAmenities.parking],
+                      ].map(([key, icon, label, status]) => {
+                        const openDataConfirmed = selected.familyAmenities?.evidence?.some(
+                          (item) => item.amenities.includes(key as FamilyAmenityKey),
+                        )
+                        return (
+                          <div className={`amenity-item ${status}`} key={label}>
+                            <span>{icon}</span>
+                            <div>
+                              <strong>{label}</strong>
+                              <small>
+                                {status === 'confirmed'
+                                  ? openDataConfirmed ? '官方設施資料確認' : '官方資料有提及'
+                                  : '官方資料未提供'}
+                              </small>
+                            </div>
+                          </div>
+                        )
+                      })}
+                    </div>
+                    {selected.familyAmenities.evidence && selected.familyAmenities.evidence.length > 0 && (
+                      <div className="amenity-evidence">
+                        <strong>官方設施資料比對</strong>
+                        {selected.familyAmenities.evidence.map((item) => (
+                          <a href={item.url} target="_blank" rel="noreferrer" key={`${item.source}-${item.label}`}>
+                            <span><b>{item.label}</b><small>{item.source}</small></span>
+                            <em>{item.note}</em>
+                            <ExternalLink size={14} />
+                          </a>
+                        ))}
                       </div>
-                    ))}
-                  </div>
+                    )}
+                  </>
                 )}
                 <div className="facility-row">
                   {selected.facilities.map((item) => <span key={item}>{item}</span>)}

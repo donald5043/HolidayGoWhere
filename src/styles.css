@@ -214,6 +214,13 @@ a { color: inherit; text-decoration: none; }
 .amenity-item small { color: #9a9f9d; font-size: 9px; }
 .amenity-item.confirmed { border-color: #b9ddce; background: #f0faf5; }
 .amenity-item.confirmed small { color: #318069; font-weight: 700; }
+.amenity-evidence { display: grid; gap: 8px; margin: 4px 0 12px; padding: 12px; border-radius: 14px; background: #eef5ff; color: #355a78; }
+.amenity-evidence > strong { font-size: 11px; }
+.amenity-evidence a { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 3px 8px; align-items: center; padding: 9px 10px; border-radius: 11px; background: rgba(255,255,255,.82); color: inherit; text-decoration: none; }
+.amenity-evidence a span { min-width: 0; display: flex; flex-wrap: wrap; gap: 3px 7px; align-items: baseline; }
+.amenity-evidence a b { font-size: 10px; }
+.amenity-evidence a small, .amenity-evidence a em { color: #668096; font-size: 9px; font-style: normal; }
+.amenity-evidence a em { grid-column: 1 / -1; min-width: 0; }
 .parking-note { margin-top: 10px; padding: 11px 12px; border-radius: 12px; background: #eef5ff; display: flex; flex-direction: column; gap: 4px; }
 .parking-note strong { color: #35699e; font-size: 11px; }
 .parking-note span { color: #5f727f; font-size: 10px; line-height: 1.55; }
