@@ -5,6 +5,7 @@ import {
   Clock3,
   Compass,
   Database,
+  Bot,
   ExternalLink,
   Heart,
   Home,
@@ -21,7 +22,7 @@ import {
   TentTree,
   X,
 } from 'lucide-react'
-import { ageOptions, type Place } from './data'
+import { ageOptions, type AiInsight, type Place } from './data'
 import { MapView } from './MapView'
 
 const regions = ['全部', '北部', '中部', '南部', '東部', '離島'] as const
@@ -112,6 +113,7 @@ function PlaceCard({
 
 function App() {
   const [places, setPlaces] = useState<Place[]>([])
+  const [aiInsights, setAiInsights] = useState<Record<string, AiInsight>>({})
   const [placesStatus, setPlacesStatus] = useState<'loading' | 'ready' | 'error'>('loading')
   const [query, setQuery] = useState('')
   const [region, setRegion] = useState<(typeof regions)[number]>('全部')
@@ -151,6 +153,12 @@ function App() {
     return () => {
       active = false
     }
+  }, [])
+
+  useEffect(() => {
+    import('./generated/ai-insights.json')
+      .then((module) => setAiInsights(module.default as Record<string, AiInsight>))
+      .catch(() => setAiInsights({}))
   }, [])
 
   const filteredPlaces = useMemo(() => {
@@ -460,6 +468,26 @@ function App() {
                 <div className="rating-line official-line"><Database size={17} />交通部觀光署官方開放資料</div>
               )}
               <p className="detail-description">{selected.description}</p>
+              {aiInsights[selected.id] && (
+                <div className="ai-insight">
+                  <div className="ai-heading">
+                    <span><Bot size={18} />AI 親子摘要</span>
+                    <small>本機 AI 整理</small>
+                  </div>
+                  <p>{aiInsights[selected.id].summary}</p>
+                  <div className="ai-badges">
+                    <span>雨天：{aiInsights[selected.id].rainyDay}</span>
+                    <span>推車：{aiInsights[selected.id].stroller}</span>
+                  </div>
+                  <ul>
+                    {aiInsights[selected.id].whyForKids.map((item) => <li key={item}>{item}</li>)}
+                  </ul>
+                  {aiInsights[selected.id].tips.length > 0 && (
+                    <div className="ai-tip">行前提醒：{aiInsights[selected.id].tips.join('；')}</div>
+                  )}
+                  <small className="ai-disclaimer">AI 根據官方開放資料整理，實際資訊請以官方網站為準。</small>
+                </div>
+              )}
               <div className="info-list">
                 <div><MapPin /><span><small>地址</small>{selected.address}</span></div>
                 <div><Clock3 /><span><small>開放時間</small>{selected.hours}</span></div>

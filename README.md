@@ -62,6 +62,25 @@ npm run sync:places
 
 分類是規則推估結果，不代表官方提供的建議年齡。正式營運時，建議再建立管理後台處理人工覆寫與下架。
 
+## 本機 AI 摘要
+
+可使用本機 Ollama 產生親子摘要，不需要任何雲端 API Key：
+
+```powershell
+npm run ai:enrich
+```
+
+預設使用 `gemma4:e4b`，每次增量處理 10 筆；已完成且來源未更新的景點不會重跑。
+
+```powershell
+$env:AI_LIMIT=3
+npm run ai:enrich
+$env:OLLAMA_MODEL='gemma4:e4b'
+npm run ai:enrich
+```
+
+結果儲存在 `src/generated/ai-insights.json`。AI 只依官方開放資料整理，網站會顯示免責說明。
+
 ## 目前功能
 
 - 手機優先 Responsive UI

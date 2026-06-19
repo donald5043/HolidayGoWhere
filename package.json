@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "sync:places": "node scripts/sync-places.mjs"
+    "sync:places": "node scripts/sync-places.mjs",
+    "ai:enrich": "node scripts/enrich-ai.mjs"
   },
   "dependencies": {
     "@types/leaflet": "^1.9.21",
