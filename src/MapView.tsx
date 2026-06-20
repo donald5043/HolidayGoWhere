@@ -1,6 +1,6 @@
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 import L from 'leaflet'
-import { CircleMarker, MapContainer, Marker, TileLayer, Tooltip, useMap } from 'react-leaflet'
+import { CircleMarker, MapContainer, Marker, TileLayer, Tooltip, useMap, useMapEvents } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import type { Place } from './data'
 
@@ -9,6 +9,19 @@ type Props = {
   selected: Place | null
   onSelect: (place: Place) => void
   userLocation: { lat: number; lng: number } | null
+  focusKey: number
+  onViewportChange: (viewport: MapViewport) => void
+}
+
+export type MapViewport = {
+  center: { lat: number; lng: number }
+  bounds: {
+    north: number
+    south: number
+    east: number
+    west: number
+  }
+  zoom: number
 }
 
 const taiwanCenter: [number, number] = [23.6978, 120.9605]
@@ -33,9 +46,11 @@ function createPlaceIcon(place: Place, selected: boolean) {
 function FitPlaces({
   places,
   userLocation,
+  focusKey,
 }: {
   places: Place[]
   userLocation: { lat: number; lng: number } | null
+  focusKey: number
 }) {
   const map = useMap()
 
@@ -54,7 +69,39 @@ function FitPlaces({
       places.map((place) => [place.lat, place.lng] as [number, number]),
       { padding: [45, 45], maxZoom: 11 },
     )
-  }, [map, places, userLocation])
+  }, [focusKey, map])
+
+  return null
+}
+
+function TrackMapViewport({ onChange }: { onChange: (viewport: MapViewport) => void }) {
+  const userMoving = useRef(false)
+  const map = useMapEvents({
+    dragstart: () => {
+      userMoving.current = true
+    },
+    zoomstart: (event) => {
+      if ('originalEvent' in event && event.originalEvent) {
+        userMoving.current = true
+      }
+    },
+    moveend: () => {
+      if (!userMoving.current) return
+      userMoving.current = false
+      const center = map.getCenter()
+      const bounds = map.getBounds()
+      onChange({
+        center: { lat: center.lat, lng: center.lng },
+        bounds: {
+          north: bounds.getNorth(),
+          south: bounds.getSouth(),
+          east: bounds.getEast(),
+          west: bounds.getWest(),
+        },
+        zoom: map.getZoom(),
+      })
+    },
+  })
 
   return null
 }
@@ -87,7 +134,14 @@ function KeepMapSized() {
   return null
 }
 
-export function MapView({ places, selected, onSelect, userLocation }: Props) {
+export function MapView({
+  places,
+  selected,
+  onSelect,
+  userLocation,
+  focusKey,
+  onViewportChange,
+}: Props) {
   return (
     <MapContainer
       center={taiwanCenter}
@@ -107,7 +161,8 @@ export function MapView({ places, selected, onSelect, userLocation }: Props) {
         keepBuffer={1}
       />
       <KeepMapSized />
-      <FitPlaces places={places} userLocation={userLocation} />
+      <FitPlaces places={places} userLocation={userLocation} focusKey={focusKey} />
+      <TrackMapViewport onChange={onViewportChange} />
       {userLocation && (
         <CircleMarker
           center={[userLocation.lat, userLocation.lng]}

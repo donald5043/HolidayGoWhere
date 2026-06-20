@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import {
   Baby,
   Bookmark,
@@ -34,13 +34,13 @@ import {
   type Place,
   type WeatherSummary,
 } from './data'
-import { MapView } from './MapView'
+import { MapView, type MapViewport } from './MapView'
 
 const regions = ['全部', '北部', '中部', '南部', '東部', '離島'] as const
 const settings = ['全部', '室內', '室外', '室內外'] as const
 const durations = ['全部', '半日', '一日', '晚上'] as const
 const MAX_VISIBLE_PLACES = 120
-const MAX_MAP_PLACES = 50
+const MAX_MAP_PLACES = 80
 const FALLBACK_IMAGE = `${import.meta.env.BASE_URL}place-fallback.svg`
 type RegionName = Exclude<(typeof regions)[number], '全部'>
 const regionCenters: Record<RegionName, { lat: number; lng: number }> = {
@@ -77,6 +77,15 @@ function distanceInKm(
 
 function compactNumber(value: number) {
   return value >= 10000 ? `${(value / 10000).toFixed(1)}萬` : value.toLocaleString('zh-TW')
+}
+
+function regionFromCoordinate({ lat, lng }: { lat: number; lng: number }): RegionName | null {
+  if (lat < 21.7 || lat > 26.5 || lng < 118 || lng > 122.5) return null
+  if (lng < 120.35 || lat > 25.6) return '離島'
+  if (lat <= 24.55 && lng >= 120.9) return '東部'
+  if (lat >= 24.55) return '北部'
+  if (lat >= 23.45) return '中部'
+  return '南部'
 }
 
 function weatherLabel(code: number) {
@@ -249,6 +258,9 @@ function App() {
   const [showFilters, setShowFilters] = useState(false)
   const [selected, setSelected] = useState<Place | null>(null)
   const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null)
+  const [mapViewport, setMapViewport] = useState<MapViewport | null>(null)
+  const [mapFocusKey, setMapFocusKey] = useState(0)
+  const viewportRequestRegion = useRef<RegionName | null>(null)
   const [locationStatus, setLocationStatus] = useState<'idle' | 'loading' | 'ready' | 'error'>('idle')
   const [locationMessage, setLocationMessage] = useState('')
   const [activeTab, setActiveTab] = useState<'home' | 'explore' | 'favorites' | 'profile'>('home')
@@ -311,10 +323,21 @@ function App() {
 
   const selectRegion = async (nextRegion: (typeof regions)[number]) => {
     setRegion(nextRegion)
+    setMapViewport(null)
     const cached = placeCache[nextRegion]
     if (cached) {
       setPlaces(cached)
       setPlacesStatus('ready')
+      setMapFocusKey((current) => current + 1)
+      if (nextRegion !== '全部') {
+        setWeatherStatus('loading')
+        void fetchWeather(regionCenters[nextRegion].lat, regionCenters[nextRegion].lng)
+          .then((summary) => {
+            setWeather(summary)
+            setWeatherStatus('ready')
+          })
+          .catch(() => setWeatherStatus('error'))
+      }
       return
     }
     if (nextRegion === '全部') return
@@ -333,10 +356,51 @@ function App() {
       setPlaces(loaded)
       setPlaceCache((current) => ({ ...current, [nextRegion]: loaded }))
       setPlacesStatus('ready')
+      setMapFocusKey((current) => current + 1)
     } catch {
       setPlacesStatus('error')
     }
   }
+
+  const handleMapViewportChange = useCallback((nextViewport: MapViewport) => {
+    setMapViewport(nextViewport)
+    const nextRegion = regionFromCoordinate(nextViewport.center)
+    if (!nextRegion) {
+      setLocationMessage('地圖已移到資料範圍外，請移回臺灣附近。')
+      return
+    }
+
+    viewportRequestRegion.current = nextRegion
+    setRegion(nextRegion)
+    setLocationMessage(`已依地圖中心載入${nextRegion}景點，拖曳或縮放可繼續探索。`)
+    setWeatherStatus('loading')
+    void fetchWeather(nextViewport.center.lat, nextViewport.center.lng)
+      .then((summary) => {
+        if (viewportRequestRegion.current !== nextRegion) return
+        setWeather(summary)
+        setWeatherStatus('ready')
+      })
+      .catch(() => setWeatherStatus('error'))
+
+    const cached = placeCache[nextRegion]
+    if (cached) {
+      setPlaces(cached)
+      setPlacesStatus('ready')
+      return
+    }
+
+    setPlacesStatus('loading')
+    void regionLoaders[nextRegion]()
+      .then((loaded) => {
+        setPlaceCache((current) => ({ ...current, [nextRegion]: loaded }))
+        if (viewportRequestRegion.current !== nextRegion) return
+        setPlaces(loaded)
+        setPlacesStatus('ready')
+      })
+      .catch(() => {
+        if (viewportRequestRegion.current === nextRegion) setPlacesStatus('error')
+      })
+  }, [placeCache])
 
   useEffect(() => {
     import('./generated/ai-insights.json')
@@ -350,7 +414,9 @@ function App() {
       const textMatches = `${place.name}${place.city}${place.district}${place.category}`
         .toLowerCase()
         .includes(query.toLowerCase())
-      const ageMatches = place.ageMin <= maxAge && place.ageMax >= minAge
+      const ageMatches = age === '0-2'
+        ? place.ageMin === 0
+        : place.ageMin <= maxAge && place.ageMax >= minAge
       return (
         textMatches &&
         ageMatches &&
@@ -377,14 +443,15 @@ function App() {
         Number(second.placeType === '餐飲') - Number(first.placeType === '餐飲'),
       )
     }
-    if (!userLocation) return sorted
+    const sortLocation = mapViewport?.center || userLocation
+    if (!sortLocation) return sorted
     return sorted.sort((first, second) => {
       if (rainyOnly && first.placeType !== second.placeType) {
         return Number(second.placeType === '餐飲') - Number(first.placeType === '餐飲')
       }
-      return distanceInKm(userLocation, first) - distanceInKm(userLocation, second)
+      return distanceInKm(sortLocation, first) - distanceInKm(sortLocation, second)
     })
-  }, [places, query, age, setting, duration, rainyOnly, eventOnly, weather, userLocation])
+  }, [places, query, age, setting, duration, rainyOnly, eventOnly, weather, userLocation, mapViewport])
   const displayedPlaces = useMemo(
     () => activeTab === 'favorites'
       ? filteredPlaces.filter((place) => favorites.includes(place.id))
@@ -396,8 +463,21 @@ function App() {
     [displayedPlaces],
   )
   const mapPlaces = useMemo(
-    () => displayedPlaces.slice(0, MAX_MAP_PLACES),
-    [displayedPlaces],
+    () => {
+      if (!mapViewport) return displayedPlaces.slice(0, MAX_MAP_PLACES)
+      const latPadding = Math.max((mapViewport.bounds.north - mapViewport.bounds.south) * 0.18, 0.02)
+      const lngPadding = Math.max((mapViewport.bounds.east - mapViewport.bounds.west) * 0.18, 0.02)
+      return displayedPlaces
+        .filter((place) =>
+          place.lat <= mapViewport.bounds.north + latPadding &&
+          place.lat >= mapViewport.bounds.south - latPadding &&
+          place.lng <= mapViewport.bounds.east + lngPadding &&
+          place.lng >= mapViewport.bounds.west - lngPadding)
+        .sort((first, second) =>
+          distanceInKm(mapViewport.center, first) - distanceInKm(mapViewport.center, second))
+        .slice(0, MAX_MAP_PLACES)
+    },
+    [displayedPlaces, mapViewport],
   )
 
   const toggleFavorite = (id: string) => {
@@ -425,6 +505,8 @@ function App() {
     navigator.geolocation.getCurrentPosition(
       ({ coords }) => {
         setUserLocation({ lat: coords.latitude, lng: coords.longitude })
+        setMapViewport(null)
+        setMapFocusKey((current) => current + 1)
         setLocationStatus('ready')
         setLocationMessage('已依距離重新排列景點，藍點是你的位置。')
         setWeatherStatus('loading')
@@ -625,6 +707,8 @@ function App() {
                 selected={selected}
                 onSelect={setSelected}
                 userLocation={userLocation}
+                focusKey={mapFocusKey}
+                onViewportChange={handleMapViewportChange}
               />
               <div className="map-legend"><span /><span>點一下圖標查看景點</span></div>
             </div>

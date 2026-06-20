@@ -601,6 +601,11 @@ async function main() {
     const category = restaurantCategoryFor(text)
     const amenityEvidence = matchFamilyOpenData({ name, city, district, address, lat, lng }, familyOpenData)
     const baseFamilyAmenities = familyAmenitiesFor(item, text)
+    const familyAmenities = mergeFamilyAmenities(baseFamilyAmenities, amenityEvidence)
+    const infantFriendlyDining =
+      familyRestaurantPattern.test(text) ||
+      ['nursingRoom', 'diaperTable', 'familyRestroom', 'strollerFriendly']
+        .some((key) => familyAmenities[key] === 'confirmed')
     const hoursItem = {
       ...item,
       AttractionID: item.RestaurantID,
@@ -615,7 +620,7 @@ async function main() {
       region: regionFor(city),
       city,
       district,
-      ageMin: 0,
+      ageMin: infantFriendlyDining ? 0 : 3,
       ageMax: 12,
       setting: '室內',
       duration: '半日',
@@ -635,7 +640,7 @@ async function main() {
         ? ['室內休息', '親子用餐', '雨天備案']
         : ['咖啡甜點', '爸媽充電', '雨天備案'],
       facilities: facilitiesFor(item, text),
-      familyAmenities: mergeFamilyAmenities(baseFamilyAmenities, amenityEvidence),
+      familyAmenities,
       mapsUrl: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${name} ${address}`)}`,
       sources: sourceLinks(item, name),
       dataSource: '交通部觀光署餐飲資訊資料庫 V2.1',
