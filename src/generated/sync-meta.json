@@ -12,15 +12,23 @@
     "relevance": 0,
     "quality": 828
   },
-  "candidateCount": 5807,
-  "publishedCount": 5807,
+  "eventSourceCount": 773,
+  "eventPublishedCount": 225,
+  "eventRejected": {
+    "expired": 471,
+    "coordinate": 1,
+    "duplicate": 14,
+    "relevance": 62
+  },
+  "candidateCount": 6032,
+  "publishedCount": 6032,
   "featuredCount": 300,
   "regionCounts": {
-    "北部": 1551,
-    "中部": 1861,
-    "南部": 1251,
-    "東部": 681,
-    "離島": 463
+    "北部": 1616,
+    "中部": 1882,
+    "南部": 1285,
+    "東部": 746,
+    "離島": 503
   },
   "rejected": {
     "inactive": 53,
@@ -36,6 +44,7 @@
     "咖啡下午茶": 266,
     "室內餐廳": 2029,
     "探索學習": 232,
+    "本週活動": 225,
     "甜點冰品": 290,
     "百貨商場": 34,
     "自然放電": 1211,
@@ -45,20 +54,20 @@
     "農場體驗": 385
   },
   "amenityCoverage": {
-    "accessibility": 363,
-    "ramp": 20,
-    "nursingRoom": 342,
-    "diaperTable": 206,
-    "familyRestroom": 64,
-    "parking": 227,
-    "strollerFriendly": 41
+    "accessibility": 370,
+    "ramp": 21,
+    "nursingRoom": 351,
+    "diaperTable": 209,
+    "familyRestroom": 66,
+    "parking": 228,
+    "strollerFriendly": 42
   },
   "officialAmenityMatches": {
-    "accessibility": 322,
+    "accessibility": 328,
     "ramp": 0,
-    "nursingRoom": 331,
-    "diaperTable": 206,
-    "familyRestroom": 61,
+    "nursingRoom": 340,
+    "diaperTable": 209,
+    "familyRestroom": 63,
     "parking": 0,
     "strollerFriendly": 0
   },

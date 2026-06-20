@@ -223,6 +223,41 @@ a { color: inherit; text-decoration: none; }
 .amenity-evidence a b { font-size: 10px; }
 .amenity-evidence a small, .amenity-evidence a em { color: #668096; font-size: 9px; font-style: normal; }
 .amenity-evidence a em { grid-column: 1 / -1; min-width: 0; }
+.decision-badges { display: flex; flex-wrap: wrap; gap: 5px; margin: 4px 0 7px; }
+.decision-badges span { display: inline-flex; align-items: center; gap: 3px; padding: 4px 7px; border-radius: 999px; font-size: 9px; font-weight: 800; }
+.event-badge { color: #a34535; background: #fff0e8; }
+.completeness-badge { color: #60736c; background: #eef2ef; }
+.completeness-badge.score-3, .completeness-badge.score-4 { color: #26715e; background: #e7f7f0; }
+.weather-recommendation { max-width: 1180px; margin: 12px auto 0; padding: 13px 16px; border-radius: 17px; background: linear-gradient(135deg, #e7f2ff, #edf9f3); display: flex; align-items: center; gap: 11px; color: #31556f; }
+.weather-recommendation > div { min-width: 0; display: flex; flex: 1; flex-direction: column; }
+.weather-recommendation strong { font-size: 13px; }
+.weather-recommendation span { color: #668194; font-size: 10px; }
+.weather-recommendation button { border: 0; border-radius: 999px; padding: 8px 11px; color: #fff; background: #5593c5; font-size: 10px; font-weight: 800; }
+.weather-loading { max-width: 1180px; margin: 9px auto 0; color: #69808a; font-size: 10px; }
+.completeness-panel { margin: 12px 0; padding: 12px 14px; border-radius: 14px; background: #f0f7f4; color: #31564c; display: grid; gap: 6px; }
+.completeness-panel > div { display: flex; justify-content: space-between; gap: 10px; }
+.completeness-panel strong { font-size: 11px; }
+.completeness-panel span, .completeness-panel small { color: #6e827b; font-size: 9px; }
+.parent-report-summary { padding: 13px; border-radius: 14px; background: #fff7e9; display: grid; gap: 8px; }
+.parent-report-summary > div { display: flex; align-items: center; gap: 8px; color: #82613d; }
+.parent-report-summary span { display: flex; flex-direction: column; }
+.parent-report-summary strong { font-size: 11px; }
+.parent-report-summary small { color: #95785b; font-size: 9px; }
+.parent-report-summary p { margin: 0; color: #6d6257; font-size: 10px; line-height: 1.55; }
+.parent-report-summary button, .report-start { justify-self: start; border: 1px solid #e0cdae; border-radius: 999px; padding: 8px 11px; color: #785d3e; background: #fff; font-size: 10px; font-weight: 800; }
+.report-start { display: inline-flex; align-items: center; gap: 6px; }
+.report-form { margin-top: 10px; padding: 13px; border-radius: 14px; background: #f7f5ff; display: grid; gap: 10px; }
+.report-form > strong { color: #4e5266; font-size: 11px; }
+.report-choice { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; }
+.report-choice button { border: 1px solid #dad9e5; border-radius: 10px; padding: 9px; color: #6f7180; background: #fff; font-size: 10px; }
+.report-choice button.active { border-color: #a8cfc1; color: #28725d; background: #eefaf5; font-weight: 800; }
+.report-amenities { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; }
+.report-amenities label { display: flex; align-items: center; gap: 5px; padding: 8px; border-radius: 9px; background: #fff; color: #555c67; font-size: 9px; }
+.report-form textarea { min-height: 76px; resize: vertical; border: 1px solid #dedde8; border-radius: 11px; padding: 10px; font: inherit; font-size: 10px; }
+.report-actions { display: flex; justify-content: flex-end; gap: 7px; }
+.report-actions button { border: 0; border-radius: 999px; padding: 8px 11px; color: #6a6e78; background: #e9e8ef; font-size: 9px; font-weight: 800; }
+.report-actions button.primary { color: #fff; background: #56a087; }
+.report-form > small { color: #8b8c96; font-size: 8px; }
 .parking-note { margin-top: 10px; padding: 11px 12px; border-radius: 12px; background: #eef5ff; display: flex; flex-direction: column; gap: 4px; }
 .parking-note strong { color: #35699e; font-size: 11px; }
 .parking-note span { color: #5f727f; font-size: 10px; line-height: 1.55; }

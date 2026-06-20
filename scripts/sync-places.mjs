@@ -18,6 +18,9 @@ const SOURCE_URL =
 const RESTAURANT_SOURCE_URL =
   process.env.RESTAURANT_SOURCE_URL ||
   'https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Restaurant-json.zip'
+const EVENT_SOURCE_URL =
+  process.env.EVENT_SOURCE_URL ||
+  'https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Event-json.zip'
 const FEATURED_PLACES = Number(process.env.FEATURED_PLACES || 300)
 const regionFiles = {
   北部: 'places-north.json',
@@ -80,6 +83,7 @@ const accentByCategory = {
   甜點冰品: '#df7bb4',
   百貨商場: '#7e8bd6',
   室內餐廳: '#d88962',
+  本週活動: '#ff6b6b',
 }
 
 const fallbackImages = {
@@ -96,6 +100,7 @@ const fallbackImages = {
   甜點冰品: 'https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=80',
   百貨商場: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=900&q=80',
   室內餐廳: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80',
+  本週活動: 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd4297?auto=format&fit=crop&w=900&q=80',
 }
 
 const familyRestaurantPattern = /親子|兒童|小朋友|家庭|寶寶|幼兒|遊戲區|兒童椅/
@@ -204,6 +209,54 @@ function durationFor(item, text) {
   if (/夜間|夜景|燈會|星空/.test(text)) return '晚上'
   if (/國家森林遊樂區|遊樂園|動物園|海生館|大型園區/.test(text)) return '一日'
   return '半日'
+}
+
+function dateOnly(value) {
+  const date = new Date(value)
+  if (Number.isNaN(date.getTime())) return ''
+  return new Intl.DateTimeFormat('zh-TW', {
+    timeZone: 'Asia/Taipei',
+    month: 'numeric',
+    day: 'numeric',
+  }).format(date)
+}
+
+function eventHours(item) {
+  const start = dateOnly(item.StartDateTime)
+  const end = dateOnly(item.EndDateTime)
+  if (!start) return '活動時間請見官方資訊'
+  return start === end || !end ? start : `${start}－${end}`
+}
+
+function isWeekendEvent(item, now) {
+  const start = new Date(item.StartDateTime)
+  const end = new Date(item.EndDateTime)
+  const day = new Date(now)
+  const weekday = day.getDay()
+  const daysUntilSaturday = (6 - weekday + 7) % 7
+  const saturday = new Date(day)
+  saturday.setHours(0, 0, 0, 0)
+  saturday.setDate(day.getDate() + daysUntilSaturday)
+  const sundayEnd = new Date(saturday)
+  sundayEnd.setDate(saturday.getDate() + 1)
+  sundayEnd.setHours(23, 59, 59, 999)
+  return start <= sundayEnd && end >= saturday
+}
+
+function completenessFor(place) {
+  const checks = [
+    ['官方網站', place.sources?.some((source) => source.type === '官方網站')],
+    ['明確開放時間', place.hours && !/請至官方網站確認|請見官方資訊|以商家公告為準/.test(place.hours)],
+    ['票價資訊', !['請查官網', '請查店家'].includes(place.priceLabel)],
+    ['官方照片', place.image && !place.image.includes('images.unsplash.com')],
+    ['親子設施', place.familyAmenities?.evidence?.length || place.facilities?.some((item) => item !== '出發前請確認設施')],
+    ['詳細介紹', cleanText(place.description).length >= 100],
+  ]
+  const completed = checks.filter(([, available]) => available).length
+  return {
+    score: Math.round(completed / checks.length * 100),
+    missing: checks.filter(([, available]) => !available).map(([label]) => label),
+  }
 }
 
 function priceFor(item, feeMap) {
@@ -376,28 +429,35 @@ async function main() {
   const tempDir = await fs.mkdtemp(path.join(os.tmpdir(), 'holiday-go-where-'))
   const zipPath = path.join(tempDir, 'attractions.zip')
   const restaurantZipPath = path.join(tempDir, 'restaurants.zip')
+  const eventZipPath = path.join(tempDir, 'events.zip')
   const extractDir = path.join(tempDir, 'extracted')
   const restaurantExtractDir = path.join(tempDir, 'restaurants')
+  const eventExtractDir = path.join(tempDir, 'events')
 
   console.log(`下載觀光署景點資料：${SOURCE_URL}`)
   console.log(`下載觀光署餐飲資料：${RESTAURANT_SOURCE_URL}`)
+  console.log(`下載觀光署活動資料：${EVENT_SOURCE_URL}`)
   await Promise.all([
     download(SOURCE_URL, zipPath),
     download(RESTAURANT_SOURCE_URL, restaurantZipPath),
+    download(EVENT_SOURCE_URL, eventZipPath),
   ])
   new AdmZip(zipPath).extractAllTo(extractDir, true)
   new AdmZip(restaurantZipPath).extractAllTo(restaurantExtractDir, true)
+  new AdmZip(eventZipPath).extractAllTo(eventExtractDir, true)
 
   const attractionRoot = await loadJson(path.join(extractDir, 'AttractionList.json'))
   const serviceRoot = await loadJson(path.join(extractDir, 'AttractionServiceTimeList.json'))
   const feeRoot = await loadJson(path.join(extractDir, 'AttractionFeeList.json'))
   const restaurantRoot = await loadJson(path.join(restaurantExtractDir, 'RestaurantList.json'))
   const restaurantServiceRoot = await loadJson(path.join(restaurantExtractDir, 'RestaurantServiceTimeList.json'))
+  const eventRoot = await loadJson(path.join(eventExtractDir, 'EventList.json'))
   const attractions = firstArray(attractionRoot, 'Attractions')
   const serviceTimes = firstArray(serviceRoot, 'AttractionServiceTimes')
   const fees = firstArray(feeRoot, 'AttractionFees')
   const restaurants = firstArray(restaurantRoot, 'Restaurants')
   const restaurantServiceTimes = firstArray(restaurantServiceRoot, 'RestaurantServiceTimes')
+  const events = firstArray(eventRoot, 'Events')
   const familyOpenData = await loadFamilyOpenData()
 
   const serviceTimeMap = new Map(serviceTimes.map((item) => [item.AttractionID, item.ServiceTimes || []]))
@@ -589,8 +649,103 @@ async function main() {
     restaurantPublished += 1
   }
 
+  const eventRejected = { expired: 0, coordinate: 0, duplicate: 0, relevance: 0 }
+  let eventPublished = 0
+  const now = new Date()
+  const futureLimit = new Date(now)
+  futureLimit.setDate(futureLimit.getDate() + 120)
+  for (const item of events) {
+    const start = new Date(item.StartDateTime)
+    const end = new Date(item.EndDateTime)
+    if (
+      Number.isNaN(start.getTime()) ||
+      Number.isNaN(end.getTime()) ||
+      end < now ||
+      start > futureLimit ||
+      item.EventStatus === 'EventCancelled'
+    ) {
+      eventRejected.expired += 1
+      continue
+    }
+    const lat = Number(item.PositionLat)
+    const lng = Number(item.PositionLon)
+    if (!Number.isFinite(lat) || !Number.isFinite(lng) || lat < 21.7 || lat > 26.5 || lng < 118 || lng > 122.5) {
+      eventRejected.coordinate += 1
+      continue
+    }
+    const name = cleanText(item.EventName)
+    const city = cleanText(item.PostalAddress?.City).replace(/^台/, '臺') || '臺灣'
+    const district = cleanText(item.PostalAddress?.Town)
+    const street = cleanText(item.PostalAddress?.StreetAddress)
+    const address = fullAddress(city, district, street)
+    const key = `${city}:${name.replace(/[\s　\-—()（）·・]/g, '').toLowerCase()}`
+    if (!key || seen.has(key)) {
+      eventRejected.duplicate += 1
+      continue
+    }
+    const text = cleanText([
+      name,
+      item.Description,
+      item.Remarks,
+      item.Participant,
+      ...(item.Tags || []),
+    ].join(' '))
+    const relevance = familyScore(text)
+    if (relevance < 4 && !/市集|展覽|體驗|節|祭|花季|燈會|音樂|文化|藝術|親子|兒童/.test(text)) {
+      eventRejected.relevance += 1
+      continue
+    }
+    seen.add(key)
+    const imageCandidates = imageUrlsFor(item)
+    const baseFamilyAmenities = familyAmenitiesFor(item, text)
+    const amenityEvidence = matchFamilyOpenData({ name, city, district, address, lat, lng }, familyOpenData)
+    const weekend = isWeekendEvent(item, now)
+    candidates.push({
+      id: item.EventID,
+      name,
+      region: regionFor(city),
+      city,
+      district,
+      ageMin: /幼兒|寶寶|親子/.test(text) ? 0 : 3,
+      ageMax: 12,
+      setting: settingFor(text),
+      duration: '半日',
+      category: '本週活動',
+      rating: null,
+      reviews: 0,
+      priceLabel: item.IsAccessibleForFree === 1 || /免費/.test(cleanText(item.FeeInfo)) ? '免費' : cleanText(item.FeeInfo) ? '需購票' : '請查官網',
+      address,
+      hours: eventHours(item),
+      lat,
+      lng,
+      image: imageCandidates[0] || fallbackImages['本週活動'],
+      imageCandidates: imageCandidates.slice(1),
+      accent: accentByCategory['本週活動'],
+      description: truncate(item.Description, 180) || `${name}是近期舉辦的活動，出發前請再次確認日期與場次。`,
+      highlights: [weekend ? '本週末限定' : '近期活動', '期間限定', '親子新鮮事'],
+      facilities: facilitiesFor(item, text),
+      familyAmenities: mergeFamilyAmenities(baseFamilyAmenities, amenityEvidence),
+      mapsUrl: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${name} ${address}`)}`,
+      sources: sourceLinks(item, name),
+      dataSource: '交通部觀光署活動資訊資料庫 V2.1',
+      sourceId: item.EventID,
+      qualityScore: 10,
+      updatedAt: cleanText(item.UpdateTime || eventRoot.UpdateTime),
+      rainyDay: settingFor(text) !== '室外',
+      placeType: '活動',
+      eventStart: item.StartDateTime,
+      eventEnd: item.EndDateTime,
+      weekendEvent: weekend,
+      _rank: (weekend ? 145 : 115) + relevance,
+    })
+    eventPublished += 1
+  }
+
   candidates.sort((a, b) => b._rank - a._rank || a.name.localeCompare(b.name, 'zh-Hant'))
-  const allPlaces = candidates.map(({ _rank, ...place }) => place)
+  const allPlaces = candidates.map(({ _rank, ...place }) => ({
+    ...place,
+    completeness: completenessFor(place),
+  }))
   const featuredRainyPlaces = Object.keys(regionFiles).flatMap((region) => {
     const regional = allPlaces.filter((place) => place.region === region && place.rainyDay)
     const selected = []
@@ -619,10 +774,20 @@ async function main() {
     }
     return selected
   })
-  const featuredIds = new Set(featuredRainyPlaces.map((place) => place.id))
+  const featuredEventPlaces = allPlaces
+    .filter((place) => place.placeType === '活動')
+    .slice(0, 60)
+  const featuredIds = new Set([
+    ...featuredRainyPlaces.map((place) => place.id),
+    ...featuredEventPlaces.map((place) => place.id),
+  ])
+  const reservedFeaturedPlaces = [
+    ...featuredEventPlaces,
+    ...featuredRainyPlaces.filter((place) => !featuredEventPlaces.some((event) => event.id === place.id)),
+  ]
   const featuredPlaces = [
-    ...allPlaces.filter((place) => !featuredIds.has(place.id)).slice(0, FEATURED_PLACES - featuredRainyPlaces.length),
-    ...featuredRainyPlaces,
+    ...reservedFeaturedPlaces,
+    ...allPlaces.filter((place) => !featuredIds.has(place.id)).slice(0, FEATURED_PLACES - reservedFeaturedPlaces.length),
   ]
   const regionCounts = Object.fromEntries(
     Object.keys(regionFiles).map((region) => [
@@ -678,6 +843,9 @@ async function main() {
     restaurantSourceCount: restaurants.length,
     restaurantPublishedCount: restaurantPublished,
     restaurantRejected,
+    eventSourceCount: events.length,
+    eventPublishedCount: eventPublished,
+    eventRejected,
     candidateCount: candidates.length,
     publishedCount: allPlaces.length,
     featuredCount: featuredPlaces.length,
@@ -692,6 +860,7 @@ async function main() {
 
   console.log(`來源 ${attractions.length} 筆，發布全部親子候選 ${allPlaces.length} 筆`)
   console.log(`餐飲來源 ${restaurants.length} 筆，新增雨天餐飲 ${restaurantPublished} 筆`)
+  console.log(`活動來源 ${events.length} 筆，發布近期活動 ${eventPublished} 筆`)
   console.log(`首頁精選 ${featuredPlaces.length} 筆，分區：`, regionCounts)
   console.log('分類：', categoryCounts)
   console.log('親子設施覆蓋：', amenityCoverage)

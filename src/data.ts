@@ -71,7 +71,30 @@ export type Place = {
   qualityScore: number
   updatedAt: string
   rainyDay?: boolean
-  placeType?: '景點' | '餐飲'
+  placeType?: '景點' | '餐飲' | '活動'
+  eventStart?: string
+  eventEnd?: string
+  weekendEvent?: boolean
+  completeness?: {
+    score: number
+    missing: string[]
+  }
+}
+
+export type WeatherSummary = {
+  temperature: number
+  weatherCode: number
+  precipitationProbability: number
+  label: string
+  fetchedAt: string
+}
+
+export type ParentReport = {
+  visitedAt: string
+  liked: boolean
+  note: string
+  amenities: Partial<Record<FamilyAmenityKey, boolean>>
+  updatedAt: string
 }
 
 export const ageOptions = [

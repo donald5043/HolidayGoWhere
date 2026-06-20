@@ -2,7 +2,10 @@ import { useEffect, useMemo, useState } from 'react'
 import {
   Baby,
   Bookmark,
+  CalendarDays,
+  CheckCircle2,
   Clock3,
+  CloudRain,
   Compass,
   Database,
   Bot,
@@ -14,6 +17,7 @@ import {
   MapPin,
   Menu,
   Navigation,
+  NotebookPen,
   Search,
   SlidersHorizontal,
   Sparkles,
@@ -22,7 +26,14 @@ import {
   TentTree,
   X,
 } from 'lucide-react'
-import { ageOptions, type AiInsight, type FamilyAmenityKey, type Place } from './data'
+import {
+  ageOptions,
+  type AiInsight,
+  type FamilyAmenityKey,
+  type ParentReport,
+  type Place,
+  type WeatherSummary,
+} from './data'
 import { MapView } from './MapView'
 
 const regions = ['全部', '北部', '中部', '南部', '東部', '離島'] as const
@@ -32,6 +43,13 @@ const MAX_VISIBLE_PLACES = 120
 const MAX_MAP_PLACES = 50
 const FALLBACK_IMAGE = `${import.meta.env.BASE_URL}place-fallback.svg`
 type RegionName = Exclude<(typeof regions)[number], '全部'>
+const regionCenters: Record<RegionName, { lat: number; lng: number }> = {
+  北部: { lat: 25.04, lng: 121.52 },
+  中部: { lat: 24.15, lng: 120.68 },
+  南部: { lat: 22.99, lng: 120.25 },
+  東部: { lat: 23.75, lng: 121.1 },
+  離島: { lat: 23.57, lng: 119.58 },
+}
 
 const regionLoaders: Record<RegionName, () => Promise<Place[]>> = {
   北部: () => import('./generated/places-north.json').then((module) => module.default as Place[]),
@@ -59,6 +77,34 @@ function distanceInKm(
 
 function compactNumber(value: number) {
   return value >= 10000 ? `${(value / 10000).toFixed(1)}萬` : value.toLocaleString('zh-TW')
+}
+
+function weatherLabel(code: number) {
+  if (code === 0) return '晴朗'
+  if (code <= 3) return '多雲'
+  if (code <= 48) return '有霧'
+  if (code <= 67 || code >= 80) return '有雨'
+  return '天氣不穩'
+}
+
+async function fetchWeather(lat: number, lng: number): Promise<WeatherSummary> {
+  const url = new URL('https://api.open-meteo.com/v1/forecast')
+  url.searchParams.set('latitude', String(lat))
+  url.searchParams.set('longitude', String(lng))
+  url.searchParams.set('current', 'temperature_2m,weather_code')
+  url.searchParams.set('daily', 'precipitation_probability_max')
+  url.searchParams.set('timezone', 'Asia/Taipei')
+  url.searchParams.set('forecast_days', '1')
+  const response = await fetch(url)
+  if (!response.ok) throw new Error('weather')
+  const payload = await response.json()
+  return {
+    temperature: Number(payload.current?.temperature_2m || 0),
+    weatherCode: Number(payload.current?.weather_code || 0),
+    precipitationProbability: Number(payload.daily?.precipitation_probability_max?.[0] || 0),
+    label: weatherLabel(Number(payload.current?.weather_code || 0)),
+    fetchedAt: new Date().toISOString(),
+  }
 }
 
 function PlaceImage({
@@ -154,6 +200,14 @@ function PlaceCard({
           <span>{place.setting}</span>
         </div>
         <h3>{place.name}</h3>
+        <div className="decision-badges">
+          {place.weekendEvent && <span className="event-badge"><CalendarDays size={12} />本週末</span>}
+          {place.completeness && (
+            <span className={`completeness-badge score-${Math.floor(place.completeness.score / 25)}`}>
+              資訊 {place.completeness.score}%
+            </span>
+          )}
+        </div>
         <div className="meta-row">
           <span><MapPin size={14} />{place.city} {place.district}</span>
           {place.rating !== null ? (
@@ -189,6 +243,9 @@ function App() {
   const [setting, setSetting] = useState<(typeof settings)[number]>('全部')
   const [duration, setDuration] = useState<(typeof durations)[number]>('全部')
   const [rainyOnly, setRainyOnly] = useState(false)
+  const [eventOnly, setEventOnly] = useState(false)
+  const [weather, setWeather] = useState<WeatherSummary | null>(null)
+  const [weatherStatus, setWeatherStatus] = useState<'idle' | 'loading' | 'ready' | 'error'>('idle')
   const [showFilters, setShowFilters] = useState(false)
   const [selected, setSelected] = useState<Place | null>(null)
   const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null)
@@ -196,6 +253,10 @@ function App() {
   const [locationMessage, setLocationMessage] = useState('')
   const [activeTab, setActiveTab] = useState<'home' | 'explore' | 'favorites' | 'profile'>('home')
   const [showProfile, setShowProfile] = useState(false)
+  const [showReportForm, setShowReportForm] = useState(false)
+  const [reportLiked, setReportLiked] = useState(true)
+  const [reportNote, setReportNote] = useState('')
+  const [reportAmenities, setReportAmenities] = useState<Partial<Record<FamilyAmenityKey, boolean>>>({})
   const [favorites, setFavorites] = useState<string[]>(() => {
     try {
       return JSON.parse(localStorage.getItem('holiday-go-where:favorites') || '[]')
@@ -203,10 +264,32 @@ function App() {
       return []
     }
   })
+  const [reports, setReports] = useState<Record<string, ParentReport>>(() => {
+    try {
+      return JSON.parse(localStorage.getItem('holiday-go-where:reports') || '{}')
+    } catch {
+      return {}
+    }
+  })
 
   useEffect(() => {
     localStorage.setItem('holiday-go-where:favorites', JSON.stringify(favorites))
   }, [favorites])
+
+  useEffect(() => {
+    localStorage.setItem('holiday-go-where:reports', JSON.stringify(reports))
+  }, [reports])
+
+  useEffect(() => {
+    if (!selected) {
+      setShowReportForm(false)
+      return
+    }
+    const report = reports[selected.id]
+    setReportLiked(report?.liked ?? true)
+    setReportNote(report?.note ?? '')
+    setReportAmenities(report?.amenities ?? {})
+  }, [selected, reports])
 
   useEffect(() => {
     let active = true
@@ -236,6 +319,14 @@ function App() {
     }
     if (nextRegion === '全部') return
 
+    setWeatherStatus('loading')
+    void fetchWeather(regionCenters[nextRegion].lat, regionCenters[nextRegion].lng)
+      .then((summary) => {
+        setWeather(summary)
+        setWeatherStatus('ready')
+      })
+      .catch(() => setWeatherStatus('error'))
+
     setPlacesStatus('loading')
     try {
       const loaded = await regionLoaders[nextRegion]()
@@ -264,11 +355,23 @@ function App() {
         textMatches &&
         ageMatches &&
         (!rainyOnly || place.rainyDay === true) &&
+        (!eventOnly || place.placeType === '活動') &&
         (setting === '全部' || place.setting === setting || (setting !== '室內外' && place.setting === '室內外')) &&
         (duration === '全部' || place.duration === duration)
       )
     })
     const sorted = [...matches]
+    const rainyWeather = weather && (weather.precipitationProbability >= 45 || weather.weatherCode >= 51)
+    const hotWeather = weather && weather.temperature >= 32
+    if (weather) {
+      sorted.sort((first, second) => {
+        const weatherScore = (place: Place) =>
+          (rainyWeather && place.rainyDay ? 3 : 0) +
+          (hotWeather && place.setting !== '室外' ? 2 : 0) +
+          (place.weekendEvent ? 2 : 0)
+        return weatherScore(second) - weatherScore(first)
+      })
+    }
     if (rainyOnly) {
       sorted.sort((first, second) =>
         Number(second.placeType === '餐飲') - Number(first.placeType === '餐飲'),
@@ -281,7 +384,7 @@ function App() {
       }
       return distanceInKm(userLocation, first) - distanceInKm(userLocation, second)
     })
-  }, [places, query, age, setting, duration, rainyOnly, userLocation])
+  }, [places, query, age, setting, duration, rainyOnly, eventOnly, weather, userLocation])
   const displayedPlaces = useMemo(
     () => activeTab === 'favorites'
       ? filteredPlaces.filter((place) => favorites.includes(place.id))
@@ -307,6 +410,7 @@ function App() {
     setSetting('全部')
     setDuration('全部')
     setRainyOnly(false)
+    setEventOnly(false)
   }
 
   const findNearbyPlaces = () => {
@@ -323,6 +427,13 @@ function App() {
         setUserLocation({ lat: coords.latitude, lng: coords.longitude })
         setLocationStatus('ready')
         setLocationMessage('已依距離重新排列景點，藍點是你的位置。')
+        setWeatherStatus('loading')
+        void fetchWeather(coords.latitude, coords.longitude)
+          .then((summary) => {
+            setWeather(summary)
+            setWeatherStatus('ready')
+          })
+          .catch(() => setWeatherStatus('error'))
         document.querySelector('.explore-section')?.scrollIntoView({ behavior: 'smooth' })
       },
       (error) => {
@@ -360,6 +471,22 @@ function App() {
   const openProfile = () => {
     setActiveTab('profile')
     setShowProfile(true)
+  }
+
+  const saveReport = () => {
+    if (!selected) return
+    const now = new Date().toISOString()
+    setReports((current) => ({
+      ...current,
+      [selected.id]: {
+        visitedAt: current[selected.id]?.visitedAt || now,
+        liked: reportLiked,
+        note: reportNote.trim(),
+        amenities: reportAmenities,
+        updatedAt: now,
+      },
+    }))
+    setShowReportForm(false)
   }
 
   return (
@@ -418,8 +545,25 @@ function App() {
             <button className={rainyOnly ? 'active rainy-filter' : 'rainy-filter'} onClick={() => setRainyOnly((value) => !value)}>
               ☔ 雨天備案
             </button>
+            <button className={eventOnly ? 'active event-filter' : 'event-filter'} onClick={() => setEventOnly((value) => !value)}>
+              🎪 本週活動
+            </button>
           </div>
         </section>
+
+        {weather && (
+          <section className="weather-recommendation">
+            <CloudRain size={20} />
+            <div>
+              <strong>{weather.label}・{Math.round(weather.temperature)}°C</strong>
+              <span>今日降雨機率 {weather.precipitationProbability}%・已依天氣優先排序</span>
+            </div>
+            {weather.precipitationProbability >= 45 && !rainyOnly && (
+              <button onClick={() => setRainyOnly(true)}>只看雨備</button>
+            )}
+          </section>
+        )}
+        {weatherStatus === 'loading' && <div className="weather-loading">正在取得地區天氣…</div>}
 
         {showFilters && (
           <section className="advanced-filters">
@@ -574,6 +718,17 @@ function App() {
                 <div className="rating-line official-line"><Database size={17} />交通部觀光署官方開放資料</div>
               )}
               <p className="detail-description">{selected.description}</p>
+              {selected.completeness && (
+                <div className="completeness-panel">
+                  <div>
+                    <strong>資訊完整度 {selected.completeness.score}%</strong>
+                    <span>資料更新：{selected.updatedAt ? new Date(selected.updatedAt).toLocaleDateString('zh-TW') : '未提供'}</span>
+                  </div>
+                  {selected.completeness.missing.length > 0 && (
+                    <small>尚缺：{selected.completeness.missing.join('、')}</small>
+                  )}
+                </div>
+              )}
               {aiInsights[selected.id] && (
                 <div className="ai-insight">
                   <div className="ai-heading">
@@ -659,6 +814,68 @@ function App() {
                   <div className="parking-note">
                     <strong>停車說明</strong>
                     <span>{selected.familyAmenities.parkingInfo}</span>
+                  </div>
+                )}
+              </div>
+              <div className="detail-section">
+                <h3>爸媽最近回報</h3>
+                {reports[selected.id] ? (
+                  <div className="parent-report-summary">
+                    <div>
+                      <CheckCircle2 size={18} />
+                      <span>
+                        <strong>{new Date(reports[selected.id].visitedAt).toLocaleDateString('zh-TW')} 去過</strong>
+                        <small>{reports[selected.id].liked ? '孩子喜歡這裡' : '體驗普通'}</small>
+                      </span>
+                    </div>
+                    {reports[selected.id].note && <p>{reports[selected.id].note}</p>}
+                    <button onClick={() => setShowReportForm(true)}>更新回報</button>
+                  </div>
+                ) : (
+                  <button className="report-start" onClick={() => setShowReportForm(true)}>
+                    <NotebookPen size={17} />我最近去過，補充現場資訊
+                  </button>
+                )}
+                {showReportForm && (
+                  <div className="report-form">
+                    <div className="report-choice">
+                      <button className={reportLiked ? 'active' : ''} onClick={() => setReportLiked(true)}>👍 孩子喜歡</button>
+                      <button className={!reportLiked ? 'active' : ''} onClick={() => setReportLiked(false)}>😐 體驗普通</button>
+                    </div>
+                    <strong>這次有看到哪些設施？</strong>
+                    <div className="report-amenities">
+                      {[
+                        ['nursingRoom', '🤱 育嬰室'],
+                        ['diaperTable', '🧷 尿布台'],
+                        ['familyRestroom', '🚻 親子廁所'],
+                        ['accessibility', '♿ 無障礙'],
+                        ['parking', '🅿️ 停車'],
+                        ['strollerFriendly', '🛒 推車友善'],
+                      ].map(([key, label]) => (
+                        <label key={key}>
+                          <input
+                            type="checkbox"
+                            checked={reportAmenities[key as FamilyAmenityKey] === true}
+                            onChange={(event) => setReportAmenities((current) => ({
+                              ...current,
+                              [key]: event.target.checked,
+                            }))}
+                          />
+                          {label}
+                        </label>
+                      ))}
+                    </div>
+                    <textarea
+                      value={reportNote}
+                      onChange={(event) => setReportNote(event.target.value)}
+                      placeholder="例如：週六下午人很多、推車可走、停車等了 20 分鐘…"
+                      maxLength={240}
+                    />
+                    <div className="report-actions">
+                      <button onClick={() => setShowReportForm(false)}>取消</button>
+                      <button className="primary" onClick={saveReport}>儲存在這支手機</button>
+                    </div>
+                    <small>目前回報只保存在此裝置，不會公開上傳。</small>
                   </div>
                 )}
               </div>
