@@ -1,8 +1,8 @@
 {
   "sourceUrl": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
-  "sourceUpdatedAt": "2026-06-20T02:31:09+08:00",
-  "generatedFromSourceAt": "2026-06-20T02:31:09+08:00",
-  "sourceCount": 5949,
+  "sourceUpdatedAt": "2026-06-21T02:31:27+08:00",
+  "generatedFromSourceAt": "2026-06-21T02:31:27+08:00",
+  "sourceCount": 5948,
   "restaurantSourceCount": 3692,
   "restaurantPublishedCount": 2666,
   "restaurantRejected": {
@@ -13,19 +13,19 @@
     "quality": 828
   },
   "eventSourceCount": 773,
-  "eventPublishedCount": 225,
+  "eventPublishedCount": 224,
   "eventRejected": {
-    "expired": 471,
+    "expired": 473,
     "coordinate": 1,
     "duplicate": 14,
-    "relevance": 62
+    "relevance": 61
   },
-  "candidateCount": 6032,
-  "publishedCount": 6032,
+  "candidateCount": 6031,
+  "publishedCount": 6031,
   "featuredCount": 300,
   "regionCounts": {
     "北部": 1616,
-    "中部": 1882,
+    "中部": 1881,
     "南部": 1285,
     "東部": 746,
     "離島": 503
@@ -33,7 +33,7 @@
   "rejected": {
     "inactive": 53,
     "coordinate": 24,
-    "duplicate": 221,
+    "duplicate": 220,
     "relevance": 2510,
     "quality": 0
   },
@@ -44,7 +44,7 @@
     "咖啡下午茶": 266,
     "室內餐廳": 2029,
     "探索學習": 232,
-    "本週活動": 225,
+    "本週活動": 224,
     "甜點冰品": 290,
     "百貨商場": 34,
     "自然放電": 1211,
