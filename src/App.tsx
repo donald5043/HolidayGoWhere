@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState, type CSSProperties } from 'react'
 import {
   Baby,
   Bookmark,
@@ -15,7 +15,6 @@ import {
   Instagram,
   LocateFixed,
   MapPin,
-  Menu,
   Navigation,
   NotebookPen,
   Search,
@@ -24,6 +23,8 @@ import {
   Star,
   SunMedium,
   TentTree,
+  Volume2,
+  VolumeX,
   X,
 } from 'lucide-react'
 import {
@@ -266,6 +267,8 @@ function App() {
   const [activeTab, setActiveTab] = useState<'home' | 'explore' | 'favorites' | 'profile'>('home')
   const [showProfile, setShowProfile] = useState(false)
   const [showReportForm, setShowReportForm] = useState(false)
+  const [soundEnabled, setSoundEnabled] = useState(() => localStorage.getItem('holiday-go-where:sound') === 'on')
+  const audioContextRef = useRef<AudioContext | null>(null)
   const [reportLiked, setReportLiked] = useState(true)
   const [reportNote, setReportNote] = useState('')
   const [reportAmenities, setReportAmenities] = useState<Partial<Record<FamilyAmenityKey, boolean>>>({})
@@ -291,6 +294,40 @@ function App() {
   useEffect(() => {
     localStorage.setItem('holiday-go-where:reports', JSON.stringify(reports))
   }, [reports])
+
+  useEffect(() => {
+    localStorage.setItem('holiday-go-where:sound', soundEnabled ? 'on' : 'off')
+  }, [soundEnabled])
+
+  const playUiSound = useCallback((kind: 'tap' | 'favorite' | 'open' = 'tap', force = false) => {
+    if (!soundEnabled && !force) return
+    const AudioContextClass = window.AudioContext || (window as typeof window & {
+      webkitAudioContext?: typeof AudioContext
+    }).webkitAudioContext
+    if (!AudioContextClass) return
+    const context = audioContextRef.current || new AudioContextClass()
+    audioContextRef.current = context
+    const now = context.currentTime
+    const oscillator = context.createOscillator()
+    const gain = context.createGain()
+    const frequencies = kind === 'favorite' ? [523, 659] : kind === 'open' ? [392, 523] : [440]
+    oscillator.type = 'sine'
+    oscillator.frequency.setValueAtTime(frequencies[0], now)
+    if (frequencies[1]) oscillator.frequency.exponentialRampToValueAtTime(frequencies[1], now + 0.09)
+    gain.gain.setValueAtTime(0.0001, now)
+    gain.gain.exponentialRampToValueAtTime(0.055, now + 0.012)
+    gain.gain.exponentialRampToValueAtTime(0.0001, now + 0.14)
+    oscillator.connect(gain)
+    gain.connect(context.destination)
+    oscillator.start(now)
+    oscillator.stop(now + 0.15)
+  }, [soundEnabled])
+
+  const toggleSound = () => {
+    const next = !soundEnabled
+    setSoundEnabled(next)
+    if (next) playUiSound('open', true)
+  }
 
   useEffect(() => {
     if (!selected) {
@@ -322,6 +359,7 @@ function App() {
   }, [])
 
   const selectRegion = async (nextRegion: (typeof regions)[number]) => {
+    playUiSound()
     setRegion(nextRegion)
     setMapViewport(null)
     const cached = placeCache[nextRegion]
@@ -481,6 +519,7 @@ function App() {
   )
 
   const toggleFavorite = (id: string) => {
+    playUiSound('favorite')
     setFavorites((current) => current.includes(id) ? current.filter((item) => item !== id) : [...current, id])
   }
 
@@ -536,6 +575,7 @@ function App() {
   }
 
   const openExplore = (tab: 'explore' | 'favorites') => {
+    playUiSound('tap')
     setActiveTab(tab)
     setShowProfile(false)
     window.setTimeout(
@@ -545,12 +585,14 @@ function App() {
   }
 
   const openHome = () => {
+    playUiSound('tap')
     setActiveTab('home')
     setShowProfile(false)
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
   const openProfile = () => {
+    playUiSound('open')
     setActiveTab('profile')
     setShowProfile(true)
   }
@@ -575,25 +617,38 @@ function App() {
     <div className="app-shell">
       <header className="topbar">
         <a className="brand" href="#" aria-label="假日去哪兒首頁">
-          <span className="brand-mark">🐻</span>
-          <span><strong>假日去哪兒</strong><small>和孩子一起發現好地方</small></span>
+          <span className="brand-mark"><span>🐻</span></span>
+          <span><strong>假日去哪兒</strong><small>Family days, beautifully planned.</small></span>
         </a>
         <div className="desktop-actions">
-          <button className="ghost-button"><Bookmark size={18} />我的收藏</button>
-          <button className="avatar-button">晴</button>
+          <button className="sound-button" onClick={toggleSound} aria-label={soundEnabled ? '關閉介面音效' : '開啟介面音效'}>
+            {soundEnabled ? <Volume2 size={17} /> : <VolumeX size={17} />}
+            <span>{soundEnabled ? '音效開啟' : '音效關閉'}</span>
+          </button>
+          <button className="ghost-button" onClick={() => openExplore('favorites')}><Bookmark size={18} />我的收藏</button>
+          <button className="avatar-button" onClick={openProfile}>晴</button>
         </div>
-        <button className="mobile-menu" aria-label="開啟選單"><Menu /></button>
+        <button className="mobile-menu sound-button" onClick={toggleSound} aria-label={soundEnabled ? '關閉介面音效' : '開啟介面音效'}>
+          {soundEnabled ? <Volume2 /> : <VolumeX />}
+        </button>
       </header>
 
       <main>
         <section className="hero">
-          <div className="hero-art hero-art-left">☁️</div>
-          <div className="hero-art hero-art-right">🎈</div>
+          <div className="hero-glow hero-glow-one" />
+          <div className="hero-glow hero-glow-two" />
           <div className="hero-copy">
-            <div className="hero-kicker"><Sparkles size={16} /> 今天想帶孩子去哪裡？</div>
-            <h1>小小探險，<br /><span>大大回憶。</span></h1>
-            <p>依孩子年齡、天氣與時間，找到全家都喜歡的好去處。</p>
+            <div className="hero-kicker"><Sparkles size={16} /> 讓每個週末，都值得孩子期待</div>
+            <h1>下一個週末，<br /><span>從孩子的眼睛重新出發。</span></h1>
+            <p>天氣、年齡、親子設施與即時活動，一次替你整理好。</p>
+            <div className="hero-proof">
+              <span><b>6,000+</b> 全臺靈感</span>
+              <span><b>225</b> 近期活動</span>
+              <span><b>0 元</b> 免費使用</span>
+            </div>
           </div>
+          <div className="hero-floating-card weather-card"><span>☀️</span><div><small>今日靈感</small><strong>適合出門放電</strong></div></div>
+          <div className="hero-floating-card activity-card"><span>🎪</span><div><small>本週新鮮事</small><strong>親子活動持續更新</strong></div></div>
           <div className="search-panel">
             <label className="search-box">
               <Search size={20} />
@@ -604,8 +659,12 @@ function App() {
               />
               {query && <button onClick={() => setQuery('')} aria-label="清除搜尋"><X size={17} /></button>}
             </label>
-            <button className="filter-toggle" onClick={() => setShowFilters(!showFilters)}>
-              <SlidersHorizontal size={18} />更多篩選
+            <button
+              className="filter-toggle"
+              onClick={() => { playUiSound(); setShowFilters(!showFilters) }}
+              aria-label={showFilters ? '收起精準篩選' : '開啟精準篩選'}
+            >
+              <SlidersHorizontal size={18} /><span>精準篩選</span>
             </button>
           </div>
         </section>
@@ -620,14 +679,14 @@ function App() {
           </div>
           <div className="filter-group age-tabs">
             {ageOptions.map((item) => (
-              <button key={item.value} className={age === item.value ? 'active' : ''} onClick={() => setAge(item.value)}>
+              <button key={item.value} className={age === item.value ? 'active' : ''} onClick={() => { playUiSound(); setAge(item.value) }}>
                 <Baby size={15} />{item.label}
               </button>
             ))}
-            <button className={rainyOnly ? 'active rainy-filter' : 'rainy-filter'} onClick={() => setRainyOnly((value) => !value)}>
+            <button className={rainyOnly ? 'active rainy-filter' : 'rainy-filter'} onClick={() => { playUiSound(); setRainyOnly((value) => !value) }}>
               ☔ 雨天備案
             </button>
-            <button className={eventOnly ? 'active event-filter' : 'event-filter'} onClick={() => setEventOnly((value) => !value)}>
+            <button className={eventOnly ? 'active event-filter' : 'event-filter'} onClick={() => { playUiSound(); setEventOnly((value) => !value) }}>
               🎪 本週活動
             </button>
           </div>
@@ -730,7 +789,7 @@ function App() {
                 <PlaceCard
                   key={place.id}
                   place={place}
-                  onOpen={() => setSelected(place)}
+                  onOpen={() => { playUiSound('open'); setSelected(place) }}
                   favorite={favorites.includes(place.id)}
                   onFavorite={() => toggleFavorite(place.id)}
                   distance={userLocation ? distanceInKm(userLocation, place) : undefined}
@@ -755,6 +814,7 @@ function App() {
         <button className={activeTab === 'explore' ? 'active' : ''} onClick={() => openExplore('explore')}><Compass size={21} /><span>探索</span></button>
         <button className={activeTab === 'favorites' ? 'active' : ''} onClick={() => openExplore('favorites')}><Heart size={21} /><span>收藏</span></button>
         <button className={activeTab === 'profile' ? 'active' : ''} onClick={openProfile}><Baby size={21} /><span>我的</span></button>
+        <span className="nav-indicator" style={{ '--nav-index': activeTab === 'home' ? 0 : activeTab === 'explore' ? 1 : activeTab === 'favorites' ? 2 : 3 } as CSSProperties} />
       </nav>
 
       {showProfile && (
