@@ -694,9 +694,22 @@ body {
   .hero-floating-card { opacity: .72; transform: scale(.9); }
   .weather-card { left: 2vw; }
   .activity-card { right: 2vw; }
+  .explore-grid {
+    grid-template-columns: minmax(0, 1fr);
+    height: auto;
+    min-height: 0;
+  }
+  .map-panel { width: 100%; height: 430px; }
+  .results-panel {
+    width: 100%;
+    overflow: visible;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 640px) {
+  html, body, #root, .app-shell { max-width: 100%; overflow-x: clip; }
   body { padding-bottom: 92px; }
   .topbar { height: 70px; padding: 0 16px; }
   .brand-mark { width: 42px; height: 42px; border-radius: 15px; }
@@ -740,18 +753,53 @@ body {
   .explore-section { width: calc(100% - 24px); margin-top: 34px; }
   .section-heading h2 { font-size: 30px; }
   .section-heading p { max-width: 245px; line-height: 1.5; }
-  .location-button { width: 46px; height: 46px; }
-  .map-panel { height: 360px; border-width: 6px; border-radius: 30px; }
+  .location-button {
+    flex: 0 0 46px;
+    width: 46px;
+    height: 46px;
+    padding: 0;
+    justify-content: center;
+    color: var(--night);
+    background: #fff;
+  }
+  .location-button svg { width: 20px; height: 20px; flex: 0 0 auto; stroke-width: 2.4; }
+  .location-button.is-active { color: var(--lime); background: var(--night); }
+  .explore-grid {
+    width: 100%;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+  }
+  .map-panel {
+    width: 100%;
+    min-width: 0;
+    height: 360px;
+    border-width: 6px;
+    border-radius: 30px;
+  }
+  .open-map { min-width: 0; }
   .map-panel::after { border-radius: 24px; }
   .map-legend { left: 12px; top: 12px; }
-  .results-panel { gap: 14px; margin-top: 4px; }
+  .results-panel {
+    width: 100%;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+    padding: 0 0 8px;
+    gap: 14px;
+    margin-top: 4px;
+  }
   .place-card {
-    grid-template-columns: 124px 1fr;
+    width: 100%;
+    min-width: 0;
+    grid-template-columns: 124px minmax(0, 1fr);
     gap: 12px;
     border-radius: 25px;
     padding: 9px;
     box-shadow: 0 12px 34px rgba(28,68,60,.08);
   }
+  .place-copy { min-width: 0; overflow: hidden; }
+  .place-copy h3, .place-copy p { overflow-wrap: anywhere; }
   .place-image-wrap { min-height: 165px; border-radius: 19px; }
   .place-image { border-radius: 19px; }
   .place-copy h3 { font-size: 16px; }
