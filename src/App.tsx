@@ -131,45 +131,34 @@ function PlaceImage({
     [place.image, place.imageCandidates],
   )
   const [index, setIndex] = useState(0)
-  const [loaded, setLoaded] = useState(false)
 
   useEffect(() => {
     setIndex(0)
-    setLoaded(false)
   }, [place.id])
 
-  useEffect(() => {
-    if (loaded || candidates[index] === FALLBACK_IMAGE) return
-    const timeout = window.setTimeout(
-      () => {
-        setLoaded(false)
-        setIndex((current) => Math.min(current + 1, candidates.length - 1))
-      },
-      3500,
-    )
-    return () => window.clearTimeout(timeout)
-  }, [candidates, index, loaded])
+  const advanceImage = () => {
+    setIndex((current) => Math.min(current + 1, candidates.length - 1))
+  }
 
   return (
     <img
+      key={`${place.id}:${index}`}
       src={candidates[index]}
       alt={`${place.name}照片`}
       className={className}
       loading={eager ? 'eager' : 'lazy'}
       decoding="async"
       referrerPolicy="no-referrer"
+      data-image-fallback={candidates[index] === FALLBACK_IMAGE ? 'true' : 'false'}
       onLoad={(event) => {
-        if (event.currentTarget.naturalWidth < 80 || event.currentTarget.naturalHeight < 80) {
-          setLoaded(false)
-          setIndex((current) => Math.min(current + 1, candidates.length - 1))
-          return
+        if (
+          candidates[index] !== FALLBACK_IMAGE &&
+          (event.currentTarget.naturalWidth < 80 || event.currentTarget.naturalHeight < 80)
+        ) {
+          advanceImage()
         }
-        setLoaded(true)
       }}
-      onError={() => {
-        setLoaded(false)
-        setIndex((current) => Math.min(current + 1, candidates.length - 1))
-      }}
+      onError={advanceImage}
     />
   )
 }
@@ -189,7 +178,7 @@ function PlaceCard({
 }) {
   return (
     <article className="place-card" onClick={onOpen}>
-      <div className="place-image-wrap" style={{ backgroundImage: `url(${FALLBACK_IMAGE})` }}>
+      <div className="place-image-wrap">
         <PlaceImage place={place} className="place-image" />
         <span className="place-image-scrim" />
         <span className="price-tag">{place.priceLabel}</span>
@@ -864,7 +853,7 @@ function App() {
         <div className="modal-backdrop" onClick={() => setSelected(null)}>
           <aside className="place-detail" onClick={(event) => event.stopPropagation()}>
             <button className="modal-close" onClick={() => setSelected(null)} aria-label="關閉"><X /></button>
-            <div className="detail-image" style={{ backgroundImage: `url(${FALLBACK_IMAGE})` }}>
+            <div className="detail-image">
               <PlaceImage place={selected} className="detail-photo" eager />
               <span>{selected.category}</span>
             </div>
