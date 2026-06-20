@@ -191,6 +191,7 @@ function PlaceCard({
     <article className="place-card" onClick={onOpen}>
       <div className="place-image-wrap" style={{ backgroundImage: `url(${FALLBACK_IMAGE})` }}>
         <PlaceImage place={place} className="place-image" />
+        <span className="place-image-scrim" />
         <span className="price-tag">{place.priceLabel}</span>
         <button
           className={`heart-button ${favorite ? 'is-favorite' : ''}`}
@@ -204,12 +205,12 @@ function PlaceCard({
         </button>
       </div>
       <div className="place-copy">
+        <h3>{place.name}</h3>
         <div className="eyebrow">
           <span>{place.category}</span>
           <span>・</span>
           <span>{place.setting}</span>
         </div>
-        <h3>{place.name}</h3>
         <div className="decision-badges">
           {place.weekendEvent && <span className="event-badge"><CalendarDays size={12} />本週末</span>}
           {place.completeness && (
@@ -230,12 +231,15 @@ function PlaceCard({
           )}
         </div>
         <p>{place.description}</p>
-        <div className="tag-row">
-          <span><Baby size={13} />{place.ageMin}–{place.ageMax} 歲</span>
-          <span><Clock3 size={13} />{place.duration}</span>
-          {distance !== undefined && (
-            <span className="distance-tag"><LocateFixed size={13} />距離約 {distance < 10 ? distance.toFixed(1) : Math.round(distance)} km</span>
-          )}
+        <div className="card-footer">
+          <div className="tag-row">
+            <span><Baby size={13} />{place.ageMin}–{place.ageMax} 歲</span>
+            <span><Clock3 size={13} />{place.duration}</span>
+            {distance !== undefined && (
+              <span className="distance-tag"><LocateFixed size={13} />距離約 {distance < 10 ? distance.toFixed(1) : Math.round(distance)} km</span>
+            )}
+          </div>
+          <span className="card-cta">查看詳情 <Navigation size={13} /></span>
         </div>
       </div>
     </article>
@@ -637,18 +641,36 @@ function App() {
         <section className="hero">
           <div className="hero-glow hero-glow-one" />
           <div className="hero-glow hero-glow-two" />
-          <div className="hero-copy">
-            <div className="hero-kicker"><Sparkles size={16} /> 讓每個週末，都值得孩子期待</div>
-            <h1>下一個週末，<br /><span>從孩子的眼睛重新出發。</span></h1>
-            <p>天氣、年齡、親子設施與即時活動，一次替你整理好。</p>
-            <div className="hero-proof">
-              <span><b>6,000+</b> 全臺靈感</span>
-              <span><b>225</b> 近期活動</span>
-              <span><b>0 元</b> 免費使用</span>
+          <div className="hero-layout">
+            <div className="hero-copy">
+              <div className="hero-kicker"><Sparkles size={16} /> 讓每個週末，都值得孩子期待</div>
+              <h1>下一個週末，<br /><span>從孩子的眼睛重新出發。</span></h1>
+              <p>天氣、年齡、親子設施與即時活動，一次替你整理好。</p>
+              <div className="hero-proof">
+                <span><b>6,000+</b> 全臺靈感</span>
+                <span><b>225</b> 近期活動</span>
+                <span><b>0 元</b> 免費使用</span>
+              </div>
+            </div>
+            <div className="hero-visual" aria-hidden="true">
+              <div className="hero-map-preview">
+                <span className="preview-route" />
+                <span className="preview-pin pin-one"><MapPin size={17} /></span>
+                <span className="preview-pin pin-two"><MapPin size={15} /></span>
+                <span className="preview-pin pin-three"><MapPin size={14} /></span>
+                <div className="hero-destination-card">
+                  <span className="destination-art">🌿</span>
+                  <div>
+                    <small>今日推薦</small>
+                    <strong>一起去戶外呼吸</strong>
+                    <span><MapPin size={12} /> 距離適中・推車友善</span>
+                  </div>
+                </div>
+              </div>
+              <div className="hero-floating-card weather-card"><span>☀️</span><div><small>今日天氣</small><strong>適合出門放電</strong></div></div>
+              <div className="hero-floating-card activity-card"><CalendarDays size={22} /><div><small>本週新鮮事</small><strong>親子活動持續更新</strong></div></div>
             </div>
           </div>
-          <div className="hero-floating-card weather-card"><span>☀️</span><div><small>今日靈感</small><strong>適合出門放電</strong></div></div>
-          <div className="hero-floating-card activity-card"><span>🎪</span><div><small>本週新鮮事</small><strong>親子活動持續更新</strong></div></div>
           <div className="search-panel">
             <label className="search-box">
               <Search size={20} />
