@@ -40,6 +40,15 @@ import { MapView, type MapViewport } from './MapView'
 const regions = ['全部', '北部', '中部', '南部', '東部', '離島'] as const
 const settings = ['全部', '室內', '室外', '室內外'] as const
 const durations = ['全部', '半日', '一日', '晚上'] as const
+const regionEmoji: Partial<Record<(typeof regions)[number], string>> = {
+  北部: '🏙', 中部: '⛰', 南部: '🌊', 東部: '🌲', 離島: '🏝',
+}
+const settingEmoji: Partial<Record<(typeof settings)[number], string>> = {
+  室內: '🏛', 室外: '🌿', 室內外: '✨',
+}
+const durationEmoji: Partial<Record<(typeof durations)[number], string>> = {
+  半日: '⏱', 一日: '🗓', 晚上: '🌙',
+}
 const MAX_VISIBLE_PLACES = 120
 const MAX_MAP_PLACES = 80
 const FALLBACK_IMAGE = `${import.meta.env.BASE_URL}place-fallback.svg`
@@ -610,7 +619,9 @@ function App() {
     <div className="app-shell">
       <header className="topbar">
         <a className="brand" href="#" aria-label="假日去哪兒首頁">
-          <span className="brand-mark"><span>🐻</span></span>
+          <span className="brand-mark" aria-hidden="true">
+            <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="" className="brand-logo-img" />
+          </span>
           <span><strong>假日去哪兒</strong><small>Family days, beautifully planned.</small></span>
         </a>
         <div className="desktop-actions">
@@ -684,7 +695,7 @@ function App() {
           <div className="filter-group region-tabs">
             {regions.map((item) => (
               <button key={item} className={region === item ? 'active' : ''} onClick={() => void selectRegion(item)}>
-                {item}
+                {regionEmoji[item] ? <span className="filter-emoji">{regionEmoji[item]}</span> : null}{item}
               </button>
             ))}
           </div>
@@ -722,13 +733,21 @@ function App() {
             <div>
               <span className="filter-label"><SunMedium size={16} />空間類型</span>
               <div className="filter-pills">
-                {settings.map((item) => <button key={item} className={setting === item ? 'active' : ''} onClick={() => setSetting(item)}>{item}</button>)}
+                {settings.map((item) => (
+                <button key={item} className={setting === item ? 'active' : ''} onClick={() => setSetting(item)}>
+                  {settingEmoji[item] ? <span className="filter-emoji">{settingEmoji[item]}</span> : null}{item}
+                </button>
+              ))}
               </div>
             </div>
             <div>
               <span className="filter-label"><Clock3 size={16} />可用時間</span>
               <div className="filter-pills">
-                {durations.map((item) => <button key={item} className={duration === item ? 'active' : ''} onClick={() => setDuration(item)}>{item}</button>)}
+                {durations.map((item) => (
+                <button key={item} className={duration === item ? 'active' : ''} onClick={() => setDuration(item)}>
+                  {durationEmoji[item] ? <span className="filter-emoji">{durationEmoji[item]}</span> : null}{item}
+                </button>
+              ))}
               </div>
             </div>
             <button className="clear-button" onClick={clearFilters}>清除條件</button>
@@ -832,7 +851,9 @@ function App() {
         <div className="modal-backdrop profile-backdrop" onClick={() => setShowProfile(false)}>
           <aside className="profile-sheet" onClick={(event) => event.stopPropagation()}>
             <button className="modal-close" onClick={() => setShowProfile(false)} aria-label="關閉"><X /></button>
-            <div className="profile-bear">🐻</div>
+            <div className="profile-bear" aria-hidden="true">
+              <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="" className="profile-bear-img" />
+            </div>
             <h2>我的親子小檔案</h2>
             <p>你的收藏與偏好會保存在這支手機裡。</p>
             <div className="profile-stats">
