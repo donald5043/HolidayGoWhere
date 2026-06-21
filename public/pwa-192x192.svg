@@ -1,8 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
-  <rect width="192" height="192" rx="52" fill="#ff8066"/>
-  <circle cx="96" cy="91" r="57" fill="#fff3cb"/>
-  <circle cx="73" cy="82" r="10" fill="#274d4a"/>
-  <circle cx="119" cy="82" r="10" fill="#274d4a"/>
-  <path d="M75 116c14 13 29 13 43 0" fill="none" stroke="#274d4a" stroke-width="9" stroke-linecap="round"/>
-  <path d="m49 51 15-25 19 21M143 51l-15-25-19 21" fill="#fff3cb"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" fill="none">
+  <defs>
+    <radialGradient id="g" cx="78%" cy="18%" r="62%">
+      <stop offset="0%" stop-color="#d9775f" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#d9775f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="192" height="192" rx="52" fill="#243b37"/>
+  <rect width="192" height="192" rx="52" fill="url(#g)"/>
+  <!-- Kite body (diamond) -->
+  <path d="M96 22L144 81L96 127L48 81Z" fill="#d9775f"/>
+  <!-- Top-right quadrant highlight -->
+  <path d="M96 22L144 81L96 81Z" fill="white" opacity="0.15"/>
+  <!-- Structural cross lines -->
+  <line x1="48" y1="81" x2="144" y2="81" stroke="rgba(255,252,247,0.24)" stroke-width="3.5"/>
+  <line x1="96" y1="22" x2="96" y2="127" stroke="rgba(255,252,247,0.24)" stroke-width="3.5"/>
+  <!-- Tail string -->
+  <path d="M96 127C103 142 111 153 103 166C96 175 105 183 105 183"
+        stroke="#f3c9b8" stroke-width="6.5" stroke-linecap="round" fill="none"/>
+  <!-- Tail bow 1 -->
+  <ellipse cx="107" cy="144" rx="11" ry="6" fill="#f3c9b8" opacity="0.82" transform="rotate(20 107 144)"/>
+  <!-- Tail bow 2 -->
+  <ellipse cx="98" cy="170" rx="10" ry="5" fill="#f3c9b8" opacity="0.64" transform="rotate(-5 98 170)"/>
 </svg>
