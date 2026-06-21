@@ -434,6 +434,78 @@
     }
   },
   {
+    "id": "Event_387000000A_010244",
+    "name": "2026台中夏日馬戲節",
+    "region": "中部",
+    "city": "臺中市",
+    "district": "北區",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "本週活動",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺中市北區雙十路一段65號",
+    "hours": "6/27－6/28",
+    "lat": 24.14487,
+    "lng": 120.68362,
+    "image": "https://travel.taichung.gov.tw/content/images/articles/67611/640x480_articles-image-vldixlyazuojgr7h7ma_xq.png",
+    "imageCandidates": [],
+    "accent": "#ff6b6b",
+    "description": "2026 台中夏日馬戲節 今年以「跨界娛樂 × 當代馬戲 × 國際交流」為核心概念，於臺中公園打造一場兼具娛樂性與藝術性的夏日城市文化盛會，透過多元節目形式與國際團隊參與，呈現當代馬戲的新魅力。2天共12場演出、10場脫口秀、8場工作坊 ☀當代馬戲演出☀ ☀國際團隊登台☀ ☀Juggling Battle 邀請賽☀ ☀脫口秀串場☀ ☀雜耍工作坊☀ ☀手作體驗…",
+    "highlights": [
+      "本週末限定",
+      "期間限定",
+      "親子新鮮事"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": []
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2026%E5%8F%B0%E4%B8%AD%E5%A4%8F%E6%97%A5%E9%A6%AC%E6%88%B2%E7%AF%80%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E9%9B%99%E5%8D%81%E8%B7%AF%E4%B8%80%E6%AE%B565%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #2026台中夏日馬戲節",
+        "url": "https://www.instagram.com/explore/tags/2026%E5%8F%B0%E4%B8%AD%E5%A4%8F%E6%97%A5%E9%A6%AC%E6%88%B2%E7%AF%80/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=2026%E5%8F%B0%E4%B8%AD%E5%A4%8F%E6%97%A5%E9%A6%AC%E6%88%B2%E7%AF%80%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
+    "sourceId": "Event_387000000A_010244",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-10T09:27:55+08:00",
+    "rainyDay": false,
+    "placeType": "活動",
+    "eventStart": "2026-06-27T16:00:00+08:00",
+    "eventEnd": "2026-06-28T21:00:00+08:00",
+    "weekendEvent": true,
+    "completeness": {
+      "score": 50,
+      "missing": [
+        "官方網站",
+        "票價資訊",
+        "親子設施"
+      ]
+    }
+  },
+  {
     "id": "Event_395000000A_007562",
     "name": "臺南旅遊服務中心推廣伴手禮專區",
     "region": "南部",
@@ -825,6 +897,88 @@
     }
   },
   {
+    "id": "Event_382000000A_003863",
+    "name": "2026野柳石光夜訪女王",
+    "region": "北部",
+    "city": "新北市",
+    "district": "萬里區",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室內外",
+    "duration": "半日",
+    "category": "本週活動",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "新北市萬里區野柳里港東路167-1號(野柳地質公園)",
+    "hours": "6/27－7/12",
+    "lat": 25.2064,
+    "lng": 121.69047,
+    "image": "https://newtaipei.travel/image/71813/640x480",
+    "imageCandidates": [],
+    "accent": "#ff6b6b",
+    "description": "今年夏季，野柳地質公園將化身為一座「會呼吸的夜間地景美術館」!",
+    "highlights": [
+      "本週末限定",
+      "期間限定",
+      "親子新鮮事"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "confirmed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": [
+        {
+          "amenities": [
+            "accessibility"
+          ],
+          "source": "全國公廁建檔資料",
+          "label": "野柳地質公園(出口)-無障礙廁所",
+          "url": "https://data.gov.tw/dataset/30794",
+          "note": "無障礙廁所・距景點約 135 公尺"
+        }
+      ]
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2026%E9%87%8E%E6%9F%B3%E7%9F%B3%E5%85%89%E5%A4%9C%E8%A8%AA%E5%A5%B3%E7%8E%8B%20%E6%96%B0%E5%8C%97%E5%B8%82%E8%90%AC%E9%87%8C%E5%8D%80%E9%87%8E%E6%9F%B3%E9%87%8C%E6%B8%AF%E6%9D%B1%E8%B7%AF167-1%E8%99%9F(%E9%87%8E%E6%9F%B3%E5%9C%B0%E8%B3%AA%E5%85%AC%E5%9C%92)",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #2026野柳石光夜訪女王",
+        "url": "https://www.instagram.com/explore/tags/2026%E9%87%8E%E6%9F%B3%E7%9F%B3%E5%85%89%E5%A4%9C%E8%A8%AA%E5%A5%B3%E7%8E%8B/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=2026%E9%87%8E%E6%9F%B3%E7%9F%B3%E5%85%89%E5%A4%9C%E8%A8%AA%E5%A5%B3%E7%8E%8B%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
+    "sourceId": "Event_382000000A_003863",
+    "qualityScore": 10,
+    "updatedAt": "2026-05-27T02:05:59+08:00",
+    "rainyDay": true,
+    "placeType": "活動",
+    "eventStart": "2026-06-27T16:00:00+08:00",
+    "eventEnd": "2026-07-12T15:59:59+08:00",
+    "weekendEvent": true,
+    "completeness": {
+      "score": 50,
+      "missing": [
+        "官方網站",
+        "票價資訊",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
     "id": "Event_382000000A_003701",
     "name": "「與橋同行，淡八共鳴」水陸遊程",
     "region": "北部",
@@ -958,78 +1112,6 @@
     "placeType": "活動",
     "eventStart": "2026-04-01T00:00:00+08:00",
     "eventEnd": "2026-10-31T23:59:59+08:00",
-    "weekendEvent": true,
-    "completeness": {
-      "score": 50,
-      "missing": [
-        "官方網站",
-        "票價資訊",
-        "親子設施"
-      ]
-    }
-  },
-  {
-    "id": "Event_382000000A_003850",
-    "name": "新北好茶｜春燕品香茗",
-    "region": "北部",
-    "city": "新北市",
-    "district": "坪林區",
-    "ageMin": 3,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "本週活動",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查官網",
-    "address": "新北市坪林區坪林茶葉博物館旁廣場",
-    "hours": "6/5－6/21",
-    "lat": 24.93447,
-    "lng": 121.71283,
-    "image": "https://newtaipei.travel/image/71650/640x480",
-    "imageCandidates": [],
-    "accent": "#ff6b6b",
-    "description": "《新北好茶-春燕品香茗》一起來品好茶、逛市集、體驗茶文化魅力！活動分為兩大場次，主場活動則在6月6、7、13、14日10:00-17:00於「新北市坪林茶業博物館旁廣場」登場，匯聚多達60攤市集、 打卡品嚐在地小吃、蟲蟲危機趣味挑戰、闖關活動、水岸「免廢市集」、山系運動X茶香健走、SUP立槳體驗、等多項豐富活動；此外還有低碳旅遊行程與好茶小學堂課程可參加。消…",
-    "highlights": [
-      "本週末限定",
-      "期間限定",
-      "親子新鮮事"
-    ],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "官方資料尚未提供停車資訊。",
-      "evidence": []
-    },
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%8C%97%E5%A5%BD%E8%8C%B6%EF%BD%9C%E6%98%A5%E7%87%95%E5%93%81%E9%A6%99%E8%8C%97%20%E6%96%B0%E5%8C%97%E5%B8%82%E5%9D%AA%E6%9E%97%E5%8D%80%E5%9D%AA%E6%9E%97%E8%8C%B6%E8%91%89%E5%8D%9A%E7%89%A9%E9%A4%A8%E6%97%81%E5%BB%A3%E5%A0%B4",
-    "sources": [
-      {
-        "type": "Instagram",
-        "label": "查看 #新北好茶春燕品香茗",
-        "url": "https://www.instagram.com/explore/tags/%E6%96%B0%E5%8C%97%E5%A5%BD%E8%8C%B6%E6%98%A5%E7%87%95%E5%93%81%E9%A6%99%E8%8C%97/"
-      },
-      {
-        "type": "部落格",
-        "label": "搜尋親子遊記",
-        "url": "https://www.google.com/search?q=%E6%96%B0%E5%8C%97%E5%A5%BD%E8%8C%B6%EF%BD%9C%E6%98%A5%E7%87%95%E5%93%81%E9%A6%99%E8%8C%97%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
-      }
-    ],
-    "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
-    "sourceId": "Event_382000000A_003850",
-    "qualityScore": 10,
-    "updatedAt": "2026-05-15T02:26:55+08:00",
-    "rainyDay": true,
-    "placeType": "活動",
-    "eventStart": "2026-06-05T16:00:00+08:00",
-    "eventEnd": "2026-06-21T15:59:59+08:00",
     "weekendEvent": true,
     "completeness": {
       "score": 50,
@@ -1247,7 +1329,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081672",
     "qualityScore": 10,
-    "updatedAt": "2026-06-20T02:00:03+08:00",
+    "updatedAt": "2026-06-21T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-04-01T00:00:00+08:00",
@@ -1404,7 +1486,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081658",
     "qualityScore": 10,
-    "updatedAt": "2026-06-20T02:00:03+08:00",
+    "updatedAt": "2026-06-21T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-04-30T00:00:00+08:00",
@@ -1480,7 +1562,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081893",
     "qualityScore": 10,
-    "updatedAt": "2026-06-20T02:00:03+08:00",
+    "updatedAt": "2026-06-21T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-05-29T00:00:00+08:00",
@@ -1556,7 +1638,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081641",
     "qualityScore": 10,
-    "updatedAt": "2026-06-20T02:00:03+08:00",
+    "updatedAt": "2026-06-21T02:00:04+08:00",
     "rainyDay": true,
     "placeType": "活動",
     "eventStart": "2025-12-01T00:00:00+08:00",
@@ -1565,6 +1647,78 @@
     "completeness": {
       "score": 67,
       "missing": [
+        "票價資訊",
+        "親子設施"
+      ]
+    }
+  },
+  {
+    "id": "Event_A15011200H_014323",
+    "name": "2026玉井芒果季",
+    "region": "南部",
+    "city": "臺南市",
+    "district": "玉井區",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "本週活動",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺南市玉井區",
+    "hours": "6/27－7/31",
+    "lat": 23.18872,
+    "lng": 120.33323,
+    "image": "https://www.siraya-nsa.gov.tw/image/100532/640x480",
+    "imageCandidates": [],
+    "accent": "#ff6b6b",
+    "description": "每年夏季隨著氣溫攀升，綠意蔥蘢的果園悄悄染上閃耀色彩，夏日正是玉井區芒果的季節。結實纍纍的飽滿鮮果，總能吸引無數饕客慕名而來，一睹「芒果之鄉」的風采。提醒： 實際活動狀況依主辦單位而定。更多活動詳情、接駁車與交通管制資訊將陸續釋出，敬請期待！",
+    "highlights": [
+      "本週末限定",
+      "期間限定",
+      "親子新鮮事"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": []
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2026%E7%8E%89%E4%BA%95%E8%8A%92%E6%9E%9C%E5%AD%A3%20%E8%87%BA%E5%8D%97%E5%B8%82%E7%8E%89%E4%BA%95%E5%8D%80",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #2026玉井芒果季",
+        "url": "https://www.instagram.com/explore/tags/2026%E7%8E%89%E4%BA%95%E8%8A%92%E6%9E%9C%E5%AD%A3/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=2026%E7%8E%89%E4%BA%95%E8%8A%92%E6%9E%9C%E5%AD%A3%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
+    "sourceId": "Event_A15011200H_014323",
+    "qualityScore": 10,
+    "updatedAt": "2026-05-11T10:12:44+08:00",
+    "rainyDay": false,
+    "placeType": "活動",
+    "eventStart": "2026-06-27T00:00:00+08:00",
+    "eventEnd": "2026-07-31T23:59:59+08:00",
+    "weekendEvent": true,
+    "completeness": {
+      "score": 50,
+      "missing": [
+        "官方網站",
         "票價資訊",
         "親子設施"
       ]
@@ -1704,7 +1858,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081943",
     "qualityScore": 10,
-    "updatedAt": "2026-06-20T02:00:03+08:00",
+    "updatedAt": "2026-06-21T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-04-01T00:00:00+08:00",
@@ -2143,7 +2297,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081647",
     "qualityScore": 10,
-    "updatedAt": "2026-06-20T02:00:03+08:00",
+    "updatedAt": "2026-06-21T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-01-01T00:00:00+08:00",
@@ -2223,6 +2377,82 @@
       "score": 50,
       "missing": [
         "官方網站",
+        "票價資訊",
+        "親子設施"
+      ]
+    }
+  },
+  {
+    "id": "Event_A15010000H_081941",
+    "name": "2026台灣部落觀光嘉年華",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "中正區",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "本週活動",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺北市中正區北平西路3號",
+    "hours": "6/26－6/28",
+    "lat": 25.04732,
+    "lng": 121.516,
+    "image": "https://www.taiwan.net.tw/att/event/d808a007-203b-4138-ad67-d4af891a65b8.jpg",
+    "imageCandidates": [],
+    "accent": "#ff6b6b",
+    "description": "以交通部觀光署過去辦理部落觀光嘉年華活動為基礎，並彙整各相關部會及國家風景區管理處推動原住民族觀光之成果，辦理成果展示、部落特色產品及美食販售、旅行社遊程販售、DIY體驗、歌舞表演等具有特色之部落觀光成果發表會。",
+    "highlights": [
+      "本週末限定",
+      "期間限定",
+      "親子新鮮事"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": []
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2026%E5%8F%B0%E7%81%A3%E9%83%A8%E8%90%BD%E8%A7%80%E5%85%89%E5%98%89%E5%B9%B4%E8%8F%AF%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E5%8C%97%E5%B9%B3%E8%A5%BF%E8%B7%AF3%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "查看官方資訊",
+        "url": "https://www.facebook.com/TaiwanIndigenousTourismFestival/"
+      },
+      {
+        "type": "Instagram",
+        "label": "查看 #2026台灣部落觀光嘉年華",
+        "url": "https://www.instagram.com/explore/tags/2026%E5%8F%B0%E7%81%A3%E9%83%A8%E8%90%BD%E8%A7%80%E5%85%89%E5%98%89%E5%B9%B4%E8%8F%AF/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=2026%E5%8F%B0%E7%81%A3%E9%83%A8%E8%90%BD%E8%A7%80%E5%85%89%E5%98%89%E5%B9%B4%E8%8F%AF%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
+    "sourceId": "Event_A15010000H_081941",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-21T02:00:04+08:00",
+    "rainyDay": false,
+    "placeType": "活動",
+    "eventStart": "2026-06-26T00:00:00+08:00",
+    "eventEnd": "2026-06-28T00:00:00+08:00",
+    "weekendEvent": true,
+    "completeness": {
+      "score": 67,
+      "missing": [
         "票價資訊",
         "親子設施"
       ]
@@ -2309,7 +2539,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081634",
     "qualityScore": 10,
-    "updatedAt": "2026-06-20T02:00:03+08:00",
+    "updatedAt": "2026-06-21T02:00:04+08:00",
     "rainyDay": true,
     "placeType": "活動",
     "eventStart": "2026-06-21T00:00:00+08:00",
@@ -2456,7 +2686,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081887",
     "qualityScore": 10,
-    "updatedAt": "2026-06-20T02:00:03+08:00",
+    "updatedAt": "2026-06-21T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-03-01T00:00:00+08:00",
@@ -2532,7 +2762,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081724",
     "qualityScore": 10,
-    "updatedAt": "2026-06-20T02:00:03+08:00",
+    "updatedAt": "2026-06-21T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-03-01T00:00:00+08:00",
@@ -2608,7 +2838,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081905",
     "qualityScore": 10,
-    "updatedAt": "2026-06-20T02:00:03+08:00",
+    "updatedAt": "2026-06-21T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-06-19T00:00:00+08:00",
@@ -2693,79 +2923,6 @@
     }
   },
   {
-    "id": "Event_382000000A_003768",
-    "name": "2026春遊三鶯",
-    "region": "北部",
-    "city": "新北市",
-    "district": "鶯歌區",
-    "ageMin": 3,
-    "ageMax": 12,
-    "setting": "室外",
-    "duration": "半日",
-    "category": "本週活動",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查官網",
-    "address": "新北市立鶯歌陶瓷博物館",
-    "hours": "4/2－6/21",
-    "lat": 24.94925,
-    "lng": 121.35203,
-    "image": "https://newtaipei.travel/image/71180/640x480",
-    "imageCandidates": [],
-    "accent": "#ff6b6b",
-    "description": "自2002年起為支持921震災後的南投梅農，並推廣陶瓷文化，結合嚴選青梅與設計款梅甕推出「甕藏春梅」-醃脆梅DIY活動，活動至今已邁入第22屆，並至2024年起擴大為「春遊三鶯」系列活動。",
-    "highlights": [
-      "本週末限定",
-      "期間限定",
-      "親子新鮮事"
-    ],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "官方資料尚未提供停車資訊。",
-      "evidence": []
-    },
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2026%E6%98%A5%E9%81%8A%E4%B8%89%E9%B6%AF%20%E6%96%B0%E5%8C%97%E5%B8%82%E7%AB%8B%E9%B6%AF%E6%AD%8C%E9%99%B6%E7%93%B7%E5%8D%9A%E7%89%A9%E9%A4%A8",
-    "sources": [
-      {
-        "type": "Instagram",
-        "label": "查看 #2026春遊三鶯",
-        "url": "https://www.instagram.com/explore/tags/2026%E6%98%A5%E9%81%8A%E4%B8%89%E9%B6%AF/"
-      },
-      {
-        "type": "部落格",
-        "label": "搜尋親子遊記",
-        "url": "https://www.google.com/search?q=2026%E6%98%A5%E9%81%8A%E4%B8%89%E9%B6%AF%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
-      }
-    ],
-    "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
-    "sourceId": "Event_382000000A_003768",
-    "qualityScore": 10,
-    "updatedAt": "2026-03-27T03:16:26+08:00",
-    "rainyDay": false,
-    "placeType": "活動",
-    "eventStart": "2026-04-02T16:00:00+08:00",
-    "eventEnd": "2026-06-21T15:59:59+08:00",
-    "weekendEvent": true,
-    "completeness": {
-      "score": 33,
-      "missing": [
-        "官方網站",
-        "票價資訊",
-        "親子設施",
-        "詳細介紹"
-      ]
-    }
-  },
-  {
     "id": "Event_A15010200H_000007",
     "name": "2026望安主題特色遊程",
     "region": "離島",
@@ -2838,79 +2995,6 @@
       "missing": [
         "票價資訊",
         "親子設施"
-      ]
-    }
-  },
-  {
-    "id": "Event_382000000A_003901",
-    "name": "2026新北創客祭—仲夏光音漫遊",
-    "region": "北部",
-    "city": "新北市",
-    "district": "鶯歌區",
-    "ageMin": 3,
-    "ageMax": 12,
-    "setting": "室外",
-    "duration": "半日",
-    "category": "本週活動",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查官網",
-    "address": "新北市美術館戶外空間(三鶯之心)",
-    "hours": "6/19－6/21",
-    "lat": 24.95115,
-    "lng": 121.35533,
-    "image": "https://newtaipei.travel/image/72015/640x480",
-    "imageCandidates": [],
-    "accent": "#ff6b6b",
-    "description": "一、創客市集：ABCDE五大主題體驗區",
-    "highlights": [
-      "本週末限定",
-      "期間限定",
-      "親子新鮮事"
-    ],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "官方資料尚未提供停車資訊。",
-      "evidence": []
-    },
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2026%E6%96%B0%E5%8C%97%E5%89%B5%E5%AE%A2%E7%A5%AD%E2%80%94%E4%BB%B2%E5%A4%8F%E5%85%89%E9%9F%B3%E6%BC%AB%E9%81%8A%20%E6%96%B0%E5%8C%97%E5%B8%82%E7%BE%8E%E8%A1%93%E9%A4%A8%E6%88%B6%E5%A4%96%E7%A9%BA%E9%96%93(%E4%B8%89%E9%B6%AF%E4%B9%8B%E5%BF%83)",
-    "sources": [
-      {
-        "type": "Instagram",
-        "label": "查看 #2026新北創客祭仲夏光音漫遊",
-        "url": "https://www.instagram.com/explore/tags/2026%E6%96%B0%E5%8C%97%E5%89%B5%E5%AE%A2%E7%A5%AD%E4%BB%B2%E5%A4%8F%E5%85%89%E9%9F%B3%E6%BC%AB%E9%81%8A/"
-      },
-      {
-        "type": "部落格",
-        "label": "搜尋親子遊記",
-        "url": "https://www.google.com/search?q=2026%E6%96%B0%E5%8C%97%E5%89%B5%E5%AE%A2%E7%A5%AD%E2%80%94%E4%BB%B2%E5%A4%8F%E5%85%89%E9%9F%B3%E6%BC%AB%E9%81%8A%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
-      }
-    ],
-    "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
-    "sourceId": "Event_382000000A_003901",
-    "qualityScore": 10,
-    "updatedAt": "2026-06-18T09:04:29+08:00",
-    "rainyDay": false,
-    "placeType": "活動",
-    "eventStart": "2026-06-19T16:00:00+08:00",
-    "eventEnd": "2026-06-21T15:59:59+08:00",
-    "weekendEvent": true,
-    "completeness": {
-      "score": 33,
-      "missing": [
-        "官方網站",
-        "票價資訊",
-        "親子設施",
-        "詳細介紹"
       ]
     }
   },
@@ -3055,79 +3139,6 @@
       "missing": [
         "官方網站",
         "票價資訊",
-        "親子設施"
-      ]
-    }
-  },
-  {
-    "id": "Event_395000000A_007809",
-    "name": "2026臺南市國際龍舟錦標賽",
-    "region": "南部",
-    "city": "臺南市",
-    "district": "安平區",
-    "ageMin": 3,
-    "ageMax": 12,
-    "setting": "室外",
-    "duration": "半日",
-    "category": "本週活動",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查官網",
-    "address": "臺南市安平區臺南運河安億橋至承天橋",
-    "hours": "6/17－6/21",
-    "lat": 22.99784,
-    "lng": 120.16631,
-    "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd4297?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
-    "accent": "#ff6b6b",
-    "description": "一年一度最熱血的端午盛事2026臺南市國際龍舟錦標賽即將在 安平運河 再次點燃戰火！鼓聲震動水面，槳影劃破浪花一艘艘龍舟在水面上全力衝刺不只是慶端午，更是百年運河上每年的盛事那不只是速度的競逐更是團隊默契與榮耀的象徵。每年到這個時刻整條運河總都會被歡呼聲與加油聲包圍這就是臺南最熱血的夏日風景。不論你是(1) 想挑戰龍舟競速的熱血戰隊(2) 想感受臺南最具代表…",
-    "highlights": [
-      "本週末限定",
-      "期間限定",
-      "親子新鮮事"
-    ],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "官方資料尚未提供停車資訊。",
-      "evidence": []
-    },
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2026%E8%87%BA%E5%8D%97%E5%B8%82%E5%9C%8B%E9%9A%9B%E9%BE%8D%E8%88%9F%E9%8C%A6%E6%A8%99%E8%B3%BD%20%E8%87%BA%E5%8D%97%E5%B8%82%E5%AE%89%E5%B9%B3%E5%8D%80%E8%87%BA%E5%8D%97%E9%81%8B%E6%B2%B3%E5%AE%89%E5%84%84%E6%A9%8B%E8%87%B3%E6%89%BF%E5%A4%A9%E6%A9%8B",
-    "sources": [
-      {
-        "type": "Instagram",
-        "label": "查看 #2026臺南市國際龍舟錦標賽",
-        "url": "https://www.instagram.com/explore/tags/2026%E8%87%BA%E5%8D%97%E5%B8%82%E5%9C%8B%E9%9A%9B%E9%BE%8D%E8%88%9F%E9%8C%A6%E6%A8%99%E8%B3%BD/"
-      },
-      {
-        "type": "部落格",
-        "label": "搜尋親子遊記",
-        "url": "https://www.google.com/search?q=2026%E8%87%BA%E5%8D%97%E5%B8%82%E5%9C%8B%E9%9A%9B%E9%BE%8D%E8%88%9F%E9%8C%A6%E6%A8%99%E8%B3%BD%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
-      }
-    ],
-    "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
-    "sourceId": "Event_395000000A_007809",
-    "qualityScore": 10,
-    "updatedAt": "2026-03-26T09:38:30+08:00",
-    "rainyDay": false,
-    "placeType": "活動",
-    "eventStart": "2026-06-17T00:00:00+08:00",
-    "eventEnd": "2026-06-21T23:59:59+08:00",
-    "weekendEvent": true,
-    "completeness": {
-      "score": 33,
-      "missing": [
-        "官方網站",
-        "票價資訊",
-        "官方照片",
         "親子設施"
       ]
     }
@@ -3411,7 +3422,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15011300H_020611",
     "qualityScore": 10,
-    "updatedAt": "2026-06-20T23:10:18+08:00",
+    "updatedAt": "2026-06-21T23:10:47+08:00",
     "rainyDay": true,
     "placeType": "活動",
     "eventStart": "2026-02-09T00:00:00+08:00",
@@ -3422,79 +3433,6 @@
       "missing": [
         "票價資訊",
         "親子設施"
-      ]
-    }
-  },
-  {
-    "id": "Event_376430000A_006873",
-    "name": "桃園市蘆竹區鐵道龍舟嘉年華",
-    "region": "北部",
-    "city": "桃園市",
-    "district": "蘆竹區",
-    "ageMin": 3,
-    "ageMax": 12,
-    "setting": "室外",
-    "duration": "半日",
-    "category": "本週活動",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查官網",
-    "address": "桃園市蘆竹區坑口里航空城重劃區(桃林鐵路長興段)",
-    "hours": "6/20－6/21",
-    "lat": 25.07324,
-    "lng": 121.28255,
-    "image": "https://travel.tycg.gov.tw/image/115332/640x480",
-    "imageCandidates": [],
-    "accent": "#ff6b6b",
-    "description": "￭相關細節可電洽桃園市蘆竹區公所(03-3520000#401)",
-    "highlights": [
-      "本週末限定",
-      "期間限定",
-      "親子新鮮事"
-    ],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "官方資料尚未提供停車資訊。",
-      "evidence": []
-    },
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A1%83%E5%9C%92%E5%B8%82%E8%98%86%E7%AB%B9%E5%8D%80%E9%90%B5%E9%81%93%E9%BE%8D%E8%88%9F%E5%98%89%E5%B9%B4%E8%8F%AF%20%E6%A1%83%E5%9C%92%E5%B8%82%E8%98%86%E7%AB%B9%E5%8D%80%E5%9D%91%E5%8F%A3%E9%87%8C%E8%88%AA%E7%A9%BA%E5%9F%8E%E9%87%8D%E5%8A%83%E5%8D%80(%E6%A1%83%E6%9E%97%E9%90%B5%E8%B7%AF%E9%95%B7%E8%88%88%E6%AE%B5)",
-    "sources": [
-      {
-        "type": "Instagram",
-        "label": "查看 #桃園市蘆竹區鐵道龍舟嘉年華",
-        "url": "https://www.instagram.com/explore/tags/%E6%A1%83%E5%9C%92%E5%B8%82%E8%98%86%E7%AB%B9%E5%8D%80%E9%90%B5%E9%81%93%E9%BE%8D%E8%88%9F%E5%98%89%E5%B9%B4%E8%8F%AF/"
-      },
-      {
-        "type": "部落格",
-        "label": "搜尋親子遊記",
-        "url": "https://www.google.com/search?q=%E6%A1%83%E5%9C%92%E5%B8%82%E8%98%86%E7%AB%B9%E5%8D%80%E9%90%B5%E9%81%93%E9%BE%8D%E8%88%9F%E5%98%89%E5%B9%B4%E8%8F%AF%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
-      }
-    ],
-    "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
-    "sourceId": "Event_376430000A_006873",
-    "qualityScore": 10,
-    "updatedAt": "2026-06-15T17:47:21+08:00",
-    "rainyDay": false,
-    "placeType": "活動",
-    "eventStart": "2026-06-20T00:00:00+08:00",
-    "eventEnd": "2026-06-21T23:59:59+08:00",
-    "weekendEvent": true,
-    "completeness": {
-      "score": 33,
-      "missing": [
-        "官方網站",
-        "票價資訊",
-        "親子設施",
-        "詳細介紹"
       ]
     }
   },
@@ -3995,7 +3933,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081944",
     "qualityScore": 10,
-    "updatedAt": "2026-06-20T02:00:03+08:00",
+    "updatedAt": "2026-06-21T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-03-01T00:00:00+08:00",
@@ -4006,152 +3944,6 @@
       "missing": [
         "票價資訊",
         "親子設施"
-      ]
-    }
-  },
-  {
-    "id": "Event_376430000A_006885",
-    "name": "《即刻救原3-珍粽再見》",
-    "region": "北部",
-    "city": "桃園市",
-    "district": "中壢區",
-    "ageMin": 3,
-    "ageMax": 12,
-    "setting": "室外",
-    "duration": "半日",
-    "category": "本週活動",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查官網",
-    "address": "桃園市中壢區中原文創園區 13倉",
-    "hours": "6/19－6/21",
-    "lat": 24.96353,
-    "lng": 121.24148,
-    "image": "https://travel.tycg.gov.tw/image/115385/640x480",
-    "imageCandidates": [],
-    "accent": "#ff6b6b",
-    "description": "￭相關細節可電洽中原文創園區(03-4333833#220)",
-    "highlights": [
-      "本週末限定",
-      "期間限定",
-      "親子新鮮事"
-    ],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "官方資料尚未提供停車資訊。",
-      "evidence": []
-    },
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%80%8A%E5%8D%B3%E5%88%BB%E6%95%91%E5%8E%9F3-%E7%8F%8D%E7%B2%BD%E5%86%8D%E8%A6%8B%E3%80%8B%20%E6%A1%83%E5%9C%92%E5%B8%82%E4%B8%AD%E5%A3%A2%E5%8D%80%E4%B8%AD%E5%8E%9F%E6%96%87%E5%89%B5%E5%9C%92%E5%8D%80%2013%E5%80%89",
-    "sources": [
-      {
-        "type": "Instagram",
-        "label": "查看 #即刻救原3珍粽再見",
-        "url": "https://www.instagram.com/explore/tags/%E5%8D%B3%E5%88%BB%E6%95%91%E5%8E%9F3%E7%8F%8D%E7%B2%BD%E5%86%8D%E8%A6%8B/"
-      },
-      {
-        "type": "部落格",
-        "label": "搜尋親子遊記",
-        "url": "https://www.google.com/search?q=%E3%80%8A%E5%8D%B3%E5%88%BB%E6%95%91%E5%8E%9F3-%E7%8F%8D%E7%B2%BD%E5%86%8D%E8%A6%8B%E3%80%8B%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
-      }
-    ],
-    "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
-    "sourceId": "Event_376430000A_006885",
-    "qualityScore": 10,
-    "updatedAt": "2026-06-05T11:04:31+08:00",
-    "rainyDay": false,
-    "placeType": "活動",
-    "eventStart": "2026-06-19T00:00:00+08:00",
-    "eventEnd": "2026-06-21T23:59:59+08:00",
-    "weekendEvent": true,
-    "completeness": {
-      "score": 33,
-      "missing": [
-        "官方網站",
-        "票價資訊",
-        "親子設施",
-        "詳細介紹"
-      ]
-    }
-  },
-  {
-    "id": "Event_376430000A_006857",
-    "name": "《E號出口》2026創意畢業季",
-    "region": "北部",
-    "city": "桃園市",
-    "district": "中壢區",
-    "ageMin": 3,
-    "ageMax": 12,
-    "setting": "室外",
-    "duration": "半日",
-    "category": "本週活動",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查官網",
-    "address": "桃園市中壢區中原文創園區",
-    "hours": "5/16－6/21",
-    "lat": 24.96353,
-    "lng": 121.24148,
-    "image": "https://travel.tycg.gov.tw/image/115269/640x480",
-    "imageCandidates": [],
-    "accent": "#ff6b6b",
-    "description": "￭相關細節可電洽中原文創園區(03-4333833#220)",
-    "highlights": [
-      "本週末限定",
-      "期間限定",
-      "親子新鮮事"
-    ],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "官方資料尚未提供停車資訊。",
-      "evidence": []
-    },
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%80%8AE%E8%99%9F%E5%87%BA%E5%8F%A3%E3%80%8B2026%E5%89%B5%E6%84%8F%E7%95%A2%E6%A5%AD%E5%AD%A3%20%E6%A1%83%E5%9C%92%E5%B8%82%E4%B8%AD%E5%A3%A2%E5%8D%80%E4%B8%AD%E5%8E%9F%E6%96%87%E5%89%B5%E5%9C%92%E5%8D%80",
-    "sources": [
-      {
-        "type": "Instagram",
-        "label": "查看 #E號出口2026創意畢業季",
-        "url": "https://www.instagram.com/explore/tags/E%E8%99%9F%E5%87%BA%E5%8F%A32026%E5%89%B5%E6%84%8F%E7%95%A2%E6%A5%AD%E5%AD%A3/"
-      },
-      {
-        "type": "部落格",
-        "label": "搜尋親子遊記",
-        "url": "https://www.google.com/search?q=%E3%80%8AE%E8%99%9F%E5%87%BA%E5%8F%A3%E3%80%8B2026%E5%89%B5%E6%84%8F%E7%95%A2%E6%A5%AD%E5%AD%A3%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
-      }
-    ],
-    "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
-    "sourceId": "Event_376430000A_006857",
-    "qualityScore": 10,
-    "updatedAt": "2026-06-05T09:57:18+08:00",
-    "rainyDay": false,
-    "placeType": "活動",
-    "eventStart": "2026-05-16T00:00:00+08:00",
-    "eventEnd": "2026-06-21T23:59:59+08:00",
-    "weekendEvent": true,
-    "completeness": {
-      "score": 33,
-      "missing": [
-        "官方網站",
-        "票價資訊",
-        "親子設施",
-        "詳細介紹"
       ]
     }
   },
@@ -4434,6 +4226,227 @@
     "placeType": "活動",
     "eventStart": "2026-06-06T00:00:00+08:00",
     "eventEnd": "2026-09-12T23:59:59+08:00",
+    "weekendEvent": true,
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "票價資訊",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "Event_A15010000H_081441",
+    "name": "2025-2026台灣好湯-溫泉美食嘉年華",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "北投區",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "本週活動",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺北市北投區新北投溫泉區",
+    "hours": "9/6－6/30",
+    "lat": 25.13694,
+    "lng": 121.5026,
+    "image": "https://www.taiwan.net.tw/att/event/e4663504-74fd-4f4f-b0f2-231606ba02b0.jpg",
+    "imageCandidates": [],
+    "accent": "#ff6b6b",
+    "description": "時序逐漸進入冬天，也正式宣告臺灣已進入溫泉泡湯旺季！臺灣得天獨厚，擁有冷泉、熱泉、濁泉、海底泉等多樣性泉質，是世界知名的溫泉勝地。「溫泉美食嘉年華」不但讓國內遊客全臺溫泉區泡透透，處處都享優惠，對國際觀光客也是深具魅力，更是帶動秋冬臺灣溫泉旅遊熱潮的年度盛事。 臺南關子嶺溫泉美食節 四重溪溫泉季系列活動 礁溪溫泉馬拉松 花蓮太平洋溫泉季--> 花蓮太平洋溫泉…",
+    "highlights": [
+      "本週末限定",
+      "期間限定",
+      "親子新鮮事"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": []
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2025-2026%E5%8F%B0%E7%81%A3%E5%A5%BD%E6%B9%AF-%E6%BA%AB%E6%B3%89%E7%BE%8E%E9%A3%9F%E5%98%89%E5%B9%B4%E8%8F%AF%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%E6%96%B0%E5%8C%97%E6%8A%95%E6%BA%AB%E6%B3%89%E5%8D%80",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "查看官方資訊",
+        "url": "https://taiwanhotspring.net/"
+      },
+      {
+        "type": "Instagram",
+        "label": "查看 #20252026台灣好湯溫泉美食嘉年華",
+        "url": "https://www.instagram.com/explore/tags/20252026%E5%8F%B0%E7%81%A3%E5%A5%BD%E6%B9%AF%E6%BA%AB%E6%B3%89%E7%BE%8E%E9%A3%9F%E5%98%89%E5%B9%B4%E8%8F%AF/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=2025-2026%E5%8F%B0%E7%81%A3%E5%A5%BD%E6%B9%AF-%E6%BA%AB%E6%B3%89%E7%BE%8E%E9%A3%9F%E5%98%89%E5%B9%B4%E8%8F%AF%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
+    "sourceId": "Event_A15010000H_081441",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-21T02:00:04+08:00",
+    "rainyDay": false,
+    "placeType": "活動",
+    "eventStart": "2025-09-06T00:00:00+08:00",
+    "eventEnd": "2026-06-30T00:00:00+08:00",
+    "weekendEvent": true,
+    "completeness": {
+      "score": 67,
+      "missing": [
+        "票價資訊",
+        "親子設施"
+      ]
+    }
+  },
+  {
+    "id": "Event_A15010100H_005799",
+    "name": "2026 蟹蟹您的愛~護蟹俠客行",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "綠島鄉",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "本週活動",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺東縣綠島鄉龜灣",
+    "hours": "6/12－9/10",
+    "lat": 22.64614,
+    "lng": 121.48199,
+    "image": "https://www.eastcoast-nsa.gov.tw/image/91740/640x480",
+    "imageCandidates": [],
+    "accent": "#ff6b6b",
+    "description": "綠島地區每年6月至10月是奧氏後相手蟹的繁殖季節、亦是綠島旅遊旺季。交通部觀光署東部海岸國家風景區管理處呼籲來訪綠島遊客及在地民眾島上行車減速慢行，讓路給活的螃蟹媽媽，以避免路殺事件發生，同時也要邀請大家一同來當護蟹俠客，用您的手掌心護送陸蟹媽媽安全過馬路，將您的愛心留在綠島。",
+    "highlights": [
+      "本週末限定",
+      "期間限定",
+      "親子新鮮事"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": []
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2026%20%E8%9F%B9%E8%9F%B9%E6%82%A8%E7%9A%84%E6%84%9B~%E8%AD%B7%E8%9F%B9%E4%BF%A0%E5%AE%A2%E8%A1%8C%20%E8%87%BA%E6%9D%B1%E7%B8%A3%E7%B6%A0%E5%B3%B6%E9%84%89%E9%BE%9C%E7%81%A3",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #2026蟹蟹您的愛護蟹俠客行",
+        "url": "https://www.instagram.com/explore/tags/2026%E8%9F%B9%E8%9F%B9%E6%82%A8%E7%9A%84%E6%84%9B%E8%AD%B7%E8%9F%B9%E4%BF%A0%E5%AE%A2%E8%A1%8C/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=2026%20%E8%9F%B9%E8%9F%B9%E6%82%A8%E7%9A%84%E6%84%9B~%E8%AD%B7%E8%9F%B9%E4%BF%A0%E5%AE%A2%E8%A1%8C%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
+    "sourceId": "Event_A15010100H_005799",
+    "qualityScore": 10,
+    "updatedAt": "2026-01-05T18:01:34+08:00",
+    "rainyDay": false,
+    "placeType": "活動",
+    "eventStart": "2026-06-12T00:00:00+08:00",
+    "eventEnd": "2026-09-10T23:59:59+08:00",
+    "weekendEvent": true,
+    "completeness": {
+      "score": 50,
+      "missing": [
+        "官方網站",
+        "票價資訊",
+        "親子設施"
+      ]
+    }
+  },
+  {
+    "id": "Event_A15010100H_005777",
+    "name": "2026月光．海音樂會",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "成功鎮",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "本週活動",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺東縣成功鎮都歷遊客中心",
+    "hours": "6/21－9/29",
+    "lat": 23.02034,
+    "lng": 121.32495,
+    "image": "https://www.eastcoast-nsa.gov.tw/image/91706/640x480",
+    "imageCandidates": [],
+    "accent": "#ff6b6b",
+    "description": "2026 東海岸大地藝術節《身即海洋》",
+    "highlights": [
+      "本週末限定",
+      "期間限定",
+      "親子新鮮事"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": []
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2026%E6%9C%88%E5%85%89%EF%BC%8E%E6%B5%B7%E9%9F%B3%E6%A8%82%E6%9C%83%20%E8%87%BA%E6%9D%B1%E7%B8%A3%E6%88%90%E5%8A%9F%E9%8E%AE%E9%83%BD%E6%AD%B7%E9%81%8A%E5%AE%A2%E4%B8%AD%E5%BF%83",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #2026月光海音樂會",
+        "url": "https://www.instagram.com/explore/tags/2026%E6%9C%88%E5%85%89%E6%B5%B7%E9%9F%B3%E6%A8%82%E6%9C%83/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=2026%E6%9C%88%E5%85%89%EF%BC%8E%E6%B5%B7%E9%9F%B3%E6%A8%82%E6%9C%83%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
+    "sourceId": "Event_A15010100H_005777",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-18T14:34:36+08:00",
+    "rainyDay": false,
+    "placeType": "活動",
+    "eventStart": "2026-06-21T00:00:00+08:00",
+    "eventEnd": "2026-09-29T23:59:59+08:00",
     "weekendEvent": true,
     "completeness": {
       "score": 33,
@@ -6832,7 +6845,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15010400H_000694",
     "qualityScore": 8,
-    "updatedAt": "2026-06-21T00:15:06+08:00",
+    "updatedAt": "2026-06-22T00:15:14+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -7043,7 +7056,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15010400H_000693",
     "qualityScore": 11,
-    "updatedAt": "2026-06-21T00:15:06+08:00",
+    "updatedAt": "2026-06-22T00:15:14+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -7789,7 +7802,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_345040000G_000016",
     "qualityScore": 15,
-    "updatedAt": "2026-06-21T00:20:09+08:00",
+    "updatedAt": "2026-06-22T00:20:12+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -9045,7 +9058,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_376450000A_000062",
     "qualityScore": 15,
-    "updatedAt": "2026-06-20T12:00:04+08:00",
+    "updatedAt": "2026-06-21T12:00:06+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -9184,7 +9197,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_376450000A_000061",
     "qualityScore": 14,
-    "updatedAt": "2026-06-20T12:00:04+08:00",
+    "updatedAt": "2026-06-21T12:00:06+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -9573,7 +9586,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_376450000A_000994",
     "qualityScore": 14,
-    "updatedAt": "2026-06-20T12:00:04+08:00",
+    "updatedAt": "2026-06-21T12:00:06+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -10397,7 +10410,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15010600H_000002",
     "qualityScore": 14,
-    "updatedAt": "2026-06-21T00:05:02+08:00",
+    "updatedAt": "2026-06-22T00:05:04+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -10549,7 +10562,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15010600H_000107",
     "qualityScore": 14,
-    "updatedAt": "2026-06-21T00:05:02+08:00",
+    "updatedAt": "2026-06-22T00:05:04+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -11641,7 +11654,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_376450000A_000653",
     "qualityScore": 15,
-    "updatedAt": "2026-06-20T12:00:04+08:00",
+    "updatedAt": "2026-06-21T12:00:06+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -11709,7 +11722,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_376450000A_000037",
     "qualityScore": 14,
-    "updatedAt": "2026-06-20T12:00:04+08:00",
+    "updatedAt": "2026-06-21T12:00:06+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -12523,7 +12536,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_345040000G_000018",
     "qualityScore": 12,
-    "updatedAt": "2026-06-21T00:20:09+08:00",
+    "updatedAt": "2026-06-22T00:20:12+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -13506,7 +13519,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15010600H_000003",
     "qualityScore": 14,
-    "updatedAt": "2026-06-21T00:05:02+08:00",
+    "updatedAt": "2026-06-22T00:05:04+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -14175,7 +14188,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_376450000A_000074",
     "qualityScore": 12,
-    "updatedAt": "2026-06-20T12:00:04+08:00",
+    "updatedAt": "2026-06-21T12:00:06+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -14470,7 +14483,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15010600H_000112",
     "qualityScore": 14,
-    "updatedAt": "2026-06-21T00:05:02+08:00",
+    "updatedAt": "2026-06-22T00:05:04+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -15286,7 +15299,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_376450000A_000391",
     "qualityScore": 15,
-    "updatedAt": "2026-06-20T12:00:04+08:00",
+    "updatedAt": "2026-06-21T12:00:06+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -15353,7 +15366,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_376450000A_000889",
     "qualityScore": 14,
-    "updatedAt": "2026-06-20T12:00:04+08:00",
+    "updatedAt": "2026-06-21T12:00:06+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -15508,7 +15521,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15010600H_000064",
     "qualityScore": 14,
-    "updatedAt": "2026-06-21T00:05:02+08:00",
+    "updatedAt": "2026-06-22T00:05:04+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -16598,7 +16611,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15010400H_000437",
     "qualityScore": 12,
-    "updatedAt": "2026-06-21T00:15:04+08:00",
+    "updatedAt": "2026-06-22T00:15:12+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -16686,7 +16699,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15010600H_000083",
     "qualityScore": 12,
-    "updatedAt": "2026-06-21T00:05:02+08:00",
+    "updatedAt": "2026-06-22T00:05:04+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -18120,7 +18133,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15010600H_000098",
     "qualityScore": 11,
-    "updatedAt": "2026-06-21T00:05:02+08:00",
+    "updatedAt": "2026-06-22T00:05:04+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -18263,7 +18276,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_376450000A_000840",
     "qualityScore": 14,
-    "updatedAt": "2026-06-20T12:00:04+08:00",
+    "updatedAt": "2026-06-21T12:00:06+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -19066,7 +19079,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_376450000A_001002",
     "qualityScore": 15,
-    "updatedAt": "2026-06-20T12:00:04+08:00",
+    "updatedAt": "2026-06-21T12:00:06+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -19904,7 +19917,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15010600H_000030",
     "qualityScore": 14,
-    "updatedAt": "2026-06-21T00:05:02+08:00",
+    "updatedAt": "2026-06-22T00:05:04+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -20043,7 +20056,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_376450000A_000991",
     "qualityScore": 14,
-    "updatedAt": "2026-06-20T12:00:04+08:00",
+    "updatedAt": "2026-06-21T12:00:06+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -22233,7 +22246,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_345040000G_030025",
     "qualityScore": 15,
-    "updatedAt": "2026-06-21T00:20:09+08:00",
+    "updatedAt": "2026-06-22T00:20:12+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -22306,7 +22319,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011000H_000013",
     "qualityScore": 15,
-    "updatedAt": "2026-06-21T00:00:03+08:00",
+    "updatedAt": "2026-06-22T00:00:04+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
