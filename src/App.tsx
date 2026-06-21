@@ -555,6 +555,13 @@ function App() {
     [displayedPlaces, mapViewport],
   )
 
+  const todayPick = useMemo(() => {
+    if (placesStatus !== 'ready' || !places.length) return null
+    const today = new Date()
+    const seed = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate()
+    return places[seed % places.length]
+  }, [places, placesStatus])
+
   const toggleFavorite = (id: string) => {
     playUiSound('favorite')
     setFavorites((current) => current.includes(id) ? current.filter((item) => item !== id) : [...current, id])
@@ -693,12 +700,25 @@ function App() {
                 <span className="preview-pin pin-one"><MapPin size={17} /></span>
                 <span className="preview-pin pin-two"><MapPin size={15} /></span>
                 <span className="preview-pin pin-three"><MapPin size={14} /></span>
-                <div className="hero-destination-card">
-                  <span className="destination-art"><Leaf size={30} /></span>
+                <div
+                  className={`hero-destination-card${todayPick ? ' is-interactive' : ''}`}
+                  onClick={todayPick ? () => { playUiSound('open'); setSelected(todayPick) } : undefined}
+                  role={todayPick ? 'button' : undefined}
+                >
+                  {todayPick ? (
+                    <div className="destination-thumb">
+                      <PlaceImage place={todayPick} className="destination-photo" eager />
+                    </div>
+                  ) : (
+                    <span className="destination-art"><Leaf size={30} /></span>
+                  )}
                   <div>
                     <small>今日推薦</small>
-                    <strong>一起去戶外呼吸</strong>
-                    <span><MapPin size={12} /> 距離適中・推車友善</span>
+                    <strong>{todayPick ? todayPick.name : '一起去戶外呼吸'}</strong>
+                    <span>
+                      <MapPin size={12} />
+                      {todayPick ? `${todayPick.city}・${todayPick.setting}` : '距離適中・推車友善'}
+                    </span>
                   </div>
                 </div>
               </div>
