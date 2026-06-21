@@ -4,13 +4,14 @@ import {
   Anchor,
   ArrowUpRight,
   Baby,
-  Bookmark,
+  Bell,
   Bot,
   Building2,
   CalendarCheck,
   CalendarDays,
   Car,
   CheckCircle2,
+  ChevronRight,
   Clock3,
   CloudRain,
   Compass,
@@ -20,7 +21,6 @@ import {
   Home,
   Instagram,
   Layers,
-  Leaf,
   LocateFixed,
   MapPin,
   Moon,
@@ -395,6 +395,24 @@ function App() {
     }
   }, [])
 
+  useEffect(() => {
+    if (!navigator.geolocation) return
+    navigator.geolocation.getCurrentPosition(
+      ({ coords }) => {
+        setUserLocation({ lat: coords.latitude, lng: coords.longitude })
+        setMapFocusKey((current) => current + 1)
+        setLocationStatus('ready')
+        setLocationMessage('已依距離重新排列景點，藍點是你的位置。')
+        setWeatherStatus('loading')
+        void fetchWeather(coords.latitude, coords.longitude)
+          .then((summary) => { setWeather(summary); setWeatherStatus('ready') })
+          .catch(() => setWeatherStatus('error'))
+      },
+      () => { /* 使用者拒絕或逾時，靜默略過 */ },
+      { enableHighAccuracy: false, timeout: 8000, maximumAge: 30 * 60 * 1000 },
+    )
+  }, [])
+
   const selectRegion = async (nextRegion: (typeof regions)[number]) => {
     playUiSound()
     setRegion(nextRegion)
@@ -555,11 +573,16 @@ function App() {
     [displayedPlaces, mapViewport],
   )
 
-  const todayPick = useMemo(() => {
-    if (placesStatus !== 'ready' || !places.length) return null
+  const recommended = useMemo(() => {
+    if (placesStatus !== 'ready' || !places.length) return []
     const today = new Date()
     const seed = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate()
-    return places[seed % places.length]
+    const ranked = [...places]
+      .filter((place) => place.image)
+      .sort((first, second) => (second.qualityScore ?? 0) - (first.qualityScore ?? 0))
+      .slice(0, 24)
+    const offset = seed % Math.max(ranked.length, 1)
+    return [...ranked.slice(offset), ...ranked.slice(0, offset)].slice(0, 10)
   }, [places, placesStatus])
 
   const toggleFavorite = (id: string) => {
@@ -637,7 +660,6 @@ function App() {
 
   const openProfile = () => {
     playUiSound('open')
-    setActiveTab('profile')
     setShowProfile(true)
   }
 
@@ -657,96 +679,195 @@ function App() {
     setShowReportForm(false)
   }
 
+  const goExplore = (apply?: () => void) => {
+    apply?.()
+    openExplore('explore')
+  }
+
   return (
     <div className="app-shell">
       <header className="topbar">
-        <a className="brand" href="#" aria-label="假日去哪兒首頁">
+        <a className="brand" href="#" aria-label="假日去哪兒首頁" onClick={(event) => { event.preventDefault(); openHome() }}>
           <span className="brand-mark" aria-hidden="true">
             <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="" className="brand-logo-img" />
           </span>
-          <span><strong>假日去哪兒</strong><small>Family days, beautifully planned.</small></span>
+          <span className="brand-text">
+            <strong>假日去哪兒</strong>
+            <small>讓每個週末，都值得孩子期待</small>
+          </span>
         </a>
-        <div className="desktop-actions">
-          <button className="sound-button" onClick={toggleSound} aria-label={soundEnabled ? '關閉介面音效' : '開啟介面音效'}>
-            {soundEnabled ? <Volume2 size={17} /> : <VolumeX size={17} />}
-            <span>{soundEnabled ? '音效開啟' : '音效關閉'}</span>
+        <div className="topbar-actions">
+          <button className="icon-button" onClick={toggleSound} aria-label={soundEnabled ? '關閉介面音效' : '開啟介面音效'}>
+            {soundEnabled ? <Volume2 size={19} /> : <VolumeX size={19} />}
           </button>
-          <button className="ghost-button" onClick={() => openExplore('favorites')}><Bookmark size={18} />我的收藏</button>
-          <button className="avatar-button" onClick={openProfile}>晴</button>
+          <button className="icon-button" onClick={openProfile} aria-label="通知與我的">
+            <Bell size={19} />
+          </button>
         </div>
-        <button className="mobile-menu sound-button" onClick={toggleSound} aria-label={soundEnabled ? '關閉介面音效' : '開啟介面音效'}>
-          {soundEnabled ? <Volume2 /> : <VolumeX />}
-        </button>
       </header>
 
       <main>
-        <section className="hero">
-          <div className="hero-glow hero-glow-one" />
-          <div className="hero-glow hero-glow-two" />
-          <div className="hero-layout">
-            <div className="hero-copy">
-              <div className="hero-kicker"><Sparkles size={16} /> 讓每個週末，都值得孩子期待</div>
-              <h1>下一個週末，<br /><span>從孩子的眼睛重新出發。</span></h1>
-              <p>天氣、年齡、親子設施與即時活動，一次替你整理好。</p>
-              <div className="hero-proof">
-                <span><b>6,000+</b> 全臺靈感</span>
-                <span><b>225</b> 近期活動</span>
-                <span><b>0 元</b> 免費使用</span>
+        {activeTab === 'home' && (
+          <div className="home-view">
+            <section className="hero-card">
+              <img
+                src={`${import.meta.env.BASE_URL}hero-family.svg`}
+                alt=""
+                className="hero-card-bg"
+                aria-hidden="true"
+              />
+              <div className="hero-card-overlay" />
+              <div className="hero-card-content">
+                <span className="hero-tag"><Sparkles size={13} /> 親子週末靈感</span>
+                <h1>下一個週末，<br />一起創造<br /><span>美好回憶</span></h1>
+                <p>天氣、年齡、親子設施與即時活動，一次替你整理好。</p>
               </div>
-            </div>
-            <div className="hero-visual" aria-hidden="true">
-              <div className="hero-map-preview">
-                <span className="preview-route" />
-                <span className="preview-pin pin-one"><MapPin size={17} /></span>
-                <span className="preview-pin pin-two"><MapPin size={15} /></span>
-                <span className="preview-pin pin-three"><MapPin size={14} /></span>
-                <div
-                  className={`hero-destination-card${todayPick ? ' is-interactive' : ''}`}
-                  onClick={todayPick ? () => { playUiSound('open'); setSelected(todayPick) } : undefined}
-                  role={todayPick ? 'button' : undefined}
-                >
-                  {todayPick ? (
-                    <div className="destination-thumb">
-                      <PlaceImage place={todayPick} className="destination-photo" eager />
-                    </div>
-                  ) : (
-                    <span className="destination-art"><Leaf size={30} /></span>
-                  )}
-                  <div>
-                    <small>今日推薦</small>
-                    <strong>{todayPick ? todayPick.name : '一起去戶外呼吸'}</strong>
-                    <span>
-                      <MapPin size={12} />
-                      {todayPick ? `${todayPick.city}・${todayPick.setting}` : '距離適中・推車友善'}
-                    </span>
-                  </div>
+              <div className="hero-search">
+                <label className="search-box">
+                  <Search size={19} />
+                  <input
+                    value={query}
+                    onChange={(event) => setQuery(event.target.value)}
+                    onKeyDown={(event) => { if (event.key === 'Enter') goExplore() }}
+                    placeholder="搜尋景點、城市或想玩的活動"
+                  />
+                  {query && <button onClick={() => setQuery('')} aria-label="清除搜尋"><X size={16} /></button>}
+                </label>
+                <button className="filter-toggle" onClick={() => goExplore(() => setShowFilters(true))} aria-label="開啟篩選">
+                  <SlidersHorizontal size={18} /><span>篩選</span>
+                </button>
+              </div>
+            </section>
+
+            <section className="quick-entries" aria-label="快速入口">
+              <button className="entry-tile" onClick={() => goExplore(() => { setSetting('室外'); setRainyOnly(false); setEventOnly(false) })}>
+                <span className="entry-icon tile-green"><TreePine size={24} /></span>
+                <small>戶外踏青</small>
+              </button>
+              <button className="entry-tile" onClick={() => goExplore(() => { setRainyOnly(true); setEventOnly(false) })}>
+                <span className="entry-icon tile-blue"><Umbrella size={24} /></span>
+                <small>雨天備案</small>
+              </button>
+              <button className="entry-tile" onClick={() => goExplore(() => { setAge('0-2'); setRainyOnly(false); setEventOnly(false) })}>
+                <span className="entry-icon tile-coral"><Baby size={24} /></span>
+                <small>親子友善</small>
+              </button>
+              <button className="entry-tile" onClick={() => goExplore(() => { setEventOnly(true); setRainyOnly(false) })}>
+                <span className="entry-icon tile-yellow"><CalendarCheck size={24} /></span>
+                <small>近期活動</small>
+              </button>
+              <button className="entry-tile" onClick={() => goExplore(findNearbyPlaces)}>
+                <span className="entry-icon tile-violet"><LocateFixed size={24} /></span>
+                <small>附近景點</small>
+              </button>
+            </section>
+
+            <section className="home-section">
+              <div className="home-section-head">
+                <h2>為你推薦</h2>
+                <button onClick={() => goExplore()}>查看全部 <ChevronRight size={15} /></button>
+              </div>
+              {recommended.length ? (
+                <div className="reco-scroll">
+                  {recommended.map((place) => (
+                    <article
+                      key={place.id}
+                      className="reco-card"
+                      onClick={() => { playUiSound('open'); setSelected(place) }}
+                    >
+                      <div className="reco-image">
+                        <PlaceImage place={place} className="reco-photo" />
+                        <span className="reco-badge">{place.placeType ?? '景點'}</span>
+                        <button
+                          className={`reco-heart ${favorites.includes(place.id) ? 'is-favorite' : ''}`}
+                          onClick={(event) => { event.stopPropagation(); toggleFavorite(place.id) }}
+                          aria-label={favorites.includes(place.id) ? '取消收藏' : '加入收藏'}
+                        >
+                          <Heart size={15} fill={favorites.includes(place.id) ? 'currentColor' : 'none'} />
+                        </button>
+                      </div>
+                      <div className="reco-copy">
+                        <strong>{place.name}</strong>
+                        <span className="reco-meta"><MapPin size={11} />{place.city}・{place.setting}</span>
+                        <div className="reco-tags">
+                          <span><Clock3 size={10} />{place.duration}</span>
+                          <span><Baby size={10} />{place.ageMin}–{place.ageMax}歲</span>
+                        </div>
+                      </div>
+                    </article>
+                  ))}
                 </div>
+              ) : (
+                <div className="reco-scroll">
+                  {[0, 1, 2].map((index) => <div key={index} className="reco-card reco-skeleton" />)}
+                </div>
+              )}
+            </section>
+
+            <section className="home-section">
+              <button className="map-cta" onClick={() => goExplore()}>
+                <div className="map-cta-copy">
+                  <strong>探索你的週末靈感</strong>
+                  <span>從地圖上發現更多好去處</span>
+                  <span className="map-cta-btn">開啟地圖探索 <ArrowUpRight size={15} /></span>
+                </div>
+                <div className="map-cta-art" aria-hidden="true">
+                  <span className="map-cta-pin"><MapPin size={18} /></span>
+                  <i className="map-cta-route" />
+                </div>
+              </button>
+            </section>
+
+            <section className="home-section">
+              <div className="weather-tile">
+                <span className="weather-tile-icon">
+                  {weather && (weather.precipitationProbability >= 45 || weather.weatherCode >= 51)
+                    ? <CloudRain size={24} />
+                    : <SunMedium size={24} />}
+                </span>
+                <div className="weather-tile-copy">
+                  <strong>
+                    {weatherStatus === 'loading'
+                      ? '正在取得天氣…'
+                      : weather
+                        ? `${weather.label}・${Math.round(weather.temperature)}°C`
+                        : '適合出門放電'}
+                  </strong>
+                  <span>
+                    {weather
+                      ? `今日降雨機率 ${weather.precipitationProbability}%`
+                      : '開啟定位即可看當地天氣'}
+                  </span>
+                </div>
+                <button className="weather-tile-cta" onClick={() => goExplore()}>
+                  查看景點 <ChevronRight size={14} />
+                </button>
               </div>
-              <div className="hero-floating-card weather-card"><SunMedium size={22} /><div><small>今日天氣</small><strong>適合出門放電</strong></div></div>
-              <div className="hero-floating-card activity-card"><CalendarDays size={22} /><div><small>本週新鮮事</small><strong>親子活動持續更新</strong></div></div>
-            </div>
+            </section>
           </div>
-          <div className="search-panel">
+        )}
+
+        {activeTab !== 'home' && (
+        <section className="explore-section">
+          <div className="explore-toolbar">
             <label className="search-box">
-              <Search size={20} />
+              <Search size={18} />
               <input
                 value={query}
                 onChange={(event) => setQuery(event.target.value)}
-                placeholder="搜尋景點、城市或想玩的活動"
+                placeholder="搜尋景點、城市或活動"
               />
-              {query && <button onClick={() => setQuery('')} aria-label="清除搜尋"><X size={17} /></button>}
+              {query && <button onClick={() => setQuery('')} aria-label="清除搜尋"><X size={16} /></button>}
             </label>
             <button
-              className="filter-toggle"
+              className={`filter-toggle ${showFilters ? 'is-open' : ''}`}
               onClick={() => { playUiSound(); setShowFilters(!showFilters) }}
               aria-label={showFilters ? '收起精準篩選' : '開啟精準篩選'}
             >
-              <SlidersHorizontal size={18} /><span>精準篩選</span>
+              <SlidersHorizontal size={18} /><span>篩選</span>
             </button>
           </div>
-        </section>
 
-        <section className="quick-filters" aria-label="快速篩選">
           <div className="filter-group region-tabs">
             {regions.map((item) => (
               <button key={item} className={region === item ? 'active' : ''} onClick={() => void selectRegion(item)}>
@@ -767,53 +888,51 @@ function App() {
               <CalendarCheck size={14} /> 本週活動
             </button>
           </div>
-        </section>
 
-        {weather && (
-          <section className="weather-recommendation">
-            <CloudRain size={20} />
-            <div>
-              <strong>{weather.label}・{Math.round(weather.temperature)}°C</strong>
-              <span>今日降雨機率 {weather.precipitationProbability}%・已依天氣優先排序</span>
-            </div>
-            {weather.precipitationProbability >= 45 && !rainyOnly && (
-              <button onClick={() => setRainyOnly(true)}>只看雨備</button>
-            )}
-          </section>
-        )}
-        {weatherStatus === 'loading' && <div className="weather-loading">正在取得地區天氣…</div>}
-
-        {showFilters && (
-          <section className="advanced-filters">
-            <div>
-              <span className="filter-label"><SunMedium size={16} />空間類型</span>
-              <div className="filter-pills">
-                {settings.map((item) => (
-                <button key={item} className={setting === item ? 'active' : ''} onClick={() => setSetting(item)}>
-                  {settingIcons[item]}{item}
-                </button>
-              ))}
+          {weather && (
+            <div className="weather-recommendation">
+              <CloudRain size={20} />
+              <div>
+                <strong>{weather.label}・{Math.round(weather.temperature)}°C</strong>
+                <span>今日降雨機率 {weather.precipitationProbability}%・已依天氣優先排序</span>
               </div>
+              {weather.precipitationProbability >= 45 && !rainyOnly && (
+                <button onClick={() => setRainyOnly(true)}>只看雨備</button>
+              )}
             </div>
-            <div>
-              <span className="filter-label"><Clock3 size={16} />可用時間</span>
-              <div className="filter-pills">
-                {durations.map((item) => (
-                <button key={item} className={duration === item ? 'active' : ''} onClick={() => setDuration(item)}>
-                  {durationIcons[item]}{item}
-                </button>
-              ))}
-              </div>
-            </div>
-            <button className="clear-button" onClick={clearFilters}>清除條件</button>
-          </section>
-        )}
+          )}
+          {weatherStatus === 'loading' && <div className="weather-loading">正在取得地區天氣…</div>}
 
-        <section className="explore-section">
+          {showFilters && (
+            <div className="advanced-filters">
+              <div>
+                <span className="filter-label"><SunMedium size={16} />空間類型</span>
+                <div className="filter-pills">
+                  {settings.map((item) => (
+                  <button key={item} className={setting === item ? 'active' : ''} onClick={() => setSetting(item)}>
+                    {settingIcons[item]}{item}
+                  </button>
+                ))}
+                </div>
+              </div>
+              <div>
+                <span className="filter-label"><Clock3 size={16} />可用時間</span>
+                <div className="filter-pills">
+                  {durations.map((item) => (
+                  <button key={item} className={duration === item ? 'active' : ''} onClick={() => setDuration(item)}>
+                    {durationIcons[item]}{item}
+                  </button>
+                ))}
+                </div>
+              </div>
+              <button className="clear-button" onClick={clearFilters}>清除條件</button>
+            </div>
+          )}
+
           <div className="section-heading">
             <div>
-              <span className="section-kicker"><TentTree size={17} /> 為你精選</span>
-              <h2>週末靈感地圖</h2>
+              <span className="section-kicker"><TentTree size={17} /> {activeTab === 'favorites' ? '我的收藏' : '為你精選'}</span>
+              <h2>{activeTab === 'favorites' ? '收藏的景點' : '週末靈感地圖'}</h2>
               <p>
                 {activeTab === 'favorites' ? '已收藏' : '找到'} <strong>{displayedPlaces.length}</strong> 個地點
                 {displayedPlaces.length > MAX_VISIBLE_PLACES && `・先顯示前 ${MAX_VISIBLE_PLACES} 筆`}
@@ -892,14 +1011,15 @@ function App() {
             </div>
           </div>
         </section>
+        )}
       </main>
 
       <nav className="bottom-nav" aria-label="主要導覽">
-        <button className={activeTab === 'home' ? 'active' : ''} onClick={openHome}><Home size={21} /><span>首頁</span></button>
-        <button className={activeTab === 'explore' ? 'active' : ''} onClick={() => openExplore('explore')}><Compass size={21} /><span>探索</span></button>
-        <button className={activeTab === 'favorites' ? 'active' : ''} onClick={() => openExplore('favorites')}><Heart size={21} /><span>收藏</span></button>
-        <button className={activeTab === 'profile' ? 'active' : ''} onClick={openProfile}><Baby size={21} /><span>我的</span></button>
-        <span className="nav-indicator" style={{ '--nav-index': activeTab === 'home' ? 0 : activeTab === 'explore' ? 1 : activeTab === 'favorites' ? 2 : 3 } as CSSProperties} />
+        <button className={activeTab === 'home' && !showProfile ? 'active' : ''} onClick={openHome}><Home size={21} /><span>首頁</span></button>
+        <button className={activeTab === 'explore' && !showProfile ? 'active' : ''} onClick={() => openExplore('explore')}><Compass size={21} /><span>探索</span></button>
+        <button className={activeTab === 'favorites' && !showProfile ? 'active' : ''} onClick={() => openExplore('favorites')}><Heart size={21} /><span>收藏</span></button>
+        <button className={showProfile ? 'active' : ''} onClick={openProfile}><Baby size={21} /><span>我的</span></button>
+        <span className="nav-indicator" style={{ '--nav-index': showProfile ? 3 : activeTab === 'home' ? 0 : activeTab === 'explore' ? 1 : 2 } as CSSProperties} />
       </nav>
 
       {showProfile && (
