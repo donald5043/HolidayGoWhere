@@ -840,6 +840,9 @@ button:active,
   display: flex;
   flex: 0 0 auto;
   gap: 6px;
+  width: 100%;
+  overflow-x: auto;
+  scrollbar-width: none;
 }
 
 .filter-group button,
@@ -2314,11 +2317,6 @@ button:active,
    ========================================================================== */
 
 @media (min-width: 641px) {
-  .filter-group {
-    width: 100%;
-    overflow-x: auto;
-  }
-
   .advanced-filters {
     align-items: flex-start;
     flex-wrap: wrap;
