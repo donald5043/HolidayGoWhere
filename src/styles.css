@@ -492,6 +492,31 @@ button:active,
   color: var(--color-primary);
 }
 
+.destination-thumb {
+  width: 78px;
+  height: 76px;
+  border-radius: 15px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.destination-photo {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.hero-destination-card.is-interactive {
+  cursor: pointer;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.hero-destination-card.is-interactive:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 28px 56px rgba(15,43,38,0.30);
+}
+
 .hero-destination-card div {
   min-width: 0;
   display: flex;
@@ -2339,9 +2364,14 @@ button:active,
     border-radius: 16px;
   }
 
-  .destination-art {
+  .destination-art,
+  .destination-thumb {
     height: 56px;
     border-radius: 12px;
+  }
+
+  .destination-thumb {
+    width: 58px;
   }
 
   .hero-destination-card strong {
