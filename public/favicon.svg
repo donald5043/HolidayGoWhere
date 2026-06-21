@@ -1,25 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
   <defs>
-    <radialGradient id="g" cx="78%" cy="18%" r="62%">
-      <stop offset="0%" stop-color="#d9775f" stop-opacity="0.20"/>
-      <stop offset="100%" stop-color="#d9775f" stop-opacity="0"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d05535"/>
+      <stop offset="100%" stop-color="#f09060"/>
+    </linearGradient>
+    <radialGradient id="gl" cx="28%" cy="20%" r="65%">
+      <stop offset="0%" stop-color="rgba(255,210,185,0.42)"/>
+      <stop offset="100%" stop-color="rgba(255,210,185,0)"/>
     </radialGradient>
   </defs>
-  <!-- Background -->
-  <rect width="64" height="64" rx="18" fill="#243b37"/>
-  <rect width="64" height="64" rx="18" fill="url(#g)"/>
-  <!-- Kite body (diamond) -->
-  <path d="M32 7L48 27L32 42L16 27Z" fill="#d9775f"/>
-  <!-- Top-right quadrant highlight -->
-  <path d="M32 7L48 27L32 27Z" fill="white" opacity="0.15"/>
-  <!-- Structural cross lines -->
-  <line x1="16" y1="27" x2="48" y2="27" stroke="rgba(255,252,247,0.24)" stroke-width="1.1"/>
-  <line x1="32" y1="7" x2="32" y2="42" stroke="rgba(255,252,247,0.24)" stroke-width="1.1"/>
-  <!-- Tail string -->
+  <rect width="64" height="64" rx="18" fill="url(#bg)"/>
+  <rect width="64" height="64" rx="18" fill="url(#gl)"/>
+  <path d="M32 7L48 27L32 42L16 27Z" fill="rgba(255,255,255,0.95)"/>
+  <path d="M32 7L48 27L32 27Z" fill="rgba(255,255,255,0.08)"/>
+  <line x1="16" y1="27" x2="48" y2="27" stroke="rgba(200,80,45,0.22)" stroke-width="1.1"/>
+  <line x1="32" y1="7" x2="32" y2="42" stroke="rgba(200,80,45,0.22)" stroke-width="1.1"/>
   <path d="M32 42C34 47 37 51 34 55C32 58 35 61 35 61"
-        stroke="#f3c9b8" stroke-width="2.1" stroke-linecap="round" fill="none"/>
-  <!-- Tail bow 1 -->
-  <ellipse cx="36" cy="48" rx="3.5" ry="1.9" fill="#f3c9b8" opacity="0.82" transform="rotate(20 36 48)"/>
-  <!-- Tail bow 2 -->
-  <ellipse cx="33" cy="57" rx="3.3" ry="1.7" fill="#f3c9b8" opacity="0.64" transform="rotate(-5 33 57)"/>
+        stroke="rgba(255,236,218,0.92)" stroke-width="2.1" stroke-linecap="round" fill="none"/>
+  <ellipse cx="36" cy="48" rx="3.5" ry="1.9" fill="rgba(255,236,218,0.88)" transform="rotate(20 36 48)"/>
+  <ellipse cx="33" cy="57" rx="3.3" ry="1.7" fill="rgba(255,236,218,0.70)" transform="rotate(-5 33 57)"/>
 </svg>

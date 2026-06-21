@@ -1,25 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" fill="none">
   <defs>
-    <radialGradient id="g" cx="78%" cy="18%" r="62%">
-      <stop offset="0%" stop-color="#d9775f" stop-opacity="0.20"/>
-      <stop offset="100%" stop-color="#d9775f" stop-opacity="0"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d05535"/>
+      <stop offset="100%" stop-color="#f09060"/>
+    </linearGradient>
+    <radialGradient id="gl" cx="28%" cy="20%" r="65%">
+      <stop offset="0%" stop-color="rgba(255,210,185,0.42)"/>
+      <stop offset="100%" stop-color="rgba(255,210,185,0)"/>
     </radialGradient>
   </defs>
-  <!-- Background -->
-  <rect width="192" height="192" rx="52" fill="#243b37"/>
-  <rect width="192" height="192" rx="52" fill="url(#g)"/>
-  <!-- Kite body (diamond) -->
-  <path d="M96 22L144 81L96 127L48 81Z" fill="#d9775f"/>
-  <!-- Top-right quadrant highlight -->
-  <path d="M96 22L144 81L96 81Z" fill="white" opacity="0.15"/>
-  <!-- Structural cross lines -->
-  <line x1="48" y1="81" x2="144" y2="81" stroke="rgba(255,252,247,0.24)" stroke-width="3.5"/>
-  <line x1="96" y1="22" x2="96" y2="127" stroke="rgba(255,252,247,0.24)" stroke-width="3.5"/>
-  <!-- Tail string -->
+  <rect width="192" height="192" rx="52" fill="url(#bg)"/>
+  <rect width="192" height="192" rx="52" fill="url(#gl)"/>
+  <path d="M96 22L144 81L96 127L48 81Z" fill="rgba(255,255,255,0.95)"/>
+  <path d="M96 22L144 81L96 81Z" fill="rgba(255,255,255,0.08)"/>
+  <line x1="48" y1="81" x2="144" y2="81" stroke="rgba(200,80,45,0.22)" stroke-width="3.5"/>
+  <line x1="96" y1="22" x2="96" y2="127" stroke="rgba(200,80,45,0.22)" stroke-width="3.5"/>
   <path d="M96 127C103 142 111 153 103 166C96 175 105 183 105 183"
-        stroke="#f3c9b8" stroke-width="6.5" stroke-linecap="round" fill="none"/>
-  <!-- Tail bow 1 -->
-  <ellipse cx="107" cy="144" rx="11" ry="6" fill="#f3c9b8" opacity="0.82" transform="rotate(20 107 144)"/>
-  <!-- Tail bow 2 -->
-  <ellipse cx="98" cy="170" rx="10" ry="5" fill="#f3c9b8" opacity="0.64" transform="rotate(-5 98 170)"/>
+        stroke="rgba(255,236,218,0.92)" stroke-width="6.5" stroke-linecap="round" fill="none"/>
+  <ellipse cx="107" cy="144" rx="11" ry="6" fill="rgba(255,236,218,0.88)" transform="rotate(20 107 144)"/>
+  <ellipse cx="98" cy="170" rx="10" ry="5" fill="rgba(255,236,218,0.70)" transform="rotate(-5 98 170)"/>
 </svg>

@@ -1,30 +1,48 @@
-import { useCallback, useEffect, useMemo, useRef, useState, type CSSProperties } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState, type CSSProperties, type ReactNode } from 'react'
 import {
+  Accessibility,
+  Anchor,
+  ArrowUpRight,
   Baby,
   Bookmark,
+  Bot,
+  Building2,
+  CalendarCheck,
   CalendarDays,
+  Car,
   CheckCircle2,
   Clock3,
   CloudRain,
   Compass,
   Database,
-  Bot,
   ExternalLink,
   Heart,
   Home,
   Instagram,
+  Layers,
+  Leaf,
   LocateFixed,
   MapPin,
+  Moon,
+  Mountain,
   Navigation,
   NotebookPen,
   Search,
+  ShoppingCart,
   SlidersHorizontal,
   Sparkles,
   Star,
   SunMedium,
   TentTree,
+  ThumbsDown,
+  ThumbsUp,
+  TreePine,
+  Umbrella,
+  Users,
   Volume2,
   VolumeX,
+  Waves,
+  Wrench,
   X,
 } from 'lucide-react'
 import {
@@ -40,15 +58,32 @@ import { MapView, type MapViewport } from './MapView'
 const regions = ['全部', '北部', '中部', '南部', '東部', '離島'] as const
 const settings = ['全部', '室內', '室外', '室內外'] as const
 const durations = ['全部', '半日', '一日', '晚上'] as const
-const regionEmoji: Partial<Record<(typeof regions)[number], string>> = {
-  北部: '🏙', 中部: '⛰', 南部: '🌊', 東部: '🌲', 離島: '🏝',
+const regionIcons: Partial<Record<(typeof regions)[number], ReactNode>> = {
+  北部: <Building2 size={14} />,
+  中部: <Mountain size={14} />,
+  南部: <Waves size={14} />,
+  東部: <TreePine size={14} />,
+  離島: <Anchor size={14} />,
 }
-const settingEmoji: Partial<Record<(typeof settings)[number], string>> = {
-  室內: '🏛', 室外: '🌿', 室內外: '✨',
+const settingIcons: Partial<Record<(typeof settings)[number], ReactNode>> = {
+  室內: <Home size={14} />,
+  室外: <SunMedium size={14} />,
+  室內外: <Layers size={14} />,
 }
-const durationEmoji: Partial<Record<(typeof durations)[number], string>> = {
-  半日: '⏱', 一日: '🗓', 晚上: '🌙',
+const durationIcons: Partial<Record<(typeof durations)[number], ReactNode>> = {
+  半日: <Clock3 size={14} />,
+  一日: <CalendarDays size={14} />,
+  晚上: <Moon size={14} />,
 }
+const AMENITY_ICONS = {
+  accessibility: Accessibility,
+  ramp: ArrowUpRight,
+  nursingRoom: Baby,
+  diaperTable: Layers,
+  familyRestroom: Users,
+  strollerFriendly: ShoppingCart,
+  parking: Car,
+} as const
 const MAX_VISIBLE_PLACES = 120
 const MAX_MAP_PLACES = 80
 const FALLBACK_IMAGE = `${import.meta.env.BASE_URL}place-fallback.svg`
@@ -659,7 +694,7 @@ function App() {
                 <span className="preview-pin pin-two"><MapPin size={15} /></span>
                 <span className="preview-pin pin-three"><MapPin size={14} /></span>
                 <div className="hero-destination-card">
-                  <span className="destination-art">🌿</span>
+                  <span className="destination-art"><Leaf size={30} /></span>
                   <div>
                     <small>今日推薦</small>
                     <strong>一起去戶外呼吸</strong>
@@ -667,7 +702,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className="hero-floating-card weather-card"><span>☀️</span><div><small>今日天氣</small><strong>適合出門放電</strong></div></div>
+              <div className="hero-floating-card weather-card"><SunMedium size={22} /><div><small>今日天氣</small><strong>適合出門放電</strong></div></div>
               <div className="hero-floating-card activity-card"><CalendarDays size={22} /><div><small>本週新鮮事</small><strong>親子活動持續更新</strong></div></div>
             </div>
           </div>
@@ -695,7 +730,7 @@ function App() {
           <div className="filter-group region-tabs">
             {regions.map((item) => (
               <button key={item} className={region === item ? 'active' : ''} onClick={() => void selectRegion(item)}>
-                {regionEmoji[item] ? <span className="filter-emoji">{regionEmoji[item]}</span> : null}{item}
+                {regionIcons[item]}{item}
               </button>
             ))}
           </div>
@@ -706,10 +741,10 @@ function App() {
               </button>
             ))}
             <button className={rainyOnly ? 'active rainy-filter' : 'rainy-filter'} onClick={() => { playUiSound(); setRainyOnly((value) => !value) }}>
-              ☔ 雨天備案
+              <Umbrella size={14} /> 雨天備案
             </button>
             <button className={eventOnly ? 'active event-filter' : 'event-filter'} onClick={() => { playUiSound(); setEventOnly((value) => !value) }}>
-              🎪 本週活動
+              <CalendarCheck size={14} /> 本週活動
             </button>
           </div>
         </section>
@@ -735,7 +770,7 @@ function App() {
               <div className="filter-pills">
                 {settings.map((item) => (
                 <button key={item} className={setting === item ? 'active' : ''} onClick={() => setSetting(item)}>
-                  {settingEmoji[item] ? <span className="filter-emoji">{settingEmoji[item]}</span> : null}{item}
+                  {settingIcons[item]}{item}
                 </button>
               ))}
               </div>
@@ -745,7 +780,7 @@ function App() {
               <div className="filter-pills">
                 {durations.map((item) => (
                 <button key={item} className={duration === item ? 'active' : ''} onClick={() => setDuration(item)}>
-                  {durationEmoji[item] ? <span className="filter-emoji">{durationEmoji[item]}</span> : null}{item}
+                  {durationIcons[item]}{item}
                 </button>
               ))}
               </div>
@@ -804,13 +839,13 @@ function App() {
             <div className="results-panel">
               {placesStatus === 'loading' ? (
                 <div className="empty-state loading-state">
-                  <span>🗺️</span>
+                  <MapPin size={40} />
                   <h3>正在整理親子景點</h3>
                   <p>載入官方開放資料中，馬上就好。</p>
                 </div>
               ) : placesStatus === 'error' ? (
                 <div className="empty-state">
-                  <span>🛠️</span>
+                  <Wrench size={40} />
                   <h3>景點資料暫時載入失敗</h3>
                   <p>請確認網路後重新整理頁面。</p>
                   <button onClick={() => window.location.reload()}>重新載入</button>
@@ -826,7 +861,7 @@ function App() {
                 />
               )) : (
                 <div className="empty-state">
-                  <span>{activeTab === 'favorites' ? '💛' : '🧸'}</span>
+                  {activeTab === 'favorites' ? <Heart size={40} /> : <Baby size={40} />}
                   <h3>{activeTab === 'favorites' ? '還沒有收藏景點' : '這組條件還沒有景點'}</h3>
                   <p>{activeTab === 'favorites' ? '看到喜歡的地點時，點愛心就能放進這裡。' : '換個地區或放寬孩子年齡試試看。'}</p>
                   <button onClick={activeTab === 'favorites' ? () => openExplore('explore') : clearFilters}>
@@ -934,7 +969,7 @@ function App() {
               <div className="detail-section">
                 <h3>孩子會喜歡</h3>
                 <div className="highlight-grid">
-                  {selected.highlights.map((item) => <span key={item}>✨ {item}</span>)}
+                  {selected.highlights.map((item) => <span key={item}><Star size={10} /> {item}</span>)}
                 </div>
               </div>
               <div className="detail-section">
@@ -942,21 +977,22 @@ function App() {
                 {selected.familyAmenities && (
                   <>
                     <div className="amenity-grid">
-                      {[
-                        ['accessibility', '♿', '無障礙設施／廁所', selected.familyAmenities.accessibility],
-                        ['ramp', '↗️', '無障礙坡道', selected.familyAmenities.ramp],
-                        ['nursingRoom', '🤱', '哺乳／育嬰室', selected.familyAmenities.nursingRoom],
-                        ['diaperTable', '🧷', '尿布台', selected.familyAmenities.diaperTable],
-                        ['familyRestroom', '🚻', '親子廁所', selected.familyAmenities.familyRestroom],
-                        ['strollerFriendly', '🛒', '推車友善', selected.familyAmenities.strollerFriendly],
-                        ['parking', '🅿️', '停車設施', selected.familyAmenities.parking],
-                      ].map(([key, icon, label, status]) => {
+                      {([
+                        ['accessibility', '無障礙設施／廁所', selected.familyAmenities.accessibility],
+                        ['ramp', '無障礙坡道', selected.familyAmenities.ramp],
+                        ['nursingRoom', '哺乳／育嬰室', selected.familyAmenities.nursingRoom],
+                        ['diaperTable', '尿布台', selected.familyAmenities.diaperTable],
+                        ['familyRestroom', '親子廁所', selected.familyAmenities.familyRestroom],
+                        ['strollerFriendly', '推車友善', selected.familyAmenities.strollerFriendly],
+                        ['parking', '停車設施', selected.familyAmenities.parking],
+                      ] as [string, string, string | null | undefined][]).map(([key, label, status]) => {
+                        const AmenityIcon = AMENITY_ICONS[key as keyof typeof AMENITY_ICONS]
                         const openDataConfirmed = selected.familyAmenities?.evidence?.some(
                           (item) => item.amenities.includes(key as FamilyAmenityKey),
                         )
                         return (
                           <div className={`amenity-item ${status}`} key={label}>
-                            <span>{icon}</span>
+                            <span>{AmenityIcon && <AmenityIcon size={18} />}</span>
                             <div>
                               <strong>{label}</strong>
                               <small>
@@ -1015,18 +1051,18 @@ function App() {
                 {showReportForm && (
                   <div className="report-form">
                     <div className="report-choice">
-                      <button className={reportLiked ? 'active' : ''} onClick={() => setReportLiked(true)}>👍 孩子喜歡</button>
-                      <button className={!reportLiked ? 'active' : ''} onClick={() => setReportLiked(false)}>😐 體驗普通</button>
+                      <button className={reportLiked ? 'active' : ''} onClick={() => setReportLiked(true)}><ThumbsUp size={13} /> 孩子喜歡</button>
+                      <button className={!reportLiked ? 'active' : ''} onClick={() => setReportLiked(false)}><ThumbsDown size={13} /> 體驗普通</button>
                     </div>
                     <strong>這次有看到哪些設施？</strong>
                     <div className="report-amenities">
                       {[
-                        ['nursingRoom', '🤱 育嬰室'],
-                        ['diaperTable', '🧷 尿布台'],
-                        ['familyRestroom', '🚻 親子廁所'],
-                        ['accessibility', '♿ 無障礙'],
-                        ['parking', '🅿️ 停車'],
-                        ['strollerFriendly', '🛒 推車友善'],
+                        ['nursingRoom', '育嬰室'],
+                        ['diaperTable', '尿布台'],
+                        ['familyRestroom', '親子廁所'],
+                        ['accessibility', '無障礙'],
+                        ['parking', '停車'],
+                        ['strollerFriendly', '推車友善'],
                       ].map(([key, label]) => (
                         <label key={key}>
                           <input

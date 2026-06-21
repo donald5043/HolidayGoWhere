@@ -84,9 +84,9 @@ body {
   min-height: 100vh;
   color: var(--color-text);
   background:
-    radial-gradient(ellipse at 8% 10%, rgba(120, 155, 141, 0.14), transparent 30rem),
-    radial-gradient(ellipse at 94% 35%, rgba(217, 119, 95, 0.10), transparent 32rem),
-    radial-gradient(ellipse at 50% 90%, rgba(120, 155, 141, 0.07), transparent 25rem),
+    radial-gradient(ellipse at 8% 10%, rgba(232, 180, 140, 0.11), transparent 30rem),
+    radial-gradient(ellipse at 94% 35%, rgba(217, 119, 95, 0.09), transparent 32rem),
+    radial-gradient(ellipse at 50% 90%, rgba(240, 210, 170, 0.06), transparent 25rem),
     var(--color-bg);
   font-size: var(--font-body);
   line-height: 1.6;
@@ -287,9 +287,9 @@ button:active,
   border-radius: 36px;
   color: #fff;
   background:
-    linear-gradient(145deg, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0) 50%),
-    linear-gradient(195deg, #3d6860 0%, #335a52 40%, #274d47 80%, #1f3e3b 100%);
-  box-shadow: var(--shadow-lg), 0 0 0 1px rgba(255,255,255,0.04);
+    linear-gradient(145deg, rgba(255,255,255,0.07) 0%, rgba(255,255,255,0) 40%),
+    linear-gradient(175deg, #c85535 0%, #e07048 40%, #ec9065 80%, #f6b88a 100%);
+  box-shadow: var(--shadow-lg), 0 0 0 1px rgba(255,255,255,0.06);
 }
 
 .hero::before {
@@ -399,10 +399,10 @@ button:active,
   background:
     linear-gradient(28deg, transparent 43%, rgba(255,255,255,0.12) 43.5% 44.5%, transparent 45%),
     linear-gradient(118deg, transparent 58%, rgba(255,255,255,0.10) 58.5% 59.5%, transparent 60%),
-    radial-gradient(circle at 68% 30%, rgba(243,201,184,0.28), transparent 8rem),
-    radial-gradient(circle at 20% 75%, rgba(120,155,141,0.18), transparent 5rem),
-    #3e6460;
-  box-shadow: 0 32px 80px rgba(13, 38, 34, 0.32);
+    radial-gradient(circle at 68% 30%, rgba(255,210,185,0.42), transparent 8rem),
+    radial-gradient(circle at 20% 75%, rgba(248,226,204,0.32), transparent 5rem),
+    #f0e4d0;
+  box-shadow: 0 32px 80px rgba(120, 60, 30, 0.14);
   transform: rotate(2.5deg);
 }
 
@@ -488,8 +488,8 @@ button:active,
   border-radius: 15px;
   display: grid;
   place-items: center;
-  background: linear-gradient(145deg, #dceae3, #f3c9b8);
-  font-size: 34px;
+  background: linear-gradient(145deg, #fbe8d8, #ffd4b8);
+  color: var(--color-primary);
 }
 
 .hero-destination-card div {
@@ -534,8 +534,9 @@ button:active,
   animation: float 5s ease-in-out infinite;
 }
 
-.hero-floating-card > span {
-  font-size: 22px;
+.hero-floating-card > svg {
+  color: rgba(255,255,255,0.90);
+  flex-shrink: 0;
 }
 
 .hero-floating-card div {
@@ -582,13 +583,13 @@ button:active,
 .hero-glow-one {
   left: -190px;
   top: -200px;
-  background: #a9cbbd;
+  background: #ffb88a;
 }
 
 .hero-glow-two {
   right: -160px;
   bottom: -240px;
-  background: #e9a88f;
+  background: #f8d5a0;
   animation-delay: -3s;
 }
 
@@ -726,11 +727,6 @@ button:active,
   transition: color var(--transition-fast), background var(--transition-fast), border-color var(--transition-fast), transform var(--transition-fast), box-shadow var(--transition-fast);
 }
 
-.filter-emoji {
-  font-size: 14px;
-  line-height: 1;
-  display: inline-block;
-}
 
 .filter-group button:hover,
 .filter-pills button:hover {
@@ -1080,8 +1076,9 @@ button:active,
   box-shadow: var(--shadow-sm);
 }
 
-.empty-state > span {
-  font-size: 48px;
+.empty-state > svg {
+  color: var(--color-muted);
+  opacity: 0.45;
 }
 
 .empty-state h3 {
@@ -1529,8 +1526,11 @@ button:active,
   min-height: 66px;
   padding: var(--space-2);
   border-radius: 13px;
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
   text-align: center;
   color: #765621;
   background: #fff0bd;
@@ -1557,7 +1557,19 @@ button:active,
 }
 
 .amenity-item > span {
-  font-size: 21px;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  background: rgba(255,252,247,0.9);
+  color: var(--color-primary);
+}
+
+.amenity-item.confirmed > span {
+  background: rgba(120,155,141,0.10);
+  color: var(--color-secondary-dark);
 }
 
 .amenity-item > div {
@@ -1983,6 +1995,10 @@ button:active,
   padding: 9px;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
   color: var(--color-text-secondary);
   background: #fff;
   font-size: 10px;
@@ -2326,7 +2342,6 @@ button:active,
   .destination-art {
     height: 56px;
     border-radius: 12px;
-    font-size: 27px;
   }
 
   .hero-destination-card strong {
@@ -2515,9 +2530,9 @@ button:active,
     grid-template-columns: repeat(4, 1fr);
     overflow: hidden;
     color: #fff;
-    background: rgba(30,51,48,0.97);
+    background: rgba(42,25,15,0.97);
     backdrop-filter: blur(24px) saturate(1.1);
-    box-shadow: 0 20px 50px rgba(18,38,34,0.32), 0 0 0 0.5px rgba(255,255,255,0.06);
+    box-shadow: 0 20px 50px rgba(60,30,10,0.28), 0 0 0 0.5px rgba(255,255,255,0.06);
   }
 
   .bottom-nav button {
