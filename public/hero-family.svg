@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" fill="none" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EAF4FF"/>
+      <stop offset="55%" stop-color="#FFF6EC"/>
+      <stop offset="100%" stop-color="#FFF0E0"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD9B0"/>
+      <stop offset="60%" stop-color="#FFC79A"/>
+      <stop offset="100%" stop-color="#FFC79A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hillBack" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D6ECE0"/>
+      <stop offset="100%" stop-color="#C4E4D5"/>
+    </linearGradient>
+    <linearGradient id="hillMid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#A7D9C0"/>
+      <stop offset="100%" stop-color="#8FCFB2"/>
+    </linearGradient>
+    <linearGradient id="hillFront" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#74C3A4"/>
+      <stop offset="100%" stop-color="#5DB492"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="720" height="560" fill="url(#sky)"/>
+
+  <!-- sun glow -->
+  <circle cx="560" cy="140" r="150" fill="url(#sun)"/>
+  <circle cx="560" cy="140" r="58" fill="#FFCF9E"/>
+
+  <!-- clouds -->
+  <g fill="#FFFFFF" opacity="0.92">
+    <ellipse cx="180" cy="120" rx="52" ry="22"/>
+    <ellipse cx="220" cy="110" rx="40" ry="26"/>
+    <ellipse cx="150" cy="112" rx="34" ry="20"/>
+  </g>
+  <g fill="#FFFFFF" opacity="0.8">
+    <ellipse cx="470" cy="78" rx="40" ry="17"/>
+    <ellipse cx="500" cy="70" rx="30" ry="20"/>
+  </g>
+
+  <!-- kite -->
+  <g transform="rotate(-12 300 150)">
+    <path d="M300 110L330 150L300 200L270 150Z" fill="#FF6B5B"/>
+    <path d="M300 110L330 150L300 150Z" fill="#FF8C7E"/>
+    <line x1="270" y1="150" x2="330" y2="150" stroke="#E0533F" stroke-width="1.4"/>
+    <line x1="300" y1="110" x2="300" y2="200" stroke="#E0533F" stroke-width="1.4"/>
+    <path d="M300 200C306 214 296 224 304 236C310 245 302 254 308 262" stroke="#FFB54A" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <ellipse cx="305" cy="218" rx="6" ry="3.2" fill="#FFD27A" transform="rotate(20 305 218)"/>
+    <ellipse cx="300" cy="244" rx="6" ry="3.2" fill="#FFB54A" transform="rotate(-12 300 244)"/>
+  </g>
+
+  <!-- hills -->
+  <path d="M0 420 C140 360 280 372 420 408 C540 438 640 412 720 388 L720 560 L0 560 Z" fill="url(#hillBack)"/>
+  <path d="M0 470 C120 430 250 452 380 470 C520 490 640 470 720 452 L720 560 L0 560 Z" fill="url(#hillMid)"/>
+  <path d="M0 520 C160 492 300 512 440 520 C560 527 650 516 720 506 L720 560 L0 560 Z" fill="url(#hillFront)"/>
+
+  <!-- path -->
+  <path d="M300 560 C330 525 360 520 390 506 C420 492 440 486 470 478" stroke="#FBEED8" stroke-width="22" fill="none" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- trees on the right -->
+  <g>
+    <rect x="567" y="430" width="6" height="22" rx="3" fill="#7A5A3C"/>
+    <path d="M570 392 L588 432 L552 432 Z" fill="#5DB492"/>
+    <path d="M570 408 L585 440 L555 440 Z" fill="#74C3A4"/>
+  </g>
+  <g>
+    <rect x="628" y="446" width="5" height="18" rx="2.5" fill="#7A5A3C"/>
+    <path d="M630.5 414 L645 448 L616 448 Z" fill="#6BBE9C"/>
+  </g>
+  <g>
+    <rect x="512" y="452" width="5" height="16" rx="2.5" fill="#7A5A3C"/>
+    <path d="M514.5 424 L527 454 L502 454 Z" fill="#6BBE9C"/>
+  </g>
+</svg>
