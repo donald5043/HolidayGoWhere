@@ -395,6 +395,24 @@ function App() {
     }
   }, [])
 
+  useEffect(() => {
+    if (!navigator.geolocation) return
+    navigator.geolocation.getCurrentPosition(
+      ({ coords }) => {
+        setUserLocation({ lat: coords.latitude, lng: coords.longitude })
+        setMapFocusKey((current) => current + 1)
+        setLocationStatus('ready')
+        setLocationMessage('已依距離重新排列景點，藍點是你的位置。')
+        setWeatherStatus('loading')
+        void fetchWeather(coords.latitude, coords.longitude)
+          .then((summary) => { setWeather(summary); setWeatherStatus('ready') })
+          .catch(() => setWeatherStatus('error'))
+      },
+      () => { /* 使用者拒絕或逾時，靜默略過 */ },
+      { enableHighAccuracy: false, timeout: 8000, maximumAge: 30 * 60 * 1000 },
+    )
+  }, [])
+
   const selectRegion = async (nextRegion: (typeof regions)[number]) => {
     playUiSound()
     setRegion(nextRegion)
