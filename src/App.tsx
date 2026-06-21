@@ -102,6 +102,115 @@ const BAD_PLACEHOLDER_IMAGES = new Set([
   'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80',
 ])
 
+// ── Rule Engine ──────────────────────────────────────────────────────────────
+
+type WizardAgeGroup = '0-2' | '3-5' | '6-12' | 'all'
+type WizardDuration = '半日' | '一日' | 'all'
+type WizardResult   = { place: Place; score: number; reason: string }
+
+function ruleScoreDistance(place: Place, userLocation: { lat: number; lng: number } | null, maxKm: number): number {
+  if (!userLocation) return 0.5
+  const km = distanceInKm(userLocation, place)
+  if (km > maxKm) return 0
+  return 1 - km / maxKm
+}
+
+function ruleScoreWeather(place: Place, weather: WeatherSummary | null): number {
+  if (!weather) return 0.5
+  const rainy = weather.precipitationProbability >= 45 || weather.weatherCode >= 51
+  const hot   = weather.temperature >= 32
+  if (rainy) {
+    if (place.rainyDay) return 1
+    if (place.setting === '室內' || place.setting === '室內外') return 0.65
+    return 0.15
+  }
+  if (hot) {
+    if (place.setting === '室內') return 0.85
+    if (place.setting === '室內外') return 0.75
+    return 0.55
+  }
+  return place.setting === '室外' ? 0.90 : 0.75
+}
+
+function ruleScoreAge(place: Place, ageGroup: WizardAgeGroup): number {
+  if (ageGroup === 'all') return 0.8
+  const [mn, mx] = ageGroup.split('-').map(Number)
+  return (place.ageMax >= mn && place.ageMin <= mx) ? 1 : 0
+}
+
+function ruleScoreFacility(place: Place): number {
+  const a = place.familyAmenities as Record<string, unknown> | undefined
+  if (!a) return 0.2
+  const keys = ['nursingRoom', 'diaperTable', 'familyRestroom', 'parking', 'strollerFriendly']
+  const confirmed = keys.filter((k) => a[k] === 'confirmed').length
+  return Math.min(1, 0.2 + confirmed * 0.16)
+}
+
+function ruleScorePopularity(place: Place): number {
+  return Math.min(1, (place.qualityScore ?? 0) / 100)
+}
+
+function buildWizardReason(
+  place: Place,
+  weather: WeatherSummary | null,
+  distKm: number | null,
+  ageGroup: WizardAgeGroup,
+): string {
+  const parts: string[] = []
+  if (weather) {
+    const rainy = weather.precipitationProbability >= 45 || weather.weatherCode >= 51
+    const temp  = Math.round(weather.temperature)
+    if (rainy && place.rainyDay) {
+      parts.push(`今天${weather.label}，${place.setting}景點雨天也適合`)
+    } else if (rainy) {
+      parts.push(`今天有雨，${place.setting === '室外' ? '記得帶雨具' : '室內空間不怕淋雨'}`)
+    } else if (temp >= 32) {
+      parts.push(`氣溫 ${temp}°C，${place.setting === '室內' ? '室內涼爽舒適' : '多補水防曬'}`)
+    } else {
+      parts.push(`今天${weather.label}`)
+    }
+  }
+  if (distKm !== null) {
+    const mins = Math.round((distKm / 50) * 60)
+    parts.push(`距你約 ${mins} 分鐘車程`)
+  }
+  if (ageGroup !== 'all') {
+    const [mn, mx] = ageGroup.split('-')
+    parts.push(`適合 ${mn}–${mx} 歲`)
+  }
+  return (parts.join('，') || '符合親子條件') + '。'
+}
+
+function computeWizardResults(
+  places: Place[],
+  params: {
+    ageGroup: WizardAgeGroup
+    maxDistKm: number
+    duration: WizardDuration
+    weather: WeatherSummary | null
+    userLocation: { lat: number; lng: number } | null
+  },
+): WizardResult[] {
+  const results: WizardResult[] = []
+  for (const place of places) {
+    if (params.duration !== 'all' && place.duration !== params.duration) continue
+    const aScore = ruleScoreAge(place, params.ageGroup)
+    if (aScore === 0) continue
+    const distKm = params.userLocation ? distanceInKm(params.userLocation, place) : null
+    if (distKm !== null && distKm > params.maxDistKm) continue
+    const score =
+      ruleScoreDistance(place, params.userLocation, params.maxDistKm) * 0.35 +
+      ruleScoreWeather(place, params.weather)                          * 0.25 +
+      aScore                                                           * 0.20 +
+      ruleScoreFacility(place)                                         * 0.12 +
+      ruleScorePopularity(place)                                       * 0.08
+    results.push({ place, score, reason: buildWizardReason(place, params.weather, distKm, params.ageGroup) })
+  }
+  return results.sort((a, b) => b.score - a.score).slice(0, 5)
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+
 const MAX_VISIBLE_PLACES = 120
 const MAX_MAP_PLACES = 80
 const FALLBACK_IMAGE = `${import.meta.env.BASE_URL}place-fallback.svg`
@@ -325,6 +434,11 @@ function App() {
   const [locationMessage, setLocationMessage] = useState('')
   const [activeTab, setActiveTab] = useState<'home' | 'explore' | 'favorites' | 'profile'>('home')
   const [showProfile, setShowProfile] = useState(false)
+  const [wizardAge, setWizardAge]           = useState<WizardAgeGroup>('all')
+  const [wizardDuration, setWizardDuration] = useState<WizardDuration>('all')
+  const [wizardDistKm, setWizardDistKm]     = useState<12 | 25 | 50>(25)
+  const [wizardResults, setWizardResults]   = useState<WizardResult[]>([])
+  const [wizardRan, setWizardRan]           = useState(false)
   const [showReportForm, setShowReportForm] = useState(false)
   const [soundEnabled, setSoundEnabled] = useState(() => localStorage.getItem('holiday-go-where:sound') === 'on')
   const audioContextRef = useRef<AudioContext | null>(null)
@@ -701,6 +815,20 @@ function App() {
     setShowReportForm(false)
   }
 
+  const runWizard = () => {
+    if (!places.length) return
+    playUiSound('open')
+    const results = computeWizardResults(places, {
+      ageGroup: wizardAge,
+      maxDistKm: wizardDistKm,
+      duration: wizardDuration,
+      weather,
+      userLocation,
+    })
+    setWizardResults(results)
+    setWizardRan(true)
+  }
+
   const goExplore = (apply?: () => void) => {
     apply?.()
     openExplore('explore')
@@ -783,6 +911,83 @@ function App() {
                 <small>附近景點</small>
               </button>
             </section>
+
+            {/* ── 今天去哪玩 wizard ── */}
+            <section className="wizard-card">
+              <div className="wizard-head">
+                <span className="wizard-badge"><Sparkles size={17} /></span>
+                <div>
+                  <strong>今天去哪玩？</strong>
+                  <small>告訴我孩子的條件，幫你挑出最適合的景點</small>
+                </div>
+              </div>
+              <div className="wizard-body">
+                <div className="wizard-row">
+                  <span className="wizard-label">孩子年齡</span>
+                  <div className="wizard-pills">
+                    {([['0-2', '0–2 歲'], ['3-5', '3–5 歲'], ['6-12', '6–12 歲'], ['all', '不限']] as const).map(([val, label]) => (
+                      <button key={val} className={wizardAge === val ? 'active' : ''} onClick={() => setWizardAge(val)}>{label}</button>
+                    ))}
+                  </div>
+                </div>
+                <div className="wizard-row">
+                  <span className="wizard-label">可用時間</span>
+                  <div className="wizard-pills">
+                    {([['半日', '半天'], ['一日', '一天'], ['all', '不限']] as const).map(([val, label]) => (
+                      <button key={val} className={wizardDuration === val ? 'active' : ''} onClick={() => setWizardDuration(val)}>{label}</button>
+                    ))}
+                  </div>
+                </div>
+                <div className="wizard-row">
+                  <span className="wizard-label">可接受距離</span>
+                  <div className="wizard-pills">
+                    {([12, 25, 50] as const).map((km) => (
+                      <button key={km} className={wizardDistKm === km ? 'active' : ''} onClick={() => setWizardDistKm(km)}>
+                        {km === 12 ? '15 分鐘' : km === 25 ? '30 分鐘' : '1 小時'}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              </div>
+              <button className="wizard-submit" onClick={runWizard} disabled={placesStatus !== 'ready'}>
+                <Sparkles size={16} />幫我推薦
+              </button>
+            </section>
+
+            {/* wizard results */}
+            {wizardRan && (
+              <section className="home-section wizard-results-section">
+                <div className="home-section-head">
+                  <h2>{wizardResults.length ? `精選 ${wizardResults.length} 個景點` : '找不到符合條件的景點'}</h2>
+                  <button onClick={() => { setWizardResults([]); setWizardRan(false) }}>重新設定</button>
+                </div>
+                {wizardResults.length > 0 ? (
+                  <div className="wizard-result-list">
+                    {wizardResults.map(({ place, reason }) => (
+                      <article
+                        key={place.id}
+                        className="wizard-result-card"
+                        onClick={() => { playUiSound('open'); setSelected(place) }}
+                      >
+                        <div className="wizard-result-thumb">
+                          <PlaceImage place={place} className="wizard-result-photo" />
+                        </div>
+                        <div className="wizard-result-copy">
+                          <strong>{place.name}</strong>
+                          <p className="wizard-reason">{reason}</p>
+                          <span className="wizard-result-meta">
+                            <MapPin size={11} />{place.city}・{place.setting}・{place.duration}
+                          </span>
+                        </div>
+                        <ChevronRight size={18} className="wizard-result-arrow" />
+                      </article>
+                    ))}
+                  </div>
+                ) : (
+                  <p className="wizard-empty">試試放寬距離或年齡條件，或先選「不限」看看。</p>
+                )}
+              </section>
+            )}
 
             <section className="home-section">
               <div className="home-section-head">
