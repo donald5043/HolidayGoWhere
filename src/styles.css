@@ -65,7 +65,7 @@
   --transition-fast: 200ms ease;
   --transition-base: 200ms ease;
   --transition-slow: 260ms ease;
-  --max-width: 720px;
+  --max-width: 1280px;
 }
 
 /* ==========================================================================
@@ -2205,7 +2205,7 @@ button:active,
   z-index: 1000;
   left: 50%;
   bottom: calc(12px + env(safe-area-inset-bottom));
-  width: min(calc(var(--max-width) - 40px), calc(100% - 24px));
+  width: min(480px, calc(100% - 24px));
   height: 64px;
   padding: 6px;
   display: grid;
@@ -2519,6 +2519,125 @@ button:active,
 
   .highlight-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  /* Body: accommodate larger nav */
+  body {
+    padding-bottom: calc(96px + env(safe-area-inset-bottom));
+  }
+
+  /* Header */
+  .topbar {
+    height: 68px;
+  }
+
+  /* Home view: 2-column desktop grid */
+  .home-view {
+    margin-top: 28px;
+    display: grid;
+    grid-template-columns: 1fr 308px;
+    gap: 28px;
+  }
+
+  /* Hero spans both columns */
+  .home-view > .hero-card {
+    grid-column: 1 / -1;
+    min-height: 440px;
+    padding: 44px 48px 108px;
+  }
+
+  .hero-card h1 {
+    font-size: 44px;
+  }
+
+  .hero-card p {
+    font-size: 15.5px;
+    max-width: 400px;
+  }
+
+  .hero-search {
+    left: 28px;
+    right: 28px;
+    bottom: 28px;
+  }
+
+  /* Quick entries span both columns, unwrap from horizontal scroll */
+  .home-view > .quick-entries {
+    grid-column: 1 / -1;
+    overflow: visible;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .entry-tile {
+    flex: 0 0 100px;
+    min-width: 0;
+  }
+
+  .entry-icon {
+    width: 72px;
+    height: 72px;
+  }
+
+  .entry-tile small {
+    font-size: 13px;
+  }
+
+  /* Recommendation section: full width */
+  .home-view > section:nth-child(3) {
+    grid-column: 1 / -1;
+  }
+
+  .reco-card {
+    width: 200px;
+  }
+
+  .reco-skeleton {
+    width: 200px;
+  }
+
+  /* Map CTA: main column */
+  .home-view > section:nth-child(4) {
+    grid-column: 1;
+  }
+
+  /* Weather tile: side column */
+  .home-view > section:nth-child(5) {
+    grid-column: 2;
+  }
+
+  /* Explore section */
+  .explore-section {
+    padding: 28px 0 56px;
+  }
+
+  /* Side-by-side list + map */
+  .explore-grid {
+    grid-template-columns: minmax(340px, 0.85fr) minmax(0, 1.15fr);
+    grid-template-areas: "list map";
+    gap: 28px;
+    align-items: start;
+  }
+
+  .map-panel {
+    position: sticky;
+    top: calc(68px + 16px);
+    height: min(680px, calc(100vh - 68px - 40px));
+  }
+
+  /* Single-column results list (map panel is already alongside) */
+  .results-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  /* Bottom nav: slightly wider pill on desktop */
+  .bottom-nav {
+    width: min(520px, calc(100% - 48px));
+    height: 68px;
   }
 }
 
