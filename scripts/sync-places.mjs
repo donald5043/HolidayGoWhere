@@ -839,6 +839,34 @@ async function main() {
     const regionPlaces = allPlaces.filter((place) => place.region === region)
     await fs.writeFile(path.join(OUTPUT_DIR, file), `${JSON.stringify(regionPlaces, null, 2)}\n`, 'utf8')
   }
+
+  // restaurants-featured: top 50 per region, scored by family amenities + keywords
+  const FAMILY_KEYWORDS = ['親子', '兒童', '寶寶', '嬰兒', '哺乳', '育嬰', '孩子', '家庭', '兒童餐', '遊戲區']
+  const RESTAURANT_QUOTA = 50
+  const restaurantsFeatured = Object.keys(regionFiles).flatMap((region) => {
+    return allPlaces
+      .filter((p) => p.placeType === '餐飲' && p.region === region)
+      .map((p) => {
+        const text = `${p.name} ${p.description ?? ''} ${(p.highlights ?? []).join(' ')} ${(p.facilities ?? []).join(' ')}`
+        const a = p.familyAmenities
+        let score = (p.qualityScore ?? 0) * 3
+        if (a?.nursingRoom === 'confirmed') score += 25
+        if (a?.diaperTable === 'confirmed') score += 20
+        if (a?.strollerFriendly === 'confirmed') score += 15
+        if (a?.parking === 'confirmed') score += 10
+        score += FAMILY_KEYWORDS.filter((k) => text.includes(k)).length * 8
+        if (p.setting === '室內') score += 5
+        return { ...p, _rScore: score }
+      })
+      .sort((a, b) => b._rScore - a._rScore)
+      .slice(0, RESTAURANT_QUOTA)
+      .map(({ _rScore, ...p }) => p)
+  })
+  await fs.writeFile(
+    path.join(OUTPUT_DIR, 'restaurants-featured.json'),
+    `${JSON.stringify(restaurantsFeatured, null, 2)}\n`,
+    'utf8',
+  )
   await fs.rm(path.join(OUTPUT_DIR, 'places.json'), { force: true })
   await fs.writeFile(META_FILE, `${JSON.stringify({
     sourceUrl: SOURCE_URL,
@@ -864,7 +892,7 @@ async function main() {
   await fs.rm(tempDir, { recursive: true, force: true })
 
   console.log(`來源 ${attractions.length} 筆，發布全部親子候選 ${allPlaces.length} 筆`)
-  console.log(`餐飲來源 ${restaurants.length} 筆，新增雨天餐飲 ${restaurantPublished} 筆`)
+  console.log(`餐飲來源 ${restaurants.length} 筆，新增雨天餐飲 ${restaurantPublished} 筆，親子餐廳精選 ${restaurantsFeatured.length} 筆`)
   console.log(`活動來源 ${events.length} 筆，發布近期活動 ${eventPublished} 筆`)
   console.log(`首頁精選 ${featuredPlaces.length} 筆，分區：`, regionCounts)
   console.log('分類：', categoryCounts)
