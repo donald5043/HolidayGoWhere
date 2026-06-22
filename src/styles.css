@@ -498,6 +498,7 @@ button:active,
 .tile-coral  { background: var(--color-primary-soft); color: var(--color-primary-dark); }
 .tile-yellow { background: var(--color-yellow-soft); color: #B07D1E; }
 .tile-violet { background: #EEEAFE; color: #7C6BD0; }
+.tile-orange { background: #FFF0E6; color: #C05B1E; display: grid; place-items: center; font-size: 24px; }
 
 /* Home sections */
 .home-section {
@@ -3347,7 +3348,6 @@ p.wizard-reason {
   }
 }
 
-
 /* ==========================================================================
    12. 暖陽蠟筆 Sunny Crayon — theme refinements (appended)
    ========================================================================== */
@@ -3427,3 +3427,112 @@ p.wizard-reason {
 /* Sticker-ish badges */
 .price-tag { font-weight: 700; }
 .event-badge { color: #fff; background: var(--color-berry); }
+
+/* ── 親子餐廳 ──────────────────────────────────────────────────────────────── */
+
+.restaurant-filter {
+  white-space: nowrap;
+  border-radius: 999px;
+  padding: 6px 14px;
+  border: 1.5px solid var(--color-border);
+  background: var(--color-surface);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--color-text-secondary);
+  transition: all var(--transition-fast);
+}
+.restaurant-filter.active {
+  background: #FFF0E6;
+  border-color: #C05B1E;
+  color: #C05B1E;
+}
+
+.nearby-restaurants-section h3 { margin: 0 0 4px; font-size: 15px; }
+.nearby-restaurants-hint {
+  font-size: 12px;
+  color: var(--color-text-secondary);
+  margin: 0 0 12px;
+}
+
+.restaurant-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.restaurant-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  border-radius: 14px;
+  background: var(--color-surface-raised);
+  border: 1px solid var(--color-border);
+  cursor: pointer;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+.restaurant-card:active {
+  transform: scale(0.98);
+}
+
+.restaurant-photo-wrap {
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--color-surface);
+}
+
+.restaurant-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.restaurant-info {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.restaurant-name {
+  font-size: 14px;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.restaurant-meta {
+  display: flex;
+  gap: 0;
+  font-size: 11px;
+  color: var(--color-text-secondary);
+  align-items: center;
+}
+.restaurant-meta span { display: flex; align-items: center; gap: 2px; }
+
+.restaurant-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 2px;
+}
+
+.restaurant-tag {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: #FFF0E6;
+  color: #C05B1E;
+}
+
+.restaurant-arrow {
+  flex-shrink: 0;
+  color: var(--color-text-secondary);
+}
