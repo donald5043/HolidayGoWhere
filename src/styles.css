@@ -2813,8 +2813,9 @@ p.wizard-reason {
     font-size: 13px;
   }
 
-  /* Recommendation section: full width */
-  .home-view > section:nth-child(3) {
+  /* All sections span both columns by default (handles wizard-card,
+     wizard-results, and reco regardless of conditional rendering) */
+  .home-view > section {
     grid-column: 1 / -1;
   }
 
@@ -2826,13 +2827,13 @@ p.wizard-reason {
     width: 200px;
   }
 
-  /* Map CTA: main column */
-  .home-view > section:nth-child(4) {
+  /* Map CTA always second-to-last child → main column */
+  .home-view > section:nth-last-child(2) {
     grid-column: 1;
   }
 
-  /* Weather tile: side column */
-  .home-view > section:nth-child(5) {
+  /* Weather tile always last child → side column */
+  .home-view > section:nth-last-child(1) {
     grid-column: 2;
   }
 
