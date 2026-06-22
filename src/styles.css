@@ -4,31 +4,31 @@
 
 :root {
   font-family: "Noto Sans TC", Inter, "PingFang TC", "Microsoft JhengHei", system-ui, sans-serif;
-  color: #1F2937;
-  background: #F8FAFC;
+  color: #3A2E2A;
+  background: #FFF8EF;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
 
-  --color-bg: #F8FAFC;
+  --color-bg: #FFF8EF;
   --color-surface: #FFFFFF;
   --color-surface-raised: #FFFFFF;
-  --color-surface-soft: #F1F5F9;
-  --color-primary: #FF6B5B;
-  --color-primary-dark: #E0533F;
-  --color-primary-light: #FFE8E2;
-  --color-primary-soft: #FFE8E2;
-  --color-secondary: #2E7D6B;
-  --color-secondary-dark: #24564B;
-  --color-text: #1F2937;
-  --color-text-secondary: #4B5563;
-  --color-muted: #6B7280;
-  --color-border: rgba(31, 41, 55, 0.08);
-  --color-border-strong: rgba(31, 41, 55, 0.14);
-  --color-success-bg: #E8F3EF;
-  --color-green-soft: #E8F3EF;
-  --color-blue-soft: #EAF4FF;
-  --color-yellow-soft: #FFF3D8;
-  --color-warm-bg: #FFE8E2;
+  --color-surface-soft: #FFEFDD;
+  --color-primary: #FF8A3D;
+  --color-primary-dark: #E5651B;
+  --color-primary-light: #FFE3CC;
+  --color-primary-soft: #FFEAD7;
+  --color-secondary: #2E9E6B;
+  --color-secondary-dark: #237A52;
+  --color-text: #3A2E2A;
+  --color-text-secondary: #6A5A4E;
+  --color-muted: #9A8E85;
+  --color-border: rgba(58, 46, 42, 0.08);
+  --color-border-strong: rgba(58, 46, 42, 0.14);
+  --color-success-bg: #E9F6EE;
+  --color-green-soft: #E5F4E0;
+  --color-blue-soft: #E0F1FB;
+  --color-yellow-soft: #FFF1C9;
+  --color-warm-bg: #FFEAD7;
   --color-rating: #E8A93C;
 
   --font-hero: 38px;
@@ -50,17 +50,17 @@
   --space-20: 80px;
   --space-24: 96px;
 
-  --radius-sm: 10px;
-  --radius-md: 16px;
-  --radius-lg: 24px;
-  --radius-xl: 32px;
+  --radius-sm: 12px;
+  --radius-md: 18px;
+  --radius-lg: 26px;
+  --radius-xl: 34px;
   --radius-pill: 999px;
 
-  --shadow-sm: 0 4px 16px rgba(31, 41, 55, 0.06);
-  --shadow-md: 0 12px 32px rgba(31, 41, 55, 0.10);
-  --shadow-lg: 0 20px 48px rgba(31, 41, 55, 0.12);
-  --shadow-card: 0 12px 32px rgba(31, 41, 55, 0.10);
-  --shadow-card-hover: 0 18px 40px rgba(31, 41, 55, 0.14);
+  --shadow-sm: 0 6px 18px rgba(58, 46, 42, 0.06);
+  --shadow-md: 0 14px 34px rgba(58, 46, 42, 0.10);
+  --shadow-lg: 0 22px 50px rgba(58, 46, 42, 0.13);
+  --shadow-card: 0 14px 32px rgba(58, 46, 42, 0.10);
+  --shadow-card-hover: 0 20px 44px rgba(58, 46, 42, 0.15);
 
   --transition-fast: 200ms ease;
   --transition-base: 200ms ease;
@@ -2880,3 +2880,84 @@ p.wizard-reason {
     transition-duration: 0.01ms !important;
   }
 }
+
+
+/* ==========================================================================
+   12. 暖陽蠟筆 Sunny Crayon — theme refinements (appended)
+   ========================================================================== */
+
+:root {
+  --color-sky: #4FB8E6;
+  --color-sky-soft: #E0F1FB;
+  --color-sunny: #FFC93C;
+  --color-berry: #FF6F91;
+  --font-display: "Baloo 2", "Noto Sans TC", "PingFang TC", system-ui, sans-serif;
+  --gradient-primary: linear-gradient(135deg, #FF8A3D, #FF6F91);
+}
+
+/* Rounded display font on key headings + brand */
+.brand strong,
+.hero-card h1,
+.section-heading h2,
+.home-section-head h2,
+.wizard-head > div > strong,
+.map-cta-copy strong,
+.weather-tile-copy strong,
+.detail-title h2,
+.profile-sheet h2,
+.empty-state h3 {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+}
+
+/* Primary CTAs: warm gradient instead of dark ink */
+.maps-cta,
+.profile-action:not(.secondary) {
+  background: var(--gradient-primary);
+  box-shadow: 0 12px 28px rgba(255, 111, 145, 0.30);
+}
+.profile-action.secondary {
+  color: var(--color-primary-dark);
+}
+
+/* Region tabs active → primary (was dark ink) */
+.region-tabs {
+  background: var(--color-primary-soft);
+}
+.region-tabs button.active {
+  color: #fff;
+  border-color: var(--color-primary);
+  background: var(--color-primary);
+  box-shadow: 0 4px 14px rgba(255, 138, 61, 0.30);
+}
+
+/* Location button active → primary */
+.location-button:hover,
+.location-button.is-active {
+  color: #fff;
+  background: var(--color-primary);
+}
+
+/* Quick-entry icons: chunkier crayon tiles */
+.entry-icon {
+  border-radius: 20px;
+  box-shadow: 0 7px 16px -8px rgba(58, 46, 42, 0.18);
+}
+.tile-blue   { background: var(--color-blue-soft); color: #3B92C7; }
+.tile-violet { background: #F2ECFB; color: #7C6BD0; }
+
+/* Cards: warm primary underline on hover */
+.place-card:hover {
+  box-shadow: var(--shadow-card-hover), 0 -3px 0 0 var(--color-primary) inset;
+}
+
+/* Hero overlay: warm the scrim so cream reads against the illustration */
+.hero-card-overlay {
+  background:
+    linear-gradient(100deg, rgba(255, 243, 230, 0.96) 0%, rgba(255, 239, 221, 0.82) 34%, rgba(255, 239, 221, 0.14) 64%, rgba(255, 239, 221, 0) 100%),
+    linear-gradient(0deg, rgba(255, 243, 230, 0.40), rgba(255, 243, 230, 0) 42%);
+}
+
+/* Sticker-ish badges */
+.price-tag { font-weight: 700; }
+.event-badge { color: #fff; background: var(--color-berry); }
