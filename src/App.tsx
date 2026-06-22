@@ -56,6 +56,7 @@ import {
 import { MapView, type MapViewport } from './MapView'
 import { BAD_PLACEHOLDER_IMAGES, FALLBACK_IMAGE } from './imageUtils'
 import { WeekendDiscovery } from './components/WeekendDiscovery'
+import { NearbyRestaurants } from './components/NearbyRestaurants'
 
 const regions = ['全部', '北部', '中部', '南部', '東部', '離島'] as const
 const settings = ['全部', '室內', '室外', '室內外'] as const
@@ -451,6 +452,7 @@ function App() {
   const [duration, setDuration] = useState<(typeof durations)[number]>('全部')
   const [rainyOnly, setRainyOnly] = useState(false)
   const [eventOnly, setEventOnly] = useState(false)
+  const [restaurantOnly, setRestaurantOnly] = useState(false)
   const [weather, setWeather] = useState<WeatherSummary | null>(null)
   const [weatherStatus, setWeatherStatus] = useState<'idle' | 'loading' | 'ready' | 'error'>('idle')
   const [showFilters, setShowFilters] = useState(false)
@@ -687,6 +689,7 @@ function App() {
         ageMatches &&
         (!rainyOnly || place.rainyDay === true) &&
         (!eventOnly || place.placeType === '活動') &&
+        (!restaurantOnly || place.placeType === '餐飲') &&
         (setting === '全部' || place.setting === setting || (setting !== '室內外' && place.setting === '室內外')) &&
         (duration === '全部' || place.duration === duration)
       )
@@ -716,7 +719,7 @@ function App() {
       }
       return distanceInKm(sortLocation, first) - distanceInKm(sortLocation, second)
     })
-  }, [places, query, age, setting, duration, rainyOnly, eventOnly, weather, userLocation, mapViewport])
+  }, [places, query, age, setting, duration, rainyOnly, eventOnly, restaurantOnly, weather, userLocation, mapViewport])
   const displayedPlaces = useMemo(
     () => activeTab === 'favorites'
       ? filteredPlaces.filter((place) => favorites.includes(place.id))
@@ -790,6 +793,7 @@ function App() {
     setDuration('全部')
     setRainyOnly(false)
     setEventOnly(false)
+    setRestaurantOnly(false)
   }
 
   const findNearbyPlaces = () => {
@@ -966,6 +970,10 @@ function App() {
               <button className="entry-tile" onClick={() => goExplore(findNearbyPlaces)}>
                 <span className="entry-icon tile-violet"><LocateFixed size={24} /></span>
                 <small>附近景點</small>
+              </button>
+              <button className="entry-tile" onClick={() => goExplore(() => { setRestaurantOnly(true); setRainyOnly(false); setEventOnly(false) })}>
+                <span className="entry-icon tile-orange">🍴</span>
+                <small>親子餐廳</small>
               </button>
             </section>
 
@@ -1213,6 +1221,9 @@ function App() {
             <button className={eventOnly ? 'active event-filter' : 'event-filter'} onClick={() => { playUiSound(); setEventOnly((value) => !value) }}>
               <CalendarCheck size={14} /> 本週活動
             </button>
+            <button className={restaurantOnly ? 'active restaurant-filter' : 'restaurant-filter'} onClick={() => { playUiSound(); setRestaurantOnly((value) => !value) }}>
+              🍴 親子餐廳
+            </button>
           </div>
 
           {weather && (
@@ -1405,6 +1416,9 @@ function App() {
                 <div className="rating-line official-line"><Database size={17} />交通部觀光署官方開放資料</div>
               )}
               <p className="detail-description">{selected.description}</p>
+              {selected.placeType !== '餐飲' && (
+                <NearbyRestaurants allPlaces={places} anchor={selected} onOpen={openPlace} />
+              )}
               {selected.completeness && (
                 <div className="completeness-panel">
                   <div>
