@@ -211,6 +211,50 @@ function computeWizardResults(
   return results.sort((a, b) => b.score - a.score).slice(0, 5)
 }
 
+// ── 親子人格 ─────────────────────────────────────────────────────────────────
+
+type PersonalityId = 'outdoor' | 'indoor' | 'animal' | 'rainy'
+type PersonalityProfile = { id: PersonalityId; label: string; emoji: string; desc: string }
+
+const PERSONALITIES: PersonalityProfile[] = [
+  { id: 'outdoor', label: '戶外探索型', emoji: '🌿', desc: '愛在大自然裡奔跑冒險，公園、步道、農場都難不倒你' },
+  { id: 'indoor', label: '室內學習型', emoji: '🏛️', desc: '偏愛博物館、科教館與手作體驗，寓教於樂最對味' },
+  { id: 'animal', label: '動物愛好型', emoji: '🦋', desc: '對動物、海洋生態、農場牧場總是走不開' },
+  { id: 'rainy', label: '雨天備案型', emoji: '☔', desc: '室內活動玩得超開心，下雨也不怕找不到去處' },
+]
+
+const ANIMAL_KW = ['動物', '水族', '海洋', '鳥', '蝴蝶', '昆蟲', '牧場', '農場', '魚', '熊', '貓', '兔', '羊', '馬', '龜', '蛇', '鱷']
+const INDOOR_KW = ['博物館', '美術館', '科學', '圖書', '展覽', '手作', '體驗', '教育', '工坊', '文化', '科教', '表演', '室內遊樂']
+const OUTDOOR_KW = ['公園', '山', '森林', '海灘', '溪', '瀑布', '步道', '遊樂場', '農園', '田野', '露營', '沙灘']
+
+function scorePersonalityForPlace(place: Place): Record<PersonalityId, number> {
+  const text = `${place.name} ${place.category} ${place.description ?? ''}`
+  const animalHits = ANIMAL_KW.filter((k) => text.includes(k)).length
+  const indoorHits = INDOOR_KW.filter((k) => text.includes(k)).length
+  const outdoorHits = OUTDOOR_KW.filter((k) => text.includes(k)).length
+  return {
+    outdoor: (place.setting === '室外' ? 2 : 0) + outdoorHits,
+    indoor:  (place.setting === '室內' ? 2 : 0) + indoorHits,
+    animal:  animalHits * 2,
+    rainy:   (place.rainyDay ? 3 : 0) + (place.setting === '室內' ? 1 : 0),
+  }
+}
+
+function computePersonality(interactedIds: string[], places: Place[]): PersonalityId | null {
+  const unique = [...new Set(interactedIds)].slice(-40)
+  if (unique.length < 3) return null
+  const placeMap = new Map(places.map((p) => [p.id, p]))
+  const totals: Record<PersonalityId, number> = { outdoor: 0, indoor: 0, animal: 0, rainy: 0 }
+  for (const id of unique) {
+    const place = placeMap.get(id)
+    if (!place) continue
+    const s = scorePersonalityForPlace(place)
+    for (const k of Object.keys(totals) as PersonalityId[]) totals[k] += s[k]
+  }
+  const [best] = (Object.entries(totals) as [PersonalityId, number][]).sort(([, a], [, b]) => b - a)
+  return best[1] > 0 ? best[0] : null
+}
+
 // ─────────────────────────────────────────────────────────────────────────────
 
 const MAX_VISIBLE_PLACES = 120
@@ -443,6 +487,9 @@ function App() {
   const [wizardRan, setWizardRan]           = useState(false)
   const [showReportForm, setShowReportForm] = useState(false)
   const [soundEnabled, setSoundEnabled] = useState(() => localStorage.getItem('holiday-go-where:sound') === 'on')
+  const [clickHistory, setClickHistory] = useState<string[]>(() => {
+    try { return JSON.parse(localStorage.getItem('holiday-go-where:click-history') || '[]') } catch { return [] }
+  })
   const audioContextRef = useRef<AudioContext | null>(null)
   const [reportLiked, setReportLiked] = useState(true)
   const [reportNote, setReportNote] = useState('')
@@ -473,6 +520,10 @@ function App() {
   useEffect(() => {
     localStorage.setItem('holiday-go-where:sound', soundEnabled ? 'on' : 'off')
   }, [soundEnabled])
+
+  useEffect(() => {
+    localStorage.setItem('holiday-go-where:click-history', JSON.stringify(clickHistory))
+  }, [clickHistory])
 
   const playUiSound = useCallback((kind: 'tap' | 'favorite' | 'open' = 'tap', force = false) => {
     if (!soundEnabled && !force) return
@@ -723,6 +774,27 @@ function App() {
     return [...ranked.slice(offset), ...ranked.slice(0, offset)].slice(0, 10)
   }, [places, placesStatus])
 
+  const nearbyPlaces = useMemo(() => {
+    if (!userLocation || placesStatus !== 'ready') return [] as { place: Place; dist: number }[]
+    return places
+      .map((p) => ({ place: p, dist: distanceInKm(userLocation, p) }))
+      .filter(({ dist }) => dist <= 15)
+      .sort((a, b) => a.dist - b.dist)
+      .slice(0, 6)
+  }, [places, userLocation, placesStatus])
+
+  const personality = useMemo(
+    () => computePersonality([...favorites, ...clickHistory], places),
+    [favorites, clickHistory, places],
+  )
+  const personalityProfile = personality ? PERSONALITIES.find((p) => p.id === personality) ?? null : null
+
+  const openPlace = useCallback((place: Place) => {
+    playUiSound('open')
+    setSelected(place)
+    setClickHistory((prev) => [...prev.slice(-99), place.id])
+  }, [playUiSound])
+
   const toggleFavorite = (id: string) => {
     playUiSound('favorite')
     setFavorites((current) => current.includes(id) ? current.filter((item) => item !== id) : [...current, id])
@@ -972,7 +1044,7 @@ function App() {
                       <article
                         key={place.id}
                         className="wizard-result-card"
-                        onClick={() => { playUiSound('open'); setSelected(place) }}
+                        onClick={() => openPlace(place)}
                       >
                         <div className="wizard-result-thumb">
                           <PlaceImage place={place} className="wizard-result-photo" />
@@ -994,6 +1066,30 @@ function App() {
               </section>
             )}
 
+            {/* ── 附近推薦 ── */}
+            {nearbyPlaces.length > 0 && (
+              <section className="home-section nearby-section">
+                <div className="home-section-head">
+                  <h2>📍 附近推薦</h2>
+                  <button onClick={() => goExplore(findNearbyPlaces)}>更多 <ChevronRight size={15} /></button>
+                </div>
+                <div className="nearby-scroll">
+                  {nearbyPlaces.map(({ place, dist }) => (
+                    <article key={place.id} className="nearby-card" onClick={() => openPlace(place)}>
+                      <div className="nearby-img">
+                        <PlaceImage place={place} className="nearby-photo" />
+                        <span className="nearby-setting-badge">{place.setting}</span>
+                      </div>
+                      <div className="nearby-copy">
+                        <strong>{place.name}</strong>
+                        <span><MapPin size={10} />{dist < 1 ? `${Math.round(dist * 1000)} m` : `${dist.toFixed(1)} km`}</span>
+                      </div>
+                    </article>
+                  ))}
+                </div>
+              </section>
+            )}
+
             <section className="home-section">
               <div className="home-section-head">
                 <h2>為你推薦</h2>
@@ -1005,7 +1101,7 @@ function App() {
                     <article
                       key={place.id}
                       className="reco-card"
-                      onClick={() => { playUiSound('open'); setSelected(place) }}
+                      onClick={() => openPlace(place)}
                     >
                       <div className="reco-image">
                         <PlaceImage place={place} className="reco-photo" />
@@ -1035,6 +1131,24 @@ function App() {
                 </div>
               )}
             </section>
+
+            {/* ── 親子人格 ── */}
+            {personalityProfile && (
+              <section className="home-section persona-section">
+                <div className="home-section-head">
+                  <h2>你的親子類型</h2>
+                  <button onClick={() => openProfile()}>查看檔案 <ChevronRight size={15} /></button>
+                </div>
+                <div className="persona-card">
+                  <span className="persona-emoji" aria-hidden="true">{personalityProfile.emoji}</span>
+                  <div className="persona-copy">
+                    <strong>{personalityProfile.label}</strong>
+                    <p>{personalityProfile.desc}</p>
+                  </div>
+                  <span className="persona-badge">依收藏推算</span>
+                </div>
+              </section>
+            )}
 
             <section className="home-section">
               <button className="map-cta" onClick={() => goExplore()}>
@@ -1225,7 +1339,7 @@ function App() {
                 <PlaceCard
                   key={place.id}
                   place={place}
-                  onOpen={() => { playUiSound('open'); setSelected(place) }}
+                  onOpen={() => openPlace(place)}
                   favorite={favorites.includes(place.id)}
                   onFavorite={() => toggleFavorite(place.id)}
                   distance={userLocation ? distanceInKm(userLocation, place) : undefined}
@@ -1263,8 +1377,18 @@ function App() {
             </div>
             <h2>我的親子小檔案</h2>
             <p>你的收藏與偏好會保存在這支手機裡。</p>
+            {personalityProfile && (
+              <div className="profile-persona">
+                <span className="profile-persona-emoji">{personalityProfile.emoji}</span>
+                <div>
+                  <strong>{personalityProfile.label}</strong>
+                  <span>{personalityProfile.desc}</span>
+                </div>
+              </div>
+            )}
             <div className="profile-stats">
               <div><strong>{favorites.length}</strong><span>收藏景點</span></div>
+              <div><strong>{clickHistory.length}</strong><span>探索紀錄</span></div>
               <div><strong>{age === 'all' ? '全部' : age}</strong><span>孩子年齡</span></div>
             </div>
             <button className="profile-action" onClick={() => { setShowProfile(false); openExplore('favorites') }}>
