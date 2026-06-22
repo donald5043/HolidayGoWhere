@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import type { Place } from '../data'
 import { classifyRestaurant } from '../services/restaurantClassifier'
 import { RestaurantCard } from './RestaurantCard'
@@ -22,9 +22,22 @@ type Props = {
 }
 
 export function NearbyRestaurants({ allPlaces, anchor, onOpen }: Props) {
+  const [supplemental, setSupplemental] = useState<Place[]>([])
+
+  useEffect(() => {
+    import('../generated/restaurants-featured.json')
+      .then((m) => setSupplemental(m.default as Place[]))
+      .catch(() => {/* silent: supplemental data unavailable */})
+  }, [])
+
   const restaurants = useMemo(() => {
-    return allPlaces
-      .filter((p) => p.placeType === '餐飲' && p.id !== anchor.id)
+    const seen = new Set(allPlaces.filter((p) => p.placeType === '餐飲').map((p) => p.id))
+    const combined = [
+      ...allPlaces.filter((p) => p.placeType === '餐飲'),
+      ...supplemental.filter((p) => !seen.has(p.id)),
+    ]
+    return combined
+      .filter((p) => p.id !== anchor.id)
       .map((p) => ({ place: p, dist: haversineKm(anchor, p), score: classifyRestaurant(p) }))
       .filter(({ dist }) => dist <= 10)
       .sort((a, b) => {
@@ -32,7 +45,7 @@ export function NearbyRestaurants({ allPlaces, anchor, onOpen }: Props) {
         return Math.abs(diff) > 10 ? diff : a.dist - b.dist
       })
       .slice(0, 3)
-  }, [allPlaces, anchor])
+  }, [allPlaces, supplemental, anchor])
 
   if (restaurants.length === 0) return null
 
