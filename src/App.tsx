@@ -1140,6 +1140,7 @@ function App() {
                 userLocation={userLocation}
                 favorites={favorites}
                 onFavorite={toggleFavorite}
+                onOpenPlace={openPlace}
               />
             </section>
 

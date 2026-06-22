@@ -4,6 +4,7 @@ import type { Place } from '../data'
 import { FALLBACK_IMAGE } from '../imageUtils'
 
 const SWIPE_THRESHOLD = 80
+const TAP_MAX_MOVE = 8  // px — below this, treat pointer-up as a tap
 
 type Props = {
   place: Place
@@ -14,6 +15,7 @@ type Props = {
   ejectDirection: 'like' | 'dislike' | null
   onLike: (id: string) => void
   onDislike: (id: string) => void
+  onOpen: (place: Place) => void
 }
 
 export function SwipeCard({
@@ -25,12 +27,14 @@ export function SwipeCard({
   ejectDirection,
   onLike,
   onDislike,
+  onOpen,
 }: Props) {
   const [dragX, setDragX] = useState(0)
   const [dragging, setDragging] = useState(false)
   const [exitX, setExitX] = useState<number | null>(null)
   const [imgSrc, setImgSrc] = useState(imageSrc)
   const startX = useRef(0)
+  const hasMoved = useRef(false)
 
   const isTop = stackIndex === 0
   const exiting = exitX !== null
@@ -67,18 +71,26 @@ export function SwipeCard({
   const handlePointerDown = (e: React.PointerEvent) => {
     if (!isTop || exiting) return
     setDragging(true)
+    hasMoved.current = false
     startX.current = e.clientX
     ;(e.currentTarget as HTMLElement).setPointerCapture(e.pointerId)
   }
 
   const handlePointerMove = (e: React.PointerEvent) => {
     if (!dragging) return
-    setDragX(e.clientX - startX.current)
+    const dx = e.clientX - startX.current
+    if (Math.abs(dx) > TAP_MAX_MOVE) hasMoved.current = true
+    setDragX(dx)
   }
 
   const handlePointerUp = () => {
     if (!dragging) return
     setDragging(false)
+    if (!hasMoved.current) {
+      setDragX(0)
+      onOpen(place)
+      return
+    }
     if (dragX > SWIPE_THRESHOLD) {
       setExitX(window.innerWidth + 150)
     } else if (dragX < -SWIPE_THRESHOLD) {
