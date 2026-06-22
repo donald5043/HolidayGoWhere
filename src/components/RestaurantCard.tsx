@@ -14,6 +14,7 @@ type Props = {
 export function RestaurantCard({ place, distance, score, onClick }: Props) {
   const [imgSrc, setImgSrc] = useState(() => bestImageSrc(place.image, place.imageCandidates))
   const distLabel = distance < 1 ? `${Math.round(distance * 1000)} m` : `${distance.toFixed(1)} km`
+  const isFamilyFriendly = score.familyScore >= 45
 
   return (
     <article className="restaurant-card" onClick={onClick}>
@@ -32,13 +33,14 @@ export function RestaurantCard({ place, distance, score, onClick }: Props) {
           <span><MapPin size={11} />{distLabel}</span>
           <span>・{place.city}</span>
         </div>
-        {score.tags.length > 0 && (
-          <div className="restaurant-tags">
-            {score.tags.slice(0, 3).map((tag) => (
-              <span key={tag} className="restaurant-tag">{tag}</span>
-            ))}
-          </div>
-        )}
+        <div className="restaurant-tags">
+          {isFamilyFriendly && (
+            <span className="restaurant-tag restaurant-tag--family">推測親子友善</span>
+          )}
+          {score.tags.slice(0, 3).map((tag) => (
+            <span key={tag} className="restaurant-tag">{tag}</span>
+          ))}
+        </div>
       </div>
       <ChevronRight size={16} className="restaurant-arrow" />
     </article>

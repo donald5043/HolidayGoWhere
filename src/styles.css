@@ -498,7 +498,6 @@ button:active,
 .tile-coral  { background: var(--color-primary-soft); color: var(--color-primary-dark); }
 .tile-yellow { background: var(--color-yellow-soft); color: #B07D1E; }
 .tile-violet { background: #EEEAFE; color: #7C6BD0; }
-.tile-orange { background: #FFF0E6; color: #C05B1E; display: grid; place-items: center; font-size: 24px; }
 
 /* Home sections */
 .home-section {
@@ -3430,25 +3429,31 @@ p.wizard-reason {
 
 /* ── 親子餐廳 ──────────────────────────────────────────────────────────────── */
 
-.restaurant-filter {
-  white-space: nowrap;
-  border-radius: 999px;
-  padding: 6px 14px;
-  border: 1.5px solid var(--color-border);
-  background: var(--color-surface);
-  font-size: 13px;
-  font-weight: 600;
-  cursor: pointer;
-  color: var(--color-text-secondary);
-  transition: all var(--transition-fast);
+.nearby-restaurants-section h3 { margin: 0 0 8px; font-size: 15px; }
+
+.nearby-radius-row {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 8px;
 }
-.restaurant-filter.active {
-  background: #FFF0E6;
-  border-color: #C05B1E;
-  color: #C05B1E;
+.nearby-radius-row button {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 999px;
+  border: 1.5px solid var(--color-border);
+  background: transparent;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: background var(--transition-fast), color var(--transition-fast), border-color var(--transition-fast);
+}
+.nearby-radius-row button.active,
+.nearby-radius-row button:hover {
+  background: var(--color-primary);
+  color: #fff;
+  border-color: var(--color-primary);
 }
 
-.nearby-restaurants-section h3 { margin: 0 0 4px; font-size: 15px; }
 .nearby-restaurants-hint {
   font-size: 12px;
   color: var(--color-text-secondary);
@@ -3528,8 +3533,13 @@ p.wizard-reason {
   font-weight: 600;
   padding: 2px 7px;
   border-radius: 999px;
-  background: #FFF0E6;
-  color: #C05B1E;
+  background: var(--color-primary-soft);
+  color: var(--color-primary-dark);
+}
+
+.restaurant-tag--family {
+  background: #e8f5e9;
+  color: #2e7d32;
 }
 
 .restaurant-arrow {

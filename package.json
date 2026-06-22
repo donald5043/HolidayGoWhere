@@ -9,6 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "sync:places": "node scripts/sync-places.mjs",
+    "sync:osm-restaurants": "node scripts/sync-osm-restaurants.mjs",
     "ai:enrich": "node scripts/enrich-ai.mjs"
   },
   "dependencies": {
