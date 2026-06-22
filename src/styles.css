@@ -903,6 +903,149 @@ p.wizard-reason {
   font-size: 13px;
 }
 
+/* ─── 附近推薦 ─────────────────────────────────────────────── */
+.nearby-section { animation: fade-up 280ms ease both; }
+
+.nearby-scroll {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+  scrollbar-width: none;
+}
+.nearby-scroll::-webkit-scrollbar { display: none; }
+
+.nearby-card {
+  flex: 0 0 130px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  cursor: pointer;
+  border: 0;
+  background: none;
+  padding: 0;
+  text-align: left;
+  transition: transform var(--transition-base);
+}
+.nearby-card:hover { transform: translateY(-2px); }
+.nearby-card:active { transform: scale(0.97); }
+
+.nearby-img {
+  position: relative;
+  width: 130px;
+  height: 100px;
+  border-radius: 14px;
+  overflow: hidden;
+  background: var(--color-surface-soft);
+}
+
+.nearby-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.nearby-setting-badge {
+  position: absolute;
+  bottom: 6px;
+  left: 6px;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 20px;
+  background: rgba(0,0,0,0.52);
+  color: #fff;
+  backdrop-filter: blur(4px);
+}
+
+.nearby-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.nearby-copy strong {
+  font-size: 12.5px;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 130px;
+}
+.nearby-copy span {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 11px;
+  color: var(--color-muted);
+}
+
+/* ─── 親子人格 ─────────────────────────────────────────────── */
+.persona-section { animation: fade-up 280ms ease both; }
+
+.persona-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #fdf4e7 0%, #fff9f0 100%);
+  border: 1.5px solid #f5d9a0;
+  position: relative;
+}
+
+.persona-emoji {
+  font-size: 36px;
+  flex: 0 0 auto;
+  line-height: 1;
+}
+
+.persona-copy {
+  flex: 1;
+  min-width: 0;
+}
+.persona-copy strong {
+  display: block;
+  font-size: 15px;
+  font-weight: 800;
+  color: #92400e;
+  margin-bottom: 3px;
+}
+.persona-copy p {
+  margin: 0;
+  font-size: 12.5px;
+  color: #78350f;
+  line-height: 1.5;
+}
+
+.persona-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 10px;
+  font-weight: 700;
+  color: #92400e;
+  background: #fde68a;
+  padding: 2px 7px;
+  border-radius: 20px;
+}
+
+/* 我的 頁面 persona 顯示 */
+.profile-persona {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #fdf4e7 0%, #fff9f0 100%);
+  border: 1.5px solid #f5d9a0;
+  margin-bottom: 16px;
+}
+.profile-persona-emoji { font-size: 32px; flex: 0 0 auto; }
+.profile-persona div { display: flex; flex-direction: column; gap: 2px; }
+.profile-persona strong { font-size: 14px; font-weight: 800; color: #92400e; }
+.profile-persona span { font-size: 12px; color: #78350f; line-height: 1.4; }
+
 /* Map CTA */
 .map-cta {
   position: relative;
