@@ -25,10 +25,11 @@ type Props = {
   userLocation: UserLocation | null
   favorites: string[]
   onFavorite: (id: string) => void
+  onOpenPlace: (place: Place) => void
 }
 
-export function WeekendDiscovery({ places, placesReady, userLocation, favorites, onFavorite }: Props) {
-  const { queue, likedIds, isDone, like, dislike, reset } = useDiscovery(places)
+export function WeekendDiscovery({ places, placesReady, userLocation, favorites, onFavorite, onOpenPlace }: Props) {
+  const { queue, likedIds, isDone, like, dislike, reset } = useDiscovery(places, userLocation)
   const [ejecting, setEjecting] = useState<{ id: string; direction: 'like' | 'dislike' } | null>(null)
 
   const topThree = queue.slice(0, 3)
@@ -98,6 +99,7 @@ export function WeekendDiscovery({ places, placesReady, userLocation, favorites,
                 ejectDirection={ejecting?.id === place.id ? ejecting.direction : null}
                 onLike={handleLike}
                 onDislike={handleDislike}
+                onOpen={onOpenPlace}
               />
             ))}
             {/* Placeholder card shown when only 1–2 cards remain */}
