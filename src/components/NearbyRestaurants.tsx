@@ -15,6 +15,9 @@ function haversineKm(from: { lat: number; lng: number }, to: { lat: number; lng:
   return R * 2 * Math.asin(Math.sqrt(a))
 }
 
+const RADIUS_OPTIONS = [3, 5, 10] as const
+type RadiusKm = (typeof RADIUS_OPTIONS)[number]
+
 type Props = {
   allPlaces: Place[]
   anchor: Place
@@ -22,37 +25,66 @@ type Props = {
 }
 
 export function NearbyRestaurants({ allPlaces, anchor, onOpen }: Props) {
-  const [supplemental, setSupplemental] = useState<Place[]>([])
+  const [featured, setFeatured] = useState<Place[]>([])
+  const [osm, setOsm] = useState<Place[]>([])
+  const [radiusKm, setRadiusKm] = useState<RadiusKm>(5)
 
   useEffect(() => {
     import('../generated/restaurants-featured.json')
-      .then((m) => setSupplemental(m.default as Place[]))
-      .catch(() => {/* silent: supplemental data unavailable */})
+      .then((m) => setFeatured(m.default as Place[]))
+      .catch(() => {/* silent */})
+    import('../generated/restaurants-osm.json')
+      .then((m) => setOsm(m.default as Place[]))
+      .catch(() => {/* silent */})
   }, [])
 
   const restaurants = useMemo(() => {
     const seen = new Set(allPlaces.filter((p) => p.placeType === '餐飲').map((p) => p.id))
     const combined = [
       ...allPlaces.filter((p) => p.placeType === '餐飲'),
-      ...supplemental.filter((p) => !seen.has(p.id)),
+      ...featured.filter((p) => !seen.has(p.id)),
+      ...osm.filter((p) => !seen.has(p.id) && !featured.some((f) => f.id === p.id)),
     ]
     return combined
       .filter((p) => p.id !== anchor.id)
       .map((p) => ({ place: p, dist: haversineKm(anchor, p), score: classifyRestaurant(p) }))
-      .filter(({ dist }) => dist <= 10)
+      .filter(({ dist }) => dist <= radiusKm)
       .sort((a, b) => {
         const diff = b.score.familyScore - a.score.familyScore
         return Math.abs(diff) > 10 ? diff : a.dist - b.dist
       })
-      .slice(0, 3)
-  }, [allPlaces, supplemental, anchor])
+      .slice(0, 5)
+  }, [allPlaces, featured, osm, anchor, radiusKm])
+
+  if (restaurants.length === 0 && (featured.length > 0 || osm.length > 0)) {
+    return (
+      <div className="detail-section nearby-restaurants-section">
+        <h3>🍴 附近餐廳</h3>
+        <div className="nearby-radius-row">
+          {RADIUS_OPTIONS.map((r) => (
+            <button key={r} className={radiusKm === r ? 'active' : ''} onClick={() => setRadiusKm(r)}>
+              {r} km
+            </button>
+          ))}
+        </div>
+        <p className="nearby-restaurants-hint">{radiusKm} 公里內暫無資料，試試擴大搜尋範圍</p>
+      </div>
+    )
+  }
 
   if (restaurants.length === 0) return null
 
   return (
     <div className="detail-section nearby-restaurants-section">
-      <h3>🍴 附近親子餐廳</h3>
-      <p className="nearby-restaurants-hint">玩累了？這裡 10 公里內的親子友善選擇</p>
+      <h3>🍴 附近餐廳</h3>
+      <div className="nearby-radius-row">
+        {RADIUS_OPTIONS.map((r) => (
+          <button key={r} className={radiusKm === r ? 'active' : ''} onClick={() => setRadiusKm(r)}>
+            {r} km
+          </button>
+        ))}
+      </div>
+      <p className="nearby-restaurants-hint">找到 {restaurants.length} 間 {radiusKm} 公里內的餐廳</p>
       <div className="restaurant-list">
         {restaurants.map(({ place, dist, score }) => (
           <RestaurantCard
