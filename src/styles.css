@@ -1046,6 +1046,320 @@ p.wizard-reason {
 .profile-persona strong { font-size: 14px; font-weight: 800; color: #92400e; }
 .profile-persona span { font-size: 12px; color: #78350f; line-height: 1.4; }
 
+/* ─── Weekend Discovery ─────────────────────────────────────── */
+.discovery-section { padding: 0; background: none; }
+
+.discovery-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.discovery-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.discovery-title {
+  font-size: 17px;
+  font-weight: 800;
+  color: var(--color-text);
+  margin: 0 0 3px;
+}
+
+.discovery-subtitle {
+  font-size: 12.5px;
+  color: var(--color-text-secondary);
+  margin: 0;
+}
+
+.discovery-reset-icon {
+  flex: 0 0 auto;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1.5px solid var(--color-border);
+  background: var(--color-surface);
+  color: var(--color-muted);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-base);
+  margin-top: 2px;
+}
+.discovery-reset-icon:hover { color: var(--color-primary); border-color: var(--color-primary); }
+
+/* Card Stack */
+.discovery-stack {
+  position: relative;
+  height: 420px;
+  max-width: 360px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.swipe-card {
+  position: absolute;
+  inset: 0;
+  border-radius: 24px;
+  overflow: hidden;
+  background: var(--color-surface);
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 0.13);
+  touch-action: none;
+  user-select: none;
+  will-change: transform;
+  transform-origin: center bottom;
+}
+
+.swipe-card.is-top {
+  cursor: grab;
+}
+.swipe-card.is-top.is-dragging {
+  cursor: grabbing;
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.20);
+}
+
+/* Swipe overlays */
+.swipe-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-weight: 800;
+  font-size: 22px;
+  pointer-events: none;
+  z-index: 20;
+  transition: opacity 0.1s;
+}
+.swipe-overlay-like {
+  background: rgba(52, 199, 89, 0.28);
+  color: #1a7a2e;
+  border: 3px solid rgba(52, 199, 89, 0.6);
+  border-radius: 24px;
+}
+.swipe-overlay-skip {
+  background: rgba(255, 59, 48, 0.22);
+  color: #c41a16;
+  border: 3px solid rgba(255, 59, 48, 0.55);
+  border-radius: 24px;
+}
+
+/* Photo area: 68% of card height */
+.swipe-photo-wrap {
+  position: relative;
+  height: 68%;
+  overflow: hidden;
+}
+
+.swipe-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  pointer-events: none;
+}
+
+.swipe-photo-gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 50%, rgba(0,0,0,0.35) 100%);
+  pointer-events: none;
+}
+
+.swipe-badges {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.swipe-badge {
+  font-size: 10.5px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.52);
+  color: #fff;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+.swipe-badge-fav { background: rgba(255, 59, 100, 0.75); }
+
+/* Card text area */
+.swipe-content {
+  padding: 12px 14px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.swipe-title-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.swipe-name {
+  font-size: 15px;
+  font-weight: 800;
+  flex: 1;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.swipe-type-pill {
+  flex: 0 0 auto;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 20px;
+  background: var(--color-primary-soft);
+  color: var(--color-primary-dark);
+}
+
+.swipe-meta {
+  font-size: 12px;
+  color: var(--color-text-secondary);
+}
+
+.swipe-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 1px;
+}
+
+.swipe-tag {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 20px;
+  background: var(--color-surface-soft);
+  color: var(--color-text-secondary);
+}
+
+/* Action buttons */
+.discovery-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.disc-hints {
+  display: flex;
+  gap: 38px;
+  font-size: 11px;
+  color: var(--color-muted);
+  font-weight: 600;
+}
+
+.disc-btn {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+.disc-btn:hover { transform: scale(1.08); }
+.disc-btn:active { transform: scale(0.94); }
+
+.disc-btn-skip {
+  background: var(--color-surface);
+  color: #ff3b30;
+  box-shadow: 0 2px 12px rgba(255, 59, 48, 0.25);
+  border: 1.5px solid rgba(255, 59, 48, 0.25);
+}
+
+.disc-btn-like {
+  background: linear-gradient(135deg, #34c759, #30d158);
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(52, 199, 89, 0.38);
+  width: 60px;
+  height: 60px;
+}
+
+/* Liked count hint */
+.discovery-liked-hint {
+  margin: 10px 0 0;
+  font-size: 12px;
+  color: var(--color-muted);
+  text-align: center;
+}
+
+/* Loading state */
+.discovery-loading { padding: 8px 0; }
+.discovery-skeleton {
+  height: 420px;
+  max-width: 360px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 24px;
+  background: linear-gradient(90deg, var(--color-surface-soft) 25%, var(--color-surface) 50%, var(--color-surface-soft) 75%);
+  background-size: 400% 100%;
+  animation: shimmer 1.4s ease infinite;
+}
+
+/* Done state */
+.discovery-done {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 32px 16px;
+  text-align: center;
+  background: var(--color-surface-soft);
+  border-radius: 20px;
+}
+
+.discovery-done-emoji { font-size: 48px; line-height: 1; }
+.discovery-done strong { font-size: 16px; font-weight: 800; }
+.discovery-done p { font-size: 13px; color: var(--color-text-secondary); margin: 0; }
+.discovery-done em { font-style: normal; font-weight: 700; color: var(--color-primary); }
+
+.discovery-reset-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 0;
+  background: var(--color-primary);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform var(--transition-base);
+}
+.discovery-reset-btn:hover { transform: translateY(-2px); }
+.discovery-reset-btn:active { transform: scale(0.97); }
+
+/* ─── desktop: discovery section is left column (same as old map-cta) ─── */
+@media (min-width: 900px) {
+  .discovery-stack {
+    max-width: 100%;
+    height: 380px;
+  }
+  .swipe-card { border-radius: 20px; }
+  .swipe-overlay { border-radius: 20px; }
+}
+
 /* Map CTA */
 .map-cta {
   position: relative;

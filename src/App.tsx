@@ -54,6 +54,8 @@ import {
   type WeatherSummary,
 } from './data'
 import { MapView, type MapViewport } from './MapView'
+import { BAD_PLACEHOLDER_IMAGES, FALLBACK_IMAGE } from './imageUtils'
+import { WeekendDiscovery } from './components/WeekendDiscovery'
 
 const regions = ['全部', '北部', '中部', '南部', '東部', '離島'] as const
 const settings = ['全部', '室內', '室外', '室內外'] as const
@@ -84,24 +86,6 @@ const AMENITY_ICONS = {
   strollerFriendly: ShoppingCart,
   parking: Car,
 } as const
-// Stock-photo URLs that were mass-assigned during data generation and appear
-// on hundreds of unrelated places — block them so the SVG fallback shows instead.
-const BAD_PLACEHOLDER_IMAGES = new Set([
-  'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80',
-  'https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg',
-  'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1561214115-f2f134cc4912?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1500534314209-a25ddb2bd4297?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1474487548417-781cb71495f3?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80',
-])
-
 // ── Rule Engine ──────────────────────────────────────────────────────────────
 
 type WizardAgeGroup = '0-2' | '3-5' | '6-12' | 'all'
@@ -259,7 +243,6 @@ function computePersonality(interactedIds: string[], places: Place[]): Personali
 
 const MAX_VISIBLE_PLACES = 120
 const MAX_MAP_PLACES = 80
-const FALLBACK_IMAGE = `${import.meta.env.BASE_URL}place-fallback.svg`
 type RegionName = Exclude<(typeof regions)[number], '全部'>
 const regionCenters: Record<RegionName, { lat: number; lng: number }> = {
   北部: { lat: 25.04, lng: 121.52 },
@@ -1150,18 +1133,14 @@ function App() {
               </section>
             )}
 
-            <section className="home-section">
-              <button className="map-cta" onClick={() => goExplore()}>
-                <div className="map-cta-copy">
-                  <strong>探索你的週末靈感</strong>
-                  <span>從地圖上發現更多好去處</span>
-                  <span className="map-cta-btn">開啟地圖探索 <ArrowUpRight size={15} /></span>
-                </div>
-                <div className="map-cta-art" aria-hidden="true">
-                  <span className="map-cta-pin"><MapPin size={18} /></span>
-                  <i className="map-cta-route" />
-                </div>
-              </button>
+            <section className="home-section discovery-section">
+              <WeekendDiscovery
+                places={places}
+                placesReady={placesStatus === 'ready'}
+                userLocation={userLocation}
+                favorites={favorites}
+                onFavorite={toggleFavorite}
+              />
             </section>
 
             <section className="home-section">
