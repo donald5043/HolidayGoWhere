@@ -39,6 +39,7 @@ import {
   TreePine,
   Umbrella,
   Users,
+  Utensils,
   Volume2,
   VolumeX,
   Waves,
@@ -972,7 +973,7 @@ function App() {
                 <small>附近景點</small>
               </button>
               <button className="entry-tile" onClick={() => goExplore(() => { setRestaurantOnly(true); setRainyOnly(false); setEventOnly(false) })}>
-                <span className="entry-icon tile-orange">🍴</span>
+                <span className="entry-icon tile-coral"><Utensils size={24} /></span>
                 <small>親子餐廳</small>
               </button>
             </section>
@@ -1221,8 +1222,8 @@ function App() {
             <button className={eventOnly ? 'active event-filter' : 'event-filter'} onClick={() => { playUiSound(); setEventOnly((value) => !value) }}>
               <CalendarCheck size={14} /> 本週活動
             </button>
-            <button className={restaurantOnly ? 'active restaurant-filter' : 'restaurant-filter'} onClick={() => { playUiSound(); setRestaurantOnly((value) => !value) }}>
-              🍴 親子餐廳
+            <button className={restaurantOnly ? 'active' : ''} onClick={() => { playUiSound(); setRestaurantOnly((value) => !value) }}>
+              <Utensils size={14} /> 親子餐廳
             </button>
           </div>
 
