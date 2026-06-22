@@ -171,7 +171,9 @@ function buildWizardReason(
     }
   }
   if (distKm !== null) {
-    const mins = Math.round((distKm / 50) * 60)
+    // Use 38 km/h effective speed to approximate actual road travel time
+    // (straight-line × ~1.3 road factor ÷ 50 km/h ≈ straight-line ÷ 38)
+    const mins = Math.round((distKm / 38) * 60)
     parts.push(`距你約 ${mins} 分鐘車程`)
   }
   if (ageGroup !== 'all') {
@@ -436,7 +438,7 @@ function App() {
   const [showProfile, setShowProfile] = useState(false)
   const [wizardAge, setWizardAge]           = useState<WizardAgeGroup>('all')
   const [wizardDuration, setWizardDuration] = useState<WizardDuration>('all')
-  const [wizardDistKm, setWizardDistKm]     = useState<12 | 25 | 50>(25)
+  const [wizardDistKm, setWizardDistKm]     = useState<10 | 20 | 40>(20)
   const [wizardResults, setWizardResults]   = useState<WizardResult[]>([])
   const [wizardRan, setWizardRan]           = useState(false)
   const [showReportForm, setShowReportForm] = useState(false)
@@ -941,12 +943,15 @@ function App() {
                 <div className="wizard-row">
                   <span className="wizard-label">可接受距離</span>
                   <div className="wizard-pills">
-                    {([12, 25, 50] as const).map((km) => (
+                    {([10, 20, 40] as const).map((km) => (
                       <button key={km} className={wizardDistKm === km ? 'active' : ''} onClick={() => setWizardDistKm(km)}>
-                        {km === 12 ? '15 分鐘' : km === 25 ? '30 分鐘' : '1 小時'}
+                        {km === 10 ? '15 分鐘' : km === 20 ? '30 分鐘' : '1 小時'}
                       </button>
                     ))}
                   </div>
+                  {!userLocation && (
+                    <p className="wizard-no-location">⚠️ 未取得定位，將略過距離篩選</p>
+                  )}
                 </div>
               </div>
               <button className="wizard-submit" onClick={runWizard} disabled={placesStatus !== 'ready'}>

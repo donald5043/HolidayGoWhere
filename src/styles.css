@@ -762,6 +762,15 @@ button:active,
   font-weight: 700;
 }
 
+.wizard-no-location {
+  margin: 4px 0 0;
+  font-size: 11.5px;
+  color: #b45309;
+  background: #fef3c7;
+  border-radius: 6px;
+  padding: 4px 8px;
+}
+
 .wizard-submit {
   width: 100%;
   height: 50px;
