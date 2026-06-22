@@ -10,12 +10,16 @@ const OVERPASS_URL = 'https://overpass-api.de/api/interpreter'
 const PER_CITY_CAP = Number(process.env.PER_CITY_CAP || 100)
 
 // Taiwan bbox: south,west,north,east
+// `meta` adds timestamp/version per element so we can filter stale entries
 const OVERPASS_QUERY = `[out:json][timeout:180][bbox:21.7,118.0,26.5,122.5];
 (
   node["amenity"~"^(restaurant|cafe|fast_food|food_court)$"]["name"];
   way["amenity"~"^(restaurant|cafe|fast_food|food_court)$"]["name"];
 );
-out center tags;`
+out center tags meta;`
+
+// Drop entries not edited within this many years
+const MAX_STALE_YEARS = 4
 
 const regions = {
   北部: ['臺北市', '新北市', '基隆市', '桃園市', '新竹市', '新竹縣'],
@@ -130,6 +134,28 @@ function highlightsFor(name, tags) {
   return h
 }
 
+// Google Maps search by coordinates — matches TDX place format exactly
+function mapsUrlFor(lat, lng, name) {
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${name} ${lat.toFixed(6)},${lng.toFixed(6)}`)}`
+}
+
+function isStale(el) {
+  // Explicitly marked as disused / abandoned / demolished
+  if (el.tags['disused:amenity'] || el.tags['abandoned:amenity'] || el.tags['demolished:amenity']) return true
+  // end_date set and already passed
+  const end = el.tags['end_date']
+  if (end) {
+    const d = new Date(end)
+    if (!isNaN(d.getTime()) && d < new Date()) return true
+  }
+  // Last edit timestamp from `out meta` — skip entries untouched for > MAX_STALE_YEARS
+  if (el.timestamp) {
+    const ageMs = Date.now() - new Date(el.timestamp).getTime()
+    if (ageMs > MAX_STALE_YEARS * 365.25 * 24 * 3600 * 1000) return true
+  }
+  return false
+}
+
 function descriptionFor(name, amenity, tags) {
   const amenityLabel = { restaurant: '餐廳', cafe: '咖啡廳', fast_food: '快餐店', food_court: '美食廣場' }[amenity] || '餐廳'
   const cuisine = tags.cuisine ? `提供${tags.cuisine.replace(/;/g, '、')}料理` : ''
@@ -185,6 +211,7 @@ async function main() {
   let skippedNoName = 0
   let skippedNoCoords = 0
   let skippedNoCity = 0
+  let skippedStale = 0
   let processed = 0
 
   const perCity = new Map()
@@ -193,6 +220,7 @@ async function main() {
     const tags = el.tags || {}
     const name = (tags.name || '').trim()
     if (!name) { skippedNoName++; continue }
+    if (isStale(el)) { skippedStale++; continue }
 
     let lat, lng
     if (el.type === 'node') {
@@ -238,7 +266,7 @@ async function main() {
       highlights: highlightsFor(name, tags),
       facilities: facilitiesFor(tags),
       familyAmenities: hasFamilyInfo ? familyAmenitiesFor(tags) : undefined,
-      mapsUrl: `https://www.openstreetmap.org/${el.type}/${el.id}`,
+      mapsUrl: mapsUrlFor(lat, lng, name),
       sources: [{ type: '官方網站', label: 'OpenStreetMap', url: `https://www.openstreetmap.org/${el.type}/${el.id}` }],
       dataSource: 'osm',
       sourceId: `${el.type}/${el.id}`,
@@ -253,7 +281,7 @@ async function main() {
     processed++
   }
 
-  console.log(`\nSkipped — no name: ${skippedNoName}, no coords: ${skippedNoCoords}, no city: ${skippedNoCity}`)
+  console.log(`\nSkipped — no name: ${skippedNoName}, no coords: ${skippedNoCoords}, no city: ${skippedNoCity}, stale: ${skippedStale}`)
   console.log(`Processed: ${processed} across ${perCity.size} cities\n`)
 
   const output = []
