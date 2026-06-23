@@ -6,7 +6,12 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const OUTPUT_DIR = path.join(ROOT, 'src', 'generated')
 const OUTPUT_FILE = path.join(OUTPUT_DIR, 'restaurants-osm.json')
 
-const OVERPASS_URL = 'https://overpass-api.de/api/interpreter'
+const OVERPASS_MIRRORS = [
+  'https://overpass-api.de/api/interpreter',
+  'https://overpass.kumi.systems/api/interpreter',
+  'https://overpass.openstreetmap.ru/api/interpreter',
+  'https://maps.mail.ru/osm/tools/overpass/api/interpreter',
+]
 const PER_CITY_CAP = Number(process.env.PER_CITY_CAP || 100)
 
 // Taiwan bbox: south,west,north,east
@@ -178,11 +183,11 @@ function osmScore(tags, name) {
   return score
 }
 
-async function fetchOverpass() {
+async function fetchOverpassFromMirror(url) {
   const controller = new AbortController()
   const tid = setTimeout(() => controller.abort(), 190_000)
   try {
-    const res = await fetch(OVERPASS_URL, {
+    const res = await fetch(url, {
       method: 'POST',
       body: `data=${encodeURIComponent(OVERPASS_QUERY)}`,
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -193,6 +198,22 @@ async function fetchOverpass() {
   } finally {
     clearTimeout(tid)
   }
+}
+
+async function fetchOverpass() {
+  let lastErr
+  for (const mirror of OVERPASS_MIRRORS) {
+    try {
+      console.log(`Trying ${mirror} …`)
+      const data = await fetchOverpassFromMirror(mirror)
+      console.log(`  ✓ Success`)
+      return data
+    } catch (err) {
+      console.warn(`  ✗ ${err.message}`)
+      lastErr = err
+    }
+  }
+  throw lastErr
 }
 
 async function main() {
