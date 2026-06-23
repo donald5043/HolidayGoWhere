@@ -39,6 +39,14 @@ export type AiInsight = {
   generatedAt: string
 }
 
+export type RestaurantCategory =
+  | 'family_chain'
+  | 'mall_food_court'
+  | 'family_supply_brand'
+  | 'attraction_attached'
+  | 'tourism_restaurant'
+  | 'general_restaurant'
+
 export type Place = {
   id: string
   name: string
@@ -72,6 +80,8 @@ export type Place = {
   updatedAt: string
   rainyDay?: boolean
   placeType?: '景點' | '餐飲' | '活動'
+  restaurantCategory?: RestaurantCategory
+  chain?: string
   eventStart?: string
   eventEnd?: string
   weekendEvent?: boolean

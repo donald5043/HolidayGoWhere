@@ -3,6 +3,7 @@ import L from 'leaflet'
 import { CircleMarker, MapContainer, Marker, TileLayer, Tooltip, useMap, useMapEvents } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import type { Place } from './data'
+import { classifyRestaurant, CATEGORY_EMOJI } from './services/restaurantClassifier'
 
 type Props = {
   places: Place[]
@@ -27,12 +28,18 @@ export type MapViewport = {
 const taiwanCenter: [number, number] = [23.6978, 120.9605]
 
 function createPlaceIcon(place: Place, selected: boolean) {
-  const emoji =
-    place.category === '自然放電'
-      ? '🌳'
-      : place.category === '美感散步'
-        ? '🎨'
-        : '🚀'
+  let emoji: string
+  if (place.placeType === '餐飲') {
+    const score = classifyRestaurant(place)
+    emoji = CATEGORY_EMOJI[score.restaurantCategory]
+  } else {
+    emoji =
+      place.category === '自然放電'
+        ? '🌳'
+        : place.category === '美感散步'
+          ? '🎨'
+          : '🚀'
+  }
 
   return L.divIcon({
     className: 'leaflet-place-icon-wrap',
