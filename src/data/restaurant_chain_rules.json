@@ -1,0 +1,430 @@
+{
+  "family_chain": [
+    {
+      "keywords": ["麥當勞", "McDonald"],
+      "chain": "麥當勞",
+      "defaultTags": ["🍼 兒童椅", "🍽️ 兒童餐", "🎨 遊戲區", "🚗 停車"],
+      "defaultFlags": { "familyFriendly": true, "strollerFriendly": true, "babyChair": true, "kidsMenu": true, "playArea": true, "parking": true, "indoor": true },
+      "scoreBonus": 20
+    },
+    {
+      "keywords": ["摩斯漢堡", "摩斯"],
+      "chain": "摩斯漢堡",
+      "defaultTags": ["🍼 兒童椅", "🍽️ 兒童餐"],
+      "defaultFlags": { "familyFriendly": true, "strollerFriendly": true, "babyChair": true, "kidsMenu": true, "indoor": true },
+      "scoreBonus": 20
+    },
+    {
+      "keywords": ["肯德基", "KFC"],
+      "chain": "肯德基",
+      "defaultTags": ["🍼 兒童椅", "🍽️ 兒童餐"],
+      "defaultFlags": { "familyFriendly": true, "babyChair": true, "kidsMenu": true, "indoor": true },
+      "scoreBonus": 20
+    },
+    {
+      "keywords": ["漢堡王", "Burger King"],
+      "chain": "漢堡王",
+      "defaultTags": ["🍼 兒童椅", "🍽️ 兒童餐"],
+      "defaultFlags": { "familyFriendly": true, "babyChair": true, "kidsMenu": true, "indoor": true },
+      "scoreBonus": 20
+    },
+    {
+      "keywords": ["樂雅樂", "Royal Host"],
+      "chain": "樂雅樂",
+      "defaultTags": ["🍼 兒童椅", "🍽️ 兒童餐", "☔ 室內"],
+      "defaultFlags": { "familyFriendly": true, "strollerFriendly": true, "babyChair": true, "kidsMenu": true, "indoor": true },
+      "scoreBonus": 20
+    },
+    {
+      "keywords": ["大戶屋"],
+      "chain": "大戶屋",
+      "defaultTags": ["🍼 兒童椅"],
+      "defaultFlags": { "familyFriendly": true, "babyChair": true, "indoor": true },
+      "scoreBonus": 20
+    },
+    {
+      "keywords": ["彌生軒"],
+      "chain": "彌生軒",
+      "defaultTags": ["🍼 兒童椅"],
+      "defaultFlags": { "familyFriendly": true, "babyChair": true, "indoor": true },
+      "scoreBonus": 20
+    },
+    {
+      "keywords": ["壽司郎", "SUSHIRO", "Sushiro"],
+      "chain": "壽司郎",
+      "defaultTags": ["🍼 兒童椅", "🍽️ 兒童餐"],
+      "defaultFlags": { "familyFriendly": true, "babyChair": true, "kidsMenu": true, "indoor": true },
+      "scoreBonus": 20
+    },
+    {
+      "keywords": ["藏壽司", "くら寿司", "Kura"],
+      "chain": "藏壽司",
+      "defaultTags": ["🍼 兒童椅", "🍽️ 兒童餐", "🎨 遊戲區"],
+      "defaultFlags": { "familyFriendly": true, "babyChair": true, "kidsMenu": true, "playArea": true, "indoor": true },
+      "scoreBonus": 20
+    },
+    {
+      "keywords": ["爭鮮"],
+      "chain": "爭鮮",
+      "defaultTags": ["🍼 兒童椅"],
+      "defaultFlags": { "familyFriendly": true, "babyChair": true, "indoor": true },
+      "scoreBonus": 20
+    },
+    {
+      "keywords": ["定食8", "定食８"],
+      "chain": "定食8",
+      "defaultTags": ["🍼 兒童椅", "🍽️ 兒童餐"],
+      "defaultFlags": { "familyFriendly": true, "babyChair": true, "kidsMenu": true, "indoor": true },
+      "scoreBonus": 20
+    },
+    {
+      "keywords": ["涮乃葉"],
+      "chain": "涮乃葉",
+      "defaultTags": ["🍼 兒童椅"],
+      "defaultFlags": { "familyFriendly": true, "babyChair": true, "indoor": true },
+      "scoreBonus": 20
+    },
+    {
+      "keywords": ["石二鍋"],
+      "chain": "石二鍋",
+      "defaultTags": ["🍼 兒童椅"],
+      "defaultFlags": { "familyFriendly": true, "babyChair": true, "indoor": true },
+      "scoreBonus": 20
+    },
+    {
+      "keywords": ["築間"],
+      "chain": "築間",
+      "defaultTags": ["🍼 兒童椅", "🚗 停車"],
+      "defaultFlags": { "familyFriendly": true, "babyChair": true, "parking": true, "indoor": true },
+      "scoreBonus": 20
+    },
+    {
+      "keywords": ["涓豆腐"],
+      "chain": "涓豆腐",
+      "defaultTags": ["🍼 兒童椅"],
+      "defaultFlags": { "familyFriendly": true, "babyChair": true, "indoor": true },
+      "scoreBonus": 20
+    },
+    {
+      "keywords": ["豆府"],
+      "chain": "豆府",
+      "defaultTags": ["🍼 兒童椅"],
+      "defaultFlags": { "familyFriendly": true, "babyChair": true, "indoor": true },
+      "scoreBonus": 20
+    },
+    {
+      "keywords": ["瓦城"],
+      "chain": "瓦城",
+      "defaultTags": ["🍼 兒童椅"],
+      "defaultFlags": { "familyFriendly": true, "babyChair": true, "indoor": true },
+      "scoreBonus": 20
+    },
+    {
+      "keywords": ["饗食天堂"],
+      "chain": "饗食天堂",
+      "defaultTags": ["🍼 兒童椅", "🍽️ 兒童餐", "🚗 停車"],
+      "defaultFlags": { "familyFriendly": true, "strollerFriendly": true, "babyChair": true, "kidsMenu": true, "parking": true, "indoor": true },
+      "scoreBonus": 20
+    },
+    {
+      "keywords": ["開飯川食堂"],
+      "chain": "開飯川食堂",
+      "defaultTags": ["🍼 兒童椅"],
+      "defaultFlags": { "familyFriendly": true, "babyChair": true, "indoor": true },
+      "scoreBonus": 20
+    },
+    {
+      "keywords": ["西堤"],
+      "chain": "西堤",
+      "defaultTags": ["🍼 兒童椅"],
+      "defaultFlags": { "familyFriendly": true, "babyChair": true, "indoor": true },
+      "scoreBonus": 20
+    },
+    {
+      "keywords": ["陶板屋"],
+      "chain": "陶板屋",
+      "defaultTags": ["🍼 兒童椅"],
+      "defaultFlags": { "familyFriendly": true, "babyChair": true, "indoor": true },
+      "scoreBonus": 20
+    },
+    {
+      "keywords": ["王品牛排", "王品"],
+      "chain": "王品",
+      "defaultTags": ["🍼 兒童椅"],
+      "defaultFlags": { "familyFriendly": true, "babyChair": true, "indoor": true },
+      "scoreBonus": 20
+    },
+    {
+      "keywords": ["貳樓"],
+      "chain": "貳樓",
+      "defaultTags": ["🍼 兒童椅"],
+      "defaultFlags": { "familyFriendly": true, "babyChair": true, "indoor": true },
+      "scoreBonus": 20
+    },
+    {
+      "keywords": ["TGI Friday", "TGI Fridays", "TGIF"],
+      "chain": "TGI Fridays",
+      "defaultTags": ["🍼 兒童椅", "🍽️ 兒童餐"],
+      "defaultFlags": { "familyFriendly": true, "babyChair": true, "kidsMenu": true, "indoor": true },
+      "scoreBonus": 20
+    }
+  ],
+  "mall_food_court": [
+    {
+      "keywords": ["新光三越"],
+      "chain": "新光三越",
+      "defaultTags": ["🚗 停車", "☔ 室內"],
+      "defaultFlags": { "familyFriendly": true, "strollerFriendly": true, "parking": true, "indoor": true },
+      "scoreBonus": 25
+    },
+    {
+      "keywords": ["遠東百貨", "大遠百", "遠百"],
+      "chain": "遠東百貨",
+      "defaultTags": ["🚗 停車", "☔ 室內"],
+      "defaultFlags": { "familyFriendly": true, "strollerFriendly": true, "parking": true, "indoor": true },
+      "scoreBonus": 25
+    },
+    {
+      "keywords": ["SOGO", "崇光"],
+      "chain": "SOGO",
+      "defaultTags": ["🚗 停車", "☔ 室內"],
+      "defaultFlags": { "familyFriendly": true, "strollerFriendly": true, "parking": true, "indoor": true },
+      "scoreBonus": 25
+    },
+    {
+      "keywords": ["環球購物中心", "Global Mall"],
+      "chain": "環球購物中心",
+      "defaultTags": ["🚗 停車", "☔ 室內", "🎨 遊戲區"],
+      "defaultFlags": { "familyFriendly": true, "strollerFriendly": true, "parking": true, "playArea": true, "indoor": true },
+      "scoreBonus": 25
+    },
+    {
+      "keywords": ["Mitsui Outlet", "三井奧萊", "三井Outlet", "三井outlet"],
+      "chain": "Mitsui Outlet Park",
+      "defaultTags": ["🚗 停車", "☔ 室內"],
+      "defaultFlags": { "familyFriendly": true, "strollerFriendly": true, "parking": true, "indoor": true },
+      "scoreBonus": 25
+    },
+    {
+      "keywords": ["LaLaport", "LALAPORT"],
+      "chain": "LaLaport",
+      "defaultTags": ["🚗 停車", "☔ 室內", "🎨 遊戲區"],
+      "defaultFlags": { "familyFriendly": true, "strollerFriendly": true, "parking": true, "playArea": true, "indoor": true },
+      "scoreBonus": 25
+    },
+    {
+      "keywords": ["誠品生活", "誠品"],
+      "chain": "誠品",
+      "defaultTags": ["☔ 室內"],
+      "defaultFlags": { "familyFriendly": true, "strollerFriendly": true, "indoor": true },
+      "scoreBonus": 25
+    },
+    {
+      "keywords": ["微風廣場", "微風南山", "微風信義", "微風松高"],
+      "chain": "微風",
+      "defaultTags": ["🚗 停車", "☔ 室內"],
+      "defaultFlags": { "familyFriendly": true, "strollerFriendly": true, "parking": true, "indoor": true },
+      "scoreBonus": 25
+    },
+    {
+      "keywords": ["統一時代"],
+      "chain": "統一時代",
+      "defaultTags": ["🚗 停車", "☔ 室內"],
+      "defaultFlags": { "familyFriendly": true, "strollerFriendly": true, "parking": true, "indoor": true },
+      "scoreBonus": 25
+    },
+    {
+      "keywords": ["CITYLINK", "City Link"],
+      "chain": "CITYLINK",
+      "defaultTags": ["☔ 室內"],
+      "defaultFlags": { "familyFriendly": true, "strollerFriendly": true, "indoor": true },
+      "scoreBonus": 25
+    },
+    {
+      "keywords": ["秀泰生活", "秀泰廣場"],
+      "chain": "秀泰生活",
+      "defaultTags": ["🚗 停車", "☔ 室內"],
+      "defaultFlags": { "familyFriendly": true, "strollerFriendly": true, "parking": true, "indoor": true },
+      "scoreBonus": 25
+    },
+    {
+      "keywords": ["大江購物中心", "大江"],
+      "chain": "大江購物中心",
+      "defaultTags": ["🚗 停車", "☔ 室內"],
+      "defaultFlags": { "familyFriendly": true, "strollerFriendly": true, "parking": true, "indoor": true },
+      "scoreBonus": 25
+    },
+    {
+      "keywords": ["夢時代", "Dream Mall"],
+      "chain": "夢時代",
+      "defaultTags": ["🚗 停車", "☔ 室內", "🎨 遊戲區"],
+      "defaultFlags": { "familyFriendly": true, "strollerFriendly": true, "parking": true, "playArea": true, "indoor": true },
+      "scoreBonus": 25
+    },
+    {
+      "keywords": ["漢神巨蛋", "漢神"],
+      "chain": "漢神",
+      "defaultTags": ["🚗 停車", "☔ 室內"],
+      "defaultFlags": { "familyFriendly": true, "strollerFriendly": true, "parking": true, "indoor": true },
+      "scoreBonus": 25
+    }
+  ],
+  "family_supply_brand": [
+    {
+      "keywords": ["星巴克", "Starbucks"],
+      "chain": "星巴克",
+      "defaultTags": ["🍼 兒童椅", "☔ 室內"],
+      "defaultFlags": { "familyFriendly": true, "babyChair": true, "indoor": true },
+      "scoreBonus": 10
+    },
+    {
+      "keywords": ["路易莎", "Louisa"],
+      "chain": "路易莎",
+      "defaultTags": ["🍼 兒童椅", "☔ 室內"],
+      "defaultFlags": { "familyFriendly": true, "babyChair": true, "indoor": true },
+      "scoreBonus": 10
+    },
+    {
+      "keywords": ["丹堤"],
+      "chain": "丹堤",
+      "defaultTags": ["🍼 兒童椅", "☔ 室內"],
+      "defaultFlags": { "familyFriendly": true, "babyChair": true, "indoor": true },
+      "scoreBonus": 10
+    },
+    {
+      "keywords": ["伯朗咖啡", "Mr. Brown", "Mr.Brown"],
+      "chain": "伯朗咖啡",
+      "defaultTags": ["🍼 兒童椅", "☔ 室內"],
+      "defaultFlags": { "familyFriendly": true, "babyChair": true, "indoor": true },
+      "scoreBonus": 10
+    },
+    {
+      "keywords": ["Cama", "cama cafe", "CAMA"],
+      "chain": "Cama",
+      "defaultTags": ["🍼 兒童椅", "☔ 室內"],
+      "defaultFlags": { "familyFriendly": true, "babyChair": true, "indoor": true },
+      "scoreBonus": 10
+    },
+    {
+      "keywords": ["85度C", "85°C", "85 度C"],
+      "chain": "85度C",
+      "defaultTags": ["🍼 兒童椅", "☔ 室內"],
+      "defaultFlags": { "familyFriendly": true, "babyChair": true, "indoor": true },
+      "scoreBonus": 10
+    },
+    {
+      "keywords": ["春水堂"],
+      "chain": "春水堂",
+      "defaultTags": ["🍼 兒童椅", "☔ 室內"],
+      "defaultFlags": { "familyFriendly": true, "babyChair": true, "indoor": true },
+      "scoreBonus": 10
+    },
+    {
+      "keywords": ["翰林茶館", "翰林茶道"],
+      "chain": "翰林茶館",
+      "defaultTags": ["🍼 兒童椅", "☔ 室內"],
+      "defaultFlags": { "familyFriendly": true, "babyChair": true, "indoor": true },
+      "scoreBonus": 10
+    },
+    {
+      "keywords": ["古拉爵", "義式屋古拉爵"],
+      "chain": "古拉爵",
+      "defaultTags": ["🍼 兒童椅", "🍽️ 兒童餐", "☔ 室內"],
+      "defaultFlags": { "familyFriendly": true, "babyChair": true, "kidsMenu": true, "indoor": true },
+      "scoreBonus": 10
+    },
+    {
+      "keywords": ["薄多義"],
+      "chain": "薄多義",
+      "defaultTags": ["🍼 兒童椅", "🍽️ 兒童餐", "☔ 室內"],
+      "defaultFlags": { "familyFriendly": true, "babyChair": true, "kidsMenu": true, "indoor": true },
+      "scoreBonus": 10
+    },
+    {
+      "keywords": ["杏子豬排"],
+      "chain": "杏子豬排",
+      "defaultTags": ["🍼 兒童椅"],
+      "defaultFlags": { "familyFriendly": true, "babyChair": true, "indoor": true },
+      "scoreBonus": 10
+    },
+    {
+      "keywords": ["勝博殿"],
+      "chain": "勝博殿",
+      "defaultTags": ["🍼 兒童椅"],
+      "defaultFlags": { "familyFriendly": true, "babyChair": true, "indoor": true },
+      "scoreBonus": 10
+    },
+    {
+      "keywords": ["福勝亭"],
+      "chain": "福勝亭",
+      "defaultTags": ["🍼 兒童椅"],
+      "defaultFlags": { "familyFriendly": true, "babyChair": true, "indoor": true },
+      "scoreBonus": 10
+    }
+  ],
+  "attraction_attached": [
+    {
+      "keywords": ["動物園"],
+      "chain": null,
+      "defaultTags": ["👶 親子友善", "🚗 停車"],
+      "defaultFlags": { "familyFriendly": true, "strollerFriendly": true, "parking": true, "indoor": true },
+      "scoreBonus": 20
+    },
+    {
+      "keywords": ["科教館", "科學教育館"],
+      "chain": null,
+      "defaultTags": ["👶 親子友善"],
+      "defaultFlags": { "familyFriendly": true, "strollerFriendly": true, "indoor": true },
+      "scoreBonus": 20
+    },
+    {
+      "keywords": ["博物館"],
+      "chain": null,
+      "defaultTags": ["👶 親子友善"],
+      "defaultFlags": { "familyFriendly": true, "strollerFriendly": true, "indoor": true },
+      "scoreBonus": 20
+    },
+    {
+      "keywords": ["美術館咖啡", "美術館餐廳"],
+      "chain": null,
+      "defaultTags": ["👶 親子友善"],
+      "defaultFlags": { "familyFriendly": true, "strollerFriendly": true, "indoor": true },
+      "scoreBonus": 20
+    },
+    {
+      "keywords": ["農場餐廳", "農場咖啡", "觀光農場", "休閒農場"],
+      "chain": null,
+      "defaultTags": ["👶 親子友善", "🚗 停車"],
+      "defaultFlags": { "familyFriendly": true, "strollerFriendly": true, "parking": true },
+      "scoreBonus": 20
+    },
+    {
+      "keywords": ["觀光工廠"],
+      "chain": null,
+      "defaultTags": ["👶 親子友善", "🚗 停車"],
+      "defaultFlags": { "familyFriendly": true, "strollerFriendly": true, "parking": true, "indoor": true },
+      "scoreBonus": 20
+    },
+    {
+      "keywords": ["遊樂園", "主題樂園"],
+      "chain": null,
+      "defaultTags": ["👶 親子友善", "🚗 停車", "🎨 遊戲區"],
+      "defaultFlags": { "familyFriendly": true, "strollerFriendly": true, "parking": true, "playArea": true },
+      "scoreBonus": 20
+    },
+    {
+      "keywords": ["水族館", "海生館"],
+      "chain": null,
+      "defaultTags": ["👶 親子友善"],
+      "defaultFlags": { "familyFriendly": true, "strollerFriendly": true, "indoor": true },
+      "scoreBonus": 20
+    },
+    {
+      "keywords": ["休閒園區", "親子農場"],
+      "chain": null,
+      "defaultTags": ["👶 親子友善", "🚗 停車"],
+      "defaultFlags": { "familyFriendly": true, "strollerFriendly": true, "parking": true },
+      "scoreBonus": 20
+    }
+  ]
+}
