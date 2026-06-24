@@ -82,7 +82,7 @@ export function NearbyRestaurants({ allPlaces, anchor, onOpen }: Props) {
 
     return filtered
       .sort((a, b) => b.sortScore - a.sortScore || a.dist - b.dist)
-      .slice(0, 8)
+      .slice(0, 3)
   }, [allPlaces, featured, osm, anchor, radiusKm, categoryFilter])
 
   // Count available restaurants regardless of category filter (for empty state decision)

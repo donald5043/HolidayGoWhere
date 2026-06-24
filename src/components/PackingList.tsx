@@ -1,8 +1,30 @@
 import { useState } from 'react'
-import { Backpack, CheckSquare, ChevronDown, ChevronUp, RotateCcw, Square } from 'lucide-react'
+import type { LucideIcon } from 'lucide-react'
+import {
+  Baby,
+  Backpack,
+  BatteryCharging,
+  Bug,
+  CheckSquare,
+  ChevronDown,
+  ChevronUp,
+  CreditCard,
+  Droplets,
+  Footprints,
+  RotateCcw,
+  Shirt,
+  Smartphone,
+  Square,
+  Sun,
+  Thermometer,
+  Umbrella,
+  Utensils,
+  Waves,
+  Wind,
+} from 'lucide-react'
 import type { Place, WeatherSummary } from '../data'
 
-type PackItem = { label: string; emoji: string }
+type PackItem = { label: string; icon: LucideIcon }
 
 function generateItems(place: Place, weather: WeatherSummary | null): PackItem[] {
   const items: PackItem[] = []
@@ -17,55 +39,55 @@ function generateItems(place: Place, weather: WeatherSummary | null): PackItem[]
 
   // Always
   items.push(
-    { label: '水壺／飲用水', emoji: '💧' },
-    { label: '零食／點心', emoji: '🍪' },
-    { label: '手機充飽電', emoji: '🔋' },
-    { label: '現金／悠遊卡', emoji: '💳' },
+    { label: '水壺／飲用水', icon: Droplets },
+    { label: '零食／點心', icon: Utensils },
+    { label: '手機充飽電', icon: BatteryCharging },
+    { label: '現金／悠遊卡', icon: CreditCard },
   )
 
   if (hasBaby) {
     items.push(
-      { label: '尿布（備多幾片）', emoji: '🍼' },
-      { label: '濕紙巾', emoji: '🧻' },
-      { label: '備用衣物', emoji: '👕' },
+      { label: '尿布（備多幾片）', icon: Baby },
+      { label: '濕紙巾', icon: Wind },
+      { label: '備用衣物', icon: Shirt },
     )
   }
 
   if (isOut) {
     items.push(
-      { label: '防曬乳', emoji: '☀️' },
-      { label: '遮陽帽', emoji: '🧢' },
-      { label: '防蚊液', emoji: '🦟' },
+      { label: '防曬乳', icon: Sun },
+      { label: '遮陽帽', icon: Sun },
+      { label: '防蚊液', icon: Bug },
     )
   }
 
   if (isIn) {
-    items.push({ label: '薄外套（室內冷氣）', emoji: '🧥' })
+    items.push({ label: '薄外套（室內冷氣）', icon: Wind })
   }
 
   if (isRainy) {
     items.push(
-      { label: '雨傘／雨衣', emoji: '☂️' },
-      { label: '防水袋', emoji: '🎒' },
+      { label: '雨傘／雨衣', icon: Umbrella },
+      { label: '防水袋', icon: Backpack },
     )
   }
 
   if (isHot && isOut) {
-    items.push({ label: '散熱噴霧／冰毛巾', emoji: '🧊' })
+    items.push({ label: '散熱噴霧／冰毛巾', icon: Thermometer })
   }
 
   if (isBeach) {
     items.push(
-      { label: '泳衣', emoji: '🩱' },
-      { label: '毛巾', emoji: '🏖️' },
-      { label: '防水手機套', emoji: '📱' },
+      { label: '泳衣', icon: Waves },
+      { label: '毛巾', icon: Waves },
+      { label: '防水手機套', icon: Smartphone },
     )
   }
 
   if (isNature) {
     items.push(
-      { label: '防滑運動鞋', emoji: '👟' },
-      { label: '長袖透氣上衣', emoji: '👚' },
+      { label: '防滑運動鞋', icon: Footprints },
+      { label: '長袖透氣上衣', icon: Shirt },
     )
   }
 
@@ -124,7 +146,8 @@ export function PackingList({ place, weather }: Props) {
                 onClick={() => toggle(item.label)}
               >
                 {checked.has(item.label) ? <CheckSquare size={15} /> : <Square size={15} />}
-                <span>{item.emoji} {item.label}</span>
+                <item.icon size={13} className="packing-item-icon" />
+                <span>{item.label}</span>
               </li>
             ))}
           </ul>
