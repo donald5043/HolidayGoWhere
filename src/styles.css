@@ -3599,3 +3599,415 @@ p.wizard-reason {
   flex-shrink: 0;
   color: var(--color-text-secondary);
 }
+
+/* ==========================================================================
+   Feature: 天氣主動提示 banner
+   ========================================================================== */
+
+.weather-nudge {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
+  border-radius: 18px;
+  cursor: pointer;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+  animation: fade-up 400ms ease both;
+}
+
+.weather-nudge:hover { transform: translateY(-2px); box-shadow: var(--shadow-card); }
+.weather-nudge:active { transform: scale(0.99); }
+
+.weather-nudge--rain {
+  background: linear-gradient(135deg, #dbeafe, #bfdbfe);
+  color: #1e40af;
+}
+
+.weather-nudge--heat {
+  background: linear-gradient(135deg, #fef3c7, #fde68a);
+  color: #92400e;
+}
+
+.weather-nudge > svg { flex-shrink: 0; }
+
+.weather-nudge-copy {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.weather-nudge-copy strong {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.weather-nudge-copy span {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.weather-nudge-cta {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 12.5px;
+  font-weight: 700;
+  padding: 6px 10px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.08);
+  white-space: nowrap;
+}
+
+/* ==========================================================================
+   Feature: 行前打包清單
+   ========================================================================== */
+
+.packing-list-section {
+  padding: 0 !important;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1.5px solid var(--color-border);
+}
+
+.packing-list-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px 16px;
+  border: 0;
+  background: var(--color-surface);
+  cursor: pointer;
+  text-align: left;
+  transition: background var(--transition-fast);
+}
+
+.packing-list-toggle:hover { background: var(--color-surface-soft); }
+
+.packing-list-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.packing-progress {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--color-muted);
+}
+
+.packing-count {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 8px;
+  background: var(--color-surface-soft);
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+
+.packing-count.is-done {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.packing-list-body {
+  border-top: 1.5px solid var(--color-border);
+  padding: 10px 14px 14px;
+  background: var(--color-surface-soft);
+}
+
+.packing-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.packing-item {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 7px 8px;
+  border-radius: 9px;
+  cursor: pointer;
+  font-size: 13.5px;
+  color: var(--color-text);
+  transition: background var(--transition-fast);
+}
+
+.packing-item:hover { background: var(--color-surface); }
+
+.packing-item > svg { flex-shrink: 0; color: var(--color-muted); }
+
+.packing-item.is-checked {
+  color: var(--color-muted);
+  text-decoration: line-through;
+}
+
+.packing-item.is-checked > svg { color: #16a34a; }
+
+.packing-reset {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--color-surface);
+  color: var(--color-muted);
+  font-size: 11.5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color var(--transition-fast);
+}
+
+.packing-reset:hover { color: var(--color-primary-dark); }
+
+/* ==========================================================================
+   Feature: 行程規劃器
+   ========================================================================== */
+
+.section-heading-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.plan-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border: 1.5px solid var(--color-primary);
+  border-radius: var(--radius-pill);
+  background: transparent;
+  color: var(--color-primary-dark);
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background var(--transition-fast), color var(--transition-fast);
+  white-space: nowrap;
+}
+
+.plan-button:hover,
+.plan-button.is-active {
+  background: var(--color-primary-soft);
+}
+
+.itinerary-planner {
+  background: var(--color-surface);
+  border: 1.5px solid var(--color-border);
+  border-radius: 20px;
+  padding: 16px;
+  margin-bottom: 16px;
+  animation: fade-up 280ms ease both;
+}
+
+.itinerary-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.itinerary-head-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.itinerary-head-copy strong {
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.itinerary-head-copy span {
+  font-size: 12px;
+  color: var(--color-muted);
+}
+
+.itinerary-head-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.itinerary-share {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 12px;
+  border: 1.5px solid var(--color-border-strong);
+  border-radius: var(--radius-pill);
+  background: transparent;
+  color: var(--color-text-secondary);
+  font-size: 12.5px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: border-color var(--transition-fast), color var(--transition-fast);
+}
+
+.itinerary-share:hover { border-color: var(--color-primary); color: var(--color-primary-dark); }
+
+.itinerary-close {
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  border: 0;
+  border-radius: 50%;
+  background: var(--color-surface-soft);
+  color: var(--color-muted);
+  cursor: pointer;
+}
+
+.itinerary-close:hover { color: var(--color-text); }
+
+.itinerary-empty {
+  font-size: 13px;
+  color: var(--color-muted);
+  text-align: center;
+  padding: 16px 0 4px;
+}
+
+.itinerary-stops {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.itinerary-stop {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.itinerary-travel {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 12px;
+  font-size: 11px;
+  color: var(--color-muted);
+}
+
+.itinerary-travel::before {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 16px;
+  background: var(--color-border);
+  margin-right: 2px;
+}
+
+.itinerary-stop-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: var(--color-surface-soft);
+  cursor: pointer;
+  transition: background var(--transition-fast);
+}
+
+.itinerary-stop-card:hover { background: var(--color-surface); box-shadow: var(--shadow-sm); }
+
+.itinerary-stop-time {
+  flex: 0 0 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+}
+
+.itinerary-stop-time strong {
+  font-size: 13.5px;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  color: var(--color-primary-dark);
+}
+
+.itinerary-stop-time span {
+  font-size: 10px;
+  color: var(--color-muted);
+}
+
+.itinerary-stop-info {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.itinerary-stop-info strong {
+  font-size: 13.5px;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.itinerary-stop-info span {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 11px;
+  color: var(--color-muted);
+}
+
+.itinerary-stop-reorder {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.itinerary-stop-reorder button {
+  width: 26px;
+  height: 26px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--color-border);
+  border-radius: 7px;
+  background: var(--color-surface);
+  color: var(--color-muted);
+  cursor: pointer;
+  transition: color var(--transition-fast), border-color var(--transition-fast);
+}
+
+.itinerary-stop-reorder button:hover:not(:disabled) {
+  color: var(--color-text);
+  border-color: var(--color-border-strong);
+}
+
+.itinerary-stop-reorder button:disabled { opacity: 0.3; cursor: default; }
+
+.itinerary-remove:hover:not(:disabled) { color: #dc2626 !important; border-color: #fca5a5 !important; }
+
+.itinerary-footer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid var(--color-border);
+  font-size: 12px;
+  color: var(--color-muted);
+  justify-content: flex-end;
+}
