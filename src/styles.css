@@ -3503,6 +3503,22 @@ p.wizard-reason {
   gap: 8px;
 }
 
+.nearby-show-more {
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  padding: 8px;
+  background: none;
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  font-size: 13px;
+  color: var(--color-primary);
+  cursor: pointer;
+  transition: background var(--transition-fast);
+}
+
+.nearby-show-more:hover { background: var(--color-surface); }
+
 .restaurant-card {
   display: flex;
   align-items: center;

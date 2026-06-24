@@ -35,11 +35,19 @@ type Props = {
   onOpen: (place: Place) => void
 }
 
+const MAX_DIVERSE = 5   // default cap with diversity
+const MAX_PER_CAT = 2   // max per category in diverse view
+const MAX_EXPANDED = 10 // cap when user expands
+
 export function NearbyRestaurants({ allPlaces, anchor, onOpen }: Props) {
   const [featured, setFeatured] = useState<Place[]>([])
   const [osm, setOsm] = useState<Place[]>([])
   const [radiusKm, setRadiusKm] = useState<RadiusKm>(3)
   const [categoryFilter, setCategoryFilter] = useState<CategoryFilter>('all')
+  const [showAll, setShowAll] = useState(false)
+
+  const handleSetCategory = (v: CategoryFilter) => { setCategoryFilter(v); setShowAll(false) }
+  const handleSetRadius = (r: RadiusKm) => { setRadiusKm(r); setShowAll(false) }
 
   useEffect(() => {
     import('../generated/restaurants-featured.json')
@@ -50,7 +58,7 @@ export function NearbyRestaurants({ allPlaces, anchor, onOpen }: Props) {
       .catch(() => {/* silent */})
   }, [])
 
-  const restaurants = useMemo(() => {
+  const { restaurants, totalCount } = useMemo(() => {
     const seen = new Set(allPlaces.filter((p) => p.placeType === '餐飲').map((p) => p.id))
     const combined = [
       ...allPlaces.filter((p) => p.placeType === '餐飲'),
@@ -80,10 +88,31 @@ export function NearbyRestaurants({ allPlaces, anchor, onOpen }: Props) {
             )
           : scored.filter(({ score }) => score.restaurantCategory === categoryFilter)
 
-    return filtered
-      .sort((a, b) => b.sortScore - a.sortScore || a.dist - b.dist)
-      .slice(0, 3)
-  }, [allPlaces, featured, osm, anchor, radiusKm, categoryFilter])
+    const sorted = filtered.sort((a, b) => b.sortScore - a.sortScore || a.dist - b.dist)
+    const totalCount = sorted.length
+
+    if (showAll) {
+      return { restaurants: sorted.slice(0, MAX_EXPANDED), totalCount }
+    }
+
+    // Diversity cap when showing all categories: max MAX_PER_CAT per category
+    if (categoryFilter === 'all') {
+      const catCount: Record<string, number> = {}
+      const diverse: typeof sorted = []
+      for (const item of sorted) {
+        const cat = item.score.restaurantCategory ?? 'general_restaurant'
+        catCount[cat] = (catCount[cat] ?? 0) + 1
+        if (catCount[cat] <= MAX_PER_CAT) {
+          diverse.push(item)
+          if (diverse.length >= MAX_DIVERSE) break
+        }
+      }
+      return { restaurants: diverse, totalCount }
+    }
+
+    // Specific category selected: just top 5
+    return { restaurants: sorted.slice(0, MAX_DIVERSE), totalCount }
+  }, [allPlaces, featured, osm, anchor, radiusKm, categoryFilter, showAll])
 
   // Count available restaurants regardless of category filter (for empty state decision)
   const hasAny = useMemo(() => {
@@ -103,7 +132,7 @@ export function NearbyRestaurants({ allPlaces, anchor, onOpen }: Props) {
         <button
           key={value}
           className={categoryFilter === value ? 'active' : ''}
-          onClick={() => setCategoryFilter(value)}
+          onClick={() => handleSetCategory(value)}
         >
           {label}
         </button>
@@ -114,7 +143,7 @@ export function NearbyRestaurants({ allPlaces, anchor, onOpen }: Props) {
   const radiusRow = (
     <div className="nearby-radius-row" role="group" aria-label="搜尋半徑">
       {RADIUS_OPTIONS.map((r) => (
-        <button key={r} className={radiusKm === r ? 'active' : ''} onClick={() => setRadiusKm(r)}>
+        <button key={r} className={radiusKm === r ? 'active' : ''} onClick={() => handleSetRadius(r)}>
           {r} km
         </button>
       ))}
@@ -123,6 +152,8 @@ export function NearbyRestaurants({ allPlaces, anchor, onOpen }: Props) {
 
   const categoryLabel =
     categoryFilter === 'all' ? '' : CATEGORY_LABEL[categoryFilter as RestaurantCategory] + '・'
+
+  const hiddenCount = totalCount - restaurants.length
 
   return (
     <div className="detail-section nearby-restaurants-section">
@@ -136,7 +167,7 @@ export function NearbyRestaurants({ allPlaces, anchor, onOpen }: Props) {
       ) : (
         <>
           <p className="nearby-restaurants-hint">
-            {categoryLabel}找到 {restaurants.length} 間・{radiusKm} km 內
+            {categoryLabel}找到 {totalCount} 間・{radiusKm} km 內
           </p>
           <div className="restaurant-list">
             {restaurants.map(({ place, dist, score }) => (
@@ -149,6 +180,11 @@ export function NearbyRestaurants({ allPlaces, anchor, onOpen }: Props) {
               />
             ))}
           </div>
+          {!showAll && hiddenCount > 0 && (
+            <button className="nearby-show-more" onClick={() => setShowAll(true)}>
+              查看更多 {hiddenCount} 間
+            </button>
+          )}
         </>
       )}
     </div>
