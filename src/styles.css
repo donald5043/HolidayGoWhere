@@ -3748,6 +3748,8 @@ p.wizard-reason {
 
 .packing-item > svg { flex-shrink: 0; color: var(--color-muted); }
 
+.packing-item-icon { color: var(--color-primary) !important; opacity: 0.75; }
+
 .packing-item.is-checked {
   color: var(--color-muted);
   text-decoration: line-through;
