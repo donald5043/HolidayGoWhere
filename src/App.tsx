@@ -58,6 +58,8 @@ import { MapView, type MapViewport } from './MapView'
 import { BAD_PLACEHOLDER_IMAGES, FALLBACK_IMAGE } from './imageUtils'
 import { WeekendDiscovery } from './components/WeekendDiscovery'
 import { NearbyRestaurants } from './components/NearbyRestaurants'
+import { PackingList } from './components/PackingList'
+import { ItineraryPlanner } from './components/ItineraryPlanner'
 
 const regions = ['全部', '北部', '中部', '南部', '東部', '離島'] as const
 const settings = ['全部', '室內', '室外', '室內外'] as const
@@ -472,6 +474,7 @@ function App() {
   const [wizardResults, setWizardResults]   = useState<WizardResult[]>([])
   const [wizardRan, setWizardRan]           = useState(false)
   const [showReportForm, setShowReportForm] = useState(false)
+  const [showItinerary, setShowItinerary] = useState(false)
   const [soundEnabled, setSoundEnabled] = useState(() => localStorage.getItem('holiday-go-where:sound') === 'on')
   const [clickHistory, setClickHistory] = useState<string[]>(() => {
     try { return JSON.parse(localStorage.getItem('holiday-go-where:click-history') || '[]') } catch { return [] }
@@ -978,6 +981,26 @@ function App() {
               </button>
             </section>
 
+            {/* ── 天氣主動提示 ── */}
+            {weatherStatus === 'ready' && weather && (() => {
+              const isRainy = weather.precipitationProbability >= 45 || weather.weatherCode >= 51
+              const isHot   = weather.temperature >= 32
+              if (!isRainy && !isHot) return null
+              return (
+                <section
+                  className={`home-section weather-nudge ${isRainy ? 'weather-nudge--rain' : 'weather-nudge--heat'}`}
+                  onClick={() => isRainy ? goExplore(() => setRainyOnly(true)) : goExplore(() => setSetting('室內'))}
+                >
+                  {isRainy ? <CloudRain size={22} /> : <SunMedium size={22} />}
+                  <div className="weather-nudge-copy">
+                    <strong>{isRainy ? `今天降雨機率 ${weather.precipitationProbability}%` : `今天高達 ${Math.round(weather.temperature)}°C`}</strong>
+                    <span>{isRainy ? '幫你整理好雨天室內景點' : '推薦涼快的室內景點'}</span>
+                  </div>
+                  <span className="weather-nudge-cta">看景點 <ChevronRight size={13} /></span>
+                </section>
+              )
+            })()}
+
             {/* ── 今天去哪玩 wizard ── */}
             <section className="wizard-card">
               <div className="wizard-head">
@@ -1277,16 +1300,35 @@ function App() {
                 {region === '全部' && activeTab !== 'favorites' && '・選擇地區可查看完整景點'}
               </p>
             </div>
-            <button
-              className={`location-button ${locationStatus === 'ready' ? 'is-active' : ''}`}
-              onClick={findNearbyPlaces}
-              disabled={locationStatus === 'loading'}
-              aria-label={locationStatus === 'loading' ? '正在取得位置' : '顯示我的附近'}
-            >
-              <LocateFixed size={17} />
-              {locationStatus === 'loading' ? '定位中…' : locationStatus === 'ready' ? '離我最近' : '我的附近'}
-            </button>
+            <div className="section-heading-actions">
+              {activeTab === 'favorites' && displayedPlaces.length >= 2 && (
+                <button
+                  className={`plan-button ${showItinerary ? 'is-active' : ''}`}
+                  onClick={() => setShowItinerary((v) => !v)}
+                >
+                  <CalendarDays size={15} />{showItinerary ? '收起行程' : '規劃行程'}
+                </button>
+              )}
+              <button
+                className={`location-button ${locationStatus === 'ready' ? 'is-active' : ''}`}
+                onClick={findNearbyPlaces}
+                disabled={locationStatus === 'loading'}
+                aria-label={locationStatus === 'loading' ? '正在取得位置' : '顯示我的附近'}
+              >
+                <LocateFixed size={17} />
+                {locationStatus === 'loading' ? '定位中…' : locationStatus === 'ready' ? '離我最近' : '我的附近'}
+              </button>
+            </div>
           </div>
+
+          {activeTab === 'favorites' && showItinerary && (
+            <ItineraryPlanner
+              favoritePlaces={displayedPlaces}
+              userLocation={userLocation}
+              onOpenPlace={openPlace}
+              onClose={() => setShowItinerary(false)}
+            />
+          )}
 
           {locationMessage && (
             <div className={`location-notice ${locationStatus}`} role="status">
@@ -1463,6 +1505,7 @@ function App() {
                   {selected.highlights.map((item) => <span key={item}><Star size={10} /> {item}</span>)}
                 </div>
               </div>
+              <PackingList place={selected} weather={weather} />
               <div className="detail-section">
                 <h3>親子友善設施</h3>
                 {selected.familyAmenities && (
