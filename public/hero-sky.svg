@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" fill="none" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#BDE7FF"/>
+      <stop offset="60%" stop-color="#DCF3FF"/>
+      <stop offset="100%" stop-color="#EAF8E4"/>
+    </linearGradient>
+    <linearGradient id="hill1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9DD879"/>
+      <stop offset="100%" stop-color="#7FC85B"/>
+    </linearGradient>
+    <linearGradient id="hill2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#B6E292"/>
+      <stop offset="100%" stop-color="#98D472"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="480" fill="url(#sky)"/>
+  <!-- sun -->
+  <circle cx="120" cy="92" r="40" fill="#FFD45C" opacity="0.9"/>
+  <circle cx="120" cy="92" r="56" fill="#FFD45C" opacity="0.25"/>
+  <!-- clouds -->
+  <g fill="#FFFFFF" opacity="0.92">
+    <ellipse cx="560" cy="80" rx="46" ry="24"/>
+    <ellipse cx="600" cy="70" rx="38" ry="22"/>
+    <ellipse cx="620" cy="92" rx="44" ry="22"/>
+    <ellipse cx="300" cy="130" rx="36" ry="18"/>
+    <ellipse cx="332" cy="122" rx="30" ry="16"/>
+  </g>
+  <!-- distant hills -->
+  <path d="M0 330 Q160 270 340 320 T800 300 V480 H0 Z" fill="url(#hill2)" opacity="0.85"/>
+  <path d="M0 380 Q200 320 420 366 T800 356 V480 H0 Z" fill="url(#hill1)"/>
+  <!-- meadow accents -->
+  <g opacity="0.9">
+    <circle cx="90" cy="430" r="6" fill="#FF6B9D"/>
+    <circle cx="105" cy="424" r="5" fill="#FFD45C"/>
+    <circle cx="700" cy="440" r="6" fill="#FF6B9D"/>
+    <circle cx="716" cy="432" r="5" fill="#FFD45C"/>
+    <circle cx="420" cy="452" r="5" fill="#FFFFFF"/>
+  </g>
+</svg>

@@ -43,7 +43,6 @@ import {
   Volume2,
   VolumeX,
   Waves,
-  Wrench,
   X,
 } from 'lucide-react'
 import {
@@ -60,6 +59,7 @@ import { WeekendDiscovery } from './components/WeekendDiscovery'
 import { NearbyRestaurants } from './components/NearbyRestaurants'
 import { PackingList } from './components/PackingList'
 import { ItineraryPlanner } from './components/ItineraryPlanner'
+import { Mascot } from './components/Mascot'
 
 const regions = ['全部', '北部', '中部', '南部', '東部', '離島'] as const
 const settings = ['全部', '室內', '室外', '室內外'] as const
@@ -902,13 +902,15 @@ function App() {
   return (
     <div className="app-shell">
       <header className="topbar">
-        <a className="brand" href="#" aria-label="假日去哪兒首頁" onClick={(event) => { event.preventDefault(); openHome() }}>
+        <a className="brand" href="#" aria-label="HolidayGoWhere 首頁" onClick={(event) => { event.preventDefault(); openHome() }}>
           <span className="brand-mark" aria-hidden="true">
-            <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="" className="brand-logo-img" />
+            <Mascot pose="icon" className="brand-logo-img" />
           </span>
           <span className="brand-text">
-            <strong>假日去哪兒</strong>
-            <small>讓每個週末，都值得孩子期待</small>
+            <strong className="brand-wordmark">
+              <span className="wm-holiday">Holiday</span><span className="wm-go">Go</span><span className="wm-where">Where</span>
+            </strong>
+            <small>帶孩子・去更好的地方</small>
           </span>
         </a>
         <div className="topbar-actions">
@@ -926,16 +928,17 @@ function App() {
           <div className="home-view">
             <section className="hero-card">
               <img
-                src={`${import.meta.env.BASE_URL}hero-family.svg`}
+                src={`${import.meta.env.BASE_URL}hero-sky.svg`}
                 alt=""
                 className="hero-card-bg"
                 aria-hidden="true"
               />
               <div className="hero-card-overlay" />
+              <Mascot pose="camera" className="hero-mascot" />
               <div className="hero-card-content">
-                <span className="hero-tag"><Sparkles size={13} /> 親子週末靈感</span>
-                <h1>下一個週末，<br />一起創造<br /><span>美好回憶</span></h1>
-                <p>天氣、年齡、親子設施與即時活動，一次替你整理好。</p>
+                <span className="hero-tag"><Sparkles size={13} /> 探索・規劃・分享，一站搞定</span>
+                <h1>帶孩子<br /><span>去更好的地方</span></h1>
+                <p>天氣、年齡、親子設施與即時活動，Q胖一次替你整理好。</p>
               </div>
               <div className="hero-search">
                 <label className="search-box">
@@ -976,7 +979,7 @@ function App() {
                 <small>附近景點</small>
               </button>
               <button className="entry-tile" onClick={() => goExplore(() => { setRestaurantOnly(true); setRainyOnly(false); setEventOnly(false) })}>
-                <span className="entry-icon tile-coral"><Utensils size={24} /></span>
+                <span className="entry-icon tile-pink"><Utensils size={24} /></span>
                 <small>親子餐廳</small>
               </button>
             </section>
@@ -1358,13 +1361,13 @@ function App() {
             <div className="results-panel">
               {placesStatus === 'loading' ? (
                 <div className="empty-state loading-state">
-                  <MapPin size={40} />
-                  <h3>正在整理親子景點</h3>
+                  <Mascot pose="map" className="empty-mascot" />
+                  <h3>Q胖正在整理親子景點</h3>
                   <p>載入官方開放資料中，馬上就好。</p>
                 </div>
               ) : placesStatus === 'error' ? (
                 <div className="empty-state">
-                  <Wrench size={40} />
+                  <Mascot pose="map" className="empty-mascot" />
                   <h3>景點資料暫時載入失敗</h3>
                   <p>請確認網路後重新整理頁面。</p>
                   <button onClick={() => window.location.reload()}>重新載入</button>
@@ -1380,7 +1383,7 @@ function App() {
                 />
               )) : (
                 <div className="empty-state">
-                  {activeTab === 'favorites' ? <Heart size={40} /> : <Baby size={40} />}
+                  <Mascot pose={activeTab === 'favorites' ? 'jumping' : 'waving'} className="empty-mascot" />
                   <h3>{activeTab === 'favorites' ? '還沒有收藏景點' : '這組條件還沒有景點'}</h3>
                   <p>{activeTab === 'favorites' ? '看到喜歡的地點時，點愛心就能放進這裡。' : '換個地區或放寬孩子年齡試試看。'}</p>
                   <button onClick={activeTab === 'favorites' ? () => openExplore('explore') : clearFilters}>
@@ -1407,7 +1410,7 @@ function App() {
           <aside className="profile-sheet" onClick={(event) => event.stopPropagation()}>
             <button className="modal-close" onClick={() => setShowProfile(false)} aria-label="關閉"><X /></button>
             <div className="profile-bear" aria-hidden="true">
-              <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="" className="profile-bear-img" />
+              <Mascot pose="waving" className="profile-bear-img" />
             </div>
             <h2>我的親子小檔案</h2>
             <p>你的收藏與偏好會保存在這支手機裡。</p>

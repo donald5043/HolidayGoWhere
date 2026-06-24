@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Friendly Q胖 placeholder shown until real PNG art is dropped in -->
+  <defs>
+    <linearGradient id="cap" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFD45C"/>
+      <stop offset="100%" stop-color="#FBB72C"/>
+    </linearGradient>
+    <radialGradient id="cheek" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF9FB0"/>
+      <stop offset="100%" stop-color="#FF9FB0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- head -->
+  <ellipse cx="100" cy="118" rx="64" ry="58" fill="#E7A86A"/>
+  <ellipse cx="100" cy="126" rx="46" ry="44" fill="#F6D6A8"/>
+  <!-- ears -->
+  <circle cx="48" cy="86" r="17" fill="#E7A86A"/>
+  <circle cx="152" cy="86" r="17" fill="#E7A86A"/>
+  <circle cx="48" cy="86" r="9" fill="#C77B45"/>
+  <circle cx="152" cy="86" r="9" fill="#C77B45"/>
+  <!-- cap -->
+  <path d="M40 84 a60 50 0 0 1 120 0 q-60 -22 -120 0 Z" fill="url(#cap)"/>
+  <ellipse cx="100" cy="84" rx="60" ry="11" fill="#FBB72C" opacity="0.5"/>
+  <!-- cap pin -->
+  <circle cx="100" cy="58" r="13" fill="#6CC24A"/>
+  <circle cx="100" cy="56" r="5" fill="#fff"/>
+  <!-- eyes -->
+  <circle cx="80" cy="118" r="9" fill="#3A2A22"/>
+  <circle cx="120" cy="118" r="9" fill="#3A2A22"/>
+  <circle cx="83" cy="115" r="3" fill="#fff"/>
+  <circle cx="123" cy="115" r="3" fill="#fff"/>
+  <!-- cheeks -->
+  <circle cx="66" cy="138" r="13" fill="url(#cheek)"/>
+  <circle cx="134" cy="138" r="13" fill="url(#cheek)"/>
+  <!-- nose + smile -->
+  <ellipse cx="100" cy="136" rx="8" ry="6" fill="#7A4B2E"/>
+  <path d="M86 150 q14 14 28 0" stroke="#7A4B2E" stroke-width="4" stroke-linecap="round" fill="none"/>
+</svg>
