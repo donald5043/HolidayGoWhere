@@ -1,10 +1,10 @@
 {
   "sourceUrl": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
-  "sourceUpdatedAt": "2026-06-24T02:30:51+08:00",
-  "generatedFromSourceAt": "2026-06-24T02:30:51+08:00",
-  "sourceCount": 5957,
-  "restaurantSourceCount": 3692,
-  "restaurantPublishedCount": 2666,
+  "sourceUpdatedAt": "2026-06-25T02:30:56+08:00",
+  "generatedFromSourceAt": "2026-06-25T02:30:56+08:00",
+  "sourceCount": 5959,
+  "restaurantSourceCount": 3690,
+  "restaurantPublishedCount": 2664,
   "restaurantRejected": {
     "inactive": 112,
     "coordinate": 2,
@@ -12,23 +12,23 @@
     "relevance": 0,
     "quality": 828
   },
-  "eventSourceCount": 775,
-  "eventPublishedCount": 211,
+  "eventSourceCount": 779,
+  "eventPublishedCount": 216,
   "eventRejected": {
-    "expired": 489,
+    "expired": 487,
     "coordinate": 1,
     "duplicate": 14,
-    "relevance": 60
+    "relevance": 61
   },
-  "candidateCount": 6023,
-  "publishedCount": 6023,
+  "candidateCount": 6028,
+  "publishedCount": 6028,
   "featuredCount": 300,
   "regionCounts": {
-    "北部": 1609,
-    "中部": 1881,
+    "北部": 1613,
+    "中部": 1879,
     "南部": 1285,
-    "東部": 747,
-    "離島": 501
+    "東部": 748,
+    "離島": 503
   },
   "rejected": {
     "inactive": 53,
@@ -42,12 +42,12 @@
     "假日散步": 193,
     "動物萌友": 156,
     "咖啡下午茶": 266,
-    "室內餐廳": 2029,
+    "室內餐廳": 2027,
     "探索學習": 233,
-    "本週活動": 211,
+    "本週活動": 216,
     "甜點冰品": 290,
     "百貨商場": 34,
-    "自然放電": 1211,
+    "自然放電": 1213,
     "藝文美感": 335,
     "親子樂園": 440,
     "親子餐廳": 67,
@@ -57,17 +57,17 @@
     "accessibility": 371,
     "ramp": 21,
     "nursingRoom": 352,
-    "diaperTable": 210,
-    "familyRestroom": 67,
-    "parking": 228,
+    "diaperTable": 211,
+    "familyRestroom": 68,
+    "parking": 229,
     "strollerFriendly": 43
   },
   "officialAmenityMatches": {
     "accessibility": 328,
     "ramp": 0,
     "nursingRoom": 341,
-    "diaperTable": 210,
-    "familyRestroom": 64,
+    "diaperTable": 211,
+    "familyRestroom": 65,
     "parking": 0,
     "strollerFriendly": 0
   },
@@ -75,7 +75,7 @@
     "nursingCount": 3996,
     "toiletCount": 45679,
     "nursingUpdatedAt": "2026-01-26 15:04:48",
-    "toiletUpdatedAt": "2026-06-23 13:50:13",
+    "toiletUpdatedAt": "2026-06-24 09:09:48",
     "sources": [
       {
         "id": 23750,
