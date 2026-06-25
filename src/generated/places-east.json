@@ -54473,5 +54473,1420 @@
         "詳細介紹"
       ]
     }
+  },
+  {
+    "id": "curated-seed-18",
+    "name": "宜蘭傳統藝術中心",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "五結鄉",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$100",
+    "address": "宜蘭縣五結鄉五濱路二段201號",
+    "hours": "9:00–18:00（暑期延長至21:00）",
+    "lat": 24.7037,
+    "lng": 121.7606,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#68b984",
+    "description": "宜蘭傳統藝術中心是位於宜蘭縣的室外親子景點，0歲起即適合。以文化園區、DIY體驗為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "文化園區",
+      "DIY體驗",
+      "6歲下免費"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%9C%E8%98%AD%E5%82%B3%E7%B5%B1%E8%97%9D%E8%A1%93%E4%B8%AD%E5%BF%83%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E4%BA%94%E7%B5%90%E9%84%89%E4%BA%94%E6%BF%B1%E8%B7%AF%E4%BA%8C%E6%AE%B5201%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #宜蘭傳統藝術中心",
+        "url": "https://www.instagram.com/explore/tags/%E5%AE%9C%E8%98%AD%E5%82%B3%E7%B5%B1%E8%97%9D%E8%A1%93%E4%B8%AD%E5%BF%83/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%AE%9C%E8%98%AD%E5%82%B3%E7%B5%B1%E8%97%9D%E8%A1%93%E4%B8%AD%E5%BF%83%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-18",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.567Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-20",
+    "name": "張美阿嬤農場",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "五結鄉",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$200",
+    "address": "宜蘭縣五結鄉孝威村親河路一段130號",
+    "hours": "9:00–17:30",
+    "lat": 24.7502,
+    "lng": 121.7731,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "張美阿嬤農場是位於宜蘭縣的室外親子景點，0歲起即適合。以農場為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "農場",
+      "5歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BC%B5%E7%BE%8E%E9%98%BF%E5%AC%A4%E8%BE%B2%E5%A0%B4%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E4%BA%94%E7%B5%90%E9%84%89%E5%AD%9D%E5%A8%81%E6%9D%91%E8%A6%AA%E6%B2%B3%E8%B7%AF%E4%B8%80%E6%AE%B5130%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #張美阿嬤農場",
+        "url": "https://www.instagram.com/explore/tags/%E5%BC%B5%E7%BE%8E%E9%98%BF%E5%AC%A4%E8%BE%B2%E5%A0%B4/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%BC%B5%E7%BE%8E%E9%98%BF%E5%AC%A4%E8%BE%B2%E5%A0%B4%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-20",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.568Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-52",
+    "name": "宜蘭積木博物館（樂色山）",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "",
+    "ageMin": 3,
+    "ageMax": 8,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "探索學習",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$250",
+    "address": "宜蘭市",
+    "hours": "10:00–18:00",
+    "lat": 24.7574,
+    "lng": 121.7528,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#6a8dff",
+    "description": "宜蘭積木博物館（樂色山）是位於宜蘭縣的室內親子景點，3歲以上適合。以博物館、DIY體驗為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "博物館",
+      "DIY體驗",
+      "付費"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%9C%E8%98%AD%E7%A9%8D%E6%9C%A8%E5%8D%9A%E7%89%A9%E9%A4%A8%EF%BC%88%E6%A8%82%E8%89%B2%E5%B1%B1%EF%BC%89%20%E5%AE%9C%E8%98%AD%E5%B8%82",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #宜蘭積木博物館（樂色山）",
+        "url": "https://www.instagram.com/explore/tags/%E5%AE%9C%E8%98%AD%E7%A9%8D%E6%9C%A8%E5%8D%9A%E7%89%A9%E9%A4%A8%EF%BC%88%E6%A8%82%E8%89%B2%E5%B1%B1%EF%BC%89/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%AE%9C%E8%98%AD%E7%A9%8D%E6%9C%A8%E5%8D%9A%E7%89%A9%E9%A4%A8%EF%BC%88%E6%A8%82%E8%89%B2%E5%B1%B1%EF%BC%89%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-52",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.576Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-55",
+    "name": "橘之鄉蜜餞形象館",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "宜蘭市",
+    "ageMin": 3,
+    "ageMax": 8,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "宜蘭縣宜蘭市梅洲二路33號",
+    "hours": "08:30–17:30",
+    "lat": 24.7768,
+    "lng": 121.7476,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#68b984",
+    "description": "橘之鄉蜜餞形象館是位於宜蘭縣的室內親子景點，3歲以上適合，免費入場。以DIY體驗為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "DIY體驗",
+      "免費",
+      "3歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A9%98%E4%B9%8B%E9%84%89%E8%9C%9C%E9%A4%9E%E5%BD%A2%E8%B1%A1%E9%A4%A8%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%AE%9C%E8%98%AD%E5%B8%82%E6%A2%85%E6%B4%B2%E4%BA%8C%E8%B7%AF33%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #橘之鄉蜜餞形象館",
+        "url": "https://www.instagram.com/explore/tags/%E6%A9%98%E4%B9%8B%E9%84%89%E8%9C%9C%E9%A4%9E%E5%BD%A2%E8%B1%A1%E9%A4%A8/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E6%A9%98%E4%B9%8B%E9%84%89%E8%9C%9C%E9%A4%9E%E5%BD%A2%E8%B1%A1%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-55",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.578Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-101",
+    "name": "蘭陽動植物王國",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "壯圍鄉",
+    "ageMin": 3,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$280",
+    "address": "宜蘭縣壯圍鄉紅葉路62-13號",
+    "hours": "平日 10:00–17:00 / 假日 09:30–17:30",
+    "lat": 24.6951,
+    "lng": 121.8423,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "蘭陽動植物王國是位於宜蘭縣的室外親子景點，3歲以上適合。以農場為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "農場",
+      "3歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%98%AD%E9%99%BD%E5%8B%95%E6%A4%8D%E7%89%A9%E7%8E%8B%E5%9C%8B%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%A3%AF%E5%9C%8D%E9%84%89%E7%B4%85%E8%91%89%E8%B7%AF62-13%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #蘭陽動植物王國",
+        "url": "https://www.instagram.com/explore/tags/%E8%98%AD%E9%99%BD%E5%8B%95%E6%A4%8D%E7%89%A9%E7%8E%8B%E5%9C%8B/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E8%98%AD%E9%99%BD%E5%8B%95%E6%A4%8D%E7%89%A9%E7%8E%8B%E5%9C%8B%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-101",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.587Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-102",
+    "name": "頭城農場",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "頭城鎮",
+    "ageMin": 3,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$1000",
+    "address": "宜蘭縣頭城鎮更新路125-1號",
+    "hours": "08:00–20:30（套裝行程需事先預約）",
+    "lat": 24.9278,
+    "lng": 121.8965,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "頭城農場是位於宜蘭縣的室外親子景點，3歲以上適合。以農場、DIY體驗為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "農場",
+      "DIY體驗",
+      "3歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A0%AD%E5%9F%8E%E8%BE%B2%E5%A0%B4%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E9%A0%AD%E5%9F%8E%E9%8E%AE%E6%9B%B4%E6%96%B0%E8%B7%AF125-1%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #頭城農場",
+        "url": "https://www.instagram.com/explore/tags/%E9%A0%AD%E5%9F%8E%E8%BE%B2%E5%A0%B4/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E9%A0%AD%E5%9F%8E%E8%BE%B2%E5%A0%B4%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-102",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.588Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-103",
+    "name": "斑比山丘",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "冬山鄉",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$200",
+    "address": "宜蘭縣冬山鄉下湖路285號",
+    "hours": "平日 10:00–17:00 / 假日 09:00–17:00（16:30停止售票）",
+    "lat": 24.6472,
+    "lng": 121.7703,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "斑比山丘是位於宜蘭縣的室外親子景點，0歲起即適合。以農場為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "農場",
+      "0歲起"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%91%E6%AF%94%E5%B1%B1%E4%B8%98%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%86%AC%E5%B1%B1%E9%84%89%E4%B8%8B%E6%B9%96%E8%B7%AF285%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #斑比山丘",
+        "url": "https://www.instagram.com/explore/tags/%E6%96%91%E6%AF%94%E5%B1%B1%E4%B8%98/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E6%96%91%E6%AF%94%E5%B1%B1%E4%B8%98%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-103",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.589Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-124",
+    "name": "心花鹿放",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "冬山鄉",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$200",
+    "address": "宜蘭縣冬山鄉大埤一路199號",
+    "hours": "10:00-17:30 (週末09:30開始)",
+    "lat": 24.6361,
+    "lng": 121.7228,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "心花鹿放是位於宜蘭縣的室外親子景點，2歲以上適合。以農場為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "農場",
+      "6歲下免費",
+      "2歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BF%83%E8%8A%B1%E9%B9%BF%E6%94%BE%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%86%AC%E5%B1%B1%E9%84%89%E5%A4%A7%E5%9F%A4%E4%B8%80%E8%B7%AF199%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #心花鹿放",
+        "url": "https://www.instagram.com/explore/tags/%E5%BF%83%E8%8A%B1%E9%B9%BF%E6%94%BE/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%BF%83%E8%8A%B1%E9%B9%BF%E6%94%BE%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-124",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.593Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-188",
+    "name": "勝洋水草休閒農場",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "員山鄉",
+    "ageMin": 4,
+    "ageMax": 12,
+    "setting": "室內外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$100",
+    "address": "宜蘭縣員山鄉八甲路15-6號",
+    "hours": "09:00-17:00",
+    "lat": 24.7215,
+    "lng": 121.7062,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "勝洋水草休閒農場是位於宜蘭縣的室內外親子景點，4歲以上適合。以蔬果農場、DIY體驗為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "蔬果農場",
+      "DIY體驗",
+      "4歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8B%9D%E6%B4%8B%E6%B0%B4%E8%8D%89%E4%BC%91%E9%96%92%E8%BE%B2%E5%A0%B4%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%93%A1%E5%B1%B1%E9%84%89%E5%85%AB%E7%94%B2%E8%B7%AF15-6%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #勝洋水草休閒農場",
+        "url": "https://www.instagram.com/explore/tags/%E5%8B%9D%E6%B4%8B%E6%B0%B4%E8%8D%89%E4%BC%91%E9%96%92%E8%BE%B2%E5%A0%B4/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%8B%9D%E6%B4%8B%E6%B0%B4%E8%8D%89%E4%BC%91%E9%96%92%E8%BE%B2%E5%A0%B4%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-188",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.614Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-189",
+    "name": "下埔綠色水世界",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "頭城鎮",
+    "ageMin": 4,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$250",
+    "address": "宜蘭縣頭城鎮下埔路",
+    "hours": "09:00-17:00",
+    "lat": 24.8465,
+    "lng": 121.8215,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#68b984",
+    "description": "下埔綠色水世界是位於宜蘭縣的室外親子景點，4歲以上適合。以職業體驗、DIY體驗為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "職業體驗",
+      "DIY體驗",
+      "4歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%8B%E5%9F%94%E7%B6%A0%E8%89%B2%E6%B0%B4%E4%B8%96%E7%95%8C%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E9%A0%AD%E5%9F%8E%E9%8E%AE%E4%B8%8B%E5%9F%94%E8%B7%AF",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #下埔綠色水世界",
+        "url": "https://www.instagram.com/explore/tags/%E4%B8%8B%E5%9F%94%E7%B6%A0%E8%89%B2%E6%B0%B4%E4%B8%96%E7%95%8C/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E4%B8%8B%E5%9F%94%E7%B6%A0%E8%89%B2%E6%B0%B4%E4%B8%96%E7%95%8C%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-189",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.615Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-190",
+    "name": "星寶體驗農場",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "三星鄉",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$200",
+    "address": "宜蘭縣三星鄉東興路7-5號",
+    "hours": "09:00-17:00",
+    "lat": 24.6653,
+    "lng": 121.6582,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "星寶體驗農場是位於宜蘭縣的室外親子景點，3歲以上適合。以蔬果農場、DIY體驗為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "蔬果農場",
+      "DIY體驗",
+      "3歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%98%9F%E5%AF%B6%E9%AB%94%E9%A9%97%E8%BE%B2%E5%A0%B4%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E4%B8%89%E6%98%9F%E9%84%89%E6%9D%B1%E8%88%88%E8%B7%AF7-5%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #星寶體驗農場",
+        "url": "https://www.instagram.com/explore/tags/%E6%98%9F%E5%AF%B6%E9%AB%94%E9%A9%97%E8%BE%B2%E5%A0%B4/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E6%98%9F%E5%AF%B6%E9%AB%94%E9%A9%97%E8%BE%B2%E5%A0%B4%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-190",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.616Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-191",
+    "name": "莎貝莉亞精靈美學館",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "宜蘭市",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$200",
+    "address": "宜蘭縣宜蘭市梅洲一路16-3號",
+    "hours": "09:00-17:00",
+    "lat": 24.7645,
+    "lng": 121.7689,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#68b984",
+    "description": "莎貝莉亞精靈美學館是位於宜蘭縣的室內親子景點，3歲以上適合。以觀光工廠、DIY體驗為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "觀光工廠",
+      "DIY體驗",
+      "3歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8E%8E%E8%B2%9D%E8%8E%89%E4%BA%9E%E7%B2%BE%E9%9D%88%E7%BE%8E%E5%AD%B8%E9%A4%A8%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%AE%9C%E8%98%AD%E5%B8%82%E6%A2%85%E6%B4%B2%E4%B8%80%E8%B7%AF16-3%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #莎貝莉亞精靈美學館",
+        "url": "https://www.instagram.com/explore/tags/%E8%8E%8E%E8%B2%9D%E8%8E%89%E4%BA%9E%E7%B2%BE%E9%9D%88%E7%BE%8E%E5%AD%B8%E9%A4%A8/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E8%8E%8E%E8%B2%9D%E8%8E%89%E4%BA%9E%E7%B2%BE%E9%9D%88%E7%BE%8E%E5%AD%B8%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-191",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.616Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-198",
+    "name": "大進休閒農業區",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "冬山鄉",
+    "ageMin": 4,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "宜蘭縣冬山鄉大進九路56號",
+    "hours": "09:00-18:00",
+    "lat": 24.6421,
+    "lng": 121.7215,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "大進休閒農業區是位於宜蘭縣的室外親子景點，4歲以上適合，免費入場。以蔬果農場、DIY體驗為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "蔬果農場",
+      "DIY體驗",
+      "4歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%80%B2%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%86%AC%E5%B1%B1%E9%84%89%E5%A4%A7%E9%80%B2%E4%B9%9D%E8%B7%AF56%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #大進休閒農業區",
+        "url": "https://www.instagram.com/explore/tags/%E5%A4%A7%E9%80%B2%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%A4%A7%E9%80%B2%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-198",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.619Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-199",
+    "name": "白米木屐村",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "蘇澳鎮",
+    "ageMin": 4,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$150",
+    "address": "宜蘭縣蘇澳鎮永春路178號",
+    "hours": "09:00-17:00",
+    "lat": 24.5861,
+    "lng": 121.8562,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#68b984",
+    "description": "白米木屐村是位於宜蘭縣的室內親子景點，4歲以上適合。以觀光工廠、DIY體驗為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "觀光工廠",
+      "DIY體驗",
+      "4歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E7%B1%B3%E6%9C%A8%E5%B1%90%E6%9D%91%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E8%98%87%E6%BE%B3%E9%8E%AE%E6%B0%B8%E6%98%A5%E8%B7%AF178%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #白米木屐村",
+        "url": "https://www.instagram.com/explore/tags/%E7%99%BD%E7%B1%B3%E6%9C%A8%E5%B1%90%E6%9D%91/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E7%99%BD%E7%B1%B3%E6%9C%A8%E5%B1%90%E6%9D%91%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-199",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.623Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-218",
+    "name": "宜農牧場",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "冬山鄉",
+    "ageMin": 2,
+    "ageMax": 10,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$150",
+    "address": "宜蘭縣冬山鄉長春路239巷17號",
+    "hours": "09:30-17:30",
+    "lat": 24.6932,
+    "lng": 121.7225,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "宜農牧場是位於宜蘭縣的室外親子景點，2歲以上適合。以農場、餵小羊為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "農場",
+      "餵小羊",
+      "2歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%9C%E8%BE%B2%E7%89%A7%E5%A0%B4%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%86%AC%E5%B1%B1%E9%84%89%E9%95%B7%E6%98%A5%E8%B7%AF239%E5%B7%B717%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #宜農牧場",
+        "url": "https://www.instagram.com/explore/tags/%E5%AE%9C%E8%BE%B2%E7%89%A7%E5%A0%B4/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%AE%9C%E8%BE%B2%E7%89%A7%E5%A0%B4%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-218",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.630Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-226",
+    "name": "宜蘭綠色博覽會",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "蘇澳鎮",
+    "ageMin": 3,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$200",
+    "address": "宜蘭縣蘇澳鎮武荖坑路75號",
+    "hours": "每日 09:00–18:00",
+    "lat": 24.5892,
+    "lng": 121.8431,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "宜蘭綠色博覽會是位於宜蘭縣的室外親子景點，3歲以上適合。以生態農場、DIY體驗為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "生態農場",
+      "DIY體驗",
+      "3歲",
+      "限定活動"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%9C%E8%98%AD%E7%B6%A0%E8%89%B2%E5%8D%9A%E8%A6%BD%E6%9C%83%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E8%98%87%E6%BE%B3%E9%8E%AE%E6%AD%A6%E8%8D%96%E5%9D%91%E8%B7%AF75%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #宜蘭綠色博覽會",
+        "url": "https://www.instagram.com/explore/tags/%E5%AE%9C%E8%98%AD%E7%B6%A0%E8%89%B2%E5%8D%9A%E8%A6%BD%E6%9C%83/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%AE%9C%E8%98%AD%E7%B6%A0%E8%89%B2%E5%8D%9A%E8%A6%BD%E6%9C%83%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-226",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.632Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-228",
+    "name": "宜蘭赫蒂法莊園",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "五結鄉",
+    "ageMin": 3,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$250",
+    "address": "宜蘭縣五結鄉五濱路一段40號",
+    "hours": "週日–四 09:00–18:00 / 週五六及國定假日 09:00–19:00",
+    "lat": 24.6342,
+    "lng": 121.8073,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#68b984",
+    "description": "宜蘭赫蒂法莊園是位於宜蘭縣的室外親子景點，3歲以上適合。以觀光工廠、DIY體驗為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "觀光工廠",
+      "DIY體驗",
+      "3歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%9C%E8%98%AD%E8%B5%AB%E8%92%82%E6%B3%95%E8%8E%8A%E5%9C%92%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E4%BA%94%E7%B5%90%E9%84%89%E4%BA%94%E6%BF%B1%E8%B7%AF%E4%B8%80%E6%AE%B540%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #宜蘭赫蒂法莊園",
+        "url": "https://www.instagram.com/explore/tags/%E5%AE%9C%E8%98%AD%E8%B5%AB%E8%92%82%E6%B3%95%E8%8E%8A%E5%9C%92/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%AE%9C%E8%98%AD%E8%B5%AB%E8%92%82%E6%B3%95%E8%8E%8A%E5%9C%92%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-228",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.632Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-243",
+    "name": "宜蘭輕親魚朶生態園區（大塭養殖區）",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "礁溪鄉",
+    "ageMin": 3,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$200",
+    "address": "宜蘭縣礁溪鄉玉龍路二段",
+    "hours": "依官方公告（建議事先查詢）",
+    "lat": 24.8201,
+    "lng": 121.7612,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "宜蘭輕親魚朶生態園區（大塭養殖區）是位於宜蘭縣的室外親子景點，3歲以上適合。以生態農場、釣蝦為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "生態農場",
+      "釣蝦",
+      "3歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%9C%E8%98%AD%E8%BC%95%E8%A6%AA%E9%AD%9A%E6%9C%B6%E7%94%9F%E6%85%8B%E5%9C%92%E5%8D%80%EF%BC%88%E5%A4%A7%E5%A1%AD%E9%A4%8A%E6%AE%96%E5%8D%80%EF%BC%89%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E7%A4%81%E6%BA%AA%E9%84%89%E7%8E%89%E9%BE%8D%E8%B7%AF%E4%BA%8C%E6%AE%B5",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #宜蘭輕親魚朶生態園區（大塭養殖區）",
+        "url": "https://www.instagram.com/explore/tags/%E5%AE%9C%E8%98%AD%E8%BC%95%E8%A6%AA%E9%AD%9A%E6%9C%B6%E7%94%9F%E6%85%8B%E5%9C%92%E5%8D%80%EF%BC%88%E5%A4%A7%E5%A1%AD%E9%A4%8A%E6%AE%96%E5%8D%80%EF%BC%89/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%AE%9C%E8%98%AD%E8%BC%95%E8%A6%AA%E9%AD%9A%E6%9C%B6%E7%94%9F%E6%85%8B%E5%9C%92%E5%8D%80%EF%BC%88%E5%A4%A7%E5%A1%AD%E9%A4%8A%E6%AE%96%E5%8D%80%EF%BC%89%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-243",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.637Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-258",
+    "name": "宜蘭遛遛三星",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "三星鄉",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "宜蘭縣三星鄉富貴二路516號",
+    "hours": "10:00–18:00",
+    "lat": 24.6512,
+    "lng": 121.6534,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "宜蘭遛遛三星是位於宜蘭縣的室外親子景點，0歲起即適合，免費入場。以農場、職業體驗為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "農場",
+      "職業體驗",
+      "0歲起"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%9C%E8%98%AD%E9%81%9B%E9%81%9B%E4%B8%89%E6%98%9F%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E4%B8%89%E6%98%9F%E9%84%89%E5%AF%8C%E8%B2%B4%E4%BA%8C%E8%B7%AF516%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #宜蘭遛遛三星",
+        "url": "https://www.instagram.com/explore/tags/%E5%AE%9C%E8%98%AD%E9%81%9B%E9%81%9B%E4%B8%89%E6%98%9F/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%AE%9C%E8%98%AD%E9%81%9B%E9%81%9B%E4%B8%89%E6%98%9F%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-258",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.639Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-265",
+    "name": "星夢森林劇場",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "冬山鄉",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$230",
+    "address": "宜蘭縣冬山鄉境安二路323號",
+    "hours": "09:00–17:00（最後入場16:30）",
+    "lat": 24.6891,
+    "lng": 121.7823,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "星夢森林劇場是位於宜蘭縣的室外親子景點，0歲起即適合。以農場、戶外為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "農場",
+      "0歲起",
+      "戶外"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%98%9F%E5%A4%A2%E6%A3%AE%E6%9E%97%E5%8A%87%E5%A0%B4%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%86%AC%E5%B1%B1%E9%84%89%E5%A2%83%E5%AE%89%E4%BA%8C%E8%B7%AF323%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #星夢森林劇場",
+        "url": "https://www.instagram.com/explore/tags/%E6%98%9F%E5%A4%A2%E6%A3%AE%E6%9E%97%E5%8A%87%E5%A0%B4/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E6%98%9F%E5%A4%A2%E6%A3%AE%E6%9E%97%E5%8A%87%E5%A0%B4%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-265",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.641Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-276",
+    "name": "廣興農場（冬山）",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "冬山鄉",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$300以下",
+    "address": "宜蘭縣冬山鄉光華三路132巷12號",
+    "hours": "09:00–18:00",
+    "lat": 24.6734,
+    "lng": 121.7512,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "廣興農場（冬山）是位於宜蘭縣的室外親子景點，0歲起即適合。以農場、戶外為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "農場",
+      "0歲起",
+      "戶外"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BB%A3%E8%88%88%E8%BE%B2%E5%A0%B4%EF%BC%88%E5%86%AC%E5%B1%B1%EF%BC%89%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%86%AC%E5%B1%B1%E9%84%89%E5%85%89%E8%8F%AF%E4%B8%89%E8%B7%AF132%E5%B7%B712%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #廣興農場（冬山）",
+        "url": "https://www.instagram.com/explore/tags/%E5%BB%A3%E8%88%88%E8%BE%B2%E5%A0%B4%EF%BC%88%E5%86%AC%E5%B1%B1%EF%BC%89/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%BB%A3%E8%88%88%E8%BE%B2%E5%A0%B4%EF%BC%88%E5%86%AC%E5%B1%B1%EF%BC%89%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-276",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.647Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-292",
+    "name": "宜蘭梅花湖",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "冬山鄉",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "自然放電",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "宜蘭縣冬山鄉大進村環湖路",
+    "hours": "全天開放（免費）",
+    "lat": 24.6923,
+    "lng": 121.7634,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#42b883",
+    "description": "宜蘭梅花湖是位於宜蘭縣的室外親子景點，0歲起即適合，免費入場。以景觀、步道為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "景觀",
+      "步道",
+      "0歲起"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%9C%E8%98%AD%E6%A2%85%E8%8A%B1%E6%B9%96%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%86%AC%E5%B1%B1%E9%84%89%E5%A4%A7%E9%80%B2%E6%9D%91%E7%92%B0%E6%B9%96%E8%B7%AF",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #宜蘭梅花湖",
+        "url": "https://www.instagram.com/explore/tags/%E5%AE%9C%E8%98%AD%E6%A2%85%E8%8A%B1%E6%B9%96/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%AE%9C%E8%98%AD%E6%A2%85%E8%8A%B1%E6%B9%96%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-292",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.654Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-298",
+    "name": "宜蘭冬山梅花湖",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "冬山鄉",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "宜蘭縣冬山鄉大埤路150號",
+    "hours": "全天開放（免費）",
+    "lat": 24.6423,
+    "lng": 121.7634,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "宜蘭冬山梅花湖是位於宜蘭縣的室外親子景點，0歲起即適合，免費入場。以景觀、生態農場為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "景觀",
+      "生態農場",
+      "免費",
+      "0歲起"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%9C%E8%98%AD%E5%86%AC%E5%B1%B1%E6%A2%85%E8%8A%B1%E6%B9%96%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%86%AC%E5%B1%B1%E9%84%89%E5%A4%A7%E5%9F%A4%E8%B7%AF150%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #宜蘭冬山梅花湖",
+        "url": "https://www.instagram.com/explore/tags/%E5%AE%9C%E8%98%AD%E5%86%AC%E5%B1%B1%E6%A2%85%E8%8A%B1%E6%B9%96/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%AE%9C%E8%98%AD%E5%86%AC%E5%B1%B1%E6%A2%85%E8%8A%B1%E6%B9%96%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-298",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.655Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-322",
+    "name": "牛頭司體驗農場",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "壯圍鄉",
+    "ageMin": 3,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$300以下",
+    "address": "宜蘭縣壯圍鄉大福村大福路一段122巷21號",
+    "hours": "平日 10:00–16:00 / 週六日 09:30–16:30",
+    "lat": 24.7234,
+    "lng": 121.7723,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "牛頭司體驗農場是位於宜蘭縣的室外親子景點，3歲以上適合。以農場、DIY體驗為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "農場",
+      "DIY體驗",
+      "3歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%89%9B%E9%A0%AD%E5%8F%B8%E9%AB%94%E9%A9%97%E8%BE%B2%E5%A0%B4%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%A3%AF%E5%9C%8D%E9%84%89%E5%A4%A7%E7%A6%8F%E6%9D%91%E5%A4%A7%E7%A6%8F%E8%B7%AF%E4%B8%80%E6%AE%B5122%E5%B7%B721%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #牛頭司體驗農場",
+        "url": "https://www.instagram.com/explore/tags/%E7%89%9B%E9%A0%AD%E5%8F%B8%E9%AB%94%E9%A9%97%E8%BE%B2%E5%A0%B4/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E7%89%9B%E9%A0%AD%E5%8F%B8%E9%AB%94%E9%A9%97%E8%BE%B2%E5%A0%B4%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-322",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.662Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
   }
 ]

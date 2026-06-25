@@ -117392,5 +117392,3070 @@
         "詳細介紹"
       ]
     }
+  },
+  {
+    "id": "curated-seed-5",
+    "name": "蟲蟲巴斯昆蟲生態館",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "松山區",
+    "ageMin": 2,
+    "ageMax": 8,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "探索學習",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$300",
+    "address": "台北市松山區富錦街350號1樓",
+    "hours": "請至官方網站確認",
+    "lat": 25.0566,
+    "lng": 121.5558,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#6a8dff",
+    "description": "蟲蟲巴斯昆蟲生態館是位於臺北市的室內親子景點，2歲以上適合。以昆蟲館為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "昆蟲館",
+      "5歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%9F%B2%E8%9F%B2%E5%B7%B4%E6%96%AF%E6%98%86%E8%9F%B2%E7%94%9F%E6%85%8B%E9%A4%A8%20%E5%8F%B0%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%E5%AF%8C%E9%8C%A6%E8%A1%97350%E8%99%9F1%E6%A8%93",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #蟲蟲巴斯昆蟲生態館",
+        "url": "https://www.instagram.com/explore/tags/%E8%9F%B2%E8%9F%B2%E5%B7%B4%E6%96%AF%E6%98%86%E8%9F%B2%E7%94%9F%E6%85%8B%E9%A4%A8/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E8%9F%B2%E8%9F%B2%E5%B7%B4%E6%96%AF%E6%98%86%E8%9F%B2%E7%94%9F%E6%85%8B%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-5",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.562Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-6",
+    "name": "台灣昆蟲館台北館",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "大安區",
+    "ageMin": 2,
+    "ageMax": 8,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "探索學習",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "台北市大安區和平東路三段406巷8號B1",
+    "hours": "週三 12:00–21:00，週四五 16:00–21:00，週六日 10:00–21:00",
+    "lat": 25.0157,
+    "lng": 121.5469,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#6a8dff",
+    "description": "台灣昆蟲館台北館是位於臺北市的室內親子景點，2歲以上適合，免費入場。以昆蟲館為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "昆蟲館",
+      "免費"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8F%B0%E7%81%A3%E6%98%86%E8%9F%B2%E9%A4%A8%E5%8F%B0%E5%8C%97%E9%A4%A8%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E5%92%8C%E5%B9%B3%E6%9D%B1%E8%B7%AF%E4%B8%89%E6%AE%B5406%E5%B7%B78%E8%99%9FB1",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #台灣昆蟲館台北館",
+        "url": "https://www.instagram.com/explore/tags/%E5%8F%B0%E7%81%A3%E6%98%86%E8%9F%B2%E9%A4%A8%E5%8F%B0%E5%8C%97%E9%A4%A8/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%8F%B0%E7%81%A3%E6%98%86%E8%9F%B2%E9%A4%A8%E5%8F%B0%E5%8C%97%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-6",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.564Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-13",
+    "name": "XPARK 水族館",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "中壢區",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$270",
+    "address": "桃園市中壢區高鐵南路一段126號",
+    "hours": "10:00–18:00（週六至20:00），分時段入場，建議事先預約",
+    "lat": 24.9881,
+    "lng": 121.3117,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "XPARK 水族館是位於桃園市的室內親子景點，0歲起即適合。以水族館、付費為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "水族館",
+      "付費",
+      "0歲起",
+      "春季特展"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=XPARK%20%E6%B0%B4%E6%97%8F%E9%A4%A8%20%E6%A1%83%E5%9C%92%E5%B8%82%E4%B8%AD%E5%A3%A2%E5%8D%80%E9%AB%98%E9%90%B5%E5%8D%97%E8%B7%AF%E4%B8%80%E6%AE%B5126%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #XPARK 水族館",
+        "url": "https://www.instagram.com/explore/tags/XPARK%20%E6%B0%B4%E6%97%8F%E9%A4%A8/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=XPARK%20%E6%B0%B4%E6%97%8F%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-13",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.565Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-14",
+    "name": "桃園市兒童美術館",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "中壢區",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "桃園市中壢區高鐵南路一段101號",
+    "hours": "週二–日 9:00–17:00（週一休）",
+    "lat": 24.9888,
+    "lng": 121.3014,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "桃園市兒童美術館是位於桃園市的室內親子景點，0歲起即適合，免費入場。以美術館為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "美術館",
+      "18歲下免費",
+      "5歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A1%83%E5%9C%92%E5%B8%82%E5%85%92%E7%AB%A5%E7%BE%8E%E8%A1%93%E9%A4%A8%20%E6%A1%83%E5%9C%92%E5%B8%82%E4%B8%AD%E5%A3%A2%E5%8D%80%E9%AB%98%E9%90%B5%E5%8D%97%E8%B7%AF%E4%B8%80%E6%AE%B5101%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #桃園市兒童美術館",
+        "url": "https://www.instagram.com/explore/tags/%E6%A1%83%E5%9C%92%E5%B8%82%E5%85%92%E7%AB%A5%E7%BE%8E%E8%A1%93%E9%A4%A8/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E6%A1%83%E5%9C%92%E5%B8%82%E5%85%92%E7%AB%A5%E7%BE%8E%E8%A1%93%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-14",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.566Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-16",
+    "name": "蘇家莊園",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "大溪區",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$200",
+    "address": "桃園市大溪區復興路一段1037號",
+    "hours": "09:30-18:00",
+    "lat": 24.8705,
+    "lng": 121.2721,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "蘇家莊園是位於桃園市的室外親子景點，2歲以上適合。以農場、水豚為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "農場",
+      "水豚",
+      "2歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%98%87%E5%AE%B6%E8%8E%8A%E5%9C%92%20%E6%A1%83%E5%9C%92%E5%B8%82%E5%A4%A7%E6%BA%AA%E5%8D%80%E5%BE%A9%E8%88%88%E8%B7%AF%E4%B8%80%E6%AE%B51037%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #蘇家莊園",
+        "url": "https://www.instagram.com/explore/tags/%E8%98%87%E5%AE%B6%E8%8E%8A%E5%9C%92/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E8%98%87%E5%AE%B6%E8%8E%8A%E5%9C%92%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-16",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.567Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-27",
+    "name": "in89 Boomboom 親子影廳（台北西門）",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "萬華區",
+    "ageMin": 2,
+    "ageMax": 8,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$429",
+    "address": "台北市萬華區武昌街二段6號",
+    "hours": "依電影場次，通常10:00起",
+    "lat": 25.0453,
+    "lng": 121.5078,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "in89 Boomboom 親子影廳（台北西門）是位於臺北市的室內親子景點，2歲以上適合。以親子影城、付費為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "親子影城",
+      "付費",
+      "2歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=in89%20Boomboom%20%E8%A6%AA%E5%AD%90%E5%BD%B1%E5%BB%B3%EF%BC%88%E5%8F%B0%E5%8C%97%E8%A5%BF%E9%96%80%EF%BC%89%20%E5%8F%B0%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E5%8D%80%E6%AD%A6%E6%98%8C%E8%A1%97%E4%BA%8C%E6%AE%B56%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #in89 Boomboom 親子影廳（台北西門）",
+        "url": "https://www.instagram.com/explore/tags/in89%20Boomboom%20%E8%A6%AA%E5%AD%90%E5%BD%B1%E5%BB%B3%EF%BC%88%E5%8F%B0%E5%8C%97%E8%A5%BF%E9%96%80%EF%BC%89/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=in89%20Boomboom%20%E8%A6%AA%E5%AD%90%E5%BD%B1%E5%BB%B3%EF%BC%88%E5%8F%B0%E5%8C%97%E8%A5%BF%E9%96%80%EF%BC%89%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-27",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.569Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-31",
+    "name": "台灣昆蟲館小小動物飼育員",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "大安區",
+    "ageMin": 4,
+    "ageMax": 8,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$999",
+    "address": "台北市大安區和平東路三段406巷8號B1",
+    "hours": "半日營約 3–4 小時",
+    "lat": 25.0157,
+    "lng": 121.5469,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "台灣昆蟲館小小動物飼育員是位於臺北市的室內親子景點，4歲以上適合。以職業體驗、付費為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "職業體驗",
+      "4歲",
+      "付費"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8F%B0%E7%81%A3%E6%98%86%E8%9F%B2%E9%A4%A8%E5%B0%8F%E5%B0%8F%E5%8B%95%E7%89%A9%E9%A3%BC%E8%82%B2%E5%93%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E5%92%8C%E5%B9%B3%E6%9D%B1%E8%B7%AF%E4%B8%89%E6%AE%B5406%E5%B7%B78%E8%99%9FB1",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #台灣昆蟲館小小動物飼育員",
+        "url": "https://www.instagram.com/explore/tags/%E5%8F%B0%E7%81%A3%E6%98%86%E8%9F%B2%E9%A4%A8%E5%B0%8F%E5%B0%8F%E5%8B%95%E7%89%A9%E9%A3%BC%E8%82%B2%E5%93%A1/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%8F%B0%E7%81%A3%E6%98%86%E8%9F%B2%E9%A4%A8%E5%B0%8F%E5%B0%8F%E5%8B%95%E7%89%A9%E9%A3%BC%E8%82%B2%E5%93%A1%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-31",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.570Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-33",
+    "name": "五股準園生態休閒農場",
+    "region": "北部",
+    "city": "新北市",
+    "district": "五股區",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$150",
+    "address": "新北市五股區新五路二段70號",
+    "hours": "09:30–17:00，各設施 16:30 結束，售票至 16:00",
+    "lat": 25.0783,
+    "lng": 121.4267,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "五股準園生態休閒農場是位於新北市的室外親子景點，0歲起即適合。以農場、DIY體驗為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "農場",
+      "DIY體驗",
+      "5歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%94%E8%82%A1%E6%BA%96%E5%9C%92%E7%94%9F%E6%85%8B%E4%BC%91%E9%96%92%E8%BE%B2%E5%A0%B4%20%E6%96%B0%E5%8C%97%E5%B8%82%E4%BA%94%E8%82%A1%E5%8D%80%E6%96%B0%E4%BA%94%E8%B7%AF%E4%BA%8C%E6%AE%B570%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #五股準園生態休閒農場",
+        "url": "https://www.instagram.com/explore/tags/%E4%BA%94%E8%82%A1%E6%BA%96%E5%9C%92%E7%94%9F%E6%85%8B%E4%BC%91%E9%96%92%E8%BE%B2%E5%A0%B4/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E4%BA%94%E8%82%A1%E6%BA%96%E5%9C%92%E7%94%9F%E6%85%8B%E4%BC%91%E9%96%92%E8%BE%B2%E5%A0%B4%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-33",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.571Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-39",
+    "name": "台塑企業文物館",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "龜山區",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "探索學習",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "桃園市龜山區文化一路259號",
+    "hours": "9:00–17:00（16:30停止入場）",
+    "lat": 25.0219,
+    "lng": 121.3685,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#6a8dff",
+    "description": "台塑企業文物館是位於桃園市的室內親子景點，0歲起即適合，免費入場。以博物館、科學教育為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "博物館",
+      "科學教育",
+      "免費",
+      "5歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8F%B0%E5%A1%91%E4%BC%81%E6%A5%AD%E6%96%87%E7%89%A9%E9%A4%A8%20%E6%A1%83%E5%9C%92%E5%B8%82%E9%BE%9C%E5%B1%B1%E5%8D%80%E6%96%87%E5%8C%96%E4%B8%80%E8%B7%AF259%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #台塑企業文物館",
+        "url": "https://www.instagram.com/explore/tags/%E5%8F%B0%E5%A1%91%E4%BC%81%E6%A5%AD%E6%96%87%E7%89%A9%E9%A4%A8/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%8F%B0%E5%A1%91%E4%BC%81%E6%A5%AD%E6%96%87%E7%89%A9%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-39",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.572Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-113",
+    "name": "關渡恐龍大復活探險樂園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "北投區",
+    "ageMin": 3,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$200",
+    "address": "台北市北投區關渡碼頭貨櫃市集",
+    "hours": "依官方公告為主",
+    "lat": 25.1312,
+    "lng": 121.4631,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "關渡恐龍大復活探險樂園是位於臺北市的室外親子景點，3歲以上適合。以遊樂園為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "遊樂園",
+      "3歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%97%9C%E6%B8%A1%E6%81%90%E9%BE%8D%E5%A4%A7%E5%BE%A9%E6%B4%BB%E6%8E%A2%E9%9A%AA%E6%A8%82%E5%9C%92%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%E9%97%9C%E6%B8%A1%E7%A2%BC%E9%A0%AD%E8%B2%A8%E6%AB%83%E5%B8%82%E9%9B%86",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #關渡恐龍大復活探險樂園",
+        "url": "https://www.instagram.com/explore/tags/%E9%97%9C%E6%B8%A1%E6%81%90%E9%BE%8D%E5%A4%A7%E5%BE%A9%E6%B4%BB%E6%8E%A2%E9%9A%AA%E6%A8%82%E5%9C%92/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E9%97%9C%E6%B8%A1%E6%81%90%E9%BE%8D%E5%A4%A7%E5%BE%A9%E6%B4%BB%E6%8E%A2%E9%9A%AA%E6%A8%82%E5%9C%92%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-113",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.572Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-43",
+    "name": "國家鐵道博物館",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "信義區市",
+    "ageMin": 4,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "探索學習",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "台北市信義區市民大道五段50號",
+    "hours": "9:30–17:00（週一休）",
+    "lat": 25.0466,
+    "lng": 121.565,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#6a8dff",
+    "description": "國家鐵道博物館是位於臺北市的室外親子景點，4歲以上適合，免費入場。以博物館、科學教育為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "博物館",
+      "科學教育",
+      "免費"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9C%8B%E5%AE%B6%E9%90%B5%E9%81%93%E5%8D%9A%E7%89%A9%E9%A4%A8%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%E5%B8%82%E6%B0%91%E5%A4%A7%E9%81%93%E4%BA%94%E6%AE%B550%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #國家鐵道博物館",
+        "url": "https://www.instagram.com/explore/tags/%E5%9C%8B%E5%AE%B6%E9%90%B5%E9%81%93%E5%8D%9A%E7%89%A9%E9%A4%A8/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%9C%8B%E5%AE%B6%E9%90%B5%E9%81%93%E5%8D%9A%E7%89%A9%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-43",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.573Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-45",
+    "name": "新北大都會公園海世界水樂園",
+    "region": "北部",
+    "city": "新北市",
+    "district": "三重區",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "新北市三重區重新路五段609巷",
+    "hours": "開放時節 9:00–18:00",
+    "lat": 25.0739,
+    "lng": 121.4568,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "新北大都會公園海世界水樂園是位於新北市的室外親子景點，0歲起即適合，免費入場。以玩水為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "玩水",
+      "免費",
+      "5歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%8C%97%E5%A4%A7%E9%83%BD%E6%9C%83%E5%85%AC%E5%9C%92%E6%B5%B7%E4%B8%96%E7%95%8C%E6%B0%B4%E6%A8%82%E5%9C%92%20%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%89%E9%87%8D%E5%8D%80%E9%87%8D%E6%96%B0%E8%B7%AF%E4%BA%94%E6%AE%B5609%E5%B7%B7",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #新北大都會公園海世界水樂園",
+        "url": "https://www.instagram.com/explore/tags/%E6%96%B0%E5%8C%97%E5%A4%A7%E9%83%BD%E6%9C%83%E5%85%AC%E5%9C%92%E6%B5%B7%E4%B8%96%E7%95%8C%E6%B0%B4%E6%A8%82%E5%9C%92/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E6%96%B0%E5%8C%97%E5%A4%A7%E9%83%BD%E6%9C%83%E5%85%AC%E5%9C%92%E6%B5%B7%E4%B8%96%E7%95%8C%E6%B0%B4%E6%A8%82%E5%9C%92%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-45",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.574Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-46",
+    "name": "鶯歌陶博館戲水區",
+    "region": "北部",
+    "city": "新北市",
+    "district": "鶯歌區",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "自然放電",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "新北市鶯歌區文化路200號",
+    "hours": "約 9:30–17:00（依公告）",
+    "lat": 24.8998,
+    "lng": 121.3515,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#42b883",
+    "description": "鶯歌陶博館戲水區是位於新北市的室外親子景點，0歲起即適合，免費入場。以玩水為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "玩水",
+      "免費",
+      "5歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%B6%AF%E6%AD%8C%E9%99%B6%E5%8D%9A%E9%A4%A8%E6%88%B2%E6%B0%B4%E5%8D%80%20%E6%96%B0%E5%8C%97%E5%B8%82%E9%B6%AF%E6%AD%8C%E5%8D%80%E6%96%87%E5%8C%96%E8%B7%AF200%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #鶯歌陶博館戲水區",
+        "url": "https://www.instagram.com/explore/tags/%E9%B6%AF%E6%AD%8C%E9%99%B6%E5%8D%9A%E9%A4%A8%E6%88%B2%E6%B0%B4%E5%8D%80/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E9%B6%AF%E6%AD%8C%E9%99%B6%E5%8D%9A%E9%A4%A8%E6%88%B2%E6%B0%B4%E5%8D%80%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-46",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.575Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-51",
+    "name": "樂飛翔親子運動樂園",
+    "region": "北部",
+    "city": "新北市",
+    "district": "蘆洲區",
+    "ageMin": 3,
+    "ageMax": 8,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "新北市蘆洲區重陽一街13號B1",
+    "hours": "06:00–22:00",
+    "lat": 25.0847,
+    "lng": 121.4732,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "樂飛翔親子運動樂園是位於新北市的室內親子景點，3歲以上適合，免費入場。以玩水、付費為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "玩水",
+      "3歲",
+      "付費"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A8%82%E9%A3%9B%E7%BF%94%E8%A6%AA%E5%AD%90%E9%81%8B%E5%8B%95%E6%A8%82%E5%9C%92%20%E6%96%B0%E5%8C%97%E5%B8%82%E8%98%86%E6%B4%B2%E5%8D%80%E9%87%8D%E9%99%BD%E4%B8%80%E8%A1%9713%E8%99%9FB1",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #樂飛翔親子運動樂園",
+        "url": "https://www.instagram.com/explore/tags/%E6%A8%82%E9%A3%9B%E7%BF%94%E8%A6%AA%E5%AD%90%E9%81%8B%E5%8B%95%E6%A8%82%E5%9C%92/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E6%A8%82%E9%A3%9B%E7%BF%94%E8%A6%AA%E5%AD%90%E9%81%8B%E5%8B%95%E6%A8%82%E5%9C%92%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-51",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.576Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-53",
+    "name": "新北消防局防災宣導主題館（八里）",
+    "region": "北部",
+    "city": "新北市",
+    "district": "八里區",
+    "ageMin": 5,
+    "ageMax": 8,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "探索學習",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "新北市八里區",
+    "hours": "請至官方網站確認",
+    "lat": 25.1508,
+    "lng": 121.4121,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#6a8dff",
+    "description": "新北消防局防災宣導主題館（八里）是位於新北市的室內親子景點，5歲以上適合，免費入場。以科學教育、職業體驗為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "科學教育",
+      "職業體驗",
+      "免費"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%8C%97%E6%B6%88%E9%98%B2%E5%B1%80%E9%98%B2%E7%81%BD%E5%AE%A3%E5%B0%8E%E4%B8%BB%E9%A1%8C%E9%A4%A8%EF%BC%88%E5%85%AB%E9%87%8C%EF%BC%89%20%E6%96%B0%E5%8C%97%E5%B8%82%E5%85%AB%E9%87%8C%E5%8D%80",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #新北消防局防災宣導主題館（八里）",
+        "url": "https://www.instagram.com/explore/tags/%E6%96%B0%E5%8C%97%E6%B6%88%E9%98%B2%E5%B1%80%E9%98%B2%E7%81%BD%E5%AE%A3%E5%B0%8E%E4%B8%BB%E9%A1%8C%E9%A4%A8%EF%BC%88%E5%85%AB%E9%87%8C%EF%BC%89/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E6%96%B0%E5%8C%97%E6%B6%88%E9%98%B2%E5%B1%80%E9%98%B2%E7%81%BD%E5%AE%A3%E5%B0%8E%E4%B8%BB%E9%A1%8C%E9%A4%A8%EF%BC%88%E5%85%AB%E9%87%8C%EF%BC%89%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-53",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.577Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-85",
+    "name": "新北市客家文化園區",
+    "region": "北部",
+    "city": "新北市",
+    "district": "中和區",
+    "ageMin": 3,
+    "ageMax": 8,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "探索學習",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "新北市中和區錦和路163號",
+    "hours": "週二–日 09:00–17:00",
+    "lat": 25.007,
+    "lng": 121.441,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#6a8dff",
+    "description": "新北市客家文化園區是位於新北市的室內親子景點，3歲以上適合，免費入場。以博物館為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "博物館",
+      "免費"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%8C%97%E5%B8%82%E5%AE%A2%E5%AE%B6%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80%20%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%92%8C%E5%8D%80%E9%8C%A6%E5%92%8C%E8%B7%AF163%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #新北市客家文化園區",
+        "url": "https://www.instagram.com/explore/tags/%E6%96%B0%E5%8C%97%E5%B8%82%E5%AE%A2%E5%AE%B6%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E6%96%B0%E5%8C%97%E5%B8%82%E5%AE%A2%E5%AE%B6%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-85",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.583Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-88",
+    "name": "舊草嶺生態隧道（福隆–石城）",
+    "region": "北部",
+    "city": "新北市",
+    "district": "貢寮區",
+    "ageMin": 5,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "自然放電",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "新北市貢寮區福隆里",
+    "hours": "全天（建議白天騎乘）",
+    "lat": 25.0247,
+    "lng": 121.9248,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#42b883",
+    "description": "舊草嶺生態隧道（福隆–石城）是位於新北市的室外親子景點，5歲以上適合，免費入場。以戶外景點為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "戶外景點",
+      "免費"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%88%8A%E8%8D%89%E5%B6%BA%E7%94%9F%E6%85%8B%E9%9A%A7%E9%81%93%EF%BC%88%E7%A6%8F%E9%9A%86%E2%80%93%E7%9F%B3%E5%9F%8E%EF%BC%89%20%E6%96%B0%E5%8C%97%E5%B8%82%E8%B2%A2%E5%AF%AE%E5%8D%80%E7%A6%8F%E9%9A%86%E9%87%8C",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #舊草嶺生態隧道（福隆–石城）",
+        "url": "https://www.instagram.com/explore/tags/%E8%88%8A%E8%8D%89%E5%B6%BA%E7%94%9F%E6%85%8B%E9%9A%A7%E9%81%93%EF%BC%88%E7%A6%8F%E9%9A%86%E2%80%93%E7%9F%B3%E5%9F%8E%EF%BC%89/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E8%88%8A%E8%8D%89%E5%B6%BA%E7%94%9F%E6%85%8B%E9%9A%A7%E9%81%93%EF%BC%88%E7%A6%8F%E9%9A%86%E2%80%93%E7%9F%B3%E5%9F%8E%EF%BC%89%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-88",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.584Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-90",
+    "name": "卡司蒂拉樂園（金格觀光工廠）",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "蘆竹區",
+    "ageMin": 3,
+    "ageMax": 8,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$250",
+    "address": "桃園市蘆竹區大竹北路90-66號",
+    "hours": "09:00–17:00",
+    "lat": 25.0821,
+    "lng": 121.3283,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "卡司蒂拉樂園（金格觀光工廠）是位於桃園市的室內親子景點，3歲以上適合。以DIY體驗、付費為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "DIY體驗",
+      "付費"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%A1%E5%8F%B8%E8%92%82%E6%8B%89%E6%A8%82%E5%9C%92%EF%BC%88%E9%87%91%E6%A0%BC%E8%A7%80%E5%85%89%E5%B7%A5%E5%BB%A0%EF%BC%89%20%E6%A1%83%E5%9C%92%E5%B8%82%E8%98%86%E7%AB%B9%E5%8D%80%E5%A4%A7%E7%AB%B9%E5%8C%97%E8%B7%AF90-66%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #卡司蒂拉樂園（金格觀光工廠）",
+        "url": "https://www.instagram.com/explore/tags/%E5%8D%A1%E5%8F%B8%E8%92%82%E6%8B%89%E6%A8%82%E5%9C%92%EF%BC%88%E9%87%91%E6%A0%BC%E8%A7%80%E5%85%89%E5%B7%A5%E5%BB%A0%EF%BC%89/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%8D%A1%E5%8F%B8%E8%92%82%E6%8B%89%E6%A8%82%E5%9C%92%EF%BC%88%E9%87%91%E6%A0%BC%E8%A7%80%E5%85%89%E5%B7%A5%E5%BB%A0%EF%BC%89%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-90",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.585Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-95",
+    "name": "石油探索館（中油）",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "信義區",
+    "ageMin": 3,
+    "ageMax": 8,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "探索學習",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "台北市信義區松仁路3號",
+    "hours": "週一–五 09:00–17:00",
+    "lat": 25.0408,
+    "lng": 121.5633,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#6a8dff",
+    "description": "石油探索館（中油）是位於臺北市的室內親子景點，3歲以上適合，免費入場。以博物館、平日限定為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "博物館",
+      "免費",
+      "平日限定"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%9F%B3%E6%B2%B9%E6%8E%A2%E7%B4%A2%E9%A4%A8%EF%BC%88%E4%B8%AD%E6%B2%B9%EF%BC%89%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%E6%9D%BE%E4%BB%81%E8%B7%AF3%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #石油探索館（中油）",
+        "url": "https://www.instagram.com/explore/tags/%E7%9F%B3%E6%B2%B9%E6%8E%A2%E7%B4%A2%E9%A4%A8%EF%BC%88%E4%B8%AD%E6%B2%B9%EF%BC%89/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E7%9F%B3%E6%B2%B9%E6%8E%A2%E7%B4%A2%E9%A4%A8%EF%BC%88%E4%B8%AD%E6%B2%B9%EF%BC%89%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-95",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.585Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-100",
+    "name": "豹豹咖啡觀音山森林館",
+    "region": "北部",
+    "city": "新北市",
+    "district": "五股區",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "自然放電",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$150",
+    "address": "新北市五股區凌雲路三段130號",
+    "hours": "平日 10:00–17:00 / 假日 09:00–18:00",
+    "lat": 25.1158,
+    "lng": 121.4082,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#42b883",
+    "description": "豹豹咖啡觀音山森林館是位於新北市的室外親子景點，0歲起即適合。以景觀、戶外景點為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "景觀",
+      "戶外景點"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B1%B9%E8%B1%B9%E5%92%96%E5%95%A1%E8%A7%80%E9%9F%B3%E5%B1%B1%E6%A3%AE%E6%9E%97%E9%A4%A8%20%E6%96%B0%E5%8C%97%E5%B8%82%E4%BA%94%E8%82%A1%E5%8D%80%E5%87%8C%E9%9B%B2%E8%B7%AF%E4%B8%89%E6%AE%B5130%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #豹豹咖啡觀音山森林館",
+        "url": "https://www.instagram.com/explore/tags/%E8%B1%B9%E8%B1%B9%E5%92%96%E5%95%A1%E8%A7%80%E9%9F%B3%E5%B1%B1%E6%A3%AE%E6%9E%97%E9%A4%A8/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E8%B1%B9%E8%B1%B9%E5%92%96%E5%95%A1%E8%A7%80%E9%9F%B3%E5%B1%B1%E6%A3%AE%E6%9E%97%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-100",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.586Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-110",
+    "name": "隨野家農場",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "北投區",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$400",
+    "address": "台北市北投區大業路517巷80號",
+    "hours": "請至官方網站確認",
+    "lat": 25.133,
+    "lng": 121.4927,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "隨野家農場是位於臺北市的室外親子景點，2歲以上適合。以職業體驗、生態農場為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "職業體驗",
+      "生態農場",
+      "2歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%9A%A8%E9%87%8E%E5%AE%B6%E8%BE%B2%E5%A0%B4%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%E5%A4%A7%E6%A5%AD%E8%B7%AF517%E5%B7%B780%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #隨野家農場",
+        "url": "https://www.instagram.com/explore/tags/%E9%9A%A8%E9%87%8E%E5%AE%B6%E8%BE%B2%E5%A0%B4/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E9%9A%A8%E9%87%8E%E5%AE%B6%E8%BE%B2%E5%A0%B4%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-110",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.591Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-128",
+    "name": "大王蓮休閒農場 (康莊蓮園)",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "觀音鄉",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "桃園縣觀音鄉大堀村4鄰184號",
+    "hours": "09:00-18:00",
+    "lat": 25.0441,
+    "lng": 121.1278,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "大王蓮休閒農場 (康莊蓮園)是位於桃園市的室外親子景點，3歲以上適合，免費入場。以農場、大王蓮為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "農場",
+      "大王蓮",
+      "3歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E7%8E%8B%E8%93%AE%E4%BC%91%E9%96%92%E8%BE%B2%E5%A0%B4%20(%E5%BA%B7%E8%8E%8A%E8%93%AE%E5%9C%92)%20%E6%A1%83%E5%9C%92%E7%B8%A3%E8%A7%80%E9%9F%B3%E9%84%89%E5%A4%A7%E5%A0%80%E6%9D%914%E9%84%B0184%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #大王蓮休閒農場 (康莊蓮園)",
+        "url": "https://www.instagram.com/explore/tags/%E5%A4%A7%E7%8E%8B%E8%93%AE%E4%BC%91%E9%96%92%E8%BE%B2%E5%A0%B4%20(%E5%BA%B7%E8%8E%8A%E8%93%AE%E5%9C%92)/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%A4%A7%E7%8E%8B%E8%93%AE%E4%BC%91%E9%96%92%E8%BE%B2%E5%A0%B4%20(%E5%BA%B7%E8%8E%8A%E8%93%AE%E5%9C%92)%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-128",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.594Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-153",
+    "name": "台北市孔廟",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "大同區",
+    "ageMin": 4,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "台北市大同區大龍街275號",
+    "hours": "08:30-21:00",
+    "lat": 25.0729,
+    "lng": 121.5164,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#68b984",
+    "description": "台北市孔廟是位於臺北市的室外親子景點，4歲以上適合，免費入場。以歷史建築、DIY體驗為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "歷史建築",
+      "DIY體驗",
+      "4歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8F%B0%E5%8C%97%E5%B8%82%E5%AD%94%E5%BB%9F%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E5%A4%A7%E9%BE%8D%E8%A1%97275%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #台北市孔廟",
+        "url": "https://www.instagram.com/explore/tags/%E5%8F%B0%E5%8C%97%E5%B8%82%E5%AD%94%E5%BB%9F/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%8F%B0%E5%8C%97%E5%B8%82%E5%AD%94%E5%BB%9F%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-153",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.601Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-157",
+    "name": "二崎生態農場",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "北投區",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$300",
+    "address": "台北市北投區復興三路355巷39號",
+    "hours": "09:00-17:00",
+    "lat": 25.1547,
+    "lng": 121.4988,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "二崎生態農場是位於臺北市的室外親子景點，3歲以上適合。以蔬果農場、DIY體驗為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "蔬果農場",
+      "DIY體驗",
+      "3歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%8C%E5%B4%8E%E7%94%9F%E6%85%8B%E8%BE%B2%E5%A0%B4%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%E5%BE%A9%E8%88%88%E4%B8%89%E8%B7%AF355%E5%B7%B739%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #二崎生態農場",
+        "url": "https://www.instagram.com/explore/tags/%E4%BA%8C%E5%B4%8E%E7%94%9F%E6%85%8B%E8%BE%B2%E5%A0%B4/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E4%BA%8C%E5%B4%8E%E7%94%9F%E6%85%8B%E8%BE%B2%E5%A0%B4%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-157",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.602Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-160",
+    "name": "內湖極限運動公園 (夏季限定戲水池)",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "內湖區",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "自然放電",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "台北市內湖區舊宗路二段2號",
+    "hours": "09:00-18:00",
+    "lat": 25.0617,
+    "lng": 121.5746,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#42b883",
+    "description": "內湖極限運動公園 (夏季限定戲水池)是位於臺北市的室外親子景點，2歲以上適合，免費入場。以玩水為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "玩水",
+      "免費景點",
+      "2歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%A7%E6%B9%96%E6%A5%B5%E9%99%90%E9%81%8B%E5%8B%95%E5%85%AC%E5%9C%92%20(%E5%A4%8F%E5%AD%A3%E9%99%90%E5%AE%9A%E6%88%B2%E6%B0%B4%E6%B1%A0)%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%85%A7%E6%B9%96%E5%8D%80%E8%88%8A%E5%AE%97%E8%B7%AF%E4%BA%8C%E6%AE%B52%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #內湖極限運動公園 (夏季限定戲水池)",
+        "url": "https://www.instagram.com/explore/tags/%E5%85%A7%E6%B9%96%E6%A5%B5%E9%99%90%E9%81%8B%E5%8B%95%E5%85%AC%E5%9C%92%20(%E5%A4%8F%E5%AD%A3%E9%99%90%E5%AE%9A%E6%88%B2%E6%B0%B4%E6%B1%A0)/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%85%A7%E6%B9%96%E6%A5%B5%E9%99%90%E9%81%8B%E5%8B%95%E5%85%AC%E5%9C%92%20(%E5%A4%8F%E5%AD%A3%E9%99%90%E5%AE%9A%E6%88%B2%E6%B0%B4%E6%B1%A0)%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-160",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.603Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-163",
+    "name": "前港游泳池",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "士林區",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "自然放電",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "台北市士林區前港街45號",
+    "hours": "08:30-21:30",
+    "lat": 25.0852,
+    "lng": 121.5208,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#42b883",
+    "description": "前港游泳池是位於臺北市的室外親子景點，3歲以上適合，免費入場。以玩水、滑水道為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "玩水",
+      "滑水道",
+      "3歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%89%8D%E6%B8%AF%E6%B8%B8%E6%B3%B3%E6%B1%A0%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E5%89%8D%E6%B8%AF%E8%A1%9745%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #前港游泳池",
+        "url": "https://www.instagram.com/explore/tags/%E5%89%8D%E6%B8%AF%E6%B8%B8%E6%B3%B3%E6%B1%A0/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%89%8D%E6%B8%AF%E6%B8%B8%E6%B3%B3%E6%B1%A0%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-163",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.604Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-164",
+    "name": "玉成公園游泳池",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "南港區",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "自然放電",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "台北市南港區中坡南路55號",
+    "hours": "08:30-21:30",
+    "lat": 25.0423,
+    "lng": 121.5862,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#42b883",
+    "description": "玉成公園游泳池是位於臺北市的室外親子景點，2歲以上適合，免費入場。以玩水、滑水道為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "玩水",
+      "滑水道",
+      "2歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8E%89%E6%88%90%E5%85%AC%E5%9C%92%E6%B8%B8%E6%B3%B3%E6%B1%A0%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%E4%B8%AD%E5%9D%A1%E5%8D%97%E8%B7%AF55%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #玉成公園游泳池",
+        "url": "https://www.instagram.com/explore/tags/%E7%8E%89%E6%88%90%E5%85%AC%E5%9C%92%E6%B8%B8%E6%B3%B3%E6%B1%A0/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E7%8E%89%E6%88%90%E5%85%AC%E5%9C%92%E6%B8%B8%E6%B3%B3%E6%B1%A0%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-164",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.605Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-165",
+    "name": "萬華運動中心游泳池",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "萬華區",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "假日散步",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$110",
+    "address": "台北市萬華區西寧南路6-1號",
+    "hours": "06:00-22:00",
+    "lat": 25.0475,
+    "lng": 121.5069,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#64a7a2",
+    "description": "萬華運動中心游泳池是位於臺北市的室內親子景點，3歲以上適合。以玩水、玩水為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "玩水",
+      "玩水",
+      "3歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%90%AC%E8%8F%AF%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83%E6%B8%B8%E6%B3%B3%E6%B1%A0%20%E5%8F%B0%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E5%8D%80%E8%A5%BF%E5%AF%A7%E5%8D%97%E8%B7%AF6-1%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #萬華運動中心游泳池",
+        "url": "https://www.instagram.com/explore/tags/%E8%90%AC%E8%8F%AF%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83%E6%B8%B8%E6%B3%B3%E6%B1%A0/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E8%90%AC%E8%8F%AF%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83%E6%B8%B8%E6%B3%B3%E6%B1%A0%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-165",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.606Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-170",
+    "name": "仁和鮑魚 (海洋農場)",
+    "region": "北部",
+    "city": "新北市",
+    "district": "貢寮區",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$350",
+    "address": "新北市貢寮區香蘭街31-1號",
+    "hours": "09:00-17:00",
+    "lat": 25.0135,
+    "lng": 121.9472,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "仁和鮑魚 (海洋農場)是位於新北市的室外親子景點，3歲以上適合。以職業體驗、DIY體驗為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "職業體驗",
+      "DIY體驗",
+      "3歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BB%81%E5%92%8C%E9%AE%91%E9%AD%9A%20(%E6%B5%B7%E6%B4%8B%E8%BE%B2%E5%A0%B4)%20%E6%96%B0%E5%8C%97%E5%B8%82%E8%B2%A2%E5%AF%AE%E5%8D%80%E9%A6%99%E8%98%AD%E8%A1%9731-1%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #仁和鮑魚 (海洋農場)",
+        "url": "https://www.instagram.com/explore/tags/%E4%BB%81%E5%92%8C%E9%AE%91%E9%AD%9A%20(%E6%B5%B7%E6%B4%8B%E8%BE%B2%E5%A0%B4)/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E4%BB%81%E5%92%8C%E9%AE%91%E9%AD%9A%20(%E6%B5%B7%E6%B4%8B%E8%BE%B2%E5%A0%B4)%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-170",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.607Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-171",
+    "name": "維格餅家鳳梨酥夢工場",
+    "region": "北部",
+    "city": "新北市",
+    "district": "五股區",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$200",
+    "address": "新北市五股區成泰路一段87號",
+    "hours": "09:00-18:00",
+    "lat": 25.0745,
+    "lng": 121.4398,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#68b984",
+    "description": "維格餅家鳳梨酥夢工場是位於新北市的室內親子景點，3歲以上適合。以觀光工廠、DIY體驗為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "觀光工廠",
+      "DIY體驗",
+      "3歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B6%AD%E6%A0%BC%E9%A4%85%E5%AE%B6%E9%B3%B3%E6%A2%A8%E9%85%A5%E5%A4%A2%E5%B7%A5%E5%A0%B4%20%E6%96%B0%E5%8C%97%E5%B8%82%E4%BA%94%E8%82%A1%E5%8D%80%E6%88%90%E6%B3%B0%E8%B7%AF%E4%B8%80%E6%AE%B587%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #維格餅家鳳梨酥夢工場",
+        "url": "https://www.instagram.com/explore/tags/%E7%B6%AD%E6%A0%BC%E9%A4%85%E5%AE%B6%E9%B3%B3%E6%A2%A8%E9%85%A5%E5%A4%A2%E5%B7%A5%E5%A0%B4/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E7%B6%AD%E6%A0%BC%E9%A4%85%E5%AE%B6%E9%B3%B3%E6%A2%A8%E9%85%A5%E5%A4%A2%E5%B7%A5%E5%A0%B4%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-171",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.608Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-172",
+    "name": "牧蜂農莊",
+    "region": "北部",
+    "city": "新北市",
+    "district": "三芝區",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "新北市三芝區茂長里74號",
+    "hours": "09:00-18:00",
+    "lat": 25.2445,
+    "lng": 121.4923,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "牧蜂農莊是位於新北市的室外親子景點，3歲以上適合，免費入場。以生態農場、職業體驗為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "生態農場",
+      "職業體驗",
+      "3歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%89%A7%E8%9C%82%E8%BE%B2%E8%8E%8A%20%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%89%E8%8A%9D%E5%8D%80%E8%8C%82%E9%95%B7%E9%87%8C74%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #牧蜂農莊",
+        "url": "https://www.instagram.com/explore/tags/%E7%89%A7%E8%9C%82%E8%BE%B2%E8%8E%8A/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E7%89%A7%E8%9C%82%E8%BE%B2%E8%8E%8A%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-172",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.608Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-173",
+    "name": "淡水琉璃工坊 (琉傳天下)",
+    "region": "北部",
+    "city": "新北市",
+    "district": "淡水區",
+    "ageMin": 5,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$150",
+    "address": "新北市淡水區忠寮里口湖子1-7號",
+    "hours": "09:00-17:30",
+    "lat": 25.1876,
+    "lng": 121.4452,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#68b984",
+    "description": "淡水琉璃工坊 (琉傳天下)是位於新北市的室內親子景點，5歲以上適合。以觀光工廠、DIY體驗為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "觀光工廠",
+      "DIY體驗",
+      "5歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B7%A1%E6%B0%B4%E7%90%89%E7%92%83%E5%B7%A5%E5%9D%8A%20(%E7%90%89%E5%82%B3%E5%A4%A9%E4%B8%8B)%20%E6%96%B0%E5%8C%97%E5%B8%82%E6%B7%A1%E6%B0%B4%E5%8D%80%E5%BF%A0%E5%AF%AE%E9%87%8C%E5%8F%A3%E6%B9%96%E5%AD%901-7%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #淡水琉璃工坊 (琉傳天下)",
+        "url": "https://www.instagram.com/explore/tags/%E6%B7%A1%E6%B0%B4%E7%90%89%E7%92%83%E5%B7%A5%E5%9D%8A%20(%E7%90%89%E5%82%B3%E5%A4%A9%E4%B8%8B)/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E6%B7%A1%E6%B0%B4%E7%90%89%E7%92%83%E5%B7%A5%E5%9D%8A%20(%E7%90%89%E5%82%B3%E5%A4%A9%E4%B8%8B)%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-173",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.609Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-177",
+    "name": "三峽北大特區戲水池 (龍學公園)",
+    "region": "北部",
+    "city": "新北市",
+    "district": "三峽區",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "自然放電",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "新北市三峽區學成路與號大德路交界",
+    "hours": "24小時開放",
+    "lat": 24.9421,
+    "lng": 121.3789,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#42b883",
+    "description": "三峽北大特區戲水池 (龍學公園)是位於新北市的室外親子景點，2歲以上適合，免費入場。以玩水為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "玩水",
+      "免費景點",
+      "2歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E5%B3%BD%E5%8C%97%E5%A4%A7%E7%89%B9%E5%8D%80%E6%88%B2%E6%B0%B4%E6%B1%A0%20(%E9%BE%8D%E5%AD%B8%E5%85%AC%E5%9C%92)%20%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%89%E5%B3%BD%E5%8D%80%E5%AD%B8%E6%88%90%E8%B7%AF%E8%88%87%E8%99%9F%E5%A4%A7%E5%BE%B7%E8%B7%AF%E4%BA%A4%E7%95%8C",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #三峽北大特區戲水池 (龍學公園)",
+        "url": "https://www.instagram.com/explore/tags/%E4%B8%89%E5%B3%BD%E5%8C%97%E5%A4%A7%E7%89%B9%E5%8D%80%E6%88%B2%E6%B0%B4%E6%B1%A0%20(%E9%BE%8D%E5%AD%B8%E5%85%AC%E5%9C%92)/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E4%B8%89%E5%B3%BD%E5%8C%97%E5%A4%A7%E7%89%B9%E5%8D%80%E6%88%B2%E6%B0%B4%E6%B1%A0%20(%E9%BE%8D%E5%AD%B8%E5%85%AC%E5%9C%92)%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-177",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.610Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-178",
+    "name": "金勇 DIY 番茄農場",
+    "region": "北部",
+    "city": "新竹縣",
+    "district": "關西鎮",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "新竹縣關西鎮東光里16張35-1號",
+    "hours": "08:00-18:00",
+    "lat": 24.7951,
+    "lng": 121.1852,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "金勇 DIY 番茄農場是位於新竹縣的室外親子景點，2歲以上適合，免費入場。以蔬果農場、DIY體驗為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "蔬果農場",
+      "DIY體驗",
+      "2歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E5%8B%87%20DIY%20%E7%95%AA%E8%8C%84%E8%BE%B2%E5%A0%B4%20%E6%96%B0%E7%AB%B9%E7%B8%A3%E9%97%9C%E8%A5%BF%E9%8E%AE%E6%9D%B1%E5%85%89%E9%87%8C16%E5%BC%B535-1%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #金勇 DIY 番茄農場",
+        "url": "https://www.instagram.com/explore/tags/%E9%87%91%E5%8B%87%20DIY%20%E7%95%AA%E8%8C%84%E8%BE%B2%E5%A0%B4/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E9%87%91%E5%8B%87%20DIY%20%E7%95%AA%E8%8C%84%E8%BE%B2%E5%A0%B4%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-178",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.611Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-223",
+    "name": "恒忻親子共享空間",
+    "region": "北部",
+    "city": "新竹市",
+    "district": "",
+    "ageMin": 1,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$500",
+    "address": "新竹市北區士林東路21號",
+    "hours": "10:00-15:00",
+    "lat": 24.7924,
+    "lng": 120.9701,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "恒忻親子共享空間是位於新竹市的室內親子景點，1歲以上適合。以遊樂園為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "遊樂園"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%81%92%E5%BF%BB%E8%A6%AA%E5%AD%90%E5%85%B1%E4%BA%AB%E7%A9%BA%E9%96%93%20%E6%96%B0%E7%AB%B9%E5%B8%82%E5%8C%97%E5%8D%80%E5%A3%AB%E6%9E%97%E6%9D%B1%E8%B7%AF21%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #恒忻親子共享空間",
+        "url": "https://www.instagram.com/explore/tags/%E6%81%92%E5%BF%BB%E8%A6%AA%E5%AD%90%E5%85%B1%E4%BA%AB%E7%A9%BA%E9%96%93/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E6%81%92%E5%BF%BB%E8%A6%AA%E5%AD%90%E5%85%B1%E4%BA%AB%E7%A9%BA%E9%96%93%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-223",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.631Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-233",
+    "name": "超人力霸王氣墊遊樂園",
+    "region": "北部",
+    "city": "新北市",
+    "district": "新店區",
+    "ageMin": 3,
+    "ageMax": 8,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$300",
+    "address": "新北市新店區中興路三段70號 裕隆城誠品生活3F實驗場",
+    "hours": "依誠品生活裕隆城開放時間（出發前確認官方公告）",
+    "lat": 24.9712,
+    "lng": 121.5378,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "超人力霸王氣墊遊樂園是位於新北市的室內親子景點，3歲以上適合。以遊樂園、限定活動為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "遊樂園",
+      "3歲",
+      "限定活動"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B6%85%E4%BA%BA%E5%8A%9B%E9%9C%B8%E7%8E%8B%E6%B0%A3%E5%A2%8A%E9%81%8A%E6%A8%82%E5%9C%92%20%E6%96%B0%E5%8C%97%E5%B8%82%E6%96%B0%E5%BA%97%E5%8D%80%E4%B8%AD%E8%88%88%E8%B7%AF%E4%B8%89%E6%AE%B570%E8%99%9F%20%E8%A3%95%E9%9A%86%E5%9F%8E%E8%AA%A0%E5%93%81%E7%94%9F%E6%B4%BB3F%E5%AF%A6%E9%A9%97%E5%A0%B4",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #超人力霸王氣墊遊樂園",
+        "url": "https://www.instagram.com/explore/tags/%E8%B6%85%E4%BA%BA%E5%8A%9B%E9%9C%B8%E7%8E%8B%E6%B0%A3%E5%A2%8A%E9%81%8A%E6%A8%82%E5%9C%92/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E8%B6%85%E4%BA%BA%E5%8A%9B%E9%9C%B8%E7%8E%8B%E6%B0%A3%E5%A2%8A%E9%81%8A%E6%A8%82%E5%9C%92%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-233",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.635Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-250",
+    "name": "桃園耀輝休閒牧場",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "楊梅區",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "桃園市楊梅區楊湖路一段654巷81弄88號",
+    "hours": "週六日 08:00–18:00（平日請先電話確認）",
+    "lat": 24.8912,
+    "lng": 121.2234,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "桃園耀輝休閒牧場是位於桃園市的室外親子景點，0歲起即適合，免費入場。以農場、牧場為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "農場",
+      "免費",
+      "0歲起",
+      "牧場"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A1%83%E5%9C%92%E8%80%80%E8%BC%9D%E4%BC%91%E9%96%92%E7%89%A7%E5%A0%B4%20%E6%A1%83%E5%9C%92%E5%B8%82%E6%A5%8A%E6%A2%85%E5%8D%80%E6%A5%8A%E6%B9%96%E8%B7%AF%E4%B8%80%E6%AE%B5654%E5%B7%B781%E5%BC%8488%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #桃園耀輝休閒牧場",
+        "url": "https://www.instagram.com/explore/tags/%E6%A1%83%E5%9C%92%E8%80%80%E8%BC%9D%E4%BC%91%E9%96%92%E7%89%A7%E5%A0%B4/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E6%A1%83%E5%9C%92%E8%80%80%E8%BC%9D%E4%BC%91%E9%96%92%E7%89%A7%E5%A0%B4%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-250",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.638Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-254",
+    "name": "COZU Lab. 玻璃客製實驗室",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "大安區",
+    "ageMin": 3,
+    "ageMax": 8,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$300以下",
+    "address": "台北市大安區復興南路二段288號2樓",
+    "hours": "10:00–17:00（需事先預約）",
+    "lat": 25.0264,
+    "lng": 121.5439,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#68b984",
+    "description": "COZU Lab. 玻璃客製實驗室是位於臺北市的室內親子景點，3歲以上適合。以DIY體驗、手作為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "DIY體驗",
+      "手作",
+      "3歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=COZU%20Lab.%20%E7%8E%BB%E7%92%83%E5%AE%A2%E8%A3%BD%E5%AF%A6%E9%A9%97%E5%AE%A4%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E5%BE%A9%E8%88%88%E5%8D%97%E8%B7%AF%E4%BA%8C%E6%AE%B5288%E8%99%9F2%E6%A8%93",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #COZU Lab. 玻璃客製實驗室",
+        "url": "https://www.instagram.com/explore/tags/COZU%20Lab.%20%E7%8E%BB%E7%92%83%E5%AE%A2%E8%A3%BD%E5%AF%A6%E9%A9%97%E5%AE%A4/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=COZU%20Lab.%20%E7%8E%BB%E7%92%83%E5%AE%A2%E8%A3%BD%E5%AF%A6%E9%A9%97%E5%AE%A4%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-254",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.638Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-269",
+    "name": "野趣森林親子園區",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "中壢區",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "桃園市中壢區高鐵南路四段轉內厝六路約250公尺處",
+    "hours": "09:00–17:00",
+    "lat": 24.9623,
+    "lng": 121.2534,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "野趣森林親子園區是位於桃園市的室外親子景點，0歲起即適合，免費入場。以戶外景點、生態農場為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "戶外景點",
+      "生態農場",
+      "0歲起",
+      "戶外"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%87%8E%E8%B6%A3%E6%A3%AE%E6%9E%97%E8%A6%AA%E5%AD%90%E5%9C%92%E5%8D%80%20%E6%A1%83%E5%9C%92%E5%B8%82%E4%B8%AD%E5%A3%A2%E5%8D%80%E9%AB%98%E9%90%B5%E5%8D%97%E8%B7%AF%E5%9B%9B%E6%AE%B5%E8%BD%89%E5%85%A7%E5%8E%9D%E5%85%AD%E8%B7%AF%E7%B4%84250%E5%85%AC%E5%B0%BA%E8%99%95",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #野趣森林親子園區",
+        "url": "https://www.instagram.com/explore/tags/%E9%87%8E%E8%B6%A3%E6%A3%AE%E6%9E%97%E8%A6%AA%E5%AD%90%E5%9C%92%E5%8D%80/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E9%87%8E%E8%B6%A3%E6%A3%AE%E6%9E%97%E8%A6%AA%E5%AD%90%E5%9C%92%E5%8D%80%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-269",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.643Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-284",
+    "name": "基隆市暖暖室內兒童樂園",
+    "region": "北部",
+    "city": "基隆市",
+    "district": "暖暖區",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "基隆市暖暖區東勢街2號5樓",
+    "hours": "平日 10:00–18:00 / 週六日 08:30–18:00",
+    "lat": 25.0912,
+    "lng": 121.7234,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "基隆市暖暖室內兒童樂園是位於基隆市的室內親子景點，0歲起即適合，免費入場。以遊樂園為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "遊樂園",
+      "免費",
+      "0歲起"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9F%BA%E9%9A%86%E5%B8%82%E6%9A%96%E6%9A%96%E5%AE%A4%E5%85%A7%E5%85%92%E7%AB%A5%E6%A8%82%E5%9C%92%20%E5%9F%BA%E9%9A%86%E5%B8%82%E6%9A%96%E6%9A%96%E5%8D%80%E6%9D%B1%E5%8B%A2%E8%A1%972%E8%99%9F5%E6%A8%93",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #基隆市暖暖室內兒童樂園",
+        "url": "https://www.instagram.com/explore/tags/%E5%9F%BA%E9%9A%86%E5%B8%82%E6%9A%96%E6%9A%96%E5%AE%A4%E5%85%A7%E5%85%92%E7%AB%A5%E6%A8%82%E5%9C%92/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%9F%BA%E9%9A%86%E5%B8%82%E6%9A%96%E6%9A%96%E5%AE%A4%E5%85%A7%E5%85%92%E7%AB%A5%E6%A8%82%E5%9C%92%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-284",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.649Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-285",
+    "name": "基隆市信義室內兒童樂園",
+    "region": "北部",
+    "city": "基隆市",
+    "district": "信義區",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "基隆市信義區信二路179號5樓",
+    "hours": "平日 10:00–18:00 / 週六日 08:30–18:00",
+    "lat": 25.1234,
+    "lng": 121.7512,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "基隆市信義室內兒童樂園是位於基隆市的室內親子景點，0歲起即適合，免費入場。以遊樂園為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "遊樂園",
+      "免費",
+      "0歲起"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9F%BA%E9%9A%86%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%AE%A4%E5%85%A7%E5%85%92%E7%AB%A5%E6%A8%82%E5%9C%92%20%E5%9F%BA%E9%9A%86%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%E4%BF%A1%E4%BA%8C%E8%B7%AF179%E8%99%9F5%E6%A8%93",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #基隆市信義室內兒童樂園",
+        "url": "https://www.instagram.com/explore/tags/%E5%9F%BA%E9%9A%86%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%AE%A4%E5%85%A7%E5%85%92%E7%AB%A5%E6%A8%82%E5%9C%92/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%9F%BA%E9%9A%86%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%AE%A4%E5%85%A7%E5%85%92%E7%AB%A5%E6%A8%82%E5%9C%92%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-285",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.649Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-286",
+    "name": "基隆市中正室內兒童樂園",
+    "region": "北部",
+    "city": "基隆市",
+    "district": "中正區",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "基隆市中正區中正路236號7樓",
+    "hours": "平日 10:00–18:00 / 週六日 08:30–18:00",
+    "lat": 25.1034,
+    "lng": 121.7623,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "基隆市中正室內兒童樂園是位於基隆市的室內親子景點，0歲起即適合，免費入場。以遊樂園為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "遊樂園",
+      "免費",
+      "0歲起"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9F%BA%E9%9A%86%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%AE%A4%E5%85%A7%E5%85%92%E7%AB%A5%E6%A8%82%E5%9C%92%20%E5%9F%BA%E9%9A%86%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E4%B8%AD%E6%AD%A3%E8%B7%AF236%E8%99%9F7%E6%A8%93",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #基隆市中正室內兒童樂園",
+        "url": "https://www.instagram.com/explore/tags/%E5%9F%BA%E9%9A%86%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%AE%A4%E5%85%A7%E5%85%92%E7%AB%A5%E6%A8%82%E5%9C%92/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%9F%BA%E9%9A%86%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%AE%A4%E5%85%A7%E5%85%92%E7%AB%A5%E6%A8%82%E5%9C%92%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-286",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.650Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-287",
+    "name": "基隆市七堵室內兒童樂園",
+    "region": "北部",
+    "city": "基隆市",
+    "district": "七堵區",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "基隆市七堵區光明路21號6樓",
+    "hours": "平日 10:00–18:00 / 週六日 08:30–18:00",
+    "lat": 25.0734,
+    "lng": 121.6923,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "基隆市七堵室內兒童樂園是位於基隆市的室內親子景點，0歲起即適合，免費入場。以遊樂園為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "遊樂園",
+      "免費",
+      "0歲起"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9F%BA%E9%9A%86%E5%B8%82%E4%B8%83%E5%A0%B5%E5%AE%A4%E5%85%A7%E5%85%92%E7%AB%A5%E6%A8%82%E5%9C%92%20%E5%9F%BA%E9%9A%86%E5%B8%82%E4%B8%83%E5%A0%B5%E5%8D%80%E5%85%89%E6%98%8E%E8%B7%AF21%E8%99%9F6%E6%A8%93",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #基隆市七堵室內兒童樂園",
+        "url": "https://www.instagram.com/explore/tags/%E5%9F%BA%E9%9A%86%E5%B8%82%E4%B8%83%E5%A0%B5%E5%AE%A4%E5%85%A7%E5%85%92%E7%AB%A5%E6%A8%82%E5%9C%92/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%9F%BA%E9%9A%86%E5%B8%82%E4%B8%83%E5%A0%B5%E5%AE%A4%E5%85%A7%E5%85%92%E7%AB%A5%E6%A8%82%E5%9C%92%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-287",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.651Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-288",
+    "name": "基隆市中山室內兒童樂園",
+    "region": "北部",
+    "city": "基隆市",
+    "district": "中山區",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "基隆市中山區文化路168號5樓",
+    "hours": "平日 10:00–18:00 / 週六日 08:30–18:00",
+    "lat": 25.1423,
+    "lng": 121.7334,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "基隆市中山室內兒童樂園是位於基隆市的室內親子景點，0歲起即適合，免費入場。以遊樂園為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "遊樂園",
+      "免費",
+      "0歲起"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9F%BA%E9%9A%86%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%AE%A4%E5%85%A7%E5%85%92%E7%AB%A5%E6%A8%82%E5%9C%92%20%E5%9F%BA%E9%9A%86%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E6%96%87%E5%8C%96%E8%B7%AF168%E8%99%9F5%E6%A8%93",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #基隆市中山室內兒童樂園",
+        "url": "https://www.instagram.com/explore/tags/%E5%9F%BA%E9%9A%86%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%AE%A4%E5%85%A7%E5%85%92%E7%AB%A5%E6%A8%82%E5%9C%92/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%9F%BA%E9%9A%86%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%AE%A4%E5%85%A7%E5%85%92%E7%AB%A5%E6%A8%82%E5%9C%92%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-288",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.651Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-289",
+    "name": "基隆市安樂室內兒童樂園",
+    "region": "北部",
+    "city": "基隆市",
+    "district": "安樂區",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "基隆市安樂區麥金路482號7樓",
+    "hours": "平日 10:00–18:00 / 週六日 08:30–18:00",
+    "lat": 25.1123,
+    "lng": 121.7134,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "基隆市安樂室內兒童樂園是位於基隆市的室內親子景點，0歲起即適合，免費入場。以遊樂園為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "遊樂園",
+      "免費",
+      "0歲起"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9F%BA%E9%9A%86%E5%B8%82%E5%AE%89%E6%A8%82%E5%AE%A4%E5%85%A7%E5%85%92%E7%AB%A5%E6%A8%82%E5%9C%92%20%E5%9F%BA%E9%9A%86%E5%B8%82%E5%AE%89%E6%A8%82%E5%8D%80%E9%BA%A5%E9%87%91%E8%B7%AF482%E8%99%9F7%E6%A8%93",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #基隆市安樂室內兒童樂園",
+        "url": "https://www.instagram.com/explore/tags/%E5%9F%BA%E9%9A%86%E5%B8%82%E5%AE%89%E6%A8%82%E5%AE%A4%E5%85%A7%E5%85%92%E7%AB%A5%E6%A8%82%E5%9C%92/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%9F%BA%E9%9A%86%E5%B8%82%E5%AE%89%E6%A8%82%E5%AE%A4%E5%85%A7%E5%85%92%E7%AB%A5%E6%A8%82%E5%9C%92%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-289",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.652Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-290",
+    "name": "台茂卡通尼樂園（SAFARI非洲探索樂園）",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "蘆竹區",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$390",
+    "address": "桃園市蘆竹區南崁路一段112號7樓",
+    "hours": "平日 11:00–22:00 / 假日 10:30–22:00",
+    "lat": 25.0523,
+    "lng": 121.3112,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "台茂卡通尼樂園（SAFARI非洲探索樂園）是位於桃園市的室內親子景點，0歲起即適合。以遊樂園為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "遊樂園",
+      "0歲起"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8F%B0%E8%8C%82%E5%8D%A1%E9%80%9A%E5%B0%BC%E6%A8%82%E5%9C%92%EF%BC%88SAFARI%E9%9D%9E%E6%B4%B2%E6%8E%A2%E7%B4%A2%E6%A8%82%E5%9C%92%EF%BC%89%20%E6%A1%83%E5%9C%92%E5%B8%82%E8%98%86%E7%AB%B9%E5%8D%80%E5%8D%97%E5%B4%81%E8%B7%AF%E4%B8%80%E6%AE%B5112%E8%99%9F7%E6%A8%93",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #台茂卡通尼樂園（SAFARI非洲探索樂園）",
+        "url": "https://www.instagram.com/explore/tags/%E5%8F%B0%E8%8C%82%E5%8D%A1%E9%80%9A%E5%B0%BC%E6%A8%82%E5%9C%92%EF%BC%88SAFARI%E9%9D%9E%E6%B4%B2%E6%8E%A2%E7%B4%A2%E6%A8%82%E5%9C%92%EF%BC%89/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%8F%B0%E8%8C%82%E5%8D%A1%E9%80%9A%E5%B0%BC%E6%A8%82%E5%9C%92%EF%BC%88SAFARI%E9%9D%9E%E6%B4%B2%E6%8E%A2%E7%B4%A2%E6%A8%82%E5%9C%92%EF%BC%89%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-290",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.653Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-302",
+    "name": "老貝殼親子農場",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "龍潭區",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$200",
+    "address": "桃園市龍潭區湧光路一段222號",
+    "hours": "09:00–17:00",
+    "lat": 24.8734,
+    "lng": 121.1923,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "老貝殼親子農場是位於桃園市的室外親子景點，0歲起即適合。以農場、職業體驗為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "農場",
+      "職業體驗",
+      "寵物可落地",
+      "0歲起"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%80%81%E8%B2%9D%E6%AE%BC%E8%A6%AA%E5%AD%90%E8%BE%B2%E5%A0%B4%20%E6%A1%83%E5%9C%92%E5%B8%82%E9%BE%8D%E6%BD%AD%E5%8D%80%E6%B9%A7%E5%85%89%E8%B7%AF%E4%B8%80%E6%AE%B5222%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #老貝殼親子農場",
+        "url": "https://www.instagram.com/explore/tags/%E8%80%81%E8%B2%9D%E6%AE%BC%E8%A6%AA%E5%AD%90%E8%BE%B2%E5%A0%B4/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E8%80%81%E8%B2%9D%E6%AE%BC%E8%A6%AA%E5%AD%90%E8%BE%B2%E5%A0%B4%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-302",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.656Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-303",
+    "name": "陽明山繡球花季",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "士林區",
+    "ageMin": 3,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$200",
+    "address": "台北市士林區陽明山國家公園",
+    "hours": "07:30–17:00（建議早上入園避人潮）",
+    "lat": 25.1712,
+    "lng": 121.5523,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "陽明山繡球花季是位於臺北市的室外親子景點，3歲以上適合。以森林步道、生態農場為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "森林步道",
+      "生態農場",
+      "賞花",
+      "3歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%99%BD%E6%98%8E%E5%B1%B1%E7%B9%A1%E7%90%83%E8%8A%B1%E5%AD%A3%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E9%99%BD%E6%98%8E%E5%B1%B1%E5%9C%8B%E5%AE%B6%E5%85%AC%E5%9C%92",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #陽明山繡球花季",
+        "url": "https://www.instagram.com/explore/tags/%E9%99%BD%E6%98%8E%E5%B1%B1%E7%B9%A1%E7%90%83%E8%8A%B1%E5%AD%A3/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E9%99%BD%E6%98%8E%E5%B1%B1%E7%B9%A1%E7%90%83%E8%8A%B1%E5%AD%A3%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-303",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.657Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-304",
+    "name": "碧潭水舞季",
+    "region": "北部",
+    "city": "新北市",
+    "district": "新店區",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "自然放電",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "新北市新店區碧潭風景區",
+    "hours": "水舞表演：週五六日 19:30–21:30（白天免費進入）",
+    "lat": 24.9612,
+    "lng": 121.5423,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#42b883",
+    "description": "碧潭水舞季是位於新北市的室外親子景點，0歲起即適合，免費入場。以景觀為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "景觀",
+      "免費",
+      "0歲起"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A2%A7%E6%BD%AD%E6%B0%B4%E8%88%9E%E5%AD%A3%20%E6%96%B0%E5%8C%97%E5%B8%82%E6%96%B0%E5%BA%97%E5%8D%80%E7%A2%A7%E6%BD%AD%E9%A2%A8%E6%99%AF%E5%8D%80",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #碧潭水舞季",
+        "url": "https://www.instagram.com/explore/tags/%E7%A2%A7%E6%BD%AD%E6%B0%B4%E8%88%9E%E5%AD%A3/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E7%A2%A7%E6%BD%AD%E6%B0%B4%E8%88%9E%E5%AD%A3%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-304",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.657Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-312",
+    "name": "中國信託文薈館",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "南港區",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "探索學習",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "台北市南港區經貿二路168號A棟1樓",
+    "hours": "11:00–17:30",
+    "lat": 25.0534,
+    "lng": 121.6234,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#6a8dff",
+    "description": "中國信託文薈館是位於臺北市的室內親子景點，0歲起即適合，免費入場。以博物館、科學教育為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "博物館",
+      "科學教育",
+      "免費",
+      "0歲起"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E5%9C%8B%E4%BF%A1%E8%A8%97%E6%96%87%E8%96%88%E9%A4%A8%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%E7%B6%93%E8%B2%BF%E4%BA%8C%E8%B7%AF168%E8%99%9FA%E6%A3%9F1%E6%A8%93",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #中國信託文薈館",
+        "url": "https://www.instagram.com/explore/tags/%E4%B8%AD%E5%9C%8B%E4%BF%A1%E8%A8%97%E6%96%87%E8%96%88%E9%A4%A8/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E4%B8%AD%E5%9C%8B%E4%BF%A1%E8%A8%97%E6%96%87%E8%96%88%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-312",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.659Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-317",
+    "name": "動物王國大探險展｜科教館",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "士林區",
+    "ageMin": 3,
+    "ageMax": 8,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$300以下",
+    "address": "台北市士林區士商路189號7樓西側",
+    "hours": "暑假(7/11–8/30) 09:00–18:00 / 非暑假(8/31–10/11) 平日09:00–17:00 / 假日09:00–18:00",
+    "lat": 25.0934,
+    "lng": 121.5234,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "動物王國大探險展｜科教館是位於臺北市的室內親子景點，3歲以上適合。以博物館、科學教育為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "博物館",
+      "科學教育",
+      "3歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8B%95%E7%89%A9%E7%8E%8B%E5%9C%8B%E5%A4%A7%E6%8E%A2%E9%9A%AA%E5%B1%95%EF%BD%9C%E7%A7%91%E6%95%99%E9%A4%A8%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E5%A3%AB%E5%95%86%E8%B7%AF189%E8%99%9F7%E6%A8%93%E8%A5%BF%E5%81%B4",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #動物王國大探險展｜科教館",
+        "url": "https://www.instagram.com/explore/tags/%E5%8B%95%E7%89%A9%E7%8E%8B%E5%9C%8B%E5%A4%A7%E6%8E%A2%E9%9A%AA%E5%B1%95%EF%BD%9C%E7%A7%91%E6%95%99%E9%A4%A8/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%8B%95%E7%89%A9%E7%8E%8B%E5%9C%8B%E5%A4%A7%E6%8E%A2%E9%9A%AA%E5%B1%95%EF%BD%9C%E7%A7%91%E6%95%99%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-317",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.660Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-323",
+    "name": "萌萌森林物語",
+    "region": "北部",
+    "city": "新北市",
+    "district": "石碇區",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$300以下",
+    "address": "新北市石碇區豐林里楓子林路70號",
+    "hours": "10:00–17:00",
+    "lat": 24.9912,
+    "lng": 121.6534,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "萌萌森林物語是位於新北市的室外親子景點，0歲起即適合。以農場、生態農場為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "農場",
+      "生態農場",
+      "0歲起"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%90%8C%E8%90%8C%E6%A3%AE%E6%9E%97%E7%89%A9%E8%AA%9E%20%E6%96%B0%E5%8C%97%E5%B8%82%E7%9F%B3%E7%A2%87%E5%8D%80%E8%B1%90%E6%9E%97%E9%87%8C%E6%A5%93%E5%AD%90%E6%9E%97%E8%B7%AF70%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #萌萌森林物語",
+        "url": "https://www.instagram.com/explore/tags/%E8%90%8C%E8%90%8C%E6%A3%AE%E6%9E%97%E7%89%A9%E8%AA%9E/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E8%90%8C%E8%90%8C%E6%A3%AE%E6%9E%97%E7%89%A9%E8%AA%9E%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-323",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.663Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
   }
 ]
