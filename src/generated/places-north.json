@@ -1407,6 +1407,75 @@
     }
   },
   {
+    "id": "Attraction_379000000A_002250",
+    "name": "舞蝶共融遊戲場",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "中山區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺北市中山區",
+    "hours": "請至官方網站確認",
+    "lat": 25.06871,
+    "lng": 121.524023,
+    "image": "https://www.travel.taipei/content/images/attractions/182290/640x480_attractions-image-ufladzpebeakvmjroq60xw.jpg",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "花博美術園區為臺北市首座「大型共融兒童遊戲場」，以「與蝶共舞」為主題，設計蝴蝶及毛蟲造型為設施亮點，遊戲場內分為7區，含沙坑區、滑梯區、攀爬網區、蟲蟲遊戲牆區、音樂遊戲區、休憩區、鞦韆區及扭扭區等，並且設置全國首座供輪椅使用者使用之鞦韆、會發出美妙音樂的音樂球、歡樂鼓及叮噹管、方便肢障兒童使用的滾輪滑梯及小小公民參與設計的互動機能之遊戲牆等(資料來源：臺北市…",
+    "highlights": [
+      "近距離看動物",
+      "自然生態觀察",
+      "親子共遊"
+    ],
+    "facilities": [
+      "推車友善"
+    ],
+    "familyAmenities": {
+      "accessibility": "confirmed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "confirmed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": []
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%88%9E%E8%9D%B6%E5%85%B1%E8%9E%8D%E9%81%8A%E6%88%B2%E5%A0%B4%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #舞蝶共融遊戲場",
+        "url": "https://www.instagram.com/explore/tags/%E8%88%9E%E8%9D%B6%E5%85%B1%E8%9E%8D%E9%81%8A%E6%88%B2%E5%A0%B4/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E8%88%9E%E8%9D%B6%E5%85%B1%E8%9E%8D%E9%81%8A%E6%88%B2%E5%A0%B4%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
+    "sourceId": "Attraction_379000000A_002250",
+    "qualityScore": 13,
+    "updatedAt": "2026-06-25T11:45:12+08:00",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 50,
+      "missing": [
+        "官方網站",
+        "明確開放時間",
+        "票價資訊"
+      ]
+    }
+  },
+  {
     "id": "Attraction_376440000A_000463",
     "name": "興隆公園自然森林遊戲場",
     "region": "北部",
@@ -1982,7 +2051,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_379000000A_002214",
     "qualityScore": 13,
-    "updatedAt": "2026-03-27T13:52:41+08:00",
+    "updatedAt": "2026-06-25T11:28:37+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -2278,6 +2347,76 @@
     "completeness": {
       "score": 100,
       "missing": []
+    }
+  },
+  {
+    "id": "Attraction_379000000A_002641",
+    "name": "順益台灣原住民博物館_美術分館",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "中正區",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺北市中正區",
+    "hours": "請至官方網站確認",
+    "lat": 25.046377,
+    "lng": 121.510951,
+    "image": "https://www.travel.taipei/content/images/attractions/215415/640x480_attractions-image-7kkam-t5ne2ss29obmg9sg.jpg",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "順益台灣原住民博物館－美術分館(以下簡稱順益台灣美術館)於2020年6月10日正式開館。這座位處於城市中央的美術館，可說是林迺翁文教基金會推廣台灣藝術文化之路上又一重要里程碑。 位於台北市北門廣場周邊，現址為延平南路5號的順益台灣美術館，其前身曾為順益關係企業的「起家厝」－《順益行》。這棟擁有74年歷史的老建築，在林純姬董事長的擘畫下搖身一變成為一座嶄新的美…",
+    "highlights": [
+      "兒童遊戲空間",
+      "親子放電",
+      "假日同樂"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": []
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A0%86%E7%9B%8A%E5%8F%B0%E7%81%A3%E5%8E%9F%E4%BD%8F%E6%B0%91%E5%8D%9A%E7%89%A9%E9%A4%A8_%E7%BE%8E%E8%A1%93%E5%88%86%E9%A4%A8%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #順益台灣原住民博物館_美術分館",
+        "url": "https://www.instagram.com/explore/tags/%E9%A0%86%E7%9B%8A%E5%8F%B0%E7%81%A3%E5%8E%9F%E4%BD%8F%E6%B0%91%E5%8D%9A%E7%89%A9%E9%A4%A8_%E7%BE%8E%E8%A1%93%E5%88%86%E9%A4%A8/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E9%A0%86%E7%9B%8A%E5%8F%B0%E7%81%A3%E5%8E%9F%E4%BD%8F%E6%B0%91%E5%8D%9A%E7%89%A9%E9%A4%A8_%E7%BE%8E%E8%A1%93%E5%88%86%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
+    "sourceId": "Attraction_379000000A_002641",
+    "qualityScore": 13,
+    "updatedAt": "2026-06-25T16:00:16+08:00",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "明確開放時間",
+        "票價資訊",
+        "親子設施"
+      ]
     }
   },
   {
@@ -2922,6 +3061,76 @@
     }
   },
   {
+    "id": "Attraction_379000000A_002217",
+    "name": "中央藝文公園_華山大草原遊戲場",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "中正區",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺北市中正區",
+    "hours": "請至官方網站確認",
+    "lat": 25.04612,
+    "lng": 121.52683,
+    "image": "https://www.travel.taipei/content/images/attractions/182869/640x480_attractions-image-74pca4adzuoitd9hi9-ymw.jpg",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "華山大草原遊戲場從入口處的火車造型牆作為開端，遊戲場以鐵軌和火車隧道等意象串連而成。其中，火車隧道的2個牆面，一面為舉辦工作坊時孩童留下的夢想泡泡，一面為華山車站歷史的展現。遊戲場中最具代表性的是結合山坡地景綠樹中的「煙囪遊戲塔」，其煙囪外型與華山酒廠大煙囪呼應，利用高低層次的遊戲塔，創造不同的遊戲高度體驗，場內更設有「水沙世界」、「極限滑索」、「飛天鞦韆」…",
+    "highlights": [
+      "兒童遊戲空間",
+      "親子放電",
+      "假日同樂"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": []
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E5%A4%AE%E8%97%9D%E6%96%87%E5%85%AC%E5%9C%92_%E8%8F%AF%E5%B1%B1%E5%A4%A7%E8%8D%89%E5%8E%9F%E9%81%8A%E6%88%B2%E5%A0%B4%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #中央藝文公園_華山大草原遊戲場",
+        "url": "https://www.instagram.com/explore/tags/%E4%B8%AD%E5%A4%AE%E8%97%9D%E6%96%87%E5%85%AC%E5%9C%92_%E8%8F%AF%E5%B1%B1%E5%A4%A7%E8%8D%89%E5%8E%9F%E9%81%8A%E6%88%B2%E5%A0%B4/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E4%B8%AD%E5%A4%AE%E8%97%9D%E6%96%87%E5%85%AC%E5%9C%92_%E8%8F%AF%E5%B1%B1%E5%A4%A7%E8%8D%89%E5%8E%9F%E9%81%8A%E6%88%B2%E5%A0%B4%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
+    "sourceId": "Attraction_379000000A_002217",
+    "qualityScore": 11,
+    "updatedAt": "2026-06-25T11:40:32+08:00",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "明確開放時間",
+        "票價資訊",
+        "親子設施"
+      ]
+    }
+  },
+  {
     "id": "Attraction_376440000A_000327",
     "name": "內山環線(環1-2) (竹縣段)",
     "region": "北部",
@@ -3458,6 +3667,76 @@
         "官方網站",
         "明確開放時間",
         "票價資訊"
+      ]
+    }
+  },
+  {
+    "id": "Attraction_379000000A_002269",
+    "name": "大溝溪生態治水園區",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "內湖區",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺北市內湖區",
+    "hours": "請至官方網站確認",
+    "lat": 25.089099,
+    "lng": 121.598479,
+    "image": "https://www.travel.taipei/content/images/attractions/573479/640x480_attractions-image-edfokhs5keq4xtnmofilzw.jpg",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "位於臺北市內湖區大湖山莊街底的大溝溪生態治水園區，鄰近捷運大湖公園站，是一座將都市防洪、自然生態與休閒步道結合的城市綠帶。園區以「近自然工法」營造濕地與親水步道，讓人能在市區近距離親近溪流與森林，享受大自然的安靜與療癒。四季皆能常見到溪畔花卉綻放，四至五月間也有機會觀察到螢火蟲蹤跡，是臺北市難得一見的自然景觀。親水步道是大溝溪生態治水園區的遊憩亮點。平緩的路…",
+    "highlights": [
+      "兒童遊戲空間",
+      "親子放電",
+      "假日同樂"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": []
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%BA%9D%E6%BA%AA%E7%94%9F%E6%85%8B%E6%B2%BB%E6%B0%B4%E5%9C%92%E5%8D%80%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%85%A7%E6%B9%96%E5%8D%80",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #大溝溪生態治水園區",
+        "url": "https://www.instagram.com/explore/tags/%E5%A4%A7%E6%BA%9D%E6%BA%AA%E7%94%9F%E6%85%8B%E6%B2%BB%E6%B0%B4%E5%9C%92%E5%8D%80/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%A4%A7%E6%BA%9D%E6%BA%AA%E7%94%9F%E6%85%8B%E6%B2%BB%E6%B0%B4%E5%9C%92%E5%8D%80%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
+    "sourceId": "Attraction_379000000A_002269",
+    "qualityScore": 13,
+    "updatedAt": "2026-06-25T14:03:42+08:00",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "明確開放時間",
+        "票價資訊",
+        "親子設施"
       ]
     }
   },
@@ -5567,7 +5846,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011000H_000013",
     "qualityScore": 15,
-    "updatedAt": "2026-06-25T00:00:03+08:00",
+    "updatedAt": "2026-06-26T00:00:03+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -5664,7 +5943,7 @@
     "priceLabel": "請查官網",
     "address": "臺北市內湖區",
     "hours": "請至官方網站確認",
-    "lat": 25.105135,
+    "lat": 25.105136,
     "lng": 121.594043,
     "image": "https://www.travel.taipei/content/images/attractions/182387/640x480_attractions-image-xy0trg-9zucaewpn-8huvw.jpg",
     "imageCandidates": [],
@@ -5705,7 +5984,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_379000000A_002265",
     "qualityScore": 13,
-    "updatedAt": "2026-05-20T14:53:27+08:00",
+    "updatedAt": "2026-06-25T13:44:35+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -6371,7 +6650,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_379000000A_002260",
     "qualityScore": 13,
-    "updatedAt": "2026-03-27T14:09:47+08:00",
+    "updatedAt": "2026-06-25T11:52:35+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -7142,7 +7421,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011300H_000056",
     "qualityScore": 12,
-    "updatedAt": "2026-06-24T23:10:09+08:00",
+    "updatedAt": "2026-06-25T23:10:11+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -7570,7 +7849,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_379000000A_002342",
     "qualityScore": 11,
-    "updatedAt": "2024-08-27T17:46:23+08:00",
+    "updatedAt": "2026-06-25T15:11:47+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -7804,7 +8083,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011300H_000059",
     "qualityScore": 14,
-    "updatedAt": "2026-06-24T23:10:09+08:00",
+    "updatedAt": "2026-06-25T23:10:11+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -8182,6 +8461,75 @@
     }
   },
   {
+    "id": "Attraction_379000000A_002374",
+    "name": "湖山六號公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "內湖區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺北市內湖區",
+    "hours": "請至官方網站確認",
+    "lat": 25.0831,
+    "lng": 121.601989,
+    "image": "https://www.travel.taipei/content/images/attractions/192206/640x480_attractions-image-lfxd3y-mde-b5t01dgxv6w.jpg",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "鄰近大湖公園的湖山6號公園，是座以自行車為主題的共融式遊戲場，距離捷運站非常近，也有收費停車場可開車前往，湖山6號公園裡除了有自行車造型的兒童遊樂設施外，亦有戲沙區及平衡木區讓孩童能夠玩耍放電，此時父母可至湖山6號公園內的三行亭內休憩，乘涼休息的同時亦可遠觀在遊樂區遊玩的小朋友，正好呼應亭柱上的「三三兩兩可避急驟風雨 行行坐坐笑睇孩童嬉戲」，是個值得玩一個整…",
+    "highlights": [
+      "兒童遊戲空間",
+      "親子放電",
+      "假日同樂"
+    ],
+    "facilities": [
+      "停車場"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "confirmed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料提及停車設施，車位與費用請出發前確認。",
+      "evidence": []
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%96%E5%B1%B1%E5%85%AD%E8%99%9F%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%85%A7%E6%B9%96%E5%8D%80",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #湖山六號公園",
+        "url": "https://www.instagram.com/explore/tags/%E6%B9%96%E5%B1%B1%E5%85%AD%E8%99%9F%E5%85%AC%E5%9C%92/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E6%B9%96%E5%B1%B1%E5%85%AD%E8%99%9F%E5%85%AC%E5%9C%92%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
+    "sourceId": "Attraction_379000000A_002374",
+    "qualityScore": 13,
+    "updatedAt": "2026-06-25T15:21:19+08:00",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 50,
+      "missing": [
+        "官方網站",
+        "明確開放時間",
+        "票價資訊"
+      ]
+    }
+  },
+  {
     "id": "Attraction_382000000A_112381",
     "name": "陽光運動園區",
     "region": "北部",
@@ -8386,7 +8734,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_345040000G_000002",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:20:15+08:00",
+    "updatedAt": "2026-06-26T00:20:16+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -13350,7 +13698,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_379000000A_002197",
     "qualityScore": 13,
-    "updatedAt": "2024-08-30T14:55:43+08:00",
+    "updatedAt": "2026-06-25T10:49:00+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -13992,7 +14340,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_379000000A_002194",
     "qualityScore": 13,
-    "updatedAt": "2026-03-27T13:45:51+08:00",
+    "updatedAt": "2026-06-25T10:46:27+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -14370,7 +14718,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011300H_000009",
     "qualityScore": 12,
-    "updatedAt": "2026-06-24T23:10:09+08:00",
+    "updatedAt": "2026-06-25T23:10:11+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -14746,6 +15094,76 @@
     "sourceId": "Attraction_379000000A_000185",
     "qualityScore": 11,
     "updatedAt": "2026-05-22T16:02:22+08:00",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "明確開放時間",
+        "票價資訊",
+        "親子設施"
+      ]
+    }
+  },
+  {
+    "id": "Attraction_379000000A_002344",
+    "name": "華岡博物館",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "士林區",
+    "ageMin": 4,
+    "ageMax": 12,
+    "setting": "室內外",
+    "duration": "半日",
+    "category": "探索學習",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺北市士林區",
+    "hours": "請至官方網站確認",
+    "lat": 25.137483,
+    "lng": 121.540624,
+    "image": "https://www.travel.taipei/content/images/attractions/192007/640x480_attractions-image-eg5bpzniguogo8qlnkimra.jpg",
+    "imageCandidates": [],
+    "accent": "#6a8dff",
+    "description": "華岡博物館之創議，發軔於華岡學府創校之時。創辦人張其昀先生於民國 51 年(1962) 3 月 1 日訂「創校旨趣書」，揭以「高等教育(大學)學術研究(研究院)服務推廣(企業)三者一體」，為興學創業之方針，採取「圖書館與博物館」並重的原則，而有創設博物館之議。華岡博物館籌備時期歷時 8 年之久，前身為民國 52 年(1963)在大成館成立之「中華文物陳列館」…",
+    "highlights": [
+      "互動探索",
+      "寓教於樂",
+      "主題展覽"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": []
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8F%AF%E5%B2%A1%E5%8D%9A%E7%89%A9%E9%A4%A8%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #華岡博物館",
+        "url": "https://www.instagram.com/explore/tags/%E8%8F%AF%E5%B2%A1%E5%8D%9A%E7%89%A9%E9%A4%A8/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E8%8F%AF%E5%B2%A1%E5%8D%9A%E7%89%A9%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
+    "sourceId": "Attraction_379000000A_002344",
+    "qualityScore": 11,
+    "updatedAt": "2026-06-25T15:15:13+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -16226,7 +16644,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_345040000G_110036",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:20:15+08:00",
+    "updatedAt": "2026-06-26T00:20:16+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -17161,6 +17579,94 @@
         "明確開放時間",
         "票價資訊",
         "親子設施"
+      ]
+    }
+  },
+  {
+    "id": "Attraction_379000000A_002654",
+    "name": "CITYLINK南港店",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "南港區",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺北市南港區",
+    "hours": "請至官方網站確認",
+    "lat": 25.052645,
+    "lng": 121.605982,
+    "image": "https://www.travel.taipei/content/images/attractions/374750/640x480_attractions-image-dloha1phjkewgvocrwvuew.jpg",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "南港CITYLINK百貨位於南港車站附近，以「Shopping Resort」為概念，提供顧客一個陽光、慢活、駐足、購物的悠雅空間，具時尚流行、美食休憩及親子娛樂等特色，在餐飲選擇上有主題餐廳、風格美食及特色飲品等應有盡有。",
+    "highlights": [
+      "兒童遊戲空間",
+      "親子放電",
+      "假日同樂"
+    ],
+    "facilities": [
+      "餐飲"
+    ],
+    "familyAmenities": {
+      "accessibility": "confirmed",
+      "ramp": "notListed",
+      "nursingRoom": "confirmed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": [
+        {
+          "amenities": [
+            "nursingRoom"
+          ],
+          "source": "依法應設置哺集乳室公共場所名單",
+          "label": "CITY LINK南港店",
+          "url": "https://data.gov.tw/dataset/23750",
+          "note": "臺北市南港區中南里忠孝東路7段369號B棟3樓・週一至週日 11:00~21:30"
+        },
+        {
+          "amenities": [
+            "accessibility"
+          ],
+          "source": "全國公廁建檔資料",
+          "label": "City Link 南港店C棟5F無障礙",
+          "url": "https://data.gov.tw/dataset/30794",
+          "note": "無障礙廁所・距景點約 110 公尺"
+        }
+      ]
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=CITYLINK%E5%8D%97%E6%B8%AF%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #CITYLINK南港店",
+        "url": "https://www.instagram.com/explore/tags/CITYLINK%E5%8D%97%E6%B8%AF%E5%BA%97/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=CITYLINK%E5%8D%97%E6%B8%AF%E5%BA%97%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
+    "sourceId": "Attraction_379000000A_002654",
+    "qualityScore": 13,
+    "updatedAt": "2026-06-25T18:04:40+08:00",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 50,
+      "missing": [
+        "官方網站",
+        "明確開放時間",
+        "票價資訊"
       ]
     }
   },
@@ -19925,7 +20431,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011000H_000255",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:00:03+08:00",
+    "updatedAt": "2026-06-26T00:00:03+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -20068,7 +20574,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011000H_000277",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:00:03+08:00",
+    "updatedAt": "2026-06-26T00:00:03+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -22011,7 +22517,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081893",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-05-29T00:00:00+08:00",
@@ -22087,7 +22593,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011000H_000270",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:00:03+08:00",
+    "updatedAt": "2026-06-26T00:00:03+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -22533,7 +23039,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011000H_000209",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:00:03+08:00",
+    "updatedAt": "2026-06-26T00:00:03+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -23965,7 +24471,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081941",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-06-26T00:00:00+08:00",
@@ -24550,7 +25056,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081441",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2025-09-06T00:00:00+08:00",
@@ -26618,7 +27124,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011300H_000061",
     "qualityScore": 13,
-    "updatedAt": "2026-06-24T23:10:09+08:00",
+    "updatedAt": "2026-06-25T23:10:11+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -26688,7 +27194,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011000H_000269",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:00:03+08:00",
+    "updatedAt": "2026-06-26T00:00:03+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -28613,6 +29119,94 @@
     }
   },
   {
+    "id": "Attraction_379000000A_002576",
+    "name": "國立臺灣博物館_鐵道部園區",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "大同區",
+    "ageMin": 4,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "探索學習",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺北市大同區",
+    "hours": "請至官方網站確認",
+    "lat": 25.048834,
+    "lng": 121.511383,
+    "image": "https://www.travel.taipei/content/images/attractions/207889/640x480_attractions-image-520lz-dmge-wctfdrrzusa.jpg",
+    "imageCandidates": [],
+    "accent": "#6a8dff",
+    "description": "國定古蹟臺灣總督府鐵道部位於忠孝西路、塔城街、鄭州路、延平北路間，屬國營臺灣鐵路股份有限公司管轄。1885年臺灣巡撫劉銘傳聘請英國與德國顧問，於淡水河碼頭內建造機器局，組裝槍砲彈藥及鑄造貨幣，內有鎔鐵所、鍛工場等。1895年日本軍方接收機器局，改為臺北兵器修理所，製造並修理陸軍所管兵器，可製造彈丸、信管、小銃丸及藥筴、船舶、鐵道鐵橋等，之後改稱為臺灣砲兵工廠…",
+    "highlights": [
+      "互動探索",
+      "寓教於樂",
+      "主題展覽"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "confirmed",
+      "diaperTable": "notListed",
+      "familyRestroom": "confirmed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": [
+        {
+          "amenities": [
+            "nursingRoom"
+          ],
+          "source": "依法應設置哺集乳室公共場所名單",
+          "label": "國立臺灣博物館鐵道部園區",
+          "url": "https://data.gov.tw/dataset/23750",
+          "note": "臺北市大同區玉泉里延平北路1段2號1樓(兒童晨間)・週一至週日 08:00~17:00"
+        },
+        {
+          "amenities": [
+            "familyRestroom"
+          ],
+          "source": "全國公廁建檔資料",
+          "label": "國立臺灣博物館鐵道部園區9號建物親子廁所",
+          "url": "https://data.gov.tw/dataset/30794",
+          "note": "親子廁所・距景點約 24 公尺"
+        }
+      ]
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%8D%9A%E7%89%A9%E9%A4%A8_%E9%90%B5%E9%81%93%E9%83%A8%E5%9C%92%E5%8D%80%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #國立臺灣博物館_鐵道部園區",
+        "url": "https://www.instagram.com/explore/tags/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%8D%9A%E7%89%A9%E9%A4%A8_%E9%90%B5%E9%81%93%E9%83%A8%E5%9C%92%E5%8D%80/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%8D%9A%E7%89%A9%E9%A4%A8_%E9%90%B5%E9%81%93%E9%83%A8%E5%9C%92%E5%8D%80%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
+    "sourceId": "Attraction_379000000A_002576",
+    "qualityScore": 11,
+    "updatedAt": "2026-06-25T15:23:44+08:00",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 50,
+      "missing": [
+        "官方網站",
+        "明確開放時間",
+        "票價資訊"
+      ]
+    }
+  },
+  {
     "id": "Attraction_376440000A_000528",
     "name": "鹿鳴坑綜合觀光果園",
     "region": "北部",
@@ -29276,6 +29870,85 @@
     }
   },
   {
+    "id": "Attraction_379000000A_002261",
+    "name": "新芳春茶行",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "大同區",
+    "ageMin": 4,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "探索學習",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺北市大同區",
+    "hours": "請至官方網站確認",
+    "lat": 25.057078,
+    "lng": 121.512548,
+    "image": "https://www.travel.taipei/content/images/attractions/181535/640x480_attractions-image-5cg67q_bgeajhifzn_vuca.jpg",
+    "imageCandidates": [],
+    "accent": "#6a8dff",
+    "description": "館所簡介大稻埕曾經是昔日臺灣走向國際的門戶，透過茶葉與樟腦的外銷貿易，近代西方文明與傳統漢人文化在稻江畔激盪出精彩的火花，無論是現代新劇或子弟戲班的登臺競演；亦或是咖啡沙龍與品茶文化的交相爭艷，二十世紀的上半葉，大稻埕方興未歇。見證這一段榮景的「新芳春茶行」興建於1934年，為大稻埕茶商王連河隨父親舉家自福建安溪來臺發展的起家厝，這棟融和中西特色的日治時期建…",
+    "highlights": [
+      "互動探索",
+      "寓教於樂",
+      "主題展覽"
+    ],
+    "facilities": [
+      "餐飲"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "confirmed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": [
+        {
+          "amenities": [
+            "familyRestroom"
+          ],
+          "source": "全國公廁建檔資料",
+          "label": "新芳春茶行1樓親子廁所",
+          "url": "https://data.gov.tw/dataset/30794",
+          "note": "親子廁所・距景點約 1 公尺"
+        }
+      ]
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E8%8A%B3%E6%98%A5%E8%8C%B6%E8%A1%8C%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #新芳春茶行",
+        "url": "https://www.instagram.com/explore/tags/%E6%96%B0%E8%8A%B3%E6%98%A5%E8%8C%B6%E8%A1%8C/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E6%96%B0%E8%8A%B3%E6%98%A5%E8%8C%B6%E8%A1%8C%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
+    "sourceId": "Attraction_379000000A_002261",
+    "qualityScore": 11,
+    "updatedAt": "2026-06-25T11:56:27+08:00",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 50,
+      "missing": [
+        "官方網站",
+        "明確開放時間",
+        "票價資訊"
+      ]
+    }
+  },
+  {
     "id": "Attraction_376430000A_000601",
     "name": "經國紀念館﹙北橫遊客中心﹚",
     "region": "北部",
@@ -29486,6 +30159,94 @@
     }
   },
   {
+    "id": "Attraction_379000000A_002201",
+    "name": "臺北流行音樂中心",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "南港區",
+    "ageMin": 4,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺北市南港區",
+    "hours": "請至官方網站確認",
+    "lat": 25.052115,
+    "lng": 121.598592,
+    "image": "https://www.travel.taipei/content/images/attractions/193182/640x480_attractions-image-ph0ig0thkuklxzjtdw16ya.jpg",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "臺北流行音樂中心介於南港車站與捷運藍線昆陽站之間，採複合型園區設置，基地面積8.96公頃，以市民大道區隔為北基地及南基地。可容納5000人、專屬流行音樂演出的中大型表演場地「表演廳」座落於北基地，南基地則有以主題策展方式呈現臺灣流行音樂光榮歷史與各種面貌的「流行音樂文化館」、以培育臺灣音樂人才為目標的「產業區」等場館。集結流行音樂與流行文化，臺北流行音樂中心…",
+    "highlights": [
+      "美感體驗",
+      "文化探索",
+      "親子共賞"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "confirmed",
+      "ramp": "notListed",
+      "nursingRoom": "confirmed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": [
+        {
+          "amenities": [
+            "nursingRoom"
+          ],
+          "source": "依法應設置哺集乳室公共場所名單",
+          "label": "臺北流行音樂中心",
+          "url": "https://data.gov.tw/dataset/23750",
+          "note": "臺北市南港區東明里市民大道99號北基地1樓・24小時"
+        },
+        {
+          "amenities": [
+            "accessibility"
+          ],
+          "source": "全國公廁建檔資料",
+          "label": "臺北流行音樂中心停車場B1無障礙廁所",
+          "url": "https://data.gov.tw/dataset/30794",
+          "note": "無障礙廁所・距景點約 58 公尺"
+        }
+      ]
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E5%8C%97%E6%B5%81%E8%A1%8C%E9%9F%B3%E6%A8%82%E4%B8%AD%E5%BF%83%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #臺北流行音樂中心",
+        "url": "https://www.instagram.com/explore/tags/%E8%87%BA%E5%8C%97%E6%B5%81%E8%A1%8C%E9%9F%B3%E6%A8%82%E4%B8%AD%E5%BF%83/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E8%87%BA%E5%8C%97%E6%B5%81%E8%A1%8C%E9%9F%B3%E6%A8%82%E4%B8%AD%E5%BF%83%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
+    "sourceId": "Attraction_379000000A_002201",
+    "qualityScore": 11,
+    "updatedAt": "2026-06-25T10:51:00+08:00",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 50,
+      "missing": [
+        "官方網站",
+        "明確開放時間",
+        "票價資訊"
+      ]
+    }
+  },
+  {
     "id": "Attraction_376440000A_000193",
     "name": "臺紅茶葉文化館",
     "region": "北部",
@@ -29543,6 +30304,76 @@
     "sourceId": "Attraction_376440000A_000193",
     "qualityScore": 11,
     "updatedAt": "2025-05-27T07:43:59+08:00",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "明確開放時間",
+        "票價資訊",
+        "親子設施"
+      ]
+    }
+  },
+  {
+    "id": "Attraction_379000000A_002346",
+    "name": "臺灣股票博物館",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "松山區",
+    "ageMin": 4,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "探索學習",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺北市松山區",
+    "hours": "請至官方網站確認",
+    "lat": 25.061075,
+    "lng": 121.544522,
+    "image": "https://www.travel.taipei/content/images/attractions/185493/640x480_attractions-image--g-sa8lideskrqeaavwctg.jpg",
+    "imageCandidates": [],
+    "accent": "#6a8dff",
+    "description": "為降低發行成本、提昇市場作業效率及符合世界潮流，金融監督管理委員會責成臺灣集中保管結算所，積極推動有價證券全面無實體化，民國100年7月29日，我國證券市場正式達到「無實體百分百」目標，成為全球市值前25大中第13個全面無實體化的國家。為彰顯臺灣證券市場邁入全面無實體里程碑，集保結算所特別在原來保管股票的庫房現址，規劃建置臺灣第一座股票博物館。「臺灣股票博物…",
+    "highlights": [
+      "互動探索",
+      "寓教於樂",
+      "主題展覽"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": []
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E7%81%A3%E8%82%A1%E7%A5%A8%E5%8D%9A%E7%89%A9%E9%A4%A8%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #臺灣股票博物館",
+        "url": "https://www.instagram.com/explore/tags/%E8%87%BA%E7%81%A3%E8%82%A1%E7%A5%A8%E5%8D%9A%E7%89%A9%E9%A4%A8/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E8%87%BA%E7%81%A3%E8%82%A1%E7%A5%A8%E5%8D%9A%E7%89%A9%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
+    "sourceId": "Attraction_379000000A_002346",
+    "qualityScore": 11,
+    "updatedAt": "2026-06-25T15:16:27+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -29972,7 +30803,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081712",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": true,
     "placeType": "活動",
     "eventStart": "2026-07-18T00:00:00+08:00",
@@ -30290,7 +31121,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_345040000G_000003",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:20:15+08:00",
+    "updatedAt": "2026-06-26T00:20:16+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -30362,7 +31193,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011000H_000271",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:00:03+08:00",
+    "updatedAt": "2026-06-26T00:00:03+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -30523,7 +31354,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011000H_000014",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:00:03+08:00",
+    "updatedAt": "2026-06-26T00:00:03+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -30680,7 +31511,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_345040000G_000006",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:20:15+08:00",
+    "updatedAt": "2026-06-26T00:20:16+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -30756,7 +31587,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_345040000G_030027",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:20:15+08:00",
+    "updatedAt": "2026-06-26T00:20:16+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -30834,7 +31665,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_345040000G_000004",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:20:15+08:00",
+    "updatedAt": "2026-06-26T00:20:16+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -30906,7 +31737,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011000H_000016",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:00:03+08:00",
+    "updatedAt": "2026-06-26T00:00:03+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -31342,7 +32173,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_345040000G_120043",
     "qualityScore": 12,
-    "updatedAt": "2026-06-25T00:20:15+08:00",
+    "updatedAt": "2026-06-26T00:20:16+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -33354,7 +34185,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081678",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": true,
     "placeType": "活動",
     "eventStart": "2026-09-26T00:00:00+08:00",
@@ -33942,7 +34773,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081668",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-07-25T00:00:00+08:00",
@@ -34168,7 +34999,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081663",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-07-01T00:00:00+08:00",
@@ -34465,7 +35296,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011000H_000280",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:00:03+08:00",
+    "updatedAt": "2026-06-26T00:00:03+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -34623,7 +35454,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011300H_000062",
     "qualityScore": 13,
-    "updatedAt": "2026-06-24T23:10:09+08:00",
+    "updatedAt": "2026-06-25T23:10:11+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -35549,7 +36380,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_379000000A_002649",
     "qualityScore": 11,
-    "updatedAt": "2024-08-21T11:58:58+08:00",
+    "updatedAt": "2026-06-25T16:05:48+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -36487,7 +37318,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081733",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-09-01T00:00:00+08:00",
@@ -36634,7 +37465,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081898",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-08-22T00:00:00+08:00",
@@ -36783,7 +37614,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081731",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-07-31T00:00:00+08:00",
@@ -36860,7 +37691,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081669",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": true,
     "placeType": "活動",
     "eventStart": "2026-09-24T00:00:00+08:00",
@@ -37156,7 +37987,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081900",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-10-15T00:00:00+08:00",
@@ -37524,7 +38355,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081676",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-08-06T00:00:00+08:00",
@@ -37673,7 +38504,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081903",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-08-23T00:00:00+08:00",
@@ -37749,7 +38580,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081704",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-08-12T00:00:00+08:00",
@@ -38060,7 +38891,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_376430000A_006911",
     "qualityScore": 10,
-    "updatedAt": "2026-06-22T16:41:28+08:00",
+    "updatedAt": "2026-06-25T15:32:39+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-08-29T00:00:00+08:00",
@@ -38675,7 +39506,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081917",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-09-01T00:00:00+08:00",
@@ -38747,7 +39578,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011300H_000069",
     "qualityScore": 12,
-    "updatedAt": "2026-06-24T23:10:09+08:00",
+    "updatedAt": "2026-06-25T23:10:11+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -39694,6 +40525,76 @@
     }
   },
   {
+    "id": "Attraction_379000000A_002262",
+    "name": "永春陂生態濕地公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "信義區",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "自然放電",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺北市信義區",
+    "hours": "請至官方網站確認",
+    "lat": 25.032531,
+    "lng": 121.580071,
+    "image": "https://www.travel.taipei/content/images/attractions/182257/640x480_attractions-image-wy1z_ndq-uwrxi3w3u84iw.jpg",
+    "imageCandidates": [],
+    "accent": "#42b883",
+    "description": "永春陂公園原為軍方使用之永春陂營區，民國89年部隊移防至新店後閒置多年，並於民國105年變更為公園用地，後由臺北市政府工務局大地工程處規劃設計成為現在的永春陂生態濕地公園。 永春陂生態濕地公園位在信義區四獸山下，占地約4公頃，兼具環境教育、生態復育及歷史價值的第一座都會型濕地生態公園，於民國109年正式開幕供民眾前往遊憩，同時票選出不時會於園區內出沒的領角鴞…",
+    "highlights": [
+      "戶外散步",
+      "自然觀察",
+      "親子放電"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": []
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B0%B8%E6%98%A5%E9%99%82%E7%94%9F%E6%85%8B%E6%BF%95%E5%9C%B0%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #永春陂生態濕地公園",
+        "url": "https://www.instagram.com/explore/tags/%E6%B0%B8%E6%98%A5%E9%99%82%E7%94%9F%E6%85%8B%E6%BF%95%E5%9C%B0%E5%85%AC%E5%9C%92/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E6%B0%B8%E6%98%A5%E9%99%82%E7%94%9F%E6%85%8B%E6%BF%95%E5%9C%B0%E5%85%AC%E5%9C%92%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
+    "sourceId": "Attraction_379000000A_002262",
+    "qualityScore": 11,
+    "updatedAt": "2026-06-25T13:39:33+08:00",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "明確開放時間",
+        "票價資訊",
+        "親子設施"
+      ]
+    }
+  },
+  {
     "id": "Attraction_379000000A_002266",
     "name": "白石湖同心池",
     "region": "北部",
@@ -39750,7 +40651,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_379000000A_002266",
     "qualityScore": 11,
-    "updatedAt": "2024-03-21T17:01:05+08:00",
+    "updatedAt": "2026-06-25T13:51:26+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -39911,6 +40812,76 @@
     "sourceId": "Attraction_382000000A_110362",
     "qualityScore": 11,
     "updatedAt": "2022-06-14T07:53:44+08:00",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 50,
+      "missing": [
+        "官方網站",
+        "明確開放時間",
+        "票價資訊"
+      ]
+    }
+  },
+  {
+    "id": "Attraction_379000000A_002259",
+    "name": "成美右岸河濱公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "內湖區",
+    "ageMin": 6,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "自然放電",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺北市內湖區",
+    "hours": "請至官方網站確認",
+    "lat": 25.055591,
+    "lng": 121.586011,
+    "image": "https://www.travel.taipei/content/images/attractions/181498/640x480_attractions-image-jfkoebavseq4vtkwicy7ka.jpg",
+    "imageCandidates": [],
+    "accent": "#42b883",
+    "description": "成美右岸河濱公園位於基隆河成功橋至麥帥一橋間(內湖側)，每到假日隔幾公尺就有一群各自聚精會神調弄手裡器具的人，仔細看看有電動遙控車、數位單眼相機…等，而且是大人玩得比小孩還起勁！公園裡有許多的運動設施，包含網球場、籃球場、壘球練習場、溜冰場、單槓、體健設施…等，提供給臺北市民有更多的運動空間。串聯成美左、右岸公園的「彩虹橋」，橋身鮮紅，造型獨特，宛如一道彩虹…",
+    "highlights": [
+      "戶外散步",
+      "自然觀察",
+      "親子放電"
+    ],
+    "facilities": [
+      "推車友善",
+      "無障礙"
+    ],
+    "familyAmenities": {
+      "accessibility": "confirmed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "confirmed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": []
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%88%90%E7%BE%8E%E5%8F%B3%E5%B2%B8%E6%B2%B3%E6%BF%B1%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%85%A7%E6%B9%96%E5%8D%80",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #成美右岸河濱公園",
+        "url": "https://www.instagram.com/explore/tags/%E6%88%90%E7%BE%8E%E5%8F%B3%E5%B2%B8%E6%B2%B3%E6%BF%B1%E5%85%AC%E5%9C%92/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E6%88%90%E7%BE%8E%E5%8F%B3%E5%B2%B8%E6%B2%B3%E6%BF%B1%E5%85%AC%E5%9C%92%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
+    "sourceId": "Attraction_379000000A_002259",
+    "qualityScore": 11,
+    "updatedAt": "2026-06-25T11:49:30+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -40306,6 +41277,76 @@
         "官方網站",
         "明確開放時間",
         "票價資訊"
+      ]
+    }
+  },
+  {
+    "id": "Attraction_379000000A_002178",
+    "name": "前山公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "北投區",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室內外",
+    "duration": "半日",
+    "category": "自然放電",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺北市北投區",
+    "hours": "請至官方網站確認",
+    "lat": 25.150684,
+    "lng": 121.54818,
+    "image": "https://www.travel.taipei/content/images/attractions/181102/640x480_attractions-image-tirgdzapb06fo-38lszxjg.jpg",
+    "imageCandidates": [],
+    "accent": "#42b883",
+    "description": "前山公園位於陽明山區，緊鄰紗帽山東側、陽明山公車總站及教師研習中心旁，為臺北市郊重要的旅遊景點，佔地約3萬8,328平方公尺。前山公園景觀豐富，除可見紗帽山、七星山外，日治時期即引進七星山下中山樓西側的山坡溪流貫穿公園，溪流匯集成陽明湖倒映出七星山美景，湖畔還有免費的男女公共浴室，極受民眾喜愛，是春天賞櫻、夏日避暑、秋日聯誼、冬天賞楓之勝地。前山四號公園以紗…",
+    "highlights": [
+      "戶外散步",
+      "自然觀察",
+      "親子放電"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": []
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%89%8D%E5%B1%B1%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #前山公園",
+        "url": "https://www.instagram.com/explore/tags/%E5%89%8D%E5%B1%B1%E5%85%AC%E5%9C%92/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%89%8D%E5%B1%B1%E5%85%AC%E5%9C%92%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
+    "sourceId": "Attraction_379000000A_002178",
+    "qualityScore": 11,
+    "updatedAt": "2026-06-25T10:37:32+08:00",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "明確開放時間",
+        "票價資訊",
+        "親子設施"
       ]
     }
   },
@@ -41447,7 +42488,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_379000000A_002272",
     "qualityScore": 11,
-    "updatedAt": "2024-03-20T13:38:14+08:00",
+    "updatedAt": "2026-06-25T14:29:00+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -42648,6 +43689,76 @@
     }
   },
   {
+    "id": "Attraction_379000000A_002637",
+    "name": "麗山農民廣場_麗山公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "南港區",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "自然放電",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺北市南港區",
+    "hours": "請至官方網站確認",
+    "lat": 25.02242,
+    "lng": 121.59585,
+    "image": "https://www.travel.taipei/content/images/attractions/211655/640x480_attractions-image-tvon6wqme0cnyqsjmi3lnq.jpg",
+    "imageCandidates": [],
+    "accent": "#42b883",
+    "description": "來到南港的麗山農民廣場，可見廣場地板鑲嵌著北宋文豪─蘇軾「定風波」詞句，充滿文學的氣息，原來這裡在日治時代曾經是個書院，附近學童在此唸書學習，後因發生崩塌災害，荒廢多年已不復原景，大地處配合農業社區環境改善治理舊有崩塌地，融合日式涼亭、落羽松及景觀石等元素，營造早年書院的意象，塑造別具風格的休憩廣場環境。麗山農民廣場，對面即是封溪護魚有成的四分溪，大家也可順…",
+    "highlights": [
+      "戶外散步",
+      "自然觀察",
+      "親子放電"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": []
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%BA%97%E5%B1%B1%E8%BE%B2%E6%B0%91%E5%BB%A3%E5%A0%B4_%E9%BA%97%E5%B1%B1%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #麗山農民廣場_麗山公園",
+        "url": "https://www.instagram.com/explore/tags/%E9%BA%97%E5%B1%B1%E8%BE%B2%E6%B0%91%E5%BB%A3%E5%A0%B4_%E9%BA%97%E5%B1%B1%E5%85%AC%E5%9C%92/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E9%BA%97%E5%B1%B1%E8%BE%B2%E6%B0%91%E5%BB%A3%E5%A0%B4_%E9%BA%97%E5%B1%B1%E5%85%AC%E5%9C%92%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
+    "sourceId": "Attraction_379000000A_002637",
+    "qualityScore": 11,
+    "updatedAt": "2026-06-25T15:27:39+08:00",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "明確開放時間",
+        "票價資訊",
+        "親子設施"
+      ]
+    }
+  },
+  {
     "id": "Attraction_376430000A_001629",
     "name": "鑊篤陂塘生態公園",
     "region": "北部",
@@ -43292,7 +44403,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011000H_000015",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:00:03+08:00",
+    "updatedAt": "2026-06-26T00:00:03+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -43516,7 +44627,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011000H_000002",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:00:03+08:00",
+    "updatedAt": "2026-06-26T00:00:03+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -43665,7 +44776,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000234",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -43738,7 +44849,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011300H_020586",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T23:10:14+08:00",
+    "updatedAt": "2026-06-25T23:10:16+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -44175,7 +45286,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011300H_000021",
     "qualityScore": 12,
-    "updatedAt": "2026-06-24T23:10:09+08:00",
+    "updatedAt": "2026-06-25T23:10:11+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -48918,6 +50029,76 @@
     }
   },
   {
+    "id": "Attraction_379000000A_002647",
+    "name": "經國七海文化園區",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "中山區",
+    "ageMin": 4,
+    "ageMax": 12,
+    "setting": "室內外",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺北市中山區",
+    "hours": "請至官方網站確認",
+    "lat": 25.07873,
+    "lng": 121.536895,
+    "image": "https://www.travel.taipei/content/images/attractions/361621/640x480_attractions-image-5fdqzps2z0wvszqfrpvc5a.jpg",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "「經國七海文化園區」總面積3.98公頃，建築基地約兩千坪，園區周邊保留大面積植栽綠地、公共藝術與親水步道，建築設計與自然環境相調和，以符合鑽石級綠建築為目標。園區以七海寓所古蹟及蔣經國總統圖書館為核心，附設遊客中心，結合七海潭與劍潭山的美景，以及環湖步道，構成整體文化園區。我們以緬懷經國先生，活化古蹟，延續歷史生命力為原則來規劃營運此重要故居，希望成為臺北市…",
+    "highlights": [
+      "美感體驗",
+      "文化探索",
+      "親子共賞"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": []
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B6%93%E5%9C%8B%E4%B8%83%E6%B5%B7%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #經國七海文化園區",
+        "url": "https://www.instagram.com/explore/tags/%E7%B6%93%E5%9C%8B%E4%B8%83%E6%B5%B7%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E7%B6%93%E5%9C%8B%E4%B8%83%E6%B5%B7%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
+    "sourceId": "Attraction_379000000A_002647",
+    "qualityScore": 13,
+    "updatedAt": "2026-06-25T16:04:26+08:00",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "明確開放時間",
+        "票價資訊",
+        "親子設施"
+      ]
+    }
+  },
+  {
     "id": "Attraction_376570000A_000390",
     "name": "1949太平輪紀念公園",
     "region": "北部",
@@ -50373,6 +51554,75 @@
     }
   },
   {
+    "id": "Attraction_379000000A_002181",
+    "name": "公館商圈",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "中正區",
+    "ageMin": 4,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "探索學習",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺北市中正區",
+    "hours": "請至官方網站確認",
+    "lat": 25.013793,
+    "lng": 121.534792,
+    "image": "https://www.travel.taipei/content/images/attractions/180796/640x480_attractions-image-m4ftzya7ku6pgv2xzcn8yg.jpg",
+    "imageCandidates": [],
+    "accent": "#6a8dff",
+    "description": "公館商圈鄰近臺灣大學、臺灣科技大學、師範大學公館校區，提供市民及學生食衣住行育樂機能性完善的購物商圈，除了擁有符合外國遊客和交換生口味的各式異國料理餐廳，也有美食咖啡廳及著名的手搖飲料店；日常服飾及體育用品商家眾多，買衣買鞋都非常方便；同時公館商圈位於臺北市南區的重要交通樞紐地帶，大眾運輸發達又便利。因學區而匯聚各式獨立書店、咖啡廳、二手小店...等的公館商…",
+    "highlights": [
+      "互動探索",
+      "寓教於樂",
+      "主題展覽"
+    ],
+    "facilities": [
+      "餐飲"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": []
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%AC%E9%A4%A8%E5%95%86%E5%9C%88%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #公館商圈",
+        "url": "https://www.instagram.com/explore/tags/%E5%85%AC%E9%A4%A8%E5%95%86%E5%9C%88/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%85%AC%E9%A4%A8%E5%95%86%E5%9C%88%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
+    "sourceId": "Attraction_379000000A_002181",
+    "qualityScore": 11,
+    "updatedAt": "2026-06-25T10:43:47+08:00",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 50,
+      "missing": [
+        "官方網站",
+        "明確開放時間",
+        "票價資訊"
+      ]
+    }
+  },
+  {
     "id": "Attraction_382000000A_403101",
     "name": "王子創意文具國",
     "region": "北部",
@@ -50720,6 +51970,76 @@
     "sourceId": "Attraction_376430000A_001418",
     "qualityScore": 11,
     "updatedAt": "2026-05-25T15:49:31+08:00",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "明確開放時間",
+        "票價資訊",
+        "親子設施"
+      ]
+    }
+  },
+  {
+    "id": "Attraction_379000000A_002274",
+    "name": "台灣設計館",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "信義區",
+    "ageMin": 4,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "探索學習",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺北市信義區",
+    "hours": "請至官方網站確認",
+    "lat": 25.043705,
+    "lng": 121.559743,
+    "image": "https://www.travel.taipei/content/images/attractions/182250/640x480_attractions-image-tm_j-bj9jkas3xjnsdzp_a.jpg",
+    "imageCandidates": [],
+    "accent": "#6a8dff",
+    "description": "「台灣設計館」為全球華人第一座以「設計」為展覽主軸之專業博物館，於2011年正式營運。館內典藏台灣及設計發展史上重要的經典設計品，不定期推出多元化、跨領域之主題特展，展出國內外設計趨勢及重要設計獎項得獎作品。透過主題策展及不同領域的設計展演，傳遞生活美學及美感教育。(資料來源:台灣設計館官網)",
+    "highlights": [
+      "互動探索",
+      "寓教於樂",
+      "主題展覽"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": []
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8F%B0%E7%81%A3%E8%A8%AD%E8%A8%88%E9%A4%A8%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #台灣設計館",
+        "url": "https://www.instagram.com/explore/tags/%E5%8F%B0%E7%81%A3%E8%A8%AD%E8%A8%88%E9%A4%A8/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%8F%B0%E7%81%A3%E8%A8%AD%E8%A8%88%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
+    "sourceId": "Attraction_379000000A_002274",
+    "qualityScore": 11,
+    "updatedAt": "2026-06-25T14:51:37+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -51350,6 +52670,76 @@
     "sourceId": "Attraction_382000000A_112404",
     "qualityScore": 11,
     "updatedAt": "2025-03-26T03:16:14+08:00",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "明確開放時間",
+        "票價資訊",
+        "親子設施"
+      ]
+    }
+  },
+  {
+    "id": "Attraction_379000000A_002340",
+    "name": "忠泰美術館",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "大安區",
+    "ageMin": 4,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "探索學習",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺北市大安區",
+    "hours": "請至官方網站確認",
+    "lat": 25.044295,
+    "lng": 121.537315,
+    "image": "https://www.travel.taipei/content/images/attractions/572759/640x480_attractions-image-uh4os76tue6odrncipizka.jpg",
+    "imageCandidates": [],
+    "accent": "#6a8dff",
+    "description": "忠泰美術館成立於2016年，是忠泰建設成立三十週年、忠泰基金會設立十週年，在台灣建築文化推廣之路的重要里程碑。忠泰美術館期許成為一座肩負企業社會責任，並回應21世紀社會需求的新形態智庫、觸媒與平台；延續忠泰建築文化藝術基金會之「A better tomorrow」信念，成為台灣首座聚焦「未來」與「城市」議題的美術館。忠泰美術館位處台北都會區，同時也是基金會第…",
+    "highlights": [
+      "互動探索",
+      "寓教於樂",
+      "主題展覽"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": []
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BF%A0%E6%B3%B0%E7%BE%8E%E8%A1%93%E9%A4%A8%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #忠泰美術館",
+        "url": "https://www.instagram.com/explore/tags/%E5%BF%A0%E6%B3%B0%E7%BE%8E%E8%A1%93%E9%A4%A8/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%BF%A0%E6%B3%B0%E7%BE%8E%E8%A1%93%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
+    "sourceId": "Attraction_379000000A_002340",
+    "qualityScore": 11,
+    "updatedAt": "2026-06-25T15:08:29+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -61691,7 +63081,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011000H_000274",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:00:03+08:00",
+    "updatedAt": "2026-06-26T00:00:03+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -63771,7 +65161,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000231",
     "qualityScore": 7,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -63844,7 +65234,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000214",
     "qualityScore": 7,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -63918,7 +65308,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000232",
     "qualityScore": 7,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -63992,7 +65382,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000242",
     "qualityScore": 7,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -64065,7 +65455,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000244",
     "qualityScore": 7,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -64139,7 +65529,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000106",
     "qualityScore": 7,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -64213,7 +65603,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000061",
     "qualityScore": 7,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -64287,7 +65677,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000283",
     "qualityScore": 7,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -64515,7 +65905,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000250",
     "qualityScore": 7,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -64588,7 +65978,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000241",
     "qualityScore": 7,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -64746,7 +66136,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000240",
     "qualityScore": 7,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -64819,7 +66209,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000235",
     "qualityScore": 7,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -64903,7 +66293,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000222",
     "qualityScore": 7,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -64976,7 +66366,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000216",
     "qualityScore": 7,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -65266,7 +66656,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011300H_000020",
     "qualityScore": 12,
-    "updatedAt": "2026-06-24T23:10:09+08:00",
+    "updatedAt": "2026-06-25T23:10:11+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -67301,6 +68691,76 @@
     "sourceId": "Attraction_376440000A_000391",
     "qualityScore": 11,
     "updatedAt": "2025-06-03T09:41:05+08:00",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "明確開放時間",
+        "票價資訊",
+        "親子設施"
+      ]
+    }
+  },
+  {
+    "id": "Attraction_379000000A_002180",
+    "name": "台北奧萬大",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "士林區",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "自然放電",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺北市士林區",
+    "hours": "請至官方網站確認",
+    "lat": 25.142461,
+    "lng": 121.569308,
+    "image": "https://www.travel.taipei/content/images/attractions/180637/640x480_attractions-image-m-mrtjvzq0uoqsfsm2ngig.jpg",
+    "imageCandidates": [],
+    "accent": "#42b883",
+    "description": "陽明山上的奧萬大喜愛楓紅的人，不必大老遠的跑到加拿大或日本，近在咫尺的『台北奧萬大』將提供您優美的視覺享受。來此賞楓，不必苦等秋冬的季節，在春天三月～四月，您就可以欣賞到滿園楓紅景緻，園內各類植栽包括松、櫻、柏、楓樹、茶花類，皆由苗木開始栽培，因此各類造型獨特，其中又以黑松及楓樹最為大宗，也是台北奧萬大最具代表性的植栽。一般遊客對台北奧萬大印象最深的莫過於每…",
+    "highlights": [
+      "戶外散步",
+      "自然觀察",
+      "親子放電"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": []
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8F%B0%E5%8C%97%E5%A5%A7%E8%90%AC%E5%A4%A7%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #台北奧萬大",
+        "url": "https://www.instagram.com/explore/tags/%E5%8F%B0%E5%8C%97%E5%A5%A7%E8%90%AC%E5%A4%A7/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%8F%B0%E5%8C%97%E5%A5%A7%E8%90%AC%E5%A4%A7%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
+    "sourceId": "Attraction_379000000A_002180",
+    "qualityScore": 11,
+    "updatedAt": "2026-06-25T10:42:01+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -71762,7 +73222,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_376430000A_001408",
     "qualityScore": 11,
-    "updatedAt": "2026-06-24T17:49:22+08:00",
+    "updatedAt": "2026-06-25T10:10:06+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -72758,7 +74218,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000110",
     "qualityScore": 6,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -72827,7 +74287,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011300H_020121",
     "qualityScore": 6,
-    "updatedAt": "2026-06-24T23:10:14+08:00",
+    "updatedAt": "2026-06-25T23:10:16+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -72897,7 +74357,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000230",
     "qualityScore": 6,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -72966,7 +74426,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000076",
     "qualityScore": 6,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -73036,7 +74496,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000249",
     "qualityScore": 6,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -73106,7 +74566,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000144",
     "qualityScore": 6,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -73176,7 +74636,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000101",
     "qualityScore": 6,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -73246,7 +74706,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000130",
     "qualityScore": 6,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -73316,7 +74776,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000097",
     "qualityScore": 6,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -73386,7 +74846,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000088",
     "qualityScore": 6,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -73455,7 +74915,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000099",
     "qualityScore": 6,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -73525,7 +74985,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000115",
     "qualityScore": 6,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -73594,7 +75054,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000072",
     "qualityScore": 6,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -73663,7 +75123,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000116",
     "qualityScore": 6,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -73732,7 +75192,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000109",
     "qualityScore": 6,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -73802,7 +75262,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000257",
     "qualityScore": 6,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -73872,7 +75332,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000098",
     "qualityScore": 6,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -73943,7 +75403,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000057",
     "qualityScore": 6,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -74012,7 +75472,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000096",
     "qualityScore": 6,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -74082,7 +75542,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000198",
     "qualityScore": 6,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -74152,7 +75612,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000236",
     "qualityScore": 6,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -74222,7 +75682,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000056",
     "qualityScore": 6,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -74291,7 +75751,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000070",
     "qualityScore": 6,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -78507,7 +79967,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000194",
     "qualityScore": 5,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -78735,7 +80195,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000218",
     "qualityScore": 5,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -84001,7 +85461,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000202",
     "qualityScore": 5,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -84301,7 +85761,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000200",
     "qualityScore": 5,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -85603,7 +87063,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011300H_020556",
     "qualityScore": 5,
-    "updatedAt": "2026-06-24T23:10:14+08:00",
+    "updatedAt": "2026-06-25T23:10:16+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -87131,7 +88591,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000265",
     "qualityScore": 5,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -90097,7 +91557,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011300H_000066",
     "qualityScore": 13,
-    "updatedAt": "2026-06-24T23:10:09+08:00",
+    "updatedAt": "2026-06-25T23:10:11+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -90244,7 +91704,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_345040000G_120041",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:20:15+08:00",
+    "updatedAt": "2026-06-26T00:20:16+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -91145,7 +92605,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011300H_020563",
     "qualityScore": 13,
-    "updatedAt": "2026-06-24T23:10:09+08:00",
+    "updatedAt": "2026-06-25T23:10:11+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -94998,7 +96458,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000221",
     "qualityScore": 4,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -95593,7 +97053,7 @@
     "hours": "請至官方網站確認",
     "lat": 25.12255,
     "lng": 121.49538,
-    "image": "https://www.travel.taipei/content/images/attractions/492019/640x480_attractions-image-vxclwelinemegxmvxu0bla.jpg",
+    "image": "https://www.travel.taipei/content/images/attractions/492017/640x480_attractions-image-0ujv2knoikqxe4wmptgqhw.jpg",
     "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "法鼓山是由東初老人創建的「中華佛教文化館」與「農禪寺」發展而來。1955年，東初老人於北投興建中華佛教文化館，以推動佛教文化、開辦冬令救濟。1971年，並帶領弟子於關渡平原整地開墾，於1975年一棟農舍落成啟用，東初老人以「禪修為主，務農為生」將此處命名為「農禪寺」。1977年，東初老人無疾坐化，囑付聖嚴法師繼承法業，接任中華佛教文化館、農禪寺住持，致力弘揚…",
@@ -95772,7 +97232,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000100",
     "qualityScore": 4,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -96122,7 +97582,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_379000000A_002236",
     "qualityScore": 11,
-    "updatedAt": "2024-10-14T14:11:05+08:00",
+    "updatedAt": "2026-06-25T11:42:45+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -96580,7 +98040,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000066",
     "qualityScore": 4,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -98290,7 +99750,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011300H_020120",
     "qualityScore": 4,
-    "updatedAt": "2026-06-24T23:10:14+08:00",
+    "updatedAt": "2026-06-25T23:10:16+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -99727,7 +101187,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011300H_000016",
     "qualityScore": 4,
-    "updatedAt": "2026-06-24T23:10:14+08:00",
+    "updatedAt": "2026-06-25T23:10:16+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -100031,6 +101491,94 @@
     }
   },
   {
+    "id": "Attraction_379000000A_002206",
+    "name": "臺北表演藝術中心",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "士林區",
+    "ageMin": 4,
+    "ageMax": 12,
+    "setting": "室內外",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺北市士林區",
+    "hours": "請至官方網站確認",
+    "lat": 25.085124,
+    "lng": 121.524369,
+    "image": "https://www.travel.taipei/content/images/attractions/468041/640x480_attractions-image-qxt-ktrt4eafdclg-hfq-q.jpg",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "臺北表演藝術中心是一個充滿創意和想像的藝文樞紐，致力於將藝術帶入群眾的日常生活，打造一座全民劇場。秉持「Play Different Together」的核心精神，中心強調藝術共樂、人才培育及多元創新，成為臺灣和國際藝術的創意基地。獨特的劇場設計以「3＋1」劇場設計為核心，包含「藍盒子」、「球劇場」和「大劇院」，這些劇場可以獨立運作，也可彼此連結，形成一座多…",
+    "highlights": [
+      "美感體驗",
+      "文化探索",
+      "親子共賞"
+    ],
+    "facilities": [
+      "餐飲"
+    ],
+    "familyAmenities": {
+      "accessibility": "confirmed",
+      "ramp": "notListed",
+      "nursingRoom": "confirmed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": [
+        {
+          "amenities": [
+            "nursingRoom"
+          ],
+          "source": "依法應設置哺集乳室公共場所名單",
+          "label": "臺北表演藝術中心",
+          "url": "https://data.gov.tw/dataset/23750",
+          "note": "臺北市士林區義信里劍潭路1號1樓・週二至週日12:00-20:00"
+        },
+        {
+          "amenities": [
+            "accessibility"
+          ],
+          "source": "全國公廁建檔資料",
+          "label": "臺北表演藝術中心11樓參觀迴路無障礙廁所",
+          "url": "https://data.gov.tw/dataset/30794",
+          "note": "無障礙廁所・距景點約 17 公尺"
+        }
+      ]
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E5%8C%97%E8%A1%A8%E6%BC%94%E8%97%9D%E8%A1%93%E4%B8%AD%E5%BF%83%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #臺北表演藝術中心",
+        "url": "https://www.instagram.com/explore/tags/%E8%87%BA%E5%8C%97%E8%A1%A8%E6%BC%94%E8%97%9D%E8%A1%93%E4%B8%AD%E5%BF%83/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E8%87%BA%E5%8C%97%E8%A1%A8%E6%BC%94%E8%97%9D%E8%A1%93%E4%B8%AD%E5%BF%83%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
+    "sourceId": "Attraction_379000000A_002206",
+    "qualityScore": 11,
+    "updatedAt": "2026-06-25T11:06:37+08:00",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 50,
+      "missing": [
+        "官方網站",
+        "明確開放時間",
+        "票價資訊"
+      ]
+    }
+  },
+  {
     "id": "Attraction_379000000A_001857",
     "name": "臺北戲棚 TaipeiEYE",
     "region": "北部",
@@ -100089,6 +101637,76 @@
     "qualityScore": 11,
     "updatedAt": "2026-06-17T17:44:46+08:00",
     "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "明確開放時間",
+        "票價資訊",
+        "親子設施"
+      ]
+    }
+  },
+  {
+    "id": "Attraction_379000000A_002216",
+    "name": "臺灣文學基地",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "中正區",
+    "ageMin": 6,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "假日散步",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺北市中正區",
+    "hours": "請至官方網站確認",
+    "lat": 25.041151,
+    "lng": 121.528486,
+    "image": "https://www.travel.taipei/content/images/attractions/193197/640x480_attractions-image-vweoivjazkwwjfrdqjfgdw.jpg",
+    "imageCandidates": [],
+    "accent": "#64a7a2",
+    "description": "臺灣文學基地坐落於齊東街日式宿舍群中，是全臺少數歷史建築保存最完整的區域，也是文化資產保存法第一批採面狀保存的日式宿舍群，區內包含一幢市定古蹟及九幢歷史建築，不僅蘊含著豐富的在地故事及與市民經驗的聯結，更突顯臺北市內碩果僅存的日式宿舍歷史群落活化與再利用的當代意義。在棋盤般齊整的臺北市中心，齊東街就像是一條漫不經心的微笑，劃過濟南路與忠孝東路之間。這抹微笑背…",
+    "highlights": [
+      "輕鬆散步",
+      "親子共遊",
+      "在地探索"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": []
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E7%81%A3%E6%96%87%E5%AD%B8%E5%9F%BA%E5%9C%B0%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #臺灣文學基地",
+        "url": "https://www.instagram.com/explore/tags/%E8%87%BA%E7%81%A3%E6%96%87%E5%AD%B8%E5%9F%BA%E5%9C%B0/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E8%87%BA%E7%81%A3%E6%96%87%E5%AD%B8%E5%9F%BA%E5%9C%B0%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
+    "sourceId": "Attraction_379000000A_002216",
+    "qualityScore": 11,
+    "updatedAt": "2026-06-25T11:34:58+08:00",
+    "rainyDay": true,
     "placeType": "景點",
     "completeness": {
       "score": 33,
@@ -100866,7 +102484,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011300H_000013",
     "qualityScore": 4,
-    "updatedAt": "2026-06-24T23:10:14+08:00",
+    "updatedAt": "2026-06-25T23:10:16+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -100946,7 +102564,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011000H_000258",
     "qualityScore": 4,
-    "updatedAt": "2026-06-25T00:00:06+08:00",
+    "updatedAt": "2026-06-26T00:00:06+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -101586,7 +103204,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_379000000A_002215",
     "qualityScore": 11,
-    "updatedAt": "2024-08-28T15:25:48+08:00",
+    "updatedAt": "2026-06-25T11:30:11+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -105783,7 +107401,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011000H_000027",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:00:03+08:00",
+    "updatedAt": "2026-06-26T00:00:03+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -105856,7 +107474,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011000H_000215",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:00:03+08:00",
+    "updatedAt": "2026-06-26T00:00:03+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -105929,7 +107547,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011000H_000153",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:00:03+08:00",
+    "updatedAt": "2026-06-26T00:00:03+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -106001,7 +107619,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011000H_000021",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:00:03+08:00",
+    "updatedAt": "2026-06-26T00:00:03+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -106074,7 +107692,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011000H_000020",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:00:03+08:00",
+    "updatedAt": "2026-06-26T00:00:03+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -106301,7 +107919,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011000H_000003",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:00:03+08:00",
+    "updatedAt": "2026-06-26T00:00:03+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -106374,7 +107992,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011000H_000018",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:00:03+08:00",
+    "updatedAt": "2026-06-26T00:00:03+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -106666,7 +108284,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011300H_000007",
     "qualityScore": 12,
-    "updatedAt": "2026-06-24T23:10:09+08:00",
+    "updatedAt": "2026-06-25T23:10:11+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -107587,6 +109205,86 @@
     }
   },
   {
+    "id": "Attraction_379000000A_002638",
+    "name": "大稻埕公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "大同區",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "自然放電",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺北市大同區",
+    "hours": "請至官方網站確認",
+    "lat": 25.05861,
+    "lng": 121.510346,
+    "image": "https://www.travel.taipei/content/images/attractions/213874/640x480_attractions-image-ao8jd1ox-kkqv1ztwalrfq.jpg",
+    "imageCandidates": [],
+    "accent": "#42b883",
+    "description": "大稻埕公園位於歸綏街216號對面，鄰近為迪化街年貨大街，逢年過節時，有著濃厚之過節氣氛，平日也有豐富之南北雜貨飄香氣味；係因鄰近李臨秋先生故居，故文化局於園內設置李臨秋先生生平簡介播放機組，提供來往民眾觀看。(資料來源：公園走透透臺北新花漾)",
+    "highlights": [
+      "戶外散步",
+      "自然觀察",
+      "親子放電"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "confirmed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "confirmed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": [
+        {
+          "amenities": [
+            "accessibility",
+            "diaperTable"
+          ],
+          "source": "全國公廁建檔資料",
+          "label": "大稻埕公園地下停車場無障礙",
+          "url": "https://data.gov.tw/dataset/30794",
+          "note": "無障礙廁所・尿布檯 1 組・距景點約 25 公尺"
+        }
+      ]
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E7%A8%BB%E5%9F%95%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #大稻埕公園",
+        "url": "https://www.instagram.com/explore/tags/%E5%A4%A7%E7%A8%BB%E5%9F%95%E5%85%AC%E5%9C%92/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%A4%A7%E7%A8%BB%E5%9F%95%E5%85%AC%E5%9C%92%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
+    "sourceId": "Attraction_379000000A_002638",
+    "qualityScore": 11,
+    "updatedAt": "2026-06-25T15:29:58+08:00",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 50,
+      "missing": [
+        "官方網站",
+        "明確開放時間",
+        "票價資訊"
+      ]
+    }
+  },
+  {
     "id": "Attraction_382000000A_112154",
     "name": "大羅蘭溪",
     "region": "北部",
@@ -107932,7 +109630,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_379000000A_002639",
     "qualityScore": 11,
-    "updatedAt": "2024-08-22T16:17:01+08:00",
+    "updatedAt": "2026-06-25T15:58:24+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -108142,7 +109840,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_379000000A_002640",
     "qualityScore": 11,
-    "updatedAt": "2024-03-18T17:32:57+08:00",
+    "updatedAt": "2026-06-25T15:59:15+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -114328,7 +116026,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_379000000A_002267",
     "qualityScore": 11,
-    "updatedAt": "2024-03-21T16:33:23+08:00",
+    "updatedAt": "2026-06-25T14:02:20+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -117438,7 +119136,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-5",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.562Z",
+    "updatedAt": "2026-06-25T23:47:42.457Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -117496,7 +119194,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-6",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.564Z",
+    "updatedAt": "2026-06-25T23:47:42.461Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -117556,7 +119254,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-13",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.565Z",
+    "updatedAt": "2026-06-25T23:47:42.462Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -117615,7 +119313,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-14",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.566Z",
+    "updatedAt": "2026-06-25T23:47:42.464Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -117674,7 +119372,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-16",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.567Z",
+    "updatedAt": "2026-06-25T23:47:42.464Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -117733,7 +119431,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-27",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.569Z",
+    "updatedAt": "2026-06-25T23:47:42.467Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -117792,7 +119490,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-31",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.570Z",
+    "updatedAt": "2026-06-25T23:47:42.468Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -117851,7 +119549,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-33",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.571Z",
+    "updatedAt": "2026-06-25T23:47:42.468Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -117911,7 +119609,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-39",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.572Z",
+    "updatedAt": "2026-06-25T23:47:42.469Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -117969,7 +119667,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-113",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.572Z",
+    "updatedAt": "2026-06-25T23:47:42.470Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -118028,7 +119726,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-43",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.573Z",
+    "updatedAt": "2026-06-25T23:47:42.471Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -118087,7 +119785,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-45",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.574Z",
+    "updatedAt": "2026-06-25T23:47:42.471Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -118146,7 +119844,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-46",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.575Z",
+    "updatedAt": "2026-06-25T23:47:42.472Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -118205,7 +119903,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-51",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.576Z",
+    "updatedAt": "2026-06-25T23:47:42.473Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -118264,7 +119962,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-53",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.577Z",
+    "updatedAt": "2026-06-25T23:47:42.474Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -118322,7 +120020,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-85",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.583Z",
+    "updatedAt": "2026-06-25T23:47:42.480Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -118380,7 +120078,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-88",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.584Z",
+    "updatedAt": "2026-06-25T23:47:42.480Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -118438,7 +120136,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-90",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.585Z",
+    "updatedAt": "2026-06-25T23:47:42.481Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -118497,7 +120195,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-95",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.585Z",
+    "updatedAt": "2026-06-25T23:47:42.482Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -118555,7 +120253,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-100",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.586Z",
+    "updatedAt": "2026-06-25T23:47:42.482Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -118614,7 +120312,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-110",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.591Z",
+    "updatedAt": "2026-06-25T23:47:42.487Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -118673,7 +120371,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-128",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.594Z",
+    "updatedAt": "2026-06-25T23:47:42.489Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -118732,7 +120430,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-153",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.601Z",
+    "updatedAt": "2026-06-25T23:47:42.496Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -118791,7 +120489,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-157",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.602Z",
+    "updatedAt": "2026-06-25T23:47:42.497Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -118850,7 +120548,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-160",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.603Z",
+    "updatedAt": "2026-06-25T23:47:42.497Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -118909,7 +120607,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-163",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.604Z",
+    "updatedAt": "2026-06-25T23:47:42.498Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -118968,7 +120666,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-164",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.605Z",
+    "updatedAt": "2026-06-25T23:47:42.499Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -119027,7 +120725,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-165",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.606Z",
+    "updatedAt": "2026-06-25T23:47:42.499Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -119086,7 +120784,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-170",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.607Z",
+    "updatedAt": "2026-06-25T23:47:42.500Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -119145,7 +120843,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-171",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.608Z",
+    "updatedAt": "2026-06-25T23:47:42.501Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -119204,7 +120902,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-172",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.608Z",
+    "updatedAt": "2026-06-25T23:47:42.502Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -119263,7 +120961,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-173",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.609Z",
+    "updatedAt": "2026-06-25T23:47:42.502Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -119322,7 +121020,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-177",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.610Z",
+    "updatedAt": "2026-06-25T23:47:42.503Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -119381,7 +121079,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-178",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.611Z",
+    "updatedAt": "2026-06-25T23:47:42.504Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -119438,7 +121136,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-223",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.631Z",
+    "updatedAt": "2026-06-25T23:47:42.528Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -119497,7 +121195,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-233",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.635Z",
+    "updatedAt": "2026-06-25T23:47:42.532Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -119557,7 +121255,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-250",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.638Z",
+    "updatedAt": "2026-06-25T23:47:42.534Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -119616,7 +121314,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-254",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.638Z",
+    "updatedAt": "2026-06-25T23:47:42.535Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -119676,7 +121374,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-269",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.643Z",
+    "updatedAt": "2026-06-25T23:47:42.540Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -119735,7 +121433,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-284",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.649Z",
+    "updatedAt": "2026-06-25T23:47:42.546Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -119794,7 +121492,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-285",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.649Z",
+    "updatedAt": "2026-06-25T23:47:42.547Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -119853,7 +121551,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-286",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.650Z",
+    "updatedAt": "2026-06-25T23:47:42.548Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -119912,7 +121610,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-287",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.651Z",
+    "updatedAt": "2026-06-25T23:47:42.548Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -119971,7 +121669,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-288",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.651Z",
+    "updatedAt": "2026-06-25T23:47:42.549Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -120030,7 +121728,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-289",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.652Z",
+    "updatedAt": "2026-06-25T23:47:42.550Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -120088,7 +121786,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-290",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.653Z",
+    "updatedAt": "2026-06-25T23:47:42.550Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -120148,7 +121846,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-302",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.656Z",
+    "updatedAt": "2026-06-25T23:47:42.554Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -120208,7 +121906,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-303",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.657Z",
+    "updatedAt": "2026-06-25T23:47:42.554Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -120267,7 +121965,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-304",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.657Z",
+    "updatedAt": "2026-06-25T23:47:42.555Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -120327,7 +122025,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-312",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.659Z",
+    "updatedAt": "2026-06-25T23:47:42.556Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -120386,7 +122084,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-317",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.660Z",
+    "updatedAt": "2026-06-25T23:47:42.558Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -120445,7 +122143,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-323",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.663Z",
+    "updatedAt": "2026-06-25T23:47:42.560Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {

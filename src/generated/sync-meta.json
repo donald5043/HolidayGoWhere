@@ -1,8 +1,8 @@
 {
   "sourceUrl": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
-  "sourceUpdatedAt": "2026-06-25T02:30:56+08:00",
-  "generatedFromSourceAt": "2026-06-25T02:30:56+08:00",
-  "sourceCount": 5959,
+  "sourceUpdatedAt": "2026-06-26T02:30:52+08:00",
+  "generatedFromSourceAt": "2026-06-26T02:30:52+08:00",
+  "sourceCount": 6075,
   "restaurantSourceCount": 3690,
   "restaurantPublishedCount": 2664,
   "restaurantRejected": {
@@ -12,62 +12,62 @@
     "relevance": 0,
     "quality": 828
   },
-  "eventSourceCount": 779,
-  "eventPublishedCount": 216,
+  "eventSourceCount": 781,
+  "eventPublishedCount": 215,
   "eventRejected": {
-    "expired": 487,
+    "expired": 486,
     "coordinate": 1,
-    "duplicate": 14,
-    "relevance": 61
+    "duplicate": 15,
+    "relevance": 64
   },
-  "candidateCount": 6028,
-  "publishedCount": 6028,
+  "candidateCount": 6042,
+  "publishedCount": 6042,
   "featuredCount": 300,
   "regionCounts": {
-    "北部": 1613,
-    "中部": 1879,
-    "南部": 1285,
-    "東部": 748,
+    "北部": 1636,
+    "中部": 1878,
+    "南部": 1279,
+    "東部": 746,
     "離島": 503
   },
   "rejected": {
-    "inactive": 53,
+    "inactive": 144,
     "coordinate": 24,
     "duplicate": 219,
-    "relevance": 2515,
+    "relevance": 2525,
     "quality": 0
   },
   "categoryCounts": {
     "交通迷": 173,
-    "假日散步": 193,
+    "假日散步": 194,
     "動物萌友": 156,
     "咖啡下午茶": 266,
     "室內餐廳": 2027,
-    "探索學習": 233,
-    "本週活動": 216,
+    "探索學習": 238,
+    "本週活動": 215,
     "甜點冰品": 290,
     "百貨商場": 34,
-    "自然放電": 1213,
-    "藝文美感": 335,
-    "親子樂園": 440,
+    "自然放電": 1215,
+    "藝文美感": 338,
+    "親子樂園": 444,
     "親子餐廳": 67,
     "農場體驗": 385
   },
   "amenityCoverage": {
-    "accessibility": 371,
-    "ramp": 21,
+    "accessibility": 375,
+    "ramp": 20,
     "nursingRoom": 352,
-    "diaperTable": 211,
-    "familyRestroom": 68,
-    "parking": 229,
-    "strollerFriendly": 43
+    "diaperTable": 210,
+    "familyRestroom": 70,
+    "parking": 226,
+    "strollerFriendly": 44
   },
   "officialAmenityMatches": {
-    "accessibility": 328,
+    "accessibility": 331,
     "ramp": 0,
     "nursingRoom": 341,
-    "diaperTable": 211,
-    "familyRestroom": 65,
+    "diaperTable": 210,
+    "familyRestroom": 67,
     "parking": 0,
     "strollerFriendly": 0
   },
@@ -75,7 +75,7 @@
     "nursingCount": 3996,
     "toiletCount": 45679,
     "nursingUpdatedAt": "2026-01-26 15:04:48",
-    "toiletUpdatedAt": "2026-06-24 09:09:48",
+    "toiletUpdatedAt": "2026-06-25 09:09:32",
     "sources": [
       {
         "id": 23750,

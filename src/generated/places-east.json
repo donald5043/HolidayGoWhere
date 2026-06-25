@@ -159,7 +159,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_345040000G_000016",
     "qualityScore": 15,
-    "updatedAt": "2026-06-25T00:20:15+08:00",
+    "updatedAt": "2026-06-26T00:20:16+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -748,7 +748,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_345040000G_000018",
     "qualityScore": 12,
-    "updatedAt": "2026-06-25T00:20:15+08:00",
+    "updatedAt": "2026-06-26T00:20:16+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -3326,7 +3326,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_345040000G_000001",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:20:15+08:00",
+    "updatedAt": "2026-06-26T00:20:16+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -3398,7 +3398,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011300H_020612",
     "qualityScore": 13,
-    "updatedAt": "2026-06-24T23:10:09+08:00",
+    "updatedAt": "2026-06-25T23:10:11+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -3465,7 +3465,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011300H_000036",
     "qualityScore": 12,
-    "updatedAt": "2026-06-24T23:10:09+08:00",
+    "updatedAt": "2026-06-25T23:10:11+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -4211,7 +4211,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_345040000G_030026",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:20:15+08:00",
+    "updatedAt": "2026-06-26T00:20:16+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -4297,7 +4297,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_345040000G_000019",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:20:15+08:00",
+    "updatedAt": "2026-06-26T00:20:16+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -4477,7 +4477,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_345040000G_030028",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:20:15+08:00",
+    "updatedAt": "2026-06-26T00:20:16+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -4702,7 +4702,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_345040000G_100031",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:20:15+08:00",
+    "updatedAt": "2026-06-26T00:20:16+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -4841,7 +4841,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011300H_010090",
     "qualityScore": 12,
-    "updatedAt": "2026-06-24T23:10:09+08:00",
+    "updatedAt": "2026-06-25T23:10:11+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -4919,7 +4919,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011300H_010070",
     "qualityScore": 12,
-    "updatedAt": "2026-06-24T23:10:09+08:00",
+    "updatedAt": "2026-06-25T23:10:11+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -5448,7 +5448,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011300H_010069",
     "qualityScore": 13,
-    "updatedAt": "2026-06-24T23:10:09+08:00",
+    "updatedAt": "2026-06-25T23:10:11+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -5532,7 +5532,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_345040000G_030029",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:20:15+08:00",
+    "updatedAt": "2026-06-26T00:20:16+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -5599,7 +5599,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011300H_010092",
     "qualityScore": 12,
-    "updatedAt": "2026-06-24T23:10:09+08:00",
+    "updatedAt": "2026-06-25T23:10:11+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -5739,7 +5739,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011300H_000054",
     "qualityScore": 12,
-    "updatedAt": "2026-06-24T23:10:09+08:00",
+    "updatedAt": "2026-06-25T23:10:11+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -5806,7 +5806,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011300H_010076",
     "qualityScore": 12,
-    "updatedAt": "2026-06-24T23:10:09+08:00",
+    "updatedAt": "2026-06-25T23:10:11+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -6177,78 +6177,6 @@
     }
   },
   {
-    "id": "Event_376540000A_006336",
-    "name": "2026夜探三仙台",
-    "region": "東部",
-    "city": "臺東縣",
-    "district": "成功鎮",
-    "ageMin": 3,
-    "ageMax": 12,
-    "setting": "室外",
-    "duration": "半日",
-    "category": "本週活動",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查官網",
-    "address": "臺東縣成功鎮基翬路74號(三仙台遊憩區)",
-    "hours": "4/1－10/31",
-    "lat": 23.12316,
-    "lng": 121.40667,
-    "image": "https://tour.taitung.gov.tw/image/54982/640x480",
-    "imageCandidates": [],
-    "accent": "#ff6b6b",
-    "description": "「夜探三仙台」於 2026 年 4 月 1 日至 10 月 31 日登場，以暗空探索為主題，帶領旅人以最友善、不打擾生態的方式，走進三仙台遊憩區的夜色之中。當海風變得柔軟、月光落在礫石灘上，夜行小生物便悄悄現身，陸蟹探頭覓食、寄居蟹拖著「小套房」四處巡邏，而剛成年的青蛙更用一首首情歌宣告夏夜的到來。跟著在地導覽老師，以「剛剛好」的光線觀察自然，在星空、浪濤與…",
-    "highlights": [
-      "本週末限定",
-      "期間限定",
-      "親子新鮮事"
-    ],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "官方資料尚未提供停車資訊。",
-      "evidence": []
-    },
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2026%E5%A4%9C%E6%8E%A2%E4%B8%89%E4%BB%99%E5%8F%B0%20%E8%87%BA%E6%9D%B1%E7%B8%A3%E6%88%90%E5%8A%9F%E9%8E%AE%E5%9F%BA%E7%BF%AC%E8%B7%AF74%E8%99%9F(%E4%B8%89%E4%BB%99%E5%8F%B0%E9%81%8A%E6%86%A9%E5%8D%80)",
-    "sources": [
-      {
-        "type": "Instagram",
-        "label": "查看 #2026夜探三仙台",
-        "url": "https://www.instagram.com/explore/tags/2026%E5%A4%9C%E6%8E%A2%E4%B8%89%E4%BB%99%E5%8F%B0/"
-      },
-      {
-        "type": "部落格",
-        "label": "搜尋親子遊記",
-        "url": "https://www.google.com/search?q=2026%E5%A4%9C%E6%8E%A2%E4%B8%89%E4%BB%99%E5%8F%B0%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
-      }
-    ],
-    "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
-    "sourceId": "Event_376540000A_006336",
-    "qualityScore": 10,
-    "updatedAt": "2026-03-23T10:02:30+08:00",
-    "rainyDay": false,
-    "placeType": "活動",
-    "eventStart": "2026-04-01T00:00:00+08:00",
-    "eventEnd": "2026-10-31T23:59:59+08:00",
-    "weekendEvent": true,
-    "completeness": {
-      "score": 50,
-      "missing": [
-        "官方網站",
-        "票價資訊",
-        "親子設施"
-      ]
-    }
-  },
-  {
     "id": "Event_A15010300H_006945",
     "name": "「憩淘鯉魚潭－任務式旅遊行動（走讀・參與・連結）」活動",
     "region": "東部",
@@ -6391,7 +6319,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081641",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": true,
     "placeType": "活動",
     "eventStart": "2025-12-01T00:00:00+08:00",
@@ -6970,7 +6898,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081647",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-01-01T00:00:00+08:00",
@@ -7040,7 +6968,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_376540000A_006264",
     "qualityScore": 10,
-    "updatedAt": "2026-06-08T13:59:50+08:00",
+    "updatedAt": "2026-06-25T14:28:01+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-06-06T18:30:00+08:00",
@@ -7136,7 +7064,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081634",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": true,
     "placeType": "活動",
     "eventStart": "2026-06-21T00:00:00+08:00",
@@ -7355,7 +7283,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15011300H_020611",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T23:10:18+08:00",
+    "updatedAt": "2026-06-25T23:10:20+08:00",
     "rainyDay": true,
     "placeType": "活動",
     "eventStart": "2026-02-09T00:00:00+08:00",
@@ -7426,7 +7354,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_376540000A_006335",
     "qualityScore": 10,
-    "updatedAt": "2026-03-23T09:58:54+08:00",
+    "updatedAt": "2026-06-25T16:55:31+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-04-01T00:00:00+08:00",
@@ -7716,7 +7644,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_376540000A_006267",
     "qualityScore": 10,
-    "updatedAt": "2026-06-01T11:07:14+08:00",
+    "updatedAt": "2026-06-25T17:44:52+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-06-01T00:00:00+08:00",
@@ -7808,7 +7736,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_376540000A_006358",
     "qualityScore": 10,
-    "updatedAt": "2026-05-04T09:44:08+08:00",
+    "updatedAt": "2026-06-25T16:43:07+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-06-21T00:00:00+08:00",
@@ -8026,7 +7954,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_376540000A_006243",
     "qualityScore": 10,
-    "updatedAt": "2026-04-20T11:46:37+08:00",
+    "updatedAt": "2026-06-25T17:23:27+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-04-11T00:00:00+08:00",
@@ -8104,7 +8032,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081687",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-06-06T00:00:00+08:00",
@@ -8892,7 +8820,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011300H_010075",
     "qualityScore": 13,
-    "updatedAt": "2026-06-24T23:10:09+08:00",
+    "updatedAt": "2026-06-25T23:10:11+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -10794,7 +10722,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011300H_010087",
     "qualityScore": 13,
-    "updatedAt": "2026-06-24T23:10:09+08:00",
+    "updatedAt": "2026-06-25T23:10:11+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -11758,7 +11686,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_376420000A_000258",
     "qualityScore": 10,
-    "updatedAt": "2026-06-12T15:35:39+08:00",
+    "updatedAt": "2026-06-25T11:07:37+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-07-18T15:00:00+08:00",
@@ -11829,7 +11757,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081895",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-07-18T00:00:00+08:00",
@@ -11906,7 +11834,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081869",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-08-20T00:00:00+08:00",
@@ -12065,7 +11993,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081718",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": true,
     "placeType": "活動",
     "eventStart": "2026-07-04T00:00:00+08:00",
@@ -12146,7 +12074,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_376420000A_000237",
     "qualityScore": 10,
-    "updatedAt": "2026-05-15T19:21:53+08:00",
+    "updatedAt": "2026-06-25T11:06:57+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-07-04T00:00:00+08:00",
@@ -12218,7 +12146,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081896",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-08-22T00:00:00+08:00",
@@ -12296,7 +12224,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081686",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-07-11T00:00:00+08:00",
@@ -12540,7 +12468,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011300H_010084",
     "qualityScore": 13,
-    "updatedAt": "2026-06-24T23:10:09+08:00",
+    "updatedAt": "2026-06-25T23:10:11+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -12605,7 +12533,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_376540000A_006230",
     "qualityScore": 10,
-    "updatedAt": "2026-06-08T14:04:22+08:00",
+    "updatedAt": "2026-06-25T16:33:56+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-08-07T18:30:00+08:00",
@@ -13678,79 +13606,6 @@
     }
   },
   {
-    "id": "Event_A15010000H_503865",
-    "name": "115年屋拉力部落Ilisin ko 'Olalip豐年祭傳統祭典",
-    "region": "東部",
-    "city": "花蓮縣",
-    "district": "瑞穗鄉",
-    "ageMin": 3,
-    "ageMax": 12,
-    "setting": "室外",
-    "duration": "半日",
-    "category": "本週活動",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "免費",
-    "address": "花蓮縣瑞穗鄉鶴岡村興鶴路一段111號",
-    "hours": "7/31－8/2",
-    "lat": 23.512087,
-    "lng": 121.391785,
-    "image": "https://www.facebook.com/share/p/17eqACNZ1V/",
-    "imageCandidates": [
-      "https://www.facebook.com/share/p/1LiVFoiyia/"
-    ],
-    "accent": "#ff6b6b",
-    "description": "透過年度豐年祭，提升部落觀光文化及產業的遊客觸及率，讓遊客參與文化進而了解當地產業。部落與各機關及公部門，共同傳承傳統文化，增進族群認同及自信心。體驗傳統技藝及技術，承襲祖先生活技能，發揚原住民傳統技藝文化。結合部落周邊自然資源，發展部落文化旅遊路線，部落導覽、野生動植物觀察及傳統河祭體驗等，提升遊客對部落文化的認識。藉由年度豐年祭規劃獨特部落旅遊行程，並結…",
-    "highlights": [
-      "近期活動",
-      "期間限定",
-      "親子新鮮事"
-    ],
-    "facilities": [
-      "停車場",
-      "餐飲"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "confirmed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "路邊",
-      "evidence": []
-    },
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=115%E5%B9%B4%E5%B1%8B%E6%8B%89%E5%8A%9B%E9%83%A8%E8%90%BDIlisin%20ko%20'Olalip%E8%B1%90%E5%B9%B4%E7%A5%AD%E5%82%B3%E7%B5%B1%E7%A5%AD%E5%85%B8%20%E8%8A%B1%E8%93%AE%E7%B8%A3%E7%91%9E%E7%A9%97%E9%84%89%E9%B6%B4%E5%B2%A1%E6%9D%91%E8%88%88%E9%B6%B4%E8%B7%AF%E4%B8%80%E6%AE%B5111%E8%99%9F",
-    "sources": [
-      {
-        "type": "Instagram",
-        "label": "查看 #115年屋拉力部落IlisinkoOlalip豐年祭傳統祭典",
-        "url": "https://www.instagram.com/explore/tags/115%E5%B9%B4%E5%B1%8B%E6%8B%89%E5%8A%9B%E9%83%A8%E8%90%BDIlisinkoOlalip%E8%B1%90%E5%B9%B4%E7%A5%AD%E5%82%B3%E7%B5%B1%E7%A5%AD%E5%85%B8/"
-      },
-      {
-        "type": "部落格",
-        "label": "搜尋親子遊記",
-        "url": "https://www.google.com/search?q=115%E5%B9%B4%E5%B1%8B%E6%8B%89%E5%8A%9B%E9%83%A8%E8%90%BDIlisin%20ko%20'Olalip%E8%B1%90%E5%B9%B4%E7%A5%AD%E5%82%B3%E7%B5%B1%E7%A5%AD%E5%85%B8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
-      }
-    ],
-    "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
-    "sourceId": "Event_A15010000H_503865",
-    "qualityScore": 10,
-    "updatedAt": "2026-06-24T16:37:47+08:00",
-    "rainyDay": false,
-    "placeType": "活動",
-    "eventStart": "2026-07-31T00:00:00+08:00",
-    "eventEnd": "2026-08-02T00:00:00+08:00",
-    "weekendEvent": false,
-    "completeness": {
-      "score": 83,
-      "missing": [
-        "官方網站"
-      ]
-    }
-  },
-  {
     "id": "Event_376540000A_006247",
     "name": "115年度瑪洛阿瀧聯合豐年祭",
     "region": "東部",
@@ -14178,7 +14033,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081897",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-10-17T00:00:00+08:00",
@@ -14250,7 +14105,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081884",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-10-11T00:00:00+08:00",
@@ -14399,7 +14254,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081875",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-07-16T00:00:00+08:00",
@@ -15569,7 +15424,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081719",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-07-04T00:00:00+08:00",
@@ -16100,7 +15955,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_345040000G_020022",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:20:15+08:00",
+    "updatedAt": "2026-06-26T00:20:16+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -16384,7 +16239,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011300H_000034",
     "qualityScore": 12,
-    "updatedAt": "2026-06-24T23:10:09+08:00",
+    "updatedAt": "2026-06-25T23:10:11+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -18406,7 +18261,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_345040000G_100033",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:20:15+08:00",
+    "updatedAt": "2026-06-26T00:20:16+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -18481,7 +18336,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_345040000G_120045",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:20:15+08:00",
+    "updatedAt": "2026-06-26T00:20:16+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -18558,7 +18413,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_345040000G_110035",
     "qualityScore": 12,
-    "updatedAt": "2026-06-25T00:20:15+08:00",
+    "updatedAt": "2026-06-26T00:20:16+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -18769,7 +18624,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011300H_010085",
     "qualityScore": 12,
-    "updatedAt": "2026-06-24T23:10:09+08:00",
+    "updatedAt": "2026-06-25T23:10:11+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -19818,7 +19673,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011300H_010095",
     "qualityScore": 12,
-    "updatedAt": "2026-06-24T23:10:09+08:00",
+    "updatedAt": "2026-06-25T23:10:11+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -22548,7 +22403,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_345040000G_000010",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:20:15+08:00",
+    "updatedAt": "2026-06-26T00:20:16+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -22688,7 +22543,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011300H_010064",
     "qualityScore": 12,
-    "updatedAt": "2026-06-24T23:10:09+08:00",
+    "updatedAt": "2026-06-25T23:10:11+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -22756,7 +22611,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011300H_010086",
     "qualityScore": 12,
-    "updatedAt": "2026-06-24T23:10:09+08:00",
+    "updatedAt": "2026-06-25T23:10:11+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -22824,7 +22679,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011300H_010074",
     "qualityScore": 12,
-    "updatedAt": "2026-06-24T23:10:09+08:00",
+    "updatedAt": "2026-06-25T23:10:11+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -23176,7 +23031,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011300H_010077",
     "qualityScore": 12,
-    "updatedAt": "2026-06-24T23:10:09+08:00",
+    "updatedAt": "2026-06-25T23:10:11+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -25553,7 +25408,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011300H_000026",
     "qualityScore": 6,
-    "updatedAt": "2026-06-24T23:10:14+08:00",
+    "updatedAt": "2026-06-25T23:10:16+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -25769,7 +25624,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011300H_020123",
     "qualityScore": 6,
-    "updatedAt": "2026-06-24T23:10:14+08:00",
+    "updatedAt": "2026-06-25T23:10:16+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -30260,7 +30115,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011300H_010059",
     "qualityScore": 12,
-    "updatedAt": "2026-06-24T23:10:09+08:00",
+    "updatedAt": "2026-06-25T23:10:11+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -30337,7 +30192,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15011300H_010063",
     "qualityScore": 12,
-    "updatedAt": "2026-06-24T23:10:09+08:00",
+    "updatedAt": "2026-06-25T23:10:11+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -31615,7 +31470,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011300H_000033",
     "qualityScore": 4,
-    "updatedAt": "2026-06-24T23:10:14+08:00",
+    "updatedAt": "2026-06-25T23:10:16+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -33218,7 +33073,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011300H_020101",
     "qualityScore": 4,
-    "updatedAt": "2026-06-24T23:10:14+08:00",
+    "updatedAt": "2026-06-25T23:10:16+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -34154,7 +34009,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011300H_020105",
     "qualityScore": 4,
-    "updatedAt": "2026-06-24T23:10:14+08:00",
+    "updatedAt": "2026-06-25T23:10:16+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -34654,7 +34509,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011300H_020106",
     "qualityScore": 4,
-    "updatedAt": "2026-06-24T23:10:14+08:00",
+    "updatedAt": "2026-06-25T23:10:16+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -34725,7 +34580,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15011300H_000022",
     "qualityScore": 4,
-    "updatedAt": "2026-06-24T23:10:14+08:00",
+    "updatedAt": "2026-06-25T23:10:16+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -50490,7 +50345,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_345040000G_120039",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:20:15+08:00",
+    "updatedAt": "2026-06-26T00:20:16+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -54520,7 +54375,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-18",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.567Z",
+    "updatedAt": "2026-06-25T23:47:42.465Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -54578,7 +54433,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-20",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.568Z",
+    "updatedAt": "2026-06-25T23:47:42.466Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -54637,7 +54492,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-52",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.576Z",
+    "updatedAt": "2026-06-25T23:47:42.474Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -54696,7 +54551,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-55",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.578Z",
+    "updatedAt": "2026-06-25T23:47:42.475Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -54754,7 +54609,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-101",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.587Z",
+    "updatedAt": "2026-06-25T23:47:42.483Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -54813,7 +54668,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-102",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.588Z",
+    "updatedAt": "2026-06-25T23:47:42.484Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -54871,7 +54726,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-103",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.589Z",
+    "updatedAt": "2026-06-25T23:47:42.485Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -54930,7 +54785,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-124",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.593Z",
+    "updatedAt": "2026-06-25T23:47:42.489Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -54989,7 +54844,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-188",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.614Z",
+    "updatedAt": "2026-06-25T23:47:42.507Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -55048,7 +54903,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-189",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.615Z",
+    "updatedAt": "2026-06-25T23:47:42.508Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -55107,7 +54962,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-190",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.616Z",
+    "updatedAt": "2026-06-25T23:47:42.510Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -55166,7 +55021,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-191",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.616Z",
+    "updatedAt": "2026-06-25T23:47:42.510Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -55225,7 +55080,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-198",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.619Z",
+    "updatedAt": "2026-06-25T23:47:42.513Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -55284,7 +55139,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-199",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.623Z",
+    "updatedAt": "2026-06-25T23:47:42.513Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -55343,7 +55198,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-218",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.630Z",
+    "updatedAt": "2026-06-25T23:47:42.527Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -55403,7 +55258,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-226",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.632Z",
+    "updatedAt": "2026-06-25T23:47:42.528Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -55462,7 +55317,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-228",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.632Z",
+    "updatedAt": "2026-06-25T23:47:42.529Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -55521,7 +55376,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-243",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.637Z",
+    "updatedAt": "2026-06-25T23:47:42.534Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -55580,7 +55435,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-258",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.639Z",
+    "updatedAt": "2026-06-25T23:47:42.537Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -55639,7 +55494,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-265",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.641Z",
+    "updatedAt": "2026-06-25T23:47:42.538Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -55698,7 +55553,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-276",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.647Z",
+    "updatedAt": "2026-06-25T23:47:42.544Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -55757,7 +55612,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-292",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.654Z",
+    "updatedAt": "2026-06-25T23:47:42.551Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -55817,7 +55672,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-298",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.655Z",
+    "updatedAt": "2026-06-25T23:47:42.552Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -55876,7 +55731,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-322",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.662Z",
+    "updatedAt": "2026-06-25T23:47:42.560Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {

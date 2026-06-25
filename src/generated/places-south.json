@@ -1008,7 +1008,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15010400H_000437",
     "qualityScore": 12,
-    "updatedAt": "2026-06-25T00:15:05+08:00",
+    "updatedAt": "2026-06-26T00:15:04+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -1674,7 +1674,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_345040000G_030025",
     "qualityScore": 15,
-    "updatedAt": "2026-06-25T00:20:15+08:00",
+    "updatedAt": "2026-06-26T00:20:16+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -2786,177 +2786,6 @@
       "missing": [
         "官方網站",
         "明確開放時間",
-        "票價資訊"
-      ]
-    }
-  },
-  {
-    "id": "Attraction_345040000G_000015",
-    "name": "雙流國家森林遊樂區",
-    "region": "南部",
-    "city": "屏東縣",
-    "district": "獅子鄉",
-    "ageMin": 3,
-    "ageMax": 12,
-    "setting": "室外",
-    "duration": "一日",
-    "category": "動物萌友",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查官網",
-    "address": "屏東縣獅子鄉丹路村丹路二巷23號",
-    "hours": "一般營運時間 08:00–17:00",
-    "lat": 22.217671437738247,
-    "lng": 120.79586524766609,
-    "image": "https://recreation.forest.gov.tw/Files/Forest/RA/photo/album/0600003/IMG_2804.JPG",
-    "imageCandidates": [
-      "https://recreation.forest.gov.tw/Files/Forest/RA/photo/album/0600003/01_BASE_02.jpg",
-      "https://recreation.forest.gov.tw/Files/Forest/RA/photo/album/0600003/03_%E6%BF%B1%E6%BA%AA%E6%99%AF%E8%A7%80.jpg",
-      "https://recreation.forest.gov.tw/Files/Forest/RA/photo/album/0600003/06_%E6%A3%AE%E6%9E%97%E6%95%99%E5%AE%A4.JPG"
-    ],
-    "accent": "#f2a65a",
-    "description": "來到雙流國家森林遊樂區，您可以欣賞一樹成林的白榕、徜徉在美麗的人造林內、登上帽子山遠眺，又或者沿著楓港溪上溯，抵達曾被票選為台灣第二美瀑的雙流瀑布，並擁有豐富的負離子及清新的空氣，讓遊客感受不一樣的恆春半島風情。 這裡是屏東縣獅子鄉，距離楓港只有不到半小時車程。「雙流」之名源於此地為楓港溪上游支流達仁溪與內文溪所匯流之處，過去是排灣族的生活區域，在白榕步道上…",
-    "highlights": [
-      "近距離看動物",
-      "自然生態觀察",
-      "親子共遊"
-    ],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "confirmed",
-      "diaperTable": "confirmed",
-      "familyRestroom": "notListed",
-      "parking": "confirmed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "大型車：100元。小型車：50元。",
-      "evidence": [
-        {
-          "amenities": [
-            "nursingRoom"
-          ],
-          "source": "依法應設置哺集乳室公共場所名單",
-          "label": "雙流國家森林遊樂區",
-          "url": "https://data.gov.tw/dataset/23750",
-          "note": "屏東縣獅子鄉草埔村30號・週一~週日0800-1700"
-        },
-        {
-          "amenities": [
-            "diaperTable"
-          ],
-          "source": "全國公廁建檔資料",
-          "label": "雙流國家森林遊樂區遊客中心1F男廁",
-          "url": "https://data.gov.tw/dataset/30794",
-          "note": "男廁所・尿布檯 1 組・距景點約 27 公尺"
-        }
-      ]
-    },
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%9B%99%E6%B5%81%E5%9C%8B%E5%AE%B6%E6%A3%AE%E6%9E%97%E9%81%8A%E6%A8%82%E5%8D%80%20%E5%B1%8F%E6%9D%B1%E7%B8%A3%E7%8D%85%E5%AD%90%E9%84%89%E4%B8%B9%E8%B7%AF%E6%9D%91%E4%B8%B9%E8%B7%AF%E4%BA%8C%E5%B7%B723%E8%99%9F",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "查看官方資訊",
-        "url": "https://recreation.forest.gov.tw/Forest/RA?typ_id=0600003"
-      },
-      {
-        "type": "Instagram",
-        "label": "查看 #雙流國家森林遊樂區",
-        "url": "https://www.instagram.com/explore/tags/%E9%9B%99%E6%B5%81%E5%9C%8B%E5%AE%B6%E6%A3%AE%E6%9E%97%E9%81%8A%E6%A8%82%E5%8D%80/"
-      },
-      {
-        "type": "部落格",
-        "label": "搜尋親子遊記",
-        "url": "https://www.google.com/search?q=%E9%9B%99%E6%B5%81%E5%9C%8B%E5%AE%B6%E6%A3%AE%E6%9E%97%E9%81%8A%E6%A8%82%E5%8D%80%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
-      }
-    ],
-    "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
-    "sourceId": "Attraction_345040000G_000015",
-    "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:20:15+08:00",
-    "rainyDay": false,
-    "placeType": "景點",
-    "completeness": {
-      "score": 83,
-      "missing": [
-        "票價資訊"
-      ]
-    }
-  },
-  {
-    "id": "Attraction_345040000G_020021",
-    "name": "林後四林平地森林園區",
-    "region": "南部",
-    "city": "屏東縣",
-    "district": "潮州鎮",
-    "ageMin": 2,
-    "ageMax": 12,
-    "setting": "室外",
-    "duration": "半日",
-    "category": "親子樂園",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查官網",
-    "address": "屏東縣潮州鎮潮義路221之1",
-    "hours": "一般營運時間 08:00–17:00",
-    "lat": 22.538688964144093,
-    "lng": 120.59040598088522,
-    "image": "https://recreation.forest.gov.tw/Files/Forest/FP/photo/album/06001/06001_PHOTO_5-1-1.jpg",
-    "imageCandidates": [
-      "https://recreation.forest.gov.tw/Files/Forest/FP/photo/album/06001/06001202407161.jpg",
-      "https://recreation.forest.gov.tw/Files/Forest/FP/photo/album/06001/06001202407160.JPG",
-      "https://recreation.forest.gov.tw/Files/Forest/FP/photo/album/06001/06001_PHOTO_5-1-5.JPG"
-    ],
-    "accent": "#ff8066",
-    "description": "「林後四林平地森林園區」位處屏東縣潮州鎮，為政府愛台12建設─綠色造林計畫中，所評選出三處平地森林園區的地點之一。園區期望運用森林遊憩結合綠色造林的概念，搭配符合生態、節能、減碳、健康的低密度、綠建築設計，創造一個能作為環境教育的完整生態體系，教導民眾及學童對資源環境的尊重、對生態的概念及對生活的態度；並融合屏東當地的環境特色、歷史文化、地方產業，帶動屏東地…",
-    "highlights": [
-      "兒童遊戲空間",
-      "DIY 手作",
-      "假日同樂"
-    ],
-    "facilities": [
-      "餐飲"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "官方資料尚未提供停車資訊。",
-      "evidence": []
-    },
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9E%97%E5%BE%8C%E5%9B%9B%E6%9E%97%E5%B9%B3%E5%9C%B0%E6%A3%AE%E6%9E%97%E5%9C%92%E5%8D%80%20%E5%B1%8F%E6%9D%B1%E7%B8%A3%E6%BD%AE%E5%B7%9E%E9%8E%AE%E6%BD%AE%E7%BE%A9%E8%B7%AF221%E4%B9%8B1",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "查看官方資訊",
-        "url": "https://recreation.forest.gov.tw/Forest/FP?typ_id=06001"
-      },
-      {
-        "type": "Instagram",
-        "label": "查看 #林後四林平地森林園區",
-        "url": "https://www.instagram.com/explore/tags/%E6%9E%97%E5%BE%8C%E5%9B%9B%E6%9E%97%E5%B9%B3%E5%9C%B0%E6%A3%AE%E6%9E%97%E5%9C%92%E5%8D%80/"
-      },
-      {
-        "type": "部落格",
-        "label": "搜尋親子遊記",
-        "url": "https://www.google.com/search?q=%E6%9E%97%E5%BE%8C%E5%9B%9B%E6%9E%97%E5%B9%B3%E5%9C%B0%E6%A3%AE%E6%9E%97%E5%9C%92%E5%8D%80%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
-      }
-    ],
-    "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
-    "sourceId": "Attraction_345040000G_020021",
-    "qualityScore": 15,
-    "updatedAt": "2026-06-25T00:20:15+08:00",
-    "rainyDay": false,
-    "placeType": "景點",
-    "completeness": {
-      "score": 83,
-      "missing": [
         "票價資訊"
       ]
     }
@@ -4719,94 +4548,6 @@
     }
   },
   {
-    "id": "Attraction_345040000G_000012",
-    "name": "阿里山國家森林遊樂區",
-    "region": "南部",
-    "city": "嘉義縣",
-    "district": "阿里山鄉",
-    "ageMin": 4,
-    "ageMax": 12,
-    "setting": "室內外",
-    "duration": "晚上",
-    "category": "探索學習",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查官網",
-    "address": "嘉義縣阿里山鄉中正村59號",
-    "hours": "一般營運時間 00:00–23:59",
-    "lat": 23.50881989610119,
-    "lng": 120.80199592702066,
-    "image": "https://recreation.forest.gov.tw/Files/Forest/RA/photo/album/0500001/0500001202510230.jpg",
-    "imageCandidates": [
-      "https://recreation.forest.gov.tw/Files/Forest/RA/photo/album/0500001/03_%E9%98%BF%E9%87%8C%E5%B1%B1%E5%9C%8B%E5%AE%B6%E6%A3%AE%E6%9E%97%E9%81%8A%E6%A8%82%E5%8D%80.jpg",
-      "https://recreation.forest.gov.tw/Files/Forest/RA/photo/album/0500001/06_BASE_02.jpg",
-      "https://recreation.forest.gov.tw/Files/Forest/RA/photo/album/0500001/07_BASE_03.jpg"
-    ],
-    "accent": "#6a8dff",
-    "description": "阿里山國家森林遊樂區擁有森林小火車、神木、雲海、日出與晚霞「五奇」景致，是台灣最具知名、也最受歡迎的森林遊樂區，是阿里山山脈上的一枚翡翠，閃著耀眼的光芒。 阿里山林業鐵路為著名的高山觀光森林鐵道，您可以至嘉義火車站搭乘森林小火車，一路輕晃享盡森林風情前往終點站阿里山(林業鐵路由阿里山林業鐵路及文化資產管理處轄管，林業鐵路本線及支線已全線通車)。又或者駕車沿台…",
-    "highlights": [
-      "互動探索",
-      "寓教於樂",
-      "主題展覽"
-    ],
-    "facilities": [
-      "推車友善",
-      "停車場",
-      "無障礙"
-    ],
-    "familyAmenities": {
-      "accessibility": "confirmed",
-      "ramp": "confirmed",
-      "nursingRoom": "confirmed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "confirmed",
-      "strollerFriendly": "confirmed",
-      "parkingInfo": "小型車：100元，包含大型重型機車。機車：20元。",
-      "evidence": [
-        {
-          "amenities": [
-            "nursingRoom"
-          ],
-          "source": "依法應設置哺集乳室公共場所名單",
-          "label": "阿里山旅客服務中心",
-          "url": "https://data.gov.tw/dataset/23750",
-          "note": "嘉義縣阿里山鄉中正村59號・週一至週五8:00-17:00"
-        }
-      ]
-    },
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%98%BF%E9%87%8C%E5%B1%B1%E5%9C%8B%E5%AE%B6%E6%A3%AE%E6%9E%97%E9%81%8A%E6%A8%82%E5%8D%80%20%E5%98%89%E7%BE%A9%E7%B8%A3%E9%98%BF%E9%87%8C%E5%B1%B1%E9%84%89%E4%B8%AD%E6%AD%A3%E6%9D%9159%E8%99%9F",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "查看官方資訊",
-        "url": "https://recreation.forest.gov.tw/Forest/RA?typ_id=0500001"
-      },
-      {
-        "type": "Instagram",
-        "label": "阿里山國家森林遊樂區",
-        "url": "https://www.instagram.com/alishanforest/"
-      },
-      {
-        "type": "部落格",
-        "label": "搜尋親子遊記",
-        "url": "https://www.google.com/search?q=%E9%98%BF%E9%87%8C%E5%B1%B1%E5%9C%8B%E5%AE%B6%E6%A3%AE%E6%9E%97%E9%81%8A%E6%A8%82%E5%8D%80%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
-      }
-    ],
-    "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
-    "sourceId": "Attraction_345040000G_000012",
-    "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:20:15+08:00",
-    "rainyDay": true,
-    "placeType": "景點",
-    "completeness": {
-      "score": 83,
-      "missing": [
-        "票價資訊"
-      ]
-    }
-  },
-  {
     "id": "Attraction_345040000G_020020",
     "name": "鰲鼓濕地森林園區",
     "region": "南部",
@@ -4882,7 +4623,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_345040000G_020020",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:20:15+08:00",
+    "updatedAt": "2026-06-26T00:20:16+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -5879,7 +5620,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15010400H_000496",
     "qualityScore": 12,
-    "updatedAt": "2026-06-25T00:15:05+08:00",
+    "updatedAt": "2026-06-26T00:15:04+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -6422,7 +6163,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15010400H_000429",
     "qualityScore": 14,
-    "updatedAt": "2026-06-25T00:15:05+08:00",
+    "updatedAt": "2026-06-26T00:15:04+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -6504,91 +6245,6 @@
     "completeness": {
       "score": 100,
       "missing": []
-    }
-  },
-  {
-    "id": "Attraction_345040000G_120038",
-    "name": "阿里山生態教育館",
-    "region": "南部",
-    "city": "嘉義縣",
-    "district": "阿里山鄉",
-    "ageMin": 4,
-    "ageMax": 12,
-    "setting": "室內外",
-    "duration": "一日",
-    "category": "探索學習",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查官網",
-    "address": "嘉義縣阿里山鄉中正村68號",
-    "hours": "一般營運時間 08:30–16:30",
-    "lat": 23.513384410905786,
-    "lng": 120.81278023411129,
-    "image": "https://recreation.forest.gov.tw/Files/Education/EE/Album/ALS/02_%E4%B8%80%E8%91%89%E8%98%AD%E9%99%B3%E5%9D%A4%E5%BF%97.jpg",
-    "imageCandidates": [
-      "https://recreation.forest.gov.tw/Files/Education/EE/Album/ALS/04_%E9%98%BF%E9%87%8C%E5%B1%B1%E5%B1%B1%E6%A4%92%E9%AD%9A_%E6%98%8E%E5%AD%B8.JPG",
-      "https://recreation.forest.gov.tw/Files/Education/EE/Album/ALS/01_%E9%98%BF%E9%87%8C%E5%B1%B1%E7%94%9F%E6%85%8B%E6%95%99%E8%82%B2%E9%A4%A8.JPG"
-    ],
-    "accent": "#6a8dff",
-    "description": "為宣導自然保育觀念及讓遊客認識阿里山自然生態，林業及自然保育署嘉義分署利用舊阿里山工作站及其他舊建物重新規劃整建成阿里山生態教育館、森記．事 Forest Era｜林業故事館及山記．畫 A-lí-san｜山野創作館。建物位於阿里山國家森林遊樂區範圍內，館內展示內容含鄒族與高山植物介紹、林業歷史、山林文化到文學藝術，帶領遊客重新認識阿里山在人與自然關係中的多重…",
-    "highlights": [
-      "互動探索",
-      "寓教於樂",
-      "主題展覽"
-    ],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "confirmed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "官方資料尚未提供停車資訊。",
-      "evidence": [
-        {
-          "amenities": [
-            "accessibility"
-          ],
-          "source": "全國公廁建檔資料",
-          "label": "阿里山生態教育館-無障礙廁所",
-          "url": "https://data.gov.tw/dataset/30794",
-          "note": "無障礙廁所・距景點約 73 公尺"
-        }
-      ]
-    },
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%98%BF%E9%87%8C%E5%B1%B1%E7%94%9F%E6%85%8B%E6%95%99%E8%82%B2%E9%A4%A8%20%E5%98%89%E7%BE%A9%E7%B8%A3%E9%98%BF%E9%87%8C%E5%B1%B1%E9%84%89%E4%B8%AD%E6%AD%A3%E6%9D%9168%E8%99%9F",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "查看官方資訊",
-        "url": "https://recreation.forest.gov.tw/Education/EE?typ_id=ALS"
-      },
-      {
-        "type": "Instagram",
-        "label": "查看 #阿里山生態教育館",
-        "url": "https://www.instagram.com/explore/tags/%E9%98%BF%E9%87%8C%E5%B1%B1%E7%94%9F%E6%85%8B%E6%95%99%E8%82%B2%E9%A4%A8/"
-      },
-      {
-        "type": "部落格",
-        "label": "搜尋親子遊記",
-        "url": "https://www.google.com/search?q=%E9%98%BF%E9%87%8C%E5%B1%B1%E7%94%9F%E6%85%8B%E6%95%99%E8%82%B2%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
-      }
-    ],
-    "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
-    "sourceId": "Attraction_345040000G_120038",
-    "qualityScore": 12,
-    "updatedAt": "2026-06-25T00:20:15+08:00",
-    "rainyDay": true,
-    "placeType": "景點",
-    "completeness": {
-      "score": 83,
-      "missing": [
-        "票價資訊"
-      ]
     }
   },
   {
@@ -7224,7 +6880,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15010400H_000505",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:15:05+08:00",
+    "updatedAt": "2026-06-26T00:15:04+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -7301,7 +6957,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15011200H_014372",
     "qualityScore": 10,
-    "updatedAt": "2026-06-17T15:54:22+08:00",
+    "updatedAt": "2026-06-25T17:28:57+08:00",
     "rainyDay": true,
     "placeType": "活動",
     "eventStart": "2026-06-11T00:00:00+08:00",
@@ -7523,7 +7179,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15010400H_000500",
     "qualityScore": 12,
-    "updatedAt": "2026-06-25T00:15:05+08:00",
+    "updatedAt": "2026-06-26T00:15:04+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -7888,7 +7544,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081658",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-04-30T00:00:00+08:00",
@@ -9234,7 +8890,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081887",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-03-01T00:00:00+08:00",
@@ -9310,7 +8966,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081724",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-03-01T00:00:00+08:00",
@@ -9744,7 +9400,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081692",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-05-02T00:00:00+08:00",
@@ -10941,7 +10597,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15010400H_000441",
     "qualityScore": 12,
-    "updatedAt": "2026-06-25T00:15:05+08:00",
+    "updatedAt": "2026-06-26T00:15:04+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -12595,7 +12251,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081709",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-10-01T00:00:00+08:00",
@@ -12912,92 +12568,6 @@
     }
   },
   {
-    "id": "Attraction_345040000G_030030",
-    "name": "雙流自然教育中心",
-    "region": "南部",
-    "city": "屏東縣",
-    "district": "獅子鄉",
-    "ageMin": 3,
-    "ageMax": 12,
-    "setting": "室內外",
-    "duration": "一日",
-    "category": "自然放電",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查官網",
-    "address": "屏東縣獅子鄉丹路村丹路2巷23號",
-    "hours": "一般營運時間 08:00–17:00",
-    "lat": 22.217531311415826,
-    "lng": 120.79938650633453,
-    "image": "https://recreation.forest.gov.tw/Files/Education/NC/Album/SL/01_IMG_6166.JPG",
-    "imageCandidates": [
-      "https://recreation.forest.gov.tw/Files/Education/NC/Album/SL/03_DSCN4043.JPG",
-      "https://recreation.forest.gov.tw/Files/Education/NC/Album/SL/05_IMG_0501.JPG",
-      "https://recreation.forest.gov.tw/Files/Education/NC/Album/SL/02_%E4%B8%80%E5%90%8C%E5%8E%BB%E9%83%8A%E9%81%8A3.jpg"
-    ],
-    "accent": "#42b883",
-    "description": "穿梭熱帶季風林，順沿溪流訪瀑布，探索生態樂學習，看見土地與人永續共存。 雙流國家森林遊樂區地處中央山脈與恒春半島之間的山區，內文溪貫穿其間，地形和水域多元的變化，造就兼具熱帶雨林、亞熱帶雨林、熱帶季風雨林、暖溫帶森林之複雜林相及多樣性物種等生態特色。此地亦為排灣族聚落之所在，區內仍可見該原住民族的人文遺蹟。",
-    "highlights": [
-      "戶外散步",
-      "自然觀察",
-      "親子放電"
-    ],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "confirmed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "官方資料尚未提供停車資訊。",
-      "evidence": [
-        {
-          "amenities": [
-            "diaperTable"
-          ],
-          "source": "全國公廁建檔資料",
-          "label": "林業及自然保育署屏東分署雙流國家森林遊樂區-森林教室公廁(女廁所)",
-          "url": "https://data.gov.tw/dataset/30794",
-          "note": "女廁所・尿布檯 1 組・距景點約 748 公尺"
-        }
-      ]
-    },
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%9B%99%E6%B5%81%E8%87%AA%E7%84%B6%E6%95%99%E8%82%B2%E4%B8%AD%E5%BF%83%20%E5%B1%8F%E6%9D%B1%E7%B8%A3%E7%8D%85%E5%AD%90%E9%84%89%E4%B8%B9%E8%B7%AF%E6%9D%91%E4%B8%B9%E8%B7%AF2%E5%B7%B723%E8%99%9F",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "查看官方資訊",
-        "url": "https://recreation.forest.gov.tw/Education/NC?typ_id=SL"
-      },
-      {
-        "type": "Instagram",
-        "label": "shuangliu_nature_center",
-        "url": "https://www.instagram.com/shuangliu_nature_center"
-      },
-      {
-        "type": "部落格",
-        "label": "搜尋親子遊記",
-        "url": "https://www.google.com/search?q=%E9%9B%99%E6%B5%81%E8%87%AA%E7%84%B6%E6%95%99%E8%82%B2%E4%B8%AD%E5%BF%83%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
-      }
-    ],
-    "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
-    "sourceId": "Attraction_345040000G_030030",
-    "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:20:15+08:00",
-    "rainyDay": true,
-    "placeType": "景點",
-    "completeness": {
-      "score": 83,
-      "missing": [
-        "票價資訊"
-      ]
-    }
-  },
-  {
     "id": "Event_A15010000H_081937",
     "name": "2026仙境西拉雅 環騎5COOL自行車系列活動",
     "region": "南部",
@@ -13069,7 +12639,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081937",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": true,
     "placeType": "活動",
     "eventStart": "2026-07-01T00:00:00+08:00",
@@ -13144,7 +12714,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081700",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-07-18T00:00:00+08:00",
@@ -13218,7 +12788,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A25000000E_000110",
     "qualityScore": 12,
-    "updatedAt": "2026-03-06T11:53:24+08:00",
+    "updatedAt": "2026-06-25T11:17:59+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -14700,7 +14270,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081879",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-08-01T00:00:00+08:00",
@@ -15715,7 +15285,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081666",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-08-01T00:00:00+08:00",
@@ -15791,7 +15361,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081456",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-10-02T00:00:00+08:00",
@@ -15867,7 +15437,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081673",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-10-04T00:00:00+08:00",
@@ -15939,7 +15509,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081682",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-10-04T00:00:00+08:00",
@@ -16011,7 +15581,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081730",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-08-01T00:00:00+08:00",
@@ -16161,7 +15731,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081881",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-09-19T00:00:00+08:00",
@@ -16232,7 +15802,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15010400H_000438",
     "qualityScore": 14,
-    "updatedAt": "2026-06-25T00:15:05+08:00",
+    "updatedAt": "2026-06-26T00:15:04+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -16301,7 +15871,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081696",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-09-22T00:00:00+08:00",
@@ -16378,7 +15948,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081697",
     "qualityScore": 10,
-    "updatedAt": "2026-06-24T02:00:05+08:00",
+    "updatedAt": "2026-06-25T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-10-09T00:00:00+08:00",
@@ -16815,7 +16385,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15010400H_000483",
     "qualityScore": 12,
-    "updatedAt": "2026-06-25T00:15:05+08:00",
+    "updatedAt": "2026-06-26T00:15:04+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -18971,7 +18541,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15010400H_000693",
     "qualityScore": 11,
-    "updatedAt": "2026-06-25T00:15:06+08:00",
+    "updatedAt": "2026-06-26T00:15:07+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -19178,7 +18748,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15010400H_000490",
     "qualityScore": 12,
-    "updatedAt": "2026-06-25T00:15:05+08:00",
+    "updatedAt": "2026-06-26T00:15:04+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -19247,7 +18817,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15010400H_000433",
     "qualityScore": 12,
-    "updatedAt": "2026-06-25T00:15:05+08:00",
+    "updatedAt": "2026-06-26T00:15:04+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -27747,7 +27317,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15010400H_000688",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T00:15:06+08:00",
+    "updatedAt": "2026-06-26T00:15:07+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -28391,7 +27961,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15010400H_000687",
     "qualityScore": 8,
-    "updatedAt": "2026-06-25T00:15:06+08:00",
+    "updatedAt": "2026-06-26T00:15:07+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -28465,7 +28035,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15010400H_000690",
     "qualityScore": 8,
-    "updatedAt": "2026-06-25T00:15:06+08:00",
+    "updatedAt": "2026-06-26T00:15:07+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -28678,7 +28248,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15010400H_000694",
     "qualityScore": 8,
-    "updatedAt": "2026-06-25T00:15:06+08:00",
+    "updatedAt": "2026-06-26T00:15:07+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -29371,7 +28941,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15010400H_000482",
     "qualityScore": 14,
-    "updatedAt": "2026-06-25T00:15:05+08:00",
+    "updatedAt": "2026-06-26T00:15:04+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -29515,7 +29085,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15010400H_000484",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:15:05+08:00",
+    "updatedAt": "2026-06-26T00:15:04+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -29668,7 +29238,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15010400H_000428",
     "qualityScore": 12,
-    "updatedAt": "2026-06-25T00:15:05+08:00",
+    "updatedAt": "2026-06-26T00:15:04+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -29806,7 +29376,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15010400H_000488",
     "qualityScore": 12,
-    "updatedAt": "2026-06-25T00:15:05+08:00",
+    "updatedAt": "2026-06-26T00:15:04+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -29875,7 +29445,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15010400H_000491",
     "qualityScore": 12,
-    "updatedAt": "2026-06-25T00:15:05+08:00",
+    "updatedAt": "2026-06-26T00:15:04+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -30013,7 +29583,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15010400H_000502",
     "qualityScore": 12,
-    "updatedAt": "2026-06-25T00:15:05+08:00",
+    "updatedAt": "2026-06-26T00:15:04+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -30093,7 +29663,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15010400H_000449",
     "qualityScore": 12,
-    "updatedAt": "2026-06-25T00:15:05+08:00",
+    "updatedAt": "2026-06-26T00:15:04+08:00",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -35117,7 +34687,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15010400H_000619",
     "qualityScore": 6,
-    "updatedAt": "2026-06-25T00:15:06+08:00",
+    "updatedAt": "2026-06-26T00:15:07+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -35186,7 +34756,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15010400H_000629",
     "qualityScore": 6,
-    "updatedAt": "2026-06-25T00:15:06+08:00",
+    "updatedAt": "2026-06-26T00:15:07+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -35618,7 +35188,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15010400H_000622",
     "qualityScore": 6,
-    "updatedAt": "2026-06-25T00:15:06+08:00",
+    "updatedAt": "2026-06-26T00:15:07+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -35758,7 +35328,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15010400H_000618",
     "qualityScore": 6,
-    "updatedAt": "2026-06-25T00:15:06+08:00",
+    "updatedAt": "2026-06-26T00:15:07+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -61384,7 +60954,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15010400H_000611",
     "qualityScore": 5,
-    "updatedAt": "2026-06-25T00:15:06+08:00",
+    "updatedAt": "2026-06-26T00:15:07+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -66359,83 +65929,6 @@
     }
   },
   {
-    "id": "Attraction_345040000G_110037",
-    "name": "阿里山林業鐵路",
-    "region": "南部",
-    "city": "嘉義市",
-    "district": "東區",
-    "ageMin": 6,
-    "ageMax": 12,
-    "setting": "室外",
-    "duration": "半日",
-    "category": "自然放電",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查官網",
-    "address": "嘉義市東區文化路308號",
-    "hours": "一般營運時間 08:30–16:30",
-    "lat": 23.510150167316514,
-    "lng": 120.80424611548952,
-    "image": "https://recreation.forest.gov.tw/Files/Forestry/FR/photo/album/0900041/01_BASE_01.jpg",
-    "imageCandidates": [
-      "https://recreation.forest.gov.tw/Files/Forestry/FR/photo/album/0900041/02_BASE_02.jpg",
-      "https://recreation.forest.gov.tw/Files/Forestry/FR/photo/album/0900041/03_BASE_03.jpg",
-      "https://recreation.forest.gov.tw/Files/Forestry/FR/photo/album/0900041/04_BASE_04.jpg"
-    ],
-    "accent": "#42b883",
-    "description": "阿里山林業鐵路係日據時期為開採森林資源而鋪設的產業鐵道，全線分為本線及支線，沿途歷經熱、暖、溫帶三種林相，自海拔30公尺的嘉義站，一路爬升至海拔2,216公尺的阿里山站。此外，旅客還可以在清晨時分搭乘祝山線小火車，前往臺灣最高海拔車站－祝山站(2,451公尺)，欣賞聞名遐邇的阿里山日出。 阿里山林業鐵路為克服險惡地形，擁有登山鐵路五大工法其中四項，包括螺旋式…",
-    "highlights": [
-      "戶外散步",
-      "自然觀察",
-      "親子放電"
-    ],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "官方資料尚未提供停車資訊。",
-      "evidence": []
-    },
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%98%BF%E9%87%8C%E5%B1%B1%E6%9E%97%E6%A5%AD%E9%90%B5%E8%B7%AF%20%E5%98%89%E7%BE%A9%E5%B8%82%E6%9D%B1%E5%8D%80%E6%96%87%E5%8C%96%E8%B7%AF308%E8%99%9F",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "查看官方資訊",
-        "url": "https://recreation.forest.gov.tw/Forestry/FR?typ_id=0900041"
-      },
-      {
-        "type": "Instagram",
-        "label": "阿里山林業鐵路及文化資產管理處",
-        "url": "https://www.instagram.com/afrchoforest/"
-      },
-      {
-        "type": "部落格",
-        "label": "搜尋親子遊記",
-        "url": "https://www.google.com/search?q=%E9%98%BF%E9%87%8C%E5%B1%B1%E6%9E%97%E6%A5%AD%E9%90%B5%E8%B7%AF%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
-      }
-    ],
-    "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
-    "sourceId": "Attraction_345040000G_110037",
-    "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:20:15+08:00",
-    "rainyDay": false,
-    "placeType": "景點",
-    "completeness": {
-      "score": 67,
-      "missing": [
-        "票價資訊",
-        "親子設施"
-      ]
-    }
-  },
-  {
     "id": "Attraction_A25000000E_000085",
     "name": "島呼冊店",
     "region": "南部",
@@ -67196,7 +66689,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15010400H_000631",
     "qualityScore": 4,
-    "updatedAt": "2026-06-25T00:15:06+08:00",
+    "updatedAt": "2026-06-26T00:15:07+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -68044,7 +67537,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15010400H_000627",
     "qualityScore": 4,
-    "updatedAt": "2026-06-25T00:15:06+08:00",
+    "updatedAt": "2026-06-26T00:15:07+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -68404,7 +67897,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15010400H_000616",
     "qualityScore": 4,
-    "updatedAt": "2026-06-25T00:15:06+08:00",
+    "updatedAt": "2026-06-26T00:15:07+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -68634,7 +68127,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15010400H_000617",
     "qualityScore": 4,
-    "updatedAt": "2026-06-25T00:15:06+08:00",
+    "updatedAt": "2026-06-26T00:15:07+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -68704,7 +68197,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15010400H_000615",
     "qualityScore": 4,
-    "updatedAt": "2026-06-25T00:15:06+08:00",
+    "updatedAt": "2026-06-26T00:15:07+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -69489,7 +68982,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15010400H_000624",
     "qualityScore": 4,
-    "updatedAt": "2026-06-25T00:15:06+08:00",
+    "updatedAt": "2026-06-26T00:15:07+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -69629,7 +69122,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15010400H_000628",
     "qualityScore": 4,
-    "updatedAt": "2026-06-25T00:15:06+08:00",
+    "updatedAt": "2026-06-26T00:15:07+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -70435,7 +69928,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15010400H_000626",
     "qualityScore": 4,
-    "updatedAt": "2026-06-25T00:15:06+08:00",
+    "updatedAt": "2026-06-26T00:15:07+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "completeness": {
@@ -85202,7 +84695,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15010400H_000467",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:15:05+08:00",
+    "updatedAt": "2026-06-26T00:15:04+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -85351,7 +84844,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15010400H_000469",
     "qualityScore": 13,
-    "updatedAt": "2026-06-25T00:15:05+08:00",
+    "updatedAt": "2026-06-26T00:15:04+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -85567,7 +85060,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15010400H_000451",
     "qualityScore": 12,
-    "updatedAt": "2026-06-25T00:15:05+08:00",
+    "updatedAt": "2026-06-26T00:15:04+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -85637,7 +85130,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15010400H_000501",
     "qualityScore": 12,
-    "updatedAt": "2026-06-25T00:15:05+08:00",
+    "updatedAt": "2026-06-26T00:15:04+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -85705,7 +85198,7 @@
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
     "sourceId": "Attraction_A15010400H_000457",
     "qualityScore": 12,
-    "updatedAt": "2026-06-25T00:15:05+08:00",
+    "updatedAt": "2026-06-26T00:15:04+08:00",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -92592,7 +92085,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-80",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.581Z",
+    "updatedAt": "2026-06-25T23:47:42.477Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -92651,7 +92144,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-81",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.582Z",
+    "updatedAt": "2026-06-25T23:47:42.478Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -92710,7 +92203,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-83",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.582Z",
+    "updatedAt": "2026-06-25T23:47:42.479Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -92769,7 +92262,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-109",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.590Z",
+    "updatedAt": "2026-06-25T23:47:42.486Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -92828,7 +92321,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-115",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.592Z",
+    "updatedAt": "2026-06-25T23:47:42.487Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -92887,7 +92380,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-180",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.611Z",
+    "updatedAt": "2026-06-25T23:47:42.504Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -92946,7 +92439,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-181",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.612Z",
+    "updatedAt": "2026-06-25T23:47:42.505Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -93005,7 +92498,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-183",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.613Z",
+    "updatedAt": "2026-06-25T23:47:42.506Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -93064,7 +92557,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-195",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.617Z",
+    "updatedAt": "2026-06-25T23:47:42.511Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -93123,7 +92616,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-197",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.618Z",
+    "updatedAt": "2026-06-25T23:47:42.512Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -93182,7 +92675,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-200",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.624Z",
+    "updatedAt": "2026-06-25T23:47:42.514Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -93241,7 +92734,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-203",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.624Z",
+    "updatedAt": "2026-06-25T23:47:42.515Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -93300,7 +92793,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-205",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.625Z",
+    "updatedAt": "2026-06-25T23:47:42.522Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -93358,7 +92851,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-206",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.626Z",
+    "updatedAt": "2026-06-25T23:47:42.524Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -93416,7 +92909,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-217",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.629Z",
+    "updatedAt": "2026-06-25T23:47:42.526Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -93475,7 +92968,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-229",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.633Z",
+    "updatedAt": "2026-06-25T23:47:42.530Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -93534,7 +93027,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-230",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.634Z",
+    "updatedAt": "2026-06-25T23:47:42.530Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -93592,7 +93085,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-235",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.636Z",
+    "updatedAt": "2026-06-25T23:47:42.533Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -93651,7 +93144,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-256",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.639Z",
+    "updatedAt": "2026-06-25T23:47:42.536Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -93710,7 +93203,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-262",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.640Z",
+    "updatedAt": "2026-06-25T23:47:42.538Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -93770,7 +93263,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-273",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.645Z",
+    "updatedAt": "2026-06-25T23:47:42.543Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -93829,7 +93322,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-277",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.647Z",
+    "updatedAt": "2026-06-25T23:47:42.545Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -93888,7 +93381,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-297",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.654Z",
+    "updatedAt": "2026-06-25T23:47:42.552Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -93947,7 +93440,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-299",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.655Z",
+    "updatedAt": "2026-06-25T23:47:42.553Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -94006,7 +93499,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-306",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.658Z",
+    "updatedAt": "2026-06-25T23:47:42.556Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -94065,7 +93558,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-316",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.659Z",
+    "updatedAt": "2026-06-25T23:47:42.557Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
@@ -94124,7 +93617,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-319",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.661Z",
+    "updatedAt": "2026-06-25T23:47:42.558Z",
     "rainyDay": false,
     "placeType": "景點",
     "completeness": {
@@ -94183,7 +93676,7 @@
     "dataSource": "人工精選景點",
     "sourceId": "curated-seed-320",
     "qualityScore": 10,
-    "updatedAt": "2026-06-25T14:17:33.661Z",
+    "updatedAt": "2026-06-25T23:47:42.559Z",
     "rainyDay": true,
     "placeType": "景點",
     "completeness": {
