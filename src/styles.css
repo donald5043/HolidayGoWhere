@@ -9,36 +9,27 @@
   font-synthesis: none;
   text-rendering: optimizeLegibility;
 
-  /* Q胖 (Q-Pang) brand palette */
-  --brand-orange: #FF9F3E;
-  --brand-green: #6CC24A;
-  --brand-blue: #4DA7F2;
-  --brand-yellow: #FFD45C;
-  --brand-pink: #FF6B9D;
-  --brand-blue-light: #8FD3FF;
-
-  --color-bg: #FFFBF4;
+  --color-bg: #FFF8EF;
   --color-surface: #FFFFFF;
   --color-surface-raised: #FFFFFF;
-  --color-surface-soft: #FFF1DE;
-  --color-primary: #FF9F3E;
-  --color-primary-dark: #F0820F;
-  --color-primary-light: #FFE6CC;
-  --color-primary-soft: #FFEFD9;
-  --color-secondary: #6CC24A;
-  --color-secondary-dark: #4FA235;
+  --color-surface-soft: #FFEFDD;
+  --color-primary: #FF8A3D;
+  --color-primary-dark: #E5651B;
+  --color-primary-light: #FFE3CC;
+  --color-primary-soft: #FFEAD7;
+  --color-secondary: #2E9E6B;
+  --color-secondary-dark: #237A52;
   --color-text: #3A2E2A;
   --color-text-secondary: #6A5A4E;
   --color-muted: #9A8E85;
   --color-border: rgba(58, 46, 42, 0.08);
   --color-border-strong: rgba(58, 46, 42, 0.14);
-  --color-success-bg: #ECF7E6;
-  --color-green-soft: #E7F5DD;
-  --color-blue-soft: #E2F1FE;
-  --color-yellow-soft: #FFF3CF;
-  --color-pink-soft: #FFE5EE;
-  --color-warm-bg: #FFEFD9;
-  --color-rating: #F0A92C;
+  --color-success-bg: #E9F6EE;
+  --color-green-soft: #E5F4E0;
+  --color-blue-soft: #E0F1FB;
+  --color-yellow-soft: #FFF1C9;
+  --color-warm-bg: #FFEAD7;
+  --color-rating: #E8A93C;
 
   --font-hero: 38px;
   --font-section: 22px;
@@ -222,13 +213,13 @@ button:active,
 }
 
 .brand-mark {
-  width: 38px;
-  height: 38px;
-  flex: 0 0 38px;
+  width: 36px;
+  height: 36px;
+  flex: 0 0 36px;
   overflow: hidden;
-  border-radius: 12px;
+  border-radius: 11px;
   font-size: 0;
-  box-shadow: 0 4px 12px rgba(108, 194, 74, 0.22);
+  box-shadow: 0 4px 12px rgba(255, 107, 91, 0.22);
 }
 
 .brand-logo-img {
@@ -250,17 +241,6 @@ button:active,
   font-weight: 800;
   color: var(--color-text);
 }
-
-/* Colored HolidayGoWhere wordmark */
-.brand-wordmark {
-  font-family: "Baloo 2", "Noto Sans TC", sans-serif;
-  font-size: 17px;
-  letter-spacing: -0.01em;
-}
-
-.brand-wordmark .wm-holiday { color: var(--brand-orange); }
-.brand-wordmark .wm-go      { color: var(--brand-green); }
-.brand-wordmark .wm-where   { color: var(--brand-blue); }
 
 .brand small {
   margin-top: 1px;
@@ -340,11 +320,6 @@ button:active,
     linear-gradient(0deg, rgba(255,255,255,0.34), rgba(255,255,255,0) 42%);
 }
 
-.hero-card-content {
-  position: relative;
-  z-index: 1;
-}
-
 .hero-tag {
   display: inline-flex;
   align-items: center;
@@ -352,53 +327,30 @@ button:active,
   padding: 5px 11px;
   border-radius: var(--radius-pill);
   color: var(--color-primary-dark);
-  background: rgba(255, 255, 255, 0.85);
+  background: var(--color-primary-soft);
   font-size: 12px;
   font-weight: 700;
 }
 
 .hero-card h1 {
   margin: 14px 0 10px;
-  font-size: 36px;
-  line-height: 1.12;
+  font-size: 34px;
+  line-height: 1.15;
   letter-spacing: -0.03em;
   font-weight: 800;
   color: var(--color-text);
 }
 
 .hero-card h1 span {
-  color: var(--color-secondary-dark);
+  color: var(--color-primary);
 }
 
 .hero-card p {
-  max-width: 250px;
+  max-width: 290px;
   margin: 0;
   color: var(--color-text-secondary);
   font-size: 14px;
   line-height: 1.6;
-}
-
-/* Hero mascot — sits in the right portion, above the search bar */
-.hero-mascot {
-  position: absolute;
-  z-index: 0;
-  right: -10px;
-  bottom: 64px;
-  width: 46%;
-  max-width: 230px;
-  height: auto;
-  pointer-events: none;
-  filter: drop-shadow(0 10px 18px rgba(58, 46, 42, 0.16));
-  animation: mascot-bob 3.6s ease-in-out infinite;
-}
-
-@keyframes mascot-bob {
-  0%, 100% { transform: translateY(0); }
-  50%      { transform: translateY(-7px); }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .hero-mascot { animation: none; }
 }
 
 .hero-search {
@@ -542,11 +494,10 @@ button:active,
 }
 
 .tile-green  { background: var(--color-green-soft); color: var(--color-secondary-dark); }
-.tile-blue   { background: var(--color-blue-soft); color: #2F8BD6; }
+.tile-blue   { background: var(--color-blue-soft); color: #3B7CB8; }
 .tile-coral  { background: var(--color-primary-soft); color: var(--color-primary-dark); }
-.tile-yellow { background: var(--color-yellow-soft); color: #C7901A; }
-.tile-violet { background: #E6F5FF; color: #2F8BD6; }
-.tile-pink   { background: var(--color-pink-soft); color: #E14F82; }
+.tile-yellow { background: var(--color-yellow-soft); color: #B07D1E; }
+.tile-violet { background: #EEEAFE; color: #7C6BD0; }
 
 /* Home sections */
 .home-section {
@@ -1962,13 +1913,6 @@ p.wizard-reason {
   opacity: 0.45;
 }
 
-.empty-mascot {
-  width: 132px;
-  height: auto;
-  margin-bottom: 2px;
-  filter: drop-shadow(0 8px 14px rgba(58, 46, 42, 0.12));
-}
-
 .empty-state h3 {
   margin: var(--space-3) 0 var(--space-1);
   font-size: 18px;
@@ -2593,20 +2537,20 @@ p.wizard-reason {
 }
 
 .profile-bear {
-  width: 108px;
-  height: 108px;
+  width: 72px;
+  height: 72px;
   margin: 0 auto var(--space-3);
+  border-radius: 22px;
+  overflow: hidden;
   font-size: 0;
-  display: grid;
-  place-items: center;
+  box-shadow: 0 8px 0 var(--color-primary-light), 0 0 0 1.5px rgba(255,255,255,0.15);
 }
 
 .profile-bear-img {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: contain;
-  filter: drop-shadow(0 8px 14px rgba(58, 46, 42, 0.14));
+  object-fit: cover;
 }
 
 .profile-sheet h2 {
@@ -3305,13 +3249,6 @@ p.wizard-reason {
     max-width: 420px;
   }
 
-  .hero-mascot {
-    right: 24px;
-    bottom: 104px;
-    width: 34%;
-    max-width: 320px;
-  }
-
   .hero-search {
     left: 32px;
     right: 32px;
@@ -3438,12 +3375,12 @@ p.wizard-reason {
    ========================================================================== */
 
 :root {
-  --color-sky: #4DA7F2;
-  --color-sky-soft: #E2F1FE;
-  --color-sunny: #FFD45C;
-  --color-berry: #FF6B9D;
+  --color-sky: #4FB8E6;
+  --color-sky-soft: #E0F1FB;
+  --color-sunny: #FFC93C;
+  --color-berry: #FF6F91;
   --font-display: "Baloo 2", "Noto Sans TC", "PingFang TC", system-ui, sans-serif;
-  --gradient-primary: linear-gradient(135deg, #FF9F3E, #FF6B9D);
+  --gradient-primary: linear-gradient(135deg, #FF8A3D, #FF6F91);
 }
 
 /* Rounded display font on key headings + brand */
@@ -3494,21 +3431,19 @@ p.wizard-reason {
   border-radius: 20px;
   box-shadow: 0 7px 16px -8px rgba(58, 46, 42, 0.18);
 }
-.tile-blue   { background: var(--color-blue-soft); color: #2F8BD6; }
-.tile-violet { background: #E6F5FF; color: #2F8BD6; }
-.tile-pink   { background: var(--color-pink-soft); color: #E14F82; }
+.tile-blue   { background: var(--color-blue-soft); color: #3B92C7; }
+.tile-violet { background: #F2ECFB; color: #7C6BD0; }
 
 /* Cards: warm primary underline on hover */
 .place-card:hover {
   box-shadow: var(--shadow-card-hover), 0 -3px 0 0 var(--color-primary) inset;
 }
 
-/* Hero overlay: soft white scrim on the left for text legibility,
-   fading to clear so the bright sky + Q胖 show through on the right */
+/* Hero overlay: warm the scrim so cream reads against the illustration */
 .hero-card-overlay {
   background:
-    linear-gradient(100deg, rgba(255, 255, 255, 0.92) 0%, rgba(255, 255, 255, 0.72) 36%, rgba(255, 255, 255, 0.10) 66%, rgba(255, 255, 255, 0) 100%),
-    linear-gradient(0deg, rgba(255, 255, 255, 0.34), rgba(255, 255, 255, 0) 40%);
+    linear-gradient(100deg, rgba(255, 243, 230, 0.96) 0%, rgba(255, 239, 221, 0.82) 34%, rgba(255, 239, 221, 0.14) 64%, rgba(255, 239, 221, 0) 100%),
+    linear-gradient(0deg, rgba(255, 243, 230, 0.40), rgba(255, 243, 230, 0) 42%);
 }
 
 /* Sticker-ish badges */

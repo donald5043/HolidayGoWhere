@@ -1,35 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-  <!-- Q胖 (Q-Pang) brand icon — green rounded square + marmot face -->
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#7FCC57"/>
-      <stop offset="100%" stop-color="#5DB23B"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d05535"/>
+      <stop offset="100%" stop-color="#f09060"/>
     </linearGradient>
-    <linearGradient id="cap" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFD45C"/>
-      <stop offset="100%" stop-color="#FBB72C"/>
-    </linearGradient>
+    <radialGradient id="gl" cx="28%" cy="20%" r="65%">
+      <stop offset="0%" stop-color="rgba(255,210,185,0.42)"/>
+      <stop offset="100%" stop-color="rgba(255,210,185,0)"/>
+    </radialGradient>
   </defs>
   <rect width="64" height="64" rx="18" fill="url(#bg)"/>
-  <!-- ears -->
-  <circle cx="18" cy="34" r="6" fill="#E7A86A"/>
-  <circle cx="46" cy="34" r="6" fill="#E7A86A"/>
-  <!-- head -->
-  <ellipse cx="32" cy="42" rx="22" ry="19" fill="#E7A86A"/>
-  <ellipse cx="32" cy="45" rx="15.5" ry="14" fill="#F6D6A8"/>
-  <!-- cap -->
-  <path d="M12 33 a20 17 0 0 1 40 0 q-20 -8 -40 0 Z" fill="url(#cap)"/>
-  <circle cx="32" cy="21" r="5" fill="#5DB23B"/>
-  <circle cx="32" cy="20" r="2" fill="#fff"/>
-  <!-- eyes -->
-  <circle cx="25" cy="42" r="3.4" fill="#3A2A22"/>
-  <circle cx="39" cy="42" r="3.4" fill="#3A2A22"/>
-  <circle cx="26.2" cy="40.8" r="1.1" fill="#fff"/>
-  <circle cx="40.2" cy="40.8" r="1.1" fill="#fff"/>
-  <!-- cheeks -->
-  <circle cx="20" cy="49" r="4" fill="#FF9FB0" opacity="0.7"/>
-  <circle cx="44" cy="49" r="4" fill="#FF9FB0" opacity="0.7"/>
-  <!-- nose + smile -->
-  <ellipse cx="32" cy="48" rx="3" ry="2.3" fill="#7A4B2E"/>
-  <path d="M27 53 q5 5 10 0" stroke="#7A4B2E" stroke-width="1.6" stroke-linecap="round" fill="none"/>
+  <rect width="64" height="64" rx="18" fill="url(#gl)"/>
+  <path d="M32 7L48 27L32 42L16 27Z" fill="rgba(255,255,255,0.95)"/>
+  <path d="M32 7L48 27L32 27Z" fill="rgba(255,255,255,0.08)"/>
+  <line x1="16" y1="27" x2="48" y2="27" stroke="rgba(200,80,45,0.22)" stroke-width="1.1"/>
+  <line x1="32" y1="7" x2="32" y2="42" stroke="rgba(200,80,45,0.22)" stroke-width="1.1"/>
+  <path d="M32 42C34 47 37 51 34 55C32 58 35 61 35 61"
+        stroke="rgba(255,236,218,0.92)" stroke-width="2.1" stroke-linecap="round" fill="none"/>
+  <ellipse cx="36" cy="48" rx="3.5" ry="1.9" fill="rgba(255,236,218,0.88)" transform="rotate(20 36 48)"/>
+  <ellipse cx="33" cy="57" rx="3.3" ry="1.7" fill="rgba(255,236,218,0.70)" transform="rotate(-5 33 57)"/>
 </svg>
