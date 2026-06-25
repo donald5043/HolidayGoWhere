@@ -21,6 +21,7 @@ jobs:
 
       - run: npm ci
       - run: npm run sync:places
+      - run: npm run import:seeds
       - run: npm run build
 
       - name: Commit updated place data

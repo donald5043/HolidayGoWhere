@@ -1849,7 +1849,7 @@ p.wizard-reason {
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
   color: var(--color-text-secondary);
   font-size: 14px;
   line-height: 1.65;
@@ -2713,6 +2713,40 @@ p.wizard-reason {
 .completeness-badge.score-4 {
   color: var(--color-secondary-dark);
   background: var(--color-success-bg);
+}
+
+/* ── price-tag semantic colours ─────────────── */
+.price-tag.price-free {
+  color: var(--color-secondary-dark);
+  background: rgba(229, 244, 224, 0.96);
+}
+
+/* ── card tag semantic colours ───────────────── */
+.tag-pill-free {
+  color: var(--color-secondary-dark);
+  background: var(--color-success-bg);
+}
+.tag-pill-rain {
+  color: #1A6BAF;
+  background: var(--color-blue-soft);
+}
+.tag-row .tag-pill-age {
+  color: #A06018;
+  background: var(--color-yellow-soft);
+}
+
+/* ── event info bar (detail view) ────────────── */
+.event-info-bar {
+  margin: var(--space-3) 0 0;
+  padding: 9px 14px;
+  border-radius: var(--radius-sm);
+  background: #fff0bd;
+  color: #765621;
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 7px;
 }
 
 .maps-cta,

@@ -135460,5 +135460,1482 @@
         "詳細介紹"
       ]
     }
+  },
+  {
+    "id": "curated-seed-66",
+    "name": "彩虹眷村",
+    "region": "中部",
+    "city": "臺中市",
+    "district": "南屯區",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "自然放電",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "台中市南屯區春安路56巷",
+    "hours": "全天（建議白天前往）",
+    "lat": 24.1234,
+    "lng": 120.6399,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#42b883",
+    "description": "彩虹眷村是位於臺中市的室外親子景點，0歲起即適合，免費入場。以戶外景點為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "戶外景點",
+      "免費"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BD%A9%E8%99%B9%E7%9C%B7%E6%9D%91%20%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E6%98%A5%E5%AE%89%E8%B7%AF56%E5%B7%B7",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #彩虹眷村",
+        "url": "https://www.instagram.com/explore/tags/%E5%BD%A9%E8%99%B9%E7%9C%B7%E6%9D%91/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%BD%A9%E8%99%B9%E7%9C%B7%E6%9D%91%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-66",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.579Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-69",
+    "name": "日月潭（孩子的湖岸冒險）",
+    "region": "中部",
+    "city": "南投縣",
+    "district": "魚池鄉",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "自然放電",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "南投縣魚池鄉日月村",
+    "hours": "全天",
+    "lat": 23.8617,
+    "lng": 120.9178,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#42b883",
+    "description": "日月潭（孩子的湖岸冒險）是位於南投縣的室外親子景點，0歲起即適合，免費入場。以戶外景點為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "戶外景點",
+      "免費"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E6%9C%88%E6%BD%AD%EF%BC%88%E5%AD%A9%E5%AD%90%E7%9A%84%E6%B9%96%E5%B2%B8%E5%86%92%E9%9A%AA%EF%BC%89%20%E5%8D%97%E6%8A%95%E7%B8%A3%E9%AD%9A%E6%B1%A0%E9%84%89%E6%97%A5%E6%9C%88%E6%9D%91",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #日月潭（孩子的湖岸冒險）",
+        "url": "https://www.instagram.com/explore/tags/%E6%97%A5%E6%9C%88%E6%BD%AD%EF%BC%88%E5%AD%A9%E5%AD%90%E7%9A%84%E6%B9%96%E5%B2%B8%E5%86%92%E9%9A%AA%EF%BC%89/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E6%97%A5%E6%9C%88%E6%BD%AD%EF%BC%88%E5%AD%A9%E5%AD%90%E7%9A%84%E6%B9%96%E5%B2%B8%E5%86%92%E9%9A%AA%EF%BC%89%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-69",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.580Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-106",
+    "name": "九九峰動物樂園",
+    "region": "中部",
+    "city": "南投縣",
+    "district": "草屯鎮",
+    "ageMin": 3,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$560",
+    "address": "南投縣草屯鎮富頂路一段726巷99號",
+    "hours": "09:00–17:00",
+    "lat": 23.9012,
+    "lng": 120.6983,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "九九峰動物樂園是位於南投縣的室外親子景點，3歲以上適合。以動物園為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "動物園",
+      "3歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E4%B9%9D%E5%B3%B0%E5%8B%95%E7%89%A9%E6%A8%82%E5%9C%92%20%E5%8D%97%E6%8A%95%E7%B8%A3%E8%8D%89%E5%B1%AF%E9%8E%AE%E5%AF%8C%E9%A0%82%E8%B7%AF%E4%B8%80%E6%AE%B5726%E5%B7%B799%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #九九峰動物樂園",
+        "url": "https://www.instagram.com/explore/tags/%E4%B9%9D%E4%B9%9D%E5%B3%B0%E5%8B%95%E7%89%A9%E6%A8%82%E5%9C%92/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E4%B9%9D%E4%B9%9D%E5%B3%B0%E5%8B%95%E7%89%A9%E6%A8%82%E5%9C%92%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-106",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.589Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-118",
+    "name": "大里藝術廣場 (Dali Art)",
+    "region": "中部",
+    "city": "臺中市",
+    "district": "大里區",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "台中市大里區科技路1號",
+    "hours": "11:00-21:00",
+    "lat": 24.0921,
+    "lng": 120.6974,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "大里藝術廣場 (Dali Art)是位於臺中市的室內親子景點，2歲以上適合，免費入場。以遊樂園、打卡點為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "遊樂園",
+      "打卡點",
+      "3歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%87%8C%E8%97%9D%E8%A1%93%E5%BB%A3%E5%A0%B4%20(Dali%20Art)%20%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%A4%A7%E9%87%8C%E5%8D%80%E7%A7%91%E6%8A%80%E8%B7%AF1%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #大里藝術廣場 (Dali Art)",
+        "url": "https://www.instagram.com/explore/tags/%E5%A4%A7%E9%87%8C%E8%97%9D%E8%A1%93%E5%BB%A3%E5%A0%B4%20(Dali%20Art)/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%A4%A7%E9%87%8C%E8%97%9D%E8%A1%93%E5%BB%A3%E5%A0%B4%20(Dali%20Art)%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-118",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.593Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-132",
+    "name": "臺鹽通霄親水廣場",
+    "region": "中部",
+    "city": "苗栗縣",
+    "district": "通霄鎮",
+    "ageMin": 1,
+    "ageMax": 10,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "自然放電",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "苗栗縣通霄鎮內島里122號",
+    "hours": "08:30-16:30",
+    "lat": 24.5558,
+    "lng": 120.6865,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#42b883",
+    "description": "臺鹽通霄親水廣場是位於苗栗縣的室外親子景點，1歲以上適合，免費入場。以玩水為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "玩水",
+      "免費景點",
+      "2歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E9%B9%BD%E9%80%9A%E9%9C%84%E8%A6%AA%E6%B0%B4%E5%BB%A3%E5%A0%B4%20%E8%8B%97%E6%A0%97%E7%B8%A3%E9%80%9A%E9%9C%84%E9%8E%AE%E5%85%A7%E5%B3%B6%E9%87%8C122%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #臺鹽通霄親水廣場",
+        "url": "https://www.instagram.com/explore/tags/%E8%87%BA%E9%B9%BD%E9%80%9A%E9%9C%84%E8%A6%AA%E6%B0%B4%E5%BB%A3%E5%A0%B4/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E8%87%BA%E9%B9%BD%E9%80%9A%E9%9C%84%E8%A6%AA%E6%B0%B4%E5%BB%A3%E5%A0%B4%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-132",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.595Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-134",
+    "name": "四方鮮乳牧場",
+    "region": "中部",
+    "city": "苗栗縣",
+    "district": "竹南鎮",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$100",
+    "address": "苗栗縣竹南鎮崎頂里12鄰東崎頂9-6號",
+    "hours": "09:00-17:00",
+    "lat": 24.6853,
+    "lng": 120.8924,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "四方鮮乳牧場是位於苗栗縣的室外親子景點，2歲以上適合。以農場、滑草體驗為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "農場",
+      "滑草體驗",
+      "2歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9B%9B%E6%96%B9%E9%AE%AE%E4%B9%B3%E7%89%A7%E5%A0%B4%20%E8%8B%97%E6%A0%97%E7%B8%A3%E7%AB%B9%E5%8D%97%E9%8E%AE%E5%B4%8E%E9%A0%82%E9%87%8C12%E9%84%B0%E6%9D%B1%E5%B4%8E%E9%A0%829-6%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #四方鮮乳牧場",
+        "url": "https://www.instagram.com/explore/tags/%E5%9B%9B%E6%96%B9%E9%AE%AE%E4%B9%B3%E7%89%A7%E5%A0%B4/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%9B%9B%E6%96%B9%E9%AE%AE%E4%B9%B3%E7%89%A7%E5%A0%B4%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-134",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.595Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-136",
+    "name": "獅山親子公園",
+    "region": "中部",
+    "city": "苗栗縣",
+    "district": "竹南鎮",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "苗栗縣竹南鎮真如路39-45號",
+    "hours": "24小時開放",
+    "lat": 24.6852,
+    "lng": 120.9023,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "獅山親子公園是位於苗栗縣的室外親子景點，2歲以上適合，免費入場。以戶外景點為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "戶外景點",
+      "免費景點",
+      "2歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8D%85%E5%B1%B1%E8%A6%AA%E5%AD%90%E5%85%AC%E5%9C%92%20%E8%8B%97%E6%A0%97%E7%B8%A3%E7%AB%B9%E5%8D%97%E9%8E%AE%E7%9C%9F%E5%A6%82%E8%B7%AF39-45%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #獅山親子公園",
+        "url": "https://www.instagram.com/explore/tags/%E7%8D%85%E5%B1%B1%E8%A6%AA%E5%AD%90%E5%85%AC%E5%9C%92/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E7%8D%85%E5%B1%B1%E8%A6%AA%E5%AD%90%E5%85%AC%E5%9C%92%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-136",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.596Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-139",
+    "name": "鹽來館",
+    "region": "中部",
+    "city": "苗栗縣",
+    "district": "通霄鎮",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室內外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "苗栗縣通霄鎮內島里122號",
+    "hours": "08:30-16:30",
+    "lat": 24.5558,
+    "lng": 120.6865,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#68b984",
+    "description": "鹽來館是位於苗栗縣的室內外親子景點，3歲以上適合，免費入場。以觀光工廠、DIY體驗為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "觀光工廠",
+      "DIY體驗",
+      "3歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%B9%BD%E4%BE%86%E9%A4%A8%20%E8%8B%97%E6%A0%97%E7%B8%A3%E9%80%9A%E9%9C%84%E9%8E%AE%E5%85%A7%E5%B3%B6%E9%87%8C122%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #鹽來館",
+        "url": "https://www.instagram.com/explore/tags/%E9%B9%BD%E4%BE%86%E9%A4%A8/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E9%B9%BD%E4%BE%86%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-139",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.597Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-143",
+    "name": "哈比丘森林",
+    "region": "中部",
+    "city": "苗栗縣",
+    "district": "銅鑼鄉",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$200",
+    "address": "苗栗縣銅鑼鄉盛隆村15鄰160號",
+    "hours": "09:30-17:30",
+    "lat": 24.4752,
+    "lng": 120.8415,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "哈比丘森林是位於苗栗縣的室外親子景點，2歲以上適合。以農場、哈比屋為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "農場",
+      "哈比屋",
+      "2歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%93%88%E6%AF%94%E4%B8%98%E6%A3%AE%E6%9E%97%20%E8%8B%97%E6%A0%97%E7%B8%A3%E9%8A%85%E9%91%BC%E9%84%89%E7%9B%9B%E9%9A%86%E6%9D%9115%E9%84%B0160%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #哈比丘森林",
+        "url": "https://www.instagram.com/explore/tags/%E5%93%88%E6%AF%94%E4%B8%98%E6%A3%AE%E6%9E%97/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%93%88%E6%AF%94%E4%B8%98%E6%A3%AE%E6%9E%97%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-143",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.598Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-146",
+    "name": "大山母梅花鹿場",
+    "region": "中部",
+    "city": "苗栗縣",
+    "district": "苑裡鎮",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$200",
+    "address": "苗栗縣苑裡鎮水坡里55-1號",
+    "hours": "09:30-16:30",
+    "lat": 24.6468,
+    "lng": 120.8576,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "大山母梅花鹿場是位於苗栗縣的室外親子景點，2歲以上適合。以農場、DIY體驗為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "農場",
+      "DIY體驗",
+      "2歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%B1%B1%E6%AF%8D%E6%A2%85%E8%8A%B1%E9%B9%BF%E5%A0%B4%20%E8%8B%97%E6%A0%97%E7%B8%A3%E8%8B%91%E8%A3%A1%E9%8E%AE%E6%B0%B4%E5%9D%A1%E9%87%8C55-1%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #大山母梅花鹿場",
+        "url": "https://www.instagram.com/explore/tags/%E5%A4%A7%E5%B1%B1%E6%AF%8D%E6%A2%85%E8%8A%B1%E9%B9%BF%E5%A0%B4/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%A4%A7%E5%B1%B1%E6%AF%8D%E6%A2%85%E8%8A%B1%E9%B9%BF%E5%A0%B4%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-146",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.598Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-149",
+    "name": "蘇維拉莊園",
+    "region": "中部",
+    "city": "苗栗縣",
+    "district": "南庄鄉",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$200",
+    "address": "苗栗縣南庄鄉田美村16鄰四灣92號",
+    "hours": "09:00-18:00",
+    "lat": 24.5912,
+    "lng": 120.9782,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#68b984",
+    "description": "蘇維拉莊園是位於苗栗縣的室外親子景點，3歲以上適合。以戶外景點、長溜滑梯為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "戶外景點",
+      "長溜滑梯",
+      "3歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%98%87%E7%B6%AD%E6%8B%89%E8%8E%8A%E5%9C%92%20%E8%8B%97%E6%A0%97%E7%B8%A3%E5%8D%97%E5%BA%84%E9%84%89%E7%94%B0%E7%BE%8E%E6%9D%9116%E9%84%B0%E5%9B%9B%E7%81%A392%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #蘇維拉莊園",
+        "url": "https://www.instagram.com/explore/tags/%E8%98%87%E7%B6%AD%E6%8B%89%E8%8E%8A%E5%9C%92/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E8%98%87%E7%B6%AD%E6%8B%89%E8%8E%8A%E5%9C%92%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-149",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.599Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-151",
+    "name": "三義鴨箱寶",
+    "region": "中部",
+    "city": "苗栗縣",
+    "district": "三義鄉",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "苗栗縣三義鄉重河路136號",
+    "hours": "09:00-17:00",
+    "lat": 24.4061,
+    "lng": 120.7686,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#68b984",
+    "description": "三義鴨箱寶是位於苗栗縣的室內親子景點，3歲以上適合，免費入場。以DIY體驗、木雕藝術為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "DIY體驗",
+      "木雕藝術",
+      "3歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E7%BE%A9%E9%B4%A8%E7%AE%B1%E5%AF%B6%20%E8%8B%97%E6%A0%97%E7%B8%A3%E4%B8%89%E7%BE%A9%E9%84%89%E9%87%8D%E6%B2%B3%E8%B7%AF136%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #三義鴨箱寶",
+        "url": "https://www.instagram.com/explore/tags/%E4%B8%89%E7%BE%A9%E9%B4%A8%E7%AE%B1%E5%AF%B6/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E4%B8%89%E7%BE%A9%E9%B4%A8%E7%AE%B1%E5%AF%B6%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-151",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.600Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-187",
+    "name": "金鵬棉織親子館 (毛巾故事館)",
+    "region": "中部",
+    "city": "雲林縣",
+    "district": "虎尾鎮",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "雲林縣虎尾鎮堀頭里99-2號",
+    "hours": "09:00-17:00",
+    "lat": 23.7512,
+    "lng": 120.4632,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "金鵬棉織親子館 (毛巾故事館)是位於雲林縣的室內親子景點，3歲以上適合，免費入場。以觀光工廠、DIY體驗為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "觀光工廠",
+      "DIY體驗",
+      "3歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E9%B5%AC%E6%A3%89%E7%B9%94%E8%A6%AA%E5%AD%90%E9%A4%A8%20(%E6%AF%9B%E5%B7%BE%E6%95%85%E4%BA%8B%E9%A4%A8)%20%E9%9B%B2%E6%9E%97%E7%B8%A3%E8%99%8E%E5%B0%BE%E9%8E%AE%E5%A0%80%E9%A0%AD%E9%87%8C99-2%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #金鵬棉織親子館 (毛巾故事館)",
+        "url": "https://www.instagram.com/explore/tags/%E9%87%91%E9%B5%AC%E6%A3%89%E7%B9%94%E8%A6%AA%E5%AD%90%E9%A4%A8%20(%E6%AF%9B%E5%B7%BE%E6%95%85%E4%BA%8B%E9%A4%A8)/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E9%87%91%E9%B5%AC%E6%A3%89%E7%B9%94%E8%A6%AA%E5%AD%90%E9%A4%A8%20(%E6%AF%9B%E5%B7%BE%E6%95%85%E4%BA%8B%E9%A4%A8)%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-187",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.614Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-207",
+    "name": "尚順育樂世界",
+    "region": "中部",
+    "city": "苗栗縣",
+    "district": "頭份市",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$599",
+    "address": "苗栗縣頭份市育樂街6-6號",
+    "hours": "10:00-18:00",
+    "lat": 24.6865,
+    "lng": 120.9085,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "尚順育樂世界是位於苗栗縣的室內親子景點，3歲以上適合。以遊樂園、體能挑戰為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "遊樂園",
+      "體能挑戰",
+      "3歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%9A%E9%A0%86%E8%82%B2%E6%A8%82%E4%B8%96%E7%95%8C%20%E8%8B%97%E6%A0%97%E7%B8%A3%E9%A0%AD%E4%BB%BD%E5%B8%82%E8%82%B2%E6%A8%82%E8%A1%976-6%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #尚順育樂世界",
+        "url": "https://www.instagram.com/explore/tags/%E5%B0%9A%E9%A0%86%E8%82%B2%E6%A8%82%E4%B8%96%E7%95%8C/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%B0%9A%E9%A0%86%E8%82%B2%E6%A8%82%E4%B8%96%E7%95%8C%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-207",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.627Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-213",
+    "name": "格林奇幻森林",
+    "region": "中部",
+    "city": "苗栗縣",
+    "district": "造橋鄉",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "自然放電",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$300",
+    "address": "苗栗縣造橋鄉大龍村1鄰22號",
+    "hours": "09:0018:00",
+    "lat": 24.5912,
+    "lng": 120.8354,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#42b883",
+    "description": "格林奇幻森林是位於苗栗縣的室外親子景點，3歲以上適合。以戶外景點為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "戶外景點",
+      "3歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A0%BC%E6%9E%97%E5%A5%87%E5%B9%BB%E6%A3%AE%E6%9E%97%20%E8%8B%97%E6%A0%97%E7%B8%A3%E9%80%A0%E6%A9%8B%E9%84%89%E5%A4%A7%E9%BE%8D%E6%9D%911%E9%84%B022%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #格林奇幻森林",
+        "url": "https://www.instagram.com/explore/tags/%E6%A0%BC%E6%9E%97%E5%A5%87%E5%B9%BB%E6%A3%AE%E6%9E%97/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E6%A0%BC%E6%9E%97%E5%A5%87%E5%B9%BB%E6%A3%AE%E6%9E%97%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-213",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.628Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-216",
+    "name": "海盜村",
+    "region": "中部",
+    "city": "南投縣",
+    "district": "竹山鎮東鄉",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$350",
+    "address": "南投縣竹山鎮東鄉路1-67號",
+    "hours": "10:00-18:00",
+    "lat": 23.7542,
+    "lng": 120.7011,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "海盜村是位於南投縣的室外親子景點，3歲以上適合。以遊樂園、遊樂設施為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "遊樂園",
+      "遊樂設施",
+      "3歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E7%9B%9C%E6%9D%91%20%E5%8D%97%E6%8A%95%E7%B8%A3%E7%AB%B9%E5%B1%B1%E9%8E%AE%E6%9D%B1%E9%84%89%E8%B7%AF1-67%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #海盜村",
+        "url": "https://www.instagram.com/explore/tags/%E6%B5%B7%E7%9B%9C%E6%9D%91/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E6%B5%B7%E7%9B%9C%E6%9D%91%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-216",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.629Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-231",
+    "name": "南投台灣麻糬主題館",
+    "region": "中部",
+    "city": "南投縣",
+    "district": "南投市",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "南投縣南投市自強三路3號",
+    "hours": "平日 09:00–17:00 / 週末 09:00–18:00",
+    "lat": 23.9101,
+    "lng": 120.6849,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#68b984",
+    "description": "南投台灣麻糬主題館是位於南投縣的室內親子景點，0歲起即適合，免費入場。以觀光工廠為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "觀光工廠",
+      "免費",
+      "0歲起"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%97%E6%8A%95%E5%8F%B0%E7%81%A3%E9%BA%BB%E7%B3%AC%E4%B8%BB%E9%A1%8C%E9%A4%A8%20%E5%8D%97%E6%8A%95%E7%B8%A3%E5%8D%97%E6%8A%95%E5%B8%82%E8%87%AA%E5%BC%B7%E4%B8%89%E8%B7%AF3%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #南投台灣麻糬主題館",
+        "url": "https://www.instagram.com/explore/tags/%E5%8D%97%E6%8A%95%E5%8F%B0%E7%81%A3%E9%BA%BB%E7%B3%AC%E4%B8%BB%E9%A1%8C%E9%A4%A8/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%8D%97%E6%8A%95%E5%8F%B0%E7%81%A3%E9%BA%BB%E7%B3%AC%E4%B8%BB%E9%A1%8C%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-231",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.634Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-232",
+    "name": "半山夢工廠（樹德）",
+    "region": "中部",
+    "city": "南投縣",
+    "district": "南投市",
+    "ageMin": 4,
+    "ageMax": 8,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "探索學習",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$280",
+    "address": "南投縣南投市工業南六路6號",
+    "hours": "週一、三–四 10:00–18:00 / 週五–日 10:00–19:00",
+    "lat": 23.9088,
+    "lng": 120.6721,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#6a8dff",
+    "description": "半山夢工廠（樹德）是位於南投縣的室內親子景點，4歲以上適合。以觀光工廠、博物館為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "觀光工廠",
+      "博物館",
+      "4歲"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%8A%E5%B1%B1%E5%A4%A2%E5%B7%A5%E5%BB%A0%EF%BC%88%E6%A8%B9%E5%BE%B7%EF%BC%89%20%E5%8D%97%E6%8A%95%E7%B8%A3%E5%8D%97%E6%8A%95%E5%B8%82%E5%B7%A5%E6%A5%AD%E5%8D%97%E5%85%AD%E8%B7%AF6%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #半山夢工廠（樹德）",
+        "url": "https://www.instagram.com/explore/tags/%E5%8D%8A%E5%B1%B1%E5%A4%A2%E5%B7%A5%E5%BB%A0%EF%BC%88%E6%A8%B9%E5%BE%B7%EF%BC%89/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%8D%8A%E5%B1%B1%E5%A4%A2%E5%B7%A5%E5%BB%A0%EF%BC%88%E6%A8%B9%E5%BE%B7%EF%BC%89%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-232",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.636Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-267",
+    "name": "彰化長頸鹿休閒農場",
+    "region": "中部",
+    "city": "彰化縣",
+    "district": "埔鹽鄉",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$160",
+    "address": "彰化縣埔鹽鄉新生路471號",
+    "hours": "09:00–17:00",
+    "lat": 24.0234,
+    "lng": 120.4512,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "彰化長頸鹿休閒農場是位於彰化縣的室外親子景點，0歲起即適合。以農場、玩水為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "農場",
+      "玩水",
+      "0歲起",
+      "戶外"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BD%B0%E5%8C%96%E9%95%B7%E9%A0%B8%E9%B9%BF%E4%BC%91%E9%96%92%E8%BE%B2%E5%A0%B4%20%E5%BD%B0%E5%8C%96%E7%B8%A3%E5%9F%94%E9%B9%BD%E9%84%89%E6%96%B0%E7%94%9F%E8%B7%AF471%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #彰化長頸鹿休閒農場",
+        "url": "https://www.instagram.com/explore/tags/%E5%BD%B0%E5%8C%96%E9%95%B7%E9%A0%B8%E9%B9%BF%E4%BC%91%E9%96%92%E8%BE%B2%E5%A0%B4/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%BD%B0%E5%8C%96%E9%95%B7%E9%A0%B8%E9%B9%BF%E4%BC%91%E9%96%92%E8%BE%B2%E5%A0%B4%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-267",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.641Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-268",
+    "name": "彰化田尾好田森林",
+    "region": "中部",
+    "city": "彰化縣",
+    "district": "田尾鄉",
+    "ageMin": 3,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$300以下",
+    "address": "彰化縣田尾鄉公園東路7號",
+    "hours": "10:00–18:00",
+    "lat": 23.9123,
+    "lng": 120.5234,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#68b984",
+    "description": "彰化田尾好田森林是位於彰化縣的室外親子景點，3歲以上適合。以戶外景點、DIY體驗為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "戶外景點",
+      "DIY體驗",
+      "3歲",
+      "戶外"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BD%B0%E5%8C%96%E7%94%B0%E5%B0%BE%E5%A5%BD%E7%94%B0%E6%A3%AE%E6%9E%97%20%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%94%B0%E5%B0%BE%E9%84%89%E5%85%AC%E5%9C%92%E6%9D%B1%E8%B7%AF7%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #彰化田尾好田森林",
+        "url": "https://www.instagram.com/explore/tags/%E5%BD%B0%E5%8C%96%E7%94%B0%E5%B0%BE%E5%A5%BD%E7%94%B0%E6%A3%AE%E6%9E%97/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%BD%B0%E5%8C%96%E7%94%B0%E5%B0%BE%E5%A5%BD%E7%94%B0%E6%A3%AE%E6%9E%97%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-268",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.642Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-270",
+    "name": "集集保育教育館",
+    "region": "中部",
+    "city": "南投縣",
+    "district": "集集鎮",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "南投縣集集鎮民生東路1號",
+    "hours": "09:00–16:00",
+    "lat": 23.8312,
+    "lng": 120.7934,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "集集保育教育館是位於南投縣的室內親子景點，0歲起即適合，免費入場。以博物館、生態農場為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "博物館",
+      "生態農場",
+      "免費",
+      "0歲起"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%9B%86%E9%9B%86%E4%BF%9D%E8%82%B2%E6%95%99%E8%82%B2%E9%A4%A8%20%E5%8D%97%E6%8A%95%E7%B8%A3%E9%9B%86%E9%9B%86%E9%8E%AE%E6%B0%91%E7%94%9F%E6%9D%B1%E8%B7%AF1%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #集集保育教育館",
+        "url": "https://www.instagram.com/explore/tags/%E9%9B%86%E9%9B%86%E4%BF%9D%E8%82%B2%E6%95%99%E8%82%B2%E9%A4%A8/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E9%9B%86%E9%9B%86%E4%BF%9D%E8%82%B2%E6%95%99%E8%82%B2%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-270",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.643Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-271",
+    "name": "軍史公園（集集）",
+    "region": "中部",
+    "city": "南投縣",
+    "district": "集集鎮",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "自然放電",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "南投縣集集鎮民權路",
+    "hours": "全天開放（免費）",
+    "lat": 23.8345,
+    "lng": 120.7812,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#42b883",
+    "description": "軍史公園（集集）是位於南投縣的室外親子景點，0歲起即適合，免費入場。以歷史建築、戶外為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "歷史建築",
+      "免費",
+      "0歲起",
+      "戶外"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%BB%8D%E5%8F%B2%E5%85%AC%E5%9C%92%EF%BC%88%E9%9B%86%E9%9B%86%EF%BC%89%20%E5%8D%97%E6%8A%95%E7%B8%A3%E9%9B%86%E9%9B%86%E9%8E%AE%E6%B0%91%E6%AC%8A%E8%B7%AF",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #軍史公園（集集）",
+        "url": "https://www.instagram.com/explore/tags/%E8%BB%8D%E5%8F%B2%E5%85%AC%E5%9C%92%EF%BC%88%E9%9B%86%E9%9B%86%EF%BC%89/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E8%BB%8D%E5%8F%B2%E5%85%AC%E5%9C%92%EF%BC%88%E9%9B%86%E9%9B%86%EF%BC%89%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-271",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.644Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-272",
+    "name": "明新書院",
+    "region": "中部",
+    "city": "南投縣",
+    "district": "集集鎮",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "自然放電",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "南投縣集集鎮東昌巷4號",
+    "hours": "06:00–21:00",
+    "lat": 23.8334,
+    "lng": 120.7823,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#42b883",
+    "description": "明新書院是位於南投縣的室外親子景點，0歲起即適合，免費入場。以歷史建築、戶外為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "歷史建築",
+      "免費",
+      "0歲起",
+      "戶外"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%98%8E%E6%96%B0%E6%9B%B8%E9%99%A2%20%E5%8D%97%E6%8A%95%E7%B8%A3%E9%9B%86%E9%9B%86%E9%8E%AE%E6%9D%B1%E6%98%8C%E5%B7%B74%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #明新書院",
+        "url": "https://www.instagram.com/explore/tags/%E6%98%8E%E6%96%B0%E6%9B%B8%E9%99%A2/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E6%98%8E%E6%96%B0%E6%9B%B8%E9%99%A2%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-272",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.645Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-275",
+    "name": "正實親子農場",
+    "region": "中部",
+    "city": "彰化縣",
+    "district": "北斗鎮",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "動物萌友",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$300以下",
+    "address": "彰化縣北斗鎮斗苑路二段770巷86號",
+    "hours": "週六日 09:00–18:00 / 平日 10:00–17:00",
+    "lat": 23.8634,
+    "lng": 120.5012,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#f2a65a",
+    "description": "正實親子農場是位於彰化縣的室外親子景點，0歲起即適合。以農場、戶外為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "農場",
+      "0歲起",
+      "戶外"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%AD%A3%E5%AF%A6%E8%A6%AA%E5%AD%90%E8%BE%B2%E5%A0%B4%20%E5%BD%B0%E5%8C%96%E7%B8%A3%E5%8C%97%E6%96%97%E9%8E%AE%E6%96%97%E8%8B%91%E8%B7%AF%E4%BA%8C%E6%AE%B5770%E5%B7%B786%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #正實親子農場",
+        "url": "https://www.instagram.com/explore/tags/%E6%AD%A3%E5%AF%A6%E8%A6%AA%E5%AD%90%E8%BE%B2%E5%A0%B4/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E6%AD%A3%E5%AF%A6%E8%A6%AA%E5%AD%90%E8%BE%B2%E5%A0%B4%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-275",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.646Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "curated-seed-278",
+    "name": "后豐鐵馬道",
+    "region": "中部",
+    "city": "臺中市",
+    "district": "豐原區",
+    "ageMin": 0,
+    "ageMax": 8,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "自然放電",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "台中市豐原區豐勢路",
+    "hours": "全天開放（免費）",
+    "lat": 24.2534,
+    "lng": 120.7423,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#42b883",
+    "description": "后豐鐵馬道是位於臺中市的室外親子景點，0歲起即適合，免費入場。以步道、戶外為特色，適合全家同遊，出發前請確認最新開放資訊。",
+    "highlights": [
+      "步道",
+      "免費",
+      "0歲起",
+      "戶外"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%90%8E%E8%B1%90%E9%90%B5%E9%A6%AC%E9%81%93%20%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%B1%90%E5%8E%9F%E5%8D%80%E8%B1%90%E5%8B%A2%E8%B7%AF",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #后豐鐵馬道",
+        "url": "https://www.instagram.com/explore/tags/%E5%90%8E%E8%B1%90%E9%90%B5%E9%A6%AC%E9%81%93/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%90%8E%E8%B1%90%E9%90%B5%E9%A6%AC%E9%81%93%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "人工精選景點",
+    "sourceId": "curated-seed-278",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-25T14:17:33.648Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
   }
 ]

@@ -36,6 +36,7 @@ import {
   TentTree,
   ThumbsDown,
   ThumbsUp,
+  Ticket,
   TreePine,
   Umbrella,
   Users,
@@ -389,7 +390,7 @@ function PlaceCard({
       <div className="place-image-wrap">
         <PlaceImage place={place} className="place-image" />
         <span className="place-image-scrim" />
-        <span className="price-tag">{place.priceLabel}</span>
+        <span className={`price-tag${place.priceLabel === '免費' ? ' price-free' : ''}`}>{place.priceLabel}</span>
         <button
           className={`heart-button ${favorite ? 'is-favorite' : ''}`}
           onClick={(event) => {
@@ -410,6 +411,8 @@ function PlaceCard({
         </div>
         <div className="decision-badges">
           {place.weekendEvent && <span className="event-badge"><CalendarDays size={12} />本週末</span>}
+          {place.priceLabel === '免費' && <span className="tag-pill-free">免費入場</span>}
+          {place.rainyDay && <span className="tag-pill-rain"><Umbrella size={11} />雨天備案</span>}
           {place.completeness && (
             <span className={`completeness-badge score-${Math.floor(place.completeness.score / 25)}`}>
               資訊 {place.completeness.score}%
@@ -430,7 +433,7 @@ function PlaceCard({
         <p>{place.description}</p>
         <div className="card-footer">
           <div className="tag-row">
-            <span><Baby size={13} />{place.ageMin}–{place.ageMax} 歲</span>
+            <span className="tag-pill-age"><Baby size={13} />{place.ageMin}–{place.ageMax} 歲</span>
             <span><Clock3 size={13} />{place.duration}</span>
             {distance !== undefined && (
               <span className="distance-tag"><LocateFixed size={13} />距離約 {distance < 10 ? distance.toFixed(1) : Math.round(distance)} km</span>
@@ -1459,6 +1462,14 @@ function App() {
                 <div className="rating-line official-line"><Database size={17} />交通部觀光署官方開放資料</div>
               )}
               <p className="detail-description">{selected.description}</p>
+              {(selected.weekendEvent || selected.placeType === '活動') && (
+                <div className="event-info-bar">
+                  <CalendarDays size={15} />
+                  {selected.weekendEvent ? '本週末限定活動' : '期間限定活動'}
+                  {selected.eventStart && ` ${new Date(selected.eventStart).toLocaleDateString('zh-TW')} 起`}
+                  {selected.eventEnd && ` 至 ${new Date(selected.eventEnd).toLocaleDateString('zh-TW')}`}
+                </div>
+              )}
               {selected.placeType !== '餐飲' && (
                 <NearbyRestaurants allPlaces={places} anchor={selected} onOpen={openPlace} />
               )}
@@ -1497,6 +1508,7 @@ function App() {
                 <div><MapPin /><span><small>地址</small>{selected.address}</span></div>
                 <div><Clock3 /><span><small>開放時間</small>{selected.hours}</span></div>
                 <div><Baby /><span><small>適合年齡</small>{selected.ageMin}–{selected.ageMax} 歲・{selected.setting}・{selected.duration}</span></div>
+                <div><Ticket /><span><small>票價</small>{selected.priceLabel}</span></div>
                 <div><Database /><span><small>資料來源</small>{selected.dataSource}</span></div>
               </div>
               <div className="detail-section">
