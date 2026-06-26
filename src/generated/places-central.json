@@ -137702,5 +137702,305 @@
         "詳細介紹"
       ]
     }
+  },
+  {
+    "id": "culture-5aa9147caaa31a948b9c37eb",
+    "name": "臺中市立圖書館清水分館",
+    "region": "中部",
+    "city": "臺中市",
+    "district": "清水區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "台中市清水區鎮政路50號",
+    "hours": "請至官方網站確認",
+    "lat": 24.301983,
+    "lng": 120.585464,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "臺中市立圖書館清水分館是位於臺中市的文化藝術場館，提供豐富的展覽與人文體驗，適合帶孩子認識在地歷史與藝術。出發前請至官網確認開放時間。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E4%B8%AD%E5%B8%82%E7%AB%8B%E5%9C%96%E6%9B%B8%E9%A4%A8%E6%B8%85%E6%B0%B4%E5%88%86%E9%A4%A8%20%E5%8F%B0%E4%B8%AD%E5%B8%82%E6%B8%85%E6%B0%B4%E5%8D%80%E9%8E%AE%E6%94%BF%E8%B7%AF50%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "https://museums.moc.gov.tw/"
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-5aa9147caaa31a948b9c37eb",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.923Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
+  },
+  {
+    "id": "culture-5aa9e5ce6e5ec7e869109403",
+    "name": "二崙故事屋",
+    "region": "中部",
+    "city": "雲林縣",
+    "district": "二崙鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "雲林縣二崙鄉中山路102號",
+    "hours": "請至官方網站確認",
+    "lat": 23.815578,
+    "lng": 120.40622,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "二崙故事屋是位於雲林縣的文化藝術場館，提供豐富的展覽與人文體驗，適合帶孩子認識在地歷史與藝術。出發前請至官網確認開放時間。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%8C%E5%B4%99%E6%95%85%E4%BA%8B%E5%B1%8B%20%E9%9B%B2%E6%9E%97%E7%B8%A3%E4%BA%8C%E5%B4%99%E9%84%89%E4%B8%AD%E5%B1%B1%E8%B7%AF102%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "https://museums.moc.gov.tw/"
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-5aa9e5ce6e5ec7e869109403",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.929Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
+  },
+  {
+    "id": "culture-5aabb92baaa31a948b9c37f3",
+    "name": "海灣繪本館",
+    "region": "中部",
+    "city": "臺中市",
+    "district": "清水區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "台中市清水區中社路54號",
+    "hours": "請至官方網站確認",
+    "lat": 24.301983,
+    "lng": 120.585464,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "海灣繪本館是位於臺中市的文化藝術場館，提供豐富的展覽與人文體驗，適合帶孩子認識在地歷史與藝術。出發前請至官網確認開放時間。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E7%81%A3%E7%B9%AA%E6%9C%AC%E9%A4%A8%20%E5%8F%B0%E4%B8%AD%E5%B8%82%E6%B8%85%E6%B0%B4%E5%8D%80%E4%B8%AD%E7%A4%BE%E8%B7%AF54%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "https://museums.moc.gov.tw/"
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-5aabb92baaa31a948b9c37f3",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.931Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
+  },
+  {
+    "id": "culture-5ac30e756e5e541f9d5c557a",
+    "name": "台中市立圖書館深波分館",
+    "region": "中部",
+    "city": "臺中市",
+    "district": "沙鹿區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺中市沙鹿區鎮南路二段488號",
+    "hours": "請至官方網站確認",
+    "lat": 24.237793,
+    "lng": 120.585464,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "台中市立圖書館深波分館是位於臺中市的文化藝術場館，提供豐富的展覽與人文體驗，適合帶孩子認識在地歷史與藝術。出發前請至官網確認開放時間。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8F%B0%E4%B8%AD%E5%B8%82%E7%AB%8B%E5%9C%96%E6%9B%B8%E9%A4%A8%E6%B7%B1%E6%B3%A2%E5%88%86%E9%A4%A8%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%B2%99%E9%B9%BF%E5%8D%80%E9%8E%AE%E5%8D%97%E8%B7%AF%E4%BA%8C%E6%AE%B5488%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "https://museums.moc.gov.tw/"
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-5ac30e756e5e541f9d5c557a",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.932Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
+  },
+  {
+    "id": "culture-5ac3116aaaa36011b2e93c71",
+    "name": "南投縣文學資料館",
+    "region": "中部",
+    "city": "南投縣",
+    "district": "南投市",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "南投縣南投市中興路669號4F",
+    "hours": "請至官方網站確認",
+    "lat": 23.917963,
+    "lng": 120.677505,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "南投縣文學資料館是位於南投縣的文化藝術場館，提供豐富的展覽與人文體驗，適合帶孩子認識在地歷史與藝術。出發前請至官網確認開放時間。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%97%E6%8A%95%E7%B8%A3%E6%96%87%E5%AD%B8%E8%B3%87%E6%96%99%E9%A4%A8%20%E5%8D%97%E6%8A%95%E7%B8%A3%E5%8D%97%E6%8A%95%E5%B8%82%E4%B8%AD%E8%88%88%E8%B7%AF669%E8%99%9F4F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "https://museums.moc.gov.tw/"
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-5ac3116aaaa36011b2e93c71",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.933Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
+  },
+  {
+    "id": "culture-5af938b2aaa3c6afbbf0bbc2",
+    "name": "樂樂書屋",
+    "region": "中部",
+    "city": "臺中市",
+    "district": "西屯區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "台中市西屯區玉成路6號",
+    "hours": "請至官方網站確認",
+    "lat": 24.176977,
+    "lng": 120.64243,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "樂樂書屋是位於臺中市的文化藝術場館，提供豐富的展覽與人文體驗，適合帶孩子認識在地歷史與藝術。出發前請至官網確認開放時間。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A8%82%E6%A8%82%E6%9B%B8%E5%B1%8B%20%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E7%8E%89%E6%88%90%E8%B7%AF6%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "https://museums.moc.gov.tw/"
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-5af938b2aaa3c6afbbf0bbc2",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.954Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
   }
 ]

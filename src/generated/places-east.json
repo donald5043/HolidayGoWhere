@@ -57006,5 +57006,205 @@
         "詳細介紹"
       ]
     }
+  },
+  {
+    "id": "culture-f43d0cae-2c40-47e2-9505-675c19da1c9d",
+    "name": "宜蘭縣大同鄉泰雅生活館",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "大同鄉",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "宜蘭縣大同鄉崙埤村朝陽60號",
+    "hours": "請至官方網站確認",
+    "lat": 24.680534,
+    "lng": 121.607299,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "宜蘭縣大同鄉泰雅生活館是位於宜蘭縣的文化藝術場館，提供豐富的展覽與人文體驗，適合帶孩子認識在地歷史與藝術。出發前請至官網確認開放時間。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%A4%A7%E5%90%8C%E9%84%89%E6%B3%B0%E9%9B%85%E7%94%9F%E6%B4%BB%E9%A4%A8%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%A4%A7%E5%90%8C%E9%84%89%E5%B4%99%E5%9F%A4%E6%9D%91%E6%9C%9D%E9%99%BD60%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "https://museums.moc.gov.tw/"
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-f43d0cae-2c40-47e2-9505-675c19da1c9d",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.892Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
+  },
+  {
+    "id": "culture-4d5ce86b-fbe1-4ea8-84fe-add389e9eb77",
+    "name": "宜蘭縣史館",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "宜蘭市",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "宜蘭縣宜蘭市縣政北路3號",
+    "hours": "請至官方網站確認",
+    "lat": 24.730097,
+    "lng": 121.761936,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "宜蘭縣史館是位於宜蘭縣的文化藝術場館，提供豐富的展覽與人文體驗，適合帶孩子認識在地歷史與藝術。出發前請至官網確認開放時間。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%8F%B2%E9%A4%A8%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%AE%9C%E8%98%AD%E5%B8%82%E7%B8%A3%E6%94%BF%E5%8C%97%E8%B7%AF3%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "https://yihistory.e-land.gov.tw/Default.aspx "
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-4d5ce86b-fbe1-4ea8-84fe-add389e9eb77",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.899Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
+  },
+  {
+    "id": "culture-5acd7dfcaaa33fd71fec9be5",
+    "name": "花蓮縣文化局圖書館",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "花蓮市",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "花蓮市文復路6號",
+    "hours": "請至官方網站確認",
+    "lat": 23.977088,
+    "lng": 121.59184,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "花蓮縣文化局圖書館是位於花蓮縣的文化藝術場館，提供豐富的展覽與人文體驗，適合帶孩子認識在地歷史與藝術。出發前請至官網確認開放時間。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8A%B1%E8%93%AE%E7%B8%A3%E6%96%87%E5%8C%96%E5%B1%80%E5%9C%96%E6%9B%B8%E9%A4%A8%20%E8%8A%B1%E8%93%AE%E5%B8%82%E6%96%87%E5%BE%A9%E8%B7%AF6%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "https://museums.moc.gov.tw/"
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-5acd7dfcaaa33fd71fec9be5",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.945Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
+  },
+  {
+    "id": "culture-5acdc347aaa3fa92a9c12b67",
+    "name": "傳藝資料館",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "五結鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "宜蘭縣五結鄉季新村五濱路二段201號",
+    "hours": "請至官方網站確認",
+    "lat": 24.670978,
+    "lng": 121.812721,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "傳藝資料館是位於宜蘭縣的文化藝術場館，提供豐富的展覽與人文體驗，適合帶孩子認識在地歷史與藝術。出發前請至官網確認開放時間。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%82%B3%E8%97%9D%E8%B3%87%E6%96%99%E9%A4%A8%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E4%BA%94%E7%B5%90%E9%84%89%E5%AD%A3%E6%96%B0%E6%9D%91%E4%BA%94%E6%BF%B1%E8%B7%AF%E4%BA%8C%E6%AE%B5201%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "https://museums.moc.gov.tw/"
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-5acdc347aaa3fa92a9c12b67",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.947Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
   }
 ]

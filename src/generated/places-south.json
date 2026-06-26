@@ -94756,5 +94756,305 @@
         "詳細介紹"
       ]
     }
+  },
+  {
+    "id": "culture-4808ac2f-e225-455a-aa61-462d65f7997b",
+    "name": "柯旗化故居",
+    "region": "南部",
+    "city": "高雄市",
+    "district": "新興區",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "高雄市新興區八德二路37號",
+    "hours": "請至官方網站確認",
+    "lat": 22.636039,
+    "lng": 120.300047,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "柯旗化故居是位於高雄市的文化藝術場館，提供豐富的展覽與人文體驗，適合帶孩子認識在地歷史與藝術。出發前請至官網確認開放時間。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9F%AF%E6%97%97%E5%8C%96%E6%95%85%E5%B1%85%20%E9%AB%98%E9%9B%84%E5%B8%82%E6%96%B0%E8%88%88%E5%8D%80%E5%85%AB%E5%BE%B7%E4%BA%8C%E8%B7%AF37%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "http://kehouse.khm.org.tw/kkhhouse/index.aspx "
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-4808ac2f-e225-455a-aa61-462d65f7997b",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.865Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
+  },
+  {
+    "id": "culture-5bb7ae59-a7b2-46d0-a66f-69da13fd099f",
+    "name": "國立海洋生物博物館",
+    "region": "南部",
+    "city": "屏東縣",
+    "district": "車城鄉",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "探索學習",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "屏東縣車城鄉後灣路2號",
+    "hours": "請至官方網站確認",
+    "lat": 22.046021,
+    "lng": 120.698905,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#6a8dff",
+    "description": "國立海洋生物博物館是位於屏東縣的自然科學博物館，藉由展覽與互動體驗激發孩子的好奇心，適合親子同遊。出發前請至官網確認開放時間與票價。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9C%8B%E7%AB%8B%E6%B5%B7%E6%B4%8B%E7%94%9F%E7%89%A9%E5%8D%9A%E7%89%A9%E9%A4%A8%20%E5%B1%8F%E6%9D%B1%E7%B8%A3%E8%BB%8A%E5%9F%8E%E9%84%89%E5%BE%8C%E7%81%A3%E8%B7%AF2%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "https://oceanomics.blogspot.com/ "
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-5bb7ae59-a7b2-46d0-a66f-69da13fd099f",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.890Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
+  },
+  {
+    "id": "culture-5aaba2fbaaa31a948b9c37f0",
+    "name": "高雄市立圖書館小港分館",
+    "region": "南部",
+    "city": "高雄市",
+    "district": "小港區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "高雄市小港區博學路365號",
+    "hours": "請至官方網站確認",
+    "lat": 22.555319,
+    "lng": 120.36085,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "高雄市立圖書館小港分館是位於高雄市的文化藝術場館，提供豐富的展覽與人文體驗，適合帶孩子認識在地歷史與藝術。出發前請至官網確認開放時間。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E9%9B%84%E5%B8%82%E7%AB%8B%E5%9C%96%E6%9B%B8%E9%A4%A8%E5%B0%8F%E6%B8%AF%E5%88%86%E9%A4%A8%20%E9%AB%98%E9%9B%84%E5%B8%82%E5%B0%8F%E6%B8%AF%E5%8D%80%E5%8D%9A%E5%AD%B8%E8%B7%AF365%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "https://museums.moc.gov.tw/"
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-5aaba2fbaaa31a948b9c37f0",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.930Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
+  },
+  {
+    "id": "culture-5ac31ef56e5e541f9d5c557d",
+    "name": "鹿仔草民俗文化學堂",
+    "region": "南部",
+    "city": "嘉義縣",
+    "district": "鹿草鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "嘉義縣鹿草鄉西井村287號",
+    "hours": "請至官方網站確認",
+    "lat": 23.419256,
+    "lng": 120.30895,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "鹿仔草民俗文化學堂是位於嘉義縣的文化藝術場館，提供豐富的展覽與人文體驗，適合帶孩子認識在地歷史與藝術。出發前請至官網確認開放時間。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%B9%BF%E4%BB%94%E8%8D%89%E6%B0%91%E4%BF%97%E6%96%87%E5%8C%96%E5%AD%B8%E5%A0%82%20%E5%98%89%E7%BE%A9%E7%B8%A3%E9%B9%BF%E8%8D%89%E9%84%89%E8%A5%BF%E4%BA%95%E6%9D%91287%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "https://museums.moc.gov.tw/"
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-5ac31ef56e5e541f9d5c557d",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.934Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
+  },
+  {
+    "id": "culture-5ac329136e5e541f9d5c557e",
+    "name": "大東藝術圖書館",
+    "region": "南部",
+    "city": "高雄市",
+    "district": "鳳山區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "高雄市鳳山區光遠路161號",
+    "hours": "請至官方網站確認",
+    "lat": 22.611359,
+    "lng": 120.34932,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "大東藝術圖書館是位於高雄市的文化藝術場館，提供豐富的展覽與人文體驗，適合帶孩子認識在地歷史與藝術。出發前請至官網確認開放時間。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%9D%B1%E8%97%9D%E8%A1%93%E5%9C%96%E6%9B%B8%E9%A4%A8%20%E9%AB%98%E9%9B%84%E5%B8%82%E9%B3%B3%E5%B1%B1%E5%8D%80%E5%85%89%E9%81%A0%E8%B7%AF161%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "https://museums.moc.gov.tw/"
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-5ac329136e5e541f9d5c557e",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.936Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
+  },
+  {
+    "id": "culture-5ac32effaaa36011b2e93c8e",
+    "name": "屏東旅遊文學館",
+    "region": "南部",
+    "city": "屏東縣",
+    "district": "屏東市",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "屏東市公園路24-2號",
+    "hours": "請至官方網站確認",
+    "lat": 22.67797,
+    "lng": 120.501205,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "屏東旅遊文學館是位於屏東縣的文化藝術場館，提供豐富的展覽與人文體驗，適合帶孩子認識在地歷史與藝術。出發前請至官網確認開放時間。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B1%8F%E6%9D%B1%E6%97%85%E9%81%8A%E6%96%87%E5%AD%B8%E9%A4%A8%20%E5%B1%8F%E6%9D%B1%E5%B8%82%E5%85%AC%E5%9C%92%E8%B7%AF24-2%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "https://museums.moc.gov.tw/"
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-5ac32effaaa36011b2e93c8e",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.937Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
   }
 ]

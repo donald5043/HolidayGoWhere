@@ -24,6 +24,7 @@ jobs:
       - run: npm run import:seeds
       - run: npm run sync:forest
       - run: npm run sync:farm
+      - run: npm run sync:culture
       - run: npm run build
 
       - name: Commit updated place data
