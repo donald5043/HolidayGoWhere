@@ -21,7 +21,8 @@ export default defineConfig({
           '**/places-central-*.js',
           '**/places-south-*.js',
           '**/places-east-*.js',
-          '**/places-islands-*.js'
+          '**/places-islands-*.js',
+          '**/restaurants-osm-*.js'
         ],
         runtimeCaching: [
           {

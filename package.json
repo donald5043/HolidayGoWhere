@@ -15,6 +15,7 @@
     "sync:culture": "node scripts/sync-culture.mjs",
     "import:osm-restaurants": "node scripts/import-osm-restaurants.mjs",
     "sync:osm-restaurants": "node scripts/sync-osm-restaurants.mjs",
+    "import:michelin": "node scripts/import-michelin.mjs",
     "ai:enrich": "node scripts/enrich-ai.mjs"
   },
   "dependencies": {
