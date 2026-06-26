@@ -139,9 +139,9 @@ function highlightsFor(name, tags) {
   return h
 }
 
-// Pin exact coordinates — avoids showing all same-chain branches nearby
-function mapsUrlFor(lat, lng) {
-  return `https://www.google.com/maps/search/?api=1&query=${lat.toFixed(6)},${lng.toFixed(6)}`
+// Search by name centred at exact coordinates — shows name in Maps UI and pins the right branch
+function mapsUrlFor(name, lat, lng) {
+  return `https://www.google.com/maps/search/${encodeURIComponent(name)}/@${lat.toFixed(6)},${lng.toFixed(6)},17z`
 }
 
 function isStale(el) {
@@ -287,7 +287,7 @@ async function main() {
       highlights: highlightsFor(name, tags),
       facilities: facilitiesFor(tags),
       familyAmenities: hasFamilyInfo ? familyAmenitiesFor(tags) : undefined,
-      mapsUrl: mapsUrlFor(lat, lng),
+      mapsUrl: mapsUrlFor(name, lat, lng),
       sources: [{ type: '官方網站', label: 'OpenStreetMap', url: `https://www.openstreetmap.org/${el.type}/${el.id}` }],
       dataSource: 'osm',
       sourceId: `${el.type}/${el.id}`,

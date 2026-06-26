@@ -236,7 +236,7 @@ function buildPlaceRecord(seed, city, region, coords) {
       strollerFriendly: 'notListed',
       parkingInfo: '停車資訊請向店家確認。',
     },
-    mapsUrl: `https://www.google.com/maps/search/?api=1&query=${coords.lat.toFixed(6)},${coords.lng.toFixed(6)}`,
+    mapsUrl: `https://www.google.com/maps/search/${encodeURIComponent(seed.name)}/@${coords.lat.toFixed(6)},${coords.lng.toFixed(6)},17z`,
     sources: [{
       type: '官方資料',
       label: seed.nameEn ? `Michelin Guide - ${seed.nameEn}` : 'Michelin Guide Taiwan 2024',
