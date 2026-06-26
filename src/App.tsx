@@ -719,7 +719,9 @@ function App() {
         ageMatches &&
         (!rainyOnly || place.rainyDay === true) &&
         (!eventOnly || place.placeType === '活動') &&
-        (!restaurantOnly || place.placeType === '餐飲') &&
+        // Restaurants are a separate mode: show only when explicitly selected,
+        // otherwise keep main list as attractions-only.
+        (restaurantOnly ? place.placeType === '餐飲' : place.placeType !== '餐飲') &&
         (setting === '全部' || place.setting === setting || (setting !== '室內外' && place.setting === '室內外')) &&
         (duration === '全部' || place.duration === duration)
       )
@@ -727,7 +729,7 @@ function App() {
     const sorted = [...matches]
     const rainyWeather = weather && (weather.precipitationProbability >= 45 || weather.weatherCode >= 51)
     const hotWeather = weather && weather.temperature >= 32
-    if (weather) {
+    if (weather && !restaurantOnly) {
       sorted.sort((first, second) => {
         const weatherScore = (place: Place) =>
           (rainyWeather && place.rainyDay ? 3 : 0) +
@@ -736,19 +738,11 @@ function App() {
         return weatherScore(second) - weatherScore(first)
       })
     }
-    if (rainyOnly) {
-      sorted.sort((first, second) =>
-        Number(second.placeType === '餐飲') - Number(first.placeType === '餐飲'),
-      )
-    }
     const sortLocation = mapViewport?.center || userLocation
     if (!sortLocation) return sorted
-    return sorted.sort((first, second) => {
-      if (rainyOnly && first.placeType !== second.placeType) {
-        return Number(second.placeType === '餐飲') - Number(first.placeType === '餐飲')
-      }
-      return distanceInKm(sortLocation, first) - distanceInKm(sortLocation, second)
-    })
+    return sorted.sort((first, second) =>
+      distanceInKm(sortLocation, first) - distanceInKm(sortLocation, second)
+    )
   }, [places, query, age, setting, duration, rainyOnly, eventOnly, restaurantOnly, weather, userLocation, mapViewport])
   const displayedPlaces = useMemo(
     () => activeTab === 'favorites'
@@ -1278,14 +1272,14 @@ function App() {
                 <Baby size={15} />{item.label}
               </button>
             ))}
-            <button className={rainyOnly ? 'active rainy-filter' : 'rainy-filter'} onClick={() => { playUiSound(); setRainyOnly((value) => !value) }}>
+            <button className={rainyOnly ? 'active rainy-filter' : 'rainy-filter'} onClick={() => { playUiSound(); setRainyOnly((value) => { if (!value) setRestaurantOnly(false); return !value }) }}>
               <Umbrella size={14} /> 雨天備案
             </button>
-            <button className={eventOnly ? 'active event-filter' : 'event-filter'} onClick={() => { playUiSound(); setEventOnly((value) => !value) }}>
+            <button className={eventOnly ? 'active event-filter' : 'event-filter'} onClick={() => { playUiSound(); setEventOnly((value) => { if (!value) setRestaurantOnly(false); return !value }) }}>
               <CalendarCheck size={14} /> 本週活動
             </button>
-            <button className={restaurantOnly ? 'active' : ''} onClick={() => { playUiSound(); setRestaurantOnly((value) => !value) }}>
-              <Utensils size={14} /> 親子餐廳
+            <button className={restaurantOnly ? 'active' : ''} onClick={() => { playUiSound(); setRestaurantOnly((value) => { if (!value) { setEventOnly(false); setRainyOnly(false) } return !value }) }}>
+              <Utensils size={14} /> 餐廳
             </button>
           </div>
 
