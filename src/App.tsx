@@ -58,6 +58,8 @@ import {
 import { MapView, type MapViewport } from './MapView'
 import { BAD_PLACEHOLDER_IMAGES, FALLBACK_IMAGE } from './imageUtils'
 import { WeekendDiscovery } from './components/WeekendDiscovery'
+import { supabase } from './lib/supabase'
+import { getDeviceId } from './lib/deviceId'
 import { NearbyRestaurants } from './components/NearbyRestaurants'
 import { PackingList } from './components/PackingList'
 import { ItineraryPlanner } from './components/ItineraryPlanner'
@@ -510,6 +512,27 @@ function App() {
   }, [reports])
 
   useEffect(() => {
+    if (!supabase) return
+    const deviceId = getDeviceId()
+    supabase.from('reports').select('*').eq('device_id', deviceId).then(({ data }) => {
+      if (!data || data.length === 0) return
+      setReports((current) => {
+        const merged = { ...current }
+        for (const row of data) {
+          merged[row.place_id] = {
+            visitedAt: row.visited_at,
+            liked: row.liked,
+            note: row.note,
+            amenities: row.amenities ?? {},
+            updatedAt: row.updated_at,
+          }
+        }
+        return merged
+      })
+    })
+  }, [])
+
+  useEffect(() => {
     localStorage.setItem('holiday-go-where:sound', soundEnabled ? 'on' : 'off')
   }, [soundEnabled])
 
@@ -870,16 +893,29 @@ function App() {
   const saveReport = () => {
     if (!selected) return
     const now = new Date().toISOString()
-    setReports((current) => ({
-      ...current,
-      [selected.id]: {
-        visitedAt: current[selected.id]?.visitedAt || now,
+    setReports((current) => {
+      const visitedAt = current[selected.id]?.visitedAt || now
+      const report: ParentReport = {
+        visitedAt,
         liked: reportLiked,
         note: reportNote.trim(),
         amenities: reportAmenities,
         updatedAt: now,
-      },
-    }))
+      }
+      if (supabase) {
+        const deviceId = getDeviceId()
+        supabase.from('reports').upsert({
+          place_id: selected.id,
+          device_id: deviceId,
+          visited_at: visitedAt,
+          liked: reportLiked,
+          note: reportNote.trim(),
+          amenities: reportAmenities,
+          updated_at: now,
+        }, { onConflict: 'place_id,device_id' })
+      }
+      return { ...current, [selected.id]: report }
+    })
     setShowReportForm(false)
   }
 
@@ -1631,9 +1667,9 @@ function App() {
                     />
                     <div className="report-actions">
                       <button onClick={() => setShowReportForm(false)}>取消</button>
-                      <button className="primary" onClick={saveReport}>儲存在這支手機</button>
+                      <button className="primary" onClick={saveReport}>{supabase ? '儲存並同步' : '儲存在這支手機'}</button>
                     </div>
-                    <small>目前回報只保存在此裝置，不會公開上傳。</small>
+                    <small>{supabase ? '回報將同步至雲端，可跨裝置查看。' : '目前回報只保存在此裝置，不會公開上傳。'}</small>
                   </div>
                 )}
               </div>
