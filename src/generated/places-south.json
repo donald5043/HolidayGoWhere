@@ -40040,7 +40040,9 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "michelinAward": "bib_gourmand",
+    "cuisine": "擔仔麵"
   },
   {
     "id": "Restaurant_376600000A_000098",
@@ -44311,7 +44313,9 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "michelinAward": "bib_gourmand",
+    "cuisine": "海鮮"
   },
   {
     "id": "Restaurant_376600000A_000060",
@@ -50464,7 +50468,9 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "michelinAward": "bib_gourmand",
+    "cuisine": "台南料理"
   },
   {
     "id": "Restaurant_395000000A_006496",
@@ -57705,7 +57711,9 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "michelinAward": "bib_gourmand",
+    "cuisine": "蝦捲"
   },
   {
     "id": "Restaurant_376600000A_000069",
@@ -59474,7 +59482,9 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "michelinAward": "bib_gourmand",
+    "cuisine": "小卷米粉"
   },
   {
     "id": "Restaurant_395000000A_002188",
@@ -72008,7 +72018,9 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "michelinAward": "bib_gourmand",
+    "cuisine": "湯圓"
   },
   {
     "id": "Restaurant_395000000A_001811",
@@ -74083,7 +74095,9 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "michelinAward": "bib_gourmand",
+    "cuisine": "虱目魚粥"
   },
   {
     "id": "Restaurant_395000000A_001494",
@@ -75374,7 +75388,9 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "michelinAward": "bib_gourmand",
+    "cuisine": "牛肉湯"
   },
   {
     "id": "Restaurant_395000000A_001589",
@@ -112452,7 +112468,9 @@
     "sourceId": "way/1454854296",
     "qualityScore": 5,
     "updatedAt": "2026-06-26",
-    "placeType": "餐飲"
+    "placeType": "餐飲",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "台灣料理"
   },
   {
     "id": "osm-node-5287537749",
@@ -114714,7 +114732,9 @@
     "sourceId": "node/3902479207",
     "qualityScore": 4,
     "updatedAt": "2026-06-26",
-    "placeType": "餐飲"
+    "placeType": "餐飲",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "肉燥飯"
   },
   {
     "id": "osm-node-3993197117",
@@ -115939,7 +115959,9 @@
     "sourceId": "node/4408731589",
     "qualityScore": 4,
     "updatedAt": "2026-06-26",
-    "placeType": "餐飲"
+    "placeType": "餐飲",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "羊肉"
   },
   {
     "id": "osm-node-4503270589",
@@ -117607,6 +117629,762 @@
     "dataSource": "osm",
     "sourceId": "node/5146509221",
     "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺南市-阿星鹹粥",
+    "name": "阿星鹹粥",
+    "region": "南部",
+    "city": "臺南市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "小吃",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "臺南市",
+    "hours": "請查詢官方資訊",
+    "lat": 23.0000251,
+    "lng": 120.1923113,
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "阿星鹹粥入選米其林必比登推介，以合理價格提供優質鹹粥。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於臺南市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "鹹粥"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=23.000025,120.192311",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "鹹粥",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺南市-落成米糕",
+    "name": "落成米糕",
+    "region": "南部",
+    "city": "臺南市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "小吃",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "臺南市",
+    "hours": "請查詢官方資訊",
+    "lat": 22.9959761,
+    "lng": 120.2046688,
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "落成米糕入選米其林必比登推介，以合理價格提供優質米糕。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於臺南市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "米糕"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=22.995976,120.204669",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "米糕",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺南市-筑馨居",
+    "name": "筑馨居",
+    "region": "南部",
+    "city": "臺南市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "台灣料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "臺南市",
+    "hours": "請查詢官方資訊",
+    "lat": 23.0808135,
+    "lng": 120.2879214,
+    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "筑馨居入選米其林必比登推介，以合理價格提供優質台灣料理。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於臺南市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "台灣料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=23.080814,120.287921",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "台灣料理",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-高雄市-牛老大涮牛肉",
+    "name": "牛老大涮牛肉",
+    "region": "南部",
+    "city": "高雄市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "火鍋",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "高雄市自強二路",
+    "hours": "請查詢官方資訊",
+    "lat": 22.596077,
+    "lng": 120.3273771,
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "牛老大涮牛肉入選米其林必比登推介，以合理價格提供優質涮牛肉。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於高雄市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "涮牛肉"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=22.596077,120.327377",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "涮牛肉",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-高雄市-菜粽李",
+    "name": "菜粽李",
+    "region": "南部",
+    "city": "高雄市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "小吃",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "高雄市",
+    "hours": "請查詢官方資訊",
+    "lat": 22.7602617,
+    "lng": 120.3593626,
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "菜粽李入選米其林必比登推介，以合理價格提供優質菜粽。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於高雄市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "菜粽"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=22.760262,120.359363",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "菜粽",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-高雄市-正宗鴨肉飯",
+    "name": "正宗鴨肉飯",
+    "region": "南部",
+    "city": "高雄市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "小吃",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "高雄市",
+    "hours": "請查詢官方資訊",
+    "lat": 22.664646,
+    "lng": 120.3095858,
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "正宗鴨肉飯入選米其林必比登推介，以合理價格提供優質鴨肉飯。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於高雄市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "鴨肉飯"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=22.664646,120.309586",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "鴨肉飯",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-高雄市-湖東牛肉館",
+    "name": "湖東牛肉館",
+    "region": "南部",
+    "city": "高雄市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "高雄市",
+    "hours": "請查詢官方資訊",
+    "lat": 22.8777756,
+    "lng": 120.252012,
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "湖東牛肉館入選米其林必比登推介，以合理價格提供優質牛肉。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於高雄市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "牛肉"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=22.877776,120.252012",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "牛肉",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-高雄市-弘記肉燥飯舖",
+    "name": "弘記肉燥飯舖",
+    "region": "南部",
+    "city": "高雄市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "小吃",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "高雄市",
+    "hours": "請查詢官方資訊",
+    "lat": 22.6646244,
+    "lng": 120.3044697,
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "弘記肉燥飯舖入選米其林必比登推介，以合理價格提供優質肉燥飯。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於高雄市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "肉燥飯"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=22.664624,120.304470",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "肉燥飯",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-高雄市-阿香的廚房",
+    "name": "阿香的廚房",
+    "region": "南部",
+    "city": "高雄市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "台灣料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "高雄市",
+    "hours": "請查詢官方資訊",
+    "lat": 22.8935128,
+    "lng": 120.513916,
+    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "阿香的廚房入選米其林必比登推介，以合理價格提供優質台灣料理。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於高雄市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "台灣料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=22.893513,120.513916",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "台灣料理",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-高雄市-廖記米糕",
+    "name": "廖記米糕",
+    "region": "南部",
+    "city": "高雄市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "小吃",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "高雄市",
+    "hours": "請查詢官方資訊",
+    "lat": 22.836711,
+    "lng": 120.532129,
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "廖記米糕入選米其林必比登推介，以合理價格提供優質米糕。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於高雄市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "米糕"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=22.836711,120.532129",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "米糕",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-高雄市-老新台菜",
+    "name": "老新台菜",
+    "region": "南部",
+    "city": "高雄市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "台灣料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "高雄市九如二路",
+    "hours": "請查詢官方資訊",
+    "lat": 22.6416712,
+    "lng": 120.2969304,
+    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "老新台菜入選米其林必比登推介，以合理價格提供優質台灣料理。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於高雄市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "台灣料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=22.641671,120.296930",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "台灣料理",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-高雄市-小燉食室",
+    "name": "小燉食室",
+    "region": "南部",
+    "city": "高雄市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "台灣料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "高雄市",
+    "hours": "請查詢官方資訊",
+    "lat": 22.625319,
+    "lng": 120.2838499,
+    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "小燉食室入選米其林必比登推介，以合理價格提供優質台灣料理。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於高雄市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "台灣料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=22.625319,120.283850",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "台灣料理",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-高雄市-泰元",
+    "name": "泰元",
+    "region": "南部",
+    "city": "高雄市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "亞洲料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "高雄市",
+    "hours": "請查詢官方資訊",
+    "lat": 22.8407068,
+    "lng": 120.2674809,
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "泰元入選米其林必比登推介，以合理價格提供優質泰式料理。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於高雄市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "泰式料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=22.840707,120.267481",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "泰式料理",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-高雄市-楊寶寶蒸餃",
+    "name": "楊寶寶蒸餃",
+    "region": "南部",
+    "city": "高雄市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "小吃",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "高雄市朝明路",
+    "hours": "請查詢官方資訊",
+    "lat": 22.7251049,
+    "lng": 120.3263246,
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "楊寶寶蒸餃入選米其林必比登推介，以合理價格提供優質蒸餃。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於高雄市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "蒸餃"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=22.725105,120.326325",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "蒸餃",
+    "qualityScore": 7,
     "updatedAt": "2026-06-26",
     "placeType": "餐飲"
   }

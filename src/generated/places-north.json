@@ -125770,7 +125770,9 @@
     "sourceId": "node/2726480268",
     "qualityScore": 4,
     "updatedAt": "2026-06-25",
-    "placeType": "餐飲"
+    "placeType": "餐飲",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "小籠包"
   },
   {
     "id": "osm-node-2925856701",
@@ -136542,7 +136544,9 @@
     "sourceId": "node/4258242586",
     "qualityScore": 5,
     "updatedAt": "2026-06-26",
-    "placeType": "餐飲"
+    "placeType": "餐飲",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "台灣料理"
   },
   {
     "id": "osm-node-4281353289",
@@ -150902,6 +150906,2598 @@
     "dataSource": "osm",
     "sourceId": "node/3750773872",
     "qualityScore": 5,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-頤宮",
+    "name": "頤宮",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "大同區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "中式料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$$$",
+    "address": "臺北市大同區承德路一段3號17樓",
+    "hours": "請查詢官方資訊",
+    "lat": 25.0500053,
+    "lng": 121.5160797,
+    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "頤宮榮獲米其林三星，是指南評定值得專程造訪的殿堂級餐廳。供應粵菜，以精湛廚藝詮釋食材本質，每道料理皆體現主廚的創意與職人精神。座落於臺北市大同區，是台灣頂級餐飲的代表之一。",
+    "highlights": [
+      "米其林三星",
+      "頂級美食體驗",
+      "粵菜"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.050005,121.516080",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide - Le Palais",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "3star",
+    "cuisine": "粵菜",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-態芮",
+    "name": "態芮",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "中山區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "台灣料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$$$",
+    "address": "臺北市中山區樂群三路299巷3弄6樓",
+    "hours": "請查詢官方資訊",
+    "lat": 25.0056992,
+    "lng": 121.4788427,
+    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "態芮榮獲米其林三星，是指南評定值得專程造訪的殿堂級餐廳。供應創意台灣料理，以精湛廚藝詮釋食材本質，每道料理皆體現主廚的創意與職人精神。座落於臺北市中山區，是台灣頂級餐飲的代表之一。",
+    "highlights": [
+      "米其林三星",
+      "頂級美食體驗",
+      "創意台灣料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.005699,121.478843",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide - Taïrroir",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "3star",
+    "cuisine": "創意台灣料理",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-logy",
+    "name": "logy",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "大安區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "創意料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$$$",
+    "address": "臺北市大安區安和路一段109巷6號",
+    "hours": "請查詢官方資訊",
+    "lat": 25.035635,
+    "lng": 121.5532118,
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "logy獲得米其林二星肯定，代表出色烹飪技藝值得繞道前往。以亞洲創意料理為核心，料理細節考究、風味層次豐富，展現對食材與技法的深刻掌握。位於臺北市大安區，是品味精緻飲食文化的首選之一。",
+    "highlights": [
+      "米其林二星",
+      "精緻料理",
+      "亞洲創意料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.035635,121.553212",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide - logy",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "2star",
+    "cuisine": "亞洲創意料理",
+    "qualityScore": 9,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-牡丹",
+    "name": "牡丹",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "大安區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "日式料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$$$",
+    "address": "臺北市大安區四維路52巷17號",
+    "hours": "請查詢官方資訊",
+    "lat": 25.0351887,
+    "lng": 121.5471823,
+    "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "牡丹獲得米其林二星肯定，代表出色烹飪技藝值得繞道前往。以天婦羅為核心，料理細節考究、風味層次豐富，展現對食材與技法的深刻掌握。位於臺北市大安區，是品味精緻飲食文化的首選之一。",
+    "highlights": [
+      "米其林二星",
+      "精緻料理",
+      "天婦羅"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.035189,121.547182",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide - Mudan",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "2star",
+    "cuisine": "天婦羅",
+    "qualityScore": 9,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-raw",
+    "name": "RAW",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "中山區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "創意料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$$$",
+    "address": "臺北市中山區樂群三路301號",
+    "hours": "請查詢官方資訊",
+    "lat": 25.0828099,
+    "lng": 121.559455,
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "RAW獲得米其林二星肯定，代表出色烹飪技藝值得繞道前往。以創意料理為核心，料理細節考究、風味層次豐富，展現對食材與技法的深刻掌握。位於臺北市中山區，是品味精緻飲食文化的首選之一。",
+    "highlights": [
+      "米其林二星",
+      "精緻料理",
+      "創意料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.082810,121.559455",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide - RAW",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "2star",
+    "cuisine": "創意料理",
+    "qualityScore": 9,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-斑泊",
+    "name": "斑泊",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "中山區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "台灣料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$$",
+    "address": "臺北市中山區",
+    "hours": "請查詢官方資訊",
+    "lat": 25.0194315,
+    "lng": 121.4808882,
+    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "斑泊榮獲米其林一星認證，以高水準的台灣料理獲得評鑑青睞。料理品質穩定、用餐體驗精緻，對食材選用與烹調工序均有獨到堅持。位於臺北市中山區，是探索精緻餐飲的好去處。",
+    "highlights": [
+      "米其林一星",
+      "優質餐飲",
+      "台灣料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.019431,121.480888",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide - Ban Bo",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "1star",
+    "cuisine": "台灣料理",
+    "qualityScore": 8,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-富錦樹台菜香檳",
+    "name": "富錦樹台菜香檳",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "松山區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "台灣料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$$",
+    "address": "臺北市松山區敦化北路199巷17號",
+    "hours": "請查詢官方資訊",
+    "lat": 25.0564918,
+    "lng": 121.5527358,
+    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "富錦樹台菜香檳榮獲米其林一星認證，以高水準的台灣料理獲得評鑑青睞。料理品質穩定、用餐體驗精緻，對食材選用與烹調工序均有獨到堅持。位於臺北市松山區，是探索精緻餐飲的好去處。",
+    "highlights": [
+      "米其林一星",
+      "優質餐飲",
+      "台灣料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.056492,121.552736",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide - Fujin Tree",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "1star",
+    "cuisine": "台灣料理",
+    "qualityScore": 8,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-謙安和",
+    "name": "謙安和",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "大安區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "日式料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$$",
+    "address": "臺北市大安區安和路一段127巷4號",
+    "hours": "請查詢官方資訊",
+    "lat": 25.0345882,
+    "lng": 121.5528685,
+    "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "謙安和榮獲米其林一星認證，以高水準的日本料理獲得評鑑青睞。料理品質穩定、用餐體驗精緻，對食材選用與烹調工序均有獨到堅持。位於臺北市大安區，是探索精緻餐飲的好去處。",
+    "highlights": [
+      "米其林一星",
+      "優質餐飲",
+      "日本料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.034588,121.552869",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide - Ken Anhe",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "1star",
+    "cuisine": "日本料理",
+    "qualityScore": 8,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-米香",
+    "name": "米香",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "中山區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "創意料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$$",
+    "address": "臺北市中山區樂群二路55號3樓",
+    "hours": "請查詢官方資訊",
+    "lat": 25.0805011,
+    "lng": 121.5539441,
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "米香榮獲米其林一星認證，以高水準的創意亞洲料理獲得評鑑青睞。料理品質穩定、用餐體驗精緻，對食材選用與烹調工序均有獨到堅持。位於臺北市中山區，是探索精緻餐飲的好去處。",
+    "highlights": [
+      "米其林一星",
+      "優質餐飲",
+      "創意亞洲料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.080501,121.553944",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide - Mipon",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "1star",
+    "cuisine": "創意亞洲料理",
+    "qualityScore": 8,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-山海樓",
+    "name": "山海樓",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "中正區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "台灣料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$$",
+    "address": "臺北市中正區仁愛路二段94號",
+    "hours": "請查詢官方資訊",
+    "lat": 25.037998,
+    "lng": 121.5313667,
+    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "山海樓榮獲米其林一星認證，以高水準的台灣料理獲得評鑑青睞。料理品質穩定、用餐體驗精緻，對食材選用與烹調工序均有獨到堅持。位於臺北市中正區，是探索精緻餐飲的好去處。",
+    "highlights": [
+      "米其林一星",
+      "優質餐飲",
+      "台灣料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.037998,121.531367",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide - Mountain and Sea House",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "1star",
+    "cuisine": "台灣料理",
+    "qualityScore": 8,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-明壽司",
+    "name": "明壽司",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "中山區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "日式料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$$",
+    "address": "臺北市中山區雙城街25巷6-3號",
+    "hours": "請查詢官方資訊",
+    "lat": 25.0661301,
+    "lng": 121.5248659,
+    "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "明壽司榮獲米其林一星認證，以高水準的日式壽司獲得評鑑青睞。料理品質穩定、用餐體驗精緻，對食材選用與烹調工序均有獨到堅持。位於臺北市中山區，是探索精緻餐飲的好去處。",
+    "highlights": [
+      "米其林一星",
+      "優質餐飲",
+      "日式壽司"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.066130,121.524866",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide - Sushi Akira",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "1star",
+    "cuisine": "日式壽司",
+    "qualityScore": 8,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-鮨隆",
+    "name": "鮨隆",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "中山區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "日式料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$$",
+    "address": "臺北市中山區新生北路二段60-5號",
+    "hours": "請查詢官方資訊",
+    "lat": 25.05585,
+    "lng": 121.5272782,
+    "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "鮨隆榮獲米其林一星認證，以高水準的日式壽司獲得評鑑青睞。料理品質穩定、用餐體驗精緻，對食材選用與烹調工序均有獨到堅持。位於臺北市中山區，是探索精緻餐飲的好去處。",
+    "highlights": [
+      "米其林一星",
+      "優質餐飲",
+      "日式壽司"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.055850,121.527278",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide - Sushi Ryu",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "1star",
+    "cuisine": "日式壽司",
+    "qualityScore": 8,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-壽司芳",
+    "name": "壽司芳",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "大安區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "日式料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$$",
+    "address": "臺北市大安區忠孝東路四段216巷19弄12號",
+    "hours": "請查詢官方資訊",
+    "lat": 24.9877688,
+    "lng": 121.5747717,
+    "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "壽司芳榮獲米其林一星認證，以高水準的日本料理獲得評鑑青睞。料理品質穩定、用餐體驗精緻，對食材選用與烹調工序均有獨到堅持。位於臺北市大安區，是探索精緻餐飲的好去處。",
+    "highlights": [
+      "米其林一星",
+      "優質餐飲",
+      "日本料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=24.987769,121.574772",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide - Sushiyoshi",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "1star",
+    "cuisine": "日本料理",
+    "qualityScore": 8,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-t-t",
+    "name": "T+T",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "松山區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "創意料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$$",
+    "address": "臺北市松山區敦化北路165巷11號",
+    "hours": "請查詢官方資訊",
+    "lat": 25.0548345,
+    "lng": 121.5507147,
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "T+T榮獲米其林一星認證，以高水準的創意亞洲料理獲得評鑑青睞。料理品質穩定、用餐體驗精緻，對食材選用與烹調工序均有獨到堅持。位於臺北市松山區，是探索精緻餐飲的好去處。",
+    "highlights": [
+      "米其林一星",
+      "優質餐飲",
+      "創意亞洲料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.054834,121.550715",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide - T+T",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "1star",
+    "cuisine": "創意亞洲料理",
+    "qualityScore": 8,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-請客樓",
+    "name": "請客樓",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "中正區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "中式料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$$",
+    "address": "臺北市中正區忠孝東路一段12號17樓",
+    "hours": "請查詢官方資訊",
+    "lat": 25.0446562,
+    "lng": 121.5216207,
+    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "請客樓榮獲米其林一星認證，以高水準的淮揚料理獲得評鑑青睞。料理品質穩定、用餐體驗精緻，對食材選用與烹調工序均有獨到堅持。位於臺北市中正區，是探索精緻餐飲的好去處。",
+    "highlights": [
+      "米其林一星",
+      "優質餐飲",
+      "淮揚料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.044656,121.521621",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide - The Guest House",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "1star",
+    "cuisine": "淮揚料理",
+    "qualityScore": 8,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-天香樓",
+    "name": "天香樓",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "中山區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "中式料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$$",
+    "address": "臺北市中山區民權東路二段41號",
+    "hours": "請查詢官方資訊",
+    "lat": 25.0632003,
+    "lng": 121.5205577,
+    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "天香樓榮獲米其林一星認證，以高水準的杭州料理獲得評鑑青睞。料理品質穩定、用餐體驗精緻，對食材選用與烹調工序均有獨到堅持。位於臺北市中山區，是探索精緻餐飲的好去處。",
+    "highlights": [
+      "米其林一星",
+      "優質餐飲",
+      "杭州料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.063200,121.520558",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide - Tien Hsiang Lo",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "1star",
+    "cuisine": "杭州料理",
+    "qualityScore": 8,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-雅閣",
+    "name": "雅閣",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "松山區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "中式料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$$",
+    "address": "臺北市松山區敦化北路158號",
+    "hours": "請查詢官方資訊",
+    "lat": 24.9973868,
+    "lng": 121.5583348,
+    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "雅閣榮獲米其林一星認證，以高水準的粵菜獲得評鑑青睞。料理品質穩定、用餐體驗精緻，對食材選用與烹調工序均有獨到堅持。位於臺北市松山區，是探索精緻餐飲的好去處。",
+    "highlights": [
+      "米其林一星",
+      "優質餐飲",
+      "粵菜"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=24.997387,121.558335",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide - Ya Ge",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "1star",
+    "cuisine": "粵菜",
+    "qualityScore": 8,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-a",
+    "name": "A",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "大安區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "創意料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$$",
+    "address": "臺北市大安區忠孝東路三段282號4樓",
+    "hours": "請查詢官方資訊",
+    "lat": 25.0388026,
+    "lng": 121.5372377,
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "A榮獲米其林一星認證，以高水準的創意料理獲得評鑑青睞。料理品質穩定、用餐體驗精緻，對食材選用與烹調工序均有獨到堅持。位於臺北市大安區，是探索精緻餐飲的好去處。",
+    "highlights": [
+      "米其林一星",
+      "優質餐飲",
+      "創意料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.038803,121.537238",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide - A",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "1star",
+    "cuisine": "創意料理",
+    "qualityScore": 8,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-盈科",
+    "name": "盈科",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "大同區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "日式料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$$",
+    "address": "臺北市大同區民樂街58號",
+    "hours": "請查詢官方資訊",
+    "lat": 25.0498421,
+    "lng": 121.5212166,
+    "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "盈科榮獲米其林一星認證，以高水準的日本料理獲得評鑑青睞。料理品質穩定、用餐體驗精緻，對食材選用與烹調工序均有獨到堅持。位於臺北市大同區，是探索精緻餐飲的好去處。",
+    "highlights": [
+      "米其林一星",
+      "優質餐飲",
+      "日本料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.049842,121.521217",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide - Eika",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "1star",
+    "cuisine": "日本料理",
+    "qualityScore": 8,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-sens",
+    "name": "Sens",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "松山區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "西式料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$$",
+    "address": "臺北市松山區民生東路三段127巷12號",
+    "hours": "請查詢官方資訊",
+    "lat": 25.0607312,
+    "lng": 121.5623277,
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "Sens榮獲米其林一星認證，以高水準的法式料理獲得評鑑青睞。料理品質穩定、用餐體驗精緻，對食材選用與烹調工序均有獨到堅持。位於臺北市松山區，是探索精緻餐飲的好去處。",
+    "highlights": [
+      "米其林一星",
+      "優質餐飲",
+      "法式料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.060731,121.562328",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide - Sens",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "1star",
+    "cuisine": "法式料理",
+    "qualityScore": 8,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-阿城鵝肉",
+    "name": "阿城鵝肉",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "中山區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "台灣料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "臺北市中山區",
+    "hours": "請查詢官方資訊",
+    "lat": 25.055296,
+    "lng": 121.5962602,
+    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "阿城鵝肉入選米其林必比登推介，以合理價格提供優質台式鵝肉。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於臺北市中山區，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "台式鵝肉"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.055296,121.596260",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "台式鵝肉",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-雞家莊",
+    "name": "雞家莊",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "台灣料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "臺北市",
+    "hours": "請查詢官方資訊",
+    "lat": 25.0550128,
+    "lng": 121.5261699,
+    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "雞家莊入選米其林必比登推介，以合理價格提供優質台灣料理。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於臺北市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "台灣料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.055013,121.526170",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "台灣料理",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-鍾家原上海生煎包",
+    "name": "鍾家原上海生煎包",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "臺北市",
+    "hours": "請查詢官方資訊",
+    "lat": 25.0895063,
+    "lng": 121.5263998,
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "鍾家原上海生煎包入選米其林必比登推介，以合理價格提供優質生煎包。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於臺北市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "生煎包"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.089506,121.526400",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "生煎包",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-都一處",
+    "name": "都一處",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "信義區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "台灣料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "臺北市信義區",
+    "hours": "請查詢官方資訊",
+    "lat": 25.0372389,
+    "lng": 121.5610412,
+    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "都一處入選米其林必比登推介，以合理價格提供優質台灣料理。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於臺北市信義區，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "台灣料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.037239,121.561041",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "台灣料理",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-好朋友涼麵",
+    "name": "好朋友涼麵",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "小吃",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "臺北市",
+    "hours": "請查詢官方資訊",
+    "lat": 25.0891236,
+    "lng": 121.5255571,
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "好朋友涼麵入選米其林必比登推介，以合理價格提供優質涼麵。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於臺北市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "涼麵"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.089124,121.525557",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "涼麵",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-小酌之家",
+    "name": "小酌之家",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "台灣料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "臺北市",
+    "hours": "請查詢官方資訊",
+    "lat": 25.0660082,
+    "lng": 121.5303024,
+    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "小酌之家入選米其林必比登推介，以合理價格提供優質台灣料理。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於臺北市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "台灣料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.066008,121.530302",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "台灣料理",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-黃記魯肉飯",
+    "name": "黃記魯肉飯",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "小吃",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "臺北市",
+    "hours": "請查詢官方資訊",
+    "lat": 25.0636172,
+    "lng": 121.5241606,
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "黃記魯肉飯入選米其林必比登推介，以合理價格提供優質魯肉飯。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於臺北市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "魯肉飯"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.063617,121.524161",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "魯肉飯",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-隱食家",
+    "name": "隱食家",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "台灣料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "臺北市",
+    "hours": "請查詢官方資訊",
+    "lat": 25.0196633,
+    "lng": 121.5256521,
+    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "隱食家入選米其林必比登推介，以合理價格提供優質台灣料理。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於臺北市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "台灣料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.019663,121.525652",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "台灣料理",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-人和園",
+    "name": "人和園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "臺北市",
+    "hours": "請查詢官方資訊",
+    "lat": 25.0607067,
+    "lng": 121.5227419,
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "人和園入選米其林必比登推介，以合理價格提供優質雲南料理。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於臺北市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "雲南料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.060707,121.522742",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "雲南料理",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-老山東牛肉家常麵店",
+    "name": "老山東牛肉家常麵店",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "小吃",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "臺北市",
+    "hours": "請查詢官方資訊",
+    "lat": 25.0434526,
+    "lng": 121.5057481,
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "老山東牛肉家常麵店入選米其林必比登推介，以合理價格提供優質牛肉麵。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於臺北市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "牛肉麵"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.043453,121.505748",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "牛肉麵",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-小小樹食",
+    "name": "小小樹食",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "大安區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "臺北市大安區大安路一段116巷17號",
+    "hours": "請查詢官方資訊",
+    "lat": 25.0398998,
+    "lng": 121.5447287,
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "小小樹食入選米其林必比登推介，以合理價格提供優質蔬食。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於臺北市大安區，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "蔬食"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.039900,121.544729",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "蔬食",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-賣麵炎仔",
+    "name": "賣麵炎仔",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "台灣料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "臺北市",
+    "hours": "請查詢官方資訊",
+    "lat": 25.0609871,
+    "lng": 121.5098148,
+    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "賣麵炎仔入選米其林必比登推介，以合理價格提供優質台式麵食。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於臺北市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "台式麵食"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.060987,121.509815",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "台式麵食",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-茂園",
+    "name": "茂園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "台灣料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "臺北市",
+    "hours": "請查詢官方資訊",
+    "lat": 24.9669892,
+    "lng": 121.6031139,
+    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "茂園入選米其林必比登推介，以合理價格提供優質台灣料理。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於臺北市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "台灣料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=24.966989,121.603114",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "台灣料理",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-麵鋪",
+    "name": "麵鋪",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "小吃",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "臺北市",
+    "hours": "請查詢官方資訊",
+    "lat": 25.0402794,
+    "lng": 121.5512024,
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "麵鋪入選米其林必比登推介，以合理價格提供優質麵食。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於臺北市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "麵食"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.040279,121.551202",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "麵食",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-p-ng",
+    "name": "Pàng",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "臺北市",
+    "hours": "請查詢官方資訊",
+    "lat": 25.040895,
+    "lng": 121.5765875,
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "Pàng入選米其林必比登推介，以合理價格提供優質墨西哥料理。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於臺北市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "墨西哥料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.040895,121.576588",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "墨西哥料理",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-榮榮園",
+    "name": "榮榮園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "中式料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "臺北市",
+    "hours": "請查詢官方資訊",
+    "lat": 25.1210142,
+    "lng": 121.5197341,
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "榮榮園入選米其林必比登推介，以合理價格提供優質北京料理。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於臺北市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "北京料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.121014,121.519734",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "北京料理",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-番紅花印度美饌",
+    "name": "番紅花印度美饌",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "臺北市",
+    "hours": "請查詢官方資訊",
+    "lat": 25.1177885,
+    "lng": 121.5331405,
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "番紅花印度美饌入選米其林必比登推介，以合理價格提供優質印度料理。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於臺北市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "印度料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.117788,121.533141",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "印度料理",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-磐石坊",
+    "name": "磐石坊",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "台灣料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "臺北市",
+    "hours": "請查詢官方資訊",
+    "lat": 25.028053,
+    "lng": 121.55131,
+    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "磐石坊入選米其林必比登推介，以合理價格提供優質台灣料理。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於臺北市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "台灣料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.028053,121.551310",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "台灣料理",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-軟食力",
+    "name": "軟食力",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "台灣料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "臺北市",
+    "hours": "請查詢官方資訊",
+    "lat": 25.0270936,
+    "lng": 121.5563473,
+    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "軟食力入選米其林必比登推介，以合理價格提供優質台式早餐。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於臺北市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "台式早餐"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.027094,121.556347",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "台式早餐",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-松竹園",
+    "name": "松竹園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "台灣料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "臺北市",
+    "hours": "請查詢官方資訊",
+    "lat": 25.1398837,
+    "lng": 121.5678068,
+    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "松竹園入選米其林必比登推介，以合理價格提供優質台灣料理。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於臺北市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "台灣料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.139884,121.567807",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "台灣料理",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-泰姬",
+    "name": "泰姬",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "臺北市",
+    "hours": "請查詢官方資訊",
+    "lat": 25.0225732,
+    "lng": 121.5404367,
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "泰姬入選米其林必比登推介，以合理價格提供優質印度料理。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於臺北市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "印度料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.022573,121.540437",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "印度料理",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-巷子龍家常菜",
+    "name": "巷子龍家常菜",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "臺北市",
+    "hours": "請查詢官方資訊",
+    "lat": 25.035467,
+    "lng": 121.5481906,
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "巷子龍家常菜入選米其林必比登推介，以合理價格提供優質家常菜。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於臺北市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "家常菜"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.035467,121.548191",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "家常菜",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-天下三絕",
+    "name": "天下三絕",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "台灣料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "臺北市",
+    "hours": "請查詢官方資訊",
+    "lat": 25.0387522,
+    "lng": 121.5452682,
+    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "天下三絕入選米其林必比登推介，以合理價格提供優質台灣料理。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於臺北市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "台灣料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.038752,121.545268",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "台灣料理",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-醉楓園小館",
+    "name": "醉楓園小館",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "臺北市",
+    "hours": "請查詢官方資訊",
+    "lat": 25.0474556,
+    "lng": 121.5497497,
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "醉楓園小館入選米其林必比登推介，以合理價格提供優質江浙料理。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於臺北市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "江浙料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.047456,121.549750",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "江浙料理",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-小王煮瓜",
+    "name": "小王煮瓜",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "台灣料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "臺北市",
+    "hours": "請查詢官方資訊",
+    "lat": 25.039289,
+    "lng": 121.4985978,
+    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "小王煮瓜入選米其林必比登推介，以合理價格提供優質台式滷味。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於臺北市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "台式滷味"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.039289,121.498598",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "台式滷味",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-小品雅廚",
+    "name": "小品雅廚",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "台灣料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "臺北市",
+    "hours": "請查詢官方資訊",
+    "lat": 25.0630452,
+    "lng": 121.5288895,
+    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "小品雅廚入選米其林必比登推介，以合理價格提供優質台灣料理。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於臺北市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "台灣料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.063045,121.528890",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "台灣料理",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-一甲子餐飲",
+    "name": "一甲子餐飲",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "台灣料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "臺北市",
+    "hours": "請查詢官方資訊",
+    "lat": 25.040378,
+    "lng": 121.5021902,
+    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "一甲子餐飲入選米其林必比登推介，以合理價格提供優質台灣料理。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於臺北市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "台灣料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=25.040378,121.502190",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "台灣料理",
+    "qualityScore": 7,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "michelin-臺北市-元味料理",
+    "name": "元味料理",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "台灣料理",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "$$",
+    "address": "臺北市",
+    "hours": "請查詢官方資訊",
+    "lat": 24.9926107,
+    "lng": 121.4935078,
+    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=900&q=80",
+    "accent": "#c8956c",
+    "description": "元味料理入選米其林必比登推介，以合理價格提供優質台灣料理。必比登代表「物超所值」的好餐廳，注重食物本味與烹調功夫。位於臺北市，是在地美食文化的鮮活縮影。",
+    "highlights": [
+      "必比登推介",
+      "物超所值",
+      "台灣料理"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=24.992611,121.493508",
+    "sources": [
+      {
+        "type": "官方資料",
+        "label": "Michelin Guide Taiwan 2024",
+        "url": "https://guide.michelin.com/tw/zh_TW/taipei-region/taipei/restaurants"
+      }
+    ],
+    "dataSource": "michelin",
+    "michelinAward": "bib_gourmand",
+    "cuisine": "台灣料理",
+    "qualityScore": 7,
     "updatedAt": "2026-06-26",
     "placeType": "餐飲"
   }

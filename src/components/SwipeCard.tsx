@@ -153,6 +153,10 @@ export function SwipeCard({
         />
         <div className="swipe-photo-gradient" />
         <div className="swipe-badges">
+          {place.michelinAward === '3star' && <span className="swipe-badge swipe-badge-michelin">★★★ 三星</span>}
+          {place.michelinAward === '2star' && <span className="swipe-badge swipe-badge-michelin">★★ 二星</span>}
+          {place.michelinAward === '1star' && <span className="swipe-badge swipe-badge-michelin">★ 一星</span>}
+          {place.michelinAward === 'bib_gourmand' && <span className="swipe-badge swipe-badge-michelin">必比登</span>}
           {place.rainyDay && <span className="swipe-badge">🌧️ 雨天備案</span>}
           {place.ageMin <= 2 && <span className="swipe-badge">🍼 嬰幼兒適合</span>}
           {isFavorite && <span className="swipe-badge swipe-badge-fav">❤️ 已收藏</span>}

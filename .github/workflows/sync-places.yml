@@ -27,6 +27,7 @@ jobs:
       - run: npm run sync:culture
       - run: npm run sync:osm-restaurants
       - run: npm run import:osm-restaurants
+      - run: npm run import:michelin
       - run: npm run build
 
       - name: Commit updated place data

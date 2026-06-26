@@ -79,6 +79,8 @@ export type Place = {
   qualityScore: number
   updatedAt: string
   rainyDay?: boolean
+  michelinAward?: '3star' | '2star' | '1star' | 'bib_gourmand'
+  cuisine?: string
   placeType?: '景點' | '餐飲' | '活動'
   restaurantCategory?: RestaurantCategory
   chain?: string

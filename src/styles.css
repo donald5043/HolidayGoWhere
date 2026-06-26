@@ -2721,6 +2721,44 @@ p.wizard-reason {
   background: rgba(229, 244, 224, 0.96);
 }
 
+/* ── Michelin badges ──────────────────────────── */
+.michelin-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 4px 8px;
+  border-radius: var(--radius-pill);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+.michelin-star {
+  color: #fff;
+  background: #c41e1e;
+}
+.michelin-bib {
+  color: #7a3400;
+  background: #ffd28a;
+}
+.michelin-banner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  margin: 10px 0 14px;
+  background: #fff8f0;
+  border-left: 3px solid #c41e1e;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+.michelin-banner-text {
+  font-size: 13px;
+  color: var(--color-text-secondary);
+}
+.swipe-badge-michelin {
+  background: #c41e1e !important;
+  color: #fff !important;
+}
+
 /* ── card tag semantic colours ───────────────── */
 .tag-pill-free {
   color: var(--color-secondary-dark);

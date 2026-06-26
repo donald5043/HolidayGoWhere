@@ -374,6 +374,14 @@ function PlaceImage({
   )
 }
 
+function MichelinBadge({ award }: { award: string }) {
+  if (award === '3star') return <span className="michelin-badge michelin-star">★★★ 三星</span>
+  if (award === '2star') return <span className="michelin-badge michelin-star">★★ 二星</span>
+  if (award === '1star') return <span className="michelin-badge michelin-star">★ 一星</span>
+  if (award === 'bib_gourmand') return <span className="michelin-badge michelin-bib">必比登</span>
+  return null
+}
+
 function PlaceCard({
   place,
   onOpen,
@@ -412,6 +420,7 @@ function PlaceCard({
           <span>{place.setting}</span>
         </div>
         <div className="decision-badges">
+          {place.michelinAward && <MichelinBadge award={place.michelinAward} />}
           {place.weekendEvent && <span className="event-badge"><CalendarDays size={12} />本週末</span>}
           {place.priceLabel === '免費' && <span className="tag-pill-free">免費入場</span>}
           {place.rainyDay && <span className="tag-pill-rain"><Umbrella size={11} />雨天備案</span>}
@@ -1490,6 +1499,17 @@ function App() {
                 <div className="rating-line"><Star size={17} fill="currentColor" /> <strong>{selected.rating}</strong> Google 評分・{compactNumber(selected.reviews)} 則評論</div>
               ) : (
                 <div className="rating-line official-line"><Database size={17} />交通部觀光署官方開放資料</div>
+              )}
+              {selected.michelinAward && (
+                <div className="michelin-banner">
+                  <MichelinBadge award={selected.michelinAward} />
+                  <span className="michelin-banner-text">
+                    {selected.michelinAward === '3star' && '米其林三星・每一口都值得專程前往'}
+                    {selected.michelinAward === '2star' && '米其林二星・出色料理值得繞道品嚐'}
+                    {selected.michelinAward === '1star' && '米其林一星・同類別中特別優秀的餐廳'}
+                    {selected.michelinAward === 'bib_gourmand' && '必比登推介・物超所值的好滋味'}
+                  </span>
+                </div>
               )}
               <p className="detail-description">{selected.description}</p>
               {(selected.weekendEvent || selected.placeType === '活動') && (
