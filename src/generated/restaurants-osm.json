@@ -165624,6 +165624,55 @@
     "placeType": "餐飲"
   },
   {
+    "id": "osm-node-5156740405",
+    "name": "名坂奇洋菓子",
+    "region": "南部",
+    "city": "臺南市",
+    "district": "東區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺南市東區裕信路321",
+    "hours": "Mo-Su 09:00-19:30",
+    "lat": 22.9799759,
+    "lng": 120.2453043,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "名坂奇洋菓子，位於台灣的咖啡廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E5%90%8D%E5%9D%82%E5%A5%87%E6%B4%8B%E8%8F%93%E5%AD%90/@22.979976,120.245304,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/5156740405"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/5156740405",
+    "qualityScore": 5,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
     "id": "osm-node-5269361960",
     "name": "花園96清粥小菜",
     "region": "南部",
@@ -167602,7 +167651,7 @@
   },
   {
     "id": "osm-node-12121466553",
-    "name": "小夜食堂 - 裕平店",
+    "name": "小夜食堂 -",
     "region": "南部",
     "city": "臺南市",
     "district": "東區",
@@ -167615,12 +167664,12 @@
     "reviews": 0,
     "priceLabel": "請查店家",
     "address": "臺南市東區裕平路302",
-    "hours": "Mo-Sa 11-13:30,17:00-20:00",
+    "hours": "Mo-Sa 11:00-13:30,17:00-20:00",
     "lat": 22.9849097,
     "lng": 120.2449174,
     "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
     "accent": "#d88962",
-    "description": "小夜食堂 - 裕平店，位於台灣的餐廳，提供curry料理。更多資訊請參考 OpenStreetMap。",
+    "description": "小夜食堂 -，位於台灣的餐廳，提供curry料理。更多資訊請參考 OpenStreetMap。",
     "highlights": [],
     "facilities": [
       "出發前請確認設施"
@@ -167635,7 +167684,7 @@
       "strollerFriendly": "notListed",
       "parkingInfo": "停車資訊請向店家確認。"
     },
-    "mapsUrl": "https://www.google.com/maps/search/%E5%B0%8F%E5%A4%9C%E9%A3%9F%E5%A0%82%20-%20%E8%A3%95%E5%B9%B3%E5%BA%97/@22.984910,120.244917,17z",
+    "mapsUrl": "https://www.google.com/maps/search/%E5%B0%8F%E5%A4%9C%E9%A3%9F%E5%A0%82%20-/@22.984910,120.244917,17z",
     "sources": [
       {
         "type": "官方網站",
@@ -167645,6 +167694,104 @@
     ],
     "dataSource": "osm",
     "sourceId": "node/12121466553",
+    "qualityScore": 5,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-12121469348",
+    "name": "迷客夏",
+    "region": "南部",
+    "city": "臺南市",
+    "district": "東區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺南市東區裕信路179",
+    "hours": "Mo-Fr 07:00-21:30; Sa-Su 09:00-22:00",
+    "lat": 22.9848773,
+    "lng": 120.2452434,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "迷客夏，位於台灣的咖啡廳，提供bubble_tea料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E8%BF%B7%E5%AE%A2%E5%A4%8F/@22.984877,120.245243,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/12121469348"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/12121469348",
+    "qualityScore": 5,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-12121495926",
+    "name": "鮮自然",
+    "region": "南部",
+    "city": "臺南市",
+    "district": "東區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺南市東區裕平路247",
+    "hours": "Mo-Su 08:30-21:15",
+    "lat": 22.9851878,
+    "lng": 120.2449646,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "鮮自然，位於台灣的咖啡廳，提供bubble_tea料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E9%AE%AE%E8%87%AA%E7%84%B6/@22.985188,120.244965,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/12121495926"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/12121495926",
     "qualityScore": 5,
     "updatedAt": "2026-06-26",
     "placeType": "餐飲"
@@ -170536,6 +170683,104 @@
     ],
     "dataSource": "osm",
     "sourceId": "node/13961884941",
+    "qualityScore": 5,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-13968138641",
+    "name": "鮮自然",
+    "region": "南部",
+    "city": "臺南市",
+    "district": "東區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺南市東區裕信路350",
+    "hours": "Mo-Su 10:00-19:00",
+    "lat": 22.9799948,
+    "lng": 120.2449252,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "鮮自然，位於台灣的咖啡廳，提供bubble_tea料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E9%AE%AE%E8%87%AA%E7%84%B6/@22.979995,120.244925,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/13968138641"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/13968138641",
+    "qualityScore": 5,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-13968138642",
+    "name": "悟饕池上飯包",
+    "region": "南部",
+    "city": "臺南市",
+    "district": "東區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺南市東區裕信路272",
+    "hours": "Mo-Sa 10:00-13:30,16:00-19:30",
+    "lat": 22.9844511,
+    "lng": 120.244982,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "悟饕池上飯包，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E6%82%9F%E9%A5%95%E6%B1%A0%E4%B8%8A%E9%A3%AF%E5%8C%85/@22.984451,120.244982,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/13968138642"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/13968138642",
     "qualityScore": 5,
     "updatedAt": "2026-06-26",
     "placeType": "餐飲"
@@ -176575,251 +176820,6 @@
     "placeType": "餐飲"
   },
   {
-    "id": "osm-node-3287525223",
-    "name": "呷霸白北浮水魚羹",
-    "region": "南部",
-    "city": "臺南市",
-    "district": "中西區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "臺南市中西區民族路二段343",
-    "hours": "Mo-Su 09:00-20:00",
-    "lat": 22.9967113,
-    "lng": 120.2025184,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "呷霸白北浮水魚羹，位於台灣的餐廳，提供chinese料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E5%91%B7%E9%9C%B8%E7%99%BD%E5%8C%97%E6%B5%AE%E6%B0%B4%E9%AD%9A%E7%BE%B9/@22.996711,120.202518,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/3287525223"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/3287525223",
-    "qualityScore": 4,
-    "updatedAt": "2026-06-26",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-3287525225",
-    "name": "喜得炭火燒三明治",
-    "region": "南部",
-    "city": "臺南市",
-    "district": "中西區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "臺南市中西區民族路二段287",
-    "hours": "請以商家公告為準",
-    "lat": 22.996384,
-    "lng": 120.2034422,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "喜得炭火燒三明治，位於台灣的餐廳，提供sandwich料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E5%96%9C%E5%BE%97%E7%82%AD%E7%81%AB%E7%87%92%E4%B8%89%E6%98%8E%E6%B2%BB/@22.996384,120.203442,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/3287525225"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/3287525225",
-    "qualityScore": 4,
-    "updatedAt": "2026-06-26",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-3289223673",
-    "name": "日鏟鐵板燒炒飯",
-    "region": "南部",
-    "city": "臺南市",
-    "district": "中西區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "臺南市中西區海安路一段85",
-    "hours": "Mo-Fr 11:00-14:00,17:00-21:00; Sa-Su 11:00-21:00",
-    "lat": 22.9897821,
-    "lng": 120.1949757,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "日鏟鐵板燒炒飯，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E6%97%A5%E9%8F%9F%E9%90%B5%E6%9D%BF%E7%87%92%E7%82%92%E9%A3%AF/@22.989782,120.194976,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/3289223673"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/3289223673",
-    "qualityScore": 4,
-    "updatedAt": "2026-06-26",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-3289528507",
-    "name": "大師兄手工蛋捲",
-    "region": "南部",
-    "city": "臺南市",
-    "district": "中西區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "臺南市中西區赤嵌街7",
-    "hours": "Mo-Su 10:00-21:00",
-    "lat": 22.9975194,
-    "lng": 120.2021422,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "大師兄手工蛋捲，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E5%A4%A7%E5%B8%AB%E5%85%84%E6%89%8B%E5%B7%A5%E8%9B%8B%E6%8D%B2/@22.997519,120.202142,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/3289528507"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/3289528507",
-    "qualityScore": 4,
-    "updatedAt": "2026-06-26",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-3289528509",
-    "name": "肆樓咖啡",
-    "region": "南部",
-    "city": "臺南市",
-    "district": "安平區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "咖啡下午茶",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "臺南市安平區延平街104巷21",
-    "hours": "Th-Tu 13:00-19:00",
-    "lat": 23.0012086,
-    "lng": 120.1626433,
-    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
-    "accent": "#b98b73",
-    "description": "肆樓咖啡，位於台灣的咖啡廳。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E8%82%86%E6%A8%93%E5%92%96%E5%95%A1/@23.001209,120.162643,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/3289528509"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/3289528509",
-    "qualityScore": 4,
-    "updatedAt": "2026-06-26",
-    "placeType": "餐飲"
-  },
-  {
     "id": "osm-node-5250420455",
     "name": "七里坡紅藜養生料理",
     "region": "東部",
@@ -177385,8 +177385,8 @@
     "priceLabel": "請查店家",
     "address": "臺東縣臺東市更生路504",
     "hours": "Tu-Sa 14:00-22:00",
-    "lat": 22.7636205,
-    "lng": 121.1409437,
+    "lat": 22.7635978,
+    "lng": 121.1409175,
     "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
     "accent": "#b98b73",
     "description": "怪豆咖啡 ODDO COFFEE，位於台灣的咖啡廳，提供coffee_shop料理。更多資訊請參考 OpenStreetMap。",
@@ -177404,7 +177404,7 @@
       "strollerFriendly": "notListed",
       "parkingInfo": "停車資訊請向店家確認。"
     },
-    "mapsUrl": "https://www.google.com/maps/search/%E6%80%AA%E8%B1%86%E5%92%96%E5%95%A1%20ODDO%20COFFEE/@22.763620,121.140944,17z",
+    "mapsUrl": "https://www.google.com/maps/search/%E6%80%AA%E8%B1%86%E5%92%96%E5%95%A1%20ODDO%20COFFEE/@22.763598,121.140918,17z",
     "sources": [
       {
         "type": "官方網站",
