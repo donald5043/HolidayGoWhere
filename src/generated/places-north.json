@@ -122155,5 +122155,1364 @@
         "詳細介紹"
       ]
     }
+  },
+  {
+    "id": "farm-1992",
+    "name": "月眉休閒農業區",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "大溪區",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "桃園市大溪區月湖路92號",
+    "hours": "請至官方網站確認",
+    "lat": 24.891614,
+    "lng": 121.290329,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/1135/480x360_20210705.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "月眉休閒農業區是位於桃園市的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%88%E7%9C%89%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E6%A1%83%E5%9C%92%E5%B8%82%E5%A4%A7%E6%BA%AA%E5%8D%80",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-1992",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.406Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-1995",
+    "name": "大北坑休閒農業區",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "龍潭區",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "桃園市龍潭區三水里大北坑街1998巷8號",
+    "hours": "請至官方網站確認",
+    "lat": 24.871934,
+    "lng": 121.16523,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/5512/480x360_f5f6e8cba3b3404c95cf1c348205f625.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "大北坑休閒農業區是位於桃園市的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%8C%97%E5%9D%91%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E6%A1%83%E5%9C%92%E5%B8%82%E9%BE%8D%E6%BD%AD%E5%8D%80",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-1995",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.408Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-2290",
+    "name": "楊梅休閒農業區",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "楊梅區",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "桃園市楊梅區楊湖路三段321巷8號",
+    "hours": "請至官方網站確認",
+    "lat": 24.912206,
+    "lng": 121.091137,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/31387/480x360_agrispots-image-usadxvsck0grqef_volyvq.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "楊梅休閒農業區是位於桃園市的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A5%8A%E6%A2%85%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E6%A1%83%E5%9C%92%E5%B8%82%E6%A5%8A%E6%A2%85%E5%8D%80",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-2290",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.414Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-2294",
+    "name": "台七桃花源休閒農業區",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "復興區",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "桃園市復興區三民里丸山3-21號",
+    "hours": "請至官方網站確認",
+    "lat": 24.821337,
+    "lng": 121.344584,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/1415/480x360_5dti63w9puitfdrb824hvy0pru2x9kn1.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "台七桃花源休閒農業區是位於桃園市的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8F%B0%E4%B8%83%E6%A1%83%E8%8A%B1%E6%BA%90%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E6%A1%83%E5%9C%92%E5%B8%82%E5%BE%A9%E8%88%88%E5%8D%80",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-2294",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.415Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-3366",
+    "name": "大墩山休閒農業區",
+    "region": "北部",
+    "city": "新竹縣",
+    "district": "新埔鎮",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "新竹縣新埔鎮中正路366號",
+    "hours": "請至官方網站確認",
+    "lat": 24.828047,
+    "lng": 121.079147,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/31635/480x360_agrispots-image-eiz2rjawpesck_y64j2kxw.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "大墩山休閒農業區是位於新竹縣的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%A2%A9%E5%B1%B1%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E6%96%B0%E7%AB%B9%E7%B8%A3%E6%96%B0%E5%9F%94%E9%8E%AE",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-3366",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.423Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-6277",
+    "name": "康莊休閒農業區",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "大溪區",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "桃園市大溪區康莊路三段671巷655-1號",
+    "hours": "請至官方網站確認",
+    "lat": 24.84582,
+    "lng": 121.272725,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/31621/480x360_agrispots-image-mudamt2kuecjaovb2ez75a.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "康莊休閒農業區是位於桃園市的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BA%B7%E8%8E%8A%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E6%A1%83%E5%9C%92%E5%B8%82%E5%A4%A7%E6%BA%AA%E5%8D%80",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-6277",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.453Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-6532",
+    "name": "水蓮之鄉農場(蓮園)",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "觀音區",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "桃園市觀音區金華路112號旁邊至128號（農場入口）",
+    "hours": "請至官方網站確認",
+    "lat": 25.001609,
+    "lng": 121.120995,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/43359/480x360_62b54d870c5c451d92e97c673fe85705.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "水蓮之鄉農場(蓮園)是位於桃園市的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B0%B4%E8%93%AE%E4%B9%8B%E9%84%89%E8%BE%B2%E5%A0%B4(%E8%93%AE%E5%9C%92)%20%E6%A1%83%E5%9C%92%E5%B8%82%E8%A7%80%E9%9F%B3%E5%8D%80",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-6532",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.461Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-7302",
+    "name": "百吉休閒農業區",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "大溪區",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "桃園市大溪區環湖路二段688-1號",
+    "hours": "請至官方網站確認",
+    "lat": 24.819697,
+    "lng": 121.310599,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/notfound/miss.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "百吉休閒農業區是位於桃園市的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%99%BE%E5%90%89%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E6%A1%83%E5%9C%92%E5%B8%82%E5%A4%A7%E6%BA%AA%E5%8D%80",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-7302",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.474Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-7589",
+    "name": "大溪中庄休閒農業區",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "大溪區",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "桃園市大溪區瑞興里大鶯路820巷92弄25號",
+    "hours": "請至官方網站確認",
+    "lat": 24.916184,
+    "lng": 121.299751,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/notfound/miss.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "大溪中庄休閒農業區是位於桃園市的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%BA%AA%E4%B8%AD%E5%BA%84%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E6%A1%83%E5%9C%92%E5%B8%82%E5%A4%A7%E6%BA%AA%E5%8D%80",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-7589",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.482Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "culture-1f930217-61fc-40f6-91d3-cf2049083b17",
+    "name": "國立臺灣工藝研究發展中心-鶯歌多媒材研發分館",
+    "region": "北部",
+    "city": "新北市",
+    "district": "鶯歌區",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "新北市鶯歌區鳳鳴路160號",
+    "hours": "請至官方網站確認",
+    "lat": 24.966846,
+    "lng": 121.334532,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "國立臺灣工藝研究發展中心-鶯歌多媒材研發分館是位於新北市的文化藝術場館，提供豐富的展覽與人文體驗，適合帶孩子認識在地歷史與藝術。出發前請至官網確認開放時間。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%B7%A5%E8%97%9D%E7%A0%94%E7%A9%B6%E7%99%BC%E5%B1%95%E4%B8%AD%E5%BF%83-%E9%B6%AF%E6%AD%8C%E5%A4%9A%E5%AA%92%E6%9D%90%E7%A0%94%E7%99%BC%E5%88%86%E9%A4%A8%20%E6%96%B0%E5%8C%97%E5%B8%82%E9%B6%AF%E6%AD%8C%E5%8D%80%E9%B3%B3%E9%B3%B4%E8%B7%AF160%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "https://museums.moc.gov.tw/"
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-1f930217-61fc-40f6-91d3-cf2049083b17",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.877Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
+  },
+  {
+    "id": "culture-67c60a7a-932d-4713-9758-7175b52e2c43",
+    "name": "臺灣戲曲中心",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "士林區",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺北市士林區文林路751號",
+    "hours": "請至官方網站確認",
+    "lat": 25.102339,
+    "lng": 121.519087,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "臺灣戲曲中心是位於臺北市的文化藝術場館，提供豐富的展覽與人文體驗，適合帶孩子認識在地歷史與藝術。出發前請至官網確認開放時間。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E7%81%A3%E6%88%B2%E6%9B%B2%E4%B8%AD%E5%BF%83%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E6%96%87%E6%9E%97%E8%B7%AF751%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "https://tttc.ncfta.gov.tw/home/zh-tw"
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-67c60a7a-932d-4713-9758-7175b52e2c43",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.885Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
+  },
+  {
+    "id": "culture-0e99cc6f-8a66-40f5-9469-0ad29863adcb",
+    "name": "國立臺灣文學館臺灣文學基地",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "中正區",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺北市中正區濟南路2段27號",
+    "hours": "請至官方網站確認",
+    "lat": 25.041231,
+    "lng": 121.528318,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "國立臺灣文學館臺灣文學基地是位於臺北市的文化藝術場館，提供豐富的展覽與人文體驗，適合帶孩子認識在地歷史與藝術。出發前請至官網確認開放時間。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E6%96%87%E5%AD%B8%E9%A4%A8%E8%87%BA%E7%81%A3%E6%96%87%E5%AD%B8%E5%9F%BA%E5%9C%B0%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E6%BF%9F%E5%8D%97%E8%B7%AF2%E6%AE%B527%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "https://tp.nmtl.gov.tw/home/zh-tw"
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-0e99cc6f-8a66-40f5-9469-0ad29863adcb",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.886Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
+  },
+  {
+    "id": "culture-8d871e24-0157-4938-8858-b39401ac5d62",
+    "name": "國立政治大學民族學博物館",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "文山區",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺北市文山區指南路二段64號5樓",
+    "hours": "請至官方網站確認",
+    "lat": 24.985848,
+    "lng": 121.57352,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "國立政治大學民族學博物館是位於臺北市的文化藝術場館，提供豐富的展覽與人文體驗，適合帶孩子認識在地歷史與藝術。出發前請至官網確認開放時間。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9C%8B%E7%AB%8B%E6%94%BF%E6%B2%BB%E5%A4%A7%E5%AD%B8%E6%B0%91%E6%97%8F%E5%AD%B8%E5%8D%9A%E7%89%A9%E9%A4%A8%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%96%87%E5%B1%B1%E5%8D%80%E6%8C%87%E5%8D%97%E8%B7%AF%E4%BA%8C%E6%AE%B564%E8%99%9F5%E6%A8%93",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "https://museums.moc.gov.tw/"
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-8d871e24-0157-4938-8858-b39401ac5d62",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.902Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
+  },
+  {
+    "id": "culture-fcb12f80-b616-4fab-8b23-e4d86bed61ce",
+    "name": "武德殿暨附屬建築",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "大溪區",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "桃園市大溪區普濟路29、31、33-3號",
+    "hours": "請至官方網站確認",
+    "lat": 22.624641,
+    "lng": 120.272416,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "武德殿暨附屬建築是位於桃園市的文化藝術場館，提供豐富的展覽與人文體驗，適合帶孩子認識在地歷史與藝術。出發前請至官網確認開放時間。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%AD%A6%E5%BE%B7%E6%AE%BF%E6%9A%A8%E9%99%84%E5%B1%AC%E5%BB%BA%E7%AF%89%20%E6%A1%83%E5%9C%92%E5%B8%82%E5%A4%A7%E6%BA%AA%E5%8D%80%E6%99%AE%E6%BF%9F%E8%B7%AF29%E3%80%8131%E3%80%8133-3%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "http://wem.tycg.gov.tw/"
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-fcb12f80-b616-4fab-8b23-e4d86bed61ce",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.910Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
+  },
+  {
+    "id": "culture-5aa64f6aaaa31a948b9c37e6",
+    "name": "親子美育數位圖書館",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "南港區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺北市南港區研究院路2段61巷15號1-2樓",
+    "hours": "請至官方網站確認",
+    "lat": 25.054501,
+    "lng": 121.592271,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "親子美育數位圖書館是位於臺北市的文化藝術場館，提供豐富的展覽與人文體驗，適合帶孩子認識在地歷史與藝術。出發前請至官網確認開放時間。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%A6%AA%E5%AD%90%E7%BE%8E%E8%82%B2%E6%95%B8%E4%BD%8D%E5%9C%96%E6%9B%B8%E9%A4%A8%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%E7%A0%94%E7%A9%B6%E9%99%A2%E8%B7%AF2%E6%AE%B561%E5%B7%B715%E8%99%9F1-2%E6%A8%93",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "https://museums.moc.gov.tw/"
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-5aa64f6aaaa31a948b9c37e6",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.918Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
+  },
+  {
+    "id": "culture-5aa9104d6e5ec7e8691093e4",
+    "name": "桃園市立圖書館大湳分館",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "八德區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "桃園市八德區重慶街53巷2號",
+    "hours": "請至官方網站確認",
+    "lat": 24.946905,
+    "lng": 121.291245,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "桃園市立圖書館大湳分館是位於桃園市的文化藝術場館，提供豐富的展覽與人文體驗，適合帶孩子認識在地歷史與藝術。出發前請至官網確認開放時間。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A1%83%E5%9C%92%E5%B8%82%E7%AB%8B%E5%9C%96%E6%9B%B8%E9%A4%A8%E5%A4%A7%E6%B9%B3%E5%88%86%E9%A4%A8%20%E6%A1%83%E5%9C%92%E5%B8%82%E5%85%AB%E5%BE%B7%E5%8D%80%E9%87%8D%E6%85%B6%E8%A1%9753%E5%B7%B72%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "https://museums.moc.gov.tw/"
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-5aa9104d6e5ec7e8691093e4",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.922Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
+  },
+  {
+    "id": "culture-5acaeb856e5e541f9d5c5585",
+    "name": "新竹縣政府文化局圖書館",
+    "region": "北部",
+    "city": "新竹縣",
+    "district": "竹北市",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "新竹縣竹北市縣政九路146號",
+    "hours": "請至官方網站確認",
+    "lat": 24.821766,
+    "lng": 121.023094,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "新竹縣政府文化局圖書館是位於新竹縣的文化藝術場館，提供豐富的展覽與人文體驗，適合帶孩子認識在地歷史與藝術。出發前請至官網確認開放時間。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E7%AB%B9%E7%B8%A3%E6%94%BF%E5%BA%9C%E6%96%87%E5%8C%96%E5%B1%80%E5%9C%96%E6%9B%B8%E9%A4%A8%20%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AB%B9%E5%8C%97%E5%B8%82%E7%B8%A3%E6%94%BF%E4%B9%9D%E8%B7%AF146%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "https://museums.moc.gov.tw/"
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-5acaeb856e5e541f9d5c5585",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.939Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
+  },
+  {
+    "id": "culture-5acd8c106e5e3a9b1a6a7eff",
+    "name": "臺灣原住民族圖書資訊中心",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "大安區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺北市大安區羅斯福路四段1號（臺灣大學校區內）",
+    "hours": "請至官方網站確認",
+    "lat": 25.034544,
+    "lng": 121.542957,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "臺灣原住民族圖書資訊中心是位於臺北市的文化藝術場館，提供豐富的展覽與人文體驗，適合帶孩子認識在地歷史與藝術。出發前請至官網確認開放時間。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E7%81%A3%E5%8E%9F%E4%BD%8F%E6%B0%91%E6%97%8F%E5%9C%96%E6%9B%B8%E8%B3%87%E8%A8%8A%E4%B8%AD%E5%BF%83%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E7%BE%85%E6%96%AF%E7%A6%8F%E8%B7%AF%E5%9B%9B%E6%AE%B51%E8%99%9F%EF%BC%88%E8%87%BA%E7%81%A3%E5%A4%A7%E5%AD%B8%E6%A0%A1%E5%8D%80%E5%85%A7%EF%BC%89",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "https://museums.moc.gov.tw/"
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-5acd8c106e5e3a9b1a6a7eff",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.946Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
+  },
+  {
+    "id": "culture-5acd95b6aaa33fd71fec9be9",
+    "name": "臺北市客家圖書影音中心",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "中正區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺北市中正區羅斯福路一段95巷1號",
+    "hours": "請至官方網站確認",
+    "lat": 25.039382,
+    "lng": 121.507818,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "臺北市客家圖書影音中心是位於臺北市的文化藝術場館，提供豐富的展覽與人文體驗，適合帶孩子認識在地歷史與藝術。出發前請至官網確認開放時間。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E5%8C%97%E5%B8%82%E5%AE%A2%E5%AE%B6%E5%9C%96%E6%9B%B8%E5%BD%B1%E9%9F%B3%E4%B8%AD%E5%BF%83%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E7%BE%85%E6%96%AF%E7%A6%8F%E8%B7%AF%E4%B8%80%E6%AE%B595%E5%B7%B71%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "https://museums.moc.gov.tw/"
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-5acd95b6aaa33fd71fec9be9",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.946Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
+  },
+  {
+    "id": "culture-5af70a8b6e5ee2030723d880",
+    "name": "文房 Chapter",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "中正區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "台北市中正區臨沂街27巷1號",
+    "hours": "請至官方網站確認",
+    "lat": 25.039382,
+    "lng": 121.507818,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "文房 Chapter是位於臺北市的文化藝術場館，提供豐富的展覽與人文體驗，適合帶孩子認識在地歷史與藝術。出發前請至官網確認開放時間。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%87%E6%88%BF%20Chapter%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E8%87%A8%E6%B2%82%E8%A1%9727%E5%B7%B71%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "https://museums.moc.gov.tw/"
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-5af70a8b6e5ee2030723d880",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.949Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
+  },
+  {
+    "id": "culture-5af7e1aeaaa3c6afbbf0bbaf",
+    "name": "齊東詩舍",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "中正區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "台北市中正區濟南路二段25、27號",
+    "hours": "請至官方網站確認",
+    "lat": 25.039382,
+    "lng": 121.507818,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "齊東詩舍是位於臺北市的文化藝術場館，提供豐富的展覽與人文體驗，適合帶孩子認識在地歷史與藝術。出發前請至官網確認開放時間。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%BD%8A%E6%9D%B1%E8%A9%A9%E8%88%8D%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E6%BF%9F%E5%8D%97%E8%B7%AF%E4%BA%8C%E6%AE%B525%E3%80%8127%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "https://museums.moc.gov.tw/"
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-5af7e1aeaaa3c6afbbf0bbaf",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.950Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
+  },
+  {
+    "id": "culture-5af812676e5ee2030723d888",
+    "name": "Lightbox攝影圖書室",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "中正區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "台北市中正區金門街5-1號3樓",
+    "hours": "請至官方網站確認",
+    "lat": 25.039382,
+    "lng": 121.507818,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "Lightbox攝影圖書室是位於臺北市的文化藝術場館，提供豐富的展覽與人文體驗，適合帶孩子認識在地歷史與藝術。出發前請至官網確認開放時間。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lightbox%E6%94%9D%E5%BD%B1%E5%9C%96%E6%9B%B8%E5%AE%A4%20%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E9%87%91%E9%96%80%E8%A1%975-1%E8%99%9F3%E6%A8%93",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "https://museums.moc.gov.tw/"
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-5af812676e5ee2030723d888",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.951Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
+  },
+  {
+    "id": "culture-5af8167daaa3c6afbbf0bbba",
+    "name": "Boven雜誌圖書館",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "大安區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "台北市大安區復興南路一段107巷5弄18號B1",
+    "hours": "請至官方網站確認",
+    "lat": 25.034544,
+    "lng": 121.542957,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "Boven雜誌圖書館是位於臺北市的文化藝術場館，提供豐富的展覽與人文體驗，適合帶孩子認識在地歷史與藝術。出發前請至官網確認開放時間。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Boven%E9%9B%9C%E8%AA%8C%E5%9C%96%E6%9B%B8%E9%A4%A8%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E5%BE%A9%E8%88%88%E5%8D%97%E8%B7%AF%E4%B8%80%E6%AE%B5107%E5%B7%B75%E5%BC%8418%E8%99%9FB1",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "https://museums.moc.gov.tw/"
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-5af8167daaa3c6afbbf0bbba",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.952Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
+  },
+  {
+    "id": "culture-5af821c96e5ee2030723d889",
+    "name": "益品書屋",
+    "region": "北部",
+    "city": "新北市",
+    "district": "淡水區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "新北市淡水區中正路一段100號",
+    "hours": "請至官方網站確認",
+    "lat": 25.177658,
+    "lng": 121.422128,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "益品書屋是位於新北市的文化藝術場館，提供豐富的展覽與人文體驗，適合帶孩子認識在地歷史與藝術。出發前請至官網確認開放時間。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%9B%8A%E5%93%81%E6%9B%B8%E5%B1%8B%20%E6%96%B0%E5%8C%97%E5%B8%82%E6%B7%A1%E6%B0%B4%E5%8D%80%E4%B8%AD%E6%AD%A3%E8%B7%AF%E4%B8%80%E6%AE%B5100%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "https://epbooks.com.tw/"
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-5af821c96e5ee2030723d889",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.953Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
+  },
+  {
+    "id": "culture-5b3c8d216e5e104a8ca080da",
+    "name": "文藝資料研究及服務中心",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "中正區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "中山南路11號B2",
+    "hours": "請至官方網站確認",
+    "lat": 25.039382,
+    "lng": 121.507818,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "文藝資料研究及服務中心是位於臺北市的文化藝術場館，提供豐富的展覽與人文體驗，適合帶孩子認識在地歷史與藝術。出發前請至官網確認開放時間。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%87%E8%97%9D%E8%B3%87%E6%96%99%E7%A0%94%E7%A9%B6%E5%8F%8A%E6%9C%8D%E5%8B%99%E4%B8%AD%E5%BF%83%20%E4%B8%AD%E5%B1%B1%E5%8D%97%E8%B7%AF11%E8%99%9FB2",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "https://museums.moc.gov.tw/"
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-5b3c8d216e5e104a8ca080da",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.956Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
+  },
+  {
+    "id": "culture-5bfe0f16aaa3d4b3c47fd31f",
+    "name": "七刀space",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "北投路二段13號8樓-1",
+    "hours": "請至官方網站確認",
+    "lat": 25.091075,
+    "lng": 121.559834,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "七刀space是位於臺北市的文化藝術場館，提供豐富的展覽與人文體驗，適合帶孩子認識在地歷史與藝術。出發前請至官網確認開放時間。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%83%E5%88%80space%20%E5%8C%97%E6%8A%95%E8%B7%AF%E4%BA%8C%E6%AE%B513%E8%99%9F8%E6%A8%93-1",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "https://museums.moc.gov.tw/"
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-5bfe0f16aaa3d4b3c47fd31f",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.957Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
+  },
+  {
+    "id": "culture-5e3a285caaa3617fa5c4de6a",
+    "name": "康寧學校財團法人康寧大學圖書館",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "藝文美感",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "康寧路三段75巷137號",
+    "hours": "請至官方網站確認",
+    "lat": 25.091075,
+    "lng": 121.559834,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#df7bb4",
+    "description": "康寧學校財團法人康寧大學圖書館是位於臺北市的文化藝術場館，提供豐富的展覽與人文體驗，適合帶孩子認識在地歷史與藝術。出發前請至官網確認開放時間。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BA%B7%E5%AF%A7%E5%AD%B8%E6%A0%A1%E8%B2%A1%E5%9C%98%E6%B3%95%E4%BA%BA%E5%BA%B7%E5%AF%A7%E5%A4%A7%E5%AD%B8%E5%9C%96%E6%9B%B8%E9%A4%A8%20%E5%BA%B7%E5%AF%A7%E8%B7%AF%E4%B8%89%E6%AE%B575%E5%B7%B7137%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "文化部博物館資訊",
+        "url": "https://museums.moc.gov.tw/"
+      }
+    ],
+    "dataSource": "文化部開放資料",
+    "sourceId": "culture-5e3a285caaa3617fa5c4de6a",
+    "qualityScore": 22,
+    "updatedAt": "2026-06-26T02:02:25.958Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "票價",
+        "開放時間",
+        "親子設施",
+        "官方照片"
+      ]
+    }
   }
 ]

@@ -10,10 +10,14 @@
     "preview": "vite preview",
     "sync:places": "node scripts/sync-places.mjs",
     "import:seeds": "node scripts/import-curated-seeds.mjs",
+    "sync:forest": "node scripts/sync-forest.mjs",
+    "sync:farm": "node scripts/sync-farm.mjs",
+    "sync:culture": "node scripts/sync-culture.mjs",
     "sync:osm-restaurants": "node scripts/sync-osm-restaurants.mjs",
     "ai:enrich": "node scripts/enrich-ai.mjs"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.108.2",
     "@types/leaflet": "^1.9.21",
     "leaflet": "^1.9.4",
     "lucide-react": "^0.468.0",
