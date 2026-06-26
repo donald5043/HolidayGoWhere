@@ -64448,5 +64448,4690 @@
     "qualityScore": 4,
     "updatedAt": "2026-06-25",
     "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-13232736113",
+    "name": "巧登",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "蘇澳鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣蘇澳鎮江夏路8",
+    "hours": "11:00-14:00,16:30-19:50",
+    "lat": 24.5814275,
+    "lng": 121.8649861,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "巧登，位於台灣的餐廳，提供steak_house料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B7%A7%E7%99%BB%2024.581428%2C121.864986",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/13232736113"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/13232736113",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-13234721347",
+    "name": "樂樂堡",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "員山鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣員山鄉",
+    "hours": "05:10-11:30",
+    "lat": 24.7444889,
+    "lng": 121.7251985,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "樂樂堡，位於台灣的餐廳，提供breakfast料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A8%82%E6%A8%82%E5%A0%A1%2024.744489%2C121.725199",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/13234721347"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/13234721347",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4439384891",
+    "name": "橘子咖啡",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "員山鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣員山鄉枕山一村19",
+    "hours": "請以商家公告為準",
+    "lat": 24.770755,
+    "lng": 121.7219316,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "橘子咖啡，位於台灣的咖啡廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A9%98%E5%AD%90%E5%92%96%E5%95%A1%2024.770755%2C121.721932",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4439384891"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4439384891",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4847677137",
+    "name": "法比奧 Pasta&Coffee",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "宜蘭市",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣宜蘭市公園路449",
+    "hours": "請以商家公告為準",
+    "lat": 24.7406943,
+    "lng": 121.7545861,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "法比奧 Pasta&Coffee，位於台灣的咖啡廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B3%95%E6%AF%94%E5%A5%A7%20Pasta%26Coffee%2024.740694%2C121.754586",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4847677137"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4847677137",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-5257702103",
+    "name": "鍋鴛鴦方六六",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "宜蘭市",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣宜蘭市環市東路二段678",
+    "hours": "請以商家公告為準",
+    "lat": 24.756487,
+    "lng": 121.771979,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "鍋鴛鴦方六六，位於台灣的餐廳，提供chinese、鍋火料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%8D%8B%E9%B4%9B%E9%B4%A6%E6%96%B9%E5%85%AD%E5%85%AD%2024.756487%2C121.771979",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/5257702103"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/5257702103",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-6512993897",
+    "name": "圓金味",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "壯圍鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣壯圍鄉壯五路310-3",
+    "hours": "請以商家公告為準",
+    "lat": 24.7474081,
+    "lng": 121.783457,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "圓金味，位於台灣的餐廳，提供綿綿冰、魚丸、餛飩、鳳梨豆腐乳、不黏牙花生糖料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9C%93%E9%87%91%E5%91%B3%2024.747408%2C121.783457",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/6512993897"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/6512993897",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-6738085290",
+    "name": "塭底烤魚",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "礁溪鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣礁溪鄉玉龍路二段572",
+    "hours": "請以商家公告為準",
+    "lat": 24.8178882,
+    "lng": 121.796199,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "塭底烤魚，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A1%AD%E5%BA%95%E7%83%A4%E9%AD%9A%2024.817888%2C121.796199",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/6738085290"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/6738085290",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-7712858269",
+    "name": "鬥陣來七桃體驗館",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "五結鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣五結鄉利工三路59",
+    "hours": "請以商家公告為準",
+    "lat": 24.6537438,
+    "lng": 121.8382416,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "鬥陣來七桃體驗館，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AC%A5%E9%99%A3%E4%BE%86%E4%B8%83%E6%A1%83%E9%AB%94%E9%A9%97%E9%A4%A8%2024.653744%2C121.838242",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/7712858269"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/7712858269",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-7764639650",
+    "name": "山頂會館",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "員山鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣員山鄉19-264",
+    "hours": "請以商家公告為準",
+    "lat": 24.7706008,
+    "lng": 121.7219388,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "山頂會館，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E9%A0%82%E6%9C%83%E9%A4%A8%2024.770601%2C121.721939",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/7764639650"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/7764639650",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-7944245501",
+    "name": "兔子迷宮~礁溪浴場",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "礁溪鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣礁溪鄉42-9",
+    "hours": "請以商家公告為準",
+    "lat": 24.8212463,
+    "lng": 121.7532117,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "兔子迷宮~礁溪浴場，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%94%E5%AD%90%E8%BF%B7%E5%AE%AE~%E7%A4%81%E6%BA%AA%E6%B5%B4%E5%A0%B4%2024.821246%2C121.753212",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/7944245501"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/7944245501",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-8093172717",
+    "name": "老福魚丸米粉",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "宜蘭市",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣宜蘭市新興路41",
+    "hours": "請以商家公告為準",
+    "lat": 24.759481,
+    "lng": 121.7581328,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "老福魚丸米粉，位於台灣的餐廳，提供chinese料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%80%81%E7%A6%8F%E9%AD%9A%E4%B8%B8%E7%B1%B3%E7%B2%89%2024.759481%2C121.758133",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/8093172717"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/8093172717",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-8202572557",
+    "name": "傻師父湯包",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "蘇澳鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣蘇澳鎮海山東路392",
+    "hours": "請以商家公告為準",
+    "lat": 24.6118803,
+    "lng": 121.8380869,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "傻師父湯包，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%82%BB%E5%B8%AB%E7%88%B6%E6%B9%AF%E5%8C%85%2024.611880%2C121.838087",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/8202572557"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/8202572557",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-8928317017",
+    "name": "皇家貴族派",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "冬山鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣冬山鄉永興路一段450",
+    "hours": "請以商家公告為準",
+    "lat": 24.6551115,
+    "lng": 121.7643928,
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "皇家貴族派，位於台灣的快餐店。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%9A%87%E5%AE%B6%E8%B2%B4%E6%97%8F%E6%B4%BE%2024.655112%2C121.764393",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/8928317017"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/8928317017",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-9225890692",
+    "name": "望龍埤鵝肉攤",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "員山鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣員山鄉坡城路23之12",
+    "hours": "請以商家公告為準",
+    "lat": 24.778077,
+    "lng": 121.700885,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "望龍埤鵝肉攤，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%9B%E9%BE%8D%E5%9F%A4%E9%B5%9D%E8%82%89%E6%94%A4%2024.778077%2C121.700885",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/9225890692"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/9225890692",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-9236893018",
+    "name": "陳茂庚魚丸米粉",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "員山鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣員山鄉員山路一段269",
+    "hours": "請以商家公告為準",
+    "lat": 24.7441834,
+    "lng": 121.725054,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "陳茂庚魚丸米粉，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%99%B3%E8%8C%82%E5%BA%9A%E9%AD%9A%E4%B8%B8%E7%B1%B3%E7%B2%89%2024.744183%2C121.725054",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/9236893018"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/9236893018",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-9236893220",
+    "name": "火生麵店",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "宜蘭市",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣宜蘭市神農路二段3",
+    "hours": "請以商家公告為準",
+    "lat": 24.7503367,
+    "lng": 121.75059,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "火生麵店，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%81%AB%E7%94%9F%E9%BA%B5%E5%BA%97%2024.750337%2C121.750590",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/9236893220"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/9236893220",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-9501827417",
+    "name": "高僑餐飲",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "頭城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣頭城鎮青雲路一段26",
+    "hours": "請以商家公告為準",
+    "lat": 24.8375677,
+    "lng": 121.7895135,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "高僑餐飲，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E5%83%91%E9%A4%90%E9%A3%B2%2024.837568%2C121.789513",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/9501827417"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/9501827417",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-9893511664",
+    "name": "廢墟餐廳",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "壯圍鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣壯圍鄉31",
+    "hours": "請以商家公告為準",
+    "lat": 24.7266025,
+    "lng": 121.8228637,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "廢墟餐廳，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BB%A2%E5%A2%9F%E9%A4%90%E5%BB%B3%2024.726602%2C121.822864",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/9893511664"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/9893511664",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-10177884818",
+    "name": "小雅麵飯",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "冬山鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣冬山鄉鹿梅路793",
+    "hours": "請以商家公告為準",
+    "lat": 24.650513,
+    "lng": 121.741147,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "小雅麵飯，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E9%9B%85%E9%BA%B5%E9%A3%AF%2024.650513%2C121.741147",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/10177884818"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/10177884818",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-10792651678",
+    "name": "十六結寶珠姨早點",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "礁溪鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣礁溪鄉礁溪路三段181",
+    "hours": "請以商家公告為準",
+    "lat": 24.8094766,
+    "lng": 121.7669046,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "十六結寶珠姨早點，位於台灣的餐廳，提供breakfast料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%81%E5%85%AD%E7%B5%90%E5%AF%B6%E7%8F%A0%E5%A7%A8%E6%97%A9%E9%BB%9E%2024.809477%2C121.766905",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/10792651678"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/10792651678",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-11286141769",
+    "name": "桃花源牛肉麵館",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "冬山鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣冬山鄉梅林路1042",
+    "hours": "請以商家公告為準",
+    "lat": 24.651368,
+    "lng": 121.732499,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "桃花源牛肉麵館，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A1%83%E8%8A%B1%E6%BA%90%E7%89%9B%E8%82%89%E9%BA%B5%E9%A4%A8%2024.651368%2C121.732499",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/11286141769"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/11286141769",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-12025371463",
+    "name": "更新海產老店",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "頭城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣頭城鎮濱海路三段16",
+    "hours": "請以商家公告為準",
+    "lat": 24.9001175,
+    "lng": 121.8634727,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "更新海產老店，位於台灣的餐廳，提供seafood料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9B%B4%E6%96%B0%E6%B5%B7%E7%94%A2%E8%80%81%E5%BA%97%2024.900118%2C121.863473",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/12025371463"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/12025371463",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-12064212269",
+    "name": "就是任性",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "頭城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣頭城鎮開蘭東路28",
+    "hours": "請以商家公告為準",
+    "lat": 24.8541321,
+    "lng": 121.8235631,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "就是任性，位於台灣的餐廳，提供asian、chinese、oriental料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%B1%E6%98%AF%E4%BB%BB%E6%80%A7%2024.854132%2C121.823563",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/12064212269"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/12064212269",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-12574067852",
+    "name": "鴨肉送",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "冬山鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣冬山鄉廣興路322",
+    "hours": "請以商家公告為準",
+    "lat": 24.6695489,
+    "lng": 121.7464711,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "鴨肉送，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%B4%A8%E8%82%89%E9%80%81%2024.669549%2C121.746471",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/12574067852"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/12574067852",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-12662150634",
+    "name": "李香海鮮老店",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "頭城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣頭城鎮濱海路五段173",
+    "hours": "請以商家公告為準",
+    "lat": 24.9397039,
+    "lng": 121.891878,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "李香海鮮老店，位於台灣的餐廳，提供fish料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%8E%E9%A6%99%E6%B5%B7%E9%AE%AE%E8%80%81%E5%BA%97%2024.939704%2C121.891878",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/12662150634"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/12662150634",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-12917846622",
+    "name": "MOTO CAFÉ",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "頭城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣頭城鎮宜三路一段296",
+    "hours": "請以商家公告為準",
+    "lat": 24.848331,
+    "lng": 121.7954977,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "MOTO CAFÉ，位於台灣的咖啡廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=MOTO%20CAF%C3%89%2024.848331%2C121.795498",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/12917846622"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/12917846622",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-13110196351",
+    "name": "達漾",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "大同鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣大同鄉18",
+    "hours": "請以商家公告為準",
+    "lat": 24.6026217,
+    "lng": 121.5106475,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "達漾，位於台灣的咖啡廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%81%94%E6%BC%BE%2024.602622%2C121.510648",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/13110196351"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/13110196351",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-13798679132",
+    "name": "石園古早味餐廳",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "礁溪鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣礁溪鄉武暖路124",
+    "hours": "請以商家公告為準",
+    "lat": 24.7822982,
+    "lng": 121.7777308,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "石園古早味餐廳，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%9F%B3%E5%9C%92%E5%8F%A4%E6%97%A9%E5%91%B3%E9%A4%90%E5%BB%B3%2024.782298%2C121.777731",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/13798679132"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/13798679132",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-13798679133",
+    "name": "夕漫商行",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "礁溪鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣礁溪鄉武暖路124之7",
+    "hours": "請以商家公告為準",
+    "lat": 24.7825036,
+    "lng": 121.777145,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "夕漫商行，位於台灣的咖啡廳，提供dessert料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%95%E6%BC%AB%E5%95%86%E8%A1%8C%2024.782504%2C121.777145",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/13798679133"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/13798679133",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-13807306502",
+    "name": "臭豆腐",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "南澳鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣南澳鄉和平路",
+    "hours": "請以商家公告為準",
+    "lat": 24.3329854,
+    "lng": 121.744767,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "臭豆腐，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%87%AD%E8%B1%86%E8%85%90%2024.332985%2C121.744767",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/13807306502"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/13807306502",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-13807306503",
+    "name": "肉羹麵店",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "南澳鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣南澳鄉和平路",
+    "hours": "請以商家公告為準",
+    "lat": 24.3326612,
+    "lng": 121.7448882,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "肉羹麵店，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%82%89%E7%BE%B9%E9%BA%B5%E5%BA%97%2024.332661%2C121.744888",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/13807306503"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/13807306503",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-way-184933194",
+    "name": "高僑齖飲宜蘭店",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "宜蘭市",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣宜蘭市中山路二段49",
+    "hours": "請以商家公告為準",
+    "lat": 24.7452083,
+    "lng": 121.7558482,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "高僑齖飲宜蘭店，位於台灣的餐廳，提供seafood料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E5%83%91%E9%BD%96%E9%A3%B2%E5%AE%9C%E8%98%AD%E5%BA%97%2024.745208%2C121.755848",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/184933194"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "way/184933194",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-way-711097832",
+    "name": "天送埤咖啡 TSP Coffee",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "三星鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣三星鄉福山橫巷33",
+    "hours": "請以商家公告為準",
+    "lat": 24.6628197,
+    "lng": 121.6184327,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "天送埤咖啡 TSP Coffee，位於台灣的咖啡廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E9%80%81%E5%9F%A4%E5%92%96%E5%95%A1%20TSP%20Coffee%2024.662820%2C121.618433",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/711097832"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "way/711097832",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-way-857587764",
+    "name": "英承會館",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "五結鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣五結鄉五結路三段499巷3499巷7",
+    "hours": "請以商家公告為準",
+    "lat": 24.6823625,
+    "lng": 121.7805415,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "英承會館，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8B%B1%E6%89%BF%E6%9C%83%E9%A4%A8%2024.682362%2C121.780541",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/857587764"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "way/857587764",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-way-909457070",
+    "name": "正好鮮肉小籠包",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "五結鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "宜蘭縣五結鄉五結中路三段320",
+    "hours": "請以商家公告為準",
+    "lat": 24.703378,
+    "lng": 121.7834995,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "正好鮮肉小籠包，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%AD%A3%E5%A5%BD%E9%AE%AE%E8%82%89%E5%B0%8F%E7%B1%A0%E5%8C%85%2024.703378%2C121.783500",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/909457070"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "way/909457070",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-7860581738",
+    "name": "喜作咖啡&回米藝術",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "池上鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣池上鄉56",
+    "hours": "請以商家公告為準",
+    "lat": 23.103597,
+    "lng": 121.222322,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "喜作咖啡&回米藝術，位於台灣的餐廳，提供咖啡廳、咖啡廳料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%96%9C%E4%BD%9C%E5%92%96%E5%95%A1%26%E5%9B%9E%E7%B1%B3%E8%97%9D%E8%A1%93%2023.103597%2C121.222322",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/7860581738"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/7860581738",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-7860581746",
+    "name": "白毛寮複合式餐廳",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "池上鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣池上鄉52-1",
+    "hours": "請以商家公告為準",
+    "lat": 23.0411054,
+    "lng": 121.1932616,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "白毛寮複合式餐廳，位於台灣的餐廳，提供chinese、原住民料理料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E6%AF%9B%E5%AF%AE%E8%A4%87%E5%90%88%E5%BC%8F%E9%A4%90%E5%BB%B3%2023.041105%2C121.193262",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/7860581746"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/7860581746",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-7860581747",
+    "name": "池上吉瓜愛部落廚房",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "池上鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣池上鄉62之5",
+    "hours": "請以商家公告為準",
+    "lat": 23.081733,
+    "lng": 121.221638,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "池上吉瓜愛部落廚房，位於台灣的餐廳，提供中式料理、原住民料理料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B1%A0%E4%B8%8A%E5%90%89%E7%93%9C%E6%84%9B%E9%83%A8%E8%90%BD%E5%BB%9A%E6%88%BF%2023.081733%2C121.221638",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/7860581747"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/7860581747",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-7860581771",
+    "name": "回鄉の菜館",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "池上鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣池上鄉22之2",
+    "hours": "請以商家公告為準",
+    "lat": 23.091135,
+    "lng": 121.226185,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "回鄉の菜館，位於台灣的餐廳，提供中式料理、無菜單料理料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9B%9E%E9%84%89%E3%81%AE%E8%8F%9C%E9%A4%A8%2023.091135%2C121.226185",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/7860581771"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/7860581771",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-7860581779",
+    "name": "王群翔慢食家宴",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "池上鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣池上鄉1之9",
+    "hours": "請以商家公告為準",
+    "lat": 23.09676,
+    "lng": 121.218698,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "王群翔慢食家宴，位於台灣的餐廳，提供異國料理、創意料理料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8E%8B%E7%BE%A4%E7%BF%94%E6%85%A2%E9%A3%9F%E5%AE%B6%E5%AE%B4%2023.096760%2C121.218698",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/7860581779"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/7860581779",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-7860581781",
+    "name": "小安比樂手作坊",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "池上鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣池上鄉78",
+    "hours": "請以商家公告為準",
+    "lat": 23.104479,
+    "lng": 121.222588,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "小安比樂手作坊，位於台灣的餐廳，提供特色小點、下午茶料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E5%AE%89%E6%AF%94%E6%A8%82%E6%89%8B%E4%BD%9C%E5%9D%8A%2023.104479%2C121.222588",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/7860581781"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/7860581781",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-7860596708",
+    "name": "池上豐禾日麗 文田館",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "池上鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣池上鄉文田路3之3",
+    "hours": "請以商家公告為準",
+    "lat": 23.128891,
+    "lng": 121.218175,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "池上豐禾日麗 文田館，位於台灣的餐廳，提供中式料理、無菜單料理料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B1%A0%E4%B8%8A%E8%B1%90%E7%A6%BE%E6%97%A5%E9%BA%97%20%E6%96%87%E7%94%B0%E9%A4%A8%2023.128891%2C121.218175",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/7860596708"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/7860596708",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-7860596717",
+    "name": "玉蟾園",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "池上鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣池上鄉162",
+    "hours": "請以商家公告為準",
+    "lat": 23.1122766,
+    "lng": 121.2269003,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "玉蟾園，位於台灣的餐廳，提供中式料理、合菜料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8E%89%E8%9F%BE%E5%9C%92%2023.112277%2C121.226900",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/7860596717"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/7860596717",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-7860596726",
+    "name": "山聆山依韓式料理餐廳",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "池上鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣池上鄉30",
+    "hours": "請以商家公告為準",
+    "lat": 23.1312091,
+    "lng": 121.182777,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "山聆山依韓式料理餐廳，位於台灣的餐廳，提供異國料理、韓式料理料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E8%81%86%E5%B1%B1%E4%BE%9D%E9%9F%93%E5%BC%8F%E6%96%99%E7%90%86%E9%A4%90%E5%BB%B3%2023.131209%2C121.182777",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/7860596726"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/7860596726",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-7860596735",
+    "name": "金銀姐妹黑輪店",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "池上鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣池上鄉福吉二街45",
+    "hours": "請以商家公告為準",
+    "lat": 23.126731,
+    "lng": 121.209215,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "金銀姐妹黑輪店，位於台灣的餐廳，提供特色小點、中式小點料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E9%8A%80%E5%A7%90%E5%A6%B9%E9%BB%91%E8%BC%AA%E5%BA%97%2023.126731%2C121.209215",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/7860596735"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/7860596735",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-7860596739",
+    "name": "HAYASHI日本料理/岑池軒民宿",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "池上鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣池上鄉大坡路1-3",
+    "hours": "請以商家公告為準",
+    "lat": 23.1222,
+    "lng": 121.2347,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "HAYASHI日本料理/岑池軒民宿，位於台灣的餐廳，提供異國料理、日式料理料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=HAYASHI%E6%97%A5%E6%9C%AC%E6%96%99%E7%90%86%2F%E5%B2%91%E6%B1%A0%E8%BB%92%E6%B0%91%E5%AE%BF%2023.122200%2C121.234700",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/7860596739"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/7860596739",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-7860596740",
+    "name": "新開園窯燒",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "池上鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣池上鄉141-1",
+    "hours": "請以商家公告為準",
+    "lat": 23.105102,
+    "lng": 121.22254,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "新開園窯燒，位於台灣的餐廳，提供中式料理、原住民料理料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E9%96%8B%E5%9C%92%E7%AA%AF%E7%87%92%2023.105102%2C121.222540",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/7860596740"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/7860596740",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-7860596742",
+    "name": "197風味餐",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "池上鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣池上鄉32之2",
+    "hours": "請以商家公告為準",
+    "lat": 23.093342,
+    "lng": 121.220049,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "197風味餐，位於台灣的餐廳，提供中式料理、創意料理、原住民料理料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=197%E9%A2%A8%E5%91%B3%E9%A4%90%2023.093342%2C121.220049",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/7860596742"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/7860596742",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-7860596755",
+    "name": "薌園早餐",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "池上鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣池上鄉97之1",
+    "hours": "請以商家公告為準",
+    "lat": 23.1264404,
+    "lng": 121.2302366,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "薌園早餐，位於台灣的餐廳，提供早餐店、中西式早點料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%96%8C%E5%9C%92%E6%97%A9%E9%A4%90%2023.126440%2C121.230237",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/7860596755"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/7860596755",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-7860596767",
+    "name": "窯滾吧！部落",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "池上鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣池上鄉23-1",
+    "hours": "請以商家公告為準",
+    "lat": 23.132664,
+    "lng": 121.185774,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "窯滾吧！部落，位於台灣的餐廳，提供中式料理、創意料理料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AA%AF%E6%BB%BE%E5%90%A7%EF%BC%81%E9%83%A8%E8%90%BD%2023.132664%2C121.185774",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/7860596767"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/7860596767",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-7860596772",
+    "name": "豆芳華池上豆屋",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "池上鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣池上鄉23",
+    "hours": "請以商家公告為準",
+    "lat": 23.093357,
+    "lng": 121.219871,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "豆芳華池上豆屋，位於台灣的餐廳，提供中式料理、中式小吃料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B1%86%E8%8A%B3%E8%8F%AF%E6%B1%A0%E4%B8%8A%E8%B1%86%E5%B1%8B%2023.093357%2C121.219871",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/7860596772"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/7860596772",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-9837561717",
+    "name": "寶媽食堂",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "關山鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣關山鎮電光里中興78",
+    "hours": "Mo-Su 12:00-20:00",
+    "lat": 23.008889,
+    "lng": 121.173756,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "寶媽食堂，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AF%B6%E5%AA%BD%E9%A3%9F%E5%A0%82%2023.008889%2C121.173756",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/9837561717"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/9837561717",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-9837571117",
+    "name": "東軒坊",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "關山鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣關山鎮德高里永豐48",
+    "hours": "Sa-Th 09:00-19:00",
+    "lat": 23.071373,
+    "lng": 121.172685,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "東軒坊，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E8%BB%92%E5%9D%8A%2023.071373%2C121.172685",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/9837571117"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/9837571117",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-10065638799",
+    "name": "珍口味自助餐",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "臺東市",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣臺東市正氣路473",
+    "hours": "10:30-13:30,16:30-19:30",
+    "lat": 22.7572012,
+    "lng": 121.1446154,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "珍口味自助餐，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8F%8D%E5%8F%A3%E5%91%B3%E8%87%AA%E5%8A%A9%E9%A4%90%2022.757201%2C121.144615",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/10065638799"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/10065638799",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-10277013809",
+    "name": "普羅賽斯花藝咖啡廳",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "臺東市",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣臺東市馬亨亨大道915",
+    "hours": "We-Mo 10:00-18:00",
+    "lat": 22.7784873,
+    "lng": 121.1354992,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "普羅賽斯花藝咖啡廳，位於台灣的咖啡廳，提供coffee_shop料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%99%AE%E7%BE%85%E8%B3%BD%E6%96%AF%E8%8A%B1%E8%97%9D%E5%92%96%E5%95%A1%E5%BB%B3%2022.778487%2C121.135499",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/10277013809"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/10277013809",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-10791351764",
+    "name": "川味牛肉麵",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "長濱鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣長濱鄉南竹湖19-3",
+    "hours": "請以商家公告為準",
+    "lat": 23.2749938,
+    "lng": 121.4233327,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "川味牛肉麵，位於台灣的餐廳，提供taiwanese料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [
+      "戶外用餐空間"
+    ],
+    "facilities": [
+      "戶外座位"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B7%9D%E5%91%B3%E7%89%9B%E8%82%89%E9%BA%B5%2023.274994%2C121.423333",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/10791351764"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/10791351764",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-11363928271",
+    "name": "叮哥茶飲",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "太麻里鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣太麻里鄉396",
+    "hours": "10:00-20:00",
+    "lat": 22.5311244,
+    "lng": 120.9634852,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "叮哥茶飲，位於台灣的咖啡廳，提供bubble_tea料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8F%AE%E5%93%A5%E8%8C%B6%E9%A3%B2%2022.531124%2C120.963485",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/11363928271"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/11363928271",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-11458873169",
+    "name": "猴區廚房",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "金峰鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣金峰鄉龍泉路247",
+    "hours": "Fr-We 11:00-15:00, 17:00-19:30",
+    "lat": 22.6903138,
+    "lng": 120.9935616,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "猴區廚房，位於台灣的餐廳，提供regional料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8C%B4%E5%8D%80%E5%BB%9A%E6%88%BF%2022.690314%2C120.993562",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/11458873169"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/11458873169",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-11536668663",
+    "name": "二姐の麵店",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "臺東市",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣臺東市新生路618",
+    "hours": "07:00-14:00; Tu off",
+    "lat": 22.7620807,
+    "lng": 121.1374511,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "二姐の麵店，位於台灣的餐廳，提供noodle料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%8C%E5%A7%90%E3%81%AE%E9%BA%B5%E5%BA%97%2022.762081%2C121.137451",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/11536668663"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/11536668663",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-11536738632",
+    "name": "泰城泰式料理",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "臺東市",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣臺東市新生路599",
+    "hours": "11:00-13:30,17:30-20:30",
+    "lat": 22.7621248,
+    "lng": 121.137211,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "泰城泰式料理，位於台灣的餐廳，提供thai料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B3%B0%E5%9F%8E%E6%B3%B0%E5%BC%8F%E6%96%99%E7%90%86%2022.762125%2C121.137211",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/11536738632"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/11536738632",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-11536738636",
+    "name": "大塊牛排餐館",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "臺東市",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣臺東市新生路700號之2",
+    "hours": "Mo-Tu 11:00-14:30,17:00-21:30; We 17:00-21:30; Th-Su 11:00-14:30,17:00-21:30",
+    "lat": 22.7640088,
+    "lng": 121.135652,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "大塊牛排餐館，位於台灣的餐廳，提供steak_house料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%A1%8A%E7%89%9B%E6%8E%92%E9%A4%90%E9%A4%A8%2022.764009%2C121.135652",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/11536738636"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/11536738636",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-11536738637",
+    "name": "河腩味",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "臺東市",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣臺東市新生路716",
+    "hours": "11:00-20:00",
+    "lat": 22.7642802,
+    "lng": 121.1354071,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "河腩味，位於台灣的餐廳，提供noodle料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B2%B3%E8%85%A9%E5%91%B3%2022.764280%2C121.135407",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/11536738637"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/11536738637",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-12210107804",
+    "name": "友蛇咖啡 Snake Cafe",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "臺東市",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣臺東市岩灣路298",
+    "hours": "Fr-Mo 10:00-18:00",
+    "lat": 22.8088047,
+    "lng": 121.1233824,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "友蛇咖啡 Snake Cafe，位於台灣的咖啡廳，提供cake、coffee_shop、local、sandwich、tea料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8F%8B%E8%9B%87%E5%92%96%E5%95%A1%20Snake%20Cafe%2022.808805%2C121.123382",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/12210107804"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/12210107804",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-way-230349230",
+    "name": "262 Bar",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "蘭嶼鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣蘭嶼鄉野銀1-5",
+    "hours": "請以商家公告為準",
+    "lat": 22.0370743,
+    "lng": 121.5709128,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "262 Bar，位於台灣的咖啡廳，提供regional料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=262%20Bar%2022.037074%2C121.570913",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/230349230"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "way/230349230",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-way-428254971",
+    "name": "四川飯店",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "海端鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣海端鄉7",
+    "hours": "11:00-20:00",
+    "lat": 23.173064,
+    "lng": 121.0415936,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "四川飯店，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9B%9B%E5%B7%9D%E9%A3%AF%E5%BA%97%2023.173064%2C121.041594",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/428254971"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "way/428254971",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-way-571737186",
+    "name": "林道客棧咖啡工作室",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "卑南鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣卑南鄉鎮樂路36-8",
+    "hours": "Mo-Su 09:00-11:30,14:00-17:30",
+    "lat": 22.7076019,
+    "lng": 121.0256912,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "林道客棧咖啡工作室，位於台灣的咖啡廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9E%97%E9%81%93%E5%AE%A2%E6%A3%A7%E5%92%96%E5%95%A1%E5%B7%A5%E4%BD%9C%E5%AE%A4%2022.707602%2C121.025691",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/571737186"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "way/571737186",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-way-1453031082",
+    "name": "恩娜比亞咖啡館",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "東河鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣東河鄉52",
+    "hours": "請以商家公告為準",
+    "lat": 22.8725074,
+    "lng": 121.200438,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "恩娜比亞咖啡館，位於台灣的咖啡廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%81%A9%E5%A8%9C%E6%AF%94%E4%BA%9E%E5%92%96%E5%95%A1%E9%A4%A8%2022.872507%2C121.200438",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/1453031082"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "way/1453031082",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-3511125297",
+    "name": "小蘭嶼BBQ",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "蘭嶼鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣蘭嶼鄉1之7",
+    "hours": "請以商家公告為準",
+    "lat": 22.024553,
+    "lng": 121.5578456,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "小蘭嶼BBQ，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E8%98%AD%E5%B6%BCBBQ%2022.024553%2C121.557846",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/3511125297"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/3511125297",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-3650741083",
+    "name": "阿剛碳烤",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "綠島鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣綠島鄉115",
+    "hours": "請以商家公告為準",
+    "lat": 22.6766511,
+    "lng": 121.4888476,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "阿剛碳烤，位於台灣的餐廳，提供barbecue料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%98%BF%E5%89%9B%E7%A2%B3%E7%83%A4%2022.676651%2C121.488848",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/3650741083"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/3650741083",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4454436491",
+    "name": "宋媽媽海產店",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "成功鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣成功鎮中華路195",
+    "hours": "請以商家公告為準",
+    "lat": 23.1017611,
+    "lng": 121.3816026,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "宋媽媽海產店，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%8B%E5%AA%BD%E5%AA%BD%E6%B5%B7%E7%94%A2%E5%BA%97%2023.101761%2C121.381603",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4454436491"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4454436491",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4623058790",
+    "name": "藍色愛情海",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "臺東市",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣臺東市吉林路二段634",
+    "hours": "請以商家公告為準",
+    "lat": 22.7907592,
+    "lng": 121.1856031,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "藍色愛情海，位於台灣的餐廳，提供local料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%97%8D%E8%89%B2%E6%84%9B%E6%83%85%E6%B5%B7%2022.790759%2C121.185603",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4623058790"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4623058790",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-5591851928",
+    "name": "天巴洛风味餐厅",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "卑南鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣卑南鄉溫泉路57",
+    "hours": "請以商家公告為準",
+    "lat": 22.7026085,
+    "lng": 121.0326724,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "天巴洛风味餐厅，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E5%B7%B4%E6%B4%9B%E9%A3%8E%E5%91%B3%E9%A4%90%E5%8E%85%2022.702609%2C121.032672",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/5591851928"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/5591851928",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-6124981806",
+    "name": "小明の店 巴比Q",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "綠島鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣綠島鄉",
+    "hours": "請以商家公告為準",
+    "lat": 22.6609782,
+    "lng": 121.4748655,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "小明の店 巴比Q，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E6%98%8E%E3%81%AE%E5%BA%97%20%E5%B7%B4%E6%AF%94Q%2022.660978%2C121.474866",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/6124981806"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/6124981806",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-6738102585",
+    "name": "久昂臭豆腐",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "臺東市",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣臺東市正氣北路126",
+    "hours": "請以商家公告為準",
+    "lat": 22.7566223,
+    "lng": 121.1399938,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "久昂臭豆腐，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B9%85%E6%98%82%E8%87%AD%E8%B1%86%E8%85%90%2022.756622%2C121.139994",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/6738102585"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/6738102585",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-7005278486",
+    "name": "天天新",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "臺東市",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣臺東市長沙街200",
+    "hours": "請以商家公告為準",
+    "lat": 22.7518514,
+    "lng": 121.1410675,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "天天新，位於台灣的餐廳，提供chinese、friture、burger、regional、noodles、asian、sandwich、breakfast、coffee_shop、local料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E5%A4%A9%E6%96%B0%2022.751851%2C121.141068",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/7005278486"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/7005278486",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-7860581753",
+    "name": "20甲線陸安段 無名路邊攤",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "池上鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣池上鄉6之1",
+    "hours": "請以商家公告為準",
+    "lat": 23.131447,
+    "lng": 121.1884636,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "20甲線陸安段 無名路邊攤，位於台灣的餐廳，提供特色小點、中式小點料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=20%E7%94%B2%E7%B7%9A%E9%99%B8%E5%AE%89%E6%AE%B5%20%E7%84%A1%E5%90%8D%E8%B7%AF%E9%82%8A%E6%94%A4%2023.131447%2C121.188464",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/7860581753"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/7860581753",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-7860581754",
+    "name": "尚如意小吃部",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "池上鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺東縣池上鄉143",
+    "hours": "請以商家公告為準",
+    "lat": 23.130049,
+    "lng": 121.232164,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "尚如意小吃部，位於台灣的餐廳，提供中式料理、中式小吃料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%9A%E5%A6%82%E6%84%8F%E5%B0%8F%E5%90%83%E9%83%A8%2023.130049%2C121.232164",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/7860581754"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/7860581754",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-9843110717",
+    "name": "馬太鞍欣綠農園",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "光復鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "花蓮縣光復鄉大全街60",
+    "hours": "Mo-Su 09:00-19:00",
+    "lat": 23.656435,
+    "lng": 121.409262,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "馬太鞍欣綠農園，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A6%AC%E5%A4%AA%E9%9E%8D%E6%AC%A3%E7%B6%A0%E8%BE%B2%E5%9C%92%2023.656435%2C121.409262",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/9843110717"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/9843110717",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-10277337209",
+    "name": "柴燒窯烤手工披薩",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "玉里鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "花蓮縣玉里鎮福安街145",
+    "hours": "Mo-Fr 14:00-18:30; Sa 11:00-18:30",
+    "lat": 23.3237914,
+    "lng": 121.3195815,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "柴燒窯烤手工披薩，位於台灣的餐廳，提供chicken、pizza料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9F%B4%E7%87%92%E7%AA%AF%E7%83%A4%E6%89%8B%E5%B7%A5%E6%8A%AB%E8%96%A9%2023.323791%2C121.319581",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/10277337209"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/10277337209",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-10281202809",
+    "name": "魯豫小喫（民權店）",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "花蓮市",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "花蓮縣花蓮市民權路140",
+    "hours": "Mo-Su 11:00-14:00",
+    "lat": 23.994274,
+    "lng": 121.631524,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "魯豫小喫（民權店），位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AD%AF%E8%B1%AB%E5%B0%8F%E5%96%AB%EF%BC%88%E6%B0%91%E6%AC%8A%E5%BA%97%EF%BC%89%2023.994274%2C121.631524",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/10281202809"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/10281202809",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-10968985586",
+    "name": "山腳下居酒屋",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "新城鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "花蓮縣新城鄉佳民村109之12",
+    "hours": "請以商家公告為準",
+    "lat": 24.0487987,
+    "lng": 121.5960417,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "山腳下居酒屋，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E8%85%B3%E4%B8%8B%E5%B1%85%E9%85%92%E5%B1%8B%2024.048799%2C121.596042",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/10968985586"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/10968985586",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-11224167937",
+    "name": "星巴克（花蓮理想門市）",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "壽豐鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "花蓮縣壽豐鄉豐坪路三段289",
+    "hours": "Mo-Su 08:00-20:00",
+    "lat": 23.8685651,
+    "lng": 121.5331371,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "星巴克（花蓮理想門市），位於台灣的咖啡廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%98%9F%E5%B7%B4%E5%85%8B%EF%BC%88%E8%8A%B1%E8%93%AE%E7%90%86%E6%83%B3%E9%96%80%E5%B8%82%EF%BC%89%2023.868565%2C121.533137",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/11224167937"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/11224167937",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-way-408783426",
+    "name": "橫綱餐廳",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "新城鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "花蓮縣新城鄉新興路67",
+    "hours": "請以商家公告為準",
+    "lat": 24.1315915,
+    "lng": 121.6432678,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "橫綱餐廳，位於台灣的餐廳，提供sichuanese料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A9%AB%E7%B6%B1%E9%A4%90%E5%BB%B3%2024.131591%2C121.643268",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/408783426"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "way/408783426",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-way-576564704",
+    "name": "阿嬌早餐店",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "吉安鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "花蓮縣吉安鄉吉興路二段131",
+    "hours": "05:30-11:30",
+    "lat": 23.9583267,
+    "lng": 121.5695574,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "阿嬌早餐店，位於台灣的餐廳，提供chinese料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%98%BF%E5%AC%8C%E6%97%A9%E9%A4%90%E5%BA%97%2023.958327%2C121.569557",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/576564704"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "way/576564704",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-way-599017951",
+    "name": "3HP Cafe",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "花蓮市",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "花蓮縣花蓮市港口路12",
+    "hours": "請以商家公告為準",
+    "lat": 23.9965422,
+    "lng": 121.6358163,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "3HP Cafe，位於台灣的咖啡廳，提供burger、coffee料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [
+      "戶外用餐空間"
+    ],
+    "facilities": [
+      "戶外座位"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=3HP%20Cafe%2023.996542%2C121.635816",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/599017951"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "way/599017951",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-way-1340610213",
+    "name": "松田釣魚池",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "花蓮市",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "花蓮縣花蓮市101之3",
+    "hours": "10:00-20:00",
+    "lat": 24.0061456,
+    "lng": 121.598768,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "松田釣魚池，位於台灣的餐廳，提供fish料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BE%E7%94%B0%E9%87%A3%E9%AD%9A%E6%B1%A0%2024.006146%2C121.598768",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/1340610213"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "way/1340610213",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-3835148285",
+    "name": "愛知味燒烤店",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "吉安鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "花蓮縣吉安鄉南濱路一段102",
+    "hours": "請以商家公告為準",
+    "lat": 23.9587688,
+    "lng": 121.6025752,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "愛知味燒烤店，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%84%9B%E7%9F%A5%E5%91%B3%E7%87%92%E7%83%A4%E5%BA%97%2023.958769%2C121.602575",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/3835148285"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/3835148285",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-3835188900",
+    "name": "提拉米蘇",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "花蓮市",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "花蓮縣花蓮市中原路738",
+    "hours": "請以商家公告為準",
+    "lat": 23.9770386,
+    "lng": 121.5920614,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "提拉米蘇，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%8F%90%E6%8B%89%E7%B1%B3%E8%98%87%2023.977039%2C121.592061",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/3835188900"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/3835188900",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4204055293",
+    "name": "大陸餃子館",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "光復鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "花蓮縣光復鄉中正路一段45",
+    "hours": "請以商家公告為準",
+    "lat": 23.6661338,
+    "lng": 121.4224443,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "大陸餃子館，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%99%B8%E9%A4%83%E5%AD%90%E9%A4%A8%2023.666134%2C121.422444",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4204055293"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4204055293",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4204055296",
+    "name": "馬蓋先美食",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "光復鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "花蓮縣光復鄉中正路一段119",
+    "hours": "請以商家公告為準",
+    "lat": 23.6656348,
+    "lng": 121.4244657,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "馬蓋先美食，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A6%AC%E8%93%8B%E5%85%88%E7%BE%8E%E9%A3%9F%2023.665635%2C121.424466",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4204055296"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4204055296",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4269013793",
+    "name": "轟炸雞",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "吉安鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "花蓮縣吉安鄉知卡宣大道三段23",
+    "hours": "請以商家公告為準",
+    "lat": 23.9441821,
+    "lng": 121.5738419,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "轟炸雞，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%BD%9F%E7%82%B8%E9%9B%9E%2023.944182%2C121.573842",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4269013793"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4269013793",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4316633140",
+    "name": "福鼎小館",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "花蓮縣中正路二段",
+    "hours": "請以商家公告為準",
+    "lat": 23.963073,
+    "lng": 121.5890726,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "福鼎小館，位於台灣的餐廳，提供regional料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E9%BC%8E%E5%B0%8F%E9%A4%A8%2023.963073%2C121.589073",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4316633140"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4316633140",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4537212613",
+    "name": "兩津農莊食堂",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "吉安鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "花蓮縣吉安鄉干城二街357",
+    "hours": "請以商家公告為準",
+    "lat": 23.9508528,
+    "lng": 121.5345286,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "兩津農莊食堂，位於台灣的餐廳，提供烤魚、烤雞、野菜料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%A9%E6%B4%A5%E8%BE%B2%E8%8E%8A%E9%A3%9F%E5%A0%82%2023.950853%2C121.534529",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4537212613"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4537212613",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4670555899",
+    "name": "松雪樓餐廳",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "秀林鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "花蓮縣秀林鄉65",
+    "hours": "請以商家公告為準",
+    "lat": 24.1408385,
+    "lng": 121.2859936,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "松雪樓餐廳，位於台灣的餐廳，提供chinese料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BE%E9%9B%AA%E6%A8%93%E9%A4%90%E5%BB%B3%2024.140839%2C121.285994",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4670555899"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4670555899",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-5853180686",
+    "name": "玩海的阿浪",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "壽豐鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "花蓮縣壽豐鄉60-1",
+    "hours": "請以商家公告為準",
+    "lat": 23.8831,
+    "lng": 121.60157,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "玩海的阿浪，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8E%A9%E6%B5%B7%E7%9A%84%E9%98%BF%E6%B5%AA%2023.883100%2C121.601570",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/5853180686"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/5853180686",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-7013579985",
+    "name": "鮮堡漢堡店",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "光復鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "花蓮縣光復鄉林森路104",
+    "hours": "請以商家公告為準",
+    "lat": 23.6682462,
+    "lng": 121.426605,
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "鮮堡漢堡店，位於台灣的快餐店，提供breakfast料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%AE%E5%A0%A1%E6%BC%A2%E5%A0%A1%E5%BA%97%2023.668246%2C121.426605",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/7013579985"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/7013579985",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-7484155366",
+    "name": "木子家咖啡民宿",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "花蓮市",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "花蓮縣花蓮市民權九街一巷5",
+    "hours": "請以商家公告為準",
+    "lat": 23.9879301,
+    "lng": 121.6276357,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "木子家咖啡民宿，位於台灣的咖啡廳，提供coffee_shop料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%A8%E5%AD%90%E5%AE%B6%E5%92%96%E5%95%A1%E6%B0%91%E5%AE%BF%2023.987930%2C121.627636",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/7484155366"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/7484155366",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-7566324558",
+    "name": "我最牛牛排館",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "新城鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "花蓮縣新城鄉北埔路133",
+    "hours": "請以商家公告為準",
+    "lat": 24.0299757,
+    "lng": 121.6051758,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "我最牛牛排館，位於台灣的餐廳，提供steak料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%88%91%E6%9C%80%E7%89%9B%E7%89%9B%E6%8E%92%E9%A4%A8%2024.029976%2C121.605176",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/7566324558"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/7566324558",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-7763567196",
+    "name": "舞告鶴a咖啡園",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "瑞穗鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "花蓮縣瑞穗鄉中正南路二段76-25",
+    "hours": "請以商家公告為準",
+    "lat": 23.4689324,
+    "lng": 121.3600085,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "舞告鶴a咖啡園，位於台灣的咖啡廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%88%9E%E5%91%8A%E9%B6%B4a%E5%92%96%E5%95%A1%E5%9C%92%2023.468932%2C121.360009",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/7763567196"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/7763567196",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-7825839786",
+    "name": "青春舞鶴園區",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "瑞穗鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "花蓮縣瑞穗鄉中正南路二段76-25",
+    "hours": "請以商家公告為準",
+    "lat": 23.4687854,
+    "lng": 121.3599718,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "青春舞鶴園區，位於台灣的咖啡廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%9D%92%E6%98%A5%E8%88%9E%E9%B6%B4%E5%9C%92%E5%8D%80%2023.468785%2C121.359972",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/7825839786"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/7825839786",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-9596645534",
+    "name": "時鐘現烤筒仔雞",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "吉安鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "花蓮縣吉安鄉中央路三段381",
+    "hours": "請以商家公告為準",
+    "lat": 23.9831253,
+    "lng": 121.585361,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "時鐘現烤筒仔雞，位於台灣的餐廳，提供chinese、asian料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%99%82%E9%90%98%E7%8F%BE%E7%83%A4%E7%AD%92%E4%BB%94%E9%9B%9E%2023.983125%2C121.585361",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/9596645534"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/9596645534",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-9800469017",
+    "name": "蒙古蛋餅",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "光復鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "花蓮縣光復鄉中山路二段289",
+    "hours": "請以商家公告為準",
+    "lat": 23.667348,
+    "lng": 121.424286,
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "蒙古蛋餅，位於台灣的快餐店。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%92%99%E5%8F%A4%E8%9B%8B%E9%A4%85%2023.667348%2C121.424286",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/9800469017"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/9800469017",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-10164787870",
+    "name": "芳草古樹",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "鳳林鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "花蓮縣鳳林鎮中和路71",
+    "hours": "請以商家公告為準",
+    "lat": 23.746636,
+    "lng": 121.4540902,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "芳草古樹，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8A%B3%E8%8D%89%E5%8F%A4%E6%A8%B9%2023.746636%2C121.454090",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/10164787870"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/10164787870",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-10294275614",
+    "name": "樸道素食餐館",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "鳳林鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "花蓮縣鳳林鎮中正路二段266",
+    "hours": "請以商家公告為準",
+    "lat": 23.7501997,
+    "lng": 121.4513251,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "樸道素食餐館，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A8%B8%E9%81%93%E7%B4%A0%E9%A3%9F%E9%A4%90%E9%A4%A8%2023.750200%2C121.451325",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/10294275614"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/10294275614",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-10294275615",
+    "name": "花漾蔬食煎餃",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "鳳林鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "花蓮縣鳳林鎮信義路79",
+    "hours": "請以商家公告為準",
+    "lat": 23.7434208,
+    "lng": 121.4517597,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "花漾蔬食煎餃，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8A%B1%E6%BC%BE%E8%94%AC%E9%A3%9F%E7%85%8E%E9%A4%83%2023.743421%2C121.451760",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/10294275615"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/10294275615",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-11939496061",
+    "name": "好記鴨肉飯",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "光復鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "花蓮縣光復鄉中山路二段238",
+    "hours": "請以商家公告為準",
+    "lat": 23.6653294,
+    "lng": 121.4235109,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "好記鴨肉飯，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A5%BD%E8%A8%98%E9%B4%A8%E8%82%89%E9%A3%AF%2023.665329%2C121.423511",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/11939496061"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/11939496061",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-11944398776",
+    "name": "賀佳小吃",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "壽豐鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "花蓮縣壽豐鄉中山路235",
+    "hours": "請以商家公告為準",
+    "lat": 23.8498957,
+    "lng": 121.4959879,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "賀佳小吃，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B3%80%E4%BD%B3%E5%B0%8F%E5%90%83%2023.849896%2C121.495988",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/11944398776"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/11944398776",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-13647869800",
+    "name": "鼎鮮",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "光復鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "花蓮縣光復鄉中山路二段229",
+    "hours": "請以商家公告為準",
+    "lat": 23.6660965,
+    "lng": 121.4236397,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "鼎鮮，位於台灣的咖啡廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%BC%8E%E9%AE%AE%2023.666096%2C121.423640",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/13647869800"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/13647869800",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-13647887801",
+    "name": "阿亮雞排",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "光復鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "花蓮縣光復鄉中山路二段266",
+    "hours": "請以商家公告為準",
+    "lat": 23.6660842,
+    "lng": 121.4238931,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "阿亮雞排，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%98%BF%E4%BA%AE%E9%9B%9E%E6%8E%92%2023.666084%2C121.423893",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/13647887801"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/13647887801",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-26",
+    "placeType": "餐飲"
   }
 ]

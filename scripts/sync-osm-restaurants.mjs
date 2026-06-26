@@ -12,7 +12,7 @@ const OVERPASS_MIRRORS = [
   'https://overpass.openstreetmap.ru/api/interpreter',
   'https://maps.mail.ru/osm/tools/overpass/api/interpreter',
 ]
-const PER_CITY_CAP = Number(process.env.PER_CITY_CAP || 100)
+const PER_CITY_CAP = Number(process.env.PER_CITY_CAP || 300)
 
 // Taiwan bbox: south,west,north,east
 // `meta` adds timestamp/version per element so we can filter stale entries
