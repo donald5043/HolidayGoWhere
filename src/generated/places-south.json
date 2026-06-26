@@ -94195,5 +94195,566 @@
         "詳細介紹"
       ]
     }
+  },
+  {
+    "id": "farm-1544",
+    "name": "美濃休閒農業區",
+    "region": "南部",
+    "city": "高雄市",
+    "district": "美濃區",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "高雄市美濃區泰安路197號",
+    "hours": "請至官方網站確認",
+    "lat": 22.902692,
+    "lng": 120.542402,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/30984/480x360_agrispots-image-8innngr-p0mjebil9do3yw.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "美濃休閒農業區是位於高雄市的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%BE%8E%E6%BF%83%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E9%AB%98%E9%9B%84%E5%B8%82%E7%BE%8E%E6%BF%83%E5%8D%80",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-1544",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.401Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-344",
+    "name": "南笨港休閒農業區",
+    "region": "南部",
+    "city": "嘉義縣",
+    "district": "新港鄉",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "嘉義縣新港鄉板頭村板頭厝45-1號",
+    "hours": "請至官方網站確認",
+    "lat": 23.56525,
+    "lng": 120.320743,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/3384/480x360_0a117bd66eb542f1a65e20f25e30b123.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "南笨港休閒農業區是位於嘉義縣的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%97%E7%AC%A8%E6%B8%AF%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E5%98%89%E7%BE%A9%E7%B8%A3%E6%96%B0%E6%B8%AF%E9%84%89",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-344",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.426Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-51",
+    "name": "瑞峰太和休閒農業區",
+    "region": "南部",
+    "city": "嘉義縣",
+    "district": "梅山鄉",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "嘉義縣梅山鄉太和村樟樹湖27號",
+    "hours": "請至官方網站確認",
+    "lat": 23.525891,
+    "lng": 120.711559,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/41822/480x360_agrispots-image-6iksb5gnukubewkiv1swmq.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "瑞峰太和休閒農業區是位於嘉義縣的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%91%9E%E5%B3%B0%E5%A4%AA%E5%92%8C%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E5%98%89%E7%BE%A9%E7%B8%A3%E6%A2%85%E5%B1%B1%E9%84%89",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-51",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.440Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-59",
+    "name": "溪南休閒農業區",
+    "region": "南部",
+    "city": "臺南市",
+    "district": "七股區",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺南市七股區溪南里溪南48號",
+    "hours": "請至官方網站確認",
+    "lat": 23.125097,
+    "lng": 120.11355,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/42911/480x360_3cac8b0a85f74d478f049233790a465a.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "溪南休閒農業區是位於臺南市的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%BA%AA%E5%8D%97%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E8%87%BA%E5%8D%97%E5%B8%82%E4%B8%83%E8%82%A1%E5%8D%80",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-59",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.446Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-61",
+    "name": "梅嶺休閒農業區",
+    "region": "南部",
+    "city": "臺南市",
+    "district": "楠西區",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "台南市灣丘里灣丘12號之2",
+    "hours": "請至官方網站確認",
+    "lat": 23.174356,
+    "lng": 120.49483,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/31404/480x360_agrispots-image-u3zstz98okamyddmym2o8a.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "梅嶺休閒農業區是位於臺南市的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A2%85%E5%B6%BA%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E8%87%BA%E5%8D%97%E5%B8%82%E6%A5%A0%E8%A5%BF%E5%8D%80",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-61",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.450Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-62",
+    "name": "內門休閒農業區",
+    "region": "南部",
+    "city": "高雄市",
+    "district": "新興區",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "高雄市新興區木柵里木柵26號",
+    "hours": "請至官方網站確認",
+    "lat": 22.979192,
+    "lng": 120.470586,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/31438/480x360_agrispots-image-ual8fslhduurjfsuq3uryg.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "內門休閒農業區是位於高雄市的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%A7%E9%96%80%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E9%AB%98%E9%9B%84%E5%B8%82%E6%96%B0%E8%88%88%E5%8D%80",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-62",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.451Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-63",
+    "name": "民生休閒農業區",
+    "region": "南部",
+    "city": "高雄市",
+    "district": "那瑪夏區",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "高雄市那瑪夏區大光巷230號",
+    "hours": "請至官方網站確認",
+    "lat": 23.276759,
+    "lng": 120.720313,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/31610/480x360_agrispots-image-tianigbytu6bcs2qwi46cg.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "民生休閒農業區是位於高雄市的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B0%91%E7%94%9F%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E9%AB%98%E9%9B%84%E5%B8%82%E9%82%A3%E7%91%AA%E5%A4%8F%E5%8D%80",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-63",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.454Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-65",
+    "name": "大樹休閒農業區",
+    "region": "南部",
+    "city": "高雄市",
+    "district": "大樹區",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "高雄市大樹區龍目路76號",
+    "hours": "請至官方網站確認",
+    "lat": 22.687501,
+    "lng": 120.411864,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/32531/480x360_agrispots-image-iuwgyqbtgkeb2pg4velxtg.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "大樹休閒農業區是位於高雄市的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%A8%B9%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E9%AB%98%E9%9B%84%E5%B8%82%E5%A4%A7%E6%A8%B9%E5%8D%80",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-65",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.460Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-66",
+    "name": "沿山休閒農業區",
+    "region": "南部",
+    "city": "屏東縣",
+    "district": "萬巒鄉",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "屏東縣萬巒鄉新置村中興路29-2號",
+    "hours": "請至官方網站確認",
+    "lat": 22.551515,
+    "lng": 120.612003,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/2695/480x360_7ef59c4a5116463980c3028d150d67fb.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "沿山休閒農業區是位於屏東縣的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B2%BF%E5%B1%B1%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E5%B1%8F%E6%9D%B1%E7%B8%A3%E8%90%AC%E5%B7%92%E9%84%89",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-66",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.462Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-67",
+    "name": "新豐休閒農業區",
+    "region": "南部",
+    "city": "屏東縣",
+    "district": "高樹鄉",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "屏東縣高樹鄉沿山公路一段116號",
+    "hours": "請至官方網站確認",
+    "lat": 22.849358,
+    "lng": 120.633324,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/42744/480x360_c02b689097c545f0880d4647b8445d6e.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "新豐休閒農業區是位於屏東縣的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E8%B1%90%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E5%B1%8F%E6%9D%B1%E7%B8%A3%E9%AB%98%E6%A8%B9%E9%84%89",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-67",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.463Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-7499",
+    "name": "大坑168休閒農業區",
+    "region": "南部",
+    "city": "臺南市",
+    "district": "新化區",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺南市新化區",
+    "hours": "請至官方網站確認",
+    "lat": 23.028087,
+    "lng": 120.33202,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/notfound/miss.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "大坑168休閒農業區是位於臺南市的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%9D%91168%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E8%87%BA%E5%8D%97%E5%B8%82%E6%96%B0%E5%8C%96%E5%8D%80",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-7499",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.479Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
   }
 ]

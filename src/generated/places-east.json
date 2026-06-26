@@ -55986,5 +55986,1025 @@
         "詳細介紹"
       ]
     }
+  },
+  {
+    "id": "farm-10",
+    "name": "羅東溪休閒農業區",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "冬山鄉",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "宜蘭縣冬山鄉境安路345號",
+    "hours": "請至官方網站確認",
+    "lat": 24.679398,
+    "lng": 121.742087,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/31516/480x360_agrispots-image-whnff0ezzkyrwoybyldlwq.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "羅東溪休閒農業區是位於宜蘭縣的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%BE%85%E6%9D%B1%E6%BA%AA%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%86%AC%E5%B1%B1%E9%84%89",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-10",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.382Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-11",
+    "name": "梅花湖休閒農業區",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "冬山鄉",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "宜蘭縣冬山鄉廣興路680巷300號",
+    "hours": "請至官方網站確認",
+    "lat": 24.658481,
+    "lng": 121.728774,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/31586/480x360_agrispots-image-p9om9ygp-kw_sszk0aeimg.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "梅花湖休閒農業區是位於宜蘭縣的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A2%85%E8%8A%B1%E6%B9%96%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%86%AC%E5%B1%B1%E9%84%89",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-11",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.396Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-13",
+    "name": "時潮休閒農業區",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "礁溪鄉",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "宜蘭縣礁溪鄉時潮村大塭路47-4號",
+    "hours": "請至官方網站確認",
+    "lat": 24.818091,
+    "lng": 121.812896,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/32394/480x360_agrispots-image-7cos4jzvee2gayejiu9tnw.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "時潮休閒農業區是位於宜蘭縣的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%99%82%E6%BD%AE%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E7%A4%81%E6%BA%AA%E9%84%89",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-13",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.398Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-15",
+    "name": "大湖底休閒農業區",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "員山鄉",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "宜蘭縣員山鄉湖東村德湖路二段122號",
+    "hours": "請至官方網站確認",
+    "lat": 24.746602,
+    "lng": 121.709472,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/2213/480x360_111(13).jpg"
+    ],
+    "accent": "#68b984",
+    "description": "大湖底休閒農業區是位於宜蘭縣的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%B9%96%E5%BA%95%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%93%A1%E5%B1%B1%E9%84%89",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-15",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.399Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-16",
+    "name": "新港澳休閒農業區",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "頭城鎮",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "宜蘭縣頭城鎮濱海路二段122-1號",
+    "hours": "請至官方網站確認",
+    "lat": 24.880538,
+    "lng": 121.843185,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/16/480x360_20151111154055.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "新港澳休閒農業區是位於宜蘭縣的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E6%B8%AF%E6%BE%B3%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E9%A0%AD%E5%9F%8E%E9%8E%AE",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-16",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.402Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-1690",
+    "name": "大南澳休閒農業區",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "蘇澳鎮",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "宜蘭縣蘇澳鎮南澳路6號",
+    "hours": "請至官方網站確認",
+    "lat": 24.464058,
+    "lng": 121.805516,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/34899/480x360_agrispots-image-vo542uuxnu-gg6yvadxhaw.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "大南澳休閒農業區是位於宜蘭縣的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%8D%97%E6%BE%B3%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E8%98%87%E6%BE%B3%E9%8E%AE",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-1690",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.404Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-3",
+    "name": "枕頭山休閒農業區",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "員山鄉",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "宜蘭縣員山鄉坡城路8號對面鐵皮屋",
+    "hours": "請至官方網站確認",
+    "lat": 24.776833,
+    "lng": 121.709459,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/3/480x360_61t9qqdrj02nddht6n5n33c5y0eg3x1v.JPG"
+    ],
+    "accent": "#68b984",
+    "description": "枕頭山休閒農業區是位於宜蘭縣的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9E%95%E9%A0%AD%E5%B1%B1%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%93%A1%E5%B1%B1%E9%84%89",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-3",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.421Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-4",
+    "name": "玉蘭休閒農業區",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "大同鄉",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "宜蘭縣大同鄉松羅村鹿場路4之1號",
+    "hours": "請至官方網站確認",
+    "lat": 24.665524,
+    "lng": 121.590768,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/31582/480x360_agrispots-image-495l-m4se0moh_kjv6xvza.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "玉蘭休閒農業區是位於宜蘭縣的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8E%89%E8%98%AD%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%A4%A7%E5%90%8C%E9%84%89",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-4",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.427Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-5",
+    "name": "中山休閒農業區",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "冬山鄉",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "宜蘭縣冬山鄉中山村新寮一路12號(遊客服務中心)",
+    "hours": "請至官方網站確認",
+    "lat": 24.625761,
+    "lng": 121.751462,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/30798/480x360_agrispots-image-rpqzvl2y7eunqpzdarkfog.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "中山休閒農業區是位於宜蘭縣的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E5%B1%B1%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%86%AC%E5%B1%B1%E9%84%89",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-5",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.438Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-6",
+    "name": "天送埤休閒農業區",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "三星鄉",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "宜蘭縣三星鄉天福村三星路七段167號(服務中心)",
+    "hours": "請至官方網站確認",
+    "lat": 24.661712,
+    "lng": 121.624424,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/31300/480x360_agrispots-image-tzef8ospik-vyrw4k6l2kw.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "天送埤休閒農業區是位於宜蘭縣的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E9%80%81%E5%9F%A4%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E4%B8%89%E6%98%9F%E9%84%89",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-6",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.447Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-6402",
+    "name": "紅柴林休閒農業區",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "三星鄉",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "宜蘭縣三星鄉上將路三段376巷25號",
+    "hours": "請至官方網站確認",
+    "lat": 24.692907,
+    "lng": 121.674159,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/1752/480x360_S__24592422(1).jpg"
+    ],
+    "accent": "#68b984",
+    "description": "紅柴林休閒農業區是位於宜蘭縣的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B4%85%E6%9F%B4%E6%9E%97%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E4%B8%89%E6%98%9F%E9%84%89",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-6402",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.456Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-69",
+    "name": "東豐休閒農業區",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "玉里鎮",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "花蓮縣玉里鎮東豐里棣芬71-3號",
+    "hours": "請至官方網站確認",
+    "lat": 23.389826,
+    "lng": 121.377017,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/30827/480x360_agrispots-image--nqswkzi7k-nxnsuslxava.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "東豐休閒農業區是位於花蓮縣的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E8%B1%90%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E8%8A%B1%E8%93%AE%E7%B8%A3%E7%8E%89%E9%87%8C%E9%8E%AE",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-69",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.466Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-7",
+    "name": "冬山河休閒農業區",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "五結鄉",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "宜蘭縣五結鄉親河路二段147號",
+    "hours": "請至官方網站確認",
+    "lat": 24.673447,
+    "lng": 121.80798,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/7/480x360_mnjs4fh73q8nr29i4jt32u10vndie8j5.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "冬山河休閒農業區是位於宜蘭縣的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%86%AC%E5%B1%B1%E6%B2%B3%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E4%BA%94%E7%B5%90%E9%84%89",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-7",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.467Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-70",
+    "name": "壽豐休閒農業區",
+    "region": "東部",
+    "city": "花蓮縣",
+    "district": "壽豐鄉",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "花蓮縣壽豐鄉豐山村魚塘路78號(壽豐農業生態館)",
+    "hours": "請至官方網站確認",
+    "lat": 23.858953,
+    "lng": 121.497648,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/2779/480x360_d5d4502d9e7a4011a7606a5700720c71.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "壽豐休閒農業區是位於花蓮縣的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A3%BD%E8%B1%90%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E8%8A%B1%E8%93%AE%E7%B8%A3%E5%A3%BD%E8%B1%90%E9%84%89",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-70",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.468Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-73",
+    "name": "高頂山休閒農業區",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "卑南鄉",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺東縣卑南鄉賓朗村頂岩灣36-1號",
+    "hours": "請至官方網站確認",
+    "lat": 22.827174,
+    "lng": 121.096386,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/73/480x360_20151112150842.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "高頂山休閒農業區是位於臺東縣的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E9%A0%82%E5%B1%B1%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E8%87%BA%E6%9D%B1%E7%B8%A3%E5%8D%91%E5%8D%97%E9%84%89",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-73",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.472Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-7332",
+    "name": "卡阿麓灣休閒農業區",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "金峰鄉",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺東縣金峰鄉嘉蘭旅遊中心",
+    "hours": "請至官方網站確認",
+    "lat": 22.598494,
+    "lng": 120.960907,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/notfound/miss.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "卡阿麓灣休閒農業區是位於臺東縣的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%A1%E9%98%BF%E9%BA%93%E7%81%A3%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E8%87%BA%E6%9D%B1%E7%B8%A3%E9%87%91%E5%B3%B0%E9%84%89",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-7332",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.476Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-76",
+    "name": "池上米鄉休閒農業區",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "池上鄉",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺東縣池上鄉5鄰51號",
+    "hours": "請至官方網站確認",
+    "lat": 23.119424,
+    "lng": 121.215267,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/19518/480x360_agrispots-image-wdqbvt0ewkiqkbbwq9fpwa.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "池上米鄉休閒農業區是位於臺東縣的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B1%A0%E4%B8%8A%E7%B1%B3%E9%84%89%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E8%87%BA%E6%9D%B1%E7%B8%A3%E6%B1%A0%E4%B8%8A%E9%84%89",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-76",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.483Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-77",
+    "name": "金針山休閒農業區",
+    "region": "東部",
+    "city": "臺東縣",
+    "district": "太麻里鄉",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "臺東縣太麻里鄉大王村佳崙產業道路292號",
+    "hours": "請至官方網站確認",
+    "lat": 22.643086,
+    "lng": 120.952606,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/77/480x360_47uz95vjphk7b9wm2zxqq5jbr9np4scd.jpeg"
+    ],
+    "accent": "#68b984",
+    "description": "金針山休閒農業區是位於臺東縣的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E9%87%9D%E5%B1%B1%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E8%87%BA%E6%9D%B1%E7%B8%A3%E5%A4%AA%E9%BA%BB%E9%87%8C%E9%84%89",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-77",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.484Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-8",
+    "name": "珍珠休閒農業區",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "冬山鄉",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "宜蘭縣冬山鄉富農路二段255號",
+    "hours": "請至官方網站確認",
+    "lat": 24.658999,
+    "lng": 121.797853,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/31687/480x360_agrispots-image-sqeg4yoznkqoh_oiisdfva.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "珍珠休閒農業區是位於宜蘭縣的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8F%8D%E7%8F%A0%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%86%AC%E5%B1%B1%E9%84%89",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-8",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.485Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "farm-9",
+    "name": "橫山頭休閒農業區",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "員山鄉",
+    "ageMin": 2,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "農場體驗",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "宜蘭縣員山鄉員山鄉榮光路490號",
+    "hours": "請至官方網站確認",
+    "lat": 24.723501,
+    "lng": 121.683584,
+    "image": "",
+    "imageCandidates": [
+      "https://ezgo.ardswc.gov.tw/_api/content/images/agrispots/31465/480x360_agrispots-image-_dgjxrte_0mosgelinsxia.jpg"
+    ],
+    "accent": "#68b984",
+    "description": "橫山頭休閒農業區是位於宜蘭縣的休閒農業區，可體驗農村生態、農事採摘與在地物產，適合親子一同走訪。出發前請確認各場域開放時間與預約方式。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A9%AB%E5%B1%B1%E9%A0%AD%E4%BC%91%E9%96%92%E8%BE%B2%E6%A5%AD%E5%8D%80%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%93%A1%E5%B1%B1%E9%84%89",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "農業部休閒農業區旅遊資訊",
+        "url": "https://ezgo.ardswc.gov.tw/"
+      }
+    ],
+    "dataSource": "農業部開放資料",
+    "sourceId": "farm-9",
+    "qualityScore": 18,
+    "updatedAt": "2026-06-26T01:37:11.487Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 44,
+      "missing": [
+        "營業時間",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
   }
 ]
