@@ -139,9 +139,9 @@ function highlightsFor(name, tags) {
   return h
 }
 
-// Google Maps search by coordinates — matches TDX place format exactly
-function mapsUrlFor(lat, lng, name) {
-  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${name} ${lat.toFixed(6)},${lng.toFixed(6)}`)}`
+// Pin exact coordinates — avoids showing all same-chain branches nearby
+function mapsUrlFor(lat, lng) {
+  return `https://www.google.com/maps/search/?api=1&query=${lat.toFixed(6)},${lng.toFixed(6)}`
 }
 
 function isStale(el) {
@@ -287,7 +287,7 @@ async function main() {
       highlights: highlightsFor(name, tags),
       facilities: facilitiesFor(tags),
       familyAmenities: hasFamilyInfo ? familyAmenitiesFor(tags) : undefined,
-      mapsUrl: mapsUrlFor(lat, lng, name),
+      mapsUrl: mapsUrlFor(lat, lng),
       sources: [{ type: '官方網站', label: 'OpenStreetMap', url: `https://www.openstreetmap.org/${el.type}/${el.id}` }],
       dataSource: 'osm',
       sourceId: `${el.type}/${el.id}`,
