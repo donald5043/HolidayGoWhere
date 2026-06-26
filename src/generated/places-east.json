@@ -55888,5 +55888,103 @@
         "詳細介紹"
       ]
     }
+  },
+  {
+    "id": "forest-eec-南澳生態教育館",
+    "name": "南澳生態教育館",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "南澳鄉",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "探索學習",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "宜蘭縣南澳鄉南澳村中正路55號",
+    "hours": "週一~週五 09:00~16:00",
+    "lat": 24.467998,
+    "lng": 121.793697,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#6a8dff",
+    "description": "南澳生態教育館是位於宜蘭縣的自然教育室內景點，由農業部林務局管理，適合親子同遊。出發前請至山林悠遊網確認最新開放資訊。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%97%E6%BE%B3%E7%94%9F%E6%85%8B%E6%95%99%E8%82%B2%E9%A4%A8%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%8D%97%E6%BE%B3%E9%84%89%E5%8D%97%E6%BE%B3%E6%9D%91%E4%B8%AD%E6%AD%A3%E8%B7%AF55%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "山林悠遊網",
+        "url": "https://recreation.forest.gov.tw/"
+      }
+    ],
+    "dataSource": "林務局開放資料",
+    "sourceId": "forest-eec-南澳生態教育館",
+    "qualityScore": 20,
+    "updatedAt": "2026-06-26T01:13:18.014Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "forest-eec-員山生態教育館",
+    "name": "員山生態教育館",
+    "region": "東部",
+    "city": "宜蘭縣",
+    "district": "員山鄉",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "探索學習",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "宜蘭縣員山鄉員山村員山路1段163號",
+    "hours": "自110年8月1日起進行轉型整修工程，暫停開放",
+    "lat": 24.745997,
+    "lng": 121.727901,
+    "image": "",
+    "imageCandidates": [],
+    "accent": "#6a8dff",
+    "description": "員山生態教育館是位於宜蘭縣的自然教育室內景點，由農業部林務局管理，適合親子同遊。出發前請至山林悠遊網確認最新開放資訊。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%93%A1%E5%B1%B1%E7%94%9F%E6%85%8B%E6%95%99%E8%82%B2%E9%A4%A8%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%93%A1%E5%B1%B1%E9%84%89%E5%93%A1%E5%B1%B1%E6%9D%91%E5%93%A1%E5%B1%B1%E8%B7%AF1%E6%AE%B5163%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "山林悠遊網",
+        "url": "https://recreation.forest.gov.tw/"
+      }
+    ],
+    "dataSource": "林務局開放資料",
+    "sourceId": "forest-eec-員山生態教育館",
+    "qualityScore": 20,
+    "updatedAt": "2026-06-26T01:13:18.029Z",
+    "rainyDay": true,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
   }
 ]
