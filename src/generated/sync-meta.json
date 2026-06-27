@@ -1,7 +1,7 @@
 {
   "sourceUrl": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
-  "sourceUpdatedAt": "2026-06-27T02:31:15+08:00",
-  "generatedFromSourceAt": "2026-06-27T02:31:15+08:00",
+  "sourceUpdatedAt": "2026-06-27T14:30:49+08:00",
+  "generatedFromSourceAt": "2026-06-27T14:30:49+08:00",
   "sourceCount": 6083,
   "restaurantSourceCount": 3690,
   "restaurantPublishedCount": 2664,
@@ -13,25 +13,25 @@
     "quality": 828
   },
   "eventSourceCount": 791,
-  "eventPublishedCount": 224,
+  "eventPublishedCount": 205,
   "eventRejected": {
-    "expired": 483,
+    "expired": 485,
     "coordinate": 1,
-    "duplicate": 15,
-    "relevance": 68
+    "duplicate": 17,
+    "relevance": 83
   },
-  "candidateCount": 6062,
-  "publishedCount": 6062,
+  "candidateCount": 6042,
+  "publishedCount": 6042,
   "featuredCount": 300,
   "regionCounts": {
-    "北部": 1645,
-    "中部": 1883,
-    "南部": 1285,
+    "北部": 1637,
+    "中部": 1877,
+    "南部": 1283,
     "東部": 747,
-    "離島": 502
+    "離島": 498
   },
   "rejected": {
-    "inactive": 135,
+    "inactive": 136,
     "coordinate": 24,
     "duplicate": 219,
     "relevance": 2531,
@@ -44,30 +44,30 @@
     "咖啡下午茶": 266,
     "室內餐廳": 2027,
     "探索學習": 240,
-    "本週活動": 224,
+    "本週活動": 205,
     "甜點冰品": 290,
     "百貨商場": 34,
     "自然放電": 1221,
     "藝文美感": 338,
     "親子樂園": 445,
     "親子餐廳": 67,
-    "農場體驗": 385
+    "農場體驗": 384
   },
   "amenityCoverage": {
-    "accessibility": 379,
+    "accessibility": 378,
     "ramp": 21,
-    "nursingRoom": 356,
+    "nursingRoom": 357,
     "diaperTable": 212,
-    "familyRestroom": 70,
-    "parking": 229,
+    "familyRestroom": 71,
+    "parking": 227,
     "strollerFriendly": 45
   },
   "officialAmenityMatches": {
-    "accessibility": 334,
+    "accessibility": 333,
     "ramp": 0,
-    "nursingRoom": 345,
+    "nursingRoom": 346,
     "diaperTable": 212,
-    "familyRestroom": 67,
+    "familyRestroom": 68,
     "parking": 0,
     "strollerFriendly": 0
   },
@@ -75,7 +75,7 @@
     "nursingCount": 3996,
     "toiletCount": 45679,
     "nursingUpdatedAt": "2026-01-26 15:04:48",
-    "toiletUpdatedAt": "2026-06-26 09:09:32",
+    "toiletUpdatedAt": "2026-06-27 09:10:54",
     "sources": [
       {
         "id": 23750,

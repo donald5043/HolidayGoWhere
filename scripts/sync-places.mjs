@@ -104,6 +104,8 @@ const fallbackImages = {
 }
 
 const familyRestaurantPattern = /親子|兒童|小朋友|家庭|寶寶|幼兒|遊戲區|兒童椅/
+const eventPromoPattern = /優惠|折扣|促銷|抽獎|集章|滿額|消費|會員|登機證|獎勵|補助|方案|推廣|伴手禮專區|會考生|考生|憑.*證|商家優惠/
+const eventFamilyPattern = /親子|兒童|小朋友|家庭|寶寶|幼兒|童玩|手作|DIY|體驗|展覽|特展|市集|馬戲|花火|沙雕|燈會|藝術季|音樂|故事|閱讀|走讀|小旅行|任務|生態|自然|農遊|採果|戲水|夏日|節|祭|季/
 const mallNamePattern =
   /百貨|購物中心|購物廣場|商場|名品城|outlet|奧特萊斯|global mall|裕隆城|老虎城|夢時代|skm park|勤美誠品|大魯閣新時代/i
 const unreliableImageHosts = new Set(['khh.travel'])
@@ -781,7 +783,11 @@ async function main() {
       ...(item.Tags || []),
     ].join(' '))
     const relevance = familyScore(text)
-    if (relevance < 4 && !/市集|展覽|體驗|節|祭|花季|燈會|音樂|文化|藝術|親子|兒童/.test(text)) {
+    if (eventPromoPattern.test(text) && !/親子|兒童|手作|DIY|體驗/.test(text)) {
+      eventRejected.relevance += 1
+      continue
+    }
+    if (relevance < 4 && !eventFamilyPattern.test(text)) {
       eventRejected.relevance += 1
       continue
     }
@@ -863,14 +869,34 @@ async function main() {
   })
   const featuredEventPlaces = allPlaces
     .filter((place) => place.placeType === '活動')
+    .sort((a, b) => (b.qualityScoreV2 ?? 0) - (a.qualityScoreV2 ?? 0))
+    .slice(0, 20)
+  const featuredAttractions = allPlaces
+    .filter((place) => place.placeType === '景點')
+    .sort((a, b) => (b.qualityScoreV2 ?? 0) - (a.qualityScoreV2 ?? 0))
+    .slice(0, 180)
+  const featuredDining = featuredRainyPlaces
+    .filter((place) => place.placeType === '餐飲')
+    .sort((a, b) => (b.qualityScoreV2 ?? 0) - (a.qualityScoreV2 ?? 0))
     .slice(0, 60)
   const featuredIds = new Set([
+    ...featuredAttractions.map((place) => place.id),
+    ...featuredDining.map((place) => place.id),
     ...featuredRainyPlaces.map((place) => place.id),
     ...featuredEventPlaces.map((place) => place.id),
   ])
   const reservedFeaturedPlaces = [
-    ...featuredEventPlaces,
-    ...featuredRainyPlaces.filter((place) => !featuredEventPlaces.some((event) => event.id === place.id)),
+    ...featuredAttractions,
+    ...featuredDining.filter((place) => !featuredAttractions.some((item) => item.id === place.id)),
+    ...featuredEventPlaces.filter((place) =>
+      !featuredAttractions.some((item) => item.id === place.id) &&
+      !featuredDining.some((item) => item.id === place.id),
+    ),
+    ...featuredRainyPlaces.filter((place) =>
+      !featuredAttractions.some((item) => item.id === place.id) &&
+      !featuredDining.some((item) => item.id === place.id) &&
+      !featuredEventPlaces.some((event) => event.id === place.id),
+    ),
   ]
   const featuredPlaces = [
     ...reservedFeaturedPlaces,

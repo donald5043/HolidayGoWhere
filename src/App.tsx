@@ -814,6 +814,7 @@ function App() {
         if (hotWeather && place.setting !== '室外') score += 12
         if (place.weekendEvent) score += 10
       }
+      if (!eventOnly && place.placeType === '活動') score -= 20
       if (restaurantOnly && place.placeType === '餐飲') {
         score += getFamilyEvidence(place).length ? 8 : 0
       }
@@ -862,7 +863,10 @@ function App() {
     const seed = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate()
     const ranked = [...places]
       .filter((place) => place.image)
-      .sort((first, second) => getQualityScore(second) - getQualityScore(first))
+      .sort((first, second) => {
+        const score = (place: Place) => getQualityScore(place) - (place.placeType === '活動' ? 18 : 0)
+        return score(second) - score(first)
+      })
       .slice(0, 24)
     const offset = seed % Math.max(ranked.length, 1)
     return [...ranked.slice(offset), ...ranked.slice(0, offset)].slice(0, 10)
