@@ -10,7 +10,7 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.svg'],
+      includeAssets: ['favicon.png', 'favicon.svg'],
       workbox: {
         maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
         cleanupOutdatedCaches: true,
@@ -49,15 +49,15 @@ export default defineConfig({
         scope: base,
         icons: [
           {
-            src: `${base}pwa-192x192.svg`,
+            src: `${base}pwa-192x192.png`,
             sizes: '192x192',
-            type: 'image/svg+xml',
+            type: 'image/png',
             purpose: 'any maskable'
           },
           {
-            src: `${base}pwa-512x512.svg`,
+            src: `${base}pwa-512x512.png`,
             sizes: '512x512',
-            type: 'image/svg+xml',
+            type: 'image/png',
             purpose: 'any maskable'
           }
         ]

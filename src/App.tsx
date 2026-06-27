@@ -946,7 +946,7 @@ function App() {
       <header className="topbar">
         <a className="brand" href="#" aria-label="假日去哪兒首頁" onClick={(event) => { event.preventDefault(); openHome() }}>
           <span className="brand-mark" aria-hidden="true">
-            <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="" className="brand-logo-img" />
+            <img src={`${import.meta.env.BASE_URL}brand/q-pang-app-icon-64.png`} alt="" className="brand-logo-img" />
           </span>
           <span className="brand-text">
             <strong>假日去哪兒</strong>
@@ -975,7 +975,7 @@ function App() {
               />
               <div className="hero-card-overlay" />
               <img
-                src={`${import.meta.env.BASE_URL}mascot/q-pang-waving.png`}
+                src={`${import.meta.env.BASE_URL}mascot/q-pang-waving-premium.png`}
                 alt=""
                 className="hero-mascot"
                 aria-hidden="true"
@@ -1455,7 +1455,7 @@ function App() {
           <aside className="profile-sheet" onClick={(event) => event.stopPropagation()}>
             <button className="modal-close" onClick={() => setShowProfile(false)} aria-label="關閉"><X /></button>
             <div className="profile-avatar" aria-hidden="true">
-              <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="" className="profile-avatar-img" />
+              <img src={`${import.meta.env.BASE_URL}brand/q-pang-app-icon-192.png`} alt="" className="profile-avatar-img" />
             </div>
             <h2>我的親子小檔案</h2>
             <p>你的收藏與偏好會保存在這支手機裡。</p>
