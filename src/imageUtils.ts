@@ -1,4 +1,4 @@
-export const FALLBACK_IMAGE = `${import.meta.env.BASE_URL}place-fallback.svg`
+export const FALLBACK_IMAGE = `${import.meta.env.BASE_URL}place-fallback.png`
 
 export const BAD_PLACEHOLDER_IMAGES = new Set([
   'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80',
