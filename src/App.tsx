@@ -64,6 +64,7 @@ import { NearbyRestaurants } from './components/NearbyRestaurants'
 import { PackingList } from './components/PackingList'
 import { ItineraryPlanner } from './components/ItineraryPlanner'
 import { Mascot } from './components/Mascot'
+import { BrandLogo } from './components/BrandLogo'
 
 const regions = ['全部', '北部', '中部', '南部', '東部', '離島'] as const
 const settings = ['全部', '室內', '室外', '室內外'] as const
@@ -1011,13 +1012,7 @@ function App() {
     <div className="app-shell">
       <header className="topbar">
         <a className="brand" href="#" aria-label="假日去哪兒首頁" onClick={(event) => { event.preventDefault(); openHome() }}>
-          <span className="brand-mark" aria-hidden="true">
-            <Mascot variant="appIcon" className="brand-logo-img" loading="eager" />
-          </span>
-          <span className="brand-text">
-            <strong>假日去哪兒</strong>
-            <small>讓每個週末，都值得孩子期待</small>
-          </span>
+          <BrandLogo />
         </a>
         <div className="topbar-actions">
           <button className="icon-button" onClick={toggleSound} aria-label={soundEnabled ? '關閉介面音效' : '開啟介面音效'}>
@@ -1061,6 +1056,20 @@ function App() {
                   <SlidersHorizontal size={18} /><span>篩選</span>
                 </button>
               </div>
+            </section>
+
+            <section className="brand-family-card" aria-labelledby="brand-family-title">
+              <div className="brand-family-copy">
+                <span className="eyebrow"><Users size={14} /> Q胖家族陪你找地方</span>
+                <h2 id="brand-family-title">不是只有景點清單，是爸媽可以信任的週末嚮導</h2>
+                <p>Q胖負責找靈感，Q寶提醒孩子需求，Q媽幫你留意雨天、推車、停車與育嬰室。</p>
+                <div className="brand-family-roles" aria-label="角色家族">
+                  <span><strong>Q胖</strong> 探索靈感</span>
+                  <span><strong>Q寶</strong> 孩子視角</span>
+                  <span><strong>Q媽</strong> 爸媽安心</span>
+                </div>
+              </div>
+              <Mascot variant="family" className="brand-family-image" alt="Q胖、Q寶與Q媽角色家族" loading="eager" />
             </section>
 
             <section className="quick-entries" aria-label="快速入口">

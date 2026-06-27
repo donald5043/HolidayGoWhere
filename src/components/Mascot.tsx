@@ -1,4 +1,14 @@
-type MascotVariant = 'waving' | 'map' | 'favorites' | 'noResults' | 'rainy' | 'appIcon' | 'head'
+type MascotVariant =
+  | 'waving'
+  | 'map'
+  | 'favorites'
+  | 'noResults'
+  | 'rainy'
+  | 'appIcon'
+  | 'head'
+  | 'qBao'
+  | 'qMom'
+  | 'family'
 
 type MascotProps = {
   variant?: MascotVariant
@@ -15,6 +25,9 @@ const mascotSrc: Record<MascotVariant, string> = {
   rainy: 'mascot/q-pang-rainy.png',
   appIcon: 'brand/q-pang-app-icon-192.png',
   head: 'brand/q-pang-head-transparent.png',
+  qBao: 'mascot/q-bao.png',
+  qMom: 'mascot/q-mom.png',
+  family: 'mascot/q-pang-family.png',
 }
 
 export function Mascot({ variant = 'waving', className = '', alt = '', loading = 'lazy' }: MascotProps) {
