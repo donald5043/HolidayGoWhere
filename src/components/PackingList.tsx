@@ -104,15 +104,25 @@ export function PackingList({ place, weather }: Props) {
     try {
       const raw = localStorage.getItem(storageKey(place.id))
       return raw ? new Set<string>(JSON.parse(raw)) : new Set()
-    } catch { return new Set() }
+    } catch {
+      return new Set()
+    }
   })
   const [open, setOpen] = useState(false)
 
   const toggle = (label: string) => {
     setChecked((prev) => {
       const next = new Set(prev)
-      next.has(label) ? next.delete(label) : next.add(label)
-      try { localStorage.setItem(storageKey(place.id), JSON.stringify([...next])) } catch {}
+      if (next.has(label)) {
+        next.delete(label)
+      } else {
+        next.add(label)
+      }
+      try {
+        localStorage.setItem(storageKey(place.id), JSON.stringify([...next]))
+      } catch {
+        // localStorage may be unavailable in private mode.
+      }
       return next
     })
   }
@@ -120,7 +130,11 @@ export function PackingList({ place, weather }: Props) {
   const reset = (e: React.MouseEvent) => {
     e.stopPropagation()
     setChecked(new Set())
-    try { localStorage.removeItem(storageKey(place.id)) } catch {}
+    try {
+      localStorage.removeItem(storageKey(place.id))
+    } catch {
+      // localStorage may be unavailable in private mode.
+    }
   }
 
   const doneCount = items.filter((i) => checked.has(i.label)).length

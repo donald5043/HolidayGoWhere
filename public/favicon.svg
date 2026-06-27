@@ -1,22 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#d05535"/>
-      <stop offset="100%" stop-color="#f09060"/>
+    <linearGradient id="bg" x1="10" y1="5" x2="56" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF5E8"/>
+      <stop offset=".58" stop-color="#F7D9CA"/>
+      <stop offset="1" stop-color="#D9775F"/>
     </linearGradient>
-    <radialGradient id="gl" cx="28%" cy="20%" r="65%">
-      <stop offset="0%" stop-color="rgba(255,210,185,0.42)"/>
-      <stop offset="100%" stop-color="rgba(255,210,185,0)"/>
-    </radialGradient>
+    <linearGradient id="pin" x1="20" y1="13" x2="44" y2="49" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E88770"/>
+      <stop offset="1" stop-color="#B85A47"/>
+    </linearGradient>
   </defs>
-  <rect width="64" height="64" rx="18" fill="url(#bg)"/>
-  <rect width="64" height="64" rx="18" fill="url(#gl)"/>
-  <path d="M32 7L48 27L32 42L16 27Z" fill="rgba(255,255,255,0.95)"/>
-  <path d="M32 7L48 27L32 27Z" fill="rgba(255,255,255,0.08)"/>
-  <line x1="16" y1="27" x2="48" y2="27" stroke="rgba(200,80,45,0.22)" stroke-width="1.1"/>
-  <line x1="32" y1="7" x2="32" y2="42" stroke="rgba(200,80,45,0.22)" stroke-width="1.1"/>
-  <path d="M32 42C34 47 37 51 34 55C32 58 35 61 35 61"
-        stroke="rgba(255,236,218,0.92)" stroke-width="2.1" stroke-linecap="round" fill="none"/>
-  <ellipse cx="36" cy="48" rx="3.5" ry="1.9" fill="rgba(255,236,218,0.88)" transform="rotate(20 36 48)"/>
-  <ellipse cx="33" cy="57" rx="3.3" ry="1.7" fill="rgba(255,236,218,0.70)" transform="rotate(-5 33 57)"/>
+  <rect width="64" height="64" rx="20" fill="#FFFCF7"/>
+  <rect x="4" y="4" width="56" height="56" rx="18" fill="url(#bg)"/>
+  <path d="M17 43.8c5.6-5.4 10.4-6.2 15-3.2 4.8 3.2 10.1 2.3 15-3.7" fill="none" stroke="#789B8D" stroke-width="4" stroke-linecap="round"/>
+  <path d="M32 11.5c-8.3 0-15 6.5-15 14.6 0 10.7 15 25.9 15 25.9s15-15.2 15-25.9c0-8.1-6.7-14.6-15-14.6Z" fill="url(#pin)"/>
+  <circle cx="32" cy="26" r="8.8" fill="#FFFCF7"/>
+  <circle cx="28.8" cy="24.2" r="1.45" fill="#243B37"/>
+  <circle cx="35.2" cy="24.2" r="1.45" fill="#243B37"/>
+  <path d="M28.6 29.4c2.1 2 4.7 2 6.8 0" fill="none" stroke="#243B37" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="42.7" cy="17.8" r="4.2" fill="#789B8D"/>
+  <path d="M41.1 17.9h3.1M42.7 16.3v3.1" stroke="#FFFCF7" stroke-width="1.35" stroke-linecap="round"/>
 </svg>

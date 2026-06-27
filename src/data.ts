@@ -29,14 +29,21 @@ export type FamilyAmenities = {
   }[]
 }
 export type AiInsight = {
-  summary: string
-  whyForKids: string[]
-  rainyDay: '適合' | '部分適合' | '不適合' | '未知'
-  stroller: '友善' | '部分友善' | '不友善' | '未知'
-  tips: string[]
-  confidence: number
+  summary?: string
+  whyForKids?: string[]
+  rainyDay?: '適合' | '部分適合' | '不適合' | '未知'
+  stroller?: '友善' | '部分友善' | '不友善' | '未知'
+  tips?: string[]
+  confidence?: number
+  familySummary?: string
+  rainyDayTip?: string
+  recommendedAge?: string
+  visitDuration?: string
+  parentFriendlyTags?: string[]
   model: string
+  sourceHash?: string
   generatedAt: string
+  migrated?: boolean
 }
 
 export type RestaurantCategory =

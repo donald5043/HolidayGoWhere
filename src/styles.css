@@ -320,6 +320,26 @@ button:active,
     linear-gradient(0deg, rgba(255,255,255,0.34), rgba(255,255,255,0) 42%);
 }
 
+.hero-mascot {
+  position: absolute;
+  right: clamp(10px, 5vw, 64px);
+  bottom: 58px;
+  z-index: 0;
+  width: clamp(156px, 28vw, 288px);
+  max-height: 78%;
+  object-fit: contain;
+  object-position: bottom right;
+  pointer-events: none;
+  filter: drop-shadow(0 18px 26px rgba(81, 48, 35, 0.18));
+  transform: translateZ(0);
+}
+
+.hero-card-content,
+.hero-search {
+  position: relative;
+  z-index: 2;
+}
+
 .hero-tag {
   display: inline-flex;
   align-items: center;
@@ -355,7 +375,6 @@ button:active,
 
 .hero-search {
   position: absolute;
-  z-index: 2;
   left: 16px;
   right: 16px;
   bottom: 16px;
@@ -2536,7 +2555,7 @@ p.wizard-reason {
   animation: rise var(--transition-slow) both;
 }
 
-.profile-bear {
+.profile-avatar {
   width: 72px;
   height: 72px;
   margin: 0 auto var(--space-3);
@@ -2546,7 +2565,7 @@ p.wizard-reason {
   box-shadow: 0 8px 0 var(--color-primary-light), 0 0 0 1.5px rgba(255,255,255,0.15);
 }
 
-.profile-bear-img {
+.profile-avatar-img {
   display: block;
   width: 100%;
   height: 100%;
@@ -3128,6 +3147,18 @@ p.wizard-reason {
 
   .hero-card h1 {
     font-size: var(--font-hero);
+  }
+
+  .hero-mascot {
+    width: 144px;
+    right: -18px;
+    bottom: 78px;
+    opacity: 0.94;
+    filter: drop-shadow(0 12px 18px rgba(81, 48, 35, 0.16));
+  }
+
+  .hero-card p {
+    max-width: 220px;
   }
 
   .search-box input {

@@ -1,32 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
   <title id="title">親子景點圖片準備中</title>
-  <desc id="desc">小熊與孩子在彩虹和雲朵旁旅行的插圖</desc>
+  <desc id="desc">柔和地圖、山丘與親子旅遊定位標誌的插圖</desc>
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#fff1dc"/>
-      <stop offset="1" stop-color="#dff4ee"/>
+      <stop offset="0" stop-color="#FFF8ED"/>
+      <stop offset=".55" stop-color="#F8E7D8"/>
+      <stop offset="1" stop-color="#E7F1EA"/>
     </linearGradient>
+    <linearGradient id="pin" x1="384" y1="160" x2="516" y2="390" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E88770"/>
+      <stop offset="1" stop-color="#B85A47"/>
+    </linearGradient>
+    <filter id="softShadow" x="260" y="105" width="380" height="360" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="22" stdDeviation="18" flood-color="#7F5148" flood-opacity=".18"/>
+    </filter>
   </defs>
   <rect width="900" height="600" rx="42" fill="url(#sky)"/>
-  <circle cx="120" cy="115" r="48" fill="#fff" opacity=".85"/>
-  <circle cx="178" cy="105" r="66" fill="#fff" opacity=".85"/>
-  <circle cx="242" cy="122" r="43" fill="#fff" opacity=".85"/>
-  <path d="M0 455 Q175 370 350 455 T700 455 T1050 455 V600 H0Z" fill="#9fd6b5"/>
-  <path d="M150 420 A300 300 0 0 1 750 420" fill="none" stroke="#ff8066" stroke-width="32"/>
-  <path d="M185 420 A265 265 0 0 1 715 420" fill="none" stroke="#f5c85b" stroke-width="28"/>
-  <path d="M218 420 A232 232 0 0 1 682 420" fill="none" stroke="#72b9df" stroke-width="26"/>
-  <g transform="translate(330 225)">
-    <circle cx="120" cy="110" r="100" fill="#9b6b4a"/>
-    <circle cx="50" cy="42" r="42" fill="#9b6b4a"/>
-    <circle cx="190" cy="42" r="42" fill="#9b6b4a"/>
-    <circle cx="50" cy="42" r="22" fill="#e6b98f"/>
-    <circle cx="190" cy="42" r="22" fill="#e6b98f"/>
-    <ellipse cx="120" cy="125" rx="60" ry="52" fill="#eac19c"/>
-    <circle cx="88" cy="96" r="10" fill="#283e3b"/>
-    <circle cx="152" cy="96" r="10" fill="#283e3b"/>
-    <ellipse cx="120" cy="124" rx="13" ry="10" fill="#283e3b"/>
-    <path d="M100 145 Q120 164 140 145" fill="none" stroke="#283e3b" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="135" cy="120" r="64" fill="#FFFCF7" opacity=".78"/>
+  <circle cx="202" cy="108" r="88" fill="#FFFCF7" opacity=".62"/>
+  <circle cx="735" cy="124" r="92" fill="#FFFCF7" opacity=".58"/>
+  <path d="M0 430 Q170 350 338 425 T674 425 T1010 425 V600 H0Z" fill="#B8D8C9"/>
+  <path d="M0 485 Q192 410 375 488 T760 486 T1040 486 V600 H0Z" fill="#789B8D" opacity=".58"/>
+  <path d="M206 382c72-68 134-78 193-40 62 41 130 29 194-47" fill="none" stroke="#FFFCF7" stroke-width="28" stroke-linecap="round" opacity=".82"/>
+  <path d="M226 385c66-63 123-72 177-37 56 37 119 27 178-43" fill="none" stroke="#789B8D" stroke-width="14" stroke-linecap="round"/>
+  <g filter="url(#softShadow)">
+    <path d="M450 132c-70 0-126 55-126 124 0 91 126 221 126 221s126-130 126-221c0-69-56-124-126-124Z" fill="url(#pin)"/>
+    <circle cx="450" cy="254" r="74" fill="#FFFCF7"/>
+    <circle cx="423" cy="238" r="12" fill="#243B37"/>
+    <circle cx="477" cy="238" r="12" fill="#243B37"/>
+    <path d="M421 282c18 17 40 17 58 0" fill="none" stroke="#243B37" stroke-width="15" stroke-linecap="round"/>
+    <circle cx="542" cy="184" r="31" fill="#789B8D"/>
+    <path d="M530 184h24M542 172v24" stroke="#FFFCF7" stroke-width="10" stroke-linecap="round"/>
   </g>
-  <rect x="272" y="505" width="356" height="58" rx="29" fill="#fff" opacity=".92"/>
-  <text x="450" y="543" text-anchor="middle" font-family="sans-serif" font-size="25" font-weight="700" fill="#31534e">景點照片準備中 🐻</text>
+  <rect x="270" y="502" width="360" height="58" rx="29" fill="#FFFCF7" opacity=".94"/>
+  <text x="450" y="540" text-anchor="middle" font-family="Inter, 'Noto Sans TC', sans-serif" font-size="25" font-weight="700" fill="#243B37">景點照片準備中</text>
 </svg>

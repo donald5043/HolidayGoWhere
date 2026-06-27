@@ -974,6 +974,12 @@ function App() {
                 aria-hidden="true"
               />
               <div className="hero-card-overlay" />
+              <img
+                src={`${import.meta.env.BASE_URL}mascot/q-pang-waving.png`}
+                alt=""
+                className="hero-mascot"
+                aria-hidden="true"
+              />
               <div className="hero-card-content">
                 <span className="hero-tag"><Sparkles size={13} /> 親子週末靈感</span>
                 <h1>下一個週末，<br />一起創造<br /><span>美好回憶</span></h1>
@@ -1448,8 +1454,8 @@ function App() {
         <div className="modal-backdrop profile-backdrop" onClick={() => setShowProfile(false)}>
           <aside className="profile-sheet" onClick={(event) => event.stopPropagation()}>
             <button className="modal-close" onClick={() => setShowProfile(false)} aria-label="關閉"><X /></button>
-            <div className="profile-bear" aria-hidden="true">
-              <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="" className="profile-bear-img" />
+            <div className="profile-avatar" aria-hidden="true">
+              <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="" className="profile-avatar-img" />
             </div>
             <h2>我的親子小檔案</h2>
             <p>你的收藏與偏好會保存在這支手機裡。</p>
@@ -1540,16 +1546,16 @@ function App() {
                     <span><Bot size={18} />AI 親子摘要</span>
                     <small>本機 AI 整理</small>
                   </div>
-                  <p>{aiInsights[selected.id].summary}</p>
+                  <p>{aiInsights[selected.id].summary || aiInsights[selected.id].familySummary}</p>
                   <div className="ai-badges">
-                    <span>雨天：{aiInsights[selected.id].rainyDay}</span>
-                    <span>推車：{aiInsights[selected.id].stroller}</span>
+                    <span>雨天：{aiInsights[selected.id].rainyDay || aiInsights[selected.id].rainyDayTip || '未確認'}</span>
+                    <span>推車：{aiInsights[selected.id].stroller || '未確認'}</span>
                   </div>
                   <ul>
-                    {aiInsights[selected.id].whyForKids.map((item) => <li key={item}>{item}</li>)}
+                    {(aiInsights[selected.id].whyForKids || aiInsights[selected.id].parentFriendlyTags || []).map((item) => <li key={item}>{item}</li>)}
                   </ul>
-                  {aiInsights[selected.id].tips.length > 0 && (
-                    <div className="ai-tip">行前提醒：{aiInsights[selected.id].tips.join('；')}</div>
+                  {(aiInsights[selected.id].tips?.length || 0) > 0 && (
+                    <div className="ai-tip">行前提醒：{aiInsights[selected.id].tips?.join('；')}</div>
                   )}
                   <small className="ai-disclaimer">AI 根據官方開放資料整理，實際資訊請以官方網站為準。</small>
                 </div>
