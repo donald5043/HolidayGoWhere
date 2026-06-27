@@ -259,6 +259,91 @@ function completenessFor(place) {
   }
 }
 
+function familyEvidenceFor(place) {
+  const evidence = place.familyAmenities?.evidence || []
+  return evidence.flatMap((item) => item.amenities.map((type) => {
+    const distance = cleanText(item.note).match(/約\s*(\d+)\s*公尺/)
+    return {
+      type,
+      status: distance ? 'nearby' : 'confirmed',
+      distanceMeters: distance ? Number(distance[1]) : undefined,
+      source: item.source,
+      label: item.label,
+      url: item.url,
+      note: item.note,
+    }
+  }))
+}
+
+function confirmedAmenityCount(place) {
+  const amenities = place.familyAmenities || {}
+  return ['accessibility', 'ramp', 'nursingRoom', 'diaperTable', 'familyRestroom', 'parking', 'strollerFriendly']
+    .filter((key) => amenities[key] === 'confirmed').length
+}
+
+function hasUsefulImage(place) {
+  const urls = [place.image, ...(place.imageCandidates || [])].filter(Boolean)
+  return urls.some((url) => !/images\.unsplash|place-fallback|no[-_]?image|default[-_]?image/i.test(url))
+}
+
+function restaurantTierFor(place, text = '') {
+  const combined = cleanText(`${place.name} ${place.category} ${place.description} ${(place.highlights || []).join(' ')} ${(place.facilities || []).join(' ')} ${text}`)
+  if (/百貨|商場|購物中心|美食街|food court/i.test(combined) || place.restaurantCategory === 'mall_food_court') {
+    return 'mall_food_court'
+  }
+  if (/咖啡|下午茶|甜點|冰品|親子補給/.test(combined) || place.restaurantCategory === 'family_supply_brand') {
+    return 'cafe_rainy_backup'
+  }
+  if (
+    place.restaurantCategory === 'family_chain' ||
+    familyRestaurantPattern.test(combined) ||
+    confirmedAmenityCount(place) >= 2
+  ) {
+    return 'family_verified'
+  }
+  if (place.restaurantCategory === 'tourism_restaurant' || place.restaurantCategory === 'attraction_attached') {
+    return 'tourism_restaurant'
+  }
+  return 'general_nearby'
+}
+
+function qualityScoreV2For(place) {
+  let score = Math.min(42, Math.max(0, Number(place.qualityScore || 0) * 4))
+  if (hasUsefulImage(place)) score += 15
+  if (place.hours && !/請至官方|確認|未提供|詳見/.test(place.hours)) score += 10
+  if (place.address && place.city && Number.isFinite(place.lat) && Number.isFinite(place.lng)) score += 10
+  if (place.sources?.some((source) => source.type === '官方網站')) score += 8
+  if (cleanText(place.description).length >= 100) score += 8
+  score += Math.min(24, confirmedAmenityCount(place) * 6)
+  score += Math.min(16, (place.familyEvidence || []).length * 8)
+  if (place.rainyDay) score += 4
+  if (place.weekendEvent) score += 6
+  if (place.placeType === '餐飲') {
+    const tierBonus = {
+      family_verified: 14,
+      mall_food_court: 12,
+      cafe_rainy_backup: 8,
+      tourism_restaurant: 5,
+      general_nearby: 0,
+    }
+    score += tierBonus[place.restaurantTier || 'general_nearby'] || 0
+  }
+  return Math.max(0, Math.min(100, Math.round(score)))
+}
+
+function finalizePlace(place) {
+  const next = {
+    ...place,
+    familyEvidence: familyEvidenceFor(place),
+  }
+  if (next.placeType === '餐飲') {
+    next.restaurantTier = restaurantTierFor(next)
+  }
+  next.qualityScoreV2 = qualityScoreV2For(next)
+  next.completeness = completenessFor(next)
+  return next
+}
+
 function priceFor(item, feeMap) {
   if (item.IsAccessibleForFree === 1 || item.IsAccessibleForFree === true) return '免費'
   const fees = feeMap.get(item.AttractionID) || []
@@ -747,10 +832,7 @@ async function main() {
   }
 
   candidates.sort((a, b) => b._rank - a._rank || a.name.localeCompare(b.name, 'zh-Hant'))
-  const allPlaces = candidates.map(({ _rank, ...place }) => ({
-    ...place,
-    completeness: completenessFor(place),
-  }))
+  const allPlaces = candidates.map(({ _rank, ...place }) => finalizePlace(place))
   const featuredRainyPlaces = Object.keys(regionFiles).flatMap((region) => {
     const regional = allPlaces.filter((place) => place.region === region && place.rainyDay)
     const selected = []
@@ -849,11 +931,14 @@ async function main() {
       .map((p) => {
         const text = `${p.name} ${p.description ?? ''} ${(p.highlights ?? []).join(' ')} ${(p.facilities ?? []).join(' ')}`
         const a = p.familyAmenities
-        let score = (p.qualityScore ?? 0) * 3
+        let score = (p.qualityScoreV2 ?? p.qualityScore ?? 0) * 3
         if (a?.nursingRoom === 'confirmed') score += 25
         if (a?.diaperTable === 'confirmed') score += 20
         if (a?.strollerFriendly === 'confirmed') score += 15
         if (a?.parking === 'confirmed') score += 10
+        if (p.restaurantTier === 'family_verified') score += 35
+        if (p.restaurantTier === 'mall_food_court') score += 24
+        if (p.restaurantTier === 'cafe_rainy_backup') score += 16
         score += FAMILY_KEYWORDS.filter((k) => text.includes(k)).length * 8
         if (p.setting === '室內') score += 5
         return { ...p, _rScore: score }

@@ -65,6 +65,7 @@ import { PackingList } from './components/PackingList'
 import { ItineraryPlanner } from './components/ItineraryPlanner'
 import { Mascot } from './components/Mascot'
 import { BrandLogo } from './components/BrandLogo'
+import { getFamilyEvidence, getQualityScore } from './placeQuality'
 
 const regions = ['全部', '北部', '中部', '南部', '東部', '離島'] as const
 const settings = ['全部', '室內', '室外', '室內外'] as const
@@ -140,7 +141,7 @@ function ruleScoreFacility(place: Place): number {
 }
 
 function ruleScorePopularity(place: Place): number {
-  return Math.min(1, (place.qualityScore ?? 0) / 100)
+  return Math.min(1, getQualityScore(place) / 100)
 }
 
 function buildWizardReason(
@@ -805,19 +806,26 @@ function App() {
     const sorted = [...matches]
     const rainyWeather = weather && (weather.precipitationProbability >= 45 || weather.weatherCode >= 51)
     const hotWeather = weather && weather.temperature >= 32
-    if (weather && !restaurantOnly) {
-      sorted.sort((first, second) => {
-        const weatherScore = (place: Place) =>
-          (rainyWeather && place.rainyDay ? 3 : 0) +
-          (hotWeather && place.setting !== '室外' ? 2 : 0) +
-          (place.weekendEvent ? 2 : 0)
-        return weatherScore(second) - weatherScore(first)
-      })
-    }
     const sortLocation = mapViewport?.center || userLocation
-    if (!sortLocation) return sorted
+    const rank = (place: Place) => {
+      let score = getQualityScore(place)
+      if (weather && !restaurantOnly) {
+        if (rainyWeather && place.rainyDay) score += 18
+        if (hotWeather && place.setting !== '室外') score += 12
+        if (place.weekendEvent) score += 10
+      }
+      if (restaurantOnly && place.placeType === '餐飲') {
+        score += getFamilyEvidence(place).length ? 8 : 0
+      }
+      if (sortLocation) {
+        const distance = distanceInKm(sortLocation, place)
+        score += Math.max(0, 42 - distance * 2.4)
+      }
+      return score
+    }
     return sorted.sort((first, second) =>
-      distanceInKm(sortLocation, first) - distanceInKm(sortLocation, second)
+      rank(second) - rank(first) ||
+      (sortLocation ? distanceInKm(sortLocation, first) - distanceInKm(sortLocation, second) : 0)
     )
   }, [places, query, age, setting, duration, rainyOnly, eventOnly, restaurantOnly, weather, userLocation, mapViewport])
   const displayedPlaces = useMemo(
@@ -854,7 +862,7 @@ function App() {
     const seed = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate()
     const ranked = [...places]
       .filter((place) => place.image)
-      .sort((first, second) => (second.qualityScore ?? 0) - (first.qualityScore ?? 0))
+      .sort((first, second) => getQualityScore(second) - getQualityScore(first))
       .slice(0, 24)
     const offset = seed % Math.max(ranked.length, 1)
     return [...ranked.slice(offset), ...ranked.slice(0, offset)].slice(0, 10)
@@ -1663,9 +1671,8 @@ function App() {
                         ['parking', '停車設施', selected.familyAmenities.parking],
                       ] as [string, string, string | null | undefined][]).map(([key, label, status]) => {
                         const AmenityIcon = AMENITY_ICONS[key as keyof typeof AMENITY_ICONS]
-                        const openDataConfirmed = selected.familyAmenities?.evidence?.some(
-                          (item) => item.amenities.includes(key as FamilyAmenityKey),
-                        )
+                        const evidenceItems = getFamilyEvidence(selected)
+                        const openDataConfirmed = evidenceItems.some((item) => item.type === key)
                         return (
                           <div className={`amenity-item ${status}`} key={label}>
                             <span>{AmenityIcon && <AmenityIcon size={18} />}</span>

@@ -28,6 +28,16 @@ export type FamilyAmenities = {
     note: string
   }[]
 }
+
+export type FamilyEvidence = {
+  type: FamilyAmenityKey
+  status: 'confirmed' | 'nearby'
+  distanceMeters?: number
+  source: string
+  label: string
+  url: string
+  note: string
+}
 export type AiInsight = {
   summary?: string
   whyForKids?: string[]
@@ -53,6 +63,13 @@ export type RestaurantCategory =
   | 'attraction_attached'
   | 'tourism_restaurant'
   | 'general_restaurant'
+
+export type RestaurantTier =
+  | 'family_verified'
+  | 'mall_food_court'
+  | 'cafe_rainy_backup'
+  | 'tourism_restaurant'
+  | 'general_nearby'
 
 export type Place = {
   id: string
@@ -84,13 +101,16 @@ export type Place = {
   dataSource: string
   sourceId: string
   qualityScore: number
+  qualityScoreV2?: number
   updatedAt: string
   rainyDay?: boolean
   michelinAward?: '3star' | '2star' | '1star' | 'bib_gourmand'
   cuisine?: string
   placeType?: '景點' | '餐飲' | '活動'
   restaurantCategory?: RestaurantCategory
+  restaurantTier?: RestaurantTier
   chain?: string
+  familyEvidence?: FamilyEvidence[]
   eventStart?: string
   eventEnd?: string
   weekendEvent?: boolean

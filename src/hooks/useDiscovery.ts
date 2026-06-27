@@ -1,5 +1,6 @@
 import { useCallback, useMemo, useState } from 'react'
 import type { Place } from '../data'
+import { getFamilyEvidence, getQualityScore } from '../placeQuality'
 
 const LS_LIKED    = 'holiday-go-where:discovery-liked'
 const LS_DISLIKED = 'holiday-go-where:discovery-disliked'
@@ -23,7 +24,7 @@ function haversineKm(from: UserLocation, to: UserLocation): number {
 }
 
 function scoreForDiscovery(place: Place, userLocation: UserLocation | null): number {
-  let score = place.qualityScore ?? 0
+  let score = getQualityScore(place)
 
   // Proximity bonus: up to 50 pts — fades to 0 at ~17 km
   if (userLocation) {
@@ -37,7 +38,8 @@ function scoreForDiscovery(place: Place, userLocation: UserLocation | null): num
       .filter((k) => a[k] === 'confirmed').length
     score += n * 10
   }
-  if (place.image) score += 15
+  if (getFamilyEvidence(place).length) score += 8
+  if (place.image) score += 8
   if (place.rainyDay) score += 5
   return score
 }
