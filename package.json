@@ -16,6 +16,8 @@
     "import:osm-restaurants": "node scripts/import-osm-restaurants.mjs",
     "sync:osm-restaurants": "node scripts/sync-osm-restaurants.mjs",
     "import:michelin": "node scripts/import-michelin.mjs",
+    "data:quality": "node scripts/data-quality-report.mjs",
+    "data:quality:check": "node scripts/data-quality-report.mjs --check",
     "ai:enrich": "node scripts/enrich-ai.mjs"
   },
   "dependencies": {
