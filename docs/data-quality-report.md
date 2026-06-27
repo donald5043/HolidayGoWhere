@@ -1,6 +1,6 @@
 # HolidayGoWhere Data Quality Report
 
-Generated at: 2026-06-27T14:20:18.237Z
+Generated at: 2026-06-27T15:58:15.589Z
 
 ## Summary
 

@@ -18,7 +18,10 @@
     "lat": 23.65189,
     "lng": 119.6079,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20230114212830125672.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/cc/%E6%BE%8E%E6%B9%96%E6%B0%B4%E6%97%8F%E9%A4%A8.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%BE%8E%E6%B9%96%E6%B0%B4%E6%97%8F%E9%A4%A8.jpg?width=1400"
+    ],
     "accent": "#f2a65a",
     "description": "館內有觸摸池、魚兒啄菜等，每天上午及下午兩個時段在大洋池都有精彩的餵食秀，可以看到飼育員和海洋生物們的有趣互動。 以灰白色牆身、碧綠色屋瓦建造的二層樓建築是澎湖水族館，它位於澎湖的白沙鄉岐頭村，是由原來的水產試驗所擴建而成。館內規劃有濱海生態、礁岩池、大洋池生態等展示區，其中最受矚目的就是長達14公尺的拱型海底隧道，您可以漫步在隧道中，欣賞各種海底生物。 水…",
     "highlights": [
@@ -61,6 +64,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E6%BE%8E%E6%B9%96%E6%B0%B4%E6%97%8F%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：澎湖水族館",
+        "url": "https://zh.wikipedia.org/wiki/%E6%BE%8E%E6%B9%96%E6%B0%B4%E6%97%8F%E9%A4%A8"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -1287,7 +1295,11 @@
     "lat": 23.56444,
     "lng": 119.489633,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140814133912908.JPG",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/03/%E8%A5%BF%E5%B6%BC%E8%A5%BF%E8%87%BA_%E6%BE%8E%E6%B9%96%E7%B8%A3_%E5%9C%8B%E5%AE%9A%E5%8F%A4%E8%B9%9F%E9%97%9C%E5%A1%9E_Venation_1.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/%E8%A5%BF%E5%B6%BC%E8%A5%BF%E8%87%BA_%E6%BE%8E%E6%B9%96%E7%B8%A3_%E5%9C%8B%E5%AE%9A%E5%8F%A4%E8%B9%9F%E9%97%9C%E5%A1%9E_Venation_1.JPG/1920px-%E8%A5%BF%E5%B6%BC%E8%A5%BF%E8%87%BA_%E6%BE%8E%E6%B9%96%E7%B8%A3_%E5%9C%8B%E5%AE%9A%E5%8F%A4%E8%B9%9F%E9%97%9C%E5%A1%9E_Venation_1.JPG",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E8%A5%BF%E5%B6%BC%E8%A5%BF%E8%87%BA%20%E6%BE%8E%E6%B9%96%E7%B8%A3%20%E5%9C%8B%E5%AE%9A%E5%8F%A4%E8%B9%9F%E9%97%9C%E5%A1%9E%20Venation%204.JPG?width=1400"
+    ],
     "accent": "#ff8066",
     "description": "西嶼西臺乃清朝劉銘傳所修之砲臺。1885年清法戰爭起，法將孤拔（Courbet)率遠東艦隊攻打臺澎，澎湖失守。清法和議後，劉銘傳籌劃臺灣防務，奏請於澎湖設總兵一名，並加強澎湖防務。當時在西嶼外垵與內垵間高地闢建砲臺一座，設置四門新式阿姆斯壯後膛砲，隔年另在內垵高地增設西嶼東臺。西嶼西臺規模浩大，施工情形甚為艱苦，於光緒15年完工。西嶼西臺乃清朝劉銘傳所修之砲…",
     "highlights": [
@@ -1331,6 +1343,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E8%A5%BF%E5%B6%BC%E8%A5%BF%E8%87%BA%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：西嶼西臺",
+        "url": "https://zh.wikipedia.org/wiki/%E8%A5%BF%E5%B6%BC%E8%A5%BF%E8%87%BA"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -3611,7 +3628,11 @@
     "lat": 24.49927,
     "lng": 118.40361,
     "image": "https://kinmen.travel/image/30713/640x480",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/47/%E9%87%91%E9%96%80%E7%B8%A3%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80%E7%AE%A1%E7%90%86%E6%89%80%E6%AD%B7%E5%8F%B2%E6%B0%91%E4%BF%97%E5%8D%9A%E7%89%A9%E9%A4%A8%E5%A4%A7%E9%96%80.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/%E9%87%91%E9%96%80%E7%B8%A3%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80%E7%AE%A1%E7%90%86%E6%89%80%E6%AD%B7%E5%8F%B2%E6%B0%91%E4%BF%97%E5%8D%9A%E7%89%A9%E9%A4%A8%E5%A4%A7%E9%96%80.jpg/1920px-%E9%87%91%E9%96%80%E7%B8%A3%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80%E7%AE%A1%E7%90%86%E6%89%80%E6%AD%B7%E5%8F%B2%E6%B0%91%E4%BF%97%E5%8D%9A%E7%89%A9%E9%A4%A8%E5%A4%A7%E9%96%80.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%87%91%E9%96%80%E7%B8%A3%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80%E7%AE%A1%E7%90%86%E6%89%80%E6%AD%B7%E5%8F%B2%E6%B0%91%E4%BF%97%E5%8D%9A%E7%89%A9%E9%A4%A8%E5%A4%A7%E9%96%80.jpg?width=1400"
+    ],
     "accent": "#6a8dff",
     "description": "金門歷史民俗博物館於2010年12月25日開館，2014年1月1日成立管理單位「金門縣文化園區管理所」，位處金門東半島金沙溪畔，與太武山、金龜山前後輝映，閩式建築依山傍水，環繞湖光水色，景致宜人。",
     "highlights": [
@@ -3663,6 +3684,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80%E9%87%91%E9%96%80%E6%AD%B7%E5%8F%B2%E6%B0%91%E4%BF%97%E5%8D%9A%E7%89%A9%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：金門歷史民俗博物館",
+        "url": "https://zh.wikipedia.org/wiki/%E9%87%91%E9%96%80%E6%AD%B7%E5%8F%B2%E6%B0%91%E4%BF%97%E5%8D%9A%E7%89%A9%E9%A4%A8"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -3910,7 +3936,11 @@
     "lat": 23.5255148407,
     "lng": 119.6025425296,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140825154851407.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/ab/%E9%8E%96%E6%B8%AF-%E5%8C%97%E5%AD%90%E7%9F%B3%E5%A1%94.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/%E9%8E%96%E6%B8%AF-%E5%8C%97%E5%AD%90%E7%9F%B3%E5%A1%94.JPG/1920px-%E9%8E%96%E6%B8%AF-%E5%8C%97%E5%AD%90%E7%9F%B3%E5%A1%94.JPG",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%8E%96%E6%B8%AF%E5%AD%90%E5%8D%88%E5%A1%94%EF%BC%88%E5%8C%97%E5%A1%94%EF%BC%89%20(1).jpg?width=1400"
+    ],
     "accent": "#42b883",
     "description": "澎湖的冬天氣候惡劣，經常吹起狂風，因此居民常會設置避邪物，例如石敢當或者石塔，用來鎮風、制煞。鎖港南北邊各有一座石塔，北塔叫做子塔，南塔叫做午塔，正式名稱合稱子午寶塔，是澎湖最為壯觀的鎮風塔。澎湖的冬天氣候惡劣，經常吹起狂風，因此居民常會設置避邪物，例如石敢當或者石塔，用來鎮風、制煞。鎖港南北邊各有一座石塔，北塔叫做子塔，南塔叫做午塔，正式名稱合稱子午寶塔，…",
     "highlights": [
@@ -3962,6 +3992,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E9%8E%96%E6%B8%AF%E5%8D%97%E5%8C%97%E7%9F%B3%E5%A1%94%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：鎖港南北石塔",
+        "url": "https://zh.wikipedia.org/wiki/%E9%8E%96%E6%B8%AF%E5%8D%97%E5%8C%97%E7%9F%B3%E5%A1%94"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",

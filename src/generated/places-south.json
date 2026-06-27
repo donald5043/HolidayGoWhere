@@ -246,7 +246,7 @@
     "hours": "請至官方網站確認",
     "lat": 22.74117,
     "lng": 120.32486,
-    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=900&q=80",
+    "image": "",
     "imageCandidates": [],
     "accent": "#68b984",
     "description": "臺糖花卉農園中心位於橋頭區創新路，佔地15.19公頃，是一座由畜殖場轉型的花奔休閒農場，農園中心廣植花草樹木，依四季時序有不同的花木盛放，並有自然生態園區、原生植物園區、蓮花池及草坪區及綠色隧道，繽紛多彩、充滿綠意的庭園是民眾認識草木花卉與休閒遊憩的最佳地點。另外還設有遊憩體驗區，民眾可在此烤肉、焢土窯重憶童年歡樂往事，小型賽車、漆彈場則為青少年提供刺激拚博…",
@@ -391,7 +391,7 @@
     "hours": "請至官方網站確認",
     "lat": 22.68055,
     "lng": 120.3012,
-    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "image": "",
     "imageCandidates": [],
     "accent": "#ff8066",
     "description": "位於左營區的原生植物園，是全國第一座以原生植物為主題的公園，佔地4.66公頃的園區以最接近大自然的生態工法建造而成，結合了高低起伏地型和舊曹公圳原有水渠，打造出猶如大自然生態縮影的風貌。流水淙淙的水生植物區、熱帶植物區、季風雨林、珊瑚礁區…讓人身歷其境、印象深刻。目前園區有45科60多種臺灣原生植物，每一株植物都附有詳細解說，就像活生生的植物圖書館。更有兒童…",
@@ -465,7 +465,11 @@
     "lat": 23.17294,
     "lng": 120.17935,
     "image": "https://www.twtainan.net/image/100214/640x480",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/50/Soulangh_Cultural_Park_%282%29.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Soulangh_Cultural_Park_%282%29.JPG/1920px-Soulangh_Cultural_Park_%282%29.JPG",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Soulangh%20Cultural%20Park%20(2).JPG?width=1400"
+    ],
     "accent": "#ff8066",
     "description": "以老糖廠倉庫群改建的蕭壠文化園區，設有臺南藝陣館、西拉雅平埔文化館、蕭壠兒童圖書館等常設展館，也有各式藝術展場提供當期主題展覽，遼闊的園區仍保存早期糖廠留下的運糖軌道、小火車等設備，並特地保留昔日倉庫群的屋頂梁柱與外觀樣貌，帶點復古文藝的氛圍，成為當地人休閒散步的遊憩景點。",
     "highlights": [
@@ -509,6 +513,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E8%95%AD%E5%A3%A0%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：蕭壠文化園區",
+        "url": "https://zh.wikipedia.org/wiki/%E8%95%AD%E5%A3%A0%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -1997,6 +2006,7 @@
     "lng": 120.50414,
     "image": "https://static.wixstatic.com/media/b8c664_6b0e1616b3634de4b3f512db314e08b9~mv2.jpg",
     "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/69/%E5%B1%8F%E6%9D%B1%E7%B8%A3%E7%AB%8B%E5%9C%96%E6%9B%B8%E9%A4%A8%E7%B8%BD%E9%A4%A8.jpg",
       "https://static.wixstatic.com/media/b8c664_657b0d3ac5714639985a2598d6750023~mv2.jpeg/v1/fill/w_385,h_289,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/%E4%B8%83%E5%AD%94%E7%80%91%E5%B8%83%20(12).jpeg"
     ],
     "accent": "#ff8066",
@@ -2046,6 +2056,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E5%B1%8F%E6%9D%B1%E7%B8%A3%E7%AB%8B%E5%9C%96%E6%9B%B8%E9%A4%A8%E7%B8%BD%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：屏東縣立圖書館總館",
+        "url": "https://zh.wikipedia.org/wiki/%E5%B1%8F%E6%9D%B1%E7%B8%A3%E7%AB%8B%E5%9C%96%E6%9B%B8%E9%A4%A8%E7%B8%BD%E9%A4%A8"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -2951,6 +2966,9 @@
     "lng": 120.79586524766609,
     "image": "https://recreation.forest.gov.tw/Files/Forest/RA/photo/album/0600003/IMG_2804.JPG",
     "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a3/%E9%9B%99%E6%B5%81%E5%9C%8B%E5%AE%B6%E6%A3%AE%E6%9E%97%E9%81%8A%E6%A8%82%E5%8D%80%E6%8B%9B%E7%89%8C.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/%E9%9B%99%E6%B5%81%E5%9C%8B%E5%AE%B6%E6%A3%AE%E6%9E%97%E9%81%8A%E6%A8%82%E5%8D%80%E6%8B%9B%E7%89%8C.jpg/1920px-%E9%9B%99%E6%B5%81%E5%9C%8B%E5%AE%B6%E6%A3%AE%E6%9E%97%E9%81%8A%E6%A8%82%E5%8D%80%E6%8B%9B%E7%89%8C.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%9B%99%E6%B5%81%E5%9C%8B%E5%AE%B6%E6%A3%AE%E6%9E%97%E9%81%8A%E6%A8%82%E5%8D%80%E6%8B%9B%E7%89%8C.jpg?width=1400",
       "https://recreation.forest.gov.tw/Files/Forest/RA/photo/album/0600003/01_BASE_02.jpg",
       "https://recreation.forest.gov.tw/Files/Forest/RA/photo/album/0600003/03_%E6%BF%B1%E6%BA%AA%E6%99%AF%E8%A7%80.jpg",
       "https://recreation.forest.gov.tw/Files/Forest/RA/photo/album/0600003/06_%E6%A3%AE%E6%9E%97%E6%95%99%E5%AE%A4.JPG"
@@ -3011,6 +3029,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E9%9B%99%E6%B5%81%E5%9C%8B%E5%AE%B6%E6%A3%AE%E6%9E%97%E9%81%8A%E6%A8%82%E5%8D%80%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：雙流國家森林遊樂區",
+        "url": "https://zh.wikipedia.org/wiki/%E9%9B%99%E6%B5%81%E5%9C%8B%E5%AE%B6%E6%A3%AE%E6%9E%97%E9%81%8A%E6%A8%82%E5%8D%80"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -3534,7 +3557,7 @@
     "hours": "請至官方網站確認",
     "lat": 22.57749,
     "lng": 120.31548,
-    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "image": "",
     "imageCandidates": [],
     "accent": "#ff8066",
     "description": "除了有全台第一條自動化的花枝丸生產線，更設置了特色小吃區、澎湖味海鮮賣場、多媒體親子遊戲區、親子手作DIY教室以及產業知識區，除了享用美味鮮甜的花枝丸，還可以了解花枝丸完整製作過程及選用原料之堅持，另外還能學習到豐富的海洋教育知識，吃、喝、玩、樂，一應俱全。",
@@ -4011,7 +4034,10 @@
     "lat": 23.48169,
     "lng": 120.44781,
     "image": "https://travel.chiayi.gov.tw/FileDownload/TravelInformation/Big/20260323191122123214939.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/ef/Keelung_Tower_and_Ts%C3%BA-ph%C3%B3o-tu%C3%A2nn_20231108.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Keelung%20Tower%20and%20Ts%C3%BA-ph%C3%B3o-tu%C3%A2nn%2020231108.jpg?width=1400"
+    ],
     "accent": "#6a8dff",
     "description": "市中心最佳的戶外表演場所中正公園原為平埔洪雅族的諸羅山社公署所在地，清領時期闢為外教場，日治時代創建為公會堂，當時有全台灣最大可容納一千多人的餐廳。二戰後改為中山堂，並闢為康樂區，附設球場及圖書館，『康樂暮鼓』曾為嘉義八景之一，公園的面積雖不大，園內林立的名人雕像群為其特色，其中以素有嘉義媽祖婆之稱許故市長世賢雕像最為聞名。中正公園於民國78年（西元1989…",
     "highlights": [
@@ -4055,6 +4081,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E4%B8%AD%E6%AD%A3%E5%85%AC%E5%9C%92%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：中正公園 (基隆市)",
+        "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E6%AD%A3%E5%85%AC%E5%9C%92_(%E5%9F%BA%E9%9A%86%E5%B8%82)"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -4172,8 +4203,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.62702,
     "lng": 120.36395,
-    "image": "https://images.unsplash.com/photo-1561214115-f2f134cc4912?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Dadong_Wetlands_Park_NO2_ByZhen.jpg",
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Dadong_Wetlands_Park_NO2_ByZhen.jpg/1920px-Dadong_Wetlands_Park_NO2_ByZhen.jpg"
+    ],
     "accent": "#df7bb4",
     "description": "大東濕地公園（原名中正公園）創建於1981年，位於大東文化藝術中心對面，經過多年綠美化，園內林木蒼鬱，內有設施包括老人活動中心、休息涼亭、相臨的國父紀念館(已於101年10月左右拆除)、慈恩圖書館等，是休閒好地方。",
     "highlights": [
@@ -4206,6 +4239,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E5%A4%A7%E6%9D%B1%E6%BF%95%E5%9C%B0%E5%85%AC%E5%9C%92%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：大東濕地公園",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E6%9D%B1%E6%BF%95%E5%9C%B0%E5%85%AC%E5%9C%92"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -4553,7 +4591,7 @@
     "hours": "請至官方網站確認",
     "lat": 22.6255,
     "lng": 120.29798,
-    "image": "https://images.unsplash.com/photo-1561214115-f2f134cc4912?auto=format&fit=crop&w=900&q=80",
+    "image": "",
     "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "高雄文學館位居高雄市中心的中央公園內，緊鄰聞名遐邇的「城市光廊」。建築本身設立於1954年，原是作為戰後高雄的第一棟圖書館使用，1997年轉作第二總館。時至2003年，政府為推廣在地文學，才將之更名為全臺首座以城市命名的文學館，由作家葉石濤親筆題名館銜。正式啟動高雄文學的保存、典藏和推廣使命，並在2006年獲文建會核可為「地方文化館」。",
@@ -5006,6 +5044,9 @@
     "lng": 120.80199592702066,
     "image": "https://recreation.forest.gov.tw/Files/Forest/RA/photo/album/0500001/0500001202510230.jpg",
     "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/70/Alishan_National_Forest_Recreation_Area_main_entrance_20170317.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Alishan_National_Forest_Recreation_Area_main_entrance_20170317.jpg/1920px-Alishan_National_Forest_Recreation_Area_main_entrance_20170317.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Alishan%20National%20Forest%20Recreation%20Area%20main%20entrance%2020071201.jpg?width=1400",
       "https://recreation.forest.gov.tw/Files/Forest/RA/photo/album/0500001/03_%E9%98%BF%E9%87%8C%E5%B1%B1%E5%9C%8B%E5%AE%B6%E6%A3%AE%E6%9E%97%E9%81%8A%E6%A8%82%E5%8D%80.jpg",
       "https://recreation.forest.gov.tw/Files/Forest/RA/photo/album/0500001/06_BASE_02.jpg",
       "https://recreation.forest.gov.tw/Files/Forest/RA/photo/album/0500001/07_BASE_03.jpg"
@@ -5059,6 +5100,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E9%98%BF%E9%87%8C%E5%B1%B1%E5%9C%8B%E5%AE%B6%E6%A3%AE%E6%9E%97%E9%81%8A%E6%A8%82%E5%8D%80%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：阿里山國家森林遊樂區",
+        "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E9%87%8C%E5%B1%B1%E5%9C%8B%E5%AE%B6%E6%A3%AE%E6%9E%97%E9%81%8A%E6%A8%82%E5%8D%80"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -8459,7 +8505,9 @@
     "lat": 23.48731,
     "lng": 120.45231,
     "image": "https://travel.chiayi.gov.tw/FileDownload/TravelInformation/Big/20260323182120639279592.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/61/%E5%98%89%E7%BE%A9%E5%B8%82%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83.JPG"
+    ],
     "accent": "#6a8dff",
     "description": "嘉義巿文化推動源頭嘉義市政府文化局前身為市立文化中心，於八十二年二月二十七日正式開始啟用。位於西區的世賢圖書館是利用市地重劃基金興建，為文化中心西區分館。文化中心現有博物館、圖書館、音樂廳等三棟建物，加上美麗精緻的庭園、整個文化園區佔地五千多坪。博物館地下室為嘉義市交趾陶館，一至四樓設有各類展覽室。圖書館規劃有閱覽室、視聽室、書庫。音樂廳配置專用座椅，可容…",
     "highlights": [
@@ -8502,6 +8550,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E5%98%89%E7%BE%A9%E5%B8%82%E6%94%BF%E5%BA%9C%E6%96%87%E5%8C%96%E5%B1%80%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：嘉義市政府文化局",
+        "url": "https://zh.wikipedia.org/wiki/%E5%98%89%E7%BE%A9%E5%B8%82%E6%94%BF%E5%BA%9C%E6%96%87%E5%8C%96%E5%B1%80"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -8962,8 +9015,11 @@
     "hours": "請至官方網站確認",
     "lat": 22.65669,
     "lng": 120.28655,
-    "image": "https://images.unsplash.com/photo-1561214115-f2f134cc4912?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f0/%E9%AB%98%E9%9B%84%E5%B8%82%E7%AB%8B%E7%BE%8E%E8%A1%93%E9%A4%A820240704.jpg",
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/%E9%AB%98%E9%9B%84%E5%B8%82%E7%AB%8B%E7%BE%8E%E8%A1%93%E9%A4%A820240704.jpg/1920px-%E9%AB%98%E9%9B%84%E5%B8%82%E7%AB%8B%E7%BE%8E%E8%A1%93%E9%A4%A820240704.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Taiwan%20Kaohsiung%20Museum%20of%20Fine%20Arts.JPG?width=1400"
+    ],
     "accent": "#df7bb4",
     "description": "高雄市立美術館（以下簡稱高美館）成立於1994年，座落於高雄市都會西北位置之內惟埤文化園區內，為原「內惟埤」濕地之區域範圍。區域北端的龜山、半屏山，與西側南北向的壽山，匯聚了流經區內的愛河，共同形成區域周邊山水環抱的景觀。",
     "highlights": [
@@ -9016,6 +9072,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E9%AB%98%E9%9B%84%E5%B8%82%E7%AB%8B%E7%BE%8E%E8%A1%93%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：高雄市立美術館",
+        "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E7%AB%8B%E7%BE%8E%E8%A1%93%E9%A4%A8"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -11205,7 +11266,9 @@
     "lat": 23.47694,
     "lng": 120.44006,
     "image": "https://travel.chiayi.gov.tw/FileDownload/TravelInformation/Big/20260323182208290390576.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Strike%20Chimnery%20Theatre%2020171103.jpg?width=1400"
+    ],
     "accent": "#6a8dff",
     "description": "全國五大創意文化園區之一嘉義舊酒廠位於嘉義火車站旁，其因為是台灣最早生產高粱酒的酒廠，故嘉義有「白酒故鄉」的稱號。西元1916年日本人赤司初太郎在此創建大正製酒株式會社嘉義工場，到了大正11年（1922年）時因為實施專賣制度，工場被徵收，嘉義工場改隸屬專賣局臺南支局。臺灣光復，國民政府延續專賣制度，民國46年改稱為「臺灣省菸酒公賣局嘉義分局嘉義酒廠」。嘉義酒…",
     "highlights": [
@@ -11248,6 +11311,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E5%98%89%E7%BE%A9%E6%96%87%E5%8C%96%E5%89%B5%E6%84%8F%E7%94%A2%E6%A5%AD%E5%9C%92%E5%8D%80%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：嘉義文化創意產業園區",
+        "url": "https://zh.wikipedia.org/wiki/%E5%98%89%E7%BE%A9%E6%96%87%E5%8C%96%E5%89%B5%E6%84%8F%E7%94%A2%E6%A5%AD%E5%9C%92%E5%8D%80"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -13095,6 +13163,8 @@
     "lng": 120.50753,
     "image": "https://static.wixstatic.com/media/b8c664_626dfd1231564cdf9ee7698d78542f03~mv2.jpg",
     "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/19/%E9%82%B1%E5%A7%93%E6%B2%B3%E5%8D%97%E5%A0%82%E5%BF%A0%E5%AF%A6%E7%AC%AC%E8%BF%91%E6%99%AF.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/%E9%82%B1%E5%A7%93%E6%B2%B3%E5%8D%97%E5%A0%82%E5%BF%A0%E5%AF%A6%E7%AC%AC%E8%BF%91%E6%99%AF.jpg/1920px-%E9%82%B1%E5%A7%93%E6%B2%B3%E5%8D%97%E5%A0%82%E5%BF%A0%E5%AF%A6%E7%AC%AC%E8%BF%91%E6%99%AF.jpg",
       "https://www-ws.pthg.gov.tw/Upload/2015pthg/189/relpic/18185/39675/6f931c53-ae36-4e6a-9a37-fce8a285cbb6.jpg"
     ],
     "accent": "#ff8066",
@@ -13134,6 +13204,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E9%82%B1%E5%A7%93%E6%B2%B3%E5%8D%97%E5%A0%82%E5%BF%A0%E5%AF%A6%E7%AC%AC%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：邱姓河南堂忠實第",
+        "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E5%A7%93%E6%B2%B3%E5%8D%97%E5%A0%82%E5%BF%A0%E5%AF%A6%E7%AC%AC"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -13984,7 +14059,7 @@
     "hours": "請至官方網站確認",
     "lat": 22.66526,
     "lng": 120.32769,
-    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=900&q=80",
+    "image": "",
     "imageCandidates": [],
     "accent": "#68b984",
     "description": "金獅湖原名大埤，因後有獅山、鉤狀湖面狀似伏獅而得名，是愛河源頭的儲水埤塘之一，具有防洪調節水量的功能，雖是高雄較為少人知曉的景點，但金獅湖之景依舊值得一看，有優美的湖畔散步綠廊、豐富動植物生態、手作課程、還有香火鼎盛之道德院及保安宮，體力夠的遊客甚至可以順遊澄清湖及鳥松濕地。",
@@ -14347,7 +14422,7 @@
     "hours": "請至官方網站確認",
     "lat": 22.5495,
     "lng": 120.31776,
-    "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=900&q=80",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/K%C5%8Dm%C5%8Dk%C5%8D_%28Taiwan_H%C5%8Dzu%29.png",
     "imageCandidates": [],
     "accent": "#6a8dff",
     "description": "位於高雄港二港口入口處，總面積有3.42公頃，紅毛港聚落雖然因為遷村而走入歷史，但紅毛港人的生活和精神是園區裡永恆的記憶與傳承。紅毛港文化園區，是由高雄市政府文化局和紅毛港文化協會攜手合作，在園區內規劃「高字塔旋轉餐廳」、「觀海平台」、「展示館」、「戶外展示區」、「天空步道」、「碼頭與候船室」等六大區域。",
@@ -14391,6 +14466,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E7%B4%85%E6%AF%9B%E6%B8%AF%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：紅毛港 (高雄市)",
+        "url": "https://zh.wikipedia.org/wiki/%E7%B4%85%E6%AF%9B%E6%B8%AF_(%E9%AB%98%E9%9B%84%E5%B8%82)"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -15975,8 +16055,11 @@
     "hours": "請至官方網站確認",
     "lat": 22.623,
     "lng": 120.34244,
-    "image": "https://images.unsplash.com/photo-1561214115-f2f134cc4912?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/84/Wei-Wu-Ying_Center_for_the_Arts_01.jpg",
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Wei-Wu-Ying_Center_for_the_Arts_01.jpg/1920px-Wei-Wu-Ying_Center_for_the_Arts_01.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Wei-Wu-Ying%20Center%20for%20the%20Arts%2001.jpg?width=1400"
+    ],
     "accent": "#df7bb4",
     "description": "氣勢磅礡的衛武營國家藝術文化中心，是南台灣第一座國際級表演藝術場館，白色波浪外形猶如一艘太空船，造型既前衛又充滿科技感，頓時吸引眾人的目光，更是社群打卡的熱門景點。占地約有10公頃的場館內設有歌劇院、音樂廳、戲劇院、表演廳、餐廳等設施，戶外擁有廣闊的青青草地，且鄰近都會公園，成為踏青、野餐的好去處。",
     "highlights": [
@@ -16019,6 +16102,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E8%A1%9B%E6%AD%A6%E7%87%9F%E5%9C%8B%E5%AE%B6%E8%97%9D%E8%A1%93%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：衛武營國家藝術文化中心",
+        "url": "https://zh.wikipedia.org/wiki/%E8%A1%9B%E6%AD%A6%E7%87%9F%E5%9C%8B%E5%AE%B6%E8%97%9D%E8%A1%93%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -17225,7 +17313,11 @@
     "lat": 23.49356,
     "lng": 120.44456,
     "image": "https://travel.chiayi.gov.tw/FileDownload/TravelInformation/Big/20260323180946879230961.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/55/Chiayi_City_Forestry_Culture_Public_Park_%28Taiwan%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Chiayi_City_Forestry_Culture_Public_Park_%28Taiwan%29.jpg/1920px-Chiayi_City_Forestry_Culture_Public_Park_%28Taiwan%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Chiayi%20City%20Forestry%20Culture%20Public%20Park%20(Taiwan).jpg?width=1400"
+    ],
     "accent": "#42b883",
     "description": "嘉義市「北香湖公園」約有25.26公頃，僅次於嘉義公園，為嘉義市第二大公園，定位為林業文化主題公園。「北香湖公園」重現清代文獻記載的諸羅八景－「北香秋荷」，因此園內設有北香湖以及栽種兩千多株灌木、七萬多株喬木等各類植物，搭配周邊的博愛公園與埤子頭植物園，串聯成西區最大的公園綠地，成為嘉義都市之肺。公園內設有松風亭、櫻花林、埤子頭植物園以及草坡景觀區等，供遊客…",
     "highlights": [
@@ -17268,6 +17360,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E5%8C%97%E9%A6%99%E6%B9%96%E5%85%AC%E5%9C%92%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：北香湖公園",
+        "url": "https://zh.wikipedia.org/wiki/%E5%8C%97%E9%A6%99%E6%B9%96%E5%85%AC%E5%9C%92"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -19184,8 +19281,11 @@
     "hours": "請至官方網站確認",
     "lat": 22.58829,
     "lng": 120.28415,
-    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/%E6%97%97%E6%B4%A5%E9%A2%A8%E8%BB%8A%E5%85%AC%E5%9C%92.JPG",
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/%E6%97%97%E6%B4%A5%E9%A2%A8%E8%BB%8A%E5%85%AC%E5%9C%92.JPG/1920px-%E6%97%97%E6%B4%A5%E9%A2%A8%E8%BB%8A%E5%85%AC%E5%9C%92.JPG",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%97%97%E6%B4%A5%E9%A2%A8%E8%BB%8A%E5%85%AC%E5%9C%92.JPG?width=1400"
+    ],
     "accent": "#42b883",
     "description": "旗津風車公園它銜接旗津漁港的觀光步道，扮演過港隧道進入旗津門面的第一個海岸印象景點，旗津擁有豐沛的風力資源，七座造型獨特的三葉式風車面對遼闊的海面不停轉動，園區內有觀海看台及表演廣場，造型獨特又可愛的海洋生物拼貼創作，既生動又有趣，堪稱旗津最療癒的景點。",
     "highlights": [
@@ -19229,6 +19329,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E6%97%97%E6%B4%A5%E9%A2%A8%E8%BB%8A%E5%85%AC%E5%9C%92%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：旗津風車公園",
+        "url": "https://zh.wikipedia.org/wiki/%E6%97%97%E6%B4%A5%E9%A2%A8%E8%BB%8A%E5%85%AC%E5%9C%92"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -23443,7 +23548,11 @@
     "lat": 23.47681,
     "lng": 120.44069,
     "image": "https://travel.chiayi.gov.tw/FileDownload/TravelInformation/Big/20260318170534841879732.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/89/Chiayi_Art_Museum_20200916.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Chiayi_Art_Museum_20200916.jpg/1920px-Chiayi_Art_Museum_20200916.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Chiayi%20Art%20Museum.jpg?width=1400"
+    ],
     "accent": "#df7bb4",
     "description": "建築造型極具特色嘉義市立美術館(嘉美館)建築可分為古蹟棟及本館兩個區域，古蹟棟為日治時期菸酒公賣局嘉義分局之市定古蹟，臺灣菸酒專賣事業創始於明治33年(1900年)，設臺灣總督府專賣局，嘉義支局成立於大正13年(1924年)，本建築於昭和11年(1936年)興建，由時任臺灣總督府專賣局技師的梅澤捨次郎設計，嘉義支局管轄雲、嘉、南三縣市的菸酒專賣事業，對產業歷…",
     "highlights": [
@@ -23495,6 +23604,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E5%98%89%E7%BE%A9%E5%B8%82%E7%AB%8B%E7%BE%8E%E8%A1%93%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：嘉義市立美術館",
+        "url": "https://zh.wikipedia.org/wiki/%E5%98%89%E7%BE%A9%E5%B8%82%E7%AB%8B%E7%BE%8E%E8%A1%93%E9%A4%A8"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -25753,8 +25867,11 @@
     "hours": "請至官方網站確認",
     "lat": 22.62695,
     "lng": 120.2868,
-    "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/%E9%AB%98%E9%9B%84%E5%B8%82%E7%AB%8B%E6%AD%B7%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A4%A8.jpg",
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/%E9%AB%98%E9%9B%84%E5%B8%82%E7%AB%8B%E6%AD%B7%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A4%A8.jpg/1920px-%E9%AB%98%E9%9B%84%E5%B8%82%E7%AB%8B%E6%AD%B7%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A4%A8.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Kaohsiung%20Museum%20of%20History%20face%2020070106.jpg?width=1400"
+    ],
     "accent": "#6a8dff",
     "description": "高雄市立歷史博物館位於鹽埕區愛河畔的中正四路，原為高雄市政府所在地，1992年(民國81年)市政府搬遷後，鑒於五十多年來此地肩負著市政龍頭的角色、承載著城市發展的軌跡與市民生活的印記，也是228事件時的歷史現場，無論建築的外型與內涵都刻劃著高雄的光榮、傷痕與過去，因此市府將古蹟再造，改裝成歷史博物館，成為臺灣第一座由地方政府經營的歷史博物館。館內紀錄先民篳路…",
     "highlights": [
@@ -25797,6 +25914,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E9%AB%98%E9%9B%84%E5%B8%82%E7%AB%8B%E6%AD%B7%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：高雄市立歷史博物館",
+        "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E7%AB%8B%E6%AD%B7%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A4%A8"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -26062,8 +26184,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.64149,
     "lng": 120.32255,
-    "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Kaohsiung_National_Science_and_Technology_Museum_01.jpg",
+    "imageCandidates": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Kaohsiung%20National%20Science%20and%20Technology%20Museum%2001.jpg?width=1400"
+    ],
     "accent": "#6a8dff",
     "description": "高雄是一座重工業極其發達的城市，配合地方產業特色，台灣第一座以應用類科學為主題的博物館－國立科學工藝博物館，即設立於高雄市三民區，以蒐藏及研究科技文物、展示與科技相關主題、推動科技教育為其主要使命。科學工藝博物館占地廣闊，共分為南館與北館，戶外園區豎立了一座渾天儀，象徵了科學與知識的力量。",
     "highlights": [
@@ -26115,6 +26239,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E5%9C%8B%E7%AB%8B%E7%A7%91%E5%AD%B8%E5%B7%A5%E8%97%9D%E5%8D%9A%E7%89%A9%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：國立科學工藝博物館",
+        "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E7%AB%8B%E7%A7%91%E5%AD%B8%E5%B7%A5%E8%97%9D%E5%8D%9A%E7%89%A9%E9%A4%A8"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -26244,7 +26373,10 @@
     "lat": 23.05787,
     "lng": 120.23496,
     "image": "https://www.twtainan.net/image/12863/640x480",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/c4/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E6%AD%B7%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A4%A8.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E6%AD%B7%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A4%A8%2001.jpg?width=1400"
+    ],
     "accent": "#6a8dff",
     "description": "國立臺灣歷史博物館坐落在深具臺灣歷史意義的「台江內海」。從十七世紀以前，台江內海就吸引東、西方人陸續前來貿易，因歷史環境變遷逐漸淤塞成陸地，歷史博物館在此立基，能讓大家感受到滄海桑田的時空變遷感受歷史的生命力。",
     "highlights": [
@@ -26296,6 +26428,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E6%AD%B7%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：國立臺灣歷史博物館",
+        "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E6%AD%B7%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A4%A8"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -27058,7 +27195,11 @@
     "lat": 22.99107,
     "lng": 120.20503,
     "image": "https://www.twtainan.net/image/72400/640x480",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/69/Tainan_Art_Museum_Building_1.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Tainan_Art_Museum_Building_1.jpg/1920px-Tainan_Art_Museum_Building_1.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Building%201%20of%20Tainan%20Art%20Museum.jpg?width=1400"
+    ],
     "accent": "#df7bb4",
     "description": "由石昭永建築師及普立茲克建築獎得主坂茂建築設計事務所共同設計建造。主體建築原為1931年落成的臺南警察署，為臺南市定古蹟，當時是由臺南州技師梅澤捨次郎所設計，為折衷主義的裝飾藝術式樣(Art Déco)建築。館內新舊融合的空間中，以展示臺南在地藝術家作品，以及其他地區重要藝術家之作，並以美感教育為發展目標，提供多元藝術活動。",
     "highlights": [
@@ -27111,6 +27252,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E8%87%BA%E5%8D%97%E5%B8%82%E7%BE%8E%E8%A1%93%E9%A4%A8(%E5%8E%9F%E5%8F%B0%E5%8D%97%E5%B8%82%E8%AD%A6%E5%AF%9F%E5%B1%80%2F%E5%8E%9F%E6%97%A5%E6%B2%BB%E6%99%82%E5%8F%B0%E5%8D%97%E8%AD%A6%E5%AF%9F%E7%BD%B2)%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：臺南市美術館",
+        "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E5%8D%97%E5%B8%82%E7%BE%8E%E8%A1%93%E9%A4%A8"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -27601,7 +27747,7 @@
     "hours": "請至官方網站確認",
     "lat": 22.6217,
     "lng": 120.2755,
-    "image": "https://images.unsplash.com/photo-1561214115-f2f134cc4912?auto=format&fit=crop&w=900&q=80",
+    "image": "",
     "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "哈瑪星曾經的繁榮盛況，與日治時期的打狗驛息息相關，「哈瑪星」是從日文「濱線（はません）」發音而來，原本指日治時代高雄港站至碼頭貨物倉庫的支線，後來泛指高雄港站（今舊打狗驛故事館）以西至渡船頭一帶地區，是高雄現代化的起源地。",
@@ -28714,8 +28860,11 @@
     "hours": "請至官方網站確認",
     "lat": 22.75568,
     "lng": 120.31433,
-    "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Ciaotou_Sugar_Factory_20150130-1.jpg",
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Ciaotou_Sugar_Factory_20150130-1.jpg/1920px-Ciaotou_Sugar_Factory_20150130-1.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%A9%8B%E4%BB%94%E9%A0%AD%E7%B3%96%E5%BB%A0%20Taiwan%20Sugar%20Museum%20-%20panoramio.jpg?width=1400"
+    ],
     "accent": "#6a8dff",
     "description": "搭配高雄精選套票 輕鬆玩橋頭",
     "highlights": [
@@ -28768,6 +28917,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E6%A9%8B%E9%A0%AD%E7%B3%96%E5%BB%A0(%E5%8F%B0%E7%81%A3%E7%B3%96%E6%A5%AD%E5%8D%9A%E7%89%A9%E9%A4%A8)%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：橋頭糖廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%A9%8B%E9%A0%AD%E7%B3%96%E5%BB%A0"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -29466,8 +29620,11 @@
     "hours": "請至官方網站確認",
     "lat": 22.6242,
     "lng": 120.30185,
-    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Kaohsiung_Central_Park_01.jpg",
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Kaohsiung_Central_Park_01.jpg/1920px-Kaohsiung_Central_Park_01.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Central%20Park%2C%20Kaohsiung%2C%20Taiwan.jpg?width=1400"
+    ],
     "accent": "#42b883",
     "description": "中央公園佔地處高雄市區的精華地帶，緊鄰五福商圈，與新崛江、大統百貨、大立百貨、漢神百貨連成一片，綠意盎然的中央公園佔地廣達12.7公頃，規劃了人工湖、花園迷宮、水舞廣場等區域，是酒足飯飽後的休憩好去處，站在草地高處向南眺望，八五大樓、漢來大飯店等南高雄的摩天大樓盡收眼底。",
     "highlights": [
@@ -29511,6 +29668,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E4%B8%AD%E5%A4%AE%E5%85%AC%E5%9C%92%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：中央公園 (高雄市)",
+        "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%A4%AE%E5%85%AC%E5%9C%92_(%E9%AB%98%E9%9B%84%E5%B8%82)"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -32501,8 +32663,11 @@
     "hours": "請至官方網站確認",
     "lat": 22.65669,
     "lng": 120.28655,
-    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/93/%E9%AB%98%E9%9B%84%E5%B8%82%E7%BE%8E%E8%A1%93%E5%85%AC%E5%9C%92_-_panoramio.jpg",
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/%E9%AB%98%E9%9B%84%E5%B8%82%E7%BE%8E%E8%A1%93%E5%85%AC%E5%9C%92_-_panoramio.jpg/1920px-%E9%AB%98%E9%9B%84%E5%B8%82%E7%BE%8E%E8%A1%93%E5%85%AC%E5%9C%92_-_panoramio.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%AB%98%E9%9B%84%E5%B8%82%E7%BE%8E%E8%A1%93%E5%85%AC%E5%9C%92%20-%20panoramio.jpg?width=1400"
+    ],
     "accent": "#42b883",
     "description": "內惟埤原是高雄市最大的灌溉埤塘濕地，1990年代以市地重劃方式建構41公頃的美術園區，並參酌臺灣濕地保護聯盟與高雄鳥會的建議，保留舊有地名為「內惟埤文化園區」。",
     "highlights": [
@@ -32545,6 +32710,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E5%85%A7%E6%83%9F%E5%9F%A4%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：內惟埤",
+        "url": "https://zh.wikipedia.org/wiki/%E5%85%A7%E6%83%9F%E5%9F%A4"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -32809,8 +32979,11 @@
     "hours": "請至官方網站確認",
     "lat": 22.72056,
     "lng": 120.29345,
-    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Iu-tshiong_Forest_Park.jpg",
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Iu-tshiong_Forest_Park.jpg/1920px-Iu-tshiong_Forest_Park.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Iu-tshiong%20Forest%20Park.jpg?width=1400"
+    ],
     "accent": "#42b883",
     "description": "佔地17公頃的右昌森林公園坐落於楠梓區加昌里，由於其特殊的歷史緣由，公園除了廣植草木、開鑿河渠水道，最具特色的是開闢「搖控飛機」飛場及飛行解說中心，是高雄唯一具有飛行主題及紀念意義的運動休閒公園。教育解說中心採綠建築設計，有著彷彿飛行氣流般的曲線屋頂，強調自然通風與採光，降低能源使用量。",
     "highlights": [
@@ -32854,6 +33027,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E5%8F%B3%E6%98%8C%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9C%92%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：右昌森林公園",
+        "url": "https://zh.wikipedia.org/wiki/%E5%8F%B3%E6%98%8C%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9C%92"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -33057,7 +33235,7 @@
     "hours": "請至官方網站確認",
     "lat": 22.83586,
     "lng": 120.21152,
-    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=80",
+    "image": "",
     "imageCandidates": [],
     "accent": "#42b883",
     "description": "永安濕地的前身為烏樹林鹽場，開闢於1908年，曾是南台灣重要的製鹽基地，見證了台灣鹽業的興衰歷程。日治時期，這片鹽田蓬勃發展，1952年國民政府接手後，將其改組為「台灣製鹽總廠」，持續發展製鹽產業。然而，隨著1970年代產業轉型，鹽業逐漸沒落，1985年台電收購此地，計畫作為興達電廠的擴建用地，昔日繁榮的鹽田正式走入歷史。",
@@ -33697,7 +33875,7 @@
     "hours": "請至官方網站確認",
     "lat": 22.49176,
     "lng": 120.38572,
-    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=80",
+    "image": "",
     "imageCandidates": [],
     "accent": "#42b883",
     "description": "「哇！我們的公園有無敵海景，坐享一望無際的台灣海峽第一排！」林園海洋溼地公園是一座以濕地為主題的公園，雖然濕地佔地僅6.2公頃，為典型的袖珍型濕地，小而美的溼地與大海相連，不僅可一覽台灣海峽風景，還能遠眺小琉球。",
@@ -33933,8 +34111,11 @@
     "hours": "請至官方網站確認",
     "lat": 22.62305,
     "lng": 120.2989,
-    "image": "https://images.unsplash.com/photo-1561214115-f2f134cc4912?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Kaohsiung_Urban_Spotlight_view_2015.jpg",
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Kaohsiung_Urban_Spotlight_view_2015.jpg/1920px-Kaohsiung_Urban_Spotlight_view_2015.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Kaohsiung%20Urban%20Spotlight.jpg?width=1400"
+    ],
     "accent": "#df7bb4",
     "description": "2001年，位於都心的中央公園打造了全長18公尺、擁有2001位市民笑臉的林蔭走廊，並和九位在地藝術家合作規劃，以光為主題創作一系列作品，使裝置藝術與光影交錯，讓原本白日平凡、夜晚陰暗的人行道幻化為藝術夢想的舞台，大受遊客的喜愛。",
     "highlights": [
@@ -33977,6 +34158,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E5%9F%8E%E5%B8%82%E5%85%89%E5%BB%8A%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：城市光廊",
+        "url": "https://zh.wikipedia.org/wiki/%E5%9F%8E%E5%B8%82%E5%85%89%E5%BB%8A"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -34314,8 +34500,11 @@
     "hours": "請至官方網站確認",
     "lat": 22.6258,
     "lng": 120.31814,
-    "image": "https://images.unsplash.com/photo-1561214115-f2f134cc4912?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/%E9%AB%98%E9%9B%84%E5%B8%82%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83%E6%AD%A3%E9%96%80_20100130.jpg",
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/%E9%AB%98%E9%9B%84%E5%B8%82%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83%E6%AD%A3%E9%96%80_20100130.jpg/1920px-%E9%AB%98%E9%9B%84%E5%B8%82%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83%E6%AD%A3%E9%96%80_20100130.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%AB%98%E9%9B%84%E5%B8%82%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83%E6%AD%A3%E9%96%80%2020100130.jpg?width=1400"
+    ],
     "accent": "#df7bb4",
     "description": "高雄市文化中心成立於民國70年4月16日，戶外綠地面積廣達7.055 公頃，是高雄文化建設的象徵，位於其側的廣州一街也聚集許多畫廊，文化中心不僅提供高雄市民休閒遊憩的場所，更豐富了港都市民的藝術視野。提供至德堂、及至善廳等兩個演藝廳、7個展覽館及圖書館等藝文空間，環繞於文化中心周邊，充滿人文氣息的「市民藝術大道」則塑造出獨一無二的空間，人行道上的藝術座椅、鋼…",
     "highlights": [
@@ -34358,6 +34547,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E9%AB%98%E9%9B%84%E5%B8%82%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：高雄市文化中心",
+        "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -39840,7 +40034,7 @@
     "hours": "請至官方網站確認",
     "lat": 22.77096,
     "lng": 120.25311,
-    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=80",
+    "image": "",
     "imageCandidates": [],
     "accent": "#42b883",
     "description": "漯底山位於高雄市彌陀區，是高雄最靠近濱海的特殊惡地地型。尤於泥岩地質易受雨水沖刷，使得地表崎嶇險惡、草木難生，裸露的稜線與峽谷造成荒涼特殊的地質美景。",
@@ -71643,8 +71837,11 @@
     "hours": "請至官方網站確認",
     "lat": 22.7474,
     "lng": 120.44612,
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/%E4%BD%9B%E5%85%89%E5%B1%B1LOGO%EF%BC%88PNG%EF%BC%89.png",
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/%E4%BD%9B%E5%85%89%E5%B1%B1LOGO%EF%BC%88PNG%EF%BC%89.png/1920px-%E4%BD%9B%E5%85%89%E5%B1%B1LOGO%EF%BC%88PNG%EF%BC%89.png",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Fo%20Guang%20Shan%20Buddha%20Museum%20%E4%BD%9B%E5%85%89%E5%B1%B1%E4%BD%9B%E9%99%80%E7%B4%80%E5%BF%B5%E9%A4%A8%20.jpg?width=1400"
+    ],
     "accent": "#64a7a2",
     "description": "佛光山寺位於大樹區北端，由星雲法師於民國56年帶領弟子披荊斬棘一磚一瓦所建，佔地五十餘公頃，與2011年新建的佛陀紀念館綿延於高屏溪右岸，大大小小的佛殿依山勢羅列，莊嚴雄渾、氣勢宏偉，是臺灣重要的佛教勝地。",
     "highlights": [
@@ -71687,6 +71884,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E4%BD%9B%E5%85%89%E5%B1%B1%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：佛光山",
+        "url": "https://zh.wikipedia.org/wiki/%E4%BD%9B%E5%85%89%E5%B1%B1"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -71955,7 +72157,11 @@
     "lat": 22.93482,
     "lng": 120.22619,
     "image": "https://www.twtainan.net/image/17368/640x480",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/64/20250718%E5%A5%87%E7%BE%8E%E5%8D%9A%E7%89%A9%E9%A4%A8.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/20250718%E5%A5%87%E7%BE%8E%E5%8D%9A%E7%89%A9%E9%A4%A8.jpg/1920px-20250718%E5%A5%87%E7%BE%8E%E5%8D%9A%E7%89%A9%E9%A4%A8.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Chimei%20museum1.jpg?width=1400"
+    ],
     "accent": "#6a8dff",
     "description": "當看到這樣的景象，會以為這是歐洲某處宮殿的景致吧，走過陽光下映著彩虹的阿波羅噴泉，穿過護城河上的橋墩，勇猛優雅的白色獅頭一字排開，橋面上莊嚴的奧林帕斯眾神也整齊陳列，走過橋面，博物館正面入口採高聳的圓頂造型及各面不同的希臘列柱設計，這樣的氣勢更能襯托出典藏寶物宮殿的華麗，安置於博物館建築物最高點的「榮耀天使」雕塑，是臨摹法國雕塑家路易‧巴里亞斯(Louis-…",
     "highlights": [
@@ -72007,6 +72213,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E5%A5%87%E7%BE%8E%E5%8D%9A%E7%89%A9%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：奇美博物館",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A5%87%E7%BE%8E%E5%8D%9A%E7%89%A9%E9%A4%A8"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -73256,8 +73467,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.7827,
     "lng": 120.29844,
-    "image": "https://images.unsplash.com/photo-1561214115-f2f134cc4912?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/%E9%AB%98%E9%9B%84%E5%B8%82%E7%9A%AE%E5%BD%B1%E6%88%B2%E9%A4%A8_%28cropped%29.jpg",
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/%E9%AB%98%E9%9B%84%E5%B8%82%E7%9A%AE%E5%BD%B1%E6%88%B2%E9%A4%A8_%28cropped%29.jpg/1920px-%E9%AB%98%E9%9B%84%E5%B8%82%E7%9A%AE%E5%BD%B1%E6%88%B2%E9%A4%A8_%28cropped%29.jpg"
+    ],
     "accent": "#df7bb4",
     "description": "三百多年前，皮影戲自大陸潮州傳入，高雄成為臺灣皮影戲的重要根據地與保存地點。為維持與發揚珍貴的傳統藝術，2013年內外翻修的皮影戲館以嶄新風貌於岡山開幕。皮影戲館的外觀為獨特的皮革編織風格，純白的線條交錯，日夜各有不同的光影風情，瑰麗的馬賽克皮影壁畫也讓遊客印象深刻。內部則分為「傳習教室」、「展示區」、「資料室」、「劇場」、「數位皮影劇院」、「體驗區」六大主…",
     "highlights": [
@@ -73300,6 +73513,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E9%AB%98%E9%9B%84%E5%B8%82%E7%9A%AE%E5%BD%B1%E6%88%B2%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：高雄市皮影戲館",
+        "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E7%9A%AE%E5%BD%B1%E6%88%B2%E9%A4%A8"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -75345,8 +75563,11 @@
     "hours": "請至官方網站確認",
     "lat": 22.58259,
     "lng": 120.32933,
-    "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/SKM_Park_Outlets_%E9%AB%98%E9%9B%84%E8%8D%89%E8%A1%99_20220812.jpg",
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/SKM_Park_Outlets_%E9%AB%98%E9%9B%84%E8%8D%89%E8%A1%99_20220812.jpg/1920px-SKM_Park_Outlets_%E9%AB%98%E9%9B%84%E8%8D%89%E8%A1%99_20220812.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%A4%A7%E9%AD%AF%E9%96%A3%E8%8D%89%E8%A1%99%E9%81%93.jpg?width=1400"
+    ],
     "accent": "#7e8bd6",
     "description": "由新光三越打造國際級複合式Outlets，占地達8萬7千平方米，約有220家店鋪進駐，打造四大生活享受：Outlet購物、生活體驗、餐飲美食、休憩娛樂...等，提供全客層一站式購物體驗，多元大型態專賣店，帶給顧客度假般的心動感受！",
     "highlights": [
@@ -75389,6 +75610,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=SKM%20Park%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：SKM Park Outlets 高雄草衙",
+        "url": "https://zh.wikipedia.org/wiki/SKM_Park_Outlets_%E9%AB%98%E9%9B%84%E8%8D%89%E8%A1%99"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -92573,8 +92799,11 @@
     "hours": "請至官方網站確認",
     "lat": 22.62551,
     "lng": 120.28763,
-    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/%E9%AB%98%E9%9B%84%E5%B8%82%E4%BA%8C%E4%BA%8C%E5%85%AB%E5%92%8C%E5%B9%B3%E7%B4%80%E5%BF%B5%E7%A2%91_20160707.jpg",
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/%E9%AB%98%E9%9B%84%E5%B8%82%E4%BA%8C%E4%BA%8C%E5%85%AB%E5%92%8C%E5%B9%B3%E7%B4%80%E5%BF%B5%E7%A2%91_20160707.jpg/1920px-%E9%AB%98%E9%9B%84%E5%B8%82%E4%BA%8C%E4%BA%8C%E5%85%AB%E5%92%8C%E5%B9%B3%E7%B4%80%E5%BF%B5%E7%A2%91_20160707.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%AB%98%E9%9B%84%E5%B8%82%E4%BA%8C%E4%BA%8C%E5%85%AB%E5%92%8C%E5%B9%B3%E7%B4%80%E5%BF%B5%E7%A2%91%2020160707.jpg?width=1400"
+    ],
     "accent": "#42b883",
     "description": "228和平紀念碑原設在壽山公園，因為基地狹小且碑文記述未詳，在近年相關資料相繼出現詳實後，二二八家屬屢次建議政府另立新石碑平撫心靈傷痛並警惕世人。2006年終於在中正四路愛河西畔的228和平公園內，以現代化地景式設建建立新紀念碑，碑體以適合人體工學的角度和高度，具體刻載事件的始末，168名可考的受難者姓名紀念牆以青翠矮樹襯托，引導人們進入紀念活動廣場，整體高…",
     "highlights": [
@@ -92617,6 +92846,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E9%AB%98%E9%9B%84%E5%B8%82%E4%BA%8C%E4%BA%8C%E5%85%AB%E5%92%8C%E5%B9%B3%E5%85%AC%E5%9C%92%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：高雄市二二八和平公園",
+        "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E4%BA%8C%E4%BA%8C%E5%85%AB%E5%92%8C%E5%B9%B3%E5%85%AC%E5%9C%92"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -93915,8 +94149,11 @@
     "hours": "請至官方網站確認",
     "lat": 22.6546,
     "lng": 120.35905,
-    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f6/%E6%BE%84%E6%B8%85%E6%B9%96%E6%A3%92%E7%90%83%E5%A0%B4%E5%85%A7%E9%87%8E%E5%85%A5%E5%8F%A3%E5%81%B4_20120908.jpg",
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/%E6%BE%84%E6%B8%85%E6%B9%96%E6%A3%92%E7%90%83%E5%A0%B4%E5%85%A7%E9%87%8E%E5%85%A5%E5%8F%A3%E5%81%B4_20120908.jpg/1920px-%E6%BE%84%E6%B8%85%E6%B9%96%E6%A3%92%E7%90%83%E5%A0%B4%E5%85%A7%E9%87%8E%E5%85%A5%E5%8F%A3%E5%81%B4_20120908.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%BE%84%E6%B8%85%E6%B9%96%E6%A3%92%E7%90%83%E5%A0%B4%E5%85%A7%E9%87%8E%E5%85%A5%E5%8F%A3%E5%81%B4%2020110317.jpg?width=1400"
+    ],
     "accent": "#42b883",
     "description": "澄清湖棒球場位於風光明媚的澄清湖畔，是全臺灣設備最先進，規模最大的棒球場，2001年第34屆世界盃棒球錦標賽預賽台美之戰，場內湧進25000名觀眾，寫下我國棒球場史上單場比賽進場觀眾人數最多紀錄，也是職棒在南部重要的賽事場地。澄清湖棒球場符合國際標準的場地與相關設施，在完善體貼的人性化空間中，共享棒球迷人的魅力。欣賞激情的比賽之後，順道瀏覽澄清湖的湖光山色，…",
     "highlights": [
@@ -93959,6 +94196,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E6%BE%84%E6%B8%85%E6%B9%96%E6%A3%92%E7%90%83%E5%A0%B4%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：澄清湖棒球場",
+        "url": "https://zh.wikipedia.org/wiki/%E6%BE%84%E6%B8%85%E6%B9%96%E6%A3%92%E7%90%83%E5%A0%B4"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",

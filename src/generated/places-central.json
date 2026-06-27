@@ -18,7 +18,11 @@
     "lat": 24.44127,
     "lng": 120.7413,
     "image": "https://www.miaolitravel.net/pic.ashx?qp=pic/12004343.jpg&sizetype=2",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fa/Cow_Statues_in_Flying_Cow_Ranch.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Cow_Statues_in_Flying_Cow_Ranch.JPG/1920px-Cow_Statues_in_Flying_Cow_Ranch.JPG",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Cow%20Statues%20in%20Flying%20Cow%20Ranch.JPG?width=1400"
+    ],
     "accent": "#f2a65a",
     "description": "飛牛牧場位於苗栗縣通霄鎮，東倚火炎山脈，西面臺灣海峽，蘊藏豐富的自然資源，擁有著多樣的生態相。一望無際的丘陵裡，牛隻、羊群漫步草原間，白牆紅瓦的農舍，座落在青青草地上，構畫出迷人的牧野風情。 飛牛牧場經營面積120公頃，有乳牛牧場區、牧場生態區、牧草培育區、有機蔬果區及森林保育區；內有飼養乳牛500頭，每日生乳產量約6公噸及巴貝多黑肚綿羊150頭、黑山羊、迷…",
     "highlights": [
@@ -75,6 +79,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E9%A3%9B%E7%89%9B%E7%89%A7%E5%A0%B4%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：飛牛牧場",
+        "url": "https://zh.wikipedia.org/wiki/%E9%A3%9B%E7%89%9B%E7%89%A7%E5%A0%B4"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -1117,8 +1126,7 @@
     "image": "https://tourism.chcg.gov.tw/upload/27/2019060611185516030.jpg",
     "imageCandidates": [
       "https://tourism.chcg.gov.tw/upload/27/2019013116063621442.jpg",
-      "https://tourism.chcg.gov.tw/upload/27/2019013116071420101.jpg",
-      "https://tourism.chcg.gov.tw/upload/27/2021111111134446045.jpg"
+      "https://tourism.chcg.gov.tw/upload/27/2019013116071420101.jpg"
     ],
     "accent": "#ff8066",
     "description": "卷木森活館，就在彰濱工業區內，距離台灣玻璃館、白蘭氏健康博物館、緞帶王觀光工廠，只要3分鐘的車程，是鹿港旅遊的新景點。 卷木生活館裡，大朋友與小朋友，可以挑戰卷木皮，拼板DIY。親自動手作恐龍、小車車、小筆筒，過程精采有趣，笑聲連連，是爸爸媽媽遛小孩的好地方！館裡有個神奇的魔法森林、匠人工坊，裡頭有小精靈、樹仙公公、梅花鹿老師，等著你拍照玩遊戲，體驗學知識破…",
@@ -2030,7 +2038,10 @@
     "lat": 24.42892,
     "lng": 120.8681,
     "image": "https://www.miaolitravel.net/pic.ashx?qp=pic/12004246.jpg&sizetype=2",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fe/%E5%A4%A7%E6%B9%96%E8%8D%89%E8%8E%93%E6%96%87%E5%8C%96%E9%A4%A8_Dahu_Strawberry_Cultural_Center.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/%E5%A4%A7%E6%B9%96%E8%8D%89%E8%8E%93%E6%96%87%E5%8C%96%E9%A4%A8_Dahu_Strawberry_Cultural_Center.jpg/1920px-%E5%A4%A7%E6%B9%96%E8%8D%89%E8%8E%93%E6%96%87%E5%8C%96%E9%A4%A8_Dahu_Strawberry_Cultural_Center.jpg"
+    ],
     "accent": "#68b984",
     "description": "提到大湖，最先讓人聯想到的就是草莓，那紅艷的色澤，與它甜甜的口感，帶來了甜蜜滋味，也讓品嚐者洋溢著甜蜜的幸福感。 草莓是大湖主要的經濟作物，每年的11月至隔年4月，是草莓盛產季節，這段草莓的黃金期，總是吸引了無數的遊客來此體驗採草莓的樂趣，也因為如此，而使大湖鄉創造出許多草莓的周邊產品，草莓文化館也因此誕生。 館內一樓是展售區，販賣著各種草莓紀念品及農產品，…",
     "highlights": [
@@ -2082,6 +2093,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E5%A4%A7%E6%B9%96%E8%8D%89%E8%8E%93%E6%96%87%E5%8C%96%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：草莓文化館",
+        "url": "https://zh.wikipedia.org/wiki/%E8%8D%89%E8%8E%93%E6%96%87%E5%8C%96%E9%A4%A8"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -2692,7 +2708,11 @@
     "lat": 24.46239,
     "lng": 120.7712,
     "image": "https://www.miaolitravel.net/pic.ashx?qp=pic/12004463.jpg&sizetype=2",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/b5/Miaoli_Park%2C_Hakka_Affairs_Council%2C_Executive_Yuan_%28Taiwan%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Miaoli_Park%2C_Hakka_Affairs_Council%2C_Executive_Yuan_%28Taiwan%29.jpg/1920px-Miaoli_Park%2C_Hakka_Affairs_Council%2C_Executive_Yuan_%28Taiwan%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Miaoli%20Park%2C%20Hakka%20Affairs%20Council%2C%20Executive%20Yuan%20(Taiwan).jpg?width=1400"
+    ],
     "accent": "#ff8066",
     "description": "園區依基地所在的丘陵起伏地形設計，規劃有戶外空間、主展館區及附屬設施，以廣場及環繞基地四周的步道動線將區域作和緩的連結，同時將建築物視為整體景觀的一部分，園區等相關設施被水與綠景紋路所構成的人工山丘所包覆，創造出梯田景觀的意象。 主展館區為園區主要空間，從園區入口空橋可通往2樓常設展區，透過展示手法紀錄臺灣客家移民動人的故事、1樓有多媒體互動展示區；四周的特…",
     "highlights": [
@@ -2750,6 +2770,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E8%87%BA%E7%81%A3%E5%AE%A2%E5%AE%B6%E6%96%87%E5%8C%96%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：臺灣客家文化館",
+        "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E5%AE%A2%E5%AE%B6%E6%96%87%E5%8C%96%E9%A4%A8"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -2883,7 +2908,11 @@
     "lat": 23.61598,
     "lng": 120.57945,
     "image": "https://k241.noon360.com/public/upload/StoreCover/220502065639268480PQDEX.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/9d/Diving_Machine_G5_2.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Diving_Machine_G5_2.jpg/1920px-Diving_Machine_G5_2.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Janfusun%20Fancyworld%20ferris%20wheel.jpg?width=1400"
+    ],
     "accent": "#ff8066",
     "description": "位於雲林縣古坑鄉的劍湖山世界，為中南地區最具規模的遊樂據點，園區內可分為三大區域，摩天樂園、兒童玩國及小威の海盜村，綜合刺激性遊樂設施、腹地廣大的綠蔭面積、全新體驗設施─VR Dino飛越恐龍谷及結合當地咖啡產業文化的環境教育園區，綜合「休閒、遊樂、文化及科技」四大功能。夏日限定的小威の海盜村，更是深受親子族群及年輕人喜愛，擁有全台唯一三套水上設施，刺激消暑…",
     "highlights": [
@@ -2935,6 +2964,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E5%8A%8D%E6%B9%96%E5%B1%B1%E4%B8%96%E7%95%8C%E4%B8%BB%E9%A1%8C%E6%A8%82%E5%9C%92%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：劍湖山世界",
+        "url": "https://zh.wikipedia.org/wiki/%E5%8A%8D%E6%B9%96%E5%B1%B1%E4%B8%96%E7%95%8C"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -5270,7 +5304,11 @@
     "lat": 24.38964,
     "lng": 120.7617,
     "image": "https://www.miaolitravel.net/pic.ashx?qp=pic/14001592.jpg&sizetype=2",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/0a/West_Lake_Resortopia_and_West_Lake_Resort_Hotel_entrance_sign_20100102.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/West_Lake_Resortopia_and_West_Lake_Resort_Hotel_entrance_sign_20100102.jpg/1920px-West_Lake_Resortopia_and_West_Lake_Resort_Hotel_entrance_sign_20100102.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/West%20Lake%20Resortopia%20and%20West%20Lake%20Resort%20Hotel%20entrance%20sign%2020100102.jpg?width=1400"
+    ],
     "accent": "#ff8066",
     "description": "強調浪漫歐風與自然休閒的西湖渡假村，擁有豐富的天然資源，占地約60公頃的偌大園區，園內有展售地方特色伴手禮的維多利亞館、凡爾賽花園、香草咖啡館、18洞迷你高爾夫、森林烤肉區、登山步道、名人表演廣場、叢林生態教室、靈山洞祈福隧道、原野樂園、觀湖樓、湖畔咖啡等。在經營團隊持續的投注心血與努力，更將西湖渡假村打造為一處連續十八年榮獲交通部觀光局評鑑為「特優等遊樂區…",
     "highlights": [
@@ -5327,6 +5365,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E8%A5%BF%E6%B9%96%E6%B8%A1%E5%81%87%E6%9D%91%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：西湖渡假村",
+        "url": "https://zh.wikipedia.org/wiki/%E8%A5%BF%E6%B9%96%E6%B8%A1%E5%81%87%E6%9D%91"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -8399,6 +8442,9 @@
     "lng": 121.30697874767868,
     "image": "https://recreation.forest.gov.tw/Files/Forest/RA/photo/album/0300001/0300001202309200.jpg",
     "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/ae/%E6%AD%A6%E9%99%B5%E5%9C%8B%E5%AE%B6%E6%A3%AE%E6%9E%97%E9%81%8A%E6%A8%82%E5%8D%80_Wuling_National_Forest_Recreation_Area_-_panoramio.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/%E6%AD%A6%E9%99%B5%E5%9C%8B%E5%AE%B6%E6%A3%AE%E6%9E%97%E9%81%8A%E6%A8%82%E5%8D%80_Wuling_National_Forest_Recreation_Area_-_panoramio.jpg/1920px-%E6%AD%A6%E9%99%B5%E5%9C%8B%E5%AE%B6%E6%A3%AE%E6%9E%97%E9%81%8A%E6%A8%82%E5%8D%80_Wuling_National_Forest_Recreation_Area_-_panoramio.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%AD%A6%E9%99%B5%E5%9C%8B%E5%AE%B6%E6%A3%AE%E6%9E%97%E9%81%8A%E6%A8%82%E5%8D%80%20Wuling%20National%20Forest%20Recreation%20Area%20-%20panoramio.jpg?width=1400",
       "https://recreation.forest.gov.tw/Files/Forest/RA/photo/album/0300001/01_%E6%AD%A6%E9%99%B5_%E4%B8%83%E5%AE%B6%E7%81%A3%E6%BA%AA%E7%A7%8B%E6%99%AF.jpg",
       "https://recreation.forest.gov.tw/Files/Forest/RA/photo/album/0300001/02_%E6%AD%A6%E9%99%B5%E5%9C%8B%E5%AE%B6%E6%A3%AE%E6%9E%97%E9%81%8A%E6%A8%82%E5%8D%80.jpg",
       "https://recreation.forest.gov.tw/Files/Forest/RA/photo/album/0300001/05_%E6%AD%A6%E9%99%B5%E9%81%8A%E6%A8%82%E5%8D%80-%E6%A1%83%E5%B1%B1%E6%AD%A5%E9%81%93-%E9%83%AD%E8%82%B2%E4%BB%BB%E6%94%9D.JPG"
@@ -8450,6 +8496,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E6%AD%A6%E9%99%B5%E5%9C%8B%E5%AE%B6%E6%A3%AE%E6%9E%97%E9%81%8A%E6%A8%82%E5%8D%80%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：武陵國家森林遊樂區",
+        "url": "https://zh.wikipedia.org/wiki/%E6%AD%A6%E9%99%B5%E5%9C%8B%E5%AE%B6%E6%A3%AE%E6%9E%97%E9%81%8A%E6%A8%82%E5%8D%80"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -10119,7 +10170,10 @@
     "lat": 23.86532,
     "lng": 120.94818,
     "image": "https://travel.nantou.gov.tw/wp-content/uploads/2021/07/006-入選97-李振源-九族文化村-夜櫻之美_調整大小_travel.nantou.gov_.tw_.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/12/%E6%AB%BB%E8%8A%B1%E7%9B%9B%E9%96%8B%E5%9C%A8%E8%87%BA%E7%81%A3%E5%8D%97%E6%8A%95%E4%B9%9D%E6%97%8F%E6%96%87%E5%8C%96%E6%9D%91_Cherry_blossom_-_Sakura_in_Formosa_Aboriginal_Culture_Village%2C_Nantou%2C_TAIWAN.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Culture%20Square%20of%20Formosan%20Aboriginal%20Culture%20Village%2001%2020260210.jpg?width=1400"
+    ],
     "accent": "#ff8066",
     "description": "全台海拔最高遊樂園「九族文化村」位於南投魚池鄉，空中纜車與日月潭緊緊相連，能一覽絕美的山色湖景，還能將台灣原住民特色與文化一次看個夠。而遊樂設施必搭全台最高自由落體「UFO」，和懸吊式雲霄飛車「馬雅探險」，讓喜歡驚險刺激的你驚叫連連。 除此之外，還有全台最大的歐式花園，十分搶眼吸睛的羅馬噴泉、哥德式鐘樓與巴洛克建築，都讓快門捨不得停下。每逢一月還有全台最大的…",
     "highlights": [
@@ -10176,6 +10230,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E4%B9%9D%E6%97%8F%E6%96%87%E5%8C%96%E6%9D%91%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：九族文化村",
+        "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%97%8F%E6%96%87%E5%8C%96%E6%9D%91"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -10608,6 +10667,9 @@
     "lng": 121.16951663830639,
     "image": "https://recreation.forest.gov.tw/Files/Forest/RA/photo/album/0400001/01_%E5%A5%A7%E8%90%AC%E5%A4%A7%E5%90%8A%E6%A9%8B.%E8%83%BD%E9%AB%98%E5%8D%97%E5%B3%B0.%E6%A5%93%E9%A6%99.jpg",
     "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/13/20251011_Entrance_to_Aowanda_NFRA.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/20251011_Entrance_to_Aowanda_NFRA.jpg/1920px-20251011_Entrance_to_Aowanda_NFRA.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%A5%A7%E8%90%AC%E5%A4%A7%E5%A4%A9%E6%A2%AF.jpg?width=1400",
       "https://recreation.forest.gov.tw/Files/Forest/RA/photo/album/0400001/02_%E5%A5%A7%E8%90%AC%E5%A4%A7%E8%B3%9E%E6%A5%93%E5%B9%B3%E5%8F%B0%E6%A5%93%E9%A6%99-2.jpg",
       "https://recreation.forest.gov.tw/Files/Forest/RA/photo/album/0400001/03_%E5%A5%A7%E8%90%AC%E5%A4%A7%E8%90%BD%E7%BE%BD%E6%9D%BE.%E9%9D%92%E6%A5%93-1.jpg",
       "https://recreation.forest.gov.tw/Files/Forest/RA/photo/album/0400001/04_%E5%A5%A7%E8%90%AC%E5%A4%A7-%E5%B1%B1%E6%AB%BB%E8%8A%B1.jpg"
@@ -10659,6 +10721,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E5%A5%A7%E8%90%AC%E5%A4%A7%E5%9C%8B%E5%AE%B6%E6%A3%AE%E6%9E%97%E9%81%8A%E6%A8%82%E5%8D%80%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：奧萬大國家森林遊樂區",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A5%A7%E8%90%AC%E5%A4%A7%E5%9C%8B%E5%AE%B6%E6%A3%AE%E6%9E%97%E9%81%8A%E6%A8%82%E5%8D%80"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -12068,6 +12135,9 @@
     "lng": 121.00389817448416,
     "image": "https://recreation.forest.gov.tw/Files/Forest/RA/photo/album/0300002/20140120-P1204043.jpg",
     "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/20/%E5%85%AB%E4%BB%99%E5%B1%B1%E9%81%8A%E5%AE%A2%E4%B8%AD%E5%BF%83_Baxianshan_Visitor_Center_-_panoramio.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/%E5%85%AB%E4%BB%99%E5%B1%B1%E9%81%8A%E5%AE%A2%E4%B8%AD%E5%BF%83_Baxianshan_Visitor_Center_-_panoramio.jpg/1920px-%E5%85%AB%E4%BB%99%E5%B1%B1%E9%81%8A%E5%AE%A2%E4%B8%AD%E5%BF%83_Baxianshan_Visitor_Center_-_panoramio.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Basianshan%20National%20Forest%20Recreation%20Area.jpg?width=1400",
       "https://recreation.forest.gov.tw/Files/Forest/RA/photo/album/0300002/02_BASE_02.jpg",
       "https://recreation.forest.gov.tw/Files/Forest/RA/photo/album/0300002/03_%E5%85%AB%E4%BB%99%E5%B1%B1.JPG",
       "https://recreation.forest.gov.tw/Files/Forest/RA/photo/album/0300002/01_%E5%85%AB%E4%BB%99%E5%B1%B1-%E5%8D%81%E6%96%87%E6%BA%AA3.jpg"
@@ -12119,6 +12189,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E5%85%AB%E4%BB%99%E5%B1%B1%E5%9C%8B%E5%AE%B6%E6%A3%AE%E6%9E%97%E9%81%8A%E6%A8%82%E5%8D%80%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：八仙山國家森林遊樂區",
+        "url": "https://zh.wikipedia.org/wiki/%E5%85%AB%E4%BB%99%E5%B1%B1%E5%9C%8B%E5%AE%B6%E6%A3%AE%E6%9E%97%E9%81%8A%E6%A8%82%E5%8D%80"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -14510,7 +14585,10 @@
     "lat": 24.14119,
     "lng": 120.66263,
     "image": "https://travel.taichung.gov.tw/content/images/attractions/61386/640x480_attractions-image-jdspu3o61uoafarx87xjva.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/8e/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E7%BE%8E%E8%A1%93%E9%A4%A8%E6%99%AF2.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/NTMoFA-1.jpg?width=1400"
+    ],
     "accent": "#6a8dff",
     "description": "國立台灣美術館隸屬文化部，是台灣唯一的國家級美術館，也是目前亞洲最大的美術館之一，地處於臺中市中心點，交通便利，館佔地約三公頃，於1988年開館使用。國立台灣美術館周邊景點有國立自然科學博物館、美術園道商圈、草悟道等知名景點，特殊的藝術氛圍帶動附近的藝文與商業活動，形成充滿文藝氣息的生活圈與觀光遊憩區。",
     "highlights": [
@@ -14562,6 +14640,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E5%9C%8B%E7%AB%8B%E5%8F%B0%E7%81%A3%E7%BE%8E%E8%A1%93%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：國立臺灣美術館",
+        "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E7%BE%8E%E8%A1%93%E9%A4%A8"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -17153,7 +17236,11 @@
     "lat": 23.85208,
     "lng": 120.93486,
     "image": "https://www.sunmoonlake.gov.tw/fapi/Image?type=Attraction&id=246&refid=58&l=1&w=0&h=0",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/68/Sun_Moon_Lake_Ropeway_03.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sun_Moon_Lake_Ropeway_03.jpg/1920px-Sun_Moon_Lake_Ropeway_03.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Sun%20Moon%20Lake%20Ropeway%2003.jpg?width=1400"
+    ],
     "accent": "#42b883",
     "description": "日月潭纜車站位於南投魚池鄉，是台灣第一座以BOO模式（民間自行規劃、興建及營運）打造的公共纜車系統的起點站，於2009年12月28日正式營運。纜車路線全長約1.877公里，連結日月潭東南湖畔的日月潭纜車站與九族文化村觀山樓，共設有兩站，途中翻越卜吉山，讓遊客能從高空俯瞰日月潭壯麗的湖光山色以及埔里盆地的美景。日月潭纜車系統由奧地利Doppelmayr公司設計…",
     "highlights": [
@@ -17206,6 +17293,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E6%97%A5%E6%9C%88%E6%BD%AD%E7%BA%9C%E8%BB%8A%E7%AB%99%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：日月潭纜車",
+        "url": "https://zh.wikipedia.org/wiki/%E6%97%A5%E6%9C%88%E6%BD%AD%E7%BA%9C%E8%BB%8A"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -18874,7 +18966,10 @@
     "lat": 24.69073,
     "lng": 120.8859,
     "image": "https://www.miaolitravel.net/pic.ashx?qp=pic/12004271.jpg&sizetype=2",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/49/Northern_Miaoli_Art_Center_2020-01-03.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Northern_Miaoli_Art_Center_2020-01-03.jpg/1920px-Northern_Miaoli_Art_Center_2020-01-03.jpg"
+    ],
     "accent": "#ff8066",
     "description": "為使苗栗縣全境區域發展均衡，營創美藝與生活休閒融合的文化空間，由苗栗縣政府興建「苗北藝文中心」，初衷系以整合苗北生活圈的藝文資源，提升當地人文素養與藝術氣息為主，亦著重將當地特色文化推向國際舞台，並適度將兩岸與國藝際術文化引入，使苗栗縣成為享受文化生活的快樂園地。 「苗北藝文中心」為一座地上5層，地下2層的現代建築，整體建物面積合計有0.9255公頃，茲將苗…",
     "highlights": [
@@ -18922,6 +19017,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E8%8B%97%E5%8C%97%E8%97%9D%E6%96%87%E4%B8%AD%E5%BF%83%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：苗北藝文中心",
+        "url": "https://zh.wikipedia.org/wiki/%E8%8B%97%E5%8C%97%E8%97%9D%E6%96%87%E4%B8%AD%E5%BF%83"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -20963,7 +21063,10 @@
     "lat": 23.65903,
     "lng": 120.54075,
     "image": "https://k241.noon360.com/public/upload/StoreCover/220518114029144049HSPU3.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/9f/Taiwan_Honey_Museum.png",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Taiwan%20Honey%20Museum.png?width=1400"
+    ],
     "accent": "#df7bb4",
     "description": "古坑的蜜蜂故事館，擁有橫跨台灣與泰國的亞洲最大養蜂場，秉持「品質創造信譽，信譽保證品質」永續經營的理念，將故事館定位在自然、休閒、文化、教育及生態，讓您體驗100%純淨、自然、營養豐富而珍貴的蜂產品的甜蜜環繞，並能深刻了解蜜蜂的相關知識。",
     "highlights": [
@@ -21015,6 +21118,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E8%9C%9C%E8%9C%82%E6%95%85%E4%BA%8B%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：蜜蜂故事館",
+        "url": "https://zh.wikipedia.org/wiki/%E8%9C%9C%E8%9C%82%E6%95%85%E4%BA%8B%E9%A4%A8"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -21380,7 +21488,11 @@
     "lat": 24.41431,
     "lng": 120.6858,
     "image": "https://www.miaolitravel.net/pic.ashx?qp=pic/12004365.jpg&sizetype=2",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/ed/%E8%97%BA%E8%8D%89%E6%96%87%E5%8C%96%E9%A4%A8_Rush_Grass_Culture_Center_-_panoramio.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/%E8%97%BA%E8%8D%89%E6%96%87%E5%8C%96%E9%A4%A8_Rush_Grass_Culture_Center_-_panoramio.jpg/1920px-%E8%97%BA%E8%8D%89%E6%96%87%E5%8C%96%E9%A4%A8_Rush_Grass_Culture_Center_-_panoramio.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E8%97%BA%E8%8D%89%E6%96%87%E5%8C%96%E9%A4%A8%20Rush%20Grass%20Culture%20Center%20-%20panoramio.jpg?width=1400"
+    ],
     "accent": "#68b984",
     "description": "早期的苑裡有「藺草之鄉」的美譽，只要一走進苑裡，就可以看到農田裡種植了許多藺草，因為藺草的莖柔軟而強韌，而且能除濕、除臭，非常適合用來編織，所以早在清初時，當地婦女已經利用藺草編織草蓆。經過發展及改良，到日治時代已研發出美觀的藺草帽，因為質地輕，並有自然草香味，而成為行銷全球的特產。 在民國25年時，草帽的外銷達於頂峰，年銷售量高達一千多萬頂，當時只要家中有…",
     "highlights": [
@@ -21423,6 +21535,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E8%97%BA%E8%8D%89%E6%96%87%E5%8C%96%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：藺草文化館",
+        "url": "https://zh.wikipedia.org/wiki/%E8%97%BA%E8%8D%89%E6%96%87%E5%8C%96%E9%A4%A8"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -22672,9 +22789,12 @@
     "lng": 120.5526,
     "image": "https://tourism.chcg.gov.tw/upload/27/2012042417494746751.JPG",
     "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/d5/Changhua_County_Stadium_2020-03-01_2.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Changhua_County_Stadium_2020-03-01_2.jpg/1920px-Changhua_County_Stadium_2020-03-01_2.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Changhua%20County%20Stadium%202020-03-08.jpg?width=1400",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/2019%E5%B9%B412%E6%9C%887%E6%97%A5%20%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%AB%8B%E9%AB%94%E8%82%B2%E9%A4%A8%20%E5%BD%B0%E5%8C%96%E7%B8%A3%E6%94%BF%E5%BA%9C.jpeg?width=1400",
       "https://tourism.chcg.gov.tw/upload/27/2012042417484772785.JPG",
-      "https://tourism.chcg.gov.tw/upload/27/2012042417491466142.JPG",
-      "https://tourism.chcg.gov.tw/upload/27/2012042417501110861.JPG"
+      "https://tourism.chcg.gov.tw/upload/27/2012042417491466142.JPG"
     ],
     "accent": "#ff8066",
     "description": "體育場包括可容納3萬人的田徑場、8千人的體育館及3千人的游泳池，加上八卦山棒球場和健興網球場等各項運動設施完備，且鄰近市區交通便利，提供了縣民絕佳的運動場所，每逢假日來場運動民眾更是絡繹不絕。",
@@ -22723,6 +22843,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%AB%8B%E9%AB%94%E8%82%B2%E5%A0%B4%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：彰化縣立體育場",
+        "url": "https://zh.wikipedia.org/wiki/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%AB%8B%E9%AB%94%E8%82%B2%E5%A0%B4"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -23203,6 +23328,9 @@
     "lng": 120.97504634020432,
     "image": "https://recreation.forest.gov.tw/Files/Forest/RA/photo/album/0300003/01_BASE_02.jpg",
     "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/d4/Daxueshan_%E5%A4%A7%E9%9B%AA%E5%B1%B1_-_panoramio_%281%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Daxueshan_%E5%A4%A7%E9%9B%AA%E5%B1%B1_-_panoramio_%281%29.jpg/1920px-Daxueshan_%E5%A4%A7%E9%9B%AA%E5%B1%B1_-_panoramio_%281%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/20190408%E5%A4%A7%E9%9B%AA%E5%B1%B1%E9%81%8A%E6%A8%82%E5%8D%80%E7%95%8C%E7%A2%91.jpg?width=1400",
       "https://recreation.forest.gov.tw/Files/Forest/RA/photo/album/0300003/02_%E5%A4%A7%E9%9B%AA%E5%B1%B1.jpg",
       "https://recreation.forest.gov.tw/Files/Forest/RA/photo/album/0300003/04_BASE_04.jpg",
       "https://recreation.forest.gov.tw/Files/Forest/RA/photo/album/0300003/0300003202012290.jpg"
@@ -23254,6 +23382,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E5%A4%A7%E9%9B%AA%E5%B1%B1%E5%9C%8B%E5%AE%B6%E6%A3%AE%E6%9E%97%E9%81%8A%E6%A8%82%E5%8D%80%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：大雪山國家森林遊樂區",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E9%9B%AA%E5%B1%B1%E5%9C%8B%E5%AE%B6%E6%A3%AE%E6%9E%97%E9%81%8A%E6%A8%82%E5%8D%80"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -23908,6 +24041,9 @@
     "lng": 120.5488,
     "image": "https://tourism.chcg.gov.tw/upload/27/2025042314275293709.jpg",
     "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/ae/%E5%BD%B0%E5%8C%96%E5%9C%B0%E6%A8%99_%E5%85%AB%E5%8D%A6%E5%B1%B1%E5%A4%A7%E4%BD%9B_%E9%81%A0%E6%8B%8D.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/%E5%BD%B0%E5%8C%96%E5%9C%B0%E6%A8%99_%E5%85%AB%E5%8D%A6%E5%B1%B1%E5%A4%A7%E4%BD%9B_%E9%81%A0%E6%8B%8D.jpg/1920px-%E5%BD%B0%E5%8C%96%E5%9C%B0%E6%A8%99_%E5%85%AB%E5%8D%A6%E5%B1%B1%E5%A4%A7%E4%BD%9B_%E9%81%A0%E6%8B%8D.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/ChangHua%20Baguashan.jpg?width=1400",
       "https://tourism.chcg.gov.tw/upload/27/2023102016023531186.jpg",
       "https://tourism.chcg.gov.tw/upload/27/2023102016024144150.jpg",
       "https://tourism.chcg.gov.tw/upload/27/2023102016024590971.jpg"
@@ -23954,6 +24090,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E5%85%AB%E5%8D%A6%E5%B1%B1%E5%A4%A7%E4%BD%9B%E9%A2%A8%E6%99%AF%E5%8D%80%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：大佛風景區",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E4%BD%9B%E9%A2%A8%E6%99%AF%E5%8D%80"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -27690,7 +27831,11 @@
     "lat": 24.40592,
     "lng": 120.7612,
     "image": "https://www.miaolitravel.net/pic.ashx?qp=pic/14001587.jpg&sizetype=2",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/5c/Sanyi_Wood_Sculpture_Museum_20100501.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Sanyi_Wood_Sculpture_Museum_20100501.jpg/1920px-Sanyi_Wood_Sculpture_Museum_20100501.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Sanyi%20Wood%20Sculpture%20Museum%2020100501.jpg?width=1400"
+    ],
     "accent": "#6a8dff",
     "description": "「三義木雕博物館」是全台唯一以木雕為專題的公立博物館，於1995年4月9日開館，以蒐藏、展示本土與國外的木雕藝術品為主，之後在2003年5月完成二館擴建工程，增闢了木雕教學、展示、典藏、圖書資料室等空間，獨特的建築設計並於當年獲得台灣建築首獎，豐富的館藏與設施，讓三義木雕博物館正式進入新的紀元，成為國際化的木雕專業博物館。 三義木雕博物館的展覽空間為一館一樓…",
     "highlights": [
@@ -27747,6 +27892,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E4%B8%89%E7%BE%A9%E6%9C%A8%E9%9B%95%E5%8D%9A%E7%89%A9%E9%A4%A8%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：三義木雕博物館",
+        "url": "https://zh.wikipedia.org/wiki/%E4%B8%89%E7%BE%A9%E6%9C%A8%E9%9B%95%E5%8D%9A%E7%89%A9%E9%A4%A8"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -27799,7 +27949,10 @@
     "lat": 24.44948,
     "lng": 120.8795,
     "image": "https://www.miaolitravel.net/pic.ashx?qp=pic/12004260.jpg&sizetype=2",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/96/Mt_Dabajian-winter_view.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Hsuehshan%20CueiChih%20TheGreenJadePond.jpg?width=1400"
+    ],
     "accent": "#42b883",
     "description": "雪霸國家公園成立於民國81年(1992)，北以邊古嚴山至樂山間之稜線為界，東界為大甲溪上游，西以北坑山至小雪山的天然棱線為主，南以宇羅尾山、大甲溪中游為界，地處新竹、苗栗、臺中三縣的交界處，是臺灣公告成立的第五座國家公園。 雪霸國家公園境內高山林立，景觀壯麗，高差達三千多公尺，以雪山為中心，向四週輻射多支稜脈，但見遠近的山稜蜿蜒伸展，層次分明，地勢崇峻，其中…",
     "highlights": [
@@ -27847,6 +28000,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E9%9B%AA%E9%9C%B8%E5%9C%8B%E5%AE%B6%E5%85%AC%E5%9C%92%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：雪霸國家公園",
+        "url": "https://zh.wikipedia.org/wiki/%E9%9B%AA%E9%9C%B8%E5%9C%8B%E5%AE%B6%E5%85%AC%E5%9C%92"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -28412,8 +28570,7 @@
     "image": "https://www.taiwanplace21.org.tw/factoryupload/Factory/170125011933_M0.jpg",
     "imageCandidates": [
       "https://www.taiwanplace21.org.tw/factoryupload/Factory/200828034419_M0.jpg",
-      "https://www.taiwanplace21.org.tw/factoryupload/Factory/200828034225_M0.jpg",
-      "https://www.taiwanplace21.org.tw/factoryupload/Factory/FacImg230829091315_P0.jpg"
+      "https://www.taiwanplace21.org.tw/factoryupload/Factory/200828034225_M0.jpg"
     ],
     "accent": "#68b984",
     "description": "【評鑑有效期間：2025/07/09~2028/07/08】全台最大、最美、最具創意、花種最豐富的玫瑰園鄰近明德水庫風景區，坐擁自然山景，滿山遍野的百年七里香環抱園區形成天然屏障，擁有全台最大、最美及最具創意，花種最豐富的玫瑰園，園區內整年都被花朵、植物圍繞，搭配周邊愛心拱門、世界知名景點、噴水池、玫瑰花牆等庭園造景，打造出如夢幻般的玫瑰花森林。 因應環保以…",
@@ -32633,7 +32790,11 @@
     "lat": 23.84737,
     "lng": 120.91713,
     "image": "https://www.sunmoonlake.gov.tw/fapi/Image?type=Attraction&id=3115&refid=43&l=1&w=0&h=0",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/16/Xuanzang_Temple_09_-_Main_building.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Xuanzang_Temple_09_-_Main_building.jpg/1920px-Xuanzang_Temple_09_-_Main_building.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Xuanzang%20Temple%2009%20-%20Main%20building.jpg?width=1400"
+    ],
     "accent": "#42b883",
     "description": "沿著環湖公路繼續往西走，約4.8公里處，可到玄奘寺。玄奘大師為唐朝高僧，有感於當時已譯出的經論，彼此差異頗多，令人無所適從，大師欲求得佛法真義，不惜違反當朝禁令，私自排除萬難前往印度取經，歷時十七年返國，得經書六百五十七部，與其弟子共譯七十五部，得一千三百三十五卷，對佛教在中國的發展貢獻卓著。中日戰爭期間，日人在南京掠走玄奘大師的頂骨舍利，供奉在日本崎玉縣慈…",
     "highlights": [
@@ -32677,6 +32838,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E7%8E%84%E5%A5%98%E5%AF%BA%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：玄奘寺 (南投縣)",
+        "url": "https://zh.wikipedia.org/wiki/%E7%8E%84%E5%A5%98%E5%AF%BA_(%E5%8D%97%E6%8A%95%E7%B8%A3)"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -32804,7 +32970,11 @@
     "lat": 23.84901,
     "lng": 120.92944,
     "image": "https://www.sunmoonlake.gov.tw/fapi/Image?type=Attraction&id=2521&refid=67&l=1&w=0&h=0",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/09/View_of_Ita_Thao_from_a_ferry_on_Sun_Moon_Lake_20150719.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/View_of_Ita_Thao_from_a_ferry_on_Sun_Moon_Lake_20150719.jpg/1920px-View_of_Ita_Thao_from_a_ferry_on_Sun_Moon_Lake_20150719.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Ita%20Thao%20Shopping%20Street%2001.JPG?width=1400"
+    ],
     "accent": "#42b883",
     "description": "【駛入湖心的文化方舟】在伊達邵碼頭旁，一座巨大的船型建築正蓄勢待發。伊達邵遊客中心大膽採用了「船」的意象，俐落配色，巧妙呼應了邵族的傳統杵音意象與現代美學。走上二樓的觀景台，您就像船長站在船首，擁有180度風景視野，將日月潭的晨昏變化盡收眼底，這裡是全潭最親水的建築地標。【水陸雙棲的感官饗宴】以這艘大船為基地，您可以展開「水陸雙棲」的冒險。首推全新的達克拉哈…",
     "highlights": [
@@ -32859,6 +33029,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E4%BC%8A%E9%81%94%E9%82%B5%E9%81%8A%E5%AE%A2%E4%B8%AD%E5%BF%83%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：伊達邵",
+        "url": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E9%81%94%E9%82%B5"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -32923,7 +33098,11 @@
     "lat": 23.85114,
     "lng": 120.90212,
     "image": "https://www.sunmoonlake.gov.tw/fapi/Image?type=Attraction&id=3156&refid=78&l=1&w=0&h=0",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/de/%E5%90%91%E5%B1%B1%E8%A1%8C%E6%94%BF%E6%9A%A8%E9%81%8A%E5%AE%A2%E4%B8%AD%E5%BF%83-1.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/%E5%90%91%E5%B1%B1%E8%A1%8C%E6%94%BF%E6%9A%A8%E9%81%8A%E5%AE%A2%E4%B8%AD%E5%BF%83-1.jpg/1920px-%E5%90%91%E5%B1%B1%E8%A1%8C%E6%94%BF%E6%9A%A8%E9%81%8A%E5%AE%A2%E4%B8%AD%E5%BF%83-1.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%90%91%E5%B1%B1%E8%A1%8C%E6%94%BF%E6%9A%A8%E9%81%8A%E5%AE%A2%E4%B8%AD%E5%BF%83-1.jpg?width=1400"
+    ],
     "accent": "#df7bb4",
     "description": "【與大地合一的禪風】這不僅是一棟建築，而是鑲嵌在日月潭畔的巨型地景藝術。由日本知名建築師團紀彥操刀，向山行政暨遊客中心屏棄了繁複的裝飾，全棟以「清水模」的原始質感呈現。流暢銳利的弧形線條，如雙手般溫柔環抱著日月潭，屋頂順著草坡延伸至地面，讓建築與自然地景無縫融合。最令人屏息的是那座無邊際水池，湖光山色倒映其中，創造出水天一色的絕美禪意，每一個轉角都是攝影師夢…",
     "highlights": [
@@ -32958,6 +33137,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E5%90%91%E5%B1%B1%E8%A1%8C%E6%94%BF%E6%9A%A8%E9%81%8A%E5%AE%A2%E4%B8%AD%E5%BF%83%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：向山行政暨遊客中心",
+        "url": "https://zh.wikipedia.org/wiki/%E5%90%91%E5%B1%B1%E8%A1%8C%E6%94%BF%E6%9A%A8%E9%81%8A%E5%AE%A2%E4%B8%AD%E5%BF%83"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -40819,7 +41003,11 @@
     "lat": 24.13438,
     "lng": 120.6739,
     "image": "https://travel.taichung.gov.tw/content/images/attractions/60812/640x480_attractions-image-4nsw_pxeq0-zcklfh7cjrw.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/46/%E5%9C%8B%E5%AE%B6%E6%BC%AB%E7%95%AB%E5%8D%9A%E7%89%A9%E9%A4%A8%E7%B1%8C%E5%82%99%E8%99%95_%E8%87%BA%E4%B8%AD%E5%88%91%E5%8B%99%E6%89%80%E6%BC%94%E6%AD%A6%E5%A0%B4.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/%E5%9C%8B%E5%AE%B6%E6%BC%AB%E7%95%AB%E5%8D%9A%E7%89%A9%E9%A4%A8%E7%B1%8C%E5%82%99%E8%99%95_%E8%87%BA%E4%B8%AD%E5%88%91%E5%8B%99%E6%89%80%E6%BC%94%E6%AD%A6%E5%A0%B4.jpg/1920px-%E5%9C%8B%E5%AE%B6%E6%BC%AB%E7%95%AB%E5%8D%9A%E7%89%A9%E9%A4%A8%E7%B1%8C%E5%82%99%E8%99%95_%E8%87%BA%E4%B8%AD%E5%88%91%E5%8B%99%E6%89%80%E6%BC%94%E6%AD%A6%E5%A0%B4.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%88%91%E5%8B%99%E6%89%80001.jpg?width=1400"
+    ],
     "accent": "#6a8dff",
     "description": "國家漫畫博物館現址座落於台中市林森路，其主體建築「刑務所演武場」興建於 1937 年（日治時期昭和 12 年）。這裡早期是司獄官與警察日常修練柔道、劍道的武道館舍，是台中市目前保存最完整的演武場建築，並於 2004 年正式登錄為歷史建築，具有深厚的文化與研究價值。",
     "highlights": [
@@ -40863,6 +41051,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E5%9C%8B%E5%AE%B6%E6%BC%AB%E7%95%AB%E5%8D%9A%E7%89%A9%E9%A4%A8(%E8%87%BA%E4%B8%AD%E5%88%91%E5%8B%99%E6%89%80%E6%BC%94%E6%AD%A6%E5%A0%B4)%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：國家漫畫博物館",
+        "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E5%AE%B6%E6%BC%AB%E7%95%AB%E5%8D%9A%E7%89%A9%E9%A4%A8"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -140215,7 +140408,11 @@
     "lat": 24.25354,
     "lng": 121.17332,
     "image": "https://travel.taichung.gov.tw/content/images/attractions/362/640x480_Filedata635173543884072265.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/5f/Techi_Dam02.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Techi_Dam02.jpg/1920px-Techi_Dam02.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/2011%E5%B9%B44%E6%9C%885%E6%97%A5%E5%BE%B7%E5%9F%BA%E6%B0%B4%E5%BA%AB.JPG?width=1400"
+    ],
     "accent": "#42b883",
     "description": "德基水庫又稱「達見水庫」，建於民國五十八年，為台電開發大甲溪電力的主要工程。雙曲線的美麗簿型拱壩，高180公尺，是亞洲屬一屬二的高壩，也是世界十大水壩之一。壩前蓄水成一廣達592平方公里的鵝蛋形大湖，水色由四周的淺綠轉而墨綠、深綠、深藍、藍黑，遠觀近看都有不同感受，但目前不對外開放。",
     "highlights": [
@@ -140267,6 +140464,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E5%BE%B7%E5%9F%BA%E6%B0%B4%E5%BA%AB%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：德基水庫",
+        "url": "https://zh.wikipedia.org/wiki/%E5%BE%B7%E5%9F%BA%E6%B0%B4%E5%BA%AB"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
