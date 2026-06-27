@@ -30,6 +30,15 @@
   --color-yellow-soft: #FFF1C9;
   --color-warm-bg: #FFEAD7;
   --color-rating: #E8A93C;
+  --qpang-hat: #FBD36B;
+  --qpang-fur: #E7B37A;
+  --qpang-belly: #FFF1DA;
+  --qpang-backpack: #74C5F4;
+  --qpang-scarf: #8ED26A;
+  --qpang-orange: #FFB366;
+  --qpang-sky: #BEE6FF;
+  --qpang-grass: #C7E8A3;
+  --qpang-brown: #7A5A3A;
 
   --font-hero: 38px;
   --font-section: 22px;
@@ -116,6 +125,11 @@ a {
 
 img {
   max-width: 100%;
+}
+
+.mascot-figure {
+  display: block;
+  user-select: none;
 }
 
 button:focus-visible,
@@ -1925,6 +1939,17 @@ p.wizard-reason {
   text-align: center;
   background: var(--color-surface);
   box-shadow: var(--shadow-sm);
+}
+
+.empty-mascot {
+  width: min(148px, 42vw);
+  margin-bottom: var(--space-2);
+  filter: drop-shadow(0 14px 22px rgba(122, 90, 58, 0.14));
+}
+
+.mascot-figure--favorites.empty-mascot,
+.mascot-figure--noResults.empty-mascot {
+  width: min(164px, 46vw);
 }
 
 .empty-state > svg {
@@ -3748,6 +3773,16 @@ p.wizard-reason {
 }
 
 .weather-nudge > svg { flex-shrink: 0; }
+
+.weather-nudge-mascot {
+  flex: 0 0 auto;
+  width: 58px;
+  height: 58px;
+  object-fit: contain;
+  object-position: center bottom;
+  margin: -10px 0 -8px -4px;
+  filter: drop-shadow(0 8px 10px rgba(30, 64, 175, 0.16));
+}
 
 .weather-nudge-copy {
   flex: 1;

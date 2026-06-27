@@ -63,6 +63,7 @@ import { getDeviceId } from './lib/deviceId'
 import { NearbyRestaurants } from './components/NearbyRestaurants'
 import { PackingList } from './components/PackingList'
 import { ItineraryPlanner } from './components/ItineraryPlanner'
+import { Mascot } from './components/Mascot'
 
 const regions = ['全部', '北部', '中部', '南部', '東部', '離島'] as const
 const settings = ['全部', '室內', '室外', '室內外'] as const
@@ -946,7 +947,7 @@ function App() {
       <header className="topbar">
         <a className="brand" href="#" aria-label="假日去哪兒首頁" onClick={(event) => { event.preventDefault(); openHome() }}>
           <span className="brand-mark" aria-hidden="true">
-            <img src={`${import.meta.env.BASE_URL}brand/q-pang-app-icon-64.png`} alt="" className="brand-logo-img" />
+            <Mascot variant="appIcon" className="brand-logo-img" loading="eager" />
           </span>
           <span className="brand-text">
             <strong>假日去哪兒</strong>
@@ -974,12 +975,7 @@ function App() {
                 aria-hidden="true"
               />
               <div className="hero-card-overlay" />
-              <img
-                src={`${import.meta.env.BASE_URL}mascot/q-pang-waving-premium.png`}
-                alt=""
-                className="hero-mascot"
-                aria-hidden="true"
-              />
+              <Mascot variant="waving" className="hero-mascot" loading="eager" />
               <div className="hero-card-content">
                 <span className="hero-tag"><Sparkles size={13} /> 親子週末靈感</span>
                 <h1>下一個週末，<br />一起創造<br /><span>美好回憶</span></h1>
@@ -1039,7 +1035,11 @@ function App() {
                   className={`home-section weather-nudge ${isRainy ? 'weather-nudge--rain' : 'weather-nudge--heat'}`}
                   onClick={() => isRainy ? goExplore(() => setRainyOnly(true)) : goExplore(() => setSetting('室內'))}
                 >
-                  {isRainy ? <CloudRain size={22} /> : <SunMedium size={22} />}
+                  {isRainy ? (
+                    <Mascot variant="rainy" className="weather-nudge-mascot" />
+                  ) : (
+                    <SunMedium size={22} />
+                  )}
                   <div className="weather-nudge-copy">
                     <strong>{isRainy ? `今天降雨機率 ${weather.precipitationProbability}%` : `今天高達 ${Math.round(weather.temperature)}°C`}</strong>
                     <span>{isRainy ? '幫你整理好雨天室內景點' : '推薦涼快的室內景點'}</span>
@@ -1428,7 +1428,7 @@ function App() {
                 />
               )) : (
                 <div className="empty-state">
-                  {activeTab === 'favorites' ? <Heart size={40} /> : <Baby size={40} />}
+                  <Mascot variant={activeTab === 'favorites' ? 'favorites' : 'noResults'} className="empty-mascot" />
                   <h3>{activeTab === 'favorites' ? '還沒有收藏景點' : '這組條件還沒有景點'}</h3>
                   <p>{activeTab === 'favorites' ? '看到喜歡的地點時，點愛心就能放進這裡。' : '換個地區或放寬孩子年齡試試看。'}</p>
                   <button onClick={activeTab === 'favorites' ? () => openExplore('explore') : clearFilters}>
@@ -1455,7 +1455,7 @@ function App() {
           <aside className="profile-sheet" onClick={(event) => event.stopPropagation()}>
             <button className="modal-close" onClick={() => setShowProfile(false)} aria-label="關閉"><X /></button>
             <div className="profile-avatar" aria-hidden="true">
-              <img src={`${import.meta.env.BASE_URL}brand/q-pang-app-icon-192.png`} alt="" className="profile-avatar-img" />
+              <Mascot variant="appIcon" className="profile-avatar-img" />
             </div>
             <h2>我的親子小檔案</h2>
             <p>你的收藏與偏好會保存在這支手機裡。</p>
