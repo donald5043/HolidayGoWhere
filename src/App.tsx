@@ -627,8 +627,8 @@ function App() {
     )
   }, [])
 
-  const selectRegion = async (nextRegion: (typeof regions)[number]) => {
-    playUiSound()
+  const selectRegion = async (nextRegion: (typeof regions)[number], options: { silent?: boolean } = {}) => {
+    if (!options.silent) playUiSound()
     setRegion(nextRegion)
     setMapViewport(null)
     const cached = placeCache[nextRegion]
@@ -667,6 +667,71 @@ function App() {
     } catch {
       setPlacesStatus('error')
     }
+  }
+
+  const loadRestaurantRegionAround = async (location: { lat: number; lng: number }) => {
+    const nextRegion = regionFromCoordinate(location)
+    if (!nextRegion) {
+      setLocationStatus('error')
+      setLocationMessage('目前位置不在臺灣資料範圍內，請手動選擇地區查看餐廳。')
+      return
+    }
+    setMapViewport(null)
+    await selectRegion(nextRegion, { silent: true })
+    setLocationStatus('ready')
+    setLocationMessage(`已依你的位置載入${nextRegion}餐廳，並優先顯示附近地點。`)
+  }
+
+  const loadRestaurantsNearUser = () => {
+    if (userLocation) {
+      void loadRestaurantRegionAround(userLocation)
+      return
+    }
+    if (!navigator.geolocation) {
+      setLocationStatus('error')
+      setLocationMessage('這個瀏覽器不支援定位，請手動選擇地區查看餐廳。')
+      return
+    }
+
+    setLocationStatus('loading')
+    setLocationMessage('正在取得你的位置，準備載入附近餐廳…')
+    navigator.geolocation.getCurrentPosition(
+      ({ coords }) => {
+        const nextLocation = { lat: coords.latitude, lng: coords.longitude }
+        setUserLocation(nextLocation)
+        void loadRestaurantRegionAround(nextLocation)
+      },
+      (error) => {
+        const messages: Record<number, string> = {
+          1: '定位權限被關閉了，請手動選擇地區查看餐廳。',
+          2: '目前無法取得位置，請確認手機定位服務與網路，或手動選擇地區。',
+          3: '定位等待太久，請再試一次或手動選擇地區。',
+        }
+        setLocationStatus('error')
+        setLocationMessage(messages[error.code] || '無法取得位置，請手動選擇地區查看餐廳。')
+      },
+      {
+        enableHighAccuracy: false,
+        timeout: 10000,
+        maximumAge: 5 * 60 * 1000,
+      },
+    )
+  }
+
+  const enableRestaurantMode = () => {
+    setRestaurantOnly(true)
+    setEventOnly(false)
+    setRainyOnly(false)
+    if (region === '全部') loadRestaurantsNearUser()
+  }
+
+  const toggleRestaurantMode = () => {
+    playUiSound()
+    if (restaurantOnly) {
+      setRestaurantOnly(false)
+      return
+    }
+    enableRestaurantMode()
   }
 
   const handleMapViewportChange = useCallback((nextViewport: MapViewport) => {
@@ -1019,7 +1084,7 @@ function App() {
                 <span className="entry-icon tile-violet"><LocateFixed size={24} /></span>
                 <small>附近景點</small>
               </button>
-              <button className="entry-tile" onClick={() => goExplore(() => { setRestaurantOnly(true); setRainyOnly(false); setEventOnly(false) })}>
+              <button className="entry-tile" onClick={() => goExplore(enableRestaurantMode)}>
                 <span className="entry-icon tile-coral"><Utensils size={24} /></span>
                 <small>親子餐廳</small>
               </button>
@@ -1293,7 +1358,7 @@ function App() {
             <button className={eventOnly ? 'active event-filter' : 'event-filter'} onClick={() => { playUiSound(); setEventOnly((value) => { if (!value) setRestaurantOnly(false); return !value }) }}>
               <CalendarCheck size={14} /> 本週活動
             </button>
-            <button className={restaurantOnly ? 'active' : ''} onClick={() => { playUiSound(); setRestaurantOnly((value) => { if (!value) { setEventOnly(false); setRainyOnly(false) } return !value }) }}>
+            <button className={restaurantOnly ? 'active' : ''} onClick={toggleRestaurantMode}>
               <Utensils size={14} /> 餐廳
             </button>
           </div>
