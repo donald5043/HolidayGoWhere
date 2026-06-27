@@ -2099,7 +2099,9 @@ p.wizard-reason {
 }
 
 .mascot-figure--favorites.empty-mascot,
-.mascot-figure--noResults.empty-mascot {
+.mascot-figure--noResults.empty-mascot,
+.mascot-figure--thinking.empty-mascot,
+.mascot-figure--camera.empty-mascot {
   width: min(164px, 46vw);
 }
 

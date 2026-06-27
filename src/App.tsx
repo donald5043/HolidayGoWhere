@@ -1502,7 +1502,7 @@ function App() {
                 />
               )) : (
                 <div className="empty-state">
-                  <Mascot variant={activeTab === 'favorites' ? 'favorites' : 'noResults'} className="empty-mascot" />
+                  <Mascot variant={activeTab === 'favorites' ? 'camera' : 'thinking'} className="empty-mascot" />
                   <h3>{activeTab === 'favorites' ? '還沒有收藏景點' : '這組條件還沒有景點'}</h3>
                   <p>{activeTab === 'favorites' ? '看到喜歡的地點時，點愛心就能放進這裡。' : '換個地區或放寬孩子年齡試試看。'}</p>
                   <button onClick={activeTab === 'favorites' ? () => openExplore('explore') : clearFilters}>

@@ -9,6 +9,10 @@ type MascotVariant =
   | 'qBao'
   | 'qMom'
   | 'family'
+  | 'surprised'
+  | 'thinking'
+  | 'camera'
+  | 'running'
 
 type MascotProps = {
   variant?: MascotVariant
@@ -28,6 +32,10 @@ const mascotSrc: Record<MascotVariant, string> = {
   qBao: 'mascot/q-bao.png',
   qMom: 'mascot/q-mom.png',
   family: 'mascot/q-pang-family.png',
+  surprised: 'mascot/q-pang-surprised.webp',
+  thinking: 'mascot/q-pang-thinking.webp',
+  camera: 'mascot/q-pang-camera.webp',
+  running: 'mascot/q-pang-running.webp',
 }
 
 export function Mascot({ variant = 'waving', className = '', alt = '', loading = 'lazy' }: MascotProps) {
