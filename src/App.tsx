@@ -230,6 +230,45 @@ function scorePersonalityForPlace(place: Place): Record<PersonalityId, number> {
   }
 }
 
+function normalizeSearchText(value: string) {
+  return value
+    .normalize('NFKC')
+    .toLocaleLowerCase('zh-TW')
+    .replace(/臺/g, '台')
+    .replace(/[，,。./／|｜・、\-—_]+/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+function buildPlaceSearchText(place: Place) {
+  const amenityEvidence = place.familyEvidence
+    ?.map((evidence) => `${evidence.label} ${evidence.note} ${evidence.source}`)
+    .join(' ')
+  return normalizeSearchText([
+    place.name,
+    place.region,
+    place.city,
+    place.district,
+    place.category,
+    place.setting,
+    place.duration,
+    place.placeType,
+    place.restaurantCategory,
+    place.restaurantTier,
+    place.chain,
+    place.cuisine,
+    place.priceLabel,
+    place.address,
+    place.hours,
+    place.description,
+    place.highlights?.join(' '),
+    place.facilities?.join(' '),
+    place.dataSource,
+    place.sources?.map((source) => `${source.type} ${source.label}`).join(' '),
+    amenityEvidence,
+  ].filter(Boolean).join(' '))
+}
+
 function computePersonality(interactedIds: string[], places: Place[]): PersonalityId | null {
   const unique = [...new Set(interactedIds)].slice(-40)
   if (unique.length < 3) return null
@@ -286,7 +325,7 @@ function distanceInKm(
 
 function regionFromCoordinate({ lat, lng }: { lat: number; lng: number }): RegionName | null {
   if (lat < 21.7 || lat > 26.5 || lng < 118 || lng > 122.5) return null
-  if (lng < 120.35 || lat > 25.6) return '離島'
+  if (lng < 119.9 || lat > 25.6) return '離島'
   if (lat <= 24.55 && lng >= 120.9) return '東部'
   if (lat >= 24.55) return '北部'
   if (lat >= 23.45) return '中部'
@@ -318,6 +357,7 @@ function App() {
   const [osmRestaurants, setOsmRestaurants] = useState<Place[]>([])
   const [osmRestaurantsLoaded, setOsmRestaurantsLoaded] = useState(false)
   const viewportRequestRegion = useRef<RegionName | null>(null)
+  const autoLoadedLocationRegion = useRef(false)
   const [activeTab, setActiveTab] = useState<'home' | 'explore' | 'favorites' | 'profile'>('home')
   const [showProfile, setShowProfile] = useState(false)
   const [wizardAge, setWizardAge]           = useState<WizardAgeGroup>('all')
@@ -413,6 +453,15 @@ function App() {
       setPlacesStatus('error')
     }
   }
+
+  useEffect(() => {
+    if (!userLocation || autoLoadedLocationRegion.current) return
+    const nextRegion = regionFromCoordinate(userLocation)
+    if (!nextRegion) return
+    autoLoadedLocationRegion.current = true
+    void selectRegion(nextRegion, { silent: true })
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [userLocation])
 
   const loadRestaurantRegionAround = async (location: { lat: number; lng: number }) => {
     const nextRegion = regionFromCoordinate(location)
@@ -574,10 +623,10 @@ function App() {
 
   const filteredPlaces = useMemo(() => {
     const [minAge, maxAge] = age === 'all' ? [0, 99] : age.split('-').map(Number)
+    const queryTokens = normalizeSearchText(query).split(' ').filter(Boolean)
     const matches = sourcePlaces.filter((place) => {
-      const textMatches = `${place.name}${place.city}${place.district}${place.category}`
-        .toLowerCase()
-        .includes(query.toLowerCase())
+      const searchText = buildPlaceSearchText(place)
+      const textMatches = queryTokens.length === 0 || queryTokens.every((token) => searchText.includes(token))
       const ageMatches = age === '0-2'
         ? place.ageMin === 0
         : place.ageMin <= maxAge && place.ageMax >= minAge
@@ -681,12 +730,13 @@ function App() {
     const source = recommended.length ? recommended : places
     return [...source]
       .sort((first, second) => (
+        (userLocation ? distanceInKm(userLocation, first) - distanceInKm(userLocation, second) : 0) ||
         Number(Boolean(second.rainyDay)) - Number(Boolean(first.rainyDay)) ||
         Number(Boolean(second.familyAmenities)) - Number(Boolean(first.familyAmenities)) ||
         getQualityScore(second) - getQualityScore(first)
       ))
       .slice(0, 6)
-  }, [recommended, places])
+  }, [recommended, places, userLocation])
 
   const nearbyPlaces = useMemo(() => {
     if (!userLocation || placesStatus !== 'ready') return [] as { place: Place; dist: number }[]
@@ -864,7 +914,7 @@ function App() {
               onNearby={() => goExplore(findNearbyPlaces)}
               onScenario={(scenario) => {
                 if (scenario === 'rainy') {
-                  goExplore(() => { setRainyOnly(true); setEventOnly(false) })
+                  goExplore(() => { setAge('all'); setSetting('全部'); setRainyOnly(true); setEventOnly(false); setRestaurantOnly(false) })
                   return
                 }
                 if (scenario === 'stroller') {
@@ -872,10 +922,10 @@ function App() {
                   return
                 }
                 if (scenario === 'parents') {
-                  goExplore(enableRestaurantMode)
+                  goExplore(() => { setAge('all'); setSetting('全部'); setRainyOnly(false); setEventOnly(false); enableRestaurantMode() })
                   return
                 }
-                goExplore(() => { setSetting('室外'); setRainyOnly(false); setEventOnly(false); setRestaurantOnly(false) })
+                goExplore(() => { setAge('all'); setSetting('室外'); setRainyOnly(false); setEventOnly(false); setRestaurantOnly(false) })
               }}
             />
           ) : (
@@ -898,9 +948,22 @@ function App() {
                 <label className="search-box">
                   <Search size={19} />
                   <input
+                    type="search"
+                    enterKeyHint="search"
                     value={query}
                     onChange={(event) => setQuery(event.target.value)}
-                    onKeyDown={(event) => { if (event.key === 'Enter') goExplore() }}
+                    onKeyDown={(event) => {
+                      if (event.key === 'Enter') {
+                        goExplore(() => {
+                          setAge('all')
+                          setSetting('全部')
+                          setDuration('全部')
+                          setRainyOnly(false)
+                          setEventOnly(false)
+                          setRestaurantOnly(false)
+                        })
+                      }
+                    }}
                     placeholder="搜尋景點、城市或想玩的活動"
                   />
                   {query && <button onClick={() => setQuery('')} aria-label="清除搜尋"><X size={16} /></button>}
@@ -1187,8 +1250,21 @@ function App() {
             <label className="search-box">
               <Search size={18} />
               <input
+                type="search"
+                enterKeyHint="search"
                 value={query}
                 onChange={(event) => setQuery(event.target.value)}
+                onKeyDown={(event) => {
+                  if (event.key === 'Enter') {
+                    setAge('all')
+                    setSetting('全部')
+                    setDuration('全部')
+                    setRainyOnly(false)
+                    setEventOnly(false)
+                    setRestaurantOnly(false)
+                    event.currentTarget.blur()
+                  }
+                }}
                 placeholder="搜尋景點、城市或活動"
               />
               {query && <button onClick={() => setQuery('')} aria-label="清除搜尋"><X size={16} /></button>}
@@ -1230,13 +1306,13 @@ function App() {
             <span>快速情境</span>
             <button
               className={rainyOnly ? 'active' : ''}
-              onClick={() => { playUiSound(); setRainyOnly(true); setEventOnly(false); setRestaurantOnly(false) }}
+              onClick={() => { playUiSound(); setAge('all'); setSetting('全部'); setRainyOnly(true); setEventOnly(false); setRestaurantOnly(false) }}
             >
               <Umbrella size={14} />雨天
             </button>
             <button
               className={setting === '室外' && !rainyOnly && !restaurantOnly ? 'active' : ''}
-              onClick={() => { playUiSound(); setSetting('室外'); setRainyOnly(false); setEventOnly(false); setRestaurantOnly(false) }}
+              onClick={() => { playUiSound(); setAge('all'); setSetting('室外'); setRainyOnly(false); setEventOnly(false); setRestaurantOnly(false) }}
             >
               <TreePine size={14} />放電
             </button>
@@ -1248,7 +1324,7 @@ function App() {
             </button>
             <button
               className={restaurantOnly ? 'active' : ''}
-              onClick={enableRestaurantMode}
+              onClick={() => { playUiSound(); setAge('all'); setSetting('全部'); setRainyOnly(false); setEventOnly(false); enableRestaurantMode() }}
             >
               <Utensils size={14} />爸媽想休息
             </button>
