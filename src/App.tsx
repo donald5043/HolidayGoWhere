@@ -481,6 +481,7 @@ function App() {
   const [mapViewport, setMapViewport] = useState<MapViewport | null>(null)
   const [mapFocusKey, setMapFocusKey] = useState(0)
   const [resultsSheetExpanded, setResultsSheetExpanded] = useState(false)
+  const [isCompactResultsView, setIsCompactResultsView] = useState(false)
   const viewportRequestRegion = useRef<RegionName | null>(null)
   const [locationStatus, setLocationStatus] = useState<'idle' | 'loading' | 'ready' | 'error'>('idle')
   const [locationMessage, setLocationMessage] = useState('')
@@ -552,6 +553,14 @@ function App() {
   useEffect(() => {
     localStorage.setItem('holiday-go-where:click-history', JSON.stringify(clickHistory))
   }, [clickHistory])
+
+  useEffect(() => {
+    const media = window.matchMedia('(max-width: 899px), (max-height: 520px)')
+    const update = () => setIsCompactResultsView(media.matches)
+    update()
+    media.addEventListener('change', update)
+    return () => media.removeEventListener('change', update)
+  }, [])
 
   const playUiSound = useCallback((kind: 'tap' | 'favorite' | 'open' = 'tap', force = false) => {
     if (!soundEnabled && !force) return
@@ -837,6 +846,9 @@ function App() {
       : filteredPlaces,
     [activeTab, favorites, filteredPlaces],
   )
+  useEffect(() => {
+    setResultsSheetExpanded(false)
+  }, [activeTab, query, age, setting, duration, rainyOnly, eventOnly, restaurantOnly, region])
   const viewportPlaces = useMemo(
     () => {
       if (!mapViewport) return displayedPlaces
@@ -854,8 +866,12 @@ function App() {
     [displayedPlaces, mapViewport],
   )
   const visiblePlaces = useMemo(
-    () => viewportPlaces.slice(0, MAX_VISIBLE_PLACES),
-    [viewportPlaces],
+    () => {
+      const compactLimit = resultsSheetExpanded ? 24 : 6
+      const limit = isCompactResultsView ? compactLimit : MAX_VISIBLE_PLACES
+      return viewportPlaces.slice(0, limit)
+    },
+    [viewportPlaces, isCompactResultsView, resultsSheetExpanded],
   )
   const mapPlaces = useMemo(
     () => {
@@ -866,6 +882,7 @@ function App() {
   const mapAreaLabel = mapViewport
     ? `${viewportPlaces.length} 筆在目前地圖範圍`
     : `${displayedPlaces.length} 筆符合條件`
+  const canExpandResults = isCompactResultsView && viewportPlaces.length > 6
 
   const recommended = useMemo(() => {
     if (placesStatus !== 'ready' || !places.length) return []
@@ -1525,11 +1542,13 @@ function App() {
                 <span className="sheet-grabber" aria-hidden="true" />
                 <div>
                   <strong>{mapViewport ? '目前地圖範圍' : activeTab === 'favorites' ? '收藏清單' : '推薦清單'}</strong>
-                  <small>{mapAreaLabel}</small>
+                  <small>{mapAreaLabel}{isCompactResultsView ? `・目前顯示 ${visiblePlaces.length} 筆` : ''}</small>
                 </div>
-                <button onClick={() => setResultsSheetExpanded((value) => !value)}>
-                  {resultsSheetExpanded ? '收合' : '展開'}
-                </button>
+                {canExpandResults ? (
+                  <button onClick={() => setResultsSheetExpanded((value) => !value)}>
+                    {resultsSheetExpanded ? '收合' : '展開'}
+                  </button>
+                ) : <span />}
               </div>
               {placesStatus === 'loading' ? (
                 <div className="empty-state loading-state">

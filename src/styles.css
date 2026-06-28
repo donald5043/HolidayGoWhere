@@ -3700,7 +3700,7 @@ p.wizard-reason {
   }
 
   .mobile-sheet-head {
-    display: none;
+    display: grid;
   }
 
   .place-image-wrap {
