@@ -2475,6 +2475,55 @@ p.wizard-reason {
   color: var(--color-primary);
 }
 
+.weekend-plan-controls {
+  margin-top: 14px;
+  padding: 12px;
+  border: 1px solid rgba(45,74,69,0.08);
+  border-radius: 22px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  background: rgba(255,255,255,0.54);
+}
+
+.weekend-plan-controls > div {
+  min-width: 0;
+  display: grid;
+  gap: 7px;
+}
+
+.weekend-plan-controls span {
+  color: var(--color-text-secondary);
+  font-size: 12px;
+  font-weight: 760;
+}
+
+.weekend-segment {
+  padding: 4px;
+  border-radius: var(--radius-pill);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+  background: rgba(45,74,69,0.07);
+}
+
+.weekend-segment button {
+  min-height: 32px;
+  border: 0;
+  border-radius: var(--radius-pill);
+  color: var(--color-text-secondary);
+  background: transparent;
+  font-size: 12px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.weekend-segment button.is-active {
+  color: var(--color-primary-dark);
+  background: rgba(255,252,247,0.92);
+  box-shadow: 0 8px 18px rgba(36,59,55,0.08);
+}
+
 .weekend-plan {
   margin-top: 14px;
   padding: 14px;
@@ -2494,6 +2543,53 @@ p.wizard-reason {
 .weekend-plan-title span {
   color: var(--color-text-secondary);
   font-size: 12px;
+}
+
+.weekend-plan-summary {
+  margin-bottom: 12px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.weekend-plan-summary span {
+  min-height: 42px;
+  padding: 8px;
+  border-radius: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: var(--color-text);
+  background: rgba(255,252,247,0.72);
+  font-size: 12px;
+  font-weight: 780;
+  text-align: center;
+}
+
+.weekend-route-note {
+  margin-bottom: 12px;
+  padding: 11px;
+  border: 1px solid rgba(120,155,141,0.18);
+  border-radius: 18px;
+  display: grid;
+  grid-template-columns: 18px minmax(0, 1fr);
+  gap: 8px;
+  color: var(--color-secondary);
+  background: rgba(238,248,242,0.76);
+}
+
+.weekend-route-note strong {
+  display: block;
+  color: var(--color-text);
+  font-size: 13px;
+}
+
+.weekend-route-note p {
+  margin: 3px 0 0;
+  color: var(--color-text-secondary);
+  font-size: 12px;
+  line-height: 1.55;
 }
 
 .weekend-plan ol {
@@ -2551,6 +2647,53 @@ p.wizard-reason {
   display: block;
   color: var(--color-text-secondary);
   font-size: 12px;
+}
+
+.weekend-plan-detail {
+  margin-left: 8px;
+  padding: 10px 11px;
+  border-left: 2px solid rgba(217,119,95,0.24);
+  color: var(--color-text-secondary);
+}
+
+.weekend-plan-badges {
+  margin-bottom: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.weekend-plan-badges span {
+  min-height: 24px;
+  padding: 0 9px;
+  border-radius: var(--radius-pill);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--color-primary-dark);
+  background: rgba(255,252,247,0.8);
+  font-size: 11px;
+  font-weight: 780;
+}
+
+.weekend-plan-detail p {
+  margin: 0;
+  color: var(--color-text);
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.weekend-plan-detail ul {
+  margin: 7px 0 0;
+  padding-left: 16px;
+  display: grid;
+  gap: 4px;
+}
+
+.weekend-plan-detail li {
+  color: var(--color-text-secondary);
+  font-size: 12px;
+  line-height: 1.5;
 }
 
 .phase-section,
