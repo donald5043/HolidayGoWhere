@@ -73,6 +73,7 @@ import { MichelinBadge, PlaceCard, PlaceImage } from './components/PlaceCard'
 import { FilterSheet } from './components/FilterSheet'
 import { ReportForm } from './components/ReportForm'
 import { ProfileDrawer } from './components/ProfileDrawer'
+import { TodayInspiration } from './components/TodayInspiration'
 import { compactNumber } from './lib/format'
 
 const regionIcons: Partial<Record<(typeof regions)[number], ReactNode>> = {
@@ -333,6 +334,10 @@ function App() {
   const [reportAmenities, setReportAmenities] = useState<Partial<Record<FamilyAmenityKey, boolean>>>({})
   const [favorites, setFavorites] = useFavorites()
   const [reports, setReports] = useReports()
+  const showClassicHome = useMemo(
+    () => new URLSearchParams(window.location.search).get('classic') === '1',
+    [],
+  )
 
   useEffect(() => {
     const media = window.matchMedia('(max-width: 899px), (max-height: 520px)')
@@ -672,6 +677,16 @@ function App() {
     const offset = seed % Math.max(ranked.length, 1)
     return [...ranked.slice(offset), ...ranked.slice(0, offset)].slice(0, 10)
   }, [places, placesStatus])
+  const todayInspirationPlaces = useMemo(() => {
+    const source = recommended.length ? recommended : places
+    return [...source]
+      .sort((first, second) => (
+        Number(Boolean(second.rainyDay)) - Number(Boolean(first.rainyDay)) ||
+        Number(Boolean(second.familyAmenities)) - Number(Boolean(first.familyAmenities)) ||
+        getQualityScore(second) - getQualityScore(first)
+      ))
+      .slice(0, 6)
+  }, [recommended, places])
 
   const nearbyPlaces = useMemo(() => {
     if (!userLocation || placesStatus !== 'ready') return [] as { place: Place; dist: number }[]
@@ -837,6 +852,33 @@ function App() {
 
       <main>
         {activeTab === 'home' && (
+          !showClassicHome ? (
+            <TodayInspiration
+              places={todayInspirationPlaces}
+              weather={weather}
+              userLocation={userLocation}
+              favorites={favorites}
+              onOpenPlace={openPlace}
+              onFavorite={toggleFavorite}
+              onExplore={() => goExplore()}
+              onNearby={() => goExplore(findNearbyPlaces)}
+              onScenario={(scenario) => {
+                if (scenario === 'rainy') {
+                  goExplore(() => { setRainyOnly(true); setEventOnly(false) })
+                  return
+                }
+                if (scenario === 'stroller') {
+                  goExplore(() => { setAge('0-2'); setRainyOnly(false); setEventOnly(false) })
+                  return
+                }
+                if (scenario === 'parents') {
+                  goExplore(enableRestaurantMode)
+                  return
+                }
+                goExplore(() => { setSetting('室外'); setRainyOnly(false); setEventOnly(false); setRestaurantOnly(false) })
+              }}
+            />
+          ) : (
           <div className="home-view">
             <section className="hero-card">
               <img
@@ -1136,6 +1178,7 @@ function App() {
               </div>
             </section>
           </div>
+          )
         )}
 
         {activeTab !== 'home' && (
@@ -1180,6 +1223,34 @@ function App() {
             </button>
             <button className={restaurantOnly ? 'active' : ''} onClick={toggleRestaurantMode}>
               <Utensils size={14} /> 餐廳
+            </button>
+          </div>
+
+          <div className="explore-scenario-chips" aria-label="快速情境">
+            <span>快速情境</span>
+            <button
+              className={rainyOnly ? 'active' : ''}
+              onClick={() => { playUiSound(); setRainyOnly(true); setEventOnly(false); setRestaurantOnly(false) }}
+            >
+              <Umbrella size={14} />雨天
+            </button>
+            <button
+              className={setting === '室外' && !rainyOnly && !restaurantOnly ? 'active' : ''}
+              onClick={() => { playUiSound(); setSetting('室外'); setRainyOnly(false); setEventOnly(false); setRestaurantOnly(false) }}
+            >
+              <TreePine size={14} />放電
+            </button>
+            <button
+              className={age === '0-2' && !restaurantOnly ? 'active' : ''}
+              onClick={() => { playUiSound(); setAge('0-2'); setRainyOnly(false); setEventOnly(false); setRestaurantOnly(false) }}
+            >
+              <Baby size={14} />推車
+            </button>
+            <button
+              className={restaurantOnly ? 'active' : ''}
+              onClick={enableRestaurantMode}
+            >
+              <Utensils size={14} />爸媽想休息
             </button>
           </div>
 

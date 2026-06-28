@@ -1759,6 +1759,66 @@ p.wizard-reason {
   box-shadow: 0 4px 14px rgba(217,119,95,0.28);
 }
 
+.explore-scenario-chips {
+  margin: 12px 0 14px;
+  padding: 8px;
+  border: 1px solid rgba(45,74,69,0.08);
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow-x: auto;
+  background: rgba(255,252,247,0.70);
+  box-shadow: var(--shadow-sm);
+  backdrop-filter: blur(18px);
+  scrollbar-width: none;
+}
+
+.explore-scenario-chips::-webkit-scrollbar {
+  display: none;
+}
+
+.explore-scenario-chips > span {
+  flex: 0 0 auto;
+  padding: 0 8px;
+  color: var(--color-primary-dark);
+  font-size: 12px;
+  font-weight: 820;
+  letter-spacing: 0.04em;
+}
+
+.explore-scenario-chips button {
+  min-height: 38px;
+  padding: 0 13px;
+  border: 1px solid rgba(45,74,69,0.08);
+  border-radius: var(--radius-pill);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--color-text-secondary);
+  background: rgba(255,255,255,0.58);
+  font-size: 13px;
+  font-weight: 720;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: transform var(--transition-fast), background var(--transition-fast), color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.explore-scenario-chips button:hover {
+  color: var(--color-text);
+  background: rgba(120,155,141,0.12);
+}
+
+.explore-scenario-chips button.active {
+  color: #fff;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  box-shadow: 0 8px 18px rgba(184,90,71,0.20);
+}
+
+.explore-scenario-chips button:active {
+  transform: scale(0.98);
+}
+
 .region-tabs {
   padding: 4px;
   border-radius: var(--radius-pill);
@@ -1924,6 +1984,435 @@ p.wizard-reason {
 
 .load-more-button:active {
   transform: scale(0.98);
+}
+
+/* Today inspiration home */
+.phase-preview {
+  width: min(1180px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 28px 0 116px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.phase-hero {
+  position: relative;
+  overflow: hidden;
+  min-height: 520px;
+  padding: clamp(26px, 5vw, 58px);
+  border: 1px solid rgba(45,74,69,0.10);
+  border-radius: 38px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.88fr);
+  align-items: center;
+  gap: clamp(24px, 5vw, 54px);
+  background:
+    radial-gradient(circle at 12% 16%, rgba(255,220,188,0.78), transparent 32%),
+    radial-gradient(circle at 92% 10%, rgba(190,226,255,0.70), transparent 30%),
+    linear-gradient(135deg, #fffaf1, #eff7ef 58%, #fff5e9);
+  box-shadow: 0 28px 80px rgba(36,59,55,0.14);
+}
+
+.phase-hero-glow {
+  position: absolute;
+  inset: auto -80px -160px auto;
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  background: rgba(217,119,95,0.22);
+  filter: blur(28px);
+  pointer-events: none;
+}
+
+.phase-hero-copy {
+  position: relative;
+  z-index: 1;
+}
+
+.phase-kicker,
+.phase-section-head span,
+.phase-plan-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--color-primary-dark);
+  font-size: 13px;
+  font-weight: 780;
+  letter-spacing: 0.04em;
+}
+
+.phase-hero h1 {
+  max-width: 620px;
+  margin: 14px 0 16px;
+  color: var(--color-text);
+  font-size: clamp(42px, 7vw, 72px);
+  line-height: 0.96;
+  letter-spacing: -0.06em;
+}
+
+.phase-hero h1 span {
+  display: block;
+}
+
+.phase-hero p {
+  max-width: 540px;
+  margin: 0;
+  color: var(--color-text-secondary);
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.phase-weather-pill {
+  width: fit-content;
+  margin-top: 22px;
+  padding: 11px 15px;
+  border: 1px solid rgba(45,74,69,0.10);
+  border-radius: var(--radius-pill);
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  color: var(--color-text);
+  background: rgba(255,252,247,0.72);
+  box-shadow: var(--shadow-sm);
+  backdrop-filter: blur(18px);
+  font-size: 14px;
+  font-weight: 720;
+}
+
+.phase-hero-actions {
+  margin-top: 26px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.phase-hero-actions button,
+.phase-hero-actions a {
+  min-height: 48px;
+  padding: 0 18px;
+  border-radius: var(--radius-pill);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 780;
+  text-decoration: none;
+}
+
+.phase-hero-actions button {
+  border: 0;
+  color: #fff;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  box-shadow: 0 18px 36px rgba(184,90,71,0.26);
+  cursor: pointer;
+}
+
+.phase-hero-actions .phase-secondary-action {
+  border: 1px solid rgba(45,74,69,0.12);
+  color: var(--color-text-secondary);
+  background: rgba(255,252,247,0.68);
+  box-shadow: none;
+}
+
+.phase-hero-actions a {
+  border: 1px solid rgba(45,74,69,0.12);
+  color: var(--color-text-secondary);
+  background: rgba(255,252,247,0.68);
+}
+
+.phase-hero-card {
+  position: relative;
+  z-index: 1;
+  min-height: 430px;
+  overflow: hidden;
+  border: 8px solid rgba(255,252,247,0.92);
+  border-radius: 34px;
+  background: var(--color-surface);
+  box-shadow: 0 28px 70px rgba(36,59,55,0.18);
+  cursor: pointer;
+}
+
+.phase-hero-photo {
+  width: 100%;
+  height: 100%;
+  min-height: 430px;
+  object-fit: cover;
+  display: block;
+}
+
+.phase-hero-card::after {
+  content: "";
+  position: absolute;
+  inset: 35% 0 0;
+  background: linear-gradient(transparent, rgba(20,42,38,0.78));
+}
+
+.phase-hero-mascot {
+  position: absolute;
+  z-index: 3;
+  top: 14px;
+  right: 14px;
+  width: 118px;
+  filter: drop-shadow(0 16px 24px rgba(36,59,55,0.20));
+}
+
+.phase-hero-place {
+  position: absolute;
+  z-index: 3;
+  left: 22px;
+  right: 22px;
+  bottom: 22px;
+  color: #fff;
+}
+
+.phase-hero-place span {
+  display: inline-flex;
+  margin-bottom: 8px;
+  padding: 6px 10px;
+  border-radius: var(--radius-pill);
+  background: rgba(255,255,255,0.18);
+  backdrop-filter: blur(14px);
+  font-size: 12px;
+  font-weight: 760;
+}
+
+.phase-hero-place strong {
+  display: block;
+  font-size: 28px;
+  line-height: 1.2;
+}
+
+.phase-hero-place small {
+  display: block;
+  max-width: 420px;
+  margin-top: 8px;
+  color: rgba(255,255,255,0.84);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.phase-scenarios {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.phase-scenarios button {
+  min-height: 116px;
+  padding: 18px;
+  border: 1px solid rgba(45,74,69,0.10);
+  border-radius: 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  color: var(--color-text);
+  background: rgba(255,252,247,0.78);
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.phase-scenarios button:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-card-hover);
+}
+
+.phase-scenarios svg {
+  color: var(--color-primary);
+}
+
+.phase-scenarios span {
+  font-size: 16px;
+  font-weight: 820;
+}
+
+.phase-scenarios small {
+  color: var(--color-text-secondary);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.phase-section,
+.phase-memory-card {
+  padding: clamp(22px, 4vw, 34px);
+  border: 1px solid rgba(45,74,69,0.10);
+  border-radius: 34px;
+  background: rgba(255,252,247,0.82);
+  box-shadow: var(--shadow-sm);
+}
+
+.phase-section-head {
+  max-width: 680px;
+  margin-bottom: 22px;
+}
+
+.phase-section-head h2,
+.phase-memory-card h2 {
+  margin: 8px 0 0;
+  color: var(--color-text);
+  font-size: clamp(26px, 4vw, 40px);
+  line-height: 1.12;
+  letter-spacing: -0.04em;
+}
+
+.phase-plan-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.phase-plan-card {
+  overflow: hidden;
+  border: 1px solid rgba(45,74,69,0.09);
+  border-radius: 28px;
+  background: var(--color-surface);
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.phase-plan-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-card-hover);
+}
+
+.phase-plan-image {
+  position: relative;
+  height: 210px;
+  overflow: hidden;
+}
+
+.phase-plan-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.phase-heart {
+  position: absolute;
+  top: 13px;
+  right: 13px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(255,255,255,0.72);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: var(--color-text);
+  background: rgba(255,252,247,0.88);
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+}
+
+.phase-heart.is-favorite {
+  color: var(--color-primary);
+}
+
+.phase-plan-copy {
+  padding: 18px;
+}
+
+.phase-plan-copy h3 {
+  margin: 7px 0 8px;
+  color: var(--color-text);
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.phase-plan-copy p {
+  min-height: 66px;
+  margin: 0;
+  color: var(--color-text-secondary);
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.phase-plan-meta {
+  margin: 14px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.phase-plan-meta span {
+  padding: 6px 9px;
+  border-radius: var(--radius-pill);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--color-text-secondary);
+  background: rgba(120,155,141,0.10);
+  font-size: 12px;
+  font-weight: 680;
+}
+
+.phase-radar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.phase-radar div {
+  display: grid;
+  gap: 5px;
+}
+
+.phase-radar span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--color-text-secondary);
+  font-size: 12px;
+  font-weight: 720;
+}
+
+.phase-radar i {
+  position: relative;
+  overflow: hidden;
+  height: 8px;
+  border-radius: 999px;
+  background: rgba(45,74,69,0.08);
+}
+
+.phase-radar i::after {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: var(--score);
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+}
+
+.phase-memory-card {
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr);
+  align-items: center;
+  gap: 22px;
+  background:
+    radial-gradient(circle at 12% 20%, rgba(255,210,158,0.45), transparent 32%),
+    rgba(255,252,247,0.84);
+}
+
+.phase-memory-mascot {
+  width: 150px;
+  justify-self: center;
+}
+
+.phase-memory-card span {
+  color: var(--color-primary-dark);
+  font-size: 13px;
+  font-weight: 780;
+}
+
+.phase-memory-card p {
+  max-width: 760px;
+  margin: 12px 0 0;
+  color: var(--color-text-secondary);
+  line-height: 1.75;
 }
 
 .place-card {
@@ -3484,6 +3973,125 @@ p.wizard-reason {
     max-width: 158px;
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+
+  .phase-preview {
+    width: min(100% - 24px, 430px);
+    padding: 18px 0 104px;
+    gap: 16px;
+  }
+
+  .phase-hero {
+    min-height: 0;
+    padding: 24px 18px 18px;
+    border-radius: 30px;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .phase-hero h1 {
+    margin-top: 12px;
+    font-size: clamp(35px, 9.8vw, 38px);
+    line-height: 1.12;
+    letter-spacing: -0.045em;
+    text-wrap: balance;
+  }
+
+  .phase-hero h1 span {
+    display: block;
+    white-space: nowrap;
+  }
+
+  .phase-hero p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .phase-weather-pill {
+    align-items: flex-start;
+    font-size: 13px;
+    line-height: 1.45;
+  }
+
+  .phase-hero-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .phase-hero-actions button,
+  .phase-hero-actions a {
+    justify-content: center;
+  }
+
+  .phase-hero-card {
+    min-height: 360px;
+    border-width: 6px;
+    border-radius: 28px;
+  }
+
+  .phase-hero-photo {
+    min-height: 360px;
+  }
+
+  .phase-hero-mascot {
+    width: 88px;
+  }
+
+  .phase-hero-place {
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+  }
+
+  .phase-hero-place strong {
+    font-size: 23px;
+  }
+
+  .phase-scenarios {
+    margin: 0 -12px;
+    padding: 0 12px 4px;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+
+  .phase-scenarios button {
+    min-width: 172px;
+    min-height: 106px;
+    scroll-snap-align: start;
+  }
+
+  .phase-section,
+  .phase-memory-card {
+    padding: 20px 16px;
+    border-radius: 28px;
+  }
+
+  .phase-section-head h2,
+  .phase-memory-card h2 {
+    font-size: 25px;
+  }
+
+  .phase-plan-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .phase-plan-image {
+    height: 205px;
+  }
+
+  .phase-plan-copy p {
+    min-height: 0;
+  }
+
+  .phase-memory-card {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .phase-memory-mascot {
+    width: 132px;
   }
 
   .home-view,
