@@ -2726,6 +2726,34 @@ p.wizard-reason {
   line-height: 1.55;
 }
 
+.weekend-plan-omitted {
+  margin-bottom: 12px;
+  padding: 10px 12px;
+  border: 1px dashed rgba(217,119,95,0.22);
+  border-radius: 18px;
+  display: grid;
+  gap: 3px;
+  background: rgba(255,252,247,0.62);
+}
+
+.weekend-plan-omitted strong {
+  color: var(--color-primary-dark);
+  font-size: 12px;
+}
+
+.weekend-plan-omitted span {
+  color: var(--color-text);
+  font-size: 13px;
+  font-weight: 760;
+  line-height: 1.45;
+}
+
+.weekend-plan-omitted small {
+  color: var(--color-text-secondary);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
 .weekend-plan ol {
   margin: 0;
   padding: 0;

@@ -41,6 +41,7 @@ type PlanStep = {
 
 type HalfDayPlan = {
   steps: PlanStep[]
+  omittedPlaces: Place[]
   startAt: number
   endAt: number
   totalMinutes: number
@@ -151,14 +152,12 @@ function getParentTips(place: Place, index: number) {
   return tips.slice(0, 3)
 }
 
-function chooseRoute(candidates: Place[], userLocation: UserLocation | null, pace: PlanPace) {
-  const maxStops = pace === 'full' ? 3 : 2
-  const maxPlanMinutes = pace === 'full' ? 300 : 240
+function chooseRoute(candidates: Place[], userLocation: UserLocation | null) {
+  const maxStops = Math.min(3, candidates.length)
   const orderedPool = [...candidates].sort((first, second) => scoreCandidate(second, userLocation) - scoreCandidate(first, userLocation))
   const selected: Place[] = []
   const remaining = [...orderedPool]
   let anchor: UserLocation | null = userLocation
-  let projectedMinutes = 0
 
   while (remaining.length && selected.length < maxStops) {
     const ranked = remaining
@@ -177,17 +176,9 @@ function chooseRoute(candidates: Place[], userLocation: UserLocation | null, pac
         return second.score - first.score
       })
 
-    const next = ranked.find((item) => {
-      if (selected.length === 0) return true
-      const nextMinutes = projectedMinutes + item.travel + stayMinutes(item.place, pace)
-      return nextMinutes <= maxPlanMinutes
-    }) || ranked[0]
-
-    if (selected.length >= 2 && projectedMinutes + next.travel + stayMinutes(next.place, pace) > maxPlanMinutes) break
-
+    const next = ranked[0]
     const [place] = remaining.splice(next.index, 1)
     selected.push(place)
-    projectedMinutes += next.travel + stayMinutes(place, pace)
     anchor = place
   }
 
@@ -203,7 +194,9 @@ function buildHalfDayPlan(
   if (candidates.length < 2) return null
 
   const startAt = startPeriod === 'morning' ? 9 * 60 + 30 : 14 * 60
-  const selected = chooseRoute(candidates, userLocation, pace)
+  const selected = chooseRoute(candidates, userLocation)
+  const selectedIds = new Set(selected.map((place) => place.id))
+  const omittedPlaces = candidates.filter((place) => !selectedIds.has(place.id))
   let cursor = startAt
   let previous: UserLocation | null = userLocation
   let totalTravelMinutes = 0
@@ -254,6 +247,7 @@ function buildHalfDayPlan(
 
   return {
     steps,
+    omittedPlaces,
     startAt,
     endAt: cursor,
     totalMinutes,
@@ -496,6 +490,16 @@ export function WeekendInteractionHub({
                   <p>{halfDayPlan.routeNote}</p>
                 </div>
               </div>
+
+              {halfDayPlan.omittedPlaces.length > 0 && (
+                <div className="weekend-plan-omitted">
+                  <strong>這次先沒排入</strong>
+                  <span>
+                    {halfDayPlan.omittedPlaces.map((place) => place.name).join('、')}
+                  </span>
+                  <small>半日最多先排 3 站，避免帶孩子出門變成趕場。</small>
+                </div>
+              )}
 
               <ol>
                 {halfDayPlan.steps.map(({ place, arrive, leave, stay, travel, distance, reason, tips, badges }, index) => (
