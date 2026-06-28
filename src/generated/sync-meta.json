@@ -1,7 +1,7 @@
 {
   "sourceUrl": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
-  "sourceUpdatedAt": "2026-06-27T14:30:49+08:00",
-  "generatedFromSourceAt": "2026-06-27T14:30:49+08:00",
+  "sourceUpdatedAt": "2026-06-29T02:31:50+08:00",
+  "generatedFromSourceAt": "2026-06-29T02:31:50+08:00",
   "sourceCount": 6083,
   "restaurantSourceCount": 3690,
   "restaurantPublishedCount": 2664,
@@ -13,21 +13,21 @@
     "quality": 828
   },
   "eventSourceCount": 791,
-  "eventPublishedCount": 205,
+  "eventPublishedCount": 198,
   "eventRejected": {
-    "expired": 485,
+    "expired": 494,
     "coordinate": 1,
-    "duplicate": 17,
+    "duplicate": 15,
     "relevance": 83
   },
-  "candidateCount": 6042,
-  "publishedCount": 6042,
+  "candidateCount": 6035,
+  "publishedCount": 6035,
   "featuredCount": 300,
   "regionCounts": {
-    "北部": 1637,
-    "中部": 1877,
-    "南部": 1283,
-    "東部": 747,
+    "北部": 1636,
+    "中部": 1874,
+    "南部": 1282,
+    "東部": 745,
     "離島": 498
   },
   "rejected": {
@@ -44,7 +44,7 @@
     "咖啡下午茶": 266,
     "室內餐廳": 2027,
     "探索學習": 240,
-    "本週活動": 205,
+    "本週活動": 198,
     "甜點冰品": 290,
     "百貨商場": 34,
     "自然放電": 1221,
@@ -75,7 +75,7 @@
     "nursingCount": 3996,
     "toiletCount": 45679,
     "nursingUpdatedAt": "2026-01-26 15:04:48",
-    "toiletUpdatedAt": "2026-06-27 09:10:54",
+    "toiletUpdatedAt": "2026-06-28 09:09:24",
     "sources": [
       {
         "id": 23750,

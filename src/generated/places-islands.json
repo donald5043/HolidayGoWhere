@@ -1387,27 +1387,27 @@
     }
   },
   {
-    "id": "Event_A15010200H_000005",
-    "name": "澎湖自行車春季領騎服務",
+    "id": "Event_371020000A_004201",
+    "name": "金門親子嘉年華",
     "region": "離島",
-    "city": "澎湖縣",
-    "district": "馬公市",
-    "ageMin": 3,
+    "city": "金門縣",
+    "district": "金沙鎮",
+    "ageMin": 0,
     "ageMax": 12,
-    "setting": "室內外",
+    "setting": "室外",
     "duration": "半日",
     "category": "本週活動",
     "rating": null,
     "reviews": 0,
     "priceLabel": "請查官網",
-    "address": "澎湖縣馬公市光華里171號",
-    "hours": "3/1－6/30",
-    "lat": 23.55658,
-    "lng": 119.60646,
-    "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20260306115600796563.jpg",
+    "address": "金門縣金沙鎮",
+    "hours": "6/30－8/31",
+    "lat": 24.43586,
+    "lng": 118.31705,
+    "image": "https://kinmen.travel/image/47032/640x480",
     "imageCandidates": [],
     "accent": "#ff6b6b",
-    "description": "為讓來自全台的車友體驗澎湖之美，深入巷弄轉角間所隱藏的常民文化、生活秘境，於春、秋季時節推動全國首創「自行車領騎服務活動」，由專業領騎志工協助自行車領騎、景點解說等服務，讓車友感受菊島不同風情的騎乘享受。春季：115年3月1日至6月30日止秋季：115年9月1日至11月30日止報名方式：5人（含）以上團體，並於活動前7日至報名網站進行申請活動內容：1.領騎及…",
+    "description": "「2026金門親子嘉年華」將於7月1日至8月31日熱鬧登場，串聯暑假期間金門各項精彩活動，推出9大系列內容與80項親子體驗遊，邀請大小朋友一起走進金門，玩活動、逛市集、看表演、拍氣偶，留下充滿歡笑的夏日回憶。",
     "highlights": [
       "本週末限定",
       "期間限定",
@@ -1417,92 +1417,46 @@
       "出發前請確認設施"
     ],
     "familyAmenities": {
-      "accessibility": "confirmed",
+      "accessibility": "notListed",
       "ramp": "notListed",
-      "nursingRoom": "confirmed",
-      "diaperTable": "confirmed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
       "familyRestroom": "notListed",
       "parking": "notListed",
       "strollerFriendly": "notListed",
       "parkingInfo": "官方資料尚未提供停車資訊。",
-      "evidence": [
-        {
-          "amenities": [
-            "nursingRoom"
-          ],
-          "source": "依法應設置哺集乳室公共場所名單",
-          "label": "交通部觀光局澎湖國家風景區管理處澎湖遊客中心",
-          "url": "https://data.gov.tw/dataset/23750",
-          "note": "澎湖縣馬公市光華里171號・週一至週日 | 上午8:00~下午5:30旺季(上午6:30~下午9:30)"
-        },
-        {
-          "amenities": [
-            "accessibility",
-            "diaperTable"
-          ],
-          "source": "全國公廁建檔資料",
-          "label": "澎湖遊客服務中心無障礙廁",
-          "url": "https://data.gov.tw/dataset/30794",
-          "note": "無障礙廁所・尿布檯 1 組・距景點約 73 公尺"
-        }
-      ]
+      "evidence": []
     },
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%BE%8E%E6%B9%96%E8%87%AA%E8%A1%8C%E8%BB%8A%E6%98%A5%E5%AD%A3%E9%A0%98%E9%A8%8E%E6%9C%8D%E5%8B%99%20%E6%BE%8E%E6%B9%96%E7%B8%A3%E9%A6%AC%E5%85%AC%E5%B8%82%E5%85%89%E8%8F%AF%E9%87%8C171%E8%99%9F",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E9%96%80%E8%A6%AA%E5%AD%90%E5%98%89%E5%B9%B4%E8%8F%AF%20%E9%87%91%E9%96%80%E7%B8%A3%E9%87%91%E6%B2%99%E9%8E%AE",
     "sources": [
       {
         "type": "Instagram",
-        "label": "查看 #澎湖自行車春季領騎服務",
-        "url": "https://www.instagram.com/explore/tags/%E6%BE%8E%E6%B9%96%E8%87%AA%E8%A1%8C%E8%BB%8A%E6%98%A5%E5%AD%A3%E9%A0%98%E9%A8%8E%E6%9C%8D%E5%8B%99/"
+        "label": "查看 #金門親子嘉年華",
+        "url": "https://www.instagram.com/explore/tags/%E9%87%91%E9%96%80%E8%A6%AA%E5%AD%90%E5%98%89%E5%B9%B4%E8%8F%AF/"
       },
       {
         "type": "部落格",
         "label": "搜尋親子遊記",
-        "url": "https://www.google.com/search?q=%E6%BE%8E%E6%B9%96%E8%87%AA%E8%A1%8C%E8%BB%8A%E6%98%A5%E5%AD%A3%E9%A0%98%E9%A8%8E%E6%9C%8D%E5%8B%99%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+        "url": "https://www.google.com/search?q=%E9%87%91%E9%96%80%E8%A6%AA%E5%AD%90%E5%98%89%E5%B9%B4%E8%8F%AF%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
       }
     ],
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
-    "sourceId": "Event_A15010200H_000005",
+    "sourceId": "Event_371020000A_004201",
     "qualityScore": 10,
-    "updatedAt": "2026-05-29T14:26:21+08:00",
-    "rainyDay": true,
+    "updatedAt": "2026-06-26T05:49:57+08:00",
+    "rainyDay": false,
     "placeType": "活動",
-    "eventStart": "2026-03-01T08:00:00+08:00",
-    "eventEnd": "2026-06-30T19:00:00+08:00",
+    "eventStart": "2026-06-30T16:00:00+08:00",
+    "eventEnd": "2026-08-31T15:59:59+08:00",
     "weekendEvent": true,
-    "familyEvidence": [
-      {
-        "type": "nursingRoom",
-        "status": "confirmed",
-        "source": "依法應設置哺集乳室公共場所名單",
-        "label": "交通部觀光局澎湖國家風景區管理處澎湖遊客中心",
-        "url": "https://data.gov.tw/dataset/23750",
-        "note": "澎湖縣馬公市光華里171號・週一至週日 | 上午8:00~下午5:30旺季(上午6:30~下午9:30)"
-      },
-      {
-        "type": "accessibility",
-        "status": "nearby",
-        "distanceMeters": 73,
-        "source": "全國公廁建檔資料",
-        "label": "澎湖遊客服務中心無障礙廁",
-        "url": "https://data.gov.tw/dataset/30794",
-        "note": "無障礙廁所・尿布檯 1 組・距景點約 73 公尺"
-      },
-      {
-        "type": "diaperTable",
-        "status": "nearby",
-        "distanceMeters": 73,
-        "source": "全國公廁建檔資料",
-        "label": "澎湖遊客服務中心無障礙廁",
-        "url": "https://data.gov.tw/dataset/30794",
-        "note": "無障礙廁所・尿布檯 1 組・距景點約 73 公尺"
-      }
-    ],
-    "qualityScoreV2": 100,
+    "familyEvidence": [],
+    "qualityScoreV2": 89,
     "completeness": {
-      "score": 67,
+      "score": 50,
       "missing": [
         "官方網站",
-        "票價資訊"
+        "票價資訊",
+        "親子設施"
       ]
     }
   },
@@ -2085,6 +2039,81 @@
     }
   },
   {
+    "id": "Event_371020000A_004431",
+    "name": "夏日親子劇場—《#出發吧寶兒！#醜小鴨歷險記》",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "本週活動",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "金門縣金城鎮環島北路一段66號",
+    "hours": "7/4",
+    "lat": 24.44087,
+    "lng": 118.32351,
+    "image": "https://kinmen.travel/image/47089/640x480",
+    "imageCandidates": [],
+    "accent": "#ff6b6b",
+    "description": "#月日中午點啟售！",
+    "highlights": [
+      "本週末限定",
+      "期間限定",
+      "親子新鮮事"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": []
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%8F%E6%97%A5%E8%A6%AA%E5%AD%90%E5%8A%87%E5%A0%B4%E2%80%94%E3%80%8A%23%E5%87%BA%E7%99%BC%E5%90%A7%E5%AF%B6%E5%85%92%EF%BC%81%23%E9%86%9C%E5%B0%8F%E9%B4%A8%E6%AD%B7%E9%9A%AA%E8%A8%98%E3%80%8B%20%E9%87%91%E9%96%80%E7%B8%A3%E9%87%91%E5%9F%8E%E9%8E%AE%E7%92%B0%E5%B3%B6%E5%8C%97%E8%B7%AF%E4%B8%80%E6%AE%B566%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #夏日親子劇場出發吧寶兒醜小鴨歷險記",
+        "url": "https://www.instagram.com/explore/tags/%E5%A4%8F%E6%97%A5%E8%A6%AA%E5%AD%90%E5%8A%87%E5%A0%B4%E5%87%BA%E7%99%BC%E5%90%A7%E5%AF%B6%E5%85%92%E9%86%9C%E5%B0%8F%E9%B4%A8%E6%AD%B7%E9%9A%AA%E8%A8%98/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E5%A4%8F%E6%97%A5%E8%A6%AA%E5%AD%90%E5%8A%87%E5%A0%B4%E2%80%94%E3%80%8A%23%E5%87%BA%E7%99%BC%E5%90%A7%E5%AF%B6%E5%85%92%EF%BC%81%23%E9%86%9C%E5%B0%8F%E9%B4%A8%E6%AD%B7%E9%9A%AA%E8%A8%98%E3%80%8B%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
+    "sourceId": "Event_371020000A_004431",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-17T06:48:23+08:00",
+    "rainyDay": false,
+    "placeType": "活動",
+    "eventStart": "2026-07-04T11:00:00+08:00",
+    "eventEnd": "2026-07-04T13:00:00+08:00",
+    "weekendEvent": true,
+    "familyEvidence": [],
+    "qualityScoreV2": 81,
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "票價資訊",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
     "id": "Event_A15010500H_000009",
     "name": "馬祖之美，嶼眾不同",
     "region": "離島",
@@ -2221,7 +2250,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081943",
     "qualityScore": 10,
-    "updatedAt": "2026-06-27T02:00:03+08:00",
+    "updatedAt": "2026-06-28T02:00:05+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-04-01T00:00:00+08:00",
@@ -2532,81 +2561,6 @@
     }
   },
   {
-    "id": "Event_371020000A_004375",
-    "name": "薪火相傳·文學花園—陳慶元師生文學作品聯展",
-    "region": "離島",
-    "city": "金門縣",
-    "district": "金沙鎮",
-    "ageMin": 3,
-    "ageMax": 12,
-    "setting": "室外",
-    "duration": "半日",
-    "category": "本週活動",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查官網",
-    "address": "金門縣金沙鎮",
-    "hours": "4/1－6/30",
-    "lat": 24.43586,
-    "lng": 118.31705,
-    "image": "https://kinmen.travel/image/46295/640x480",
-    "imageCandidates": [],
-    "accent": "#ff6b6b",
-    "description": "「薪火相傳·文學花園—陳慶元師生文學作品聯展」",
-    "highlights": [
-      "本週末限定",
-      "期間限定",
-      "親子新鮮事"
-    ],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "官方資料尚未提供停車資訊。",
-      "evidence": []
-    },
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%96%AA%E7%81%AB%E7%9B%B8%E5%82%B3%C2%B7%E6%96%87%E5%AD%B8%E8%8A%B1%E5%9C%92%E2%80%94%E9%99%B3%E6%85%B6%E5%85%83%E5%B8%AB%E7%94%9F%E6%96%87%E5%AD%B8%E4%BD%9C%E5%93%81%E8%81%AF%E5%B1%95%20%E9%87%91%E9%96%80%E7%B8%A3%E9%87%91%E6%B2%99%E9%8E%AE",
-    "sources": [
-      {
-        "type": "Instagram",
-        "label": "查看 #薪火相傳文學花園陳慶元師生文學作品聯展",
-        "url": "https://www.instagram.com/explore/tags/%E8%96%AA%E7%81%AB%E7%9B%B8%E5%82%B3%E6%96%87%E5%AD%B8%E8%8A%B1%E5%9C%92%E9%99%B3%E6%85%B6%E5%85%83%E5%B8%AB%E7%94%9F%E6%96%87%E5%AD%B8%E4%BD%9C%E5%93%81%E8%81%AF%E5%B1%95/"
-      },
-      {
-        "type": "部落格",
-        "label": "搜尋親子遊記",
-        "url": "https://www.google.com/search?q=%E8%96%AA%E7%81%AB%E7%9B%B8%E5%82%B3%C2%B7%E6%96%87%E5%AD%B8%E8%8A%B1%E5%9C%92%E2%80%94%E9%99%B3%E6%85%B6%E5%85%83%E5%B8%AB%E7%94%9F%E6%96%87%E5%AD%B8%E4%BD%9C%E5%93%81%E8%81%AF%E5%B1%95%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
-      }
-    ],
-    "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
-    "sourceId": "Event_371020000A_004375",
-    "qualityScore": 10,
-    "updatedAt": "2026-03-26T00:59:56+08:00",
-    "rainyDay": false,
-    "placeType": "活動",
-    "eventStart": "2026-04-01T01:00:00+08:00",
-    "eventEnd": "2026-06-30T09:00:00+08:00",
-    "weekendEvent": true,
-    "familyEvidence": [],
-    "qualityScoreV2": 81,
-    "completeness": {
-      "score": 33,
-      "missing": [
-        "官方網站",
-        "票價資訊",
-        "親子設施",
-        "詳細介紹"
-      ]
-    }
-  },
-  {
     "id": "Event_A15010200H_000007",
     "name": "2026望安主題特色遊程",
     "region": "離島",
@@ -2896,7 +2850,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081944",
     "qualityScore": 10,
-    "updatedAt": "2026-06-27T02:00:03+08:00",
+    "updatedAt": "2026-06-28T02:00:05+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-03-01T00:00:00+08:00",
@@ -3049,7 +3003,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081946",
     "qualityScore": 10,
-    "updatedAt": "2026-06-27T02:00:03+08:00",
+    "updatedAt": "2026-06-28T02:00:05+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-04-01T00:00:00+08:00",
@@ -3202,7 +3156,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081945",
     "qualityScore": 10,
-    "updatedAt": "2026-06-27T02:00:03+08:00",
+    "updatedAt": "2026-06-28T02:00:05+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-04-01T00:00:00+08:00",
@@ -3293,6 +3247,126 @@
     }
   },
   {
+    "id": "Event_A15010200H_000005",
+    "name": "澎湖自行車春季領騎服務",
+    "region": "離島",
+    "city": "澎湖縣",
+    "district": "馬公市",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室內外",
+    "duration": "半日",
+    "category": "本週活動",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "澎湖縣馬公市光華里171號",
+    "hours": "3/1－6/30",
+    "lat": 23.55658,
+    "lng": 119.60646,
+    "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20260306115600796563.jpg",
+    "imageCandidates": [],
+    "accent": "#ff6b6b",
+    "description": "為讓來自全台的車友體驗澎湖之美，深入巷弄轉角間所隱藏的常民文化、生活秘境，於春、秋季時節推動全國首創「自行車領騎服務活動」，由專業領騎志工協助自行車領騎、景點解說等服務，讓車友感受菊島不同風情的騎乘享受。春季：115年3月1日至6月30日止秋季：115年9月1日至11月30日止報名方式：5人（含）以上團體，並於活動前7日至報名網站進行申請活動內容：1.領騎及…",
+    "highlights": [
+      "近期活動",
+      "期間限定",
+      "親子新鮮事"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "confirmed",
+      "ramp": "notListed",
+      "nursingRoom": "confirmed",
+      "diaperTable": "confirmed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": [
+        {
+          "amenities": [
+            "nursingRoom"
+          ],
+          "source": "依法應設置哺集乳室公共場所名單",
+          "label": "交通部觀光局澎湖國家風景區管理處澎湖遊客中心",
+          "url": "https://data.gov.tw/dataset/23750",
+          "note": "澎湖縣馬公市光華里171號・週一至週日 | 上午8:00~下午5:30旺季(上午6:30~下午9:30)"
+        },
+        {
+          "amenities": [
+            "accessibility",
+            "diaperTable"
+          ],
+          "source": "全國公廁建檔資料",
+          "label": "澎湖遊客服務中心無障礙廁",
+          "url": "https://data.gov.tw/dataset/30794",
+          "note": "無障礙廁所・尿布檯 1 組・距景點約 73 公尺"
+        }
+      ]
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%BE%8E%E6%B9%96%E8%87%AA%E8%A1%8C%E8%BB%8A%E6%98%A5%E5%AD%A3%E9%A0%98%E9%A8%8E%E6%9C%8D%E5%8B%99%20%E6%BE%8E%E6%B9%96%E7%B8%A3%E9%A6%AC%E5%85%AC%E5%B8%82%E5%85%89%E8%8F%AF%E9%87%8C171%E8%99%9F",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #澎湖自行車春季領騎服務",
+        "url": "https://www.instagram.com/explore/tags/%E6%BE%8E%E6%B9%96%E8%87%AA%E8%A1%8C%E8%BB%8A%E6%98%A5%E5%AD%A3%E9%A0%98%E9%A8%8E%E6%9C%8D%E5%8B%99/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E6%BE%8E%E6%B9%96%E8%87%AA%E8%A1%8C%E8%BB%8A%E6%98%A5%E5%AD%A3%E9%A0%98%E9%A8%8E%E6%9C%8D%E5%8B%99%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
+    "sourceId": "Event_A15010200H_000005",
+    "qualityScore": 10,
+    "updatedAt": "2026-05-29T14:26:21+08:00",
+    "rainyDay": true,
+    "placeType": "活動",
+    "eventStart": "2026-03-01T08:00:00+08:00",
+    "eventEnd": "2026-06-30T19:00:00+08:00",
+    "weekendEvent": false,
+    "familyEvidence": [
+      {
+        "type": "nursingRoom",
+        "status": "confirmed",
+        "source": "依法應設置哺集乳室公共場所名單",
+        "label": "交通部觀光局澎湖國家風景區管理處澎湖遊客中心",
+        "url": "https://data.gov.tw/dataset/23750",
+        "note": "澎湖縣馬公市光華里171號・週一至週日 | 上午8:00~下午5:30旺季(上午6:30~下午9:30)"
+      },
+      {
+        "type": "accessibility",
+        "status": "nearby",
+        "distanceMeters": 73,
+        "source": "全國公廁建檔資料",
+        "label": "澎湖遊客服務中心無障礙廁",
+        "url": "https://data.gov.tw/dataset/30794",
+        "note": "無障礙廁所・尿布檯 1 組・距景點約 73 公尺"
+      },
+      {
+        "type": "diaperTable",
+        "status": "nearby",
+        "distanceMeters": 73,
+        "source": "全國公廁建檔資料",
+        "label": "澎湖遊客服務中心無障礙廁",
+        "url": "https://data.gov.tw/dataset/30794",
+        "note": "無障礙廁所・尿布檯 1 組・距景點約 73 公尺"
+      }
+    ],
+    "qualityScoreV2": 100,
+    "completeness": {
+      "score": 67,
+      "missing": [
+        "官方網站",
+        "票價資訊"
+      ]
+    }
+  },
+  {
     "id": "Event_371020000A_004197",
     "name": "2026烈嶼親子童玩節",
     "region": "離島",
@@ -3365,80 +3439,6 @@
         "官方照片",
         "親子設施",
         "詳細介紹"
-      ]
-    }
-  },
-  {
-    "id": "Event_371020000A_004201",
-    "name": "金門親子嘉年華",
-    "region": "離島",
-    "city": "金門縣",
-    "district": "金沙鎮",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室外",
-    "duration": "半日",
-    "category": "本週活動",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查官網",
-    "address": "金門縣金沙鎮",
-    "hours": "6/30－8/31",
-    "lat": 24.43586,
-    "lng": 118.31705,
-    "image": "https://kinmen.travel/image/47032/640x480",
-    "imageCandidates": [],
-    "accent": "#ff6b6b",
-    "description": "「2026金門親子嘉年華」將於7月1日至8月31日熱鬧登場，串聯暑假期間金門各項精彩活動，推出9大系列內容與80項親子體驗遊，邀請大小朋友一起走進金門，玩活動、逛市集、看表演、拍氣偶，留下充滿歡笑的夏日回憶。",
-    "highlights": [
-      "近期活動",
-      "期間限定",
-      "親子新鮮事"
-    ],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "官方資料尚未提供停車資訊。",
-      "evidence": []
-    },
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E9%96%80%E8%A6%AA%E5%AD%90%E5%98%89%E5%B9%B4%E8%8F%AF%20%E9%87%91%E9%96%80%E7%B8%A3%E9%87%91%E6%B2%99%E9%8E%AE",
-    "sources": [
-      {
-        "type": "Instagram",
-        "label": "查看 #金門親子嘉年華",
-        "url": "https://www.instagram.com/explore/tags/%E9%87%91%E9%96%80%E8%A6%AA%E5%AD%90%E5%98%89%E5%B9%B4%E8%8F%AF/"
-      },
-      {
-        "type": "部落格",
-        "label": "搜尋親子遊記",
-        "url": "https://www.google.com/search?q=%E9%87%91%E9%96%80%E8%A6%AA%E5%AD%90%E5%98%89%E5%B9%B4%E8%8F%AF%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
-      }
-    ],
-    "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
-    "sourceId": "Event_371020000A_004201",
-    "qualityScore": 10,
-    "updatedAt": "2026-06-26T05:49:57+08:00",
-    "rainyDay": false,
-    "placeType": "活動",
-    "eventStart": "2026-06-30T16:00:00+08:00",
-    "eventEnd": "2026-08-31T15:59:59+08:00",
-    "weekendEvent": false,
-    "familyEvidence": [],
-    "qualityScoreV2": 83,
-    "completeness": {
-      "score": 50,
-      "missing": [
-        "官方網站",
-        "票價資訊",
-        "親子設施"
       ]
     }
   },
@@ -4109,81 +4109,6 @@
     }
   },
   {
-    "id": "Event_371020000A_004431",
-    "name": "夏日親子劇場—《#出發吧寶兒！#醜小鴨歷險記》",
-    "region": "離島",
-    "city": "金門縣",
-    "district": "金城鎮",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室外",
-    "duration": "半日",
-    "category": "本週活動",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查官網",
-    "address": "金門縣金城鎮環島北路一段66號",
-    "hours": "7/4",
-    "lat": 24.44087,
-    "lng": 118.32351,
-    "image": "https://kinmen.travel/image/47089/640x480",
-    "imageCandidates": [],
-    "accent": "#ff6b6b",
-    "description": "#月日中午點啟售！",
-    "highlights": [
-      "近期活動",
-      "期間限定",
-      "親子新鮮事"
-    ],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "官方資料尚未提供停車資訊。",
-      "evidence": []
-    },
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%8F%E6%97%A5%E8%A6%AA%E5%AD%90%E5%8A%87%E5%A0%B4%E2%80%94%E3%80%8A%23%E5%87%BA%E7%99%BC%E5%90%A7%E5%AF%B6%E5%85%92%EF%BC%81%23%E9%86%9C%E5%B0%8F%E9%B4%A8%E6%AD%B7%E9%9A%AA%E8%A8%98%E3%80%8B%20%E9%87%91%E9%96%80%E7%B8%A3%E9%87%91%E5%9F%8E%E9%8E%AE%E7%92%B0%E5%B3%B6%E5%8C%97%E8%B7%AF%E4%B8%80%E6%AE%B566%E8%99%9F",
-    "sources": [
-      {
-        "type": "Instagram",
-        "label": "查看 #夏日親子劇場出發吧寶兒醜小鴨歷險記",
-        "url": "https://www.instagram.com/explore/tags/%E5%A4%8F%E6%97%A5%E8%A6%AA%E5%AD%90%E5%8A%87%E5%A0%B4%E5%87%BA%E7%99%BC%E5%90%A7%E5%AF%B6%E5%85%92%E9%86%9C%E5%B0%8F%E9%B4%A8%E6%AD%B7%E9%9A%AA%E8%A8%98/"
-      },
-      {
-        "type": "部落格",
-        "label": "搜尋親子遊記",
-        "url": "https://www.google.com/search?q=%E5%A4%8F%E6%97%A5%E8%A6%AA%E5%AD%90%E5%8A%87%E5%A0%B4%E2%80%94%E3%80%8A%23%E5%87%BA%E7%99%BC%E5%90%A7%E5%AF%B6%E5%85%92%EF%BC%81%23%E9%86%9C%E5%B0%8F%E9%B4%A8%E6%AD%B7%E9%9A%AA%E8%A8%98%E3%80%8B%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
-      }
-    ],
-    "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
-    "sourceId": "Event_371020000A_004431",
-    "qualityScore": 10,
-    "updatedAt": "2026-06-17T06:48:23+08:00",
-    "rainyDay": false,
-    "placeType": "活動",
-    "eventStart": "2026-07-04T11:00:00+08:00",
-    "eventEnd": "2026-07-04T13:00:00+08:00",
-    "weekendEvent": false,
-    "familyEvidence": [],
-    "qualityScoreV2": 75,
-    "completeness": {
-      "score": 33,
-      "missing": [
-        "官方網站",
-        "票價資訊",
-        "親子設施",
-        "詳細介紹"
-      ]
-    }
-  },
-  {
     "id": "Event_A15010000H_081894",
     "name": "2026澎湖跳島101K自行車(101K Hopping Bike)活動",
     "region": "離島",
@@ -4245,7 +4170,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081894",
     "qualityScore": 10,
-    "updatedAt": "2026-06-27T02:00:03+08:00",
+    "updatedAt": "2026-06-28T02:00:05+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-09-20T00:00:00+08:00",
@@ -4329,6 +4254,81 @@
         "官方網站",
         "票價資訊",
         "親子設施"
+      ]
+    }
+  },
+  {
+    "id": "Event_371020000A_004375",
+    "name": "薪火相傳·文學花園—陳慶元師生文學作品聯展",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金沙鎮",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "本週活動",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "金門縣金沙鎮",
+    "hours": "4/1－6/30",
+    "lat": 24.43586,
+    "lng": 118.31705,
+    "image": "https://kinmen.travel/image/46295/640x480",
+    "imageCandidates": [],
+    "accent": "#ff6b6b",
+    "description": "「薪火相傳·文學花園—陳慶元師生文學作品聯展」",
+    "highlights": [
+      "近期活動",
+      "期間限定",
+      "親子新鮮事"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": []
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%96%AA%E7%81%AB%E7%9B%B8%E5%82%B3%C2%B7%E6%96%87%E5%AD%B8%E8%8A%B1%E5%9C%92%E2%80%94%E9%99%B3%E6%85%B6%E5%85%83%E5%B8%AB%E7%94%9F%E6%96%87%E5%AD%B8%E4%BD%9C%E5%93%81%E8%81%AF%E5%B1%95%20%E9%87%91%E9%96%80%E7%B8%A3%E9%87%91%E6%B2%99%E9%8E%AE",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #薪火相傳文學花園陳慶元師生文學作品聯展",
+        "url": "https://www.instagram.com/explore/tags/%E8%96%AA%E7%81%AB%E7%9B%B8%E5%82%B3%E6%96%87%E5%AD%B8%E8%8A%B1%E5%9C%92%E9%99%B3%E6%85%B6%E5%85%83%E5%B8%AB%E7%94%9F%E6%96%87%E5%AD%B8%E4%BD%9C%E5%93%81%E8%81%AF%E5%B1%95/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E8%96%AA%E7%81%AB%E7%9B%B8%E5%82%B3%C2%B7%E6%96%87%E5%AD%B8%E8%8A%B1%E5%9C%92%E2%80%94%E9%99%B3%E6%85%B6%E5%85%83%E5%B8%AB%E7%94%9F%E6%96%87%E5%AD%B8%E4%BD%9C%E5%93%81%E8%81%AF%E5%B1%95%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
+    "sourceId": "Event_371020000A_004375",
+    "qualityScore": 10,
+    "updatedAt": "2026-03-26T00:59:56+08:00",
+    "rainyDay": false,
+    "placeType": "活動",
+    "eventStart": "2026-04-01T01:00:00+08:00",
+    "eventEnd": "2026-06-30T09:00:00+08:00",
+    "weekendEvent": false,
+    "familyEvidence": [],
+    "qualityScoreV2": 75,
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "票價資訊",
+        "親子設施",
+        "詳細介紹"
       ]
     }
   },
@@ -4469,7 +4469,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081690",
     "qualityScore": 10,
-    "updatedAt": "2026-06-27T02:00:03+08:00",
+    "updatedAt": "2026-06-28T02:00:05+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-09-01T00:00:00+08:00",
@@ -4923,7 +4923,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081888",
     "qualityScore": 10,
-    "updatedAt": "2026-06-27T02:00:03+08:00",
+    "updatedAt": "2026-06-28T02:00:05+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-08-21T00:00:00+08:00",
@@ -5125,7 +5125,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081873",
     "qualityScore": 10,
-    "updatedAt": "2026-06-27T02:00:03+08:00",
+    "updatedAt": "2026-06-28T02:00:05+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-10-17T00:00:00+08:00",
@@ -32119,7 +32119,10 @@
     "lat": 23.65114,
     "lng": 119.52092,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140812152759857.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e5/Si%C3%B3-mn%CC%82g-s%C5%AB_Keng-h%C3%AE-t%C5%8Dng_T%C4%93-chit_Kong-hn%CC%82g_20210421.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Si%C3%B3-mn%CC%82g-s%C5%AB_Keng-h%C3%AE-t%C5%8Dng_T%C4%93-chit_Kong-hn%CC%82g_20210421.jpg/1920px-Si%C3%B3-mn%CC%82g-s%C5%AB_Keng-h%C3%AE-t%C5%8Dng_T%C4%93-chit_Kong-hn%CC%82g_20210421.jpg"
+    ],
     "accent": "#42b883",
     "description": "小門嶼位於西嶼島的北端，與西嶼有寬約20公尺的水道相隔，現築有小門橋連結兩島。全島面積雖然只有0.5平方公里，但小門嶼的地質地形景觀，卻是澎湖群島的縮影，有活的戶外地質教室之稱。小門嶼位於西嶼島的北端，與西嶼有寬約20公尺的水道相隔，現築有小門橋連結兩島。全島面積雖然只有0.5平方公里，但小門嶼的地質地形景觀，卻是澎湖群島的縮影，有活的戶外地質教室之稱。 小…",
     "highlights": [
@@ -32172,6 +32175,11 @@
         "type": "部落格",
         "label": "搜尋親子遊記",
         "url": "https://www.google.com/search?q=%E5%B0%8F%E9%96%80%E5%B6%BC%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      },
+      {
+        "type": "Wikipedia",
+        "label": "Wikipedia：小門嶼",
+        "url": "https://zh.wikipedia.org/wiki/%E5%B0%8F%E9%96%80%E5%B6%BC"
       }
     ],
     "dataSource": "交通部觀光署觀光資訊資料庫 V2.1",
@@ -37878,5 +37886,2431 @@
         "詳細介紹"
       ]
     }
+  },
+  {
+    "id": "osm-node-12896536301",
+    "name": "湖西小館 （台南擔仔麵）",
+    "region": "離島",
+    "city": "澎湖縣",
+    "district": "湖西鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "澎湖縣湖西鄉湖西村141-1",
+    "hours": "We-Mo 10:00-14:00, 17:00-20:00",
+    "lat": 23.5849835,
+    "lng": 119.6597892,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "湖西小館 （台南擔仔麵），位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E6%B9%96%E8%A5%BF%E5%B0%8F%E9%A4%A8%20%EF%BC%88%E5%8F%B0%E5%8D%97%E6%93%94%E4%BB%94%E9%BA%B5%EF%BC%89/@23.584983,119.659789,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/12896536301"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/12896536301",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-7091524767",
+    "name": "橋仔漁村小吃",
+    "region": "離島",
+    "city": "連江縣",
+    "district": "北竿鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "連江縣北竿鄉112",
+    "hours": "Mo-Su 11:00-14:00,16:30-20:00",
+    "lat": 26.2347069,
+    "lng": 119.9939768,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "橋仔漁村小吃，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E6%A9%8B%E4%BB%94%E6%BC%81%E6%9D%91%E5%B0%8F%E5%90%83/@26.234707,119.993977,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/7091524767"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/7091524767",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-7091524766",
+    "name": "大雄海之宴",
+    "region": "離島",
+    "city": "連江縣",
+    "district": "北竿鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "連江縣北竿鄉99",
+    "hours": "請以商家公告為準",
+    "lat": 26.2341817,
+    "lng": 119.9935931,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "大雄海之宴，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/%E5%A4%A7%E9%9B%84%E6%B5%B7%E4%B9%8B%E5%AE%B4/@26.234182,119.993593,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/7091524766"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/7091524766",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4532154189",
+    "name": "黑屋手作廚房",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金湖鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金湖鎮信義新村88-40",
+    "hours": "Mo-Tu, Th-Fr 15:00-21:00; Sa-Su 12:00-21:00",
+    "lat": 24.434391,
+    "lng": 118.4048841,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "黑屋手作廚房，位於台灣的咖啡廳，提供coffee_shop、cake、diner料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E9%BB%91%E5%B1%8B%E6%89%8B%E4%BD%9C%E5%BB%9A%E6%88%BF/@24.434391,118.404884,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4532154189"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4532154189",
+    "qualityScore": 5,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-5412039685",
+    "name": "檸檬香茅火鍋店",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金城鎮環島北路一段40",
+    "hours": "Mo-Su 11:00-15:00, 17:00-22:00",
+    "lat": 24.4406586,
+    "lng": 118.3223038,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "檸檬香茅火鍋店，位於台灣的餐廳，提供hotpot料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E6%AA%B8%E6%AA%AC%E9%A6%99%E8%8C%85%E7%81%AB%E9%8D%8B%E5%BA%97/@24.440659,118.322304,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/5412039685"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/5412039685",
+    "qualityScore": 5,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-5415716180",
+    "name": "無鍋底火鍋",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金寧鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金寧鄉伯玉路一段218-6",
+    "hours": "Mo-Su 17:00-00:00",
+    "lat": 24.435339,
+    "lng": 118.3266144,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "無鍋底火鍋，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E7%84%A1%E9%8D%8B%E5%BA%95%E7%81%AB%E9%8D%8B/@24.435339,118.326614,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/5415716180"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/5415716180",
+    "qualityScore": 5,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-5439284365",
+    "name": "浯洲金鼎燒鍋",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金寧鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金寧鄉環島西路二段485巷2弄17",
+    "hours": "Mo-Su 10:30-23:00",
+    "lat": 24.4479521,
+    "lng": 118.3207744,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "浯洲金鼎燒鍋，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E6%B5%AF%E6%B4%B2%E9%87%91%E9%BC%8E%E7%87%92%E9%8D%8B/@24.447952,118.320774,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/5439284365"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/5439284365",
+    "qualityScore": 5,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-8392980417",
+    "name": "小島賣派郎",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金城鎮民族路180巷14",
+    "hours": "We-Th 14:30-19:30; Fr-Sa 15:00-21:00; Su 14:30-19:30",
+    "lat": 24.4312533,
+    "lng": 118.3174479,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "小島賣派郎，位於台灣的咖啡廳，提供pie、coffee、tea料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E5%B0%8F%E5%B3%B6%E8%B3%A3%E6%B4%BE%E9%83%8E/@24.431253,118.317448,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/8392980417"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/8392980417",
+    "qualityScore": 5,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-11041690433",
+    "name": "隱室·微光",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金城鎮莒光路124巷4",
+    "hours": "Th-Su 14:30-17:30; Fr-Su 19:30-23:00",
+    "lat": 24.4335432,
+    "lng": 118.3170375,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "隱室·微光，位於台灣的咖啡廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E9%9A%B1%E5%AE%A4%C2%B7%E5%BE%AE%E5%85%89/@24.433543,118.317037,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/11041690433"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/11041690433",
+    "qualityScore": 5,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-12923112691",
+    "name": "金牪餐廳",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金湖鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金湖鎮惠民富康農莊17",
+    "hours": "11:30-14:30,17:00-20:00; We off",
+    "lat": 24.4334332,
+    "lng": 118.438442,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "金牪餐廳，位於台灣的餐廳，提供beef、regional料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E9%87%91%E7%89%AA%E9%A4%90%E5%BB%B3/@24.433433,118.438442,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/12923112691"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/12923112691",
+    "qualityScore": 5,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-way-330220933",
+    "name": "紅龍餐廳",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金湖鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金湖鎮湖前5-10",
+    "hours": "10:00 - 14:00, 15:30 - 21:00",
+    "lat": 24.4383876,
+    "lng": 118.4132933,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "紅龍餐廳，位於台灣的餐廳，提供chinese料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E7%B4%85%E9%BE%8D%E9%A4%90%E5%BB%B3/@24.438388,118.413293,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/330220933"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "way/330220933",
+    "qualityScore": 5,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-way-1393195099",
+    "name": "良金牧場 (工廠總店-附設酒糟牛肉麵特色餐廳)",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金湖鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金湖鎮金湖鎮漁村160",
+    "hours": "Mo-Su 10:30-19:30",
+    "lat": 24.437392,
+    "lng": 118.4065226,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "良金牧場 (工廠總店-附設酒糟牛肉麵特色餐廳)，位於台灣的餐廳，提供beef_noodle料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E8%89%AF%E9%87%91%E7%89%A7%E5%A0%B4%20(%E5%B7%A5%E5%BB%A0%E7%B8%BD%E5%BA%97-%E9%99%84%E8%A8%AD%E9%85%92%E7%B3%9F%E7%89%9B%E8%82%89%E9%BA%B5%E7%89%B9%E8%89%B2%E9%A4%90%E5%BB%B3)/@24.437392,118.406523,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/1393195099"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "way/1393195099",
+    "qualityScore": 5,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4041952192",
+    "name": "蚵嗲之家",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金城鎮莒光路一段59",
+    "hours": "Fr-We 15:00-18:30",
+    "lat": 24.4313845,
+    "lng": 118.3184592,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "蚵嗲之家，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E8%9A%B5%E5%97%B2%E4%B9%8B%E5%AE%B6/@24.431385,118.318459,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4041952192"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4041952192",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4109104489",
+    "name": "本町咖啡輕食",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金城鎮民族路146",
+    "hours": "Th-Mo 11:30-14:00, 17:30-21:00",
+    "lat": 24.4302269,
+    "lng": 118.3177271,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "本町咖啡輕食，位於台灣的咖啡廳，提供japanese料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E6%9C%AC%E7%94%BA%E5%92%96%E5%95%A1%E8%BC%95%E9%A3%9F/@24.430227,118.317727,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4109104489"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4109104489",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4113230089",
+    "name": "十分飽",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金寧鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金寧鄉131",
+    "hours": "Mo-Sa 09:30-13:30, 17:00-19:30",
+    "lat": 24.4393083,
+    "lng": 118.3173578,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "十分飽，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E5%8D%81%E5%88%86%E9%A3%BD/@24.439308,118.317358,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4113230089"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4113230089",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4115555789",
+    "name": "大鍋湯",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金城鎮中興路161巷6",
+    "hours": "We-Mo 10:30-21:00",
+    "lat": 24.4343104,
+    "lng": 118.3187104,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "大鍋湯，位於台灣的餐廳，提供chinese料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E5%A4%A7%E9%8D%8B%E6%B9%AF/@24.434310,118.318710,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4115555789"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4115555789",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4185279437",
+    "name": "冬暖夏涼",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金城鎮莒光路105",
+    "hours": "Fr-We 11:00-14:00,17:00-21:00",
+    "lat": 24.4326332,
+    "lng": 118.3170203,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "冬暖夏涼，位於台灣的餐廳，提供chinese、regional料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E5%86%AC%E6%9A%96%E5%A4%8F%E6%B6%BC/@24.432633,118.317020,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4185279437"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4185279437",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4504037691",
+    "name": "蝸居",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金城鎮民權路122巷20",
+    "hours": "Mo-Fr 06:00-11:00; Sa-Su 06:00-11:30",
+    "lat": 24.4359308,
+    "lng": 118.3163796,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "蝸居，位於台灣的餐廳，提供sandwich料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E8%9D%B8%E5%B1%85/@24.435931,118.316380,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4504037691"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4504037691",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4587300794",
+    "name": "大漿 宵夜早餐",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金寧鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金寧鄉113",
+    "hours": "Mo-Su 5:00-9:00,18:30-24:00",
+    "lat": 24.4392323,
+    "lng": 118.3172716,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "大漿 宵夜早餐，位於台灣的餐廳，提供breakfast料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E5%A4%A7%E6%BC%BF%20%E5%AE%B5%E5%A4%9C%E6%97%A9%E9%A4%90/@24.439232,118.317272,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4587300794"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4587300794",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4593844489",
+    "name": "談天樓",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金湖鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金湖鎮復興路3",
+    "hours": "Th-Tu 09:00-18:00",
+    "lat": 24.4407643,
+    "lng": 118.4168832,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "談天樓，位於台灣的餐廳，提供noodle料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E8%AB%87%E5%A4%A9%E6%A8%93/@24.440764,118.416883,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4593844489"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4593844489",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4597428090",
+    "name": "標記小吃店",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金城鎮民族路93巷5弄1",
+    "hours": "Mo-Su 06:00-14:00",
+    "lat": 24.4299167,
+    "lng": 118.3194734,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "標記小吃店，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E6%A8%99%E8%A8%98%E5%B0%8F%E5%90%83%E5%BA%97/@24.429917,118.319473,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4597428090"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4597428090",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4597685190",
+    "name": "科記廣東粥花生湯",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金城鎮莒光路一段45",
+    "hours": "Mo-Su 06:00-12:00",
+    "lat": 24.4313014,
+    "lng": 118.3185459,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "科記廣東粥花生湯，位於台灣的餐廳，提供chinese料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E7%A7%91%E8%A8%98%E5%BB%A3%E6%9D%B1%E7%B2%A5%E8%8A%B1%E7%94%9F%E6%B9%AF/@24.431301,118.318546,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4597685190"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4597685190",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4686957755",
+    "name": "立鼎鐵板燒",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金城鎮光前路46",
+    "hours": "Mo-Su 10:00-14:00, 17:00-21:30",
+    "lat": 24.4326606,
+    "lng": 118.3158283,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "立鼎鐵板燒，位於台灣的餐廳，提供japanese料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E7%AB%8B%E9%BC%8E%E9%90%B5%E6%9D%BF%E7%87%92/@24.432661,118.315828,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4686957755"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4686957755",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-5205227142",
+    "name": "Venetia 威尼獅義式手作廚房",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金城鎮民生路45巷4弄2",
+    "hours": "Mo-Su 11:30-20:00",
+    "lat": 24.4357274,
+    "lng": 118.3186808,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "Venetia 威尼獅義式手作廚房，位於台灣的餐廳，提供pizza料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/Venetia%20%E5%A8%81%E5%B0%BC%E7%8D%85%E7%BE%A9%E5%BC%8F%E6%89%8B%E4%BD%9C%E5%BB%9A%E6%88%BF/@24.435727,118.318681,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/5205227142"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/5205227142",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-5419211569",
+    "name": "金道地小吃店-蚵仔麵線",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金城鎮前水頭15",
+    "hours": "Mo, We-Su 09:30-18:30",
+    "lat": 24.4092923,
+    "lng": 118.3001312,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "金道地小吃店-蚵仔麵線，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E9%87%91%E9%81%93%E5%9C%B0%E5%B0%8F%E5%90%83%E5%BA%97-%E8%9A%B5%E4%BB%94%E9%BA%B5%E7%B7%9A/@24.409292,118.300131,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/5419211569"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/5419211569",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-5512100342",
+    "name": "坑道芋咖啡",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "烈嶼鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣烈嶼鄉林湖村羅厝5-5",
+    "hours": "請以商家公告為準",
+    "lat": 24.4236914,
+    "lng": 118.262599,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "坑道芋咖啡，位於台灣的餐廳，提供coffee_shop料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E5%9D%91%E9%81%93%E8%8A%8B%E5%92%96%E5%95%A1/@24.423691,118.262599,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/5512100342"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/5512100342",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-10106542142",
+    "name": "T.I.T 港式茶餐廳",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金城鎮光前路87-2",
+    "hours": "Mo,Tu,Th-Sa 11:00-14:00 ,17:30-19:30",
+    "lat": 24.4335686,
+    "lng": 118.3144357,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "T.I.T 港式茶餐廳，位於台灣的餐廳，提供chinese料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/T.I.T%20%E6%B8%AF%E5%BC%8F%E8%8C%B6%E9%A4%90%E5%BB%B3/@24.433569,118.314436,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/10106542142"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/10106542142",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-12923162173",
+    "name": "喬安牧場",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金寧鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金寧鄉伯玉路二段297",
+    "hours": "11:00-14:00,17:00-21:00",
+    "lat": 24.440659,
+    "lng": 118.3399724,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "喬安牧場，位於台灣的餐廳，提供beef、regional料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E5%96%AC%E5%AE%89%E7%89%A7%E5%A0%B4/@24.440659,118.339972,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/12923162173"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/12923162173",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-12923164410",
+    "name": "信源海產店",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金城鎮環島北路一段15",
+    "hours": "11:00-14:00,17:00-21:00; Th off",
+    "lat": 24.4410147,
+    "lng": 118.3221627,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "信源海產店，位於台灣的餐廳，提供seafood料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E4%BF%A1%E6%BA%90%E6%B5%B7%E7%94%A2%E5%BA%97/@24.441015,118.322163,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/12923164410"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/12923164410",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-12923279643",
+    "name": "龍都餐廳",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金城鎮環島西路一段96",
+    "hours": "08:00-13:00,16:00-20:00",
+    "lat": 24.428441,
+    "lng": 118.3209996,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "龍都餐廳，位於台灣的餐廳，提供regional料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E9%BE%8D%E9%83%BD%E9%A4%90%E5%BB%B3/@24.428441,118.321000,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/12923279643"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/12923279643",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-way-330733837",
+    "name": "山西拌麵長榮商行",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金沙鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金沙鎮山西22",
+    "hours": "11:00-22:00",
+    "lat": 24.5028038,
+    "lng": 118.4301334,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "山西拌麵長榮商行，位於台灣的餐廳，提供chinese料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E5%B1%B1%E8%A5%BF%E6%8B%8C%E9%BA%B5%E9%95%B7%E6%A6%AE%E5%95%86%E8%A1%8C/@24.502804,118.430133,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/330733837"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "way/330733837",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-way-408116839",
+    "name": "阿公ㄟ豆花",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金城鎮模範街15",
+    "hours": "Tu-Su 10:00-20:00",
+    "lat": 24.4318184,
+    "lng": 118.3193774,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "阿公ㄟ豆花，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E9%98%BF%E5%85%AC%E3%84%9F%E8%B1%86%E8%8A%B1/@24.431818,118.319377,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/408116839"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "way/408116839",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-way-485524555",
+    "name": "牛家莊",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金城鎮民族路318巷5",
+    "hours": "11:00-14:30; 17:00-21:30",
+    "lat": 24.4309735,
+    "lng": 118.31425,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "牛家莊，位於台灣的餐廳，提供noodle料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E7%89%9B%E5%AE%B6%E8%8E%8A/@24.430974,118.314250,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/485524555"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "way/485524555",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-2835983797",
+    "name": "中南海",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金城鎮民生路27巷2",
+    "hours": "請以商家公告為準",
+    "lat": 24.4346864,
+    "lng": 118.3192743,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "中南海，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/%E4%B8%AD%E5%8D%97%E6%B5%B7/@24.434686,118.319274,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/2835983797"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/2835983797",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-2835983798",
+    "name": "天恩素食早點",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金城鎮民族路33",
+    "hours": "請以商家公告為準",
+    "lat": 24.4307205,
+    "lng": 118.3205667,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "天恩素食早點，位於台灣的餐廳，提供breakfast料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/%E5%A4%A9%E6%81%A9%E7%B4%A0%E9%A3%9F%E6%97%A9%E9%BB%9E/@24.430720,118.320567,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/2835983798"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/2835983798",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-2835983799",
+    "name": "好媽媽素食館",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金城鎮復興路45",
+    "hours": "請以商家公告為準",
+    "lat": 24.441144,
+    "lng": 118.4161971,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "好媽媽素食館，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/%E5%A5%BD%E5%AA%BD%E5%AA%BD%E7%B4%A0%E9%A3%9F%E9%A4%A8/@24.441144,118.416197,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/2835983799"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/2835983799",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-2836007402",
+    "name": "祥富素食館",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金城鎮環島北路23",
+    "hours": "請以商家公告為準",
+    "lat": 24.4411846,
+    "lng": 118.3224126,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "祥富素食館，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/%E7%A5%A5%E5%AF%8C%E7%B4%A0%E9%A3%9F%E9%A4%A8/@24.441185,118.322413,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/2836007402"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/2836007402",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-2836007403",
+    "name": "喜鄉園蔬食",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金湖鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金湖鎮中正路11",
+    "hours": "請以商家公告為準",
+    "lat": 24.44044,
+    "lng": 118.4162922,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "喜鄉園蔬食，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/%E5%96%9C%E9%84%89%E5%9C%92%E8%94%AC%E9%A3%9F/@24.440440,118.416292,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/2836007403"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/2836007403",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-2836015227",
+    "name": "淨心園素膳坊",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金城鎮光前路39-1",
+    "hours": "請以商家公告為準",
+    "lat": 24.4324205,
+    "lng": 118.3159297,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "淨心園素膳坊，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/%E6%B7%A8%E5%BF%83%E5%9C%92%E7%B4%A0%E8%86%B3%E5%9D%8A/@24.432420,118.315930,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/2836015227"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/2836015227",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4298578492",
+    "name": "吉得堡早餐",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金寧鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金寧鄉52",
+    "hours": "請以商家公告為準",
+    "lat": 24.4475468,
+    "lng": 118.3391127,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "吉得堡早餐，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/%E5%90%89%E5%BE%97%E5%A0%A1%E6%97%A9%E9%A4%90/@24.447547,118.339113,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4298578492"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4298578492",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4334953491",
+    "name": "Lin+咖啡",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金寧鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金寧鄉大學路1",
+    "hours": "請以商家公告為準",
+    "lat": 24.448177,
+    "lng": 118.3218574,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "Lin+咖啡，位於台灣的咖啡廳，提供coffee_shop、breakfast料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/Lin%2B%E5%92%96%E5%95%A1/@24.448177,118.321857,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4334953491"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4334953491",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4486723290",
+    "name": "福記港式燒臘",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金城鎮民生路45巷22",
+    "hours": "請以商家公告為準",
+    "lat": 24.4352176,
+    "lng": 118.3184613,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "福記港式燒臘，位於台灣的餐廳，提供chinese料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/%E7%A6%8F%E8%A8%98%E6%B8%AF%E5%BC%8F%E7%87%92%E8%87%98/@24.435218,118.318461,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4486723290"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4486723290",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4593918396",
+    "name": "喜相逢",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金湖鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金湖鎮復興路5",
+    "hours": "請以商家公告為準",
+    "lat": 24.4407765,
+    "lng": 118.416859,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "喜相逢，位於台灣的餐廳，提供chinese、noodles料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/%E5%96%9C%E7%9B%B8%E9%80%A2/@24.440776,118.416859,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4593918396"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4593918396",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4597428089",
+    "name": "金一燒餅",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金城鎮民族路191",
+    "hours": "請以商家公告為準",
+    "lat": 24.43018,
+    "lng": 118.3171957,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "金一燒餅，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/%E9%87%91%E4%B8%80%E7%87%92%E9%A4%85/@24.430180,118.317196,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4597428089"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4597428089",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4597666590",
+    "name": "珍香肉羹麵",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金城鎮莒光路一段47",
+    "hours": "請以商家公告為準",
+    "lat": 24.4312722,
+    "lng": 118.3185905,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "珍香肉羹麵，位於台灣的餐廳，提供chinese料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/%E7%8F%8D%E9%A6%99%E8%82%89%E7%BE%B9%E9%BA%B5/@24.431272,118.318590,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4597666590"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4597666590",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4686957735",
+    "name": "California",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金城鎮39",
+    "hours": "請以商家公告為準",
+    "lat": 24.4325018,
+    "lng": 118.3158495,
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "California，位於台灣的快餐店，提供italian料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/California/@24.432502,118.315849,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4686957735"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4686957735",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4813004821",
+    "name": "記德海鮮餐廳",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金城鎮民族路251",
+    "hours": "請以商家公告為準",
+    "lat": 24.4301693,
+    "lng": 118.3158502,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "記德海鮮餐廳，位於台灣的餐廳，提供seafood料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/%E8%A8%98%E5%BE%B7%E6%B5%B7%E9%AE%AE%E9%A4%90%E5%BB%B3/@24.430169,118.315850,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4813004821"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4813004821",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4817321924",
+    "name": "老六小館",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金城鎮民權路65-1",
+    "hours": "請以商家公告為準",
+    "lat": 24.4325415,
+    "lng": 118.3141402,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "老六小館，位於台灣的餐廳，提供chinese料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/%E8%80%81%E5%85%AD%E5%B0%8F%E9%A4%A8/@24.432541,118.314140,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4817321924"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4817321924",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-5239314068",
+    "name": "湖下臻美",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金寧鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金寧鄉220",
+    "hours": "請以商家公告為準",
+    "lat": 24.4581273,
+    "lng": 118.3075936,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "湖下臻美，位於台灣的咖啡廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/%E6%B9%96%E4%B8%8B%E8%87%BB%E7%BE%8E/@24.458127,118.307594,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/5239314068"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/5239314068",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-5439255129",
+    "name": "三層樓芋頭餐廳",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "烈嶼鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣烈嶼鄉23-1",
+    "hours": "請以商家公告為準",
+    "lat": 24.4464952,
+    "lng": 118.2522225,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "三層樓芋頭餐廳，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/%E4%B8%89%E5%B1%A4%E6%A8%93%E8%8A%8B%E9%A0%AD%E9%A4%90%E5%BB%B3/@24.446495,118.252223,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/5439255129"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/5439255129",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-8444506917",
+    "name": "榕榕園",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金湖鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金湖鎮黃海路7",
+    "hours": "請以商家公告為準",
+    "lat": 24.4429837,
+    "lng": 118.4147243,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "榕榕園，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/%E6%A6%95%E6%A6%95%E5%9C%92/@24.442984,118.414724,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/8444506917"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/8444506917",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-11914957643",
+    "name": "軒韻手作茶飲",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金湖鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金湖鎮黃海路5",
+    "hours": "請以商家公告為準",
+    "lat": 24.4429185,
+    "lng": 118.414667,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "軒韻手作茶飲，位於台灣的咖啡廳，提供bubble_tea料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/%E8%BB%92%E9%9F%BB%E6%89%8B%E4%BD%9C%E8%8C%B6%E9%A3%B2/@24.442919,118.414667,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/11914957643"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/11914957643",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-way-1116421076",
+    "name": "鄰家廚房",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "烈嶼鄉",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣烈嶼鄉10-2",
+    "hours": "請以商家公告為準",
+    "lat": 24.4392359,
+    "lng": 118.2303482,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "鄰家廚房，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/%E9%84%B0%E5%AE%B6%E5%BB%9A%E6%88%BF/@24.439236,118.230348,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/1116421076"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "way/1116421076",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-way-1443489517",
+    "name": "風獅爺文物坊",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金城鎮",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "金門縣金城鎮42",
+    "hours": "請以商家公告為準",
+    "lat": 24.4094994,
+    "lng": 118.298662,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "風獅爺文物坊，位於台灣的咖啡廳。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/%E9%A2%A8%E7%8D%85%E7%88%BA%E6%96%87%E7%89%A9%E5%9D%8A/@24.409499,118.298662,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/1443489517"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "way/1443489517",
+    "qualityScore": 3,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
   }
 ]

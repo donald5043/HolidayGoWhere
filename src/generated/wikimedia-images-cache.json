@@ -2162,9 +2162,9 @@
   },
   "Attraction_376480000A_000334:竹山天梯風景區(梯子吊橋)": {
     "urls": [],
-    "pageTitle": "天梯 (竹山鎮)",
-    "wikidataId": "Q10939792",
-    "checkedAt": "2026-06-27T15:47:42.629Z"
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:04.777Z"
   },
   "Attraction_387000000A_000846:新都生態公園": {
     "urls": [],
@@ -3001,5 +3001,2431 @@
     "pageTitle": "德基水庫",
     "wikidataId": "Q7692199",
     "checkedAt": "2026-06-27T15:57:35.714Z"
+  },
+  "Attraction_397000000A_000607:高雄都會公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:19:57.028Z"
+  },
+  "Attraction_397000000A_000253:援中港生態濕地公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:19:57.357Z"
+  },
+  "Attraction_397000000A_000165:壽山國家自然公園": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/7d/Shoushan_National_Natural_Park%2B_%E8%A5%BF%E5%AD%90%E7%81%A3%E7%9C%BA%E6%9C%9B%E6%97%97%E5%BE%8C%E5%B1%B1.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%A4%A9%E9%9B%A8%E6%B4%9E.jpg?width=1400"
+    ],
+    "pageTitle": "壽山國家自然公園",
+    "wikidataId": "Q10931665",
+    "checkedAt": "2026-06-28T23:19:57.789Z"
+  },
+  "Attraction_397000000A_000154:摩登高雄-R9中央公園站": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:19:58.088Z"
+  },
+  "Attraction_397000000A_000033:九番埤濕地公園": {
+    "urls": [],
+    "pageTitle": "九番埤濕地公園",
+    "wikidataId": "Q110833912",
+    "checkedAt": "2026-06-28T23:19:58.528Z"
+  },
+  "Attraction_397000000A_000225:半屏山自然公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:19:58.852Z"
+  },
+  "Attraction_397000000A_000589:哈瑪星鐵道文化園區": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:19:59.269Z"
+  },
+  "Attraction_395000000A_000476:頑皮世界野生動物園": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/ce/20230528-IMG_5701.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/20230528-IMG_5701.jpg/1920px-20230528-IMG_5701.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%A0%91%E7%9A%AE%E4%B8%96%E7%95%8C%E5%8B%95%E7%89%A9%E5%9C%92.jpg?width=1400"
+    ],
+    "pageTitle": "頑皮世界野生動物園",
+    "wikidataId": "Q16242379",
+    "checkedAt": "2026-06-28T23:19:59.670Z"
+  },
+  "Attraction_397000000A_001448:寶山茶園步道風光": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:00.038Z"
+  },
+  "Attraction_395000000A_000947:麻豆文化館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:00.412Z"
+  },
+  "Attraction_397000000A_000171:鼓山公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:00.806Z"
+  },
+  "Attraction_A15010400H_000449:琉球管理站暨遊客中心": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:01.169Z"
+  },
+  "Attraction_397000000A_000051:小林村紀念公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:01.569Z"
+  },
+  "Attraction_A15011200H_000014:中興大學新化林場": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:01.873Z"
+  },
+  "Attraction_397000000A_000083:自來水公園": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/0d/Kaohsiung_Taiwan_Water-Tower-Park-01.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Kaohsiung_Taiwan_Water-Tower-Park-01.jpg/1920px-Kaohsiung_Taiwan_Water-Tower-Park-01.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Kaohsiung%20Taiwan%20Water-Tower-Park-01.jpg?width=1400"
+    ],
+    "pageTitle": "自來水公園 (高雄市)",
+    "wikidataId": "Q7212684",
+    "checkedAt": "2026-06-28T23:20:02.207Z"
+  },
+  "Attraction_395000000A_001201:東山服務區": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/51/Dongshan_Service_Area_%E6%9D%B1%E5%B1%B1%E6%9C%8D%E5%8B%99%E5%8D%80_-_panoramio_%281%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Dongshan_Service_Area_%E6%9D%B1%E5%B1%B1%E6%9C%8D%E5%8B%99%E5%8D%80_-_panoramio_%281%29.jpg/1920px-Dongshan_Service_Area_%E6%9D%B1%E5%B1%B1%E6%9C%8D%E5%8B%99%E5%8D%80_-_panoramio_%281%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Dongshan%20Service%20Area%20%E6%9D%B1%E5%B1%B1%E6%9C%8D%E5%8B%99%E5%8D%80%20-%20panoramio%20(1).jpg?width=1400"
+    ],
+    "pageTitle": "東山服務區",
+    "wikidataId": "Q11103283",
+    "checkedAt": "2026-06-28T23:20:02.661Z"
+  },
+  "Attraction_397000000A_000069:高雄市立圖書館總館": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/88/%E9%AB%98%E9%9B%84%E5%B8%82%E7%AB%8B%E5%9C%96%E6%9B%B8%E9%A4%A8%E7%B8%BD%E9%A4%A8%E5%A4%9C%E6%99%AF.JPG",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Kaohsiung%20Main%20Library%20201507.jpg?width=1400"
+    ],
+    "pageTitle": "高雄市立圖書館總館",
+    "wikidataId": "Q15910145",
+    "checkedAt": "2026-06-28T23:20:03.163Z"
+  },
+  "Attraction_397000000A_000093:梅山遊客中心": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:03.532Z"
+  },
+  "Attraction_397000000A_000606:新威森林公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:03.857Z"
+  },
+  "Attraction_397000000A_000625:衛武營都會公園": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/2e/Weiwuyin_Metropolitan_Park1.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Weiwuyin_Metropolitan_Park1.jpg/1920px-Weiwuyin_Metropolitan_Park1.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Weiwuyin%20Metropolitan%20Park1.jpg?width=1400"
+    ],
+    "pageTitle": "衛武營都會公園",
+    "wikidataId": "Q15900250",
+    "checkedAt": "2026-06-28T23:20:04.263Z"
+  },
+  "Attraction_397000000A_000011:檨仔林埤濕地公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:04.577Z"
+  },
+  "Attraction_397000000A_001446:寶山二集團櫻花公園(38甲櫻花公園)": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:05.033Z"
+  },
+  "Attraction_397000000A_001043:鹽田社區社區彩繪": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:05.339Z"
+  },
+  "Attraction_395000000A_000571:保安車站": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:05.715Z"
+  },
+  "Attraction_397000000A_001488:烏林投步道": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:06.092Z"
+  },
+  "Attraction_376540000A_000350:金龍湖": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:06.451Z"
+  },
+  "Attraction_A15010100H_000237:鹽寮": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:06.757Z"
+  },
+  "Attraction_A15011300H_010095:南方澳遊客中心": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:07.115Z"
+  },
+  "Attraction_376540000A_000375:綠島遊客中心": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:07.430Z"
+  },
+  "Attraction_376420000A_000410:望龍埤": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/47/%E6%9C%9B%E9%BE%8D%E5%9F%A4.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/%E6%9C%9B%E9%BE%8D%E5%9F%A4.JPG/1920px-%E6%9C%9B%E9%BE%8D%E5%9F%A4.JPG",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%9C%9B%E9%BE%8D%E5%9F%A4%20Wanglong%20Pond%20-%20panoramio%20(1).jpg?width=1400"
+    ],
+    "pageTitle": "望龍埤",
+    "wikidataId": "Q18785885",
+    "checkedAt": "2026-06-28T23:20:07.784Z"
+  },
+  "Attraction_A15010200H_000103:隘門沙灘": {
+    "urls": [],
+    "pageTitle": "隘門沙灘",
+    "wikidataId": "Q17035241",
+    "checkedAt": "2026-06-28T23:20:08.162Z"
+  },
+  "Attraction_A15010200H_000092:澎湖遊客中心": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:08.563Z"
+  },
+  "Attraction_371020000A_001466:金門植物園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:08.875Z"
+  },
+  "Attraction_A15010500H_002659:北竿遊客中心": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:09.223Z"
+  },
+  "Attraction_A15010200H_000115:小門嶼": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e5/Si%C3%B3-mn%CC%82g-s%C5%AB_Keng-h%C3%AE-t%C5%8Dng_T%C4%93-chit_Kong-hn%CC%82g_20210421.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Si%C3%B3-mn%CC%82g-s%C5%AB_Keng-h%C3%AE-t%C5%8Dng_T%C4%93-chit_Kong-hn%CC%82g_20210421.jpg/1920px-Si%C3%B3-mn%CC%82g-s%C5%AB_Keng-h%C3%AE-t%C5%8Dng_T%C4%93-chit_Kong-hn%CC%82g_20210421.jpg"
+    ],
+    "pageTitle": "小門嶼",
+    "wikidataId": "Q10263282",
+    "checkedAt": "2026-06-28T23:20:09.696Z"
+  },
+  "Attraction_A15010200H_000109:岐頭遊客中心": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:10.009Z"
+  },
+  "Attraction_A15010200H_000008:虎井嶼北回歸線追日大道": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:10.308Z"
+  },
+  "Attraction_379000000A_000191:關渡自然公園": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a1/%E9%97%9C%E6%B8%A1%E5%AE%AE%E5%89%8D%E6%96%B9%E7%9A%84%E9%97%9C%E6%B8%A1%E8%87%AA%E7%84%B6%E5%85%AC%E5%9C%92%EF%BC%88%E5%B7%A6%EF%BC%89%E8%88%87%E9%97%9C%E6%B8%A1%E8%87%AA%E7%84%B6%E4%BF%9D%E7%95%99%E5%8D%80%EF%BC%88%E5%8F%B3%EF%BC%89.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/%E9%97%9C%E6%B8%A1%E5%AE%AE%E5%89%8D%E6%96%B9%E7%9A%84%E9%97%9C%E6%B8%A1%E8%87%AA%E7%84%B6%E5%85%AC%E5%9C%92%EF%BC%88%E5%B7%A6%EF%BC%89%E8%88%87%E9%97%9C%E6%B8%A1%E8%87%AA%E7%84%B6%E4%BF%9D%E7%95%99%E5%8D%80%EF%BC%88%E5%8F%B3%EF%BC%89.JPG/1920px-%E9%97%9C%E6%B8%A1%E5%AE%AE%E5%89%8D%E6%96%B9%E7%9A%84%E9%97%9C%E6%B8%A1%E8%87%AA%E7%84%B6%E5%85%AC%E5%9C%92%EF%BC%88%E5%B7%A6%EF%BC%89%E8%88%87%E9%97%9C%E6%B8%A1%E8%87%AA%E7%84%B6%E4%BF%9D%E7%95%99%E5%8D%80%EF%BC%88%E5%8F%B3%EF%BC%89.JPG",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%97%9C%E6%B8%A1%E5%AE%AE%E5%89%8D%E6%96%B9%E7%9A%84%E9%97%9C%E6%B8%A1%E8%87%AA%E7%84%B6%E5%85%AC%E5%9C%92%EF%BC%88%E5%B7%A6%EF%BC%89%E8%88%87%E9%97%9C%E6%B8%A1%E8%87%AA%E7%84%B6%E4%BF%9D%E7%95%99%E5%8D%80%EF%BC%88%E5%8F%B3%EF%BC%89.JPG?width=1400"
+    ],
+    "pageTitle": "關渡自然公園",
+    "wikidataId": "Q15896195",
+    "checkedAt": "2026-06-28T23:20:10.908Z"
+  },
+  "Attraction_379000000A_000383:山水綠生態公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:11.345Z"
+  },
+  "Attraction_379000000A_000261:富陽自然生態公園": {
+    "urls": [],
+    "pageTitle": "富陽自然生態公園",
+    "wikidataId": "Q10954899",
+    "checkedAt": "2026-06-28T23:20:11.712Z"
+  },
+  "Attraction_A15011300H_000056:龍洞南口海洋公園(龍洞四季灣)": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:12.054Z"
+  },
+  "Attraction_379000000A_002170:新新公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:12.409Z"
+  },
+  "Attraction_A13020000G_000139:桃園：郭元益糕餅博物館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:12.762Z"
+  },
+  "Attraction_A13020000G_000055:新北：玉美人孕婦裝觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:13.147Z"
+  },
+  "Attraction_376430000A_000598:大溪河濱公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:13.463Z"
+  },
+  "Attraction_376580000A_000020:新竹公園": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/1e/Hsinchu_Park_20180930.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Hsinchu_Park_20180930.jpg/1920px-Hsinchu_Park_20180930.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Hsinchu%20Park%2020180930.jpg?width=1400"
+    ],
+    "pageTitle": "新竹公園",
+    "wikidataId": "Q20688464",
+    "checkedAt": "2026-06-28T23:20:13.890Z"
+  },
+  "Attraction_379000000A_000009:陽明山國家公園_冷水坑": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:14.229Z"
+  },
+  "Attraction_376430000A_000619:新勢公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:14.636Z"
+  },
+  "Attraction_379000000A_000198:大湖公園": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/d7/%E5%A4%A7%E6%B9%96%E5%85%AC%E5%9C%92_Dahu_Park_-_panoramio_%283%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/%E5%A4%A7%E6%B9%96%E5%85%AC%E5%9C%92_Dahu_Park_-_panoramio_%283%29.jpg/1920px-%E5%A4%A7%E6%B9%96%E5%85%AC%E5%9C%92_Dahu_Park_-_panoramio_%283%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%A4%A7%E6%B9%96%E5%85%AC%E5%9C%92%20Dahu%20Park%20-%20panoramio%20(3).jpg?width=1400"
+    ],
+    "pageTitle": "大湖公園",
+    "wikidataId": "Q10936501",
+    "checkedAt": "2026-06-28T23:20:14.979Z"
+  },
+  "Attraction_376440000A_000502:水圳森林公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:15.351Z"
+  },
+  "Attraction_A13020000G_000089:桃園：太平洋自行車博物館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:15.708Z"
+  },
+  "Attraction_A13020000G_000128:桃園：CAFE!N 觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:16.032Z"
+  },
+  "Attraction_A13020000G_000211:新北：豐得好食觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:16.459Z"
+  },
+  "Attraction_382000000A_110768:烏來遊客中心": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:16.798Z"
+  },
+  "Attraction_382000000A_110814:龍門公園(龍門露營度假基地)": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:17.156Z"
+  },
+  "Attraction_376440000A_000265:牛欄河親水公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:17.457Z"
+  },
+  "Attraction_376430000A_001269:虎頭山公園全齡友善步道": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:17.792Z"
+  },
+  "Attraction_382000000A_110368:富貴角公園": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/4e/%E5%AF%8C%E8%B2%B4%E8%A7%92%E7%87%88%E5%A1%94_Fuguijiao_Lighthouse_-_panoramio.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/%E5%AF%8C%E8%B2%B4%E8%A7%92%E7%87%88%E5%A1%94_Fuguijiao_Lighthouse_-_panoramio.jpg/1920px-%E5%AF%8C%E8%B2%B4%E8%A7%92%E7%87%88%E5%A1%94_Fuguijiao_Lighthouse_-_panoramio.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Tapien%20Point%20%E5%AF%8C%E8%B2%B4%E8%A7%92%20-%20panoramio.jpg?width=1400"
+    ],
+    "pageTitle": "富貴角",
+    "wikidataId": "Q16928913",
+    "checkedAt": "2026-06-28T23:20:18.184Z"
+  },
+  "Attraction_376440000A_000203:鄧雨賢音樂文化公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:18.524Z"
+  },
+  "Attraction_A13020000G_000032:新竹：春池綠能玻璃觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:18.854Z"
+  },
+  "Attraction_379000000A_003812:臺北大巨蛋": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:19.164Z"
+  },
+  "Attraction_376430000A_000118:郭元益糕餅博物館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:19.492Z"
+  },
+  "Attraction_382000000A_110227:八二三紀念公園(中和公園)": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:19.961Z"
+  },
+  "Attraction_376430000A_001009:虎頭山公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:20.349Z"
+  },
+  "Attraction_379000000A_001808:洲美蜆仔港公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:20.687Z"
+  },
+  "Attraction_382000000A_109735:野柳地質公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:21.039Z"
+  },
+  "Attraction_376430000A_001264:龍岡森林公園": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a7/%E9%BE%8D%E5%B2%A1%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9C%92.jpg"
+    ],
+    "pageTitle": "龍岡森林公園",
+    "wikidataId": "Q55707889",
+    "checkedAt": "2026-06-28T23:20:21.431Z"
+  },
+  "Attraction_376440000A_000323:內灣老街": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fe/Neiwan_Old_Theatre.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Neiwan_Old_Theatre.jpg/1920px-Neiwan_Old_Theatre.jpg"
+    ],
+    "pageTitle": "內灣老街",
+    "wikidataId": "Q10891351",
+    "checkedAt": "2026-06-28T23:20:21.829Z"
+  },
+  "Attraction_376430000A_000583:小烏來天空步道": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/83/People_enjoy_the_view_from_the_Xiao_Wulai_Skywalk.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/People_enjoy_the_view_from_the_Xiao_Wulai_Skywalk.jpg/1920px-People_enjoy_the_view_from_the_Xiao_Wulai_Skywalk.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/People%20enjoy%20the%20view%20from%20the%20Xiao%20Wulai%20Skywalk.jpg?width=1400"
+    ],
+    "pageTitle": "小烏來天空步道",
+    "wikidataId": "Q10959632",
+    "checkedAt": "2026-06-28T23:20:22.204Z"
+  },
+  "Attraction_A13020000G_000003:彰化：緞帶王觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:22.415Z"
+  },
+  "Attraction_A13020000G_000190:雲林：雅聞峇里海岸觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:22.681Z"
+  },
+  "Attraction_376450000A_000889:立康健康養生觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:23.018Z"
+  },
+  "Attraction_A15010600H_000064:貓囒山步道": {
+    "urls": [],
+    "pageTitle": "貓囒山",
+    "wikidataId": "Q15913251",
+    "checkedAt": "2026-06-28T23:20:23.488Z"
+  },
+  "Attraction_376450000A_001002:自然風情景觀民宿": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:23.803Z"
+  },
+  "Attraction_387000000A_000028:臺中公園": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/57/%E6%B9%96%E5%BF%83%E4%BA%AD%E9%81%A0%E6%99%AF.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/%E6%B9%96%E5%BF%83%E4%BA%AD%E9%81%A0%E6%99%AF.jpg/1920px-%E6%B9%96%E5%BF%83%E4%BA%AD%E9%81%A0%E6%99%AF.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Taichung%20Park-1.JPG?width=1400"
+    ],
+    "pageTitle": "臺中公園",
+    "wikidataId": "Q276764",
+    "checkedAt": "2026-06-28T23:20:24.228Z"
+  },
+  "Attraction_A13020000G_000014:苗栗：立康健康養生觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:24.543Z"
+  },
+  "Attraction_376470000A_000400:樂活襪之鄉博物館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:24.891Z"
+  },
+  "Attraction_A13020000G_000174:彰化：台灣手套博物館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:25.098Z"
+  },
+  "Attraction_A13020000G_000101:彰化：樂活襪之鄉博物館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:25.456Z"
+  },
+  "Attraction_376490000A_000169:斗六籽公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:25.707Z"
+  },
+  "Attraction_376490000A_000112:他里霧文化園區": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:26.101Z"
+  },
+  "Attraction_A13020000G_000028:台中：張連昌薩克斯風博物館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:26.460Z"
+  },
+  "Attraction_A13020000G_000102:台中：鞋寶觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:26.842Z"
+  },
+  "Attraction_A13020000G_000146:苗栗：竹南啤酒觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:27.217Z"
+  },
+  "Attraction_A13020000G_000077:彰化：台灣穀堡稻米觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:27.592Z"
+  },
+  "Attraction_A13020000G_000016:彰化：白蘭氏健康博物館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:27.916Z"
+  },
+  "Attraction_A13020000G_000103:彰化：襪仔王觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:28.268Z"
+  },
+  "Attraction_376470000A_000281:襪仔王觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:28.580Z"
+  },
+  "Attraction_376490000A_000019:丸莊醬油觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:28.932Z"
+  },
+  "Attraction_A15010600H_000092:龍南天然漆博物館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:29.246Z"
+  },
+  "Attraction_376490000A_000057:湖口溼地": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:29.516Z"
+  },
+  "Attraction_A15010700H_000074:八仙山森林遊樂區": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:29.877Z"
+  },
+  "Attraction_345040000G_000005:觀霧國家森林遊樂區": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/cd/Guanwu_%E8%A7%80%E9%9C%A7_-_panoramio_%284%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Guanwu_%E8%A7%80%E9%9C%A7_-_panoramio_%284%29.jpg/1920px-Guanwu_%E8%A7%80%E9%9C%A7_-_panoramio_%284%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Guanwu%20WenKueiHo-002.jpg?width=1400",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Shei-pa%20Chiang%20ChengLin%2003.jpg?width=1400"
+    ],
+    "pageTitle": "觀霧國家森林遊樂區",
+    "wikidataId": "Q16929335",
+    "checkedAt": "2026-06-28T23:20:30.343Z"
+  },
+  "Attraction_A15010600H_000153:中台世界博物館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:30.754Z"
+  },
+  "Attraction_387000000A_000071:臺中都會公園": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/72/Taichung_Metropolitan_Park_main_entrance_20180929.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Taichung_Metropolitan_Park_main_entrance_20180929.jpg/1920px-Taichung_Metropolitan_Park_main_entrance_20180929.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Taichung%20Metropolitan%20Park%20main%20entrance%202010-08-12.jpg?width=1400"
+    ],
+    "pageTitle": "臺中都會公園",
+    "wikidataId": "Q15923334",
+    "checkedAt": "2026-06-28T23:20:31.138Z"
+  },
+  "Attraction_376450000A_000039:挑炭古道": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:31.459Z"
+  },
+  "Attraction_376490000A_000094:華山步道群": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:31.749Z"
+  },
+  "Attraction_A13020000G_000207:台中：丸文食品觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:32.139Z"
+  },
+  "Attraction_376490000A_000201:瑞春醬油觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:32.430Z"
+  },
+  "Attraction_387000000A_000418:國立自然科學博物館": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e4/Entrance_building_of_National_Museum_of_Natural_Science.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Entrance_building_of_National_Museum_of_Natural_Science.jpg/1920px-Entrance_building_of_National_Museum_of_Natural_Science.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/National%20Museum%20of%20Natural%20Science%20Taichung%2001.jpg?width=1400"
+    ],
+    "pageTitle": "國立自然科學博物館",
+    "wikidataId": "Q3847114",
+    "checkedAt": "2026-06-28T23:20:32.814Z"
+  },
+  "Attraction_387000000A_000970:牛罵頭遺址文化園區": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/71/%E7%89%9B%E7%BD%B5%E9%A0%AD%E9%81%BA%E5%9D%80%E5%87%BA%E5%9C%9F%E6%96%87%E7%89%A9%E5%85%B8%E5%AD%98.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/%E7%89%9B%E7%BD%B5%E9%A0%AD%E9%81%BA%E5%9D%80%E5%87%BA%E5%9C%9F%E6%96%87%E7%89%A9%E5%85%B8%E5%AD%98.jpg/1920px-%E7%89%9B%E7%BD%B5%E9%A0%AD%E9%81%BA%E5%9D%80%E5%87%BA%E5%9C%9F%E6%96%87%E7%89%A9%E5%85%B8%E5%AD%98.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Chin-shuei%20Niumatou%20site%20in%20Taichung%20County.JPG?width=1400"
+    ],
+    "pageTitle": "牛罵頭遺址",
+    "wikidataId": "Q15930520",
+    "checkedAt": "2026-06-28T23:20:33.277Z"
+  },
+  "Attraction_387000000A_000969:坪林森林公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:33.629Z"
+  },
+  "Attraction_A13020000G_000204:雲林：瑞春醬油觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:33.915Z"
+  },
+  "Attraction_376450000A_000113:大山車站": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/9a/%E5%BE%8C%E9%BE%8D-%E5%A4%A7%E5%B1%B1%E8%BB%8A%E7%AB%99.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/%E5%BE%8C%E9%BE%8D-%E5%A4%A7%E5%B1%B1%E8%BB%8A%E7%AB%99.jpg/1920px-%E5%BE%8C%E9%BE%8D-%E5%A4%A7%E5%B1%B1%E8%BB%8A%E7%AB%99.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/TRA%20DaShan%20Station.jpg?width=1400"
+    ],
+    "pageTitle": "大山車站 (台灣)",
+    "wikidataId": "Q5226582",
+    "checkedAt": "2026-06-28T23:20:34.400Z"
+  },
+  "Attraction_387000000A_000827:石岡老街": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:34.719Z"
+  },
+  "Attraction_387000000A_000957:國立臺灣音樂文化園區": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:35.201Z"
+  },
+  "Attraction_376490000A_000139:古坑綠隧驛站": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:35.436Z"
+  },
+  "Attraction_A13020000G_000025:台南：TJCOS台鉅美妝觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:35.674Z"
+  },
+  "Attraction_A13020000G_000030:嘉義：卡羅爾銅管樂器觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:35.920Z"
+  },
+  "Attraction_A13020000G_000116:高雄：台灣滷味博物館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:36.228Z"
+  },
+  "Attraction_A13020000G_000162:台南：彼緹娃藝術蛋糕觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:36.455Z"
+  },
+  "Attraction_A13020000G_000181:台南：蘭都觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:36.852Z"
+  },
+  "Attraction_A13020000G_000124:台南：東和蜂文化觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:37.240Z"
+  },
+  "Attraction_A13020000G_000106:台南：紅崴觀光工廠(腳的眼鏡足部科學體驗中心)": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:37.551Z"
+  },
+  "Attraction_A13020000G_000118:嘉義：民雄金桔觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:37.867Z"
+  },
+  "Attraction_A15010400H_000500:濱灣碼頭": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:38.228Z"
+  },
+  "Attraction_395000000A_000495:天鵝湖公園(舊名埤寮埤)": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:38.552Z"
+  },
+  "Attraction_A13020000G_000192:台南：萬國通路創意觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:38.775Z"
+  },
+  "Attraction_A13020000G_000178:高雄：裕賀牛觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:39.140Z"
+  },
+  "Attraction_A13020000G_000200:嘉義：愛木村休閒觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:39.525Z"
+  },
+  "Attraction_376600000A_000052:愛木村休閒觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:39.899Z"
+  },
+  "Attraction_A13020000G_000076:台南：美雅家具觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:40.231Z"
+  },
+  "Attraction_A13020000G_000147:台南：善化啤酒觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:40.554Z"
+  },
+  "Attraction_A13020000G_000119:嘉義：余順豐花生觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:40.866Z"
+  },
+  "Attraction_376600000A_000069:臺灣花磚博物館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:41.169Z"
+  },
+  "Attraction_376550000A_001238:美崙濱海公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:41.478Z"
+  },
+  "Attraction_A13020000G_000198:宜蘭：溪和水產觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:41.830Z"
+  },
+  "Attraction_A13020000G_000078:台東：池上鄉農會觀光工廠金色豐收館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:42.234Z"
+  },
+  "Attraction_A13020000G_000171:宜蘭：一米特米食點心觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:42.558Z"
+  },
+  "Attraction_A13020000G_000188:宜蘭：宜蘭虎牌米粉那個年代觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:42.831Z"
+  },
+  "Attraction_A13020000G_000070:宜蘭：博士鴨觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:43.213Z"
+  },
+  "Attraction_376420000A_000259:冬山河生態綠舟(冬山河森林公園)": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/57/Dongshan_River_Water_Park_%28Yilan%2C_Taiwan%29.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Dongshan_River_Water_Park_%28Yilan%2C_Taiwan%29.JPG/1920px-Dongshan_River_Water_Park_%28Yilan%2C_Taiwan%29.JPG",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Dongshan%20River%20Ecoark8.jpg?width=1400"
+    ],
+    "pageTitle": "冬山河生態綠舟",
+    "wikidataId": "Q137714981",
+    "checkedAt": "2026-06-28T23:20:43.644Z"
+  },
+  "Attraction_376420000A_000232:幾米廣場(丟丟噹森林公園)": {
+    "urls": [],
+    "pageTitle": "幾米廣場",
+    "wikidataId": "Q28409575",
+    "checkedAt": "2026-06-28T23:20:44.043Z"
+  },
+  "Attraction_376540000A_000265:關山親水公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:44.370Z"
+  },
+  "Attraction_376420000A_000001:蘇澳冷泉公園": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/8c/2022_Su%27ao_Cold_Spring_s3.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/2022_Su%27ao_Cold_Spring_s3.jpg/1920px-2022_Su%27ao_Cold_Spring_s3.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/2022%20Su'ao%20Cold%20Spring%20i.jpg?width=1400"
+    ],
+    "pageTitle": "蘇澳冷泉",
+    "wikidataId": "Q6144364",
+    "checkedAt": "2026-06-28T23:20:44.897Z"
+  },
+  "Attraction_376540000A_000308:海濱公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:45.239Z"
+  },
+  "Attraction_A15010300H_000207:羅山遊客中心": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:45.579Z"
+  },
+  "Attraction_376420000A_000253:石牌縣界公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:45.890Z"
+  },
+  "Attraction_A15011300H_010063:大溪漁港": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/18/%E5%A4%A7%E6%BA%AA%E6%96%B0%E6%B8%AF.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/%E5%A4%A7%E6%BA%AA%E6%96%B0%E6%B8%AF.jpg/1920px-%E5%A4%A7%E6%BA%AA%E6%96%B0%E6%B8%AF.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%A4%A7%E6%BA%AA%E6%96%B0%E6%B8%AF.jpg?width=1400"
+    ],
+    "pageTitle": "大溪漁港",
+    "wikidataId": "Q17499079",
+    "checkedAt": "2026-06-28T23:20:46.251Z"
+  },
+  "Attraction_376550000A_003077:光復車站": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:46.636Z"
+  },
+  "Attraction_A15010500H_002716:戰爭和平紀念公園主題館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:47.092Z"
+  },
+  "Attraction_A15010200H_000036:山水濕地公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:47.458Z"
+  },
+  "Attraction_A15010200H_000099:東衛石雕公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:47.812Z"
+  },
+  "Attraction_A15010200H_000059:虎井西山公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:48.155Z"
+  },
+  "Attraction_371020000A_001625:沙美車站": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:48.484Z"
+  },
+  "Attraction_376440000A_000539:音符公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:48.730Z"
+  },
+  "Attraction_376570000A_000531:一太e衛浴觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:49.047Z"
+  },
+  "Attraction_A15011000H_000269:觀音山猛禽展示館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:49.297Z"
+  },
+  "Attraction_A15011000H_000014:白沙灣水域遊憩區": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:49.661Z"
+  },
+  "Attraction_379000000A_002259:成美右岸河濱公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:49.976Z"
+  },
+  "Attraction_376440000A_000454:獅山遊客中心": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:50.370Z"
+  },
+  "Attraction_382000000A_403628:新北市輪椅夢公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:50.731Z"
+  },
+  "Attraction_A15011000H_000027:中角灣": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:51.090Z"
+  },
+  "Attraction_A15011000H_000215:中角灣遊客中心": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:51.586Z"
+  },
+  "Attraction_A15011000H_000153:外木山湖海灣": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:51.924Z"
+  },
+  "Attraction_376430000A_001635:Global Mall 桃園A19": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:52.262Z"
+  },
+  "Attraction_376450000A_000574:雪見遊憩區": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:52.571Z"
+  },
+  "Attraction_376450000A_000988:車之道體驗中心": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:52.944Z"
+  },
+  "Attraction_376450000A_000935:巧克力雲莊": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:53.366Z"
+  },
+  "Attraction_376470000A_000061:茉莉花故鄉": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:53.659Z"
+  },
+  "Attraction_376450000A_000067:天仁茶文化館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:54.098Z"
+  },
+  "Attraction_376450000A_000989:銅鑼窯": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:54.428Z"
+  },
+  "Attraction_376480000A_000342:九份二山地震紀念園區": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:54.823Z"
+  },
+  "Attraction_376450000A_000108:山水米有機稻場": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:55.132Z"
+  },
+  "Attraction_376450000A_000444:冠軍綠概念館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:55.445Z"
+  },
+  "Attraction_376480000A_000387:鹿谷鄉農會茶葉文化館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:55.903Z"
+  },
+  "Attraction_376450000A_000691:苗栗工藝園區": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:56.255Z"
+  },
+  "Attraction_376450000A_000109:荒木藝術中心": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:56.607Z"
+  },
+  "Attraction_376450000A_000046:火炎山森林生態教育館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:56.967Z"
+  },
+  "Attraction_A15011200H_000099:中埔遊客中心": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:57.295Z"
+  },
+  "Attraction_A15010400H_000501:落日灣": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:57.625Z"
+  },
+  "Attraction_A15011300H_000036:永鎮濱海遊憩區": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:57.962Z"
+  },
+  "Attraction_A15011300H_010069:外澳服務區": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:58.341Z"
+  },
+  "Attraction_A15010300H_000032:北回歸線標誌公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:58.672Z"
+  },
+  "Attraction_A15010200H_000091:澎湖生活博物館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:59.030Z"
+  },
+  "Attraction_376580000A_000041:關新公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:59.379Z"
+  },
+  "Attraction_376440000A_000348:文化兒童公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:20:59.685Z"
+  },
+  "Attraction_376580000A_000050:香山濕地賞蟹步道": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/22/%E9%A6%99%E5%B1%B1%E6%BF%95%E5%9C%B0%E8%B3%9E%E8%9F%B9%E6%AD%A5%E9%81%93.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/%E9%A6%99%E5%B1%B1%E6%BF%95%E5%9C%B0%E8%B3%9E%E8%9F%B9%E6%AD%A5%E9%81%93.jpg/1920px-%E9%A6%99%E5%B1%B1%E6%BF%95%E5%9C%B0%E8%B3%9E%E8%9F%B9%E6%AD%A5%E9%81%93.jpg"
+    ],
+    "pageTitle": "香山濕地賞蟹步道",
+    "wikidataId": "Q86728838",
+    "checkedAt": "2026-06-28T23:21:00.098Z"
+  },
+  "Attraction_382000000A_403429:八里商港公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:00.441Z"
+  },
+  "Attraction_382000000A_403563:觀音山林梢步道": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:00.929Z"
+  },
+  "Attraction_376580000A_000036:綠光公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:01.239Z"
+  },
+  "Attraction_376580000A_000061:賞蟹步道": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:01.531Z"
+  },
+  "Attraction_A15011300H_000069:三貂角燈塔步道": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:01.886Z"
+  },
+  "Attraction_A15011300H_000021:鼻頭角步道": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/9f/Military_radar_station_on_top_of_a_hill_seen_from_the_trail_in_Bitou_Cape_Park.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Military_radar_station_on_top_of_a_hill_seen_from_the_trail_in_Bitou_Cape_Park.jpg/1920px-Military_radar_station_on_top_of_a_hill_seen_from_the_trail_in_Bitou_Cape_Park.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Military%20radar%20station%20on%20top%20of%20a%20hill%20seen%20from%20the%20trail%20in%20Bitou%20Cape%20Park.jpg?width=1400"
+    ],
+    "pageTitle": "鼻頭角",
+    "wikidataId": "Q21041710",
+    "checkedAt": "2026-06-28T23:21:02.279Z"
+  },
+  "Attraction_376430000A_001371:大溪木藝生態博物館﹣藝師館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:02.685Z"
+  },
+  "Attraction_376430000A_000651:大古山步道": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:02.891Z"
+  },
+  "Attraction_A15011300H_000020:鼻頭龍洞地質公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:03.230Z"
+  },
+  "Attraction_379000000A_000416:三重世貿公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:03.600Z"
+  },
+  "Attraction_A15010700H_000082:豐柏廣場": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:04.003Z"
+  },
+  "Attraction_387000000A_000136:豐樂雕塑公園": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e7/FengLe_Sculpture_Park_20141231.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/FengLe_Sculpture_Park_20141231.jpg/1920px-FengLe_Sculpture_Park_20141231.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/FengLe%20Sculpture%20Park%2020141231.jpg?width=1400"
+    ],
+    "pageTitle": "豐樂雕塑公園",
+    "wikidataId": "Q15930275",
+    "checkedAt": "2026-06-28T23:21:04.395Z"
+  },
+  "Attraction_A15010600H_000128:虎頭山地理中心碑園區": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:05.172Z"
+  },
+  "Attraction_376490000A_000289:斗六後庄埤親水公園(天空之島光環境)": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:05.617Z"
+  },
+  "Attraction_A15010600H_000111:水里親水公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:06.027Z"
+  },
+  "Attraction_387000000A_001821:馬卡龍公園": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/57/%E9%A6%AC%E5%8D%A1%E9%BE%8D%E5%85%AC%E5%9C%92.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/%E9%A6%AC%E5%8D%A1%E9%BE%8D%E5%85%AC%E5%9C%92.jpg/1920px-%E9%A6%AC%E5%8D%A1%E9%BE%8D%E5%85%AC%E5%9C%92.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%A6%AC%E5%8D%A1%E9%BE%8D%E5%85%AC%E5%9C%92.jpg?width=1400"
+    ],
+    "pageTitle": "馬卡龍公園",
+    "wikidataId": "Q115644549",
+    "checkedAt": "2026-06-28T23:21:06.436Z"
+  },
+  "Attraction_376450000A_000835:苗栗縣泰雅原住民文化產業區": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:06.905Z"
+  },
+  "Attraction_376450000A_000104:苑港觀光漁港": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:07.263Z"
+  },
+  "Attraction_376450000A_000115:汶水老街": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/eb/%E6%B1%B6%E6%B0%B4%E8%80%81%E8%A1%97_Wenshui_Old_Street_-_panoramio.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/%E6%B1%B6%E6%B0%B4%E8%80%81%E8%A1%97_Wenshui_Old_Street_-_panoramio.jpg/1920px-%E6%B1%B6%E6%B0%B4%E8%80%81%E8%A1%97_Wenshui_Old_Street_-_panoramio.jpg"
+    ],
+    "pageTitle": "汶水老街",
+    "wikidataId": "Q11137416",
+    "checkedAt": "2026-06-28T23:21:07.664Z"
+  },
+  "Attraction_A15010600H_000011:國立暨南國際大學": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:08.035Z"
+  },
+  "Attraction_376490000A_000026:荷苞山桐花公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:08.318Z"
+  },
+  "Attraction_376450000A_000442:觀魚步道": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:08.950Z"
+  },
+  "Attraction_376450000A_000913:鹿廚坑步道": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:09.240Z"
+  },
+  "Attraction_376450000A_000146:蓬萊溪護魚步道": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:09.666Z"
+  },
+  "Attraction_376490000A_000176:西螺大橋親水公園 螺石公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:10.030Z"
+  },
+  "Attraction_376450000A_000947:銅鑼炮仗花海公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:10.283Z"
+  },
+  "Attraction_A15010600H_000154:水社商圈": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:10.659Z"
+  },
+  "Attraction_376490000A_000202:奶奶的熊毛巾故事館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:10.973Z"
+  },
+  "Attraction_376490000A_000024:合同廳舍": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:11.336Z"
+  },
+  "Attraction_387000000A_000817:烏日啤酒觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:11.686Z"
+  },
+  "Attraction_376490000A_000013:六輕阿媽公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:11.999Z"
+  },
+  "Attraction_376490000A_000178:三條崙海水浴場親水公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:12.311Z"
+  },
+  "Attraction_376450000A_000928:夢幻桐花步道": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:12.667Z"
+  },
+  "Attraction_376480000A_000020:楓香巨木群公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:13.055Z"
+  },
+  "Attraction_A15010600H_000023:內湖山步道": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:13.411Z"
+  },
+  "Attraction_376450000A_000075:十分崠步道": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:13.660Z"
+  },
+  "Attraction_376450000A_000973:四十二份坪步道": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:13.995Z"
+  },
+  "Attraction_376450000A_000976:老銃櫃步道": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:14.328Z"
+  },
+  "Attraction_376450000A_000636:哈堪尼山登山步道": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:14.721Z"
+  },
+  "Attraction_376450000A_000972:橫屏背賞魚步道": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:15.040Z"
+  },
+  "Attraction_387000000A_000083:勤美誠品綠園道": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:15.490Z"
+  },
+  "Attraction_376600000A_000064:蘭潭後山步道": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:15.828Z"
+  },
+  "Attraction_395000000A_000953:大地化石礦石博物館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:16.124Z"
+  },
+  "Attraction_A15010400H_000428:人工溼地公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:16.451Z"
+  },
+  "Attraction_376600000A_000046:沉睡森林主題公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:16.653Z"
+  },
+  "Attraction_A15011200H_000177:嶺頂公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:16.947Z"
+  },
+  "Attraction_395000000A_000916:黑橋牌香腸博物館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:17.332Z"
+  },
+  "Attraction_A15011300H_000054:壯圍沙丘生態園區": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:17.660Z"
+  },
+  "Attraction_376550000A_003128:太魯閣國家公園": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/b0/Taiwan_2009_HuaLien_Taroko_Gorge_Biking_PB160057.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Taiwan_2009_HuaLien_Taroko_Gorge_Biking_PB160057.jpg/1920px-Taiwan_2009_HuaLien_Taroko_Gorge_Biking_PB160057.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Eternal%20Spring%20Shrine%20in%20Taroko.JPG?width=1400"
+    ],
+    "pageTitle": "太魯閣國家公園",
+    "wikidataId": "Q707427",
+    "checkedAt": "2026-06-28T23:21:18.052Z"
+  },
+  "Attraction_376550000A_003055:花蓮港鳥踏石公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:18.481Z"
+  },
+  "Attraction_A15011300H_010059:大里遊客中心": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:18.854Z"
+  },
+  "Attraction_376420000A_000088:礁溪站前廣場": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:19.208Z"
+  },
+  "Attraction_A15010500H_002784:東洋山步道": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:19.616Z"
+  },
+  "Attraction_A15010500H_002724:蔬菜公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:19.904Z"
+  },
+  "Attraction_A15010500H_002737:津仁與馬港步道": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:20.277Z"
+  },
+  "Attraction_A15010500H_002735:勝天公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:20.671Z"
+  },
+  "Attraction_A15010500H_002725:枕戈待旦紀念公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:20.996Z"
+  },
+  "Attraction_A15010500H_002718:戰爭和平紀念公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:21.352Z"
+  },
+  "Attraction_A15010500H_002794:世尾山步道": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:21.677Z"
+  },
+  "Attraction_A15010500H_002786:官帽山地質景觀步道": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:22.037Z"
+  },
+  "Attraction_A15010500H_002717:螺山自然步道": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:22.409Z"
+  },
+  "Attraction_A15010200H_000102:澎湖機場旅遊服務中心": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:22.788Z"
+  },
+  "Attraction_397000000A_000203:市民廣場": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:23.112Z"
+  },
+  "Attraction_397000000A_000214:美濃客家文物館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:23.456Z"
+  },
+  "Attraction_397000000A_000659:FLOMO富樂夢橡皮擦觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:23.735Z"
+  },
+  "Attraction_397000000A_001258:金獅湖蝴蝶園": {
+    "urls": [],
+    "pageTitle": "金獅湖蝴蝶園",
+    "wikidataId": "Q109413969",
+    "checkedAt": "2026-06-28T23:21:24.148Z"
+  },
+  "Attraction_397000000A_000640:西臨港線自行車道": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/23/Kaohsiung_Port_line_Rail_trail_01.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Kaohsiung_Port_line_Rail_trail_01.jpg/1920px-Kaohsiung_Port_line_Rail_trail_01.jpg"
+    ],
+    "pageTitle": "西臨港線自行車道",
+    "wikidataId": "Q15903133",
+    "checkedAt": "2026-06-28T23:21:24.581Z"
+  },
+  "Attraction_397000000A_000614:旗山車站-糖鐵故事館": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/97/2019_Qishan_Station_Anterior.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/2019_Qishan_Station_Anterior.jpg/1920px-2019_Qishan_Station_Anterior.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%97%97%E5%B1%B1%E8%BB%8A%E7%AB%99%20Qishan%20Station%20-%20panoramio.jpg?width=1400"
+    ],
+    "pageTitle": "旗山車站",
+    "wikidataId": "Q11085459",
+    "checkedAt": "2026-06-28T23:21:24.988Z"
+  },
+  "Attraction_397000000A_000619:大坪頂熱帶植物園": {
+    "urls": [],
+    "pageTitle": "大坪頂熱帶植物園",
+    "wikidataId": "Q10934500",
+    "checkedAt": "2026-06-28T23:21:25.408Z"
+  },
+  "Attraction_397000000A_000017:中都唐榮磚窯廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:25.828Z"
+  },
+  "Attraction_397000000A_000579:佛光山佛陀紀念館": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/83/Fo_Guang_Shan_Buddha_Museum_%E4%BD%9B%E5%85%89%E5%B1%B1%E4%BD%9B%E9%99%80%E7%B4%80%E5%BF%B5%E9%A4%A8_.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Fo_Guang_Shan_Buddha_Museum_%E4%BD%9B%E5%85%89%E5%B1%B1%E4%BD%9B%E9%99%80%E7%B4%80%E5%BF%B5%E9%A4%A8_.jpg/1920px-Fo_Guang_Shan_Buddha_Museum_%E4%BD%9B%E5%85%89%E5%B1%B1%E4%BD%9B%E9%99%80%E7%B4%80%E5%BF%B5%E9%A4%A8_.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Fo%20Guang%20Shan%20Buddha%20Museum%20%E4%BD%9B%E5%85%89%E5%B1%B1%E4%BD%9B%E9%99%80%E7%B4%80%E5%BF%B5%E9%A4%A8%20.jpg?width=1400"
+    ],
+    "pageTitle": "佛光山佛陀紀念館",
+    "wikidataId": "Q4984158",
+    "checkedAt": "2026-06-28T23:21:26.230Z"
+  },
+  "Attraction_397000000A_001362:志斌豆瓣醬故事館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:26.473Z"
+  },
+  "Attraction_397000000A_000071:前鎮漁港": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:26.773Z"
+  },
+  "Attraction_397000000A_001440:桃源區原住民文化館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:27.167Z"
+  },
+  "Attraction_397000000A_000068:高雄市漁業文化館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:27.479Z"
+  },
+  "Attraction_397000000A_000187:陸軍官校(校史館)": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:27.812Z"
+  },
+  "Attraction_397000000A_001203:舊振南漢餅文化館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:28.168Z"
+  },
+  "Attraction_397000000A_000234:西子灣風景區": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:28.556Z"
+  },
+  "Attraction_397000000A_000252:那瑪夏民權國小": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:28.983Z"
+  },
+  "Attraction_397000000A_001220:旗津黃金海韻－海珍珠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:29.346Z"
+  },
+  "Attraction_397000000A_000060:空軍軍史館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:29.649Z"
+  },
+  "Attraction_397000000A_001589:科工館車站": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:29.989Z"
+  },
+  "Attraction_397000000A_000085:陳中和紀念館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:30.356Z"
+  },
+  "Attraction_397000000A_000615:旗津貝殼館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:30.709Z"
+  },
+  "Attraction_397000000A_001463:大湖番茄會社": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:31.005Z"
+  },
+  "Attraction_397000000A_001494:見城之道": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:31.390Z"
+  },
+  "Attraction_397000000A_000586:美濃湖": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/43/Meinong-chong-chieng-lake.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/2012%20%E7%BE%8E%E6%BF%83%E4%B8%AD%E6%AD%A3%E6%B9%96%20Meinong%20Zhongzheng%20Lake.jpg?width=1400"
+    ],
+    "pageTitle": "美濃湖",
+    "wikidataId": "Q10875749",
+    "checkedAt": "2026-06-28T23:21:31.748Z"
+  },
+  "Attraction_397000000A_000353:哨船頭山碉堡(西子灣)": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:32.080Z"
+  },
+  "Attraction_397000000A_000571:統一夢時代購物中心": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/4e/%E7%B5%B1%E4%B8%80%E5%A4%A2%E6%99%82%E4%BB%A3%E8%B3%BC%E7%89%A9%E4%B8%AD%E5%BF%83_%282%29.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/%E7%B5%B1%E4%B8%80%E5%A4%A2%E6%99%82%E4%BB%A3%E8%B3%BC%E7%89%A9%E4%B8%AD%E5%BF%83_%282%29.JPG/1920px-%E7%B5%B1%E4%B8%80%E5%A4%A2%E6%99%82%E4%BB%A3%E8%B3%BC%E7%89%A9%E4%B8%AD%E5%BF%83_%282%29.JPG",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E7%B5%B1%E4%B8%80%E5%A4%A2%E6%99%82%E4%BB%A3%E8%B3%BC%E7%89%A9%E4%B8%AD%E5%BF%83.JPG?width=1400"
+    ],
+    "pageTitle": "統一夢時代購物中心",
+    "wikidataId": "Q5306407",
+    "checkedAt": "2026-06-28T23:21:32.518Z"
+  },
+  "Attraction_379000000A_000024:國立國父紀念館": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/d4/Taipeh_Taipei_101_Blick_von_der_Aussichtsplattform_auf_Sun_Yat_Sen_Memorial_4.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Taipeh_Taipei_101_Blick_von_der_Aussichtsplattform_auf_Sun_Yat_Sen_Memorial_4.jpg/1920px-Taipeh_Taipei_101_Blick_von_der_Aussichtsplattform_auf_Sun_Yat_Sen_Memorial_4.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/SYS%20Memorial%20Hall%20view%20from%20Taipei%20101%2020070801.jpg?width=1400"
+    ],
+    "pageTitle": "國立國父紀念館",
+    "wikidataId": "Q697314",
+    "checkedAt": "2026-06-28T23:21:32.937Z"
+  },
+  "Attraction_A15011000H_000013:麟山鼻遊憩區": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:33.305Z"
+  },
+  "Attraction_379000000A_000271:臺北小巨蛋": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:33.662Z"
+  },
+  "Attraction_379000000A_000043:凱達格蘭文化館": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/07/Ketagalan_Culture_Center.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Ketagalan_Culture_Center.JPG/1920px-Ketagalan_Culture_Center.JPG",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Ketagalan%20Culture%20Center.JPG?width=1400"
+    ],
+    "pageTitle": "凱達格蘭文化館",
+    "wikidataId": "Q10896465",
+    "checkedAt": "2026-06-28T23:21:34.110Z"
+  },
+  "Attraction_379000000A_000023:國立中正紀念堂": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/0d/2022%E5%B9%B4%E7%9A%84%E4%B8%AD%E6%AD%A3%E7%B4%80%E5%BF%B5%E5%A0%82.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/2022%E5%B9%B4%E7%9A%84%E4%B8%AD%E6%AD%A3%E7%B4%80%E5%BF%B5%E5%A0%82.jpg/1920px-2022%E5%B9%B4%E7%9A%84%E4%B8%AD%E6%AD%A3%E7%B4%80%E5%BF%B5%E5%A0%82.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Chiang%20Kai-shek%20memorial%20amk.jpg?width=1400"
+    ],
+    "pageTitle": "中正紀念堂",
+    "wikidataId": "Q540794",
+    "checkedAt": "2026-06-28T23:21:34.692Z"
+  },
+  "Attraction_376570000A_001223:天外天復育公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:35.074Z"
+  },
+  "Attraction_382000000A_403025:滬尾藝文休閒園區": {
+    "urls": [],
+    "pageTitle": "滬尾藝文休閒園區",
+    "wikidataId": "Q85882149",
+    "checkedAt": "2026-06-28T23:21:35.488Z"
+  },
+  "Attraction_379000000A_000041:臺北市立天文科學教育館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:35.844Z"
+  },
+  "Attraction_A15011000H_000255:外木山自行車道": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:36.205Z"
+  },
+  "Attraction_A15011000H_000209:雙灣自行車道": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:36.599Z"
+  },
+  "Attraction_379000000A_000229:松山文創園區": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:36.970Z"
+  },
+  "Attraction_376430000A_000997:中平路故事館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:37.323Z"
+  },
+  "Attraction_379000000A_000053:芝山文化生態綠園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:37.679Z"
+  },
+  "Attraction_379000000A_002261:新芳春茶行": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:37.992Z"
+  },
+  "Attraction_376440000A_000170:關西鎮農會仙草加工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:38.304Z"
+  },
+  "Attraction_376440000A_000485:6Plaza廣場": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:38.586Z"
+  },
+  "Attraction_A15011000H_000016:富貴角遊憩區": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:38.944Z"
+  },
+  "Attraction_379000000A_000056:臺北市藝文推廣處_城市舞台": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:39.349Z"
+  },
+  "Attraction_345040000G_120043:拉拉山生態教育館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:39.702Z"
+  },
+  "Attraction_A15011000H_000280:國聖埔據點": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:40.028Z"
+  },
+  "Attraction_376570000A_000576:七堵鐵道公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:40.395Z"
+  },
+  "Attraction_376570000A_000585:東勢坑產業步道": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:40.717Z"
+  },
+  "Attraction_379000000A_001732:花卉試驗中心": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/50/%E8%87%BA%E5%8C%97%E5%B8%82%E6%94%BF%E5%BA%9C%E5%B7%A5%E5%8B%99%E5%B1%80%E5%85%AC%E5%9C%92%E8%B7%AF%E7%87%88%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86%E8%99%95%E8%8A%B1%E5%8D%89%E8%A9%A6%E9%A9%97%E4%B8%AD%E5%BF%83_20100316.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/%E8%87%BA%E5%8C%97%E5%B8%82%E6%94%BF%E5%BA%9C%E5%B7%A5%E5%8B%99%E5%B1%80%E5%85%AC%E5%9C%92%E8%B7%AF%E7%87%88%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86%E8%99%95%E8%8A%B1%E5%8D%89%E8%A9%A6%E9%A9%97%E4%B8%AD%E5%BF%83_20100316.jpg/1920px-%E8%87%BA%E5%8C%97%E5%B8%82%E6%94%BF%E5%BA%9C%E5%B7%A5%E5%8B%99%E5%B1%80%E5%85%AC%E5%9C%92%E8%B7%AF%E7%87%88%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86%E8%99%95%E8%8A%B1%E5%8D%89%E8%A9%A6%E9%A9%97%E4%B8%AD%E5%BF%83_20100316.jpg"
+    ],
+    "pageTitle": "臺北市政府工務局公園路燈工程管理處花卉試驗中心",
+    "wikidataId": "Q10499981",
+    "checkedAt": "2026-06-28T23:21:41.101Z"
+  },
+  "Attraction_376430000A_000135:桃園酒廠": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/b3/%E8%87%BA%E7%81%A3%E8%8F%B8%E9%85%92%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E6%A1%83%E5%9C%92%E9%85%92%E5%BB%A0%E8%A3%BD%E9%85%92%E5%A4%A7%E6%A8%93.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/%E8%87%BA%E7%81%A3%E8%8F%B8%E9%85%92%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E6%A1%83%E5%9C%92%E9%85%92%E5%BB%A0%E8%A3%BD%E9%85%92%E5%A4%A7%E6%A8%93.jpg/1920px-%E8%87%BA%E7%81%A3%E8%8F%B8%E9%85%92%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E6%A1%83%E5%9C%92%E9%85%92%E5%BB%A0%E8%A3%BD%E9%85%92%E5%A4%A7%E6%A8%93.jpg"
+    ],
+    "pageTitle": "桃園酒廠",
+    "wikidataId": "Q109413118",
+    "checkedAt": "2026-06-28T23:21:41.469Z"
+  },
+  "Attraction_A15011000H_000002:淺水灣": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a5/%E4%B8%89%E8%8A%9D%E6%B7%BA%E6%B0%B4%E7%81%A3_Sanzhi_Qianshui_Bay_-_panoramio.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/%E4%B8%89%E8%8A%9D%E6%B7%BA%E6%B0%B4%E7%81%A3_Sanzhi_Qianshui_Bay_-_panoramio.jpg/1920px-%E4%B8%89%E8%8A%9D%E6%B7%BA%E6%B0%B4%E7%81%A3_Sanzhi_Qianshui_Bay_-_panoramio.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E4%B8%89%E8%8A%9D%E6%B7%BA%E6%B0%B4%E7%81%A3%20Sanzhi%20Qianshui%20Bay%20-%20panoramio.jpg?width=1400"
+    ],
+    "pageTitle": "淺水灣 (台灣)",
+    "wikidataId": "Q11153661",
+    "checkedAt": "2026-06-28T23:21:41.820Z"
+  },
+  "Attraction_379000000A_000413:美麗華百樂園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:42.141Z"
+  },
+  "Attraction_382000000A_110050:紫東社區(平溪區農會東勢生態教育會館)": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:42.514Z"
+  },
+  "Attraction_379000000A_000032:台北當代藝術館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:42.874Z"
+  },
+  "Attraction_376430000A_000333:桃園客家文化館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:43.242Z"
+  },
+  "Attraction_379000000A_000367:國立臺灣藝術教育館": {
+    "urls": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/National%20Taiwan%20Arts%20Education%20Center.JPG?width=1400"
+    ],
+    "pageTitle": "國立臺灣藝術教育館",
+    "wikidataId": "Q10927243",
+    "checkedAt": "2026-06-28T23:21:43.724Z"
+  },
+  "Attraction_376430000A_000981:眷村故事館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:44.024Z"
+  },
+  "Attraction_376430000A_001568:棒球名人堂": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:44.375Z"
+  },
+  "Attraction_382000000A_109718:新北市藝文中心": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:44.711Z"
+  },
+  "Attraction_376430000A_001162:大湳圖書館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:45.058Z"
+  },
+  "Attraction_379000000A_000347:大稻埕戲苑": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:45.400Z"
+  },
+  "Attraction_382000000A_403499:猴硐遊客中心": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:45.785Z"
+  },
+  "Attraction_379000000A_000260:臺北植物園": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/58/Taipei_Botanical_Garden_Lotus_20240421_02.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Taipei_Botanical_Garden_Lotus_20240421_02.jpg/1920px-Taipei_Botanical_Garden_Lotus_20240421_02.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Taipei%20Botanical%20Garden%20Greenhouse.jpg?width=1400"
+    ],
+    "pageTitle": "台北植物園",
+    "wikidataId": "Q10914190",
+    "checkedAt": "2026-06-28T23:21:46.188Z"
+  },
+  "Attraction_A15011300H_000066:卯澳灣": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:46.522Z"
+  },
+  "Attraction_376580000A_000031:香山森林": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:46.887Z"
+  },
+  "Attraction_382000000A_403238:陽明山天籟渡假酒店": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:47.280Z"
+  },
+  "Attraction_A15011300H_020563:靈鷲山‧福城": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:47.655Z"
+  },
+  "Attraction_376430000A_001423:桃園軌道願景館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:48.007Z"
+  },
+  "Attraction_379000000A_000368:臺北市政府消防局防災科學教育館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:48.344Z"
+  },
+  "Attraction_A15011000H_000021:老梅綠石槽": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:48.680Z"
+  },
+  "Attraction_A15011000H_000018:富貴角燈塔": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/97/Fugueijiao_Lighthouse_1.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%AF%8C%E8%B2%B4%E8%A7%92%E7%87%88%E5%A1%94DSC%206721.JPG?width=1400"
+    ],
+    "pageTitle": "富貴角燈塔",
+    "wikidataId": "Q10954780",
+    "checkedAt": "2026-06-28T23:21:49.071Z"
+  },
+  "Attraction_382000000A_110133:永續環境教育中心": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:49.451Z"
+  },
+  "Attraction_379000000A_001582:東區地下街": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:49.806Z"
+  },
+  "Attraction_376430000A_000106:大江國際購物中心": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:50.140Z"
+  },
+  "Attraction_376430000A_000186:台茂購物中心": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:50.518Z"
+  },
+  "Attraction_387000000A_001737:臺中市立圖書館興安分館": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/95/%E8%87%BA%E4%B8%AD%E5%B8%82%E7%AB%8B%E5%9C%96%E6%9B%B8%E9%A4%A8%E5%A4%A7%E5%A2%A9%E5%85%92%E7%AB%A5%E5%88%86%E9%A4%A8.jpg"
+    ],
+    "pageTitle": "臺中市立圖書館興安分館",
+    "wikidataId": "Q9495331",
+    "checkedAt": "2026-06-28T23:21:50.919Z"
+  },
+  "Attraction_387000000A_001735:臺中市立圖書館上楓分館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:51.276Z"
+  },
+  "Attraction_387000000A_000939:臺灣印刷探索館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:51.619Z"
+  },
+  "Attraction_387000000A_001734:臺中市立圖書館外埔分館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:52.027Z"
+  },
+  "Attraction_376470000A_000033:展壯台大蘭園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:52.374Z"
+  },
+  "Attraction_376450000A_000878:幸褔農場": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:52.570Z"
+  },
+  "Attraction_376450000A_000600:花露花卉休閒農場": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:52.815Z"
+  },
+  "Attraction_376450000A_000043:四方牧場": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:53.069Z"
+  },
+  "Attraction_376480000A_000384:猴探井遊憩區": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3e/%E5%A4%A9%E7%A9%BA%E4%B9%8B%E6%A9%8B_Sky_Bridge_-_panoramio.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/%E5%A4%A9%E7%A9%BA%E4%B9%8B%E6%A9%8B_Sky_Bridge_-_panoramio.jpg/1920px-%E5%A4%A9%E7%A9%BA%E4%B9%8B%E6%A9%8B_Sky_Bridge_-_panoramio.jpg"
+    ],
+    "pageTitle": "猴探井遊憩區",
+    "wikidataId": "Q16929112",
+    "checkedAt": "2026-06-28T23:21:53.476Z"
+  },
+  "Attraction_387000000A_001736:臺中市立圖書館李科永紀念圖書分館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:53.893Z"
+  },
+  "Attraction_387000000A_001393:臺中市立圖書館溪西分館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:54.314Z"
+  },
+  "Attraction_387000000A_000420:臺灣民俗文物館": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/87/M%C4%81-c%C5%AB_M%C3%ACng-s%E1%B9%B3%CC%86k_%C3%99ng-%C5%ADk-gu%C4%81ng_20190424.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/M%C4%81-c%C5%AB_M%C3%ACng-s%E1%B9%B3%CC%86k_%C3%99ng-%C5%ADk-gu%C4%81ng_20190424.jpg/1920px-M%C4%81-c%C5%AB_M%C3%ACng-s%E1%B9%B3%CC%86k_%C3%99ng-%C5%ADk-gu%C4%81ng_20190424.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Matsu%20Folklore%20Culture%20Museum%2020101121.jpg?width=1400"
+    ],
+    "pageTitle": "馬祖民俗文物館",
+    "wikidataId": "Q16242004",
+    "checkedAt": "2026-06-28T23:21:54.775Z"
+  },
+  "Attraction_376450000A_000939:舊山線鐵道自行車": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:55.142Z"
+  },
+  "Attraction_376470000A_000255:赤水崎公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:55.473Z"
+  },
+  "Attraction_376450000A_000926:老家藝文空間": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:55.750Z"
+  },
+  "Attraction_376470000A_000054:梅庄花卉生產休憩園區": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:56.125Z"
+  },
+  "Attraction_376450000A_000990:葛瑞絲香草田": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:56.374Z"
+  },
+  "Attraction_376450000A_000094:福村養生農場": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:56.799Z"
+  },
+  "Attraction_387000000A_000523:石岡土牛客家文化館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:57.178Z"
+  },
+  "Attraction_387000000A_000537:臺中市大甲區中正紀念館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:57.548Z"
+  },
+  "Attraction_376470000A_000450:芳苑海空步道": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:57.973Z"
+  },
+  "Attraction_376470000A_000291:彰化溪州公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:58.407Z"
+  },
+  "Attraction_387000000A_000520:臺中市立圖書館石岡分館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:58.811Z"
+  },
+  "Attraction_387000000A_000496:臺中市立圖書館西屯分館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:59.195Z"
+  },
+  "Attraction_387000000A_000513:臺中市立圖書館沙鹿深波分館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:59.464Z"
+  },
+  "Attraction_387000000A_001413:臺中作家典藏館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:21:59.774Z"
+  },
+  "Attraction_376480000A_000322:東埔溫泉": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a0/T%C5%8Dho_onsen.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/T%C5%8Dho%20onsen.jpg?width=1400"
+    ],
+    "pageTitle": "東埔溫泉",
+    "wikidataId": "Q15920485",
+    "checkedAt": "2026-06-28T23:22:00.173Z"
+  },
+  "Attraction_376450000A_000930:東華樟腦廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:22:00.442Z"
+  },
+  "Attraction_376450000A_000941:雲洞山莊": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:22:00.767Z"
+  },
+  "Attraction_376480000A_000301:溪頭自然教育園區": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e8/%E6%BA%AA%E9%A0%AD%E8%87%AA%E7%84%B6%E6%95%99%E8%82%B2%E5%9C%92%E5%8D%80_Xitou_Natural_Education_Park_-_panoramio_%281%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/%E6%BA%AA%E9%A0%AD%E8%87%AA%E7%84%B6%E6%95%99%E8%82%B2%E5%9C%92%E5%8D%80_Xitou_Natural_Education_Park_-_panoramio_%281%29.jpg/1920px-%E6%BA%AA%E9%A0%AD%E8%87%AA%E7%84%B6%E6%95%99%E8%82%B2%E5%9C%92%E5%8D%80_Xitou_Natural_Education_Park_-_panoramio_%281%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%BA%AA%E9%A0%AD%E8%87%AA%E7%84%B6%E6%95%99%E8%82%B2%E5%9C%92%E5%8D%80%20Xitou%20Natural%20Education%20Park%20-%20panoramio%20(1).jpg?width=1400"
+    ],
+    "pageTitle": "溪頭自然教育園區",
+    "wikidataId": "Q16926656",
+    "checkedAt": "2026-06-28T23:22:01.196Z"
+  },
+  "Attraction_376450000A_000081:薑麻園休閒園區": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:22:01.571Z"
+  },
+  "Attraction_387000000A_000684:老虎城購物中心": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:22:01.954Z"
+  },
+  "Attraction_395000000A_004359:奇美食品幸福工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:22:02.311Z"
+  },
+  "Attraction_A15010400H_000505:潮口平台": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:22:02.708Z"
+  },
+  "Attraction_395000000A_001344:台南藝術大學": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:22:03.065Z"
+  },
+  "Attraction_395000000A_000728:安平蚵灰窯文化館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:22:03.418Z"
+  },
+  "Attraction_395000000A_000566:臺南左鎮化石園區": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:22:03.816Z"
+  },
+  "Attraction_A15010400H_000484:白燈塔": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:22:04.100Z"
+  },
+  "Attraction_A15010400H_000467:山豬溝": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:22:04.427Z"
+  },
+  "Attraction_A15010400H_000469:蛤板灣沙灘": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:22:04.815Z"
+  },
+  "Attraction_395000000A_000641:曾文水庫": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:22:05.183Z"
+  },
+  "Attraction_A15011300H_020612:永鎮濱海驛站(等日初)": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:22:05.550Z"
+  },
+  "Attraction_376420000A_000385:烏石港驛站": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:22:05.902Z"
+  },
+  "Attraction_376420000A_000313:台灣戲劇館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:22:06.209Z"
+  },
+  "Attraction_A15010300H_000205:鯉魚潭遊客中心": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:22:06.548Z"
+  },
+  "Attraction_376420000A_000316:宜蘭酒廠(甲子蘭酒文物館)": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:22:06.882Z"
+  },
+  "Attraction_376540000A_000233:紅葉少棒紀念館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:22:07.188Z"
+  },
+  "Attraction_A15010100H_000210:八仙洞遊客中心": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:22:07.502Z"
+  },
+  "Attraction_A15010200H_000110:北海遊客中心": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:22:07.841Z"
+  },
+  "Attraction_376570000A_000562:泰安瀑布": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:22:08.121Z"
+  },
+  "Attraction_A13020000G_000131:桃園：臺灣菸酒(股)公司桃園觀光酒廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:22:08.479Z"
+  },
+  "Attraction_376580000A_000001:國立新竹生活美學館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:22:08.793Z"
+  },
+  "Attraction_376570000A_000396:基隆市原住民文化會館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:22:09.154Z"
+  },
+  "Attraction_376580000A_000003:新竹水道取水口展示館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:22:09.537Z"
+  },
+  "Attraction_376580000A_000002:黑蝙蝠中隊文物陳列館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:22:09.938Z"
+  },
+  "Attraction_376580000A_000042:護城河": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:22:10.209Z"
+  },
+  "Attraction_376570000A_000556:白米甕砲台(荷蘭城)": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/c4/MG_1014-%E7%99%BD%E7%B1%B3%E7%94%95.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/MG_1014-%E7%99%BD%E7%B1%B3%E7%94%95.jpg/1920px-MG_1014-%E7%99%BD%E7%B1%B3%E7%94%95.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Baimiwong%20fort%20(%E7%99%BD%E7%B1%B3%E7%94%95%E7%A0%B2%E5%8F%B0)%20(11313783914).jpg?width=1400"
+    ],
+    "pageTitle": "白米甕砲台",
+    "wikidataId": "Q15923657",
+    "checkedAt": "2026-06-28T23:22:10.659Z"
+  },
+  "Attraction_A13020000G_000135:彰化：餅乾學院": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-06-28T23:22:10.967Z"
   }
 }

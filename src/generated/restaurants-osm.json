@@ -119261,6 +119261,55 @@
     "placeType": "餐飲"
   },
   {
+    "id": "osm-node-5232874814",
+    "name": "八方雲集",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "桃園區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "桃園市桃園區南豐三街120",
+    "hours": "Mo-Fr 11:00-21:00",
+    "lat": 24.9822457,
+    "lng": 121.3039284,
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "八方雲集，位於台灣的快餐店，提供dumplings料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E5%85%AB%E6%96%B9%E9%9B%B2%E9%9B%86/@24.982246,121.303928,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/5232874814"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/5232874814",
+    "qualityScore": 5,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
     "id": "osm-node-5622272483",
     "name": "麵餓心膳",
     "region": "北部",
@@ -119354,6 +119403,55 @@
     ],
     "dataSource": "osm",
     "sourceId": "node/6113416350",
+    "qualityScore": 5,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-6132492321",
+    "name": "八方雲集",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "中壢區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "桃園市中壢區中央路226之1",
+    "hours": "Mo-Su 12:00-21:00",
+    "lat": 24.964702,
+    "lng": 121.190919,
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "八方雲集，位於台灣的快餐店，提供dumplings料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E5%85%AB%E6%96%B9%E9%9B%B2%E9%9B%86/@24.964702,121.190919,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/6132492321"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/6132492321",
     "qualityScore": 5,
     "updatedAt": "2026-06-28",
     "placeType": "餐飲"
@@ -119893,6 +119991,104 @@
     ],
     "dataSource": "osm",
     "sourceId": "node/8150551066",
+    "qualityScore": 5,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-8305912214",
+    "name": "八方雲集",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "龜山區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "桃園市龜山區文化七路177",
+    "hours": "Mo-Su 11:00-20:30",
+    "lat": 25.0518728,
+    "lng": 121.3672777,
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "八方雲集，位於台灣的快餐店，提供dumplings料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E5%85%AB%E6%96%B9%E9%9B%B2%E9%9B%86/@25.051873,121.367278,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/8305912214"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/8305912214",
+    "qualityScore": 5,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-8385304883",
+    "name": "八方雲集",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "中壢區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "桃園市中壢區龍岡路三段150",
+    "hours": "Mo-Fr 09:30-21:00",
+    "lat": 24.936133,
+    "lng": 121.233102,
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "八方雲集，位於台灣的快餐店，提供dumplings料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E5%85%AB%E6%96%B9%E9%9B%B2%E9%9B%86/@24.936133,121.233102,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/8385304883"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/8385304883",
     "qualityScore": 5,
     "updatedAt": "2026-06-28",
     "placeType": "餐飲"
@@ -123475,6 +123671,55 @@
     "placeType": "餐飲"
   },
   {
+    "id": "osm-node-10126236710",
+    "name": "八方雲集",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "中壢區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "桃園市中壢區高鐵站前西路二段116",
+    "hours": "Mo-Su 11:00-20:30",
+    "lat": 25.0066948,
+    "lng": 121.2203089,
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "八方雲集，位於台灣的快餐店，提供dumplings料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E5%85%AB%E6%96%B9%E9%9B%B2%E9%9B%86/@25.006695,121.220309,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/10126236710"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/10126236710",
+    "qualityScore": 5,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
     "id": "osm-node-10607679522",
     "name": "陪你咖啡 Petit Coffee",
     "region": "北部",
@@ -125393,6 +125638,55 @@
     "placeType": "餐飲"
   },
   {
+    "id": "osm-node-1263458580",
+    "name": "八方雲集",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "中壢區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "桃園市中壢區忠孝路126",
+    "hours": "請以商家公告為準",
+    "lat": 24.9755727,
+    "lng": 121.2554556,
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "八方雲集，位於台灣的快餐店，提供dumplings料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E5%85%AB%E6%96%B9%E9%9B%B2%E9%9B%86/@24.975573,121.255456,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/1263458580"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/1263458580",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
     "id": "osm-node-1707844686",
     "name": "只是光影",
     "region": "北部",
@@ -126667,6 +126961,55 @@
     "placeType": "餐飲"
   },
   {
+    "id": "osm-node-4243925110",
+    "name": "八方雲集",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "楊梅區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "桃園市楊梅區武營街6",
+    "hours": "請以商家公告為準",
+    "lat": 24.9091398,
+    "lng": 121.1450808,
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "八方雲集，位於台灣的快餐店，提供dumplings料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E5%85%AB%E6%96%B9%E9%9B%B2%E9%9B%86/@24.909140,121.145081,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4243925110"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4243925110",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
     "id": "osm-node-4293275117",
     "name": "五十巷麵店",
     "region": "北部",
@@ -126863,6 +127206,55 @@
     "placeType": "餐飲"
   },
   {
+    "id": "osm-node-4362830462",
+    "name": "八方雲集",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "蘆竹區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "桃園市蘆竹區南山路三段264",
+    "hours": "請以商家公告為準",
+    "lat": 25.0842215,
+    "lng": 121.28613,
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "八方雲集，位於台灣的快餐店，提供dumplings料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E5%85%AB%E6%96%B9%E9%9B%B2%E9%9B%86/@25.084222,121.286130,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4362830462"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4362830462",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
     "id": "osm-node-4405213060",
     "name": "一品金湯豆漿王",
     "region": "北部",
@@ -126912,6 +127304,55 @@
     "placeType": "餐飲"
   },
   {
+    "id": "osm-node-4420538326",
+    "name": "八方雲集",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "楊梅區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "桃園市楊梅區中興路16",
+    "hours": "請以商家公告為準",
+    "lat": 24.9187707,
+    "lng": 121.1839036,
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "八方雲集，位於台灣的快餐店，提供dumplings料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E5%85%AB%E6%96%B9%E9%9B%B2%E9%9B%86/@24.918771,121.183904,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4420538326"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4420538326",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
     "id": "osm-node-4449254956",
     "name": "紅色榖倉美式餐廳",
     "region": "北部",
@@ -126956,6 +127397,104 @@
     ],
     "dataSource": "osm",
     "sourceId": "node/4449254956",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4452890777",
+    "name": "八方雲集",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "龜山區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "桃園市龜山區萬壽路一段325",
+    "hours": "請以商家公告為準",
+    "lat": 25.0169573,
+    "lng": 121.4023098,
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "八方雲集，位於台灣的快餐店，提供dumplings料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E5%85%AB%E6%96%B9%E9%9B%B2%E9%9B%86/@25.016957,121.402310,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4452890777"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4452890777",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4456116464",
+    "name": "八方雲集",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "大溪區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "桃園市大溪區介壽路48",
+    "hours": "請以商家公告為準",
+    "lat": 24.9226366,
+    "lng": 121.2949574,
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "八方雲集，位於台灣的快餐店，提供dumplings料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E5%85%AB%E6%96%B9%E9%9B%B2%E9%9B%86/@24.922637,121.294957,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4456116464"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4456116464",
     "qualityScore": 4,
     "updatedAt": "2026-06-28",
     "placeType": "餐飲"
@@ -127495,6 +128034,55 @@
     ],
     "dataSource": "osm",
     "sourceId": "node/4570010782",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4577125497",
+    "name": "八方雲集",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "蘆竹區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "桃園市蘆竹區南竹路一段108",
+    "hours": "請以商家公告為準",
+    "lat": 25.0461083,
+    "lng": 121.2891282,
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "八方雲集，位於台灣的快餐店，提供dumplings料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E5%85%AB%E6%96%B9%E9%9B%B2%E9%9B%86/@25.046108,121.289128,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4577125497"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4577125497",
     "qualityScore": 4,
     "updatedAt": "2026-06-28",
     "placeType": "餐飲"
@@ -128284,6 +128872,55 @@
     "placeType": "餐飲"
   },
   {
+    "id": "osm-node-5057447322",
+    "name": "八方雲集",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "八德區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "桃園市八德區義勇街138巷2",
+    "hours": "請以商家公告為準",
+    "lat": 24.9633941,
+    "lng": 121.3052228,
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "八方雲集，位於台灣的快餐店，提供dumplings料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E5%85%AB%E6%96%B9%E9%9B%B2%E9%9B%86/@24.963394,121.305223,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/5057447322"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/5057447322",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
     "id": "osm-node-5061582232",
     "name": "摩斯漢堡",
     "region": "北部",
@@ -128426,6 +129063,104 @@
     ],
     "dataSource": "osm",
     "sourceId": "node/5091520044",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-5104411115",
+    "name": "八方雲集",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "八德區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "桃園市八德區桃德路151",
+    "hours": "請以商家公告為準",
+    "lat": 24.9688368,
+    "lng": 121.2949258,
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "八方雲集，位於台灣的快餐店，提供dumplings料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E5%85%AB%E6%96%B9%E9%9B%B2%E9%9B%86/@24.968837,121.294926,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/5104411115"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/5104411115",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-5119420074",
+    "name": "八方雲集",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "龜山區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "桃園市龜山區文化一路261",
+    "hours": "請以商家公告為準",
+    "lat": 25.0295737,
+    "lng": 121.3896046,
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "八方雲集，位於台灣的快餐店，提供dumplings料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E5%85%AB%E6%96%B9%E9%9B%B2%E9%9B%86/@25.029574,121.389605,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/5119420074"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/5119420074",
     "qualityScore": 4,
     "updatedAt": "2026-06-28",
     "placeType": "餐飲"
@@ -128774,55 +129509,6 @@
     "placeType": "餐飲"
   },
   {
-    "id": "osm-node-5232874814",
-    "name": "八方雲集",
-    "region": "北部",
-    "city": "桃園市",
-    "district": "桃園區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "桃園市桃園區南豐三街120",
-    "hours": "Mo-Fr 11:00-21:00",
-    "lat": 24.9822457,
-    "lng": 121.3039284,
-    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "八方雲集，位於台灣的快餐店，提供dumplings料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "外帶服務"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E5%85%AB%E6%96%B9%E9%9B%B2%E9%9B%86/@24.982246,121.303928,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/5232874814"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/5232874814",
-    "qualityScore": 4,
-    "updatedAt": "2026-06-28",
-    "placeType": "餐飲"
-  },
-  {
     "id": "osm-node-5263243258",
     "name": "乜東東 Whatdodo",
     "region": "北部",
@@ -128916,6 +129602,55 @@
     ],
     "dataSource": "osm",
     "sourceId": "node/5267323871",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-5269647596",
+    "name": "八方雲集",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "桃園區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "桃園市桃園區縣府路230",
+    "hours": "請以商家公告為準",
+    "lat": 24.9941794,
+    "lng": 121.2996424,
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "八方雲集，位於台灣的快餐店，提供dumplings料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E5%85%AB%E6%96%B9%E9%9B%B2%E9%9B%86/@24.994179,121.299642,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/5269647596"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/5269647596",
     "qualityScore": 4,
     "updatedAt": "2026-06-28",
     "placeType": "餐飲"
@@ -129161,6 +129896,55 @@
     ],
     "dataSource": "osm",
     "sourceId": "node/5334736191",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-5352061873",
+    "name": "八方雲集",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "龜山區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "桃園市龜山區同心一路10",
+    "hours": "請以商家公告為準",
+    "lat": 24.996202,
+    "lng": 121.3312248,
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "八方雲集，位於台灣的快餐店，提供dumplings料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E5%85%AB%E6%96%B9%E9%9B%B2%E9%9B%86/@24.996202,121.331225,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/5352061873"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/5352061873",
     "qualityScore": 4,
     "updatedAt": "2026-06-28",
     "placeType": "餐飲"
@@ -129852,6 +130636,104 @@
     "placeType": "餐飲"
   },
   {
+    "id": "osm-node-5644259176",
+    "name": "八方雲集",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "蘆竹區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "桃園市蘆竹區忠孝西路64",
+    "hours": "請以商家公告為準",
+    "lat": 25.0421278,
+    "lng": 121.2905617,
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "八方雲集，位於台灣的快餐店，提供dumplings料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E5%85%AB%E6%96%B9%E9%9B%B2%E9%9B%86/@25.042128,121.290562,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/5644259176"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/5644259176",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-5645321595",
+    "name": "八方雲集",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "龜山區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "桃園市龜山區復興北路7",
+    "hours": "請以商家公告為準",
+    "lat": 25.0595935,
+    "lng": 121.3690834,
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "八方雲集，位於台灣的快餐店，提供dumplings料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E5%85%AB%E6%96%B9%E9%9B%B2%E9%9B%86/@25.059593,121.369083,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/5645321595"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/5645321595",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
     "id": "osm-node-5681633787",
     "name": "饗悅花園餐廳",
     "region": "北部",
@@ -129945,6 +130827,153 @@
     ],
     "dataSource": "osm",
     "sourceId": "node/5696452025",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-5757947328",
+    "name": "八方雲集",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "中壢區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "桃園市中壢區環中東路194",
+    "hours": "請以商家公告為準",
+    "lat": 24.9637215,
+    "lng": 121.2569764,
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "八方雲集，位於台灣的快餐店，提供dumplings料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E5%85%AB%E6%96%B9%E9%9B%B2%E9%9B%86/@24.963721,121.256976,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/5757947328"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/5757947328",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-5804318493",
+    "name": "八方雲集",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "新屋區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "桃園市新屋區中山路二段661",
+    "hours": "請以商家公告為準",
+    "lat": 25.0130047,
+    "lng": 121.1360696,
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "八方雲集，位於台灣的快餐店，提供dumplings料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E5%85%AB%E6%96%B9%E9%9B%B2%E9%9B%86/@25.013005,121.136070,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/5804318493"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/5804318493",
+    "qualityScore": 4,
+    "updatedAt": "2026-06-28",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-5811751440",
+    "name": "八方雲集",
+    "region": "北部",
+    "city": "桃園市",
+    "district": "桃園區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "桃園市桃園區大有路505",
+    "hours": "請以商家公告為準",
+    "lat": 25.0135331,
+    "lng": 121.3179551,
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "八方雲集，位於台灣的快餐店，提供dumplings料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E5%85%AB%E6%96%B9%E9%9B%B2%E9%9B%86/@25.013533,121.317955,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/5811751440"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/5811751440",
     "qualityScore": 4,
     "updatedAt": "2026-06-28",
     "placeType": "餐飲"
@@ -130386,1035 +131415,6 @@
     ],
     "dataSource": "osm",
     "sourceId": "node/5826795999",
-    "qualityScore": 4,
-    "updatedAt": "2026-06-28",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-5836263052",
-    "name": "界香美食",
-    "region": "北部",
-    "city": "桃園市",
-    "district": "龜山區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "桃園市龜山區復興北路47",
-    "hours": "Mo-Fr, Su 11:00-20:00",
-    "lat": 25.0587635,
-    "lng": 121.3698511,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "界香美食，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E7%95%8C%E9%A6%99%E7%BE%8E%E9%A3%9F/@25.058764,121.369851,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/5836263052"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/5836263052",
-    "qualityScore": 4,
-    "updatedAt": "2026-06-28",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-5981891149",
-    "name": "肯德基",
-    "region": "北部",
-    "city": "桃園市",
-    "district": "桃園區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "桃園市桃園區桃鶯路265",
-    "hours": "Mo-Su 10:00-23:00",
-    "lat": 24.9835879,
-    "lng": 121.3188162,
-    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "肯德基，位於台灣的快餐店，提供chicken料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "外帶服務"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E8%82%AF%E5%BE%B7%E5%9F%BA/@24.983588,121.318816,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/5981891149"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/5981891149",
-    "qualityScore": 4,
-    "updatedAt": "2026-06-28",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-6081597955",
-    "name": "85度C",
-    "region": "北部",
-    "city": "桃園市",
-    "district": "桃園區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "咖啡下午茶",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "桃園市桃園區介壽路210",
-    "hours": "Mo-Su 07:00-22:00",
-    "lat": 24.9829863,
-    "lng": 121.3086504,
-    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
-    "accent": "#b98b73",
-    "description": "85度C，位於台灣的咖啡廳，提供coffee_shop料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "外帶服務"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/85%E5%BA%A6C/@24.982986,121.308650,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/6081597955"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/6081597955",
-    "qualityScore": 4,
-    "updatedAt": "2026-06-28",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-6132429099",
-    "name": "紅樓",
-    "region": "北部",
-    "city": "桃園市",
-    "district": "中壢區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "桃園市中壢區中央路159",
-    "hours": "Mo-Fr 12:00-20:00",
-    "lat": 24.9647406,
-    "lng": 121.1907168,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "紅樓，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "外帶服務"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E7%B4%85%E6%A8%93/@24.964741,121.190717,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/6132429099"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/6132429099",
-    "qualityScore": 4,
-    "updatedAt": "2026-06-28",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-6132492321",
-    "name": "八方雲集",
-    "region": "北部",
-    "city": "桃園市",
-    "district": "中壢區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "桃園市中壢區中央路226之1",
-    "hours": "Mo-Su 12:00-21:00",
-    "lat": 24.964702,
-    "lng": 121.190919,
-    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "八方雲集，位於台灣的快餐店，提供dumplings料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "外帶服務"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E5%85%AB%E6%96%B9%E9%9B%B2%E9%9B%86/@24.964702,121.190919,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/6132492321"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/6132492321",
-    "qualityScore": 4,
-    "updatedAt": "2026-06-28",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-6215492919",
-    "name": "大興吉利鵝城",
-    "region": "北部",
-    "city": "桃園市",
-    "district": "大園區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "桃園市大園區永興路168",
-    "hours": "Mo-Su 11:00-21:00",
-    "lat": 25.0613011,
-    "lng": 121.1928434,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "大興吉利鵝城，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E5%A4%A7%E8%88%88%E5%90%89%E5%88%A9%E9%B5%9D%E5%9F%8E/@25.061301,121.192843,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/6215492919"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/6215492919",
-    "qualityScore": 4,
-    "updatedAt": "2026-06-28",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-6245967436",
-    "name": "敘事咖啡",
-    "region": "北部",
-    "city": "桃園市",
-    "district": "龜山區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "咖啡下午茶",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "桃園市龜山區文青路300",
-    "hours": "Mo-Fr 08:00-21:00; Sa-Su 09:00-18:00; PH closed",
-    "lat": 25.0393489,
-    "lng": 121.3906963,
-    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
-    "accent": "#b98b73",
-    "description": "敘事咖啡，位於台灣的咖啡廳。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E6%95%98%E4%BA%8B%E5%92%96%E5%95%A1/@25.039349,121.390696,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/6245967436"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/6245967436",
-    "qualityScore": 4,
-    "updatedAt": "2026-06-28",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-6285427572",
-    "name": "四海遊龍",
-    "region": "北部",
-    "city": "桃園市",
-    "district": "桃園區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "桃園市桃園區莊敬路二段218",
-    "hours": "Mo-Su 10:30-21:00",
-    "lat": 25.0212983,
-    "lng": 121.2892129,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "四海遊龍，位於台灣的餐廳，提供dumplings料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E5%9B%9B%E6%B5%B7%E9%81%8A%E9%BE%8D/@25.021298,121.289213,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/6285427572"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/6285427572",
-    "qualityScore": 4,
-    "updatedAt": "2026-06-28",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-6478561430",
-    "name": "漢林大漢堡",
-    "region": "北部",
-    "city": "桃園市",
-    "district": "龜山區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "桃園市龜山區龍新街50",
-    "hours": "Mo-Sa 06:30-12:00",
-    "lat": 25.0188264,
-    "lng": 121.4057313,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "漢林大漢堡，位於台灣的餐廳，提供breakfast料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E6%BC%A2%E6%9E%97%E5%A4%A7%E6%BC%A2%E5%A0%A1/@25.018826,121.405731,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/6478561430"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/6478561430",
-    "qualityScore": 4,
-    "updatedAt": "2026-06-28",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-6478561431",
-    "name": "漢堡大師",
-    "region": "北部",
-    "city": "桃園市",
-    "district": "龜山區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "桃園市龜山區龍新街48",
-    "hours": "Mo-Su 05:30-13:00",
-    "lat": 25.0188459,
-    "lng": 121.4058011,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "漢堡大師，位於台灣的餐廳，提供breakfast料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E6%BC%A2%E5%A0%A1%E5%A4%A7%E5%B8%AB/@25.018846,121.405801,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/6478561431"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/6478561431",
-    "qualityScore": 4,
-    "updatedAt": "2026-06-28",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-6720093288",
-    "name": "路易莎咖啡",
-    "region": "北部",
-    "city": "桃園市",
-    "district": "中壢區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "咖啡下午茶",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "桃園市中壢區領航南路一段73",
-    "hours": "Mo-Su 08:00-21:00",
-    "lat": 25.0010898,
-    "lng": 121.2042245,
-    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
-    "accent": "#b98b73",
-    "description": "路易莎咖啡，位於台灣的咖啡廳，提供coffee_shop料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "外帶服務"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E8%B7%AF%E6%98%93%E8%8E%8E%E5%92%96%E5%95%A1/@25.001090,121.204224,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/6720093288"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/6720093288",
-    "qualityScore": 4,
-    "updatedAt": "2026-06-28",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-6769690112",
-    "name": "85度C",
-    "region": "北部",
-    "city": "桃園市",
-    "district": "大園區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "咖啡下午茶",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "桃園市大園區中山南路1",
-    "hours": "Mo-Su 10:00-22:00",
-    "lat": 25.0639236,
-    "lng": 121.1972451,
-    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
-    "accent": "#b98b73",
-    "description": "85度C，位於台灣的咖啡廳，提供coffee_shop料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "外帶服務"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/85%E5%BA%A6C/@25.063924,121.197245,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/6769690112"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/6769690112",
-    "qualityScore": 4,
-    "updatedAt": "2026-06-28",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-6835198787",
-    "name": "路易莎咖啡",
-    "region": "北部",
-    "city": "桃園市",
-    "district": "桃園區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "咖啡下午茶",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "桃園市桃園區正光路181",
-    "hours": "Mo-Su 07:00-21:00",
-    "lat": 24.9961737,
-    "lng": 121.294885,
-    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
-    "accent": "#b98b73",
-    "description": "路易莎咖啡，位於台灣的咖啡廳，提供coffee_shop料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "外帶服務"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E8%B7%AF%E6%98%93%E8%8E%8E%E5%92%96%E5%95%A1/@24.996174,121.294885,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/6835198787"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/6835198787",
-    "qualityScore": 4,
-    "updatedAt": "2026-06-28",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-6843943861",
-    "name": "第一家 麵、飯 小吃",
-    "region": "北部",
-    "city": "桃園市",
-    "district": "桃園區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "桃園市桃園區上海路91-1",
-    "hours": "Mo-Su 07:00-22:00",
-    "lat": 24.9906072,
-    "lng": 121.2828401,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "第一家 麵、飯 小吃，位於台灣的餐廳，提供傳統台式料理料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E7%AC%AC%E4%B8%80%E5%AE%B6%20%E9%BA%B5%E3%80%81%E9%A3%AF%20%E5%B0%8F%E5%90%83/@24.990607,121.282840,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/6843943861"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/6843943861",
-    "qualityScore": 4,
-    "updatedAt": "2026-06-28",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-6912226785",
-    "name": "林檬食堂",
-    "region": "北部",
-    "city": "桃園市",
-    "district": "八德區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "桃園市八德區廣興路8",
-    "hours": "Mo-Sa 10:00-19:30",
-    "lat": 24.9312142,
-    "lng": 121.2842311,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "林檬食堂，位於台灣的餐廳，提供noodle料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E6%9E%97%E6%AA%AC%E9%A3%9F%E5%A0%82/@24.931214,121.284231,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/6912226785"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/6912226785",
-    "qualityScore": 4,
-    "updatedAt": "2026-06-28",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-7041907686",
-    "name": "九湯屋日式拉麵",
-    "region": "北部",
-    "city": "桃園市",
-    "district": "桃園區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "桃園市桃園區大有路161",
-    "hours": "Mo-Su 09:00-21:30",
-    "lat": 25.006964,
-    "lng": 121.3207878,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "九湯屋日式拉麵，位於台灣的餐廳，提供ramen料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E4%B9%9D%E6%B9%AF%E5%B1%8B%E6%97%A5%E5%BC%8F%E6%8B%89%E9%BA%B5/@25.006964,121.320788,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/7041907686"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/7041907686",
-    "qualityScore": 4,
-    "updatedAt": "2026-06-28",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-7076473166",
-    "name": "1968食堂",
-    "region": "北部",
-    "city": "桃園市",
-    "district": "中壢區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "桃園市中壢區信義路125",
-    "hours": "Mo-Su 09:00-20:00",
-    "lat": 24.974406,
-    "lng": 121.2575546,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "1968食堂，位於台灣的餐廳，提供chinese料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "外帶服務"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/1968%E9%A3%9F%E5%A0%82/@24.974406,121.257555,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/7076473166"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/7076473166",
-    "qualityScore": 4,
-    "updatedAt": "2026-06-28",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-7076473167",
-    "name": "新竹吳家鴨香飯",
-    "region": "北部",
-    "city": "桃園市",
-    "district": "中壢區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "桃園市中壢區信義路",
-    "hours": "Mo-Su 11:00~20:00",
-    "lat": 24.9741787,
-    "lng": 121.257509,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "新竹吳家鴨香飯，位於台灣的餐廳，提供chinese料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E6%96%B0%E7%AB%B9%E5%90%B3%E5%AE%B6%E9%B4%A8%E9%A6%99%E9%A3%AF/@24.974179,121.257509,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/7076473167"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/7076473167",
-    "qualityScore": 4,
-    "updatedAt": "2026-06-28",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-7076473169",
-    "name": "億鑫涼麵",
-    "region": "北部",
-    "city": "桃園市",
-    "district": "中壢區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "桃園市中壢區信義路",
-    "hours": "Mo-Sa 08:00-20:00",
-    "lat": 24.9741203,
-    "lng": 121.2573454,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "億鑫涼麵，位於台灣的餐廳，提供noodle料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "外帶服務"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E5%84%84%E9%91%AB%E6%B6%BC%E9%BA%B5/@24.974120,121.257345,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/7076473169"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/7076473169",
-    "qualityScore": 4,
-    "updatedAt": "2026-06-28",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-7076473170",
-    "name": "廣東粥 烏龍麵",
-    "region": "北部",
-    "city": "桃園市",
-    "district": "中壢區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "桃園市中壢區信義路",
-    "hours": "Mo-Su 08:00-22:00",
-    "lat": 24.9739599,
-    "lng": 121.2570477,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "廣東粥 烏龍麵，位於台灣的餐廳，提供asian料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "外帶服務"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E5%BB%A3%E6%9D%B1%E7%B2%A5%20%E7%83%8F%E9%BE%8D%E9%BA%B5/@24.973960,121.257048,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/7076473170"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/7076473170",
-    "qualityScore": 4,
-    "updatedAt": "2026-06-28",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-7076473171",
-    "name": "楊記燒臘",
-    "region": "北部",
-    "city": "桃園市",
-    "district": "中壢區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "桃園市中壢區信義路",
-    "hours": "Mo-Su 10:00-20:00",
-    "lat": 24.9738286,
-    "lng": 121.2567526,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "楊記燒臘，位於台灣的餐廳，提供chinese料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E6%A5%8A%E8%A8%98%E7%87%92%E8%87%98/@24.973829,121.256753,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/7076473171"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/7076473171",
     "qualityScore": 4,
     "updatedAt": "2026-06-28",
     "placeType": "餐飲"
