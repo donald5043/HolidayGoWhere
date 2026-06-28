@@ -19606,7 +19606,9 @@
     "lat": 23.99101349974,
     "lng": 121.59603433334,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1387/db8e44f7-6dba-47f6-bd31-f60a09a74b50@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#df7bb4",
     "description": "花蓮甘丹冰店，販賣各式冰品。黑糖剉冰本身就是黑糖去熬煮的，而不是常見淋上黑糖汁的冰品，香氣十足，口感獨特。冰淇淋不添加鮮奶油，加入大量水果製成，其實是國外所稱之Sorbet；而不論冰品還是冰料都是自己製作，強調天然、健康、無添加，讓你吃得開心又安心。然而甘丹不僅僅是間冰店，同時還是間桌遊店，提供了200多種桌遊可供選擇，是出遊休閒、下班聚會、親子同樂的好地方…",
     "highlights": [
@@ -19658,7 +19660,8 @@
         "票價資訊",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Attraction_345040000G_100033",
@@ -23589,7 +23592,8 @@
     "imageCandidates": [
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/7827/456383b8-53dd-40cd-808f-38fe7f2d64b1@710x470.jpg",
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/7827/4eb4b457-3c55-4e77-9c20-801b3b8f9a46@710x470.jpg",
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/7827/516e1ee2-3590-4138-9ac1-c70eb151e04f@710x470.jpg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/7827/516e1ee2-3590-4138-9ac1-c70eb151e04f@710x470.jpg",
+      "restaurant-fallbacks/dessert.svg"
     ],
     "accent": "#d88962",
     "description": "【花蓮市好吃】一球入魂｜外酥內Q，下課放學小點心，市區小攤的絕讚地瓜球為什麼賣地瓜球，卻叫一球入魂這種聽起來很棒球的名字呢？因為以前喜歡打棒球、花蓮小巨蛋德興體育場每逢比賽必去朝聖，所以那時候Logo也是跟棒球有關。之後某次翻新，Logo商標請朋友重新設計，就成了現在這個可愛牛牛男孩吃美味地瓜球的樣貌。我們使用時下台灣最好吃的地瓜品種──台農57號黃肉地瓜，…",
@@ -23642,7 +23646,8 @@
         "票價資訊",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000830",
@@ -23666,7 +23671,8 @@
     "imageCandidates": [
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/830/69e68f9a-311b-440e-b398-6b828a89e517@710x470.jpeg",
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/830/b1d23333-71c9-44fd-96a9-2c6937333bfd@710x470.jpeg",
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/830/b8baa545-6094-43eb-9a7c-4fa40711edad@710x470.jpeg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/830/b8baa545-6094-43eb-9a7c-4fa40711edad@710x470.jpeg",
+      "restaurant-fallbacks/dessert.svg"
     ],
     "accent": "#d88962",
     "description": "依山近海的花蓮，擁有上天賜與最佳的天然美味食材，3番2次原住民風味餐，特地與原住民部落結盟，由原住民的頭目帶領年輕人採集天然可用食材，除了提供您味蕾上前所未有的饗宴外；藉此得以經驗傳承，讓更多人能了解原住民的飲食文化。According to mountain offshore Hualian,has the heaven to grant the best…",
@@ -23719,7 +23725,8 @@
         "明確開放時間",
         "票價資訊"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001376",
@@ -23743,7 +23750,8 @@
     "imageCandidates": [
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1376/34f4e22e-e470-4f60-82b6-dd02e37c9ee7@710x470.jpg",
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1376/8579badc-c0b5-4daf-b71e-0a3c766dcbe3@710x470.jpg",
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1376/a11b6706-009c-4855-bca2-48a0d86efbc6@710x470.png"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1376/a11b6706-009c-4855-bca2-48a0d86efbc6@710x470.png",
+      "restaurant-fallbacks/dessert.svg"
     ],
     "accent": "#d88962",
     "description": "美食餐飲部無論是簡餐、套餐、國旅、喜慶宴會、特色餐點、風味小吃、景觀住宿，都有其獨特風采。景觀住宿花蓮太魯閣保有世界級的天然景觀，及台灣首屈一指的自然美景在這裡，可以放下城市的汲汲營營在這裡，可以擁抱神秘的山、深邃的海和浪漫的星空星─點亮這漫漫黑夜；晟─象徵著光明有了『星』讓這黑夜美的浮誇也因有了『晟』讓我們得以奢侈的享受美景這即是「星晟」的由來，也同時傳承…",
@@ -23795,7 +23803,8 @@
         "明確開放時間",
         "票價資訊"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_008411",
@@ -23818,7 +23827,8 @@
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/8411/616f25d6-aa61-4355-9c18-9d94485f15e8@710x470.jpeg",
     "imageCandidates": [
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/8411/7c3c070d-9475-4453-af6c-d9326c4bdd58@710x470.jpeg",
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/8411/d2a83287-bbfa-4951-b83b-cdddda5e0391@710x470.jpeg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/8411/d2a83287-bbfa-4951-b83b-cdddda5e0391@710x470.jpeg",
+      "restaurant-fallbacks/dessert.svg"
     ],
     "accent": "#b98b73",
     "description": "茶覺飲品舖是由愛特歐企業社自創的花蓮在地飲品品牌，大部分的茶葉皆來由台灣茶農以及台灣果農提供，並且通過SGS認證的安全食材，環境寬敞還提供內用的下午茶點心，由於鄰近東大夜市成為不少外地遊客，尤其是國外的遊客青睞的在地好店家，茶覺希望能夠讓外國遊客看見花蓮！感受一切美好的相遇！",
@@ -23871,7 +23881,8 @@
         "票價資訊",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001055",
@@ -23893,7 +23904,8 @@
     "lng": 121.3526729,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1055/74b46702-04ad-4218-896c-b502c5920b02@710x470.jpeg",
     "imageCandidates": [
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1055/c8e5863b-3c1a-4866-9442-44f4155da752@710x470.jpg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1055/c8e5863b-3c1a-4866-9442-44f4155da752@710x470.jpg",
+      "restaurant-fallbacks/dessert.svg"
     ],
     "accent": "#d88962",
     "description": "嘉茗茶園位於舞鶴台地上，更以天鶴茶聞名全台，三十多年來嘉茗茶園負責人高肇昫與夫人不斷研發改良新品種，同時擔任天鶴茶產銷班班長配合政府推動無毒農業栽培，意外研發出口感獨特的蜜香紅茶。以大葉烏龍為原料，予以全發酵製作紅茶，茶湯香檳色，茶味散發蜜味，偶有桂花香。種植茶品有：大葉烏龍茶、青心烏龍茶、金萱茶、翠玉茶。",
@@ -23946,7 +23958,8 @@
         "票價資訊",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001353",
@@ -23967,7 +23980,9 @@
     "lat": 23.97338768448,
     "lng": 121.60394431499,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1353/c03e59c1-ff55-419c-8597-00fb629c95c1@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "對老花蓮人而言，「廟口紅茶」是最令人熟悉不過的一家店了，隱身於舊社區成功街巷子裡，還保有過去傳統的建築體及裝潢，廟口紅茶最大特色,，是以特殊鋼管設計將紅茶從二樓傳導至一樓，只要水龍頭一開，就可立即享用，也販賣許多古早味餐點，如花生湯、杏仁湯等。",
     "highlights": [
@@ -24019,7 +24034,8 @@
         "票價資訊",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001269",
@@ -24043,7 +24059,8 @@
     "imageCandidates": [
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1269/4a5dfe2b-3012-41c0-8444-1d782c70f90e@710x470.jpg",
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1269/5a66a61a-f658-4eae-aa9d-b8a63cb0835a@710x470.jpg",
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1269/64dc032f-6c92-4bef-8005-e6fd0fcadc5b@710x470.jpg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1269/64dc032f-6c92-4bef-8005-e6fd0fcadc5b@710x470.jpg",
+      "restaurant-fallbacks/dessert.svg"
     ],
     "accent": "#d88962",
     "description": "在地最夯『蔡記豆花』除了豆花外，最有名的莫非是薏仁牛奶和仙草奶凍了，所以菜單上又寫說是『蔡記傳統豆花、薏仁、仙草專賣店』，雖然現在開在花蓮市區的民國路上，不過相信許多以前讀東華的學生也應該不陌生吧！蔡記招牌說到『蔡記豆花』的招牌，那就是仙草奶凍、薏仁牛奶、粉圓豆花和檸檬愛玉粉圓了！商品資訊粉圓豆花把豆花鏟個幾匙，加入糖水和粉圓，就成了這一碗粉圓豆花囉～ 粉圓…",
@@ -24096,7 +24113,8 @@
         "票價資訊",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001294",
@@ -24120,7 +24138,8 @@
     "imageCandidates": [
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1294/b810af67-4881-4e47-8ef0-e8e4133b970a@710x470.jpg",
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1294/d06dbb24-e3ea-4daa-a9d7-d7b2d72fb408@710x470.jpg",
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1294/ee1bc9fb-db28-4729-90de-59c160bc3fee@710x470.jpg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1294/ee1bc9fb-db28-4729-90de-59c160bc3fee@710x470.jpg",
+      "restaurant-fallbacks/dessert.svg"
     ],
     "accent": "#df7bb4",
     "description": "把對兩個女兒的愛，同樣放在產品中，將女兒們的名字各取一字→「百艾」。尋找發音與「百」和Bio是相似又有意義的字首，意指connected with living things or human life，真誠提供真食材與原味的感動，Bio讓想法更能透過文字和熱愛大自然生活的一群同好，分享彼此之間的愛。",
@@ -24173,7 +24192,8 @@
         "票價資訊",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Attraction_345040000G_000010",
@@ -27237,7 +27257,9 @@
     "lat": 23.89553400758,
     "lng": 121.57943066484,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1291/6b3059fb-b347-4b29-81db-c6fca1208a55@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "「055」好寫好記讓人印象深刻，魚貨新鮮、出菜快速是店裡兩大特色，除了蓄養龍蝦、石斑等活跳魚鮮外，特建蓄養池，提供「尚青」白蝦。",
     "highlights": [
@@ -27290,7 +27312,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001272",
@@ -27311,7 +27334,9 @@
     "lat": 23.9825717628,
     "lng": 121.60594633786,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1272/967a17e1-3dd0-451b-bc56-df1fcf679ae0@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "採用頂級青蔥，外酥內Q。傳承傳統古法純手工製作蔥油餅，紮實麵皮、鬆軟有嚼勁，真材實料好味道。除了蔥油餅還有蔥肉餅可供選擇。",
     "highlights": [
@@ -27364,7 +27389,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_A15011300H_000026",
@@ -27384,8 +27410,10 @@
     "hours": "9:00-21:00",
     "lat": 24.78991,
     "lng": 121.7621,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "宜蘭麻糬的製作先驅李傳仁師傅，嚴選台灣上等糯米及低糖內餡，全程以手工製作，口感細緻且Ｑ嫩有彈性，微甜而不膩皮薄餡料實在，師傅堅持不添加對身體有害的添加物，吃過的人都稱讚好吃，讓許多聞名而來的客戶都前來購買，更是旅客到宜蘭旅遊最佳的新伴手禮。目前李傳仁日式手工麻糬，有芝麻、芋頭、花生、紅豆、抹茶、綠豆、紅麴、榴連、柳橙、海苔肉鬆、楓漿、酒釀桂圓、竹炭烤地瓜、養…",
     "highlights": [
@@ -27437,7 +27465,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_007773",
@@ -27460,7 +27489,8 @@
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/7773/0aab9ca2-ab8f-4d8a-a54b-de3deff3e406@710x470.jpg",
     "imageCandidates": [
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/7773/a746f192-592a-4441-9342-b358ab8b7f59@710x470.jpg",
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/7773/aad017de-1d69-4672-a440-3465163da036@710x470.jpg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/7773/aad017de-1d69-4672-a440-3465163da036@710x470.jpg",
+      "restaurant-fallbacks/dessert.svg"
     ],
     "accent": "#d88962",
     "description": "巴西國民小吃炸餡餅+甘蔗汁，從地球的另一端原汁原味來到花蓮。 品名肚肚扁即是巴西葡萄牙語tudo bem\"你好\"的諧音，感受巴西式熱情好客又能在肚子餓時品嘗巴西美食之意。",
@@ -27514,7 +27544,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001265",
@@ -27537,7 +27568,8 @@
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1265/07988f72-6bea-44a8-80d9-bcc6a1099019@710x470.jpg",
     "imageCandidates": [
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1265/184ffb72-4aae-4e37-a9bb-0a26a83fe21c@710x470.jpg",
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1265/ad863016-1cbc-42d5-8902-976c5b30e1b4@710x470.jpg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1265/ad863016-1cbc-42d5-8902-976c5b30e1b4@710x470.jpg",
+      "restaurant-fallbacks/food-court.svg"
     ],
     "accent": "#d88962",
     "description": "花蓮皇辣醬是在地人射箭教練謝宏德先生開發的全新品牌。曾經營過餐廳的他，擁有一身廚藝絕活，蒜蓉辣椒醬香氣足、辣度適中，嚐起來不苦微甘，適合作為沾醬、主食拌料及料理之用，口味很受歡迎，提供宅配服務，深獲主婦們及吃辣老饕好評。",
@@ -27589,7 +27621,8 @@
         "明確開放時間",
         "票價資訊"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_A15011300H_020123",
@@ -27609,8 +27642,10 @@
     "hours": "09:00-21:00",
     "lat": 24.85879,
     "lng": 121.826,
-    "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#df7bb4",
     "description": "阿宗芋冰城創始人黃錫宗，一輩子都是從事於傳統冰品「叭噗」的製作，從沿街叫賣冰棒的小孩，到踩著三輪車叫買叭噗的小伙子，最後自己鑽研叭噗的製作與批發，因而誕生阿宗芋冰城！ 一直以來，阿宗芋冰城秉持著傳統「叭噗」的精神，即「真材實料、原味重現」八個字，用心於食材的採買與製作，保證不含色素、香料、乳化安定劑等化學添加劑，讓每位顧客都能吃到香Q可口的叭噗。",
     "highlights": [
@@ -27662,7 +27697,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001374",
@@ -27684,7 +27720,8 @@
     "lng": 121.6060667508,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1374/63c59583-65fd-42fe-9f0e-8a3be63bf417@710x470.jpg",
     "imageCandidates": [
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1374/85f7ac60-2f35-4731-811a-3dce7ced3095@710x470.jpg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1374/85f7ac60-2f35-4731-811a-3dce7ced3095@710x470.jpg",
+      "restaurant-fallbacks/dessert.svg"
     ],
     "accent": "#d88962",
     "description": "在花蓮市中華路路底跟中山路交接口附近最近出現很多深夜餐車,對於剛下班或想吃宵夜的人來說是超棒的選擇地點！！一間賣阿給的餐車，在花蓮這邊幾乎沒有人在賣阿給耶 ～",
@@ -27738,7 +27775,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Attraction_376420000A_000083",
@@ -28123,8 +28161,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.71099,
     "lng": 121.06846,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "我有個夢，希望自己能夠自由自在的追求理想，我有個心願，希望自己擁有無止境的智慧和創意，創造出屬於自己的空間，我有個堅持，希望自己能夠在為自己的文化上，扮演傳承的責任和工作，而我呢，是一個傳統的阿美族婦女，更有一顆善良的心，總是會熱心的去幫助別人，曾幾何時，對傳統編織產生一股莫名的興趣，無法抵擋，編織在阿美族傳統生活裡，是一個重要的文化象徵，它是阿美族的美麗的…",
     "highlights": [
@@ -28177,7 +28217,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_000443",
@@ -28197,8 +28238,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.84698,
     "lng": 121.06727,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "2002年，阿亮老師於臺東初鹿成立了九鳥陶燒工作室，工作室取名為「九鳥」，其實是當地地名新班「鳩」的拆解，「陶燒」則希望效法日本「志野燒」等著名陶藝文化，讓九鳥陶燒一如這些遠具聲名的陶藝創作，淵源流長，代代傳承。除了每年固定持續對於藝術的創作鑽研與精進，抱持著文化傳承與交流的期待，九鳥陶的阿亮與夏子老師並也開始了陶藝的教學之路，透過陶藝教學的工作謍的舉辦，替…",
     "highlights": [
@@ -28251,7 +28294,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_001778",
@@ -28271,8 +28315,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.75332,
     "lng": 121.1487,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "若您來到風光明媚與無汙染的後山台東，輕鬆漫步在純樸的街道上，若您聞到一陣陣撲鼻的麻油香，不需懷疑，那就是臺東田中油行《三和油品》。本店坐落於純淨無汙染的臺東市，老闆《蕭輔鄉》自30於年前，從西螺的老油廠，擴店至臺東，繼續服務全台各地支持三和油品的愛用消費者。 在老闆堅持《品質第一》的信念下，原料都是精心挑選的上等品，尤其是黑芝麻的原料，全數來自無工業汙染的臺…",
     "highlights": [
@@ -28324,7 +28370,8 @@
         "票價資訊",
         "官方照片"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_000014",
@@ -28344,8 +28391,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.75328,
     "lng": 121.1564,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "已累積數十年魚肉加工之技術經驗，並且傳承三代的「丸葉旗魚鬆」，是臺東縣內唯一的一家堅持以傳統方式製作的老店，長久以來一直使用精選的上等旗魚肉，產品中絕不添加味精、香料、人工色素、防腐劑等成份，為的是要讓顧客品嚐到『真材實料的傳統味道』。 【懷念的口感、豐富的味道、絕對的品質】是「丸葉旗魚鬆」自開創以來一直堅守的信念，保證讓前來消費的顧客吃出營養、吃出健康、更…",
     "highlights": [
@@ -28398,7 +28447,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_000400",
@@ -28418,8 +28468,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.80826,
     "lng": 121.0499,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "大巴六九（Tamalakau）是卑南族語勇士的意思，位於台東縣卑南鄉海拔600公尺高處的「大巴六九藥用植物園區」，擁有三甲多的山林地，包括有一甲多的藥用植物區/野菜區種植上百種生機蔬果及藥草，以及擁有絕美視野的「大巴六九景觀餐廳」。佇立在園區內的觀景平台，可將遼闊的美景收進眼底，從腳下展開的花草綠樹到的遠方台東市平原、太平洋海岸，遼闊的視野讓人得以很快的放鬆…",
     "highlights": [
@@ -28471,7 +28523,8 @@
         "票價資訊",
         "官方照片"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_001837",
@@ -28491,8 +28544,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.65191,
     "lng": 120.9576,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "興辦大馬力全地形車探險活動至今已逾3年。在這不算短的歲月裡，我們累積了非常豐富的經驗，也收集了國內外相當多的探險車資料。在眾多同好的鼓勵與敦促下，2011年大馬力森林探險基地希望能架構出一個屬於同好們的生活俱樂部。俱樂部的會員（個人、團體）可使用不同於一般來訪遊客所使用的車種（或駕駛自購專屬探險車）進行難度更高的越野、溯溪等活動。探險基地會為會員們及其眷屬、…",
     "highlights": [
@@ -28545,7 +28600,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_000402",
@@ -28565,8 +28621,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.8757,
     "lng": 121.0959,
-    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#b98b73",
     "description": "1901年日本人從爪哇引進阿拉比卡種Arabica coffee 咖啡在屏東恆春的試驗場試種成果豐碩。1912年推廣到臺東花蓮等地，設有東臺灣咖啡株式會社，臺東振興株式會社及木村咖啡店臺灣事業部等相關公司專職發展臺灣咖啡產業，直到民國70年臺東還有將近30頃的咖啡園純樸的咖啡農，遵守自然生成定律以自然農法栽培清香甘醇的能量咖啡。臺東縣卑南鄉龍過脈卑南族古地名…",
     "highlights": [
@@ -28618,7 +28676,8 @@
         "票價資訊",
         "官方照片"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_001600",
@@ -28638,8 +28697,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.95697,
     "lng": 121.12744,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "為了推廣臺東農村及社區部落的優質產品，在鹿野鄉永安社區的號召下，由臺東一群熱愛家鄉文化的民眾共同參與，決定於武陵綠色隧道，成立「台東２６２６市集」，不管是要來擺攤位，還是要到這裡找好康逛大街，都可以滿足大家的需求。臺東是臺灣最後一塊淨土，這裡有最純淨的環境，以及最善良的百姓，在這塊土地生產出最好最優質的農特產品，工藝達人們也生產出多樣有巧思的手工藝品，不過往…",
     "highlights": [
@@ -28692,7 +28753,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_001735",
@@ -28712,8 +28774,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.75332,
     "lng": 121.15151,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "臺東山海關名產店 ３０年老店的山海關，秉持品質第一、服務第一、價格合理的精神，讓您買到最優質的臺東名產 山海關臺東名產店，絶對是一個實體的店面，在臺東已經經營了30年，時間就是產品最好的保證！維持產品的新鮮更是本店一直以來秉持的信念，無論舊雨新知，都期盼您來領略臺東之美時能來店裡逛逛。",
     "highlights": [
@@ -28766,7 +28830,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_002287",
@@ -28786,8 +28851,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.75739,
     "lng": 121.15138,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "位於台東市區內，嚴選大台東地區知名伴手禮，埤南米、洛神系列、釋迦餅、飛魚餅、剝皮辣椒、杭菊、金針、酒類等，不定時推出最新產品及多項優惠商品，讓您到台東旅遊一站購足，打包台東特色，帶著美好回憶回家！特產：埤南米、飛魚、旗魚、釋迦、杭菊、洛神花、枇杷、苦茶油、地瓜酥",
     "highlights": [
@@ -28840,7 +28907,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_001833",
@@ -28860,8 +28928,10 @@
     "hours": "請至官方網站確認",
     "lat": 23.04427,
     "lng": 121.1626,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "關山建發租車在地經營已25年，提供您專業的租車服務及旅遊諮詢。無論是【機車或汽車出租、長短期租賃、團體包車、火車站接送、代訂房間】等等， 均能滿足您的需求。如有任何疑問，歡迎來電洽詢我們將竭誠為你服務。電話：089-811417、089-811427地址：台東縣關山鎮和平路1-15號（關山火車站步行至本店約３分鐘，於7-11、關山中油加油站斜對面）",
     "highlights": [
@@ -28914,7 +28984,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_001669",
@@ -28934,8 +29005,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.76401,
     "lng": 121.15549,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "本人創立的皮揚工坊（位在臺東市巴布麓部落的博愛教會旁，地址：臺東市馬亨亨大道153之1號），雖仍在草創時期，但本人在傳統工藝教授課程這條路已有五、六年之久。皮揚工坊的成立對於我在製作上有著極大的重要性與啟發性。由於巴布麓部落（寶桑）從未有卑南族族人設立傳統工藝坊來對外呈現卑南族部落的文化及老祖先傳統工藝的智慧與創意，工坊的創立無非是提供族人聚會以及發揮創意的…",
     "highlights": [
@@ -28987,7 +29060,8 @@
         "票價資訊",
         "官方照片"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_002670",
@@ -29007,8 +29081,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.75966,
     "lng": 121.15018,
-    "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#df7bb4",
     "description": "台東伴手禮名店，知名媒體和在地人推薦之天然、養生、永續的無添加養生點心。養生舒芙蕾蒸蛋糕：《天下雜誌》譽為【東方舒芙蕾】養生松子芝麻酥糖：2016年台灣好物九大伴手禮。自然食尚以「天然、養生、永續」(natural, healthy, sustainable)作為品牌DNA，堅持只使用天然食材，堅持無添加，研發低溫低碳製程，包裝減塑，印刷減量，包裝體積縮小，…",
     "highlights": [
@@ -29061,7 +29137,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_000437",
@@ -29081,8 +29158,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.85287,
     "lng": 121.11302,
-    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#b98b73",
     "description": "店內招牌「有機咖啡」獲選為2012臺東縣十大旅遊伴手禮暨特色美食。黃義雄在臺東縣卑南鄉明峰村的這塊土地上從種植李子、芭樂、釋迦，等等，到最後的自然農法種植有機咖啡，已四十多年，在六十四歲時，有一天朋友請喝咖啡，苦澀口感，讓一向喝茶的他，覺得這不是自討苦吃嗎？咖啡苦為何全界有這麼多人愛喝，但也燃起研究的好奇心，所以決定在面積六甲多的果園，致力於咖啡種植也就是「…",
     "highlights": [
@@ -29134,7 +29213,8 @@
         "票價資訊",
         "官方照片"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_005354",
@@ -29154,8 +29234,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.96825,
     "lng": 121.30435,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "臺東在地好農好物友善推廣平台。在這裡，你可以找到以友善環境方式生產的當季農作、私房手作及特色產品。期待你和我們一起吃在地、用在地，疼惜我們的土地。 「一開始只是單純想幫忙在地農民經濟問題...」 因為工作關係，有機會認識台東泰源都蘭部落的Faki(叔叔)和Fayi(阿姨)們，這些日子跟著他們在田間遊走，整地、插秧、施肥、收成，在春耕、夏耘、秋收和冬藏的節奏裡…",
     "highlights": [
@@ -29208,7 +29290,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_000047",
@@ -29228,8 +29311,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.75641,
     "lng": 121.15248,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "精選臺農57號地瓜，堅持傳統手工製作，搭配純天然麥芽與砂糖黃金比例，充份保留食材原味，養生美味兼具!LINE ID : 0919611988 加入之後可線上撥打訂購住在市區的飯店或民宿，老闆可以外送到您所指定的地方(訂購十包以上，運送限市區)資訊由官方店家提供，官方店家保有最終決定權",
     "highlights": [
@@ -29282,7 +29367,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_001832",
@@ -29302,8 +29388,10 @@
     "hours": "請至官方網站確認",
     "lat": 23.10143,
     "lng": 121.37809,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "東海貝殼藝品為成功鎮上唯一販賣貝殼藝品的民宿，樓下為貝殼藝品區，三樓提供民宿，來到成功玩，不一定要買土產，也可以來到這，看看有沒有喜歡的紀念品，帶回這特殊的貝殼藝品回家慢慢欣賞。 本鎮靠山臨海，融合了海岸礁石、奇山峻嶺之自然景觀，而豐富的動植物生態資源，使得成功不僅兼具山光海色之美，更蘊含著知性深度之旅。",
     "highlights": [
@@ -29356,7 +29444,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_002303",
@@ -29376,8 +29465,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.82133,
     "lng": 121.09087,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "獨特的地理環境位置，造就有機自然生態結合休閒，讓遊客能親自體驗茶園中的農趣，與茶樹一同享受著森林浴。品茗時有著得獎無數的烏龍茶，有機蜜香紅茶，以及臺東特色的紅烏龍茶。交流茶道、述說茶事，享受著好茶時光。特色產品：高山紅烏龍茶、有機蜜香紅茶、高山金萱茶",
     "highlights": [
@@ -29430,7 +29521,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_002305",
@@ -29450,8 +29542,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.90197,
     "lng": 121.12983,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "於鹿野高台山麓邊平直和緩山坡地，種植氣韻自然芬芳烏龍茶系樹種，園區僅用認證有機、人工除草疏氣栽培，生產有機茶及無毒特色紅烏龍茶。從產銷履歷登錄到茶菁精製品牌包裝，皆可一貫化完成，達到台灣好茶安全衛生、品質穩定可靠的標準。特色產品：台東茗茶、蜜香紅茶、紅烏龍、甘甜梅汁。",
     "highlights": [
@@ -29504,7 +29598,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_001773",
@@ -29524,8 +29619,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.75313,
     "lng": 121.14723,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "創作者馬秋，屬臺東知本卡地布部落，卑南族的「石生」支系。法拉撒(Varasa)，即是卑南族語「石頭」的意思。由石而生，由石告終，石頭是馬秋在四十歲時，找到得以抒發與展現自己的生命依託，長年的追尋，終於在這一刻找到港灣，同時在這樣的穩定中，讓心停歇，任創意開始奔馳，夢想開始茁壯。欲購買產品，歡迎至Ata東臺灣卡塔文化(臺東市中興路2段191號 臺東糖廠白色大倉…",
     "highlights": [
@@ -29578,7 +29675,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_001906",
@@ -29598,8 +29696,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.79154,
     "lng": 121.12472,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "直航租車提供「最低的價格」「最貼心的服務」，是臺北、臺中、彰化、南投、臺南、高雄、花蓮、臺東、羅東、墾丁租車的最佳選擇! 以平實的價格、貼心與專業的服務態度提供給各位高品質、高保障的租車服務。 直航租車不僅提供一般顧客的短期租車，也針對公司企業與政府機關提供長期租車的服務，與中華電信、國防部、臺灣銀行及鴻海精密......等企業為長期合作夥伴。",
     "highlights": [
@@ -29652,7 +29752,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_000444",
@@ -29672,8 +29773,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.61291,
     "lng": 120.82692,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "這個身處雲霧中的山中工作室，有個美麗的名字，「芭伊」，「芭伊」是排灣族對「婦女」的親密稱呼，蘊藏「親愛的」意涵，這是莫拉克風災之後成立的一個製作傳統排灣族陶珠的婦女工坊。 莫拉克風災不但重創嘉蘭的生活 , 也重創嘉蘭的文化。婦女們有感於部落文化受到風災而流失 , 為了提振部落產業, 在嘉蘭社區成立了「嘉蘭芭伊工坊」。於是一群在部落生活的媽媽開始了手工陶珠的創…",
     "highlights": [
@@ -29726,7 +29829,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_001753",
@@ -29746,8 +29850,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.59467,
     "lng": 120.96066,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "金峰鄉的洛神花品質與成像，真可以說是頂級的！一般市售洛神花都是成像比較小朵，金峰鄉因為天氣與海拔很適合洛神的生長～加上臺東這裡無汙染少用化學藥劑；對於原住民而言，原始天然地農耕方式，才是最符合原民天性愛護大自然的原則唷～～ 洛神花富含的花青素與抗氧化特點，使她成為美容與養生的好食材！夏天常喝洛神花汁，不用擔心喝多會造成體質過寒或過熱！金峰洛神花蜜餞更是吃起來…",
     "highlights": [
@@ -29800,7 +29906,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_001958",
@@ -29820,8 +29927,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.76825,
     "lng": 121.12738,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "阿水工房x文創東糖191 於2013年，跨界整合臺東在地創作資源與能量，以文創平臺嶄露頭角，為在地藝文創作者發聲，並開發手作體驗課程，增加民眾參與，商品展場及藝文空間複合式經營，更為臺東文創產業注入一股新力量。透過阿水工房x文創東糖191，期能營造臺東藝術家自由創作與交流的空間，落實藝術文化在地實現。阿水(陳正瑞)創作的主軸以原住民精神為出發，表現於木雕、鐵…",
     "highlights": [
@@ -29874,7 +29983,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_001717",
@@ -29894,8 +30004,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.8011,
     "lng": 121.094,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "阿美釋迦形象館位於卑南鄉中，本著回饋鄉里的理念，因此結合本地農漁特產，搭上觀光列車，讓旅客了解臺東的風土人文，並把臺東的特產帶出去。致力尋求代表性的特產，因此相中鳳梨釋迦，作為主流；花費金錢、人力、物力，取其獨特的風味，克服技術上的問題，研發而成釋迦餅。並設立阿美釋迦形象館。希望將台東的人文風土、美食文化藉由阿美釋迦形象館的設立而傳播出去。",
     "highlights": [
@@ -29948,7 +30060,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_003532",
@@ -29968,8 +30081,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.75288,
     "lng": 121.15114,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "創意禮品伴手禮，結合在地之特色，創新美食新風味。池上米麻糬，稻米與麻糬擦出美麗火花；手工琪瑪酥，古法製造傳承百年好滋味。各大節日更推出節日禮品禮盒，是送禮之首選。 特色商品：池上米麻糬禮盒、百年好滋味-琪瑪酥、青澤池上米穀酥、鹹蛋黃牛軋餅、醬心蛋捲。",
     "highlights": [
@@ -30022,7 +30137,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_002313",
@@ -30042,8 +30158,10 @@
     "hours": "請至官方網站確認",
     "lat": 23.04724,
     "lng": 121.16399,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "在臺東關山鎮上耕耘的第三代的小農戶，在自產自銷的概念下，收割近120~130天內飽足的關山米，並採自家烘穀方式來封存這百多天十一道工法加上日照與微風所孕育的自然「風味」，不經過特別的精工法碾製及過多的選米作業，呈現農家不假他人的誠意。特色產品：關山厚皮香蜜、糙米手札包、關山米布丁、佳鄉米、秧秧好米。",
     "highlights": [
@@ -30096,7 +30214,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_001902",
@@ -30116,8 +30235,10 @@
     "hours": "請至官方網站確認",
     "lat": 23.12246,
     "lng": 121.21971,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "這些年來，秋菊一邊製作手工皂，一邊想著如何連結發展在地特色，花東縱谷蘊藏的豐沛物產，就在她一次次嘗試與調配裡，將各式各樣精華融進色澤樸實的手工皂中。 皂方材料調合不下數十種的天然食油，全部都是可以用來做菜佐料拌醬的高級用油，適切地針對不同肌膚個性來調配用皂配方。它沒有深奧難解的學術原理，卻能溫和傳達自然平衡的生活主張，也是我們說來「簡單」做來「複雜」的心意。…",
     "highlights": [
@@ -30170,7 +30291,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_002467",
@@ -30190,8 +30312,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.53273,
     "lng": 120.95613,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "小時候在學校，看著學姐們編織，耳濡目染中，羅英惠女士對著部落工藝 即有著莫大興趣，並暗自立願 未來能從編織手藝中，走出一條屬於自己的路。勤儉的她，撿拾起學姊用剩的殘餘布塊辛苦地練習；小學一畢業，又到成衣工廠精進技藝 歷經15年來的努力，終於創立了英惠原藝工作坊。除了在家鄉做出口碑外，還常常到台北參加展覽 基於傳承與分享的念頭，現在的她，帶領著部落裡頭的婆婆媽…",
     "highlights": [
@@ -30244,7 +30368,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_000390",
@@ -30264,8 +30389,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.75288,
     "lng": 121.15353,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "店內招牌「楊記家傳地瓜酥」獲選為2012臺東縣十大旅遊伴手禮暨特色美食。五十年代，楊記家傳招牌地瓜酥創始人『楊振發』老先生，以手推三輪車方式沿街叫賣，現今問起老一輩臺東鄉親還記憶猶存，『振發叔』為人忠厚老實、勤奮持家，目前由第二代子承父業小兒子夫妻二人（楊俊明、張月虹）用心經營，堅持傳統手法，製作出風味獨特的地瓜系列產品。一台丫爸留下來的三輪車，四十年來照顧…",
     "highlights": [
@@ -30318,7 +30445,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_002296",
@@ -30338,8 +30466,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.78916,
     "lng": 121.13478,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "清亮生態農場位於臺東縣東河鄉尚德村銅礦(藍寶石的故鄉)，得天獨厚的地方極適合發展有機農業。農場致力於有機農業的發展以尊重大自然，不使用化學肥料和農藥以健康的方式來栽種有機蔬果，主要作物有梅子、李子、苦茶。特色產品：有機Q梅、麻油薑、有機苦茶油、有機李子。店內招牌「麻油薑」獲選為2012臺東縣十大旅遊伴手禮暨特色美食。麻油薑：麻酥酥、油膩膩麻油薑的由來：新婚夫…",
     "highlights": [
@@ -30392,7 +30522,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_000446",
@@ -30412,8 +30543,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.76759,
     "lng": 121.12792,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "【品牌Ata（卡塔）】 「卡塔」－排灣族古語以有花紋的珠子族語的正式稱法qkata而定名。 「卡塔文化」是透過合作型態的一群原住民婦女群體，以保存傳統紋飾與技法為己任，結合不同工藝的專長，從每一顆qkata（卡塔）圖紋的故事出發，以生活創意的想法，延續傳統手工藝製作技法與傳統文物、圖紋生產型式，增加接近文化意涵與傳統生活有趣的文化觀點，實踐給予及分享的精神。…",
     "highlights": [
@@ -30466,7 +30599,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_003175",
@@ -30486,8 +30620,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.75505,
     "lng": 121.14847,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "連城記地瓜酥在正氣路水果街上，提供地瓜酥、芋頭酥購買與宅配。正氣店台東市正氣路301-31號（觀光夜市）營業時間：每日AM9:00-PM10:00站前店台東市岩灣路101巷598號（火車站前廣場）營業時間：周一至六 AM9:30-PM6:30周日 AM10:00-PM7:00",
     "highlights": [
@@ -30540,7 +30676,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_002306",
@@ -30560,8 +30697,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.92625,
     "lng": 121.1269,
-    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#b98b73",
     "description": "​連記茶莊一個以茶葉文化為主題，搭配濃厚中國典雅風格的場域，主人對生活中茶道文化的分享更是來到高台茶園不可多得的體驗，對茶葉品質的提昇，茶點品味的研發，始終努力不懈，對茶藝推廣更不遺餘力，歡迎你的光臨與指導。特色產品：自然生態有機茶、紅烏龍茶、蜜香紅茶、宏烏龍手工茶餅、相映紅(紅烏龍茶+咖啡)、高山茶。",
     "highlights": [
@@ -30633,7 +30772,8 @@
         "票價資訊",
         "官方照片"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_001440",
@@ -30653,8 +30793,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.7627,
     "lng": 121.15377,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "來自臺東初鹿部落的卑南族青年，部落美男子工作室呈獻的是他們的文化、創意與態度。將卑南族傳統族群文化的元素融合在現代的生活用品中。美男子工作室的文創產品是他們的文化、他們的搞怪和他們的故事。 \"kamling(卑南族語，鈴鐺)\"，kamling乃卑南族傳統服飾中最常見、最不可或缺的飾品配件，在卑南族的慶典中，kamling都廣泛的被族人使用；每每聽到kamli…",
     "highlights": [
@@ -30707,7 +30849,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_000445",
@@ -30727,8 +30870,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.87257,
     "lng": 121.22595,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "Homi的故事很適合在陽光溫暖撒落的午後時光，坐在小屋前大樹下的木棧板上乘涼慢慢的傾聽。累積多場藝術市集的經驗後，為了讓每一個來訪的朋友們都能感受臺東藝術的能量，Homi和音樂人老公築了起「好的擺」，一個美好充滿力量的手創小屋。「好的擺」，目前展售80幾位藝術家的手感商品，大部分的手作品都來自在地的工作者，有手染服、都蘭國小書包、手作筆記本、十字繡手機袋、A…",
     "highlights": [
@@ -30781,7 +30926,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_000440",
@@ -30801,8 +30947,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.77935,
     "lng": 121.12454,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "店內招牌「手工麻糬」獲選為2012臺東縣十大旅遊伴手禮暨特色美食。陳家麻糬傳承三代手藝，忠實呈現70年來的口感風味，從早期以竹簍沿街叫賣，到成立全新店面，堅持品質第一的信念，選用東部上好圓糯米，每日手工現做現賣，新鮮衛生，絕不添加防腐劑，讓健康加倍，美味不打折。",
     "highlights": [
@@ -30855,7 +31003,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_000389",
@@ -30875,8 +31024,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.76013,
     "lng": 121.15138,
-    "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#df7bb4",
     "description": "經歷了五六十年的年頭，由家族成員共同經營的陳記麻糬，在老闆的堅持下，保持著當天製做當天售完，就是確保顧客都能吃到新鮮的麻糬。陳記的麻糬皮香Ｑ柔軟，稍帶韌性，餡則要甜度適中、具有原味。外皮內餡彼此相得益彰。成為臺東人茶餘飯後甜點的最愛。 資料來源店家官網",
     "highlights": [
@@ -30929,7 +31080,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_002308",
@@ -30949,8 +31101,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.91309,
     "lng": 121.11315,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "茶莊遠眺可看見層層山巒，近看欣賞茶園的美景，站在茶園裡更可以聽到茶樹的吐納聲。我們的茶有生產履歷證明還有有機轉型期，要給顧客喝得安心。店裡有多種產品、金牌、銀牌獎、優良獎、烏龍春、冬茶、金萱茶等其他產品。特色產品：烏龍春季茶、烏龍冬季茶、金萱茶、紅烏龍茶、大葉烏龍春季茶、大葉烏龍冬季茶",
     "highlights": [
@@ -31003,7 +31157,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_000442",
@@ -31023,8 +31178,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.76962,
     "lng": 121.13488,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "凱應老師自幼隨著與族人長輩學習傳統織布及刺繡，日積月累的成就一手好技藝，並且心繫部落文化的傳承與推廣，她對於深化部落文化底蘊與提昇自身美學涵養不遺餘力，把握每個手中的資源與機會，不間斷的潛心學習，在工作室的牆面上，可以看見一張張國內外的設計認證課程整齊的排列著，而在色彩斑斕的原民服飾後方，你也可以瞧見書櫃內內容豐富的原住民文化史料與作品集成的蹤跡。小小的凱應…",
     "highlights": [
@@ -31077,7 +31234,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_001438",
@@ -31097,8 +31255,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.76715,
     "lng": 121.12959,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "卡地布部落(臺東知本)，是由Mafaliu (瑪法琉)、Pakaruku (巴卡露固) 、Ruvaniaw(路法尼奧)三個家族所組成的大型部落。工作室的男女主人皆從事原住民傳統文化創作工作，都屬於瑪法琉家族的成員，於是取瑪法琉之名成為工作室名字，藉此希望能夠發揚過去家族的榮耀。",
     "highlights": [
@@ -31151,7 +31311,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_001771",
@@ -31171,8 +31332,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.6053,
     "lng": 120.9967,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "沙桂花10歲時隨家人遷來臺東金峰鄉，自幼從家族長輩中學得編織、刺繡、縫紉等傳統技巧。由於父母親族別不同，以及階級上的差異，沙老師（沙桂花女士）通曉排灣及魯凱兩族文化，初期為（陶藝時期）李永明、王榮明，王昱欣老師（陶珠時期）指導，期間曾參加手工藝研究所竹藝編織班，但一直未離開陶作。製作初期以傳統「土條法」來製作陶甕，與現代陶藝用手拉坏方式生產，有很大的差距，速…",
     "highlights": [
@@ -31225,7 +31388,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_002309",
@@ -31245,8 +31409,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.9328,
     "lng": 121.11977,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "自有茶以來，紅茶綠茶本是各有所好，但是在口味上的變化，還是以紅茶較為豐富，如今還能與高山茶一樣，端上達人的茶桌器皿，慢慢品茗箇中口感層次的韻味，新元昌頂級的蜜香紅茶產量極少，即使入店門都不一定能品嚐到，顛覆你對傳統紅茶的舊觀念。特色產品：紅烏龍茶、福鹿茶、茶梅、紅茶餅乾",
     "highlights": [
@@ -31299,7 +31465,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_001763",
@@ -31319,8 +31486,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.90051,
     "lng": 121.12587,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "由新峰茶園用心栽植的純樸好茶，阿薩姆紅茶為重發酵茶品，在發酵過程中決定茶葉的色、香、味品質，經由約90%的發酵保留較多兒茶素、胺基酸，形狀為半球型，特性溫潤，冷泡甘甜口，熱泡果香濃郁，冷熱沖泡皆適宜。其阿公茶更通過慈心有機認證，以及SGS檢驗報告。",
     "highlights": [
@@ -31373,7 +31542,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_002311",
@@ -31393,8 +31563,10 @@
     "hours": "請至官方網站確認",
     "lat": 23.04299,
     "lng": 121.16944,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "在沒有煙囪的花東縱谷，卻能成就最好的蜂產品。秉持著農委會推行\"愛鄉、愛土，愛我們的農產品\"的精神，與社會廣結好緣，蜂之饗宴堅持著高尚的品質，熱忱的服務，不斷創新的精神與大家分享。特色產品：蜂王乳(生鮮)、頂級龍眼花蜂蜜、蜂蜜手工香皂、陳釀蜂蜜醋。",
     "highlights": [
@@ -31447,7 +31619,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_001944",
@@ -31467,8 +31640,10 @@
     "hours": "請至官方網站確認",
     "lat": 23.04898,
     "lng": 121.16478,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "小時候，看見阿嬤的手把苧麻砍了-剝了-曬了-捻線-染了-織了就有彩虹的衣服穿了，阿嬤的臉上笑了我在田野裡開始築夢，尋找融合傳統與現代的「布農美學」醞釀-轉化-延續-分享 像是天父給予的溫柔亮光，期待與你相約 設計概念時尚，多元化，將原住民傳統織品呈現並服務部落居民而正式立案，以原住民的手工服飾品結合現代材質，展現時尚的複合元素。",
     "highlights": [
@@ -31521,7 +31696,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_001601",
@@ -31541,8 +31717,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.6638,
     "lng": 121.47227,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "暗喻綠島監獄過往給人的印象，店內看得到的商品陳設無一不與監獄有關，顧客走進店裡無不會心一笑。從天氣熱著手，突發其想地在T-恤上印製各種毒辣的字眼，凡到過綠島的遊客，看到這款正反兩面字句犀利卻十分貼切的上衣，無不心有戚戚焉，也成為到綠島的熱門紀念品。 註：店家冬天不開！",
     "highlights": [
@@ -31595,7 +31773,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_005349",
@@ -31615,8 +31794,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.90384,
     "lng": 121.12659,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "從蝴蝶生態至工藝發展與藝術創作的翠蝶園以營造蝴蝶花園的自然生態提供一個戶外教學的環境,讓學童更深一層的認識蝴蝶生態之美與多變的蝴蝶世界;另發展出以自然素材再生利用價值的-檳榔葉鞘手創工藝品與種子和木頭手作樂。營業項目:自然素材手創工藝和DIY/種子玩賞和木頭蒐集/花藝苗木栽培/蝴蝶花園營造",
     "highlights": [
@@ -31669,7 +31850,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_000436",
@@ -31689,8 +31871,10 @@
     "hours": "請至官方網站確認",
     "lat": 23.12491,
     "lng": 121.21937,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "店內招牌「紫米餅」獲選為2012臺東縣十大旅遊伴手禮暨特色美食。本產品係以臺東縣池上鄉農會輔導契作生產之稻米為主要原料，經過碾製而成的米粒與池上鄉農會輔導生產的黑糯米相接合，再給與膨發之後，作成紫米餅。本會紫米餅與市面上的米膨發製品米果或仙貝等有所差異區隔，市售米製品大多以甜食為主，且色澤為白色或褐色，特推出「紫米餅」吸引消費者的注意，也為米餅市場提供新的選…",
     "highlights": [
@@ -31743,7 +31927,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_000398",
@@ -31763,8 +31948,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.76008,
     "lng": 121.144,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "精選雲嘉平原地瓜和天然的蔗糖特砂，加上後山大自然潔淨的山泉水，更以蕃薯伯楊振發老先生累積多年傳統手工技藝，提煉出「獨特糖香」的口味，奠下楊記家傳地瓜酥的口碑，在臺東市無人不知無人不曉，今由長子楊德盛在臺東市傳廣路178號總店開店立業。自總店開業這二年來，無論在網路行銷訂購、或在小賣上，這一路下來都秉著誠信和用心來耘耕這間店，更有信心把地瓜酥、芋頭酥、地瓜蜜這…",
     "highlights": [
@@ -31817,7 +32004,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_002312",
@@ -31837,8 +32025,10 @@
     "hours": "請至官方網站確認",
     "lat": 23.0345,
     "lng": 121.15472,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "親山農園位於關山環鎮自行車道旁，由少主賴善能和父親一起經營，起初以種植關山米為主，十餘年前突破舊有框架，將傳統農地轉變成觀光農園，從大湖引進草莓種植，如此創新的壯舉，在當時很不被在地農人們看好，創新之路也並非一帆風順，然而，父子倆抱著對土地的情感，相信臺東的好山好水並不輸給大湖，「那為什麼不呢?」的精神堅持下去。可能是在臺東看到草莓很稀奇，所以剛開始種植的草…",
     "highlights": [
@@ -31891,7 +32081,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_000386",
@@ -31911,8 +32102,10 @@
     "hours": "請至官方網站確認",
     "lat": 23.04562,
     "lng": 121.16138,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "半世紀的傳承在高溫熱爐中翻攪一生的心血淬煉粒粒用心挑選顆顆飽滿實在或許不能迎合每一張挑剔的嘴但是我們絕對對得起每一位上門的顧客因為我們知道大家最愛的古早味花生酥是記憶裡抹不去的甜蜜想起的 是細漢時袸阿嬤偷塞在手心的回憶懷念的 是阿爸和厝邊頭尾泡茶開講的夏天惦記的 是兄弟姊妹一人吃一口的分享快樂..........因為這些所以 我們堅持50年來都摻一味秘方叫做…",
     "highlights": [
@@ -31965,7 +32158,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_001774",
@@ -31985,8 +32179,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.61212,
     "lng": 121.00605,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "88年開幕，排灣族設計師羅至娟從小在傳統文化的影響與對時尚設計的興趣下，對改良排灣族工藝與創作產生濃厚的興趣，為了讓更多人認識排灣族之美，因此以排灣族傳統設計為主軸，結合現代流行元素，改良傳統排灣族相關產品不遺餘力。 目前更與政府計畫合作，以臺灣東部特有玉纖維材質結合傳統線材進行服飾改良，並開發出一套專屬之玉纖維混紡技術，混紡後之線材應用於排灣族十字繡產品中…",
     "highlights": [
@@ -32039,7 +32235,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_000441",
@@ -32059,8 +32256,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.71532,
     "lng": 121.07332,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "撒露冷小姐接續著母親的工藝美學，搓揉了現代的美學觀點，重新將織品工藝再次定義整理，創作出許多讓人眼睛一亮的全新創作，紅、黃、藍、大地色系所交織成的外出背帶配色層次豐富，樸直中不失時尚感，撫觸袋身。手作工藝表現出的溫暖情感襲上心頭，看見一旁擺放的老式織布機，似乎可以感受到職人編織時辛勤的流轉時光，藍白格紋的手提包一針一線以手工縫製，在製作藝品的過程中，儘量使用…",
     "highlights": [
@@ -32113,7 +32312,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_005351",
@@ -32133,8 +32333,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.76711,
     "lng": 121.12671,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "保留臺東糖廠原汽車庫工業風意象，以英文 GARAGE 重新出發，並賦予「庫空間」的時尚新意，外觀及內裝展現 Industrial Chic 新風貌。並結合進駐合作夥伴開發手作體驗課程，增加民眾參與，臺東好物商品展場，飲品休憩，音樂表演，圖書出版及藝文空間複合式經營。",
     "highlights": [
@@ -32187,7 +32389,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Attraction_A13020000G_000068",
@@ -33715,8 +33918,10 @@
     "hours": "11:00-20:00 全年無休",
     "lat": 24.58259,
     "lng": 121.8678,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "本店為好幾代漁民，故對各類水產了解甚多，更自行研發創新的招牌菜，如：爽口開胃適合下酒菜的飛卷生魚片、清新順口的桂花魚翅、肉質鮮脆的蒜茸醬漬笠螺及以鮮魚漿和肉燥等配料以手工製的飛虎魚丸等招牌菜。",
     "highlights": [
@@ -33769,7 +33974,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Attraction_376540000A_000463",
@@ -35421,8 +35627,10 @@
     "hours": "09:30-19:00",
     "lat": 24.8713,
     "lng": 121.8361,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "本餐廳堅持選用新鮮自然的食材，製作口味獨到的特有菜色，並以親切、即時、高效率的服務態度，打造舒適、親切、放鬆的用餐環境，征服客戶的胃與「心」，獲廣大消費者青睞，成功點「食」成金。",
     "highlights": [
@@ -35474,7 +35682,8 @@
         "官方照片",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Attraction_376540000A_000465",
@@ -36423,8 +36632,10 @@
     "hours": "11:30–19:00",
     "lat": 24.95244,
     "lng": 121.9138,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "網元魚坊堅持選用當日新鮮食材，所有海鮮都是經由當天漁船所捕獲的，以及挑選當地季節性蔬菜，製作出一道道美味佳餚。(本餐館無菜單提供，所有食材選用當日捕獲活海鮮所搭配，餐點分為個人精緻套餐及闔家合菜，品嚐美食可事先提前登記預約。)",
     "highlights": [
@@ -36476,7 +36687,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Attraction_376540000A_000468",
@@ -36957,8 +37169,10 @@
     "hours": "10:00–21:00",
     "lat": 24.85745,
     "lng": 121.8254,
-    "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#df7bb4",
     "description": "因為新鮮、堅持現做，最棒的嚴選在地素材配合最道地的古早味工法，就是這一味傳承台灣老中青少近一甲子的聯發芋冰。招牌芋頭、土芭樂、火龍果和金棗等口味深受歡迎，還有潤餅花生捲冰淇淋也是店裡的人氣招牌喔！",
     "highlights": [
@@ -37011,7 +37225,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_A15011300H_000022",
@@ -37031,8 +37246,10 @@
     "hours": "09:00-21:00(預約制)",
     "lat": 24.90903,
     "lng": 121.8496,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "來到藏酒酒莊，第一個映入簾的是一個超大的酒瓶，讓人留下深刻的印象。酒莊內以各式水果酒釀造為主，園內還有一個大型的酒窖，遊客除了賞景之外更可以體驗釀酒DIY的樂趣。除此之外，店家還有提供許多套裝行程，讓第一次到此遊玩的旅客，都能盡興而歸。",
     "highlights": [
@@ -37084,7 +37301,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Attraction_376550000A_008128",
@@ -37544,7 +37762,9 @@
     "lat": 23.9782301,
     "lng": 121.5980424,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/686/16880c7a-0871-4d7e-8da4-79a6ea84ba1c@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "18號食堂",
     "highlights": [
@@ -37597,7 +37817,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_002307",
@@ -37617,8 +37838,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.97902,
     "lng": 121.13922,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "5兄妹無毒農莊是以自然農法，有機栽種。除了新鮮蔬果之外，還有一些加工產品。友善土地、護持眾生，是我們的宗旨。特色產品：５兄妹鳳梨乾、５兄妹花生、５兄妹青梅精",
     "highlights": [
@@ -37672,7 +37895,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001015",
@@ -37693,7 +37917,9 @@
     "lat": 23.9069026,
     "lng": 121.5344227,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1015/108bb1bb-0387-4fa4-a342-68dd0d0311d8@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "9803 Cafe",
     "highlights": [
@@ -37746,7 +37972,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000596",
@@ -37767,7 +37994,9 @@
     "lat": 23.9761275844,
     "lng": 121.60509815074,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/596/f641a885-f51c-4aff-ad97-763b6db251f9@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "一心泡泡冰",
     "highlights": [
@@ -37820,7 +38049,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001339",
@@ -37841,7 +38071,9 @@
     "lat": 23.99448597018,
     "lng": 121.57784711339,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1339/98189fbb-dbdb-43a9-827c-f85008e97b64@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "一品香扁食",
     "highlights": [
@@ -37894,7 +38126,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001338",
@@ -37915,7 +38148,9 @@
     "lat": 24.02731858398,
     "lng": 121.6268766508,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1338/14447a6d-ba21-44ed-ae26-6f8bdd3dd56a@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "七海灣海景餐廳",
     "highlights": [
@@ -37967,7 +38202,8 @@
         "票價資訊",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000990",
@@ -37988,7 +38224,9 @@
     "lat": 23.9677986,
     "lng": 121.5887833,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/990/f48e9c6d-f875-44d4-820d-a3a853aec820@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#b98b73",
     "description": "九九美式咖啡館",
     "highlights": [
@@ -38040,7 +38278,8 @@
         "票價資訊",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000598",
@@ -38061,7 +38300,9 @@
     "lat": 23.9743416,
     "lng": 121.5833373,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/598/0f1855ca-a59b-48f0-95db-80dd72b20763@710x470.png",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "九九碼頭海鮮熱炒",
     "highlights": [
@@ -38114,7 +38355,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000703",
@@ -38135,7 +38377,9 @@
     "lat": 23.9926176,
     "lng": 121.5919654,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/703/edfdf83d-a839-4d27-92fa-6a53d4dde8ed@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "八方雲集花蓮慈濟店",
     "highlights": [
@@ -38188,7 +38432,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000709",
@@ -38209,7 +38454,9 @@
     "lat": 23.9798737,
     "lng": 121.6070038,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/709/f877ec23-af1d-45c9-b930-43a93a97bd67@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "八方雲集鍋貼水餃專賣店-中山店",
     "highlights": [
@@ -38262,7 +38509,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000704",
@@ -38283,7 +38531,9 @@
     "lat": 23.975315,
     "lng": 121.6003445,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/704/64498c14-d2e2-408a-bdc5-34cfce0f255c@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "八方雲集鍋貼水餃專賣店-中華店",
     "highlights": [
@@ -38336,7 +38586,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000699",
@@ -38357,7 +38608,9 @@
     "lat": 23.969645,
     "lng": 121.5959969,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/699/50319cc1-187c-4cdb-b23a-bfa466ef9c86@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "八方雲集鍋貼水餃專賣店-中順店",
     "highlights": [
@@ -38410,7 +38663,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000971",
@@ -38431,7 +38685,9 @@
     "lat": 23.9735941,
     "lng": 121.5805397,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/971/c64c1927-11b1-47a5-8f00-a42c398f8be9@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "八方雲集鍋貼水餃專賣店-吉安店",
     "highlights": [
@@ -38484,7 +38740,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001012",
@@ -38505,7 +38762,9 @@
     "lat": 23.9053736,
     "lng": 121.5335551,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1012/3b20d51f-0f69-47fb-9d00-2b3a95fa493c@710x470.png",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "八方雲集鍋貼水餃專賣店-花蓮東華店",
     "highlights": [
@@ -38587,7 +38846,8 @@
         "票價資訊",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000701",
@@ -38608,7 +38868,9 @@
     "lat": 23.99455,
     "lng": 121.5959386,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/701/45919470-e49b-4956-a412-04cdfac8580b@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "八方雲集鍋貼水餃專賣店-後站店",
     "highlights": [
@@ -38661,7 +38923,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000678",
@@ -38682,7 +38945,9 @@
     "lat": 23.9828215844,
     "lng": 121.60688955021,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/678/41d836ba-28d6-436b-9c3c-1bf39950fc9b@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "八百里燒肉",
     "highlights": [
@@ -38735,7 +39000,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001345",
@@ -38757,7 +39023,8 @@
     "lng": 121.3804391582,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1345/8b090b66-ee0d-4437-b427-9398f86f671b@710x470.jpg",
     "imageCandidates": [
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1345/9c995071-605e-46b9-893d-bc83b2c03bcb@710x470.jpg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1345/9c995071-605e-46b9-893d-bc83b2c03bcb@710x470.jpg",
+      "restaurant-fallbacks/dessert.svg"
     ],
     "accent": "#df7bb4",
     "description": "三立冰淇淋",
@@ -38811,7 +39078,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000625",
@@ -38832,7 +39100,9 @@
     "lat": 23.9904437844,
     "lng": 121.60473045044,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/625/bcd63993-2510-4824-a318-e5b39ca39a4c@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "上鼎火鍋",
     "highlights": [
@@ -38885,7 +39155,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_008408",
@@ -38909,7 +39180,8 @@
     "imageCandidates": [
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/8408/214d11f7-369a-4bfe-9b62-2a350ead83fc@710x470.jpeg",
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/8408/27a21cbf-dd3f-41d9-a31d-a0cb7e19bef8@710x470.jpeg",
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/8408/8bf95797-c6ac-4867-a410-0675e78a25de@710x470.jpeg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/8408/8bf95797-c6ac-4867-a410-0675e78a25de@710x470.jpeg",
+      "restaurant-fallbacks/dessert.svg"
     ],
     "accent": "#df7bb4",
     "description": "大可雨文牛奶雞蛋糕",
@@ -38963,7 +39235,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000901",
@@ -38984,7 +39257,9 @@
     "lat": 23.9855583,
     "lng": 121.6045756,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/901/b17eca7d-1a52-4096-a630-0c06507ef00f@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "大石小樹洋食廚房",
     "highlights": [
@@ -39037,7 +39312,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000967",
@@ -39058,7 +39334,9 @@
     "lat": 23.9743189,
     "lng": 121.5885143,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/967/57da8a6b-1176-40bf-a0d3-51cde50509f9@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "大呼過癮(吉安店)",
     "highlights": [
@@ -39111,7 +39389,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_001556",
@@ -39131,8 +39410,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.95631,
     "lng": 121.15371,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "臺東後山的小社區瑞源，建造全臺獨一無二的花布燈籠博物館，社區男丁手工磨製木作骨架， 社區媽媽親自剪裁縫紉布花外衣。現已研發出各種形狀尺寸款式，除民間團體與政府機關訂購外，亦外銷到美國、日本、韓國等地",
     "highlights": [
@@ -39186,7 +39467,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_002304",
@@ -39206,8 +39488,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.85728,
     "lng": 121.09248,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "本園榮獲102年春冬兩季臺東紅烏龍茶分級評鑑金牌獎，青香組頭等及二、三等獎，以三十多年的製茶經驗，仍不斷追求品質的提昇，自七年前即開始全面採自然農法，停用所有化學肥料及農藥。並獲得認證特色產品：紅烏龍茶、蜜香紅茶",
     "highlights": [
@@ -39260,7 +39544,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000607",
@@ -39281,7 +39566,9 @@
     "lat": 23.9837053,
     "lng": 121.6045735,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/607/33e38515-c92f-4c99-aa65-f66b16266657@710x470.png",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "小滿麥拾",
     "highlights": [
@@ -39334,7 +39621,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001005",
@@ -39355,7 +39643,9 @@
     "lat": 23.90317488884,
     "lng": 121.60076031456,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1005/c37bfa58-b2d6-479b-bcb6-d22777333781@710x470.png",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "山度空間涼水店",
     "highlights": [
@@ -39408,7 +39698,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001344",
@@ -39429,7 +39720,9 @@
     "lat": 23.9848362844,
     "lng": 121.61990335074,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1344/15adb3c0-b5eb-4852-b817-a8232ec68cef@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "中一豆花",
     "highlights": [
@@ -39482,7 +39775,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001343",
@@ -39503,7 +39797,9 @@
     "lat": 23.9758633844,
     "lng": 121.60521825074,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1343/590e573d-7c63-4f73-a970-49341207e544@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "五霸焦糖包心粉圓冰",
     "highlights": [
@@ -39556,7 +39852,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000910",
@@ -39577,7 +39874,9 @@
     "lat": 23.9944469,
     "lng": 121.596052,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/910/4d715d68-6d54-4aa1-833b-7b0ea3190601@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "元珍茶",
     "highlights": [
@@ -39630,7 +39929,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001061",
@@ -39651,7 +39951,9 @@
     "lat": 23.4482292,
     "lng": 121.3538501,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1061/3272af96-c322-4454-8843-1612fea23d7c@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#b98b73",
     "description": "公主咖啡",
     "highlights": [
@@ -39703,7 +40005,8 @@
         "票價資訊",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001342",
@@ -39724,7 +40027,9 @@
     "lat": 23.9771774844,
     "lng": 121.60701755074,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1342/94acd9f2-79af-4b51-b163-81663457ce92@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "公正包子店",
     "highlights": [
@@ -39777,7 +40082,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000857",
@@ -39798,7 +40104,9 @@
     "lat": 23.9989576,
     "lng": 121.6320916,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/857/62a05cc9-1380-4bf0-9b3a-d206224bd183@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "六里屯-美崙店",
     "highlights": [
@@ -39851,7 +40159,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001002",
@@ -39872,7 +40181,9 @@
     "lat": 23.9885454,
     "lng": 121.5853775,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1002/37423e41-4081-4418-ae1b-b7b9808c9505@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "六里屯麵食專家 花蓮總店",
     "highlights": [
@@ -39925,7 +40236,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000604",
@@ -39946,7 +40258,9 @@
     "lat": 23.9784198,
     "lng": 121.6025298,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/604/dc325188-60e5-4600-96cc-769de90e4914@710x470.png",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "太黏人舖子",
     "highlights": [
@@ -39999,7 +40313,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000774",
@@ -40020,7 +40335,9 @@
     "lat": 23.9742529,
     "lng": 121.6092264,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/774/f3a27c30-a26d-45a1-a7a9-3563321b1270@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "尤大廚私房麵館",
     "highlights": [
@@ -40073,7 +40390,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001064",
@@ -40094,7 +40412,9 @@
     "lat": 23.3325255,
     "lng": 121.3151813,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1064/75cc0586-36b3-4dbb-9b82-97d1229a75f2@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "文英手工坊",
     "highlights": [
@@ -40147,7 +40467,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000639",
@@ -40168,7 +40489,9 @@
     "lat": 23.9746744,
     "lng": 121.5957165,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/639/300a8bb3-52e0-43b0-b89e-c4d6a267d4f4@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "日出客棧 花蓮中華店",
     "highlights": [
@@ -40221,7 +40544,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001062",
@@ -40242,7 +40566,9 @@
     "lat": 23.4981066,
     "lng": 121.3776316,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1062/3b3ba78b-71a7-4e23-a89f-c334606a8133@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "木日光文旦驛站",
     "highlights": [
@@ -40295,7 +40621,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000652",
@@ -40316,7 +40643,9 @@
     "lat": 23.9929888,
     "lng": 121.5662683,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/652/5456c340-0cd4-41e4-a440-8442ac9bb702@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#b98b73",
     "description": "木宣咖啡",
     "highlights": [
@@ -40368,7 +40697,8 @@
         "票價資訊",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000776",
@@ -40389,7 +40719,9 @@
     "lat": 23.9843761,
     "lng": 121.6198915,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/776/4c6cbbbd-3b5e-41ff-a917-c1ab52f5112e@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "木槿軒韓國料理",
     "highlights": [
@@ -40442,7 +40774,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000916",
@@ -40463,7 +40796,9 @@
     "lat": 23.9801708,
     "lng": 121.6067081,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/916/26433fbf-8ad0-4877-9858-808c81c389a8@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "毛哥甲魚王小館",
     "highlights": [
@@ -40516,7 +40851,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_003475",
@@ -40536,8 +40872,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.72775,
     "lng": 121.10366,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "火車頭釋迦堅持釋迦的品質與規格，從分級到包裝、一律同大小的置放一箱，而且只放一層，絕不偷斤減兩！與黑貓宅急便配合多年，建立起業界的口碑與商譽，對寄出的釋迦品質絕對有信心！",
     "highlights": [
@@ -40591,7 +40929,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000917",
@@ -40612,7 +40951,9 @@
     "lat": 23.988237,
     "lng": 121.606397,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/917/138c4c5f-9dc3-49c0-a52f-7d378a27e49d@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "牛蕃茄小火鍋",
     "highlights": [
@@ -40665,7 +41006,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001386",
@@ -40687,7 +41029,8 @@
     "lng": 121.60611941499,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1386/5b659534-a003-4df0-8292-5c9ce32022f9@710x470.jpg",
     "imageCandidates": [
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1386/bc892edd-229c-4238-a80b-22e5c806a745@710x470.jpg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1386/bc892edd-229c-4238-a80b-22e5c806a745@710x470.jpg",
+      "restaurant-fallbacks/dessert.svg"
     ],
     "accent": "#d88962",
     "description": "王將壽司",
@@ -40741,7 +41084,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001341",
@@ -40763,7 +41107,8 @@
     "lng": 121.59848701091,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1341/ccfa73ca-a95c-4681-ba05-dbe5f833457c@710x470.jpg",
     "imageCandidates": [
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1341/ec0f48b0-8cb4-49f4-9d68-e66082b4b90d@710x470.jpg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1341/ec0f48b0-8cb4-49f4-9d68-e66082b4b90d@710x470.jpg",
+      "restaurant-fallbacks/dessert.svg"
     ],
     "accent": "#d88962",
     "description": "他口墨西哥餐廳",
@@ -40816,7 +41161,8 @@
         "票價資訊",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000618",
@@ -40837,7 +41183,9 @@
     "lat": 23.9837667,
     "lng": 121.6047204,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/618/b3e24194-802b-427a-b90e-1b0fcc60772b@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "加家食堂",
     "highlights": [
@@ -40890,7 +41238,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000687",
@@ -40911,7 +41260,9 @@
     "lat": 23.9787767,
     "lng": 121.5994479,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/687/22509a39-54dc-437a-947d-7ab895a56689@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "卡式摩複合式餐飲",
     "highlights": [
@@ -40963,7 +41314,8 @@
         "票價資訊",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_001939",
@@ -40983,8 +41335,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.382,
     "lng": 120.85648,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "雕刻作品多為原住民人型雕刻，是原住民少數願意製作人形雕刻的木雕師，並成為工作坊的主要特色。曾參加全國原住民雕刻獲得第一名。【資料來源：台東聚落回聲】",
     "highlights": [
@@ -41038,7 +41392,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_002286",
@@ -41058,8 +41413,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.69558,
     "lng": 121.02213,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "為縣內最大農特品最豐富及完整的店家，由臺東縣農會直營，整合本縣各鄉鎮市的特色農特產品及全台優質農漁會伴手禮，並創自有品牌「山海經脈」系列，運用在地產銷班、小農、農場等有績優質商品，數年來皆獲得「農漁會百大精品」。",
     "highlights": [
@@ -41112,7 +41469,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000759",
@@ -41133,7 +41491,9 @@
     "lat": 23.9748548,
     "lng": 121.5981265,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/759/e6338f56-f6a5-4ee6-9d3d-3815e096641b@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "弘爺漢堡-花蓮承東店",
     "highlights": [
@@ -41186,7 +41546,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001020",
@@ -41207,7 +41568,9 @@
     "lat": 23.9055267,
     "lng": 121.5335945,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1020/e7e9bf43-2001-4274-96b8-8a5514d6dd66@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "弘爺漢堡東華店",
     "highlights": [
@@ -41260,7 +41623,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000676",
@@ -41281,7 +41645,9 @@
     "lat": 23.977126,
     "lng": 121.5986431,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/676/1d24a4a0-a53a-4f6c-b96d-f5d7e08eacd9@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "弘爺漢堡林森店",
     "highlights": [
@@ -41334,7 +41700,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000929",
@@ -41355,7 +41722,9 @@
     "lat": 23.972271,
     "lng": 121.6017739,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/929/5e64c6a4-79cd-4e58-be71-721074db6e82@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "正當冰-中福店",
     "highlights": [
@@ -41408,7 +41777,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001350",
@@ -41429,7 +41799,9 @@
     "lat": 23.97187388612,
     "lng": 121.5915709508,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1350/72cd567e-41ac-41c0-9b75-53f08f8b707a@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "田村壽司",
     "highlights": [
@@ -41482,7 +41854,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000747",
@@ -41503,7 +41876,9 @@
     "lat": 23.9702826,
     "lng": 121.5956265,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/747/e979e1c3-2a9e-4328-b159-6b8bc1ca70b8@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#b98b73",
     "description": "田園記咖啡-中順街",
     "highlights": [
@@ -41555,7 +41930,8 @@
         "票價資訊",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001349",
@@ -41576,7 +41952,9 @@
     "lat": 23.97898498585,
     "lng": 121.6019382508,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1349/5d2a5b23-e533-4558-a03f-773b40b4e9cd@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "石庭客家小館",
     "highlights": [
@@ -41629,7 +42007,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001275",
@@ -41650,7 +42029,9 @@
     "lat": 23.98228658572,
     "lng": 121.6186806508,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1275/1fc1bf79-330b-4bb2-b793-28a99fcbc190@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "伊江滇緬料理",
     "highlights": [
@@ -41703,7 +42084,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000641",
@@ -41724,7 +42106,9 @@
     "lat": 23.9730094,
     "lng": 121.6055782,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/641/727aaf22-8f4c-4fc5-8a08-23962cd2d35c@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#b98b73",
     "description": "吉野咖啡",
     "highlights": [
@@ -41776,7 +42160,8 @@
         "票價資訊",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001000",
@@ -41797,7 +42182,9 @@
     "lat": 23.986187,
     "lng": 121.5878203,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1000/e475acd5-ed31-4b5e-87c8-3a454f6eabe5@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "吉鄉糕粽",
     "highlights": [
@@ -41850,7 +42237,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001347",
@@ -41871,7 +42259,9 @@
     "lat": 23.9718888844,
     "lng": 121.56023485074,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1347/04ac4496-ce84-42ac-a202-dde0316c8b71@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "吉農冰城",
     "highlights": [
@@ -41924,7 +42314,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001346",
@@ -41945,7 +42336,9 @@
     "lat": 23.993712,
     "lng": 121.5503241,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1346/021e1bf1-4436-48c8-89b4-33361dab32e8@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "向陽山茶舖",
     "highlights": [
@@ -41998,7 +42391,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001355",
@@ -42019,7 +42413,9 @@
     "lat": 23.9819025,
     "lng": 121.33774613281,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1355/3ad46f49-3f06-40eb-b377-0b9313679a9d@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "多桑餐廳",
     "highlights": [
@@ -42071,7 +42467,8 @@
         "票價資訊",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000675",
@@ -42092,7 +42489,9 @@
     "lat": 23.9847049,
     "lng": 121.6057987,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/675/6036cf39-238f-4438-994e-670970cd1824@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "好叔叔現烤甜甜圈",
     "highlights": [
@@ -42145,7 +42544,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000632",
@@ -42166,7 +42566,9 @@
     "lat": 23.9896474,
     "lng": 121.5936905,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/632/3850a135-1f28-4c8d-8356-4a15b1cbd46d@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#b98b73",
     "description": "安安咖啡",
     "highlights": [
@@ -42218,7 +42620,8 @@
         "票價資訊",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_002288",
@@ -42238,8 +42641,10 @@
     "hours": "請至官方網站確認",
     "lat": 23.11226,
     "lng": 121.20279,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "池上鄉農會是全台唯一結合精緻碾米加工與稻米教育之觀光工廠，廠區旁有池上花海美景，廠區內設有展售中心，金色豐收館內含文化區及田媽媽美食坊，還可預約爆米香DIY體驗及豐收飯。",
     "highlights": [
@@ -42293,7 +42698,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000957",
@@ -42314,7 +42720,9 @@
     "lat": 23.9759389,
     "lng": 121.6072498,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/957/c15d1112-8ebe-4d71-abcb-24e7dc2f723f@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "百年傳奇-中華店",
     "highlights": [
@@ -42367,7 +42775,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000744",
@@ -42388,7 +42797,9 @@
     "lat": 23.9790731,
     "lng": 121.6082912,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/744/5f237ad7-70b6-4e47-b5ca-8bfc88785ece@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "老店新開，味道不變。強調新鮮，首重原味，不但精緻且爽口，以最實惠價格，品嚐到最高檔的海鮮。",
     "highlights": [
@@ -42440,7 +42851,8 @@
         "票價資訊",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000627",
@@ -42461,7 +42873,9 @@
     "lat": 23.9747227,
     "lng": 121.5937599,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/627/26d7eb64-9c3d-43f7-9f78-86dda02e2d10@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "老山東牛肉麵",
     "highlights": [
@@ -42514,7 +42928,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000862",
@@ -42535,7 +42950,9 @@
     "lat": 23.9800755,
     "lng": 121.6052593,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/862/09216297-eaa9-4507-962d-6ff182c955ec@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "老邵小館",
     "highlights": [
@@ -42588,7 +43005,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000741",
@@ -42609,7 +43027,9 @@
     "lat": 23.9754082,
     "lng": 121.6042524,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/741/0b6b8f32-fb34-47d8-a880-f14a989c5b7a@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "串串燒",
     "highlights": [
@@ -42662,7 +43082,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000655",
@@ -42683,7 +43104,9 @@
     "lat": 23.9776993,
     "lng": 121.6037485,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/655/78067bdb-c4ae-41ce-a596-39e6729df17e@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "宏記鮮滷味",
     "highlights": [
@@ -42736,7 +43159,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000904",
@@ -42757,7 +43181,9 @@
     "lat": 23.9780851,
     "lng": 121.6050849,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/904/6d0e82c0-2d88-478f-86c6-ebe8f133da44@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "村上涮涮鍋",
     "highlights": [
@@ -42810,7 +43236,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001070",
@@ -42831,7 +43258,9 @@
     "lat": 23.3832686905,
     "lng": 121.35042524606,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1070/9926c31e-9d57-4c1e-b3f4-3ed57f5bae94@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "沂峰生態農場",
     "highlights": [
@@ -42884,7 +43313,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000780",
@@ -42905,7 +43335,9 @@
     "lat": 23.9881779,
     "lng": 121.6059155,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/780/6d93353b-79f8-4bd2-ac4f-63032c0067e2@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "秀綠 Show Green Pizza Focaccia",
     "highlights": [
@@ -42958,7 +43390,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_001769",
@@ -42978,8 +43411,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.61182,
     "lng": 121.00435,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "「比亞」是店主人利幸陵的排灣族名音譯，民國88年他在太麻里通往金針山的必經道路上，開設了這間「比亞的草屋」，是排灣族的原住民工作室，與母親在隔壁的「陳媽媽工作室」，成為在通往金針山的路上，吸引遊客目光，停留駐足的風情店面。",
     "highlights": [
@@ -43032,7 +43467,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000853",
@@ -43053,7 +43489,9 @@
     "lat": 23.9804012,
     "lng": 121.5998793,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/853/552b2a5d-222a-4035-91f7-49d9149bbeed@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "佳佳牛排",
     "highlights": [
@@ -43106,7 +43544,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_002302",
@@ -43126,8 +43565,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.80337,
     "lng": 121.09371,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "臺東紅烏龍生長於無汙染的環境，最具備了臺東地方特色的代表農產品，紅烏龍喝在嘴裡散發出有烏龍茶與蜜香紅茶結合的香氣，茶水色澤呈透紅明亮有光澤，厚重具果香，滋味醇厚圓滑富有活性耐泡甘醇。特色產品：有機蜜香紅茶、有機紅烏龍茶、有機冷泡綠",
     "highlights": [
@@ -43180,7 +43621,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000684",
@@ -43201,7 +43643,9 @@
     "lat": 23.9811720844,
     "lng": 121.60380665021,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/684/7ac0ae4c-481b-4ba8-a5ce-201732f06461@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "兩披索靓鍋花蓮中山店",
     "highlights": [
@@ -43254,7 +43698,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001352",
@@ -43275,7 +43720,9 @@
     "lat": 23.97701952712,
     "lng": 121.60017351174,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1352/dbb3e5ee-4d12-4511-8a32-91903dd7a6f4@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "周家蒸餃",
     "highlights": [
@@ -43328,7 +43775,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000626",
@@ -43349,7 +43797,9 @@
     "lat": 23.9860114,
     "lng": 121.602107,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/626/8912c664-f0ca-41af-8dc3-eac71132f994@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "味味鮮の極品壽司",
     "highlights": [
@@ -43402,7 +43852,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000636",
@@ -43423,7 +43874,9 @@
     "lat": 23.9735526,
     "lng": 121.6033973,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/636/cfd7550f-eb76-4681-a1f2-3dbadf8d0fa3@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "和平虱目魚專賣店",
     "highlights": [
@@ -43476,7 +43929,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000964",
@@ -43497,7 +43951,9 @@
     "lat": 23.9681086,
     "lng": 121.5603393,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/964/241a7e2f-1111-4da5-a1a5-b3ac3ba2fd56@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "咖司果吉安福興店",
     "highlights": [
@@ -43550,7 +44006,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001300",
@@ -43573,7 +44030,8 @@
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1300/9902c59d-d041-478c-8587-3fd9b99fef5a@710x470.jpg",
     "imageCandidates": [
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1300/cee83663-bff7-4b60-b983-c8133573f0aa@710x470.jpg",
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1300/e4ed35fa-9e6e-4a21-a3b5-9c62cf57d722@710x470.jpg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1300/e4ed35fa-9e6e-4a21-a3b5-9c62cf57d722@710x470.jpg",
+      "restaurant-fallbacks/dessert.svg"
     ],
     "accent": "#d88962",
     "description": "咖多喜咖哩",
@@ -43627,7 +44085,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000683",
@@ -43648,7 +44107,9 @@
     "lat": 23.9798608,
     "lng": 121.6049754,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/683/461c83d1-a522-4900-b4f7-003ffb25ff32@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "咖哩郎",
     "highlights": [
@@ -43701,7 +44162,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000970",
@@ -43722,7 +44184,9 @@
     "lat": 23.9388297,
     "lng": 121.5946955,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/970/9891414a-40d6-40cf-8597-d6fbf2a79e28@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "帕芙比比",
     "highlights": [
@@ -43775,7 +44239,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000633",
@@ -43796,7 +44261,9 @@
     "lat": 23.9772504,
     "lng": 121.607811,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/633/c6539ae7-b6b6-4ab2-9956-8117828fab85@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "幸福堂",
     "highlights": [
@@ -43849,7 +44316,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001301",
@@ -43870,7 +44338,9 @@
     "lat": 23.9887199,
     "lng": 121.621521,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1301/3259e5ae-2ff4-46be-b278-12294ceed786@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "府前食坊",
     "highlights": [
@@ -43923,7 +44393,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001359",
@@ -43944,7 +44415,9 @@
     "lat": 23.7450068,
     "lng": 121.3776201582,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1359/44063283-cce1-4f9e-b507-b1ce44966be1@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "明新冰菓店",
     "highlights": [
@@ -43997,7 +44470,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_005332",
@@ -44017,8 +44491,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.9111,
     "lng": 121.13604,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "遠傳.中華.台哥大.台灣之星.亞太電信業務申辦.各大電信儲卡手機相關配件應有盡有~歡迎您的蒞臨!!承接監視系統工程.遠端監控服務~",
     "highlights": [
@@ -44072,7 +44548,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001358",
@@ -44094,7 +44571,8 @@
     "lng": 121.37404733281,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1358/451fcebe-61a7-41b5-bddf-209a68615762@710x470.jpg",
     "imageCandidates": [
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1358/ff0521a0-9d28-4ff6-8efe-00ab47d35ca8@710x470.jpg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1358/ff0521a0-9d28-4ff6-8efe-00ab47d35ca8@710x470.jpg",
+      "restaurant-fallbacks/dessert.svg"
     ],
     "accent": "#d88962",
     "description": "東裕飲食店",
@@ -44148,7 +44626,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001040",
@@ -44169,7 +44648,9 @@
     "lat": 23.7128933,
     "lng": 121.4210595,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1040/e28da61c-6864-4524-a9f6-ac9125a27fde@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "林田山豬腳",
     "highlights": [
@@ -44222,7 +44703,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001080",
@@ -44243,7 +44725,9 @@
     "lat": 23.3835766,
     "lng": 121.356292,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1080/7f81165d-68d1-439b-bd6f-56034d041417@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "林家園",
     "highlights": [
@@ -44296,7 +44780,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001026",
@@ -44317,7 +44802,9 @@
     "lat": 23.75165409465,
     "lng": 121.44861851456,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1026/6a812828-03f5-4b5f-8c1f-ec356614a4e3@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "欣馨農園",
     "highlights": [
@@ -44370,7 +44857,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_002298",
@@ -44390,8 +44878,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.75852,
     "lng": 121.14998,
-    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#b98b73",
     "description": "肯杜爾高山咖啡是面臨太平洋的海風早晚溫差大，在這高峻挺拔無汙染的山林裡堅持保留它的自然純真以生態有機的方式經營管理，並且種下許多的野櫻花、肖楠、紅檜等原生樹種。特色產品：香醇肯杜爾咖啡",
     "highlights": [
@@ -44444,7 +44934,8 @@
         "官方照片",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000750",
@@ -44465,7 +44956,9 @@
     "lat": 23.9801621,
     "lng": 121.6100582,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/750/f693ea07-e1d6-4780-804a-0e5181de2bea@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#df7bb4",
     "description": "芙芮莉烘焙名店",
     "highlights": [
@@ -44518,7 +45011,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000635",
@@ -44539,7 +45033,9 @@
     "lat": 23.9822678,
     "lng": 121.6178809,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/635/6503c171-cc17-48ab-a73b-29881efff96d@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "花中榕樹下臭豆腐",
     "highlights": [
@@ -44592,7 +45088,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000674",
@@ -44615,7 +45112,8 @@
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/674/83c84145-0b65-43b9-8507-d0baf5b6791f@710x470.jpg",
     "imageCandidates": [
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/674/98e1d9d0-829d-43df-bc18-3b5c45a72e52@710x470.jpg",
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/674/f7756851-b733-449a-aff4-91aa11141087@710x470.jpg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/674/f7756851-b733-449a-aff4-91aa11141087@710x470.jpg",
+      "restaurant-fallbacks/dessert.svg"
     ],
     "accent": "#d88962",
     "description": "花蓮威廚食府是可安排休息、用餐或下午茶的雨天備案。",
@@ -44669,7 +45167,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000681",
@@ -44690,7 +45189,9 @@
     "lat": 23.9869334,
     "lng": 121.5998231,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/681/f0b5e5b2-5918-4909-b98a-713b981493c8@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "花蓮縣農會無毒優質農特產品展售中心",
     "highlights": [
@@ -44743,7 +45244,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000958",
@@ -44764,7 +45266,9 @@
     "lat": 23.9920603,
     "lng": 121.6032496,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/958/c28d3f30-5209-4344-8c47-fdc28b5c6bda@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "花蓮縣餅站前店",
     "highlights": [
@@ -44817,7 +45321,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000923",
@@ -44838,7 +45343,9 @@
     "lat": 23.9819229,
     "lng": 121.6084973,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/923/aaff4b49-5390-4fbc-b437-b1d2c9ed97ae@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "金蛋媽媽手工坊",
     "highlights": [
@@ -44891,7 +45398,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000586",
@@ -44912,7 +45420,9 @@
     "lat": 24.12642145,
     "lng": 121.6485848,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/586/b036c74c-8e73-4737-8095-026bb76ad001@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "長興什錦麵",
     "highlights": [
@@ -44965,7 +45475,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000785",
@@ -44986,7 +45497,9 @@
     "lat": 23.997125,
     "lng": 121.607758,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/785/dd8ba257-64b3-4f81-84b7-7be669de03f0@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "阿財蝦料理",
     "highlights": [
@@ -45039,7 +45552,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000638",
@@ -45060,7 +45574,9 @@
     "lat": 23.9742407,
     "lng": 121.605997,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/638/e49ca16f-d0f8-4a9f-8181-b4f537494d08@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "南京222民宿",
     "highlights": [
@@ -45113,7 +45629,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001356",
@@ -45134,7 +45651,9 @@
     "lat": 23.9852453856,
     "lng": 121.5931448508,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1356/dfbc78a9-e98f-49e5-840d-7137179359ec@710x470.png",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "春田壽司屋",
     "highlights": [
@@ -45187,7 +45706,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001357",
@@ -45209,7 +45729,8 @@
     "lng": 121.6037049508,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1357/8f9f2bdb-7c21-4766-950a-a058de331f0b@710x470.jpg",
     "imageCandidates": [
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1357/99deaa58-e44e-4d77-98e7-f142fe02b6b4@710x470.jpg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1357/99deaa58-e44e-4d77-98e7-f142fe02b6b4@710x470.jpg",
+      "restaurant-fallbacks/dessert.svg"
     ],
     "accent": "#d88962",
     "description": "查理食藝",
@@ -45263,7 +45784,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001384",
@@ -45287,7 +45809,8 @@
     "imageCandidates": [
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1384/2a17a128-34a4-48fc-b1d1-0b804bba7c2f@710x470.jpg",
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1384/34d47b70-6565-458e-86c3-fa6694168d61@710x470.jpg",
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1384/4562ff36-c44b-4aa8-9236-6036d6b07d3f@710x470.jpg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1384/4562ff36-c44b-4aa8-9236-6036d6b07d3f@710x470.jpg",
+      "restaurant-fallbacks/dessert.svg"
     ],
     "accent": "#df7bb4",
     "description": "洋基牧場",
@@ -45341,7 +45864,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001382",
@@ -45363,7 +45887,8 @@
     "lng": 121.37529315074,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1382/0a62ffd0-7c3b-4271-8c34-855d8894e4a5@710x470.jpg",
     "imageCandidates": [
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1382/a10df108-c90a-4039-acf4-c32036be351b@710x470.jpg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1382/a10df108-c90a-4039-acf4-c32036be351b@710x470.jpg",
+      "restaurant-fallbacks/dessert.svg"
     ],
     "accent": "#d88962",
     "description": "派出所前麵",
@@ -45417,7 +45942,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000654",
@@ -45438,7 +45964,9 @@
     "lat": 23.9894866,
     "lng": 121.6236558,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/654/1dc4de8a-90d7-4a59-a1f4-20675877fea6@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "流奶與蜜",
     "highlights": [
@@ -45491,7 +46019,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001299",
@@ -45513,7 +46042,8 @@
     "lng": 121.6215049508,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1299/40cd96bf-7e61-43b1-a978-4e32dafacb59@710x470.jpg",
     "imageCandidates": [
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1299/9f6ea872-4391-4a16-805f-e41de35320a0@710x470.jpg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1299/9f6ea872-4391-4a16-805f-e41de35320a0@710x470.jpg",
+      "restaurant-fallbacks/dessert.svg"
     ],
     "accent": "#d88962",
     "description": "流奶與蜜-來自美國加州連鎖餐飲",
@@ -45566,7 +46096,8 @@
         "票價資訊",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001361",
@@ -45587,7 +46118,9 @@
     "lat": 23.9775559859,
     "lng": 121.6041663508,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1361/2cac6008-c652-42aa-84e4-6e53d5d9ba8c@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "炭火燒肉工房",
     "highlights": [
@@ -45640,7 +46173,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000611",
@@ -45661,7 +46195,9 @@
     "lat": 23.9747469,
     "lng": 121.6068493,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/611/cf9bc773-f699-4f84-ad9c-2e4a17d44ead@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "為食哞牛肉麵",
     "highlights": [
@@ -45714,7 +46250,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000791",
@@ -45735,7 +46272,9 @@
     "lat": 23.9775722,
     "lng": 121.6058963,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/791/051a00c7-8b55-4119-87db-8a866dd82d00@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "珈琲鋪子",
     "highlights": [
@@ -45788,7 +46327,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001362",
@@ -45810,7 +46350,8 @@
     "lng": 121.40806265074,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1362/1aca9026-3fcb-47cd-80cc-4e1b8a382fb0@710x470.jpg",
     "imageCandidates": [
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1362/c3829ed0-23cf-4496-874a-632ab3c08a06@710x470.png"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1362/c3829ed0-23cf-4496-874a-632ab3c08a06@710x470.png",
+      "restaurant-fallbacks/dessert.svg"
     ],
     "accent": "#d88962",
     "description": "紅瓦屋老地方文化美食餐廳",
@@ -45863,7 +46404,8 @@
         "票價資訊",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000963",
@@ -45884,7 +46426,9 @@
     "lat": 23.9888728,
     "lng": 121.5938556,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/963/ce88accf-ab99-4d1d-a0fe-46cb8bec36d2@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "紅茶洋行-自強店",
     "highlights": [
@@ -45937,7 +46481,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000961",
@@ -45958,7 +46503,9 @@
     "lat": 23.979749,
     "lng": 121.567535,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/961/beae7604-c353-4b60-a973-ebd2c3ae8658@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "美人大腸包小腸",
     "highlights": [
@@ -46011,7 +46558,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000895",
@@ -46032,7 +46580,9 @@
     "lat": 23.9779265,
     "lng": 121.6064037,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/895/7685589a-7abc-48e2-b0d0-af6cfc797330@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "美味小舖",
     "highlights": [
@@ -46085,7 +46635,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000903",
@@ -46106,7 +46657,9 @@
     "lat": 23.9745078,
     "lng": 121.6114434,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/903/7360907c-d4f5-4976-a557-b9ee3664e339@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "胖老爹-石來運轉店",
     "highlights": [
@@ -46159,7 +46712,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000742",
@@ -46180,7 +46734,9 @@
     "lat": 23.9754249,
     "lng": 121.602983,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/742/65832df4-d9da-4730-8cec-ad8ee6ccdb72@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "胡老爹菓子工房",
     "highlights": [
@@ -46233,7 +46789,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000664",
@@ -46254,7 +46811,9 @@
     "lat": 23.9928935,
     "lng": 121.5912413,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/664/8a8fa837-427c-48df-ab78-bf234a2d3b19@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "食在永續消費合作",
     "highlights": [
@@ -46307,7 +46866,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000907",
@@ -46328,7 +46888,9 @@
     "lat": 23.9740749,
     "lng": 121.5947439,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/907/8600cdcb-82ea-4b5a-ac42-75dfdc16fcf1@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "香人和風拉麵",
     "highlights": [
@@ -46381,7 +46943,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001360",
@@ -46402,7 +46965,9 @@
     "lat": 23.9807255844,
     "lng": 121.60195805074,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1360/a3f6cb74-d362-466a-8f70-3893b84a6e3c@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "夏日時光",
     "highlights": [
@@ -46455,7 +47020,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000995",
@@ -46476,7 +47042,9 @@
     "lat": 23.9681334,
     "lng": 121.5872174,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/995/a7f7a34c-2761-4a0b-ae80-53d93fd6ee72@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "泰宜味料理",
     "highlights": [
@@ -46529,7 +47097,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000697",
@@ -46550,7 +47119,9 @@
     "lat": 23.9738633,
     "lng": 121.6138953,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/697/bf4125f6-6c8b-4d9b-8007-b584b667f998@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#df7bb4",
     "description": "茱諾素食烘焙",
     "highlights": [
@@ -46603,7 +47174,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001001",
@@ -46624,7 +47196,9 @@
     "lat": 23.9736294,
     "lng": 121.5803858,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1001/cc1de590-3168-4b83-86c2-d195da8fa153@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "茶朵木-中華店",
     "highlights": [
@@ -46677,7 +47251,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000856",
@@ -46698,7 +47273,9 @@
     "lat": 23.97882,
     "lng": 121.6054214,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/856/d564a5aa-d3c8-4706-99cb-0bc446b5a643@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "茶朵木-民國店",
     "highlights": [
@@ -46751,7 +47328,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001030",
@@ -46772,7 +47350,9 @@
     "lat": 23.746323,
     "lng": 121.4510254,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1030/a1d4f84c-0860-4f00-a720-7ed5d8a87d19@710x470.png",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#b98b73",
     "description": "馬耀咖啡",
     "highlights": [
@@ -46824,7 +47404,8 @@
         "票價資訊",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000622",
@@ -46845,7 +47426,9 @@
     "lat": 23.9737367,
     "lng": 121.5982037,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/622/77074d8e-d4a9-4cdf-900e-c545690e016b@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#df7bb4",
     "description": "鬥旺咖啡烘焙坊",
     "highlights": [
@@ -46897,7 +47480,8 @@
         "票價資訊",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000764",
@@ -46918,7 +47502,9 @@
     "lat": 23.9873589,
     "lng": 121.6019311,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/764/eb177fe5-c572-4bbe-843e-462976085889@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "商校街刨冰湯圓",
     "highlights": [
@@ -46971,7 +47557,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000773",
@@ -46992,7 +47579,9 @@
     "lat": 23.9830356,
     "lng": 121.618859,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/773/b0e3a474-f39b-473a-b81d-bc7f865a7ea3@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "基利心美食",
     "highlights": [
@@ -47045,7 +47634,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001365",
@@ -47066,7 +47656,9 @@
     "lat": 23.9739895844,
     "lng": 121.56247975074,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1365/43466e44-c950-4623-8d69-c161652ae16a@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#b98b73",
     "description": "惦惦咖啡",
     "highlights": [
@@ -47118,7 +47710,8 @@
         "票價資訊",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001047",
@@ -47139,7 +47732,9 @@
     "lat": 23.656755,
     "lng": 121.4199475,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1047/fd0a7d32-dafd-4c5b-a746-4e2350eb3d97@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "教練熱狗堡商行",
     "highlights": [
@@ -47192,7 +47787,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000691",
@@ -47213,7 +47809,9 @@
     "lat": 23.97452176896,
     "lng": 121.61145587096,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/691/198acc51-fd56-4996-926a-ae02e49b573a@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "淺草堂-花蓮門市",
     "highlights": [
@@ -47266,7 +47864,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001016",
@@ -47287,7 +47886,9 @@
     "lat": 23.9016787,
     "lng": 121.528197,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1016/957e5c33-fc68-4de9-8713-d0b30f68e032@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "淺草堂-壽豐農產",
     "highlights": [
@@ -47340,7 +47941,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000579",
@@ -47361,7 +47963,9 @@
     "lat": 24.037511,
     "lng": 121.602821,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/579/c360b746-27ed-4161-8109-fc29e4e811e5@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#df7bb4",
     "description": "甜村烘焙坊",
     "highlights": [
@@ -47414,7 +48018,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000710",
@@ -47435,7 +48040,9 @@
     "lat": 24.003756,
     "lng": 121.631646,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/710/72717bba-f3f9-4d12-966b-9e0785aa500a@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#df7bb4",
     "description": "荷蘭雅妮鬆餅屋",
     "highlights": [
@@ -47488,7 +48095,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000589",
@@ -47509,7 +48117,9 @@
     "lat": 24.0266584,
     "lng": 121.6306553,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/589/80812e85-d9a6-4e12-99f2-cb735be61010@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "莎莉好食",
     "highlights": [
@@ -47562,7 +48172,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001337",
@@ -47584,7 +48195,8 @@
     "lng": 121.62845035075,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1337/60bc91e7-4f8c-49f5-8f64-0a0cbda69ef2@710x470.jpg",
     "imageCandidates": [
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1337/9693a961-1050-4986-bf3b-50d9f21ece89@710x470.jpg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1337/9693a961-1050-4986-bf3b-50d9f21ece89@710x470.jpg",
+      "restaurant-fallbacks/dessert.svg"
     ],
     "accent": "#d88962",
     "description": "莎莉經典美食餐廳",
@@ -47637,7 +48249,8 @@
         "票價資訊",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000670",
@@ -47658,7 +48271,9 @@
     "lat": 23.9834798,
     "lng": 121.6027636,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/670/e7b76775-43d5-431a-a1ff-da8ba4413545@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "莫非鍋物",
     "highlights": [
@@ -47711,7 +48326,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001298",
@@ -47732,7 +48348,9 @@
     "lat": 23.99137458439,
     "lng": 121.59452505074,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1298/c4e7e921-390b-4265-bd79-a57b933eef38@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "郭榮市手工煙燻火腿",
     "highlights": [
@@ -47785,7 +48403,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001059",
@@ -47809,7 +48428,8 @@
     "imageCandidates": [
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1059/7187d131-7bc0-4382-8e2e-16453b18f6be@710x470.jpg",
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1059/87b3fe7b-2e28-48d0-9b54-f07a7549a4c7@710x470.jpg",
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1059/cf439129-315d-4ff5-a750-3d57a9adf7d3@710x470.jpg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1059/cf439129-315d-4ff5-a750-3d57a9adf7d3@710x470.jpg",
+      "restaurant-fallbacks/dessert.svg"
     ],
     "accent": "#d88962",
     "description": "陳家小館",
@@ -47863,7 +48483,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001364",
@@ -47884,7 +48505,9 @@
     "lat": 23.46146508466,
     "lng": 121.49637305074,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1364/91aebcf0-cada-4852-9c45-d114ec425456@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "陶甕百合春天",
     "highlights": [
@@ -47937,7 +48560,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001380",
@@ -47959,7 +48583,8 @@
     "lng": 121.60256295074,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1380/90648d70-49f0-4059-857b-626de0e81f79@710x470.jpg",
     "imageCandidates": [
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1380/c3554df7-d5a7-4b70-8d28-cdd758c64b59@710x470.jpg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1380/c3554df7-d5a7-4b70-8d28-cdd758c64b59@710x470.jpg",
+      "restaurant-fallbacks/dessert.svg"
     ],
     "accent": "#d88962",
     "description": "魚豐日式小吃",
@@ -48013,7 +48638,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001027",
@@ -48034,7 +48660,9 @@
     "lat": 23.7530904,
     "lng": 121.4681566,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1027/c83df526-6576-4445-8ed4-544c77bceac6@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "鳥居米穀店",
     "highlights": [
@@ -48087,7 +48715,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_002290",
@@ -48107,8 +48736,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.91168,
     "lng": 121.13596,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "鹿野地區位於花東縱谷區內，有高山、丘陵及平原，其中以大面積的梯田最具特色，更有充足的陽光，純淨零汙染的空氣，豐沛乾淨的水資源，依山傍水，風光明媚，因此孕育了多元的農特產品，使鹿野地區的農業成為最具競爭力的產業。",
     "highlights": [
@@ -48180,7 +48811,8 @@
         "票價資訊",
         "官方照片"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_000454",
@@ -48200,8 +48832,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.89789,
     "lng": 121.10118,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "店內招牌「土雞蛋布丁」獲選為2012臺東縣十大旅遊伴手禮暨特色美食。兩山之間的山野林地是鹿野土雞棲息的天地，鹿鳴土雞蛋布丁採用在地素材的土雞蛋配方，天然的材料在鹿鳴溫泉酒店主廚的用心調製，讓平凡的點心呈現出令人驚艷的風味與口感。",
     "highlights": [
@@ -48254,7 +48888,8 @@
         "官方照片",
         "親子設施"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000648",
@@ -48275,7 +48910,9 @@
     "lat": 23.9849046,
     "lng": 121.6214881,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/648/0ca3f756-e81d-42f6-a75d-c818e1e099e9@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "創義滋外",
     "highlights": [
@@ -48328,7 +48965,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000814",
@@ -48349,7 +48987,9 @@
     "lat": 23.9756351,
     "lng": 121.6106091,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/814/76828e07-0347-445c-889b-4955db0a40ed@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "勝脯鐵板燒",
     "highlights": [
@@ -48402,7 +49042,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000630",
@@ -48423,7 +49064,9 @@
     "lat": 23.9954527,
     "lng": 121.6044965,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/630/df0a32fc-efba-4f52-bc30-da0b38aac465@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#b98b73",
     "description": "單行道咖啡",
     "highlights": [
@@ -48475,7 +49118,8 @@
         "票價資訊",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001054",
@@ -48498,7 +49142,8 @@
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1054/193b1568-b5a6-490e-bd11-81544a1ab244@710x470.jpeg",
     "imageCandidates": [
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1054/60f34946-f530-4b61-8709-cb593829f0d6@710x470.jpg",
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1054/a0ae55f5-72c3-4aea-acf3-b5e0a17e28a8@710x470.jpg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1054/a0ae55f5-72c3-4aea-acf3-b5e0a17e28a8@710x470.jpg",
+      "restaurant-fallbacks/dessert.svg"
     ],
     "accent": "#d88962",
     "description": "交通方式●自行開車台9線260K處。地址: 花蓮縣瑞穗鄉富興村連興路69號。",
@@ -48552,7 +49197,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001071",
@@ -48573,7 +49219,9 @@
     "lat": 23.378765,
     "lng": 121.38290663489,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1071/58a6b803-72c6-4d9b-8dff-399f80ca73c9@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "森活家農莊",
     "highlights": [
@@ -48626,7 +49274,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001381",
@@ -48650,7 +49299,8 @@
     "imageCandidates": [
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1381/a06cc460-ede9-4653-a884-5d1f61b17a6e@710x470.jpg",
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1381/b6d0c5f3-d7d0-463d-98bb-7bbf9596ea3b@710x470.jpg",
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1381/d8fa6c2f-dd71-4aa8-93b6-a7d6993f4a27@710x470.jpg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1381/d8fa6c2f-dd71-4aa8-93b6-a7d6993f4a27@710x470.jpg",
+      "restaurant-fallbacks/dessert.svg"
     ],
     "accent": "#d88962",
     "description": "湘宜燒鴨快餐",
@@ -48704,7 +49354,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001367",
@@ -48725,7 +49376,9 @@
     "lat": 23.99202038534,
     "lng": 121.5750471508,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1367/6cab7b98-53e3-41f8-8a94-63a1d73ad68c@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "湘壽司屋",
     "highlights": [
@@ -48778,7 +49431,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000659",
@@ -48799,7 +49453,9 @@
     "lat": 23.9795754,
     "lng": 121.6020257,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/659/dd3ce1ad-fc39-4d66-a79f-4902823e8062@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "菓茶濃",
     "highlights": [
@@ -48852,7 +49508,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000649",
@@ -48873,7 +49530,9 @@
     "lat": 24.004964,
     "lng": 121.634681,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/649/51397e45-d4f3-4244-89ce-4739493e4cc6@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "華東牧場",
     "highlights": [
@@ -48926,7 +49585,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000624",
@@ -48947,7 +49607,9 @@
     "lat": 23.9765254,
     "lng": 121.6069644,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/624/eceb35c0-7366-4aab-b538-dd293fa5a628@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#b98b73",
     "description": "萊迦Lega早午餐",
     "highlights": [
@@ -49000,7 +49662,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000752",
@@ -49021,7 +49684,9 @@
     "lat": 23.9883002,
     "lng": 121.6225376,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/752/fd9d668f-ba0b-4ceb-8061-5f16cfa75792@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "週六郊區",
     "highlights": [
@@ -49074,7 +49739,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000695",
@@ -49095,7 +49761,9 @@
     "lat": 24.0014525,
     "lng": 121.620999,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/695/33e6ef63-3f9a-4503-8af9-b2fb58c3fa0a@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#b98b73",
     "description": "黑芭比咖啡",
     "highlights": [
@@ -49147,7 +49815,8 @@
         "票價資訊",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001019",
@@ -49168,7 +49837,9 @@
     "lat": 23.8760953,
     "lng": 121.514853,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1019/73e67e44-d673-48e0-8093-3112b7ef62e1@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "愛吃醋天然純手工坊",
     "highlights": [
@@ -49221,7 +49892,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000775",
@@ -49242,7 +49914,9 @@
     "lat": 23.9903541,
     "lng": 121.5971695,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/775/f8cb8284-fba8-456b-bbc7-b7babdc2ffc9@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "新美香燒肉店",
     "highlights": [
@@ -49295,7 +49969,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_008419",
@@ -49318,7 +49993,8 @@
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/8419/772f35d8-66e2-47d5-8c6c-e7f58c518282@710x470.jpeg",
     "imageCandidates": [
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/8419/c79abd7b-01ea-44da-8a3c-9d56746a3117@710x470.jpeg",
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/8419/f752e31c-b471-4f06-97e8-24ca83b7ca9d@710x470.jpeg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/8419/f752e31c-b471-4f06-97e8-24ca83b7ca9d@710x470.jpeg",
+      "restaurant-fallbacks/dessert.svg"
     ],
     "accent": "#d88962",
     "description": "日式咖哩麵包 ，天然發酵自然熟成，全臺首創日式咖哩麵包專賣店。每日11:30開始營業，售完為止",
@@ -49372,7 +50048,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001288",
@@ -49393,7 +50070,9 @@
     "lat": 24.15815328431,
     "lng": 121.64764765075,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1288/6a34fe28-fa62-44ab-a4d4-956cd5dae3ed@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "以漂流木建置而成的用餐環境，不僅大飽眼福，也在味覺和心靈上得到充分享受及體驗。",
     "highlights": [
@@ -49446,7 +50125,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000768",
@@ -49467,7 +50147,9 @@
     "lat": 23.9943656,
     "lng": 121.5884888,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/768/d308ca21-09c1-4e54-b3f1-45bbe7c64802@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "鼎園桶仔雞",
     "highlights": [
@@ -49520,7 +50202,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001377",
@@ -49543,7 +50226,8 @@
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1377/846a628f-fc01-4752-8b30-0a8426ba6428@710x470.jpg",
     "imageCandidates": [
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1377/c19f83c7-f3c6-4a88-9d7e-c6a36b5b8d58@710x470.jpg",
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1377/c26fc890-9ad6-4c45-b9ac-33d04defa0d1@710x470.jpg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1377/c26fc890-9ad6-4c45-b9ac-33d04defa0d1@710x470.jpg",
+      "restaurant-fallbacks/dessert.svg"
     ],
     "accent": "#d88962",
     "description": "滿妹豬腳",
@@ -49597,7 +50281,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000968",
@@ -49618,7 +50303,9 @@
     "lat": 23.9742008,
     "lng": 121.58766,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/968/dd0e5d3b-d293-496b-9e64-6d8f323beee9@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "漂浮島",
     "highlights": [
@@ -49671,7 +50358,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000745",
@@ -49692,7 +50380,9 @@
     "lat": 23.9742517,
     "lng": 121.6042256,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/745/203ff84f-d11f-4981-a4de-a66ff0b97845@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "福畊食館",
     "highlights": [
@@ -49745,7 +50435,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001368",
@@ -49766,7 +50457,9 @@
     "lat": 23.99651788439,
     "lng": 121.55552695074,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1368/63ba9997-08ce-45f5-87b3-5a0fe01719a3@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "銘師父餐廳",
     "highlights": [
@@ -49818,7 +50511,8 @@
         "票價資訊",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001046",
@@ -49839,7 +50533,9 @@
     "lat": 23.6641159,
     "lng": 121.4131914,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1046/e6545190-989f-4670-806f-d323b219279d@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "劍柔山莊",
     "highlights": [
@@ -49892,7 +50588,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001063",
@@ -49913,7 +50610,9 @@
     "lat": 23.3336032,
     "lng": 121.3149859,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1063/64fcb250-5319-428d-95a8-ccbcaea35466@710x470.png",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "廣盛堂",
     "highlights": [
@@ -49966,7 +50665,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000593",
@@ -49987,7 +50687,9 @@
     "lat": 24.0276417,
     "lng": 121.6306987,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/593/0866e59b-3204-40c5-948b-0f6811360718@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "慕名私房料理",
     "highlights": [
@@ -50040,7 +50742,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000928",
@@ -50061,7 +50764,9 @@
     "lat": 23.978354,
     "lng": 121.6067678,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/928/60c3c69f-cd9b-4cfa-b5bd-d6cea496ee7d@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "慕然五十",
     "highlights": [
@@ -50114,7 +50819,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001335",
@@ -50135,7 +50841,9 @@
     "lat": 23.9749794844,
     "lng": 121.59692595074,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1335/e91da751-0282-4772-8b02-fa2f29e8394a@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "慶春號",
     "highlights": [
@@ -50188,7 +50896,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000661",
@@ -50209,7 +50918,9 @@
     "lat": 23.9901118844,
     "lng": 121.62273835021,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/661/160e3dc2-5861-4946-96d6-8f7cec822851@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#df7bb4",
     "description": "歐兜賣雞蛋糕",
     "highlights": [
@@ -50262,7 +50973,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000631",
@@ -50283,7 +50995,9 @@
     "lat": 23.971439,
     "lng": 121.6008534,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/631/a10c10d3-acd6-448b-8288-3c2da6e964e9@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "澎風水煎包",
     "highlights": [
@@ -50336,7 +51050,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000955",
@@ -50357,7 +51072,9 @@
     "lat": 23.971149,
     "lng": 121.597602,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/955/5c77e4de-dc94-4c15-afea-51683cf3a7b6@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "靚hó 吃花生好事就發生",
     "highlights": [
@@ -50410,7 +51127,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000629",
@@ -50431,7 +51149,9 @@
     "lat": 23.992108,
     "lng": 121.63358,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/629/e652c002-fa2c-4421-84ad-006355f416bf@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "餓棍廚房",
     "highlights": [
@@ -50484,7 +51204,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000966",
@@ -50505,7 +51226,9 @@
     "lat": 23.9877191,
     "lng": 121.592926,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/966/9d0d3799-df84-4d4a-9b61-f16494fc9986@710x470.png",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "賴一張魷魚焿專賣店",
     "highlights": [
@@ -50558,7 +51281,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000637",
@@ -50579,7 +51303,9 @@
     "lat": 23.9761112,
     "lng": 121.601973,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/637/c74bc10d-4c64-4860-967c-32e2d6fe5bda@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "賴一張魷魚焿專賣店(和平店)",
     "highlights": [
@@ -50632,7 +51358,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001366",
@@ -50653,7 +51380,9 @@
     "lat": 23.9772968844,
     "lng": 121.59722755074,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1366/0fb95520-7af3-4cc7-ae48-964a5deb3b2d@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "賴桑壽司屋",
     "highlights": [
@@ -50706,7 +51435,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001379",
@@ -50728,7 +51458,8 @@
     "lng": 121.54841005074,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1379/8751c55f-bd96-486b-bb5c-81ac5298ba6a@710x470.jpg",
     "imageCandidates": [
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1379/b5ace868-1c67-4fd8-a447-14c870510441@710x470.jpg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1379/b5ace868-1c67-4fd8-a447-14c870510441@710x470.jpg",
+      "restaurant-fallbacks/dessert.svg"
     ],
     "accent": "#d88962",
     "description": "頭目海產店",
@@ -50782,7 +51513,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000998",
@@ -50803,7 +51535,9 @@
     "lat": 23.9864658,
     "lng": 121.5878192,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/998/6719b4aa-812c-4156-9a20-49c14ef00bf7@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "龍哥斯特",
     "highlights": [
@@ -50856,7 +51590,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000782",
@@ -50877,7 +51612,9 @@
     "lat": 23.9774557,
     "lng": 121.6062055,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/782/ba526ee0-5a91-4ce2-99c4-cd5e466e137c@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "聲子藝棧",
     "highlights": [
@@ -50930,7 +51667,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001334",
@@ -50952,7 +51690,8 @@
     "lng": 121.41760565074,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1334/1390c5c4-1614-4624-b19d-3e1eb746295a@710x470.jpg",
     "imageCandidates": [
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1334/a15b8627-280b-4eea-809c-0b0e7fe057de@710x470.jpg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1334/a15b8627-280b-4eea-809c-0b0e7fe057de@710x470.jpg",
+      "restaurant-fallbacks/dessert.svg"
     ],
     "accent": "#d88962",
     "description": "鍾家臘肉客家美食館",
@@ -51006,7 +51745,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000863",
@@ -51027,7 +51767,9 @@
     "lat": 23.9780115,
     "lng": 121.6087436,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/863/43cad85a-7dec-4c04-b338-067813ca89ae@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "鮮茶道冷飲-中山店",
     "highlights": [
@@ -51080,7 +51822,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000858",
@@ -51101,7 +51844,9 @@
     "lat": 23.9971268,
     "lng": 121.621692,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/858/9dffdc84-9613-4bcf-b9ec-8d9832b49935@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "鮮道味",
     "highlights": [
@@ -51154,7 +51899,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_002299",
@@ -51174,8 +51920,10 @@
     "hours": "請至官方網站確認",
     "lat": 22.75993,
     "lng": 121.14405,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "本店使用精選新鮮魚貨及上等豬肉，使用獨門醬料配方，並利用超薄切削方式，經由隧道式烤箱進行高溫烘烤，製造出新鮮精緻的香脆口感及獨特的魚肉紙。特色產品：\"魚\"肉紙、\"豬\"肉紙",
     "highlights": [
@@ -51229,7 +51977,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000906",
@@ -51250,7 +51999,9 @@
     "lat": 23.975898,
     "lng": 121.6069601,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/906/4ba8ae7b-17d6-404d-8ff5-f8b79a4175a3@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "豐興餅舖中華店",
     "highlights": [
@@ -51303,7 +52054,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000905",
@@ -51324,7 +52076,9 @@
     "lat": 23.9920603,
     "lng": 121.6032496,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/905/c094fe73-470f-49c0-a789-eec22789eb43@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "豐興餅舖站前店",
     "highlights": [
@@ -51377,7 +52131,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001371",
@@ -51398,7 +52153,9 @@
     "lat": 23.97450188602,
     "lng": 121.5962449508,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1371/bb99c87b-c1d8-4d2a-ba2b-bf88365c7612@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "闔家歡餐廳",
     "highlights": [
@@ -51450,7 +52207,8 @@
         "票價資訊",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001006",
@@ -51472,7 +52230,8 @@
     "lng": 121.5088081,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1006/2ef4ee43-1364-4d1e-83a0-f9922507f450@710x470.png",
     "imageCandidates": [
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1006/4069161a-ea6c-4836-8a29-926c7cb1a008@710x470.jpeg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1006/4069161a-ea6c-4836-8a29-926c7cb1a008@710x470.jpeg",
+      "restaurant-fallbacks/dessert.svg"
     ],
     "accent": "#d88962",
     "description": "鯉魚潭樹屋餐廳",
@@ -51525,7 +52284,8 @@
         "票價資訊",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000771",
@@ -51546,7 +52306,9 @@
     "lat": 23.9786317,
     "lng": 121.6079716,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/771/09875292-0acf-434e-aa7f-2d18e2ce77ca@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "鵝肉先生",
     "highlights": [
@@ -51599,7 +52361,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000772",
@@ -51620,7 +52383,9 @@
     "lat": 23.9811229,
     "lng": 121.6052687,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/772/4e150472-4209-4abc-84e9-4452e0dbf303@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "鵝肉先生二店",
     "highlights": [
@@ -51673,7 +52438,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001385",
@@ -51694,7 +52460,9 @@
     "lat": 23.98234678572,
     "lng": 121.6067654508,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1385/73821068-561b-4a32-bde4-8ea56d7a2c0d@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "邊城滇味",
     "highlights": [
@@ -51747,7 +52515,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000755",
@@ -51768,7 +52537,9 @@
     "lat": 23.9854684,
     "lng": 121.6047093,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/755/4f143d6c-6c78-46b5-af8a-e2fc909bf94d@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "邊境法式點心坊",
     "highlights": [
@@ -51821,7 +52592,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376540000A_002289",
@@ -51841,8 +52613,10 @@
     "hours": "請至官方網站確認",
     "lat": 23.06088,
     "lng": 121.16875,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "imageCandidates": [],
+    "image": "restaurant-fallbacks/dessert.svg",
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "關山鎮農會休閒旅遊中心（米國學校）提供關山鎮旅遊諮詢服務，還有稻米相關體驗活動，及田媽媽古早味大碗公飯，並設有關山米及農產品展售賣場，是一個兼具休憩體驗與農特產購物的場所。",
     "highlights": [
@@ -51896,7 +52670,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_008410",
@@ -51920,7 +52695,8 @@
     "imageCandidates": [
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/8410/207d4efd-9fea-4baa-a6d0-71654390d5f6@710x470.jpeg",
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/8410/20a332cf-b1d9-4f7f-8a29-4da22724ede3@710x470.jpeg",
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/8410/c756d26e-7f7c-489a-8dfd-73e770787842@710x470.jpeg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/8410/c756d26e-7f7c-489a-8dfd-73e770787842@710x470.jpeg",
+      "restaurant-fallbacks/dessert.svg"
     ],
     "accent": "#d88962",
     "description": "A麻辣醬 酥烤脆皮豬",
@@ -51974,7 +52750,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000732",
@@ -51995,7 +52772,9 @@
     "lat": 23.9768469,
     "lng": 121.6057173,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/732/956428a5-a92b-4edb-8bff-f4b2e246ca6a@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "Arbay阿貝廚坊",
     "highlights": [
@@ -52048,7 +52827,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000760",
@@ -52069,7 +52849,9 @@
     "lat": 23.9976551,
     "lng": 121.6234359,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/760/e9f6b82e-0257-48ca-97d0-6c4ab3190863@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "BOSO飽所",
     "highlights": [
@@ -52122,7 +52904,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000673",
@@ -52143,7 +52926,9 @@
     "lat": 23.981806,
     "lng": 121.6054283,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/673/770de752-f675-43ae-a699-35d45746a588@710x470.png",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "Bubble house 波波食堂",
     "highlights": [
@@ -52196,7 +52981,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000754",
@@ -52217,7 +53003,9 @@
     "lat": 23.9747098,
     "lng": 121.6084184,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/754/94082cc0-79d0-402d-bded-4f072e6aa6c2@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "cafe copita",
     "highlights": [
@@ -52270,7 +53058,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000819",
@@ -52291,7 +53080,9 @@
     "lat": 23.9792699,
     "lng": 121.6048119,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/819/5b25e808-8954-4e43-ac99-ac89f4585b07@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#b98b73",
     "description": "Chat Bon貓棒棒咖啡",
     "highlights": [
@@ -52343,7 +53134,8 @@
         "票價資訊",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001340",
@@ -52364,7 +53156,9 @@
     "lat": 23.98738348552,
     "lng": 121.6191131508,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1340/750f1819-f207-4ab4-ad3d-fb311ff20145@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "COUNTRY MOTHER'S",
     "highlights": [
@@ -52417,7 +53211,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000951",
@@ -52438,7 +53233,9 @@
     "lat": 23.976115,
     "lng": 121.607123,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/951/a5ed8825-0653-47d5-b855-5a0f92a54b63@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "Eye Cafe'",
     "highlights": [
@@ -52491,7 +53288,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000672",
@@ -52512,7 +53310,9 @@
     "lat": 23.9840418844,
     "lng": 121.61911815021,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/672/95a59106-2b68-4d28-87b6-6b17a723b8dd@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "Farmer Brothers 法爾門兄弟",
     "highlights": [
@@ -52565,7 +53365,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000660",
@@ -52586,7 +53387,9 @@
     "lat": 23.973722,
     "lng": 121.6023953,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/660/90075211-e799-4f8a-bb4b-352abdc52882@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "JAGUAR手搖飲料店",
     "highlights": [
@@ -52639,7 +53442,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000918",
@@ -52660,7 +53464,9 @@
     "lat": 23.9773947,
     "lng": 121.6031796,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/918/0a3ed03a-8d99-46d5-8163-8b03fe4df7c4@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#b98b73",
     "description": "Jessie's Cake@小咖啡",
     "highlights": [
@@ -52712,7 +53518,8 @@
         "票價資訊",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_003237",
@@ -52733,7 +53540,9 @@
     "lat": 23.9813085,
     "lng": 121.6029844,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/3237/760150c7-940f-4950-addf-0ed867906b4e@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "Jms 義式料理",
     "highlights": [
@@ -52786,7 +53595,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000756",
@@ -52807,7 +53617,9 @@
     "lat": 23.9889165,
     "lng": 121.6215829,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/756/0ad75d82-82eb-421c-908c-f4cc06d2a86c@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "Old Germany德國餐廳",
     "highlights": [
@@ -52859,7 +53671,8 @@
         "票價資訊",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001074",
@@ -52880,7 +53693,9 @@
     "lat": 23.332985,
     "lng": 121.3195692,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1074/688eda67-d1c4-4ed8-bccc-43e8e9b24127@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#b98b73",
     "description": "OUR老房子咖啡屋",
     "highlights": [
@@ -52932,7 +53747,8 @@
         "票價資訊",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_001049",
@@ -52953,7 +53769,9 @@
     "lat": 23.5978136,
     "lng": 121.5198691,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1049/faf2426a-e496-4d98-bd86-52104779052f@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "slow life 原鄉廚房",
     "highlights": [
@@ -53006,7 +53824,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000671",
@@ -53027,7 +53846,9 @@
     "lat": 23.9864691,
     "lng": 121.6014101,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/671/f01c9128-52be-43ef-9ade-6dd44e5e4ce5@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/family-chain.svg"
+    ],
     "accent": "#d88962",
     "description": "Subway 花蓮建中店",
     "highlights": [
@@ -53080,7 +53901,10 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "chain": "Subway",
+    "restaurantCategory": "family_chain",
+    "restaurantImageKind": "chain-fallback"
   },
   {
     "id": "Restaurant_376550000A_000650",
@@ -53101,7 +53925,9 @@
     "lat": 23.9820096,
     "lng": 121.6016706,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/650/e0de290a-66f3-40b9-852c-f1f451b9743a@710x470.jpeg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#d88962",
     "description": "TEALAB 新概念花草茶飲",
     "highlights": [
@@ -53154,7 +53980,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000993",
@@ -53177,7 +54004,8 @@
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/993/37edbd2f-4140-4a0b-b873-7d0ec840b229@710x470.jpg",
     "imageCandidates": [
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/993/67b960f6-4c30-4855-9c27-45d221b9aa3d@710x470.jpg",
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/993/de48df03-2365-4563-aa4a-76406e24cf64@710x470.jpg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/993/de48df03-2365-4563-aa4a-76406e24cf64@710x470.jpg",
+      "restaurant-fallbacks/dessert.svg"
     ],
     "accent": "#df7bb4",
     "description": "TOP烘焙房-中華店",
@@ -53231,7 +54059,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000762",
@@ -53252,7 +54081,9 @@
     "lat": 23.9774716,
     "lng": 121.6033196,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/762/a5cf6975-a9bd-478e-b313-6034bbadda1d@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#df7bb4",
     "description": "TOP烘焙房-民國店",
     "highlights": [
@@ -53305,7 +54136,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000763",
@@ -53326,7 +54158,9 @@
     "lat": 23.9919283,
     "lng": 121.5972191,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/763/4cb2f59a-dcdf-42d6-8537-56bb996d33d2@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#df7bb4",
     "description": "TOP烘焙房-自強店",
     "highlights": [
@@ -53379,7 +54213,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Restaurant_376550000A_000761",
@@ -53400,7 +54235,9 @@
     "lat": 23.9914792,
     "lng": 121.5792077,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/761/c4fb22af-d766-4f41-93d9-e1feb768eb58@710x470.jpg",
-    "imageCandidates": [],
+    "imageCandidates": [
+      "restaurant-fallbacks/dessert.svg"
+    ],
     "accent": "#df7bb4",
     "description": "TOP烘焙房-慈大店",
     "highlights": [
@@ -53453,7 +54290,8 @@
         "親子設施",
         "詳細介紹"
       ]
-    }
+    },
+    "restaurantImageKind": "category-fallback"
   },
   {
     "id": "Attraction_345040000G_120039",

@@ -480,6 +480,7 @@ function App() {
   const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null)
   const [mapViewport, setMapViewport] = useState<MapViewport | null>(null)
   const [mapFocusKey, setMapFocusKey] = useState(0)
+  const [resultsSheetExpanded, setResultsSheetExpanded] = useState(false)
   const viewportRequestRegion = useRef<RegionName | null>(null)
   const [locationStatus, setLocationStatus] = useState<'idle' | 'loading' | 'ready' | 'error'>('idle')
   const [locationMessage, setLocationMessage] = useState('')
@@ -738,6 +739,7 @@ function App() {
 
   const handleMapViewportChange = useCallback((nextViewport: MapViewport) => {
     setMapViewport(nextViewport)
+    setResultsSheetExpanded(false)
     const nextRegion = regionFromCoordinate(nextViewport.center)
     if (!nextRegion) {
       setLocationMessage('地圖已移到資料範圍外，請移回臺灣附近。')
@@ -835,15 +837,11 @@ function App() {
       : filteredPlaces,
     [activeTab, favorites, filteredPlaces],
   )
-  const visiblePlaces = useMemo(
-    () => displayedPlaces.slice(0, MAX_VISIBLE_PLACES),
-    [displayedPlaces],
-  )
-  const mapPlaces = useMemo(
+  const viewportPlaces = useMemo(
     () => {
-      if (!mapViewport) return displayedPlaces.slice(0, MAX_MAP_PLACES)
-      const latPadding = Math.max((mapViewport.bounds.north - mapViewport.bounds.south) * 0.18, 0.02)
-      const lngPadding = Math.max((mapViewport.bounds.east - mapViewport.bounds.west) * 0.18, 0.02)
+      if (!mapViewport) return displayedPlaces
+      const latPadding = Math.max((mapViewport.bounds.north - mapViewport.bounds.south) * 0.12, 0.015)
+      const lngPadding = Math.max((mapViewport.bounds.east - mapViewport.bounds.west) * 0.12, 0.015)
       return displayedPlaces
         .filter((place) =>
           place.lat <= mapViewport.bounds.north + latPadding &&
@@ -852,10 +850,22 @@ function App() {
           place.lng >= mapViewport.bounds.west - lngPadding)
         .sort((first, second) =>
           distanceInKm(mapViewport.center, first) - distanceInKm(mapViewport.center, second))
-        .slice(0, MAX_MAP_PLACES)
     },
     [displayedPlaces, mapViewport],
   )
+  const visiblePlaces = useMemo(
+    () => viewportPlaces.slice(0, MAX_VISIBLE_PLACES),
+    [viewportPlaces],
+  )
+  const mapPlaces = useMemo(
+    () => {
+      return viewportPlaces.slice(0, MAX_MAP_PLACES)
+    },
+    [viewportPlaces],
+  )
+  const mapAreaLabel = mapViewport
+    ? `${viewportPlaces.length} 筆在目前地圖範圍`
+    : `${displayedPlaces.length} 筆符合條件`
 
   const recommended = useMemo(() => {
     if (placesStatus !== 'ready' || !places.length) return []
@@ -1430,7 +1440,8 @@ function App() {
               <h2>{activeTab === 'favorites' ? '收藏的景點' : '週末靈感地圖'}</h2>
               <p>
                 {activeTab === 'favorites' ? '已收藏' : '找到'} <strong>{displayedPlaces.length}</strong> 個地點
-                {displayedPlaces.length > MAX_VISIBLE_PLACES && `・先顯示前 ${MAX_VISIBLE_PLACES} 筆`}
+                {viewportPlaces.length > MAX_VISIBLE_PLACES && `・先顯示前 ${MAX_VISIBLE_PLACES} 筆`}
+                {mapViewport && activeTab !== 'favorites' && `・目前地圖範圍 ${viewportPlaces.length} 筆`}
                 {region === '全部' && activeTab !== 'favorites' && '・選擇地區可查看完整景點'}
               </p>
             </div>
@@ -1482,14 +1493,40 @@ function App() {
               <MapView
                 places={mapPlaces}
                 selected={selected}
-                onSelect={setSelected}
+                onSelect={(place) => {
+                  setResultsSheetExpanded(true)
+                  openPlace(place)
+                }}
                 userLocation={userLocation}
                 focusKey={mapFocusKey}
                 onViewportChange={handleMapViewportChange}
               />
               <div className="map-legend"><span /><span>點一下圖標查看景點</span></div>
+              {mapViewport && (
+                <button
+                  className="map-area-button"
+                  onClick={() => {
+                    setResultsSheetExpanded(true)
+                    playUiSound('tap')
+                    document.querySelector('.results-panel')?.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
+                  }}
+                >
+                  <Search size={14} />
+                  搜尋此區域・{viewportPlaces.length} 筆
+                </button>
+              )}
             </div>
-            <div className="results-panel">
+            <div className={`results-panel ${resultsSheetExpanded ? 'is-expanded' : ''}`}>
+              <div className="mobile-sheet-head">
+                <span className="sheet-grabber" aria-hidden="true" />
+                <div>
+                  <strong>{mapViewport ? '目前地圖範圍' : activeTab === 'favorites' ? '收藏清單' : '推薦清單'}</strong>
+                  <small>{mapAreaLabel}</small>
+                </div>
+                <button onClick={() => setResultsSheetExpanded((value) => !value)}>
+                  {resultsSheetExpanded ? '收合' : '展開'}
+                </button>
+              </div>
               {placesStatus === 'loading' ? (
                 <div className="empty-state loading-state">
                   <MapPin size={40} />
