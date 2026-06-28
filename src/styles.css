@@ -3549,10 +3549,6 @@ p.wizard-reason {
     transition: max-height 240ms ease, transform 240ms ease;
   }
 
-  .results-panel.is-expanded {
-    transform: translateY(-2px);
-  }
-
   .mobile-sheet-head {
     position: relative;
     z-index: 5;

@@ -253,6 +253,8 @@ function computePersonality(interactedIds: string[], places: Place[]): Personali
 
 const MAX_VISIBLE_PLACES = 120
 const MAX_MAP_PLACES = 80
+const COMPACT_INITIAL_RESULTS = 8
+const COMPACT_RESULTS_STEP = 8
 type RegionName = Exclude<(typeof regions)[number], '全部'>
 const regionCenters: Record<RegionName, { lat: number; lng: number }> = {
   北部: { lat: 25.04, lng: 121.52 },
@@ -480,8 +482,10 @@ function App() {
   const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null)
   const [mapViewport, setMapViewport] = useState<MapViewport | null>(null)
   const [mapFocusKey, setMapFocusKey] = useState(0)
-  const [resultsSheetExpanded, setResultsSheetExpanded] = useState(false)
+  const [compactResultsLimit, setCompactResultsLimit] = useState(COMPACT_INITIAL_RESULTS)
   const [isCompactResultsView, setIsCompactResultsView] = useState(false)
+  const [osmRestaurants, setOsmRestaurants] = useState<Place[]>([])
+  const [osmRestaurantsLoaded, setOsmRestaurantsLoaded] = useState(false)
   const viewportRequestRegion = useRef<RegionName | null>(null)
   const [locationStatus, setLocationStatus] = useState<'idle' | 'loading' | 'ready' | 'error'>('idle')
   const [locationMessage, setLocationMessage] = useState('')
@@ -748,7 +752,7 @@ function App() {
 
   const handleMapViewportChange = useCallback((nextViewport: MapViewport) => {
     setMapViewport(nextViewport)
-    setResultsSheetExpanded(false)
+    setCompactResultsLimit(COMPACT_INITIAL_RESULTS)
     const nextRegion = regionFromCoordinate(nextViewport.center)
     if (!nextRegion) {
       setLocationMessage('地圖已移到資料範圍外，請移回臺灣附近。')
@@ -793,9 +797,68 @@ function App() {
       .catch(() => setAiInsights({}))
   }, [])
 
+  useEffect(() => {
+    if (!restaurantOnly || osmRestaurantsLoaded) return
+    import('./generated/restaurants-osm.json')
+      .then((module) => {
+        setOsmRestaurants(module.default as Place[])
+        setOsmRestaurantsLoaded(true)
+      })
+      .catch(() => {
+        setOsmRestaurants([])
+        setOsmRestaurantsLoaded(true)
+      })
+  }, [restaurantOnly, osmRestaurantsLoaded])
+
+  const scopedOsmRestaurants = useMemo(() => {
+    if (!restaurantOnly || !osmRestaurants.length) return [] as Place[]
+    const existingIds = new Set(places.map((place) => place.id))
+    const existingNames = new Set(
+      places
+        .filter((place) => place.placeType === '餐飲')
+        .map((place) => `${place.name}-${place.city}-${place.district}`),
+    )
+
+    const inViewport = (place: Place) => {
+      if (!mapViewport) return true
+      const latPadding = Math.max((mapViewport.bounds.north - mapViewport.bounds.south) * 0.2, 0.02)
+      const lngPadding = Math.max((mapViewport.bounds.east - mapViewport.bounds.west) * 0.2, 0.02)
+      return (
+        place.lat <= mapViewport.bounds.north + latPadding &&
+        place.lat >= mapViewport.bounds.south - latPadding &&
+        place.lng <= mapViewport.bounds.east + lngPadding &&
+        place.lng >= mapViewport.bounds.west - lngPadding
+      )
+    }
+
+    const anchor = mapViewport?.center || userLocation || (region !== '全部' ? regionCenters[region] : null)
+    if (!anchor && !mapViewport) return [] as Place[]
+    const maxDistanceKm = mapViewport ? 80 : userLocation ? 15 : 45
+
+    return osmRestaurants
+      .filter((place) =>
+        !existingIds.has(place.id) &&
+        !existingNames.has(`${place.name}-${place.city}-${place.district}`) &&
+        inViewport(place) &&
+        (!anchor || distanceInKm(anchor, place) <= maxDistanceKm),
+      )
+      .map((place) => ({
+        place,
+        dist: anchor ? distanceInKm(anchor, place) : 0,
+      }))
+      .sort((first, second) => first.dist - second.dist)
+      .slice(0, 180)
+      .map(({ place }) => place)
+  }, [restaurantOnly, osmRestaurants, places, mapViewport, userLocation, region])
+
+  const sourcePlaces = useMemo(
+    () => restaurantOnly ? [...places, ...scopedOsmRestaurants] : places,
+    [restaurantOnly, places, scopedOsmRestaurants],
+  )
+
   const filteredPlaces = useMemo(() => {
     const [minAge, maxAge] = age === 'all' ? [0, 99] : age.split('-').map(Number)
-    const matches = places.filter((place) => {
+    const matches = sourcePlaces.filter((place) => {
       const textMatches = `${place.name}${place.city}${place.district}${place.category}`
         .toLowerCase()
         .includes(query.toLowerCase())
@@ -839,7 +902,7 @@ function App() {
       rank(second) - rank(first) ||
       (sortLocation ? distanceInKm(sortLocation, first) - distanceInKm(sortLocation, second) : 0)
     )
-  }, [places, query, age, setting, duration, rainyOnly, eventOnly, restaurantOnly, weather, userLocation, mapViewport])
+  }, [sourcePlaces, query, age, setting, duration, rainyOnly, eventOnly, restaurantOnly, weather, userLocation, mapViewport])
   const displayedPlaces = useMemo(
     () => activeTab === 'favorites'
       ? filteredPlaces.filter((place) => favorites.includes(place.id))
@@ -847,8 +910,8 @@ function App() {
     [activeTab, favorites, filteredPlaces],
   )
   useEffect(() => {
-    setResultsSheetExpanded(false)
-  }, [activeTab, query, age, setting, duration, rainyOnly, eventOnly, restaurantOnly, region])
+    setCompactResultsLimit(COMPACT_INITIAL_RESULTS)
+  }, [activeTab, query, age, setting, duration, rainyOnly, eventOnly, restaurantOnly, region, mapViewport])
   const viewportPlaces = useMemo(
     () => {
       if (!mapViewport) return displayedPlaces
@@ -867,11 +930,10 @@ function App() {
   )
   const visiblePlaces = useMemo(
     () => {
-      const compactLimit = resultsSheetExpanded ? 24 : 6
-      const limit = isCompactResultsView ? compactLimit : MAX_VISIBLE_PLACES
+      const limit = isCompactResultsView ? compactResultsLimit : MAX_VISIBLE_PLACES
       return viewportPlaces.slice(0, limit)
     },
-    [viewportPlaces, isCompactResultsView, resultsSheetExpanded],
+    [viewportPlaces, isCompactResultsView, compactResultsLimit],
   )
   const mapPlaces = useMemo(
     () => {
@@ -882,7 +944,7 @@ function App() {
   const mapAreaLabel = mapViewport
     ? `${viewportPlaces.length} 筆在目前地圖範圍`
     : `${displayedPlaces.length} 筆符合條件`
-  const canExpandResults = isCompactResultsView && viewportPlaces.length > 6
+  const canLoadMoreResults = isCompactResultsView && visiblePlaces.length < viewportPlaces.length
 
   const recommended = useMemo(() => {
     if (placesStatus !== 'ready' || !places.length) return []
@@ -1515,7 +1577,6 @@ function App() {
                 places={mapPlaces}
                 selected={selected}
                 onSelect={(place) => {
-                  setResultsSheetExpanded(true)
                   openPlace(place)
                 }}
                 userLocation={userLocation}
@@ -1527,7 +1588,7 @@ function App() {
                 <button
                   className="map-area-button"
                   onClick={() => {
-                    setResultsSheetExpanded(true)
+                    setCompactResultsLimit((value) => Math.max(value, COMPACT_INITIAL_RESULTS + COMPACT_RESULTS_STEP))
                     playUiSound('tap')
                     document.querySelector('.results-panel')?.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
                   }}
@@ -1537,16 +1598,16 @@ function App() {
                 </button>
               )}
             </div>
-            <div className={`results-panel ${resultsSheetExpanded ? 'is-expanded' : ''}`}>
+            <div className="results-panel">
               <div className="mobile-sheet-head">
                 <span className="sheet-grabber" aria-hidden="true" />
                 <div>
                   <strong>{mapViewport ? '目前地圖範圍' : activeTab === 'favorites' ? '收藏清單' : '推薦清單'}</strong>
-                  <small>{mapAreaLabel}{isCompactResultsView ? `・目前顯示 ${visiblePlaces.length} 筆` : ''}</small>
+                  <small>{mapAreaLabel}{isCompactResultsView ? `・已顯示 ${visiblePlaces.length} / ${viewportPlaces.length}` : ''}</small>
                 </div>
-                {canExpandResults ? (
-                  <button onClick={() => setResultsSheetExpanded((value) => !value)}>
-                    {resultsSheetExpanded ? '收合' : '展開'}
+                {canLoadMoreResults ? (
+                  <button onClick={() => setCompactResultsLimit((value) => Math.min(value + COMPACT_RESULTS_STEP, viewportPlaces.length))}>
+                    載入更多
                   </button>
                 ) : <span />}
               </div>
