@@ -23,7 +23,6 @@ import {
   Layers,
   LocateFixed,
   MapPin,
-  Moon,
   Mountain,
   Navigation,
   NotebookPen,
@@ -34,8 +33,6 @@ import {
   Star,
   SunMedium,
   TentTree,
-  ThumbsDown,
-  ThumbsUp,
   Ticket,
   TreePine,
   Umbrella,
@@ -49,14 +46,12 @@ import {
 } from 'lucide-react'
 import {
   ageOptions,
-  type AiInsight,
   type FamilyAmenityKey,
   type ParentReport,
   type Place,
   type WeatherSummary,
 } from './data'
 import { MapView, type MapViewport } from './MapView'
-import { BAD_PLACEHOLDER_IMAGES, FALLBACK_IMAGE } from './imageUtils'
 import { WeekendDiscovery } from './components/WeekendDiscovery'
 import { supabase } from './lib/supabase'
 import { getDeviceId } from './lib/deviceId'
@@ -66,26 +61,26 @@ import { ItineraryPlanner } from './components/ItineraryPlanner'
 import { Mascot } from './components/Mascot'
 import { BrandLogo } from './components/BrandLogo'
 import { getFamilyEvidence, getQualityScore } from './placeQuality'
+import { useFavorites } from './hooks/useFavorites'
+import { useReports } from './hooks/useReports'
+import { useSound } from './hooks/useSound'
+import { useClickHistory } from './hooks/useClickHistory'
+import { usePlaces } from './hooks/usePlaces'
+import { useWeather } from './hooks/useWeather'
+import { useUserLocation } from './hooks/useUserLocation'
+import { regions, useFilters } from './hooks/useFilters'
+import { MichelinBadge, PlaceCard, PlaceImage } from './components/PlaceCard'
+import { FilterSheet } from './components/FilterSheet'
+import { ReportForm } from './components/ReportForm'
+import { ProfileDrawer } from './components/ProfileDrawer'
+import { compactNumber } from './lib/format'
 
-const regions = ['全部', '北部', '中部', '南部', '東部', '離島'] as const
-const settings = ['全部', '室內', '室外', '室內外'] as const
-const durations = ['全部', '半日', '一日', '晚上'] as const
 const regionIcons: Partial<Record<(typeof regions)[number], ReactNode>> = {
   北部: <Building2 size={14} />,
   中部: <Mountain size={14} />,
   南部: <Waves size={14} />,
   東部: <TreePine size={14} />,
   離島: <Anchor size={14} />,
-}
-const settingIcons: Partial<Record<(typeof settings)[number], ReactNode>> = {
-  室內: <Home size={14} />,
-  室外: <SunMedium size={14} />,
-  室內外: <Layers size={14} />,
-}
-const durationIcons: Partial<Record<(typeof durations)[number], ReactNode>> = {
-  半日: <Clock3 size={14} />,
-  一日: <CalendarDays size={14} />,
-  晚上: <Moon size={14} />,
 }
 const AMENITY_ICONS = {
   accessibility: Accessibility,
@@ -288,10 +283,6 @@ function distanceInKm(
   return earthRadius * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
 }
 
-function compactNumber(value: number) {
-  return value >= 10000 ? `${(value / 10000).toFixed(1)}萬` : value.toLocaleString('zh-TW')
-}
-
 function regionFromCoordinate({ lat, lng }: { lat: number; lng: number }): RegionName | null {
   if (lat < 21.7 || lat > 26.5 || lng < 118 || lng > 122.5) return null
   if (lng < 120.35 || lat > 25.6) return '離島'
@@ -301,185 +292,22 @@ function regionFromCoordinate({ lat, lng }: { lat: number; lng: number }): Regio
   return '南部'
 }
 
-function weatherLabel(code: number) {
-  if (code === 0) return '晴朗'
-  if (code <= 3) return '多雲'
-  if (code <= 48) return '有霧'
-  if (code <= 67 || code >= 80) return '有雨'
-  return '天氣不穩'
-}
-
-async function fetchWeather(lat: number, lng: number): Promise<WeatherSummary> {
-  const url = new URL('https://api.open-meteo.com/v1/forecast')
-  url.searchParams.set('latitude', String(lat))
-  url.searchParams.set('longitude', String(lng))
-  url.searchParams.set('current', 'temperature_2m,weather_code')
-  url.searchParams.set('daily', 'precipitation_probability_max')
-  url.searchParams.set('timezone', 'Asia/Taipei')
-  url.searchParams.set('forecast_days', '1')
-  const response = await fetch(url)
-  if (!response.ok) throw new Error('weather')
-  const payload = await response.json()
-  return {
-    temperature: Number(payload.current?.temperature_2m || 0),
-    weatherCode: Number(payload.current?.weather_code || 0),
-    precipitationProbability: Number(payload.daily?.precipitation_probability_max?.[0] || 0),
-    label: weatherLabel(Number(payload.current?.weather_code || 0)),
-    fetchedAt: new Date().toISOString(),
-  }
-}
-
-function PlaceImage({
-  place,
-  className,
-  eager = false,
-}: {
-  place: Place
-  className: string
-  eager?: boolean
-}) {
-  const candidates = useMemo(
-    () => [...new Set(
-      [place.image, ...(place.imageCandidates || []), FALLBACK_IMAGE]
-        .filter((url): url is string => Boolean(url) && !BAD_PLACEHOLDER_IMAGES.has(url))
-        .concat(FALLBACK_IMAGE),
-    )],
-    [place.image, place.imageCandidates],
-  )
-  const [index, setIndex] = useState(0)
-
-  useEffect(() => {
-    setIndex(0)
-  }, [place.id])
-
-  const advanceImage = () => {
-    setIndex((current) => Math.min(current + 1, candidates.length - 1))
-  }
-
-  return (
-    <img
-      key={`${place.id}:${index}`}
-      src={candidates[index]}
-      alt={`${place.name}照片`}
-      className={className}
-      loading={eager ? 'eager' : 'lazy'}
-      decoding="async"
-      referrerPolicy="no-referrer"
-      data-image-fallback={candidates[index] === FALLBACK_IMAGE ? 'true' : 'false'}
-      onLoad={(event) => {
-        if (
-          candidates[index] !== FALLBACK_IMAGE &&
-          (event.currentTarget.naturalWidth < 80 || event.currentTarget.naturalHeight < 80)
-        ) {
-          advanceImage()
-        }
-      }}
-      onError={advanceImage}
-    />
-  )
-}
-
-function MichelinBadge({ award }: { award: string }) {
-  if (award === '3star') return <span className="michelin-badge michelin-star">★★★ 三星</span>
-  if (award === '2star') return <span className="michelin-badge michelin-star">★★ 二星</span>
-  if (award === '1star') return <span className="michelin-badge michelin-star">★ 一星</span>
-  if (award === 'bib_gourmand') return <span className="michelin-badge michelin-bib">必比登</span>
-  return null
-}
-
-function PlaceCard({
-  place,
-  onOpen,
-  favorite,
-  onFavorite,
-  distance,
-}: {
-  place: Place
-  onOpen: () => void
-  favorite: boolean
-  onFavorite: () => void
-  distance?: number
-}) {
-  return (
-    <article className="place-card" onClick={onOpen}>
-      <div className="place-image-wrap">
-        <PlaceImage place={place} className="place-image" />
-        <span className="place-image-scrim" />
-        <span className={`price-tag${place.priceLabel === '免費' ? ' price-free' : ''}`}>{place.priceLabel}</span>
-        <button
-          className={`heart-button ${favorite ? 'is-favorite' : ''}`}
-          onClick={(event) => {
-            event.stopPropagation()
-            onFavorite()
-          }}
-          aria-label={favorite ? '取消收藏' : '加入收藏'}
-        >
-          <Heart size={18} fill={favorite ? 'currentColor' : 'none'} />
-        </button>
-      </div>
-      <div className="place-copy">
-        <h3>{place.name}</h3>
-        <div className="eyebrow">
-          <span>{place.category}</span>
-          <span>・</span>
-          <span>{place.setting}</span>
-        </div>
-        <div className="decision-badges">
-          {place.michelinAward && <MichelinBadge award={place.michelinAward} />}
-          {place.weekendEvent && <span className="event-badge"><CalendarDays size={12} />本週末</span>}
-          {place.priceLabel === '免費' && <span className="tag-pill-free">免費入場</span>}
-          {place.rainyDay && <span className="tag-pill-rain"><Umbrella size={11} />雨天備案</span>}
-          {place.completeness && (
-            <span className={`completeness-badge score-${Math.floor(place.completeness.score / 25)}`}>
-              資訊 {place.completeness.score}%
-            </span>
-          )}
-        </div>
-        <div className="meta-row">
-          <span><MapPin size={14} />{place.city} {place.district}</span>
-          {place.rating !== null ? (
-            <>
-              <span><Star size={14} fill="currentColor" />{place.rating}</span>
-              <span className="reviews">({compactNumber(place.reviews)})</span>
-            </>
-          ) : (
-            <span className="official-data"><Database size={13} />官方資料</span>
-          )}
-        </div>
-        <p>{place.description}</p>
-        <div className="card-footer">
-          <div className="tag-row">
-            <span className="tag-pill-age"><Baby size={13} />{place.ageMin}–{place.ageMax} 歲</span>
-            <span><Clock3 size={13} />{place.duration}</span>
-            {distance !== undefined && (
-              <span className="distance-tag"><LocateFixed size={13} />距離約 {distance < 10 ? distance.toFixed(1) : Math.round(distance)} km</span>
-            )}
-          </div>
-          <span className="card-cta">查看詳情 <Navigation size={13} /></span>
-        </div>
-      </div>
-    </article>
-  )
-}
-
 function App() {
-  const [places, setPlaces] = useState<Place[]>([])
-  const [placeCache, setPlaceCache] = useState<Partial<Record<(typeof regions)[number], Place[]>>>({})
-  const [aiInsights, setAiInsights] = useState<Record<string, AiInsight>>({})
-  const [placesStatus, setPlacesStatus] = useState<'loading' | 'ready' | 'error'>('loading')
-  const [query, setQuery] = useState('')
-  const [region, setRegion] = useState<(typeof regions)[number]>('全部')
-  const [age, setAge] = useState<(typeof ageOptions)[number]['value']>('all')
-  const [setting, setSetting] = useState<(typeof settings)[number]>('全部')
-  const [duration, setDuration] = useState<(typeof durations)[number]>('全部')
-  const [rainyOnly, setRainyOnly] = useState(false)
-  const [eventOnly, setEventOnly] = useState(false)
-  const [restaurantOnly, setRestaurantOnly] = useState(false)
-  const [weather, setWeather] = useState<WeatherSummary | null>(null)
-  const [weatherStatus, setWeatherStatus] = useState<'idle' | 'loading' | 'ready' | 'error'>('idle')
+  const { places, setPlaces, placeCache, setPlaceCache, aiInsights, placesStatus, setPlacesStatus } = usePlaces()
+  const {
+    query, setQuery,
+    region, setRegion,
+    age, setAge,
+    setting, setSetting,
+    duration, setDuration,
+    rainyOnly, setRainyOnly,
+    eventOnly, setEventOnly,
+    restaurantOnly, setRestaurantOnly,
+  } = useFilters()
+  const { weather, weatherStatus, loadWeather } = useWeather()
   const [showFilters, setShowFilters] = useState(false)
   const [selected, setSelected] = useState<Place | null>(null)
-  const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null)
+  const { userLocation, setUserLocation, locationStatus, setLocationStatus, locationMessage, setLocationMessage } = useUserLocation()
   const [mapViewport, setMapViewport] = useState<MapViewport | null>(null)
   const [mapFocusKey, setMapFocusKey] = useState(0)
   const [compactResultsLimit, setCompactResultsLimit] = useState(COMPACT_INITIAL_RESULTS)
@@ -487,8 +315,6 @@ function App() {
   const [osmRestaurants, setOsmRestaurants] = useState<Place[]>([])
   const [osmRestaurantsLoaded, setOsmRestaurantsLoaded] = useState(false)
   const viewportRequestRegion = useRef<RegionName | null>(null)
-  const [locationStatus, setLocationStatus] = useState<'idle' | 'loading' | 'ready' | 'error'>('idle')
-  const [locationMessage, setLocationMessage] = useState('')
   const [activeTab, setActiveTab] = useState<'home' | 'explore' | 'favorites' | 'profile'>('home')
   const [showProfile, setShowProfile] = useState(false)
   const [wizardAge, setWizardAge]           = useState<WizardAgeGroup>('all')
@@ -498,65 +324,13 @@ function App() {
   const [wizardRan, setWizardRan]           = useState(false)
   const [showReportForm, setShowReportForm] = useState(false)
   const [showItinerary, setShowItinerary] = useState(false)
-  const [soundEnabled, setSoundEnabled] = useState(() => localStorage.getItem('holiday-go-where:sound') === 'on')
-  const [clickHistory, setClickHistory] = useState<string[]>(() => {
-    try { return JSON.parse(localStorage.getItem('holiday-go-where:click-history') || '[]') } catch { return [] }
-  })
-  const audioContextRef = useRef<AudioContext | null>(null)
+  const { soundEnabled, playUiSound, toggleSound } = useSound()
+  const [clickHistory, setClickHistory] = useClickHistory()
   const [reportLiked, setReportLiked] = useState(true)
   const [reportNote, setReportNote] = useState('')
   const [reportAmenities, setReportAmenities] = useState<Partial<Record<FamilyAmenityKey, boolean>>>({})
-  const [favorites, setFavorites] = useState<string[]>(() => {
-    try {
-      return JSON.parse(localStorage.getItem('holiday-go-where:favorites') || '[]')
-    } catch {
-      return []
-    }
-  })
-  const [reports, setReports] = useState<Record<string, ParentReport>>(() => {
-    try {
-      return JSON.parse(localStorage.getItem('holiday-go-where:reports') || '{}')
-    } catch {
-      return {}
-    }
-  })
-
-  useEffect(() => {
-    localStorage.setItem('holiday-go-where:favorites', JSON.stringify(favorites))
-  }, [favorites])
-
-  useEffect(() => {
-    localStorage.setItem('holiday-go-where:reports', JSON.stringify(reports))
-  }, [reports])
-
-  useEffect(() => {
-    if (!supabase) return
-    const deviceId = getDeviceId()
-    supabase.from('reports').select('*').eq('device_id', deviceId).then(({ data }) => {
-      if (!data || data.length === 0) return
-      setReports((current) => {
-        const merged = { ...current }
-        for (const row of data) {
-          merged[row.place_id] = {
-            visitedAt: row.visited_at,
-            liked: row.liked,
-            note: row.note,
-            amenities: row.amenities ?? {},
-            updatedAt: row.updated_at,
-          }
-        }
-        return merged
-      })
-    })
-  }, [])
-
-  useEffect(() => {
-    localStorage.setItem('holiday-go-where:sound', soundEnabled ? 'on' : 'off')
-  }, [soundEnabled])
-
-  useEffect(() => {
-    localStorage.setItem('holiday-go-where:click-history', JSON.stringify(clickHistory))
-  }, [clickHistory])
+  const [favorites, setFavorites] = useFavorites()
+  const [reports, setReports] = useReports()
 
   useEffect(() => {
     const media = window.matchMedia('(max-width: 899px), (max-height: 520px)')
@@ -565,36 +339,6 @@ function App() {
     media.addEventListener('change', update)
     return () => media.removeEventListener('change', update)
   }, [])
-
-  const playUiSound = useCallback((kind: 'tap' | 'favorite' | 'open' = 'tap', force = false) => {
-    if (!soundEnabled && !force) return
-    const AudioContextClass = window.AudioContext || (window as typeof window & {
-      webkitAudioContext?: typeof AudioContext
-    }).webkitAudioContext
-    if (!AudioContextClass) return
-    const context = audioContextRef.current || new AudioContextClass()
-    audioContextRef.current = context
-    const now = context.currentTime
-    const oscillator = context.createOscillator()
-    const gain = context.createGain()
-    const frequencies = kind === 'favorite' ? [523, 659] : kind === 'open' ? [392, 523] : [440]
-    oscillator.type = 'sine'
-    oscillator.frequency.setValueAtTime(frequencies[0], now)
-    if (frequencies[1]) oscillator.frequency.exponentialRampToValueAtTime(frequencies[1], now + 0.09)
-    gain.gain.setValueAtTime(0.0001, now)
-    gain.gain.exponentialRampToValueAtTime(0.055, now + 0.012)
-    gain.gain.exponentialRampToValueAtTime(0.0001, now + 0.14)
-    oscillator.connect(gain)
-    gain.connect(context.destination)
-    oscillator.start(now)
-    oscillator.stop(now + 0.15)
-  }, [soundEnabled])
-
-  const toggleSound = () => {
-    const next = !soundEnabled
-    setSoundEnabled(next)
-    if (next) playUiSound('open', true)
-  }
 
   useEffect(() => {
     if (!selected) {
@@ -608,24 +352,6 @@ function App() {
   }, [selected, reports])
 
   useEffect(() => {
-    let active = true
-    import('./generated/places-featured.json')
-      .then((module) => {
-        if (!active) return
-        const featured = module.default as Place[]
-        setPlaces(featured)
-        setPlaceCache({ 全部: featured })
-        setPlacesStatus('ready')
-      })
-      .catch(() => {
-        if (active) setPlacesStatus('error')
-      })
-    return () => {
-      active = false
-    }
-  }, [])
-
-  useEffect(() => {
     if (!navigator.geolocation) return
     navigator.geolocation.getCurrentPosition(
       ({ coords }) => {
@@ -633,15 +359,12 @@ function App() {
         setMapFocusKey((current) => current + 1)
         setLocationStatus('ready')
         setLocationMessage('已依距離重新排列景點，藍點是你的位置。')
-        setWeatherStatus('loading')
-        void fetchWeather(coords.latitude, coords.longitude)
-          .then((summary) => { setWeather(summary); setWeatherStatus('ready') })
-          .catch(() => setWeatherStatus('error'))
+        loadWeather(coords.latitude, coords.longitude)
       },
       () => { /* 使用者拒絕或逾時，靜默略過 */ },
       { enableHighAccuracy: false, timeout: 8000, maximumAge: 30 * 60 * 1000 },
     )
-  }, [])
+  }, [loadWeather, setLocationMessage, setLocationStatus, setUserLocation])
 
   const selectRegion = async (nextRegion: (typeof regions)[number], options: { silent?: boolean } = {}) => {
     if (!options.silent) playUiSound()
@@ -653,25 +376,13 @@ function App() {
       setPlacesStatus('ready')
       setMapFocusKey((current) => current + 1)
       if (nextRegion !== '全部') {
-        setWeatherStatus('loading')
-        void fetchWeather(regionCenters[nextRegion].lat, regionCenters[nextRegion].lng)
-          .then((summary) => {
-            setWeather(summary)
-            setWeatherStatus('ready')
-          })
-          .catch(() => setWeatherStatus('error'))
+        loadWeather(regionCenters[nextRegion].lat, regionCenters[nextRegion].lng)
       }
       return
     }
     if (nextRegion === '全部') return
 
-    setWeatherStatus('loading')
-    void fetchWeather(regionCenters[nextRegion].lat, regionCenters[nextRegion].lng)
-      .then((summary) => {
-        setWeather(summary)
-        setWeatherStatus('ready')
-      })
-      .catch(() => setWeatherStatus('error'))
+    loadWeather(regionCenters[nextRegion].lat, regionCenters[nextRegion].lng)
 
     setPlacesStatus('loading')
     try {
@@ -762,14 +473,7 @@ function App() {
     viewportRequestRegion.current = nextRegion
     setRegion(nextRegion)
     setLocationMessage(`已依地圖中心載入${nextRegion}景點，拖曳或縮放可繼續探索。`)
-    setWeatherStatus('loading')
-    void fetchWeather(nextViewport.center.lat, nextViewport.center.lng)
-      .then((summary) => {
-        if (viewportRequestRegion.current !== nextRegion) return
-        setWeather(summary)
-        setWeatherStatus('ready')
-      })
-      .catch(() => setWeatherStatus('error'))
+    loadWeather(nextViewport.center.lat, nextViewport.center.lng, () => viewportRequestRegion.current === nextRegion)
 
     const cached = placeCache[nextRegion]
     if (cached) {
@@ -789,13 +493,7 @@ function App() {
       .catch(() => {
         if (viewportRequestRegion.current === nextRegion) setPlacesStatus('error')
       })
-  }, [placeCache])
-
-  useEffect(() => {
-    import('./generated/ai-insights.json')
-      .then((module) => setAiInsights(module.default as Record<string, AiInsight>))
-      .catch(() => setAiInsights({}))
-  }, [])
+  }, [placeCache, loadWeather, setLocationMessage, setPlaceCache, setPlaces, setPlacesStatus, setRegion])
 
   useEffect(() => {
     if (!restaurantOnly || osmRestaurantsLoaded) return
@@ -980,7 +678,7 @@ function App() {
     playUiSound('open')
     setSelected(place)
     setClickHistory((prev) => [...prev.slice(-99), place.id])
-  }, [playUiSound])
+  }, [playUiSound, setClickHistory])
 
   const toggleFavorite = (id: string) => {
     playUiSound('favorite')
@@ -1013,13 +711,7 @@ function App() {
         setMapFocusKey((current) => current + 1)
         setLocationStatus('ready')
         setLocationMessage('已依距離重新排列景點，藍點是你的位置。')
-        setWeatherStatus('loading')
-        void fetchWeather(coords.latitude, coords.longitude)
-          .then((summary) => {
-            setWeather(summary)
-            setWeatherStatus('ready')
-          })
-          .catch(() => setWeatherStatus('error'))
+        loadWeather(coords.latitude, coords.longitude)
         document.querySelector('.explore-section')?.scrollIntoView({ behavior: 'smooth' })
       },
       (error) => {
@@ -1492,29 +1184,13 @@ function App() {
           {weatherStatus === 'loading' && <div className="weather-loading">正在取得地區天氣…</div>}
 
           {showFilters && (
-            <div className="advanced-filters">
-              <div>
-                <span className="filter-label"><SunMedium size={16} />空間類型</span>
-                <div className="filter-pills">
-                  {settings.map((item) => (
-                  <button key={item} className={setting === item ? 'active' : ''} onClick={() => setSetting(item)}>
-                    {settingIcons[item]}{item}
-                  </button>
-                ))}
-                </div>
-              </div>
-              <div>
-                <span className="filter-label"><Clock3 size={16} />可用時間</span>
-                <div className="filter-pills">
-                  {durations.map((item) => (
-                  <button key={item} className={duration === item ? 'active' : ''} onClick={() => setDuration(item)}>
-                    {durationIcons[item]}{item}
-                  </button>
-                ))}
-                </div>
-              </div>
-              <button className="clear-button" onClick={clearFilters}>清除條件</button>
-            </div>
+            <FilterSheet
+              setting={setting}
+              duration={duration}
+              onSetting={setSetting}
+              onDuration={setDuration}
+              onClear={clearFilters}
+            />
           )}
 
           <div className="section-heading">
@@ -1658,36 +1334,15 @@ function App() {
       </nav>
 
       {showProfile && (
-        <div className="modal-backdrop profile-backdrop" onClick={() => setShowProfile(false)}>
-          <aside className="profile-sheet" onClick={(event) => event.stopPropagation()}>
-            <button className="modal-close" onClick={() => setShowProfile(false)} aria-label="關閉"><X /></button>
-            <div className="profile-avatar" aria-hidden="true">
-              <Mascot variant="appIcon" className="profile-avatar-img" />
-            </div>
-            <h2>我的親子小檔案</h2>
-            <p>你的收藏與偏好會保存在這支手機裡。</p>
-            {personalityProfile && (
-              <div className="profile-persona">
-                <span className="profile-persona-emoji">{personalityProfile.emoji}</span>
-                <div>
-                  <strong>{personalityProfile.label}</strong>
-                  <span>{personalityProfile.desc}</span>
-                </div>
-              </div>
-            )}
-            <div className="profile-stats">
-              <div><strong>{favorites.length}</strong><span>收藏景點</span></div>
-              <div><strong>{clickHistory.length}</strong><span>探索紀錄</span></div>
-              <div><strong>{age === 'all' ? '全部' : age}</strong><span>孩子年齡</span></div>
-            </div>
-            <button className="profile-action" onClick={() => { setShowProfile(false); openExplore('favorites') }}>
-              <Heart size={18} />查看我的收藏
-            </button>
-            <button className="profile-action secondary" onClick={() => { setShowProfile(false); setShowFilters(true); openExplore('explore') }}>
-              <SlidersHorizontal size={18} />調整家庭偏好
-            </button>
-          </aside>
-        </div>
+        <ProfileDrawer
+          onClose={() => setShowProfile(false)}
+          personalityProfile={personalityProfile}
+          favoritesCount={favorites.length}
+          clickHistoryCount={clickHistory.length}
+          age={age}
+          onViewFavorites={() => { setShowProfile(false); openExplore('favorites') }}
+          onAdjustPreferences={() => { setShowProfile(false); setShowFilters(true); openExplore('explore') }}
+        />
       )}
 
       {selected && (
@@ -1857,46 +1512,17 @@ function App() {
                   </button>
                 )}
                 {showReportForm && (
-                  <div className="report-form">
-                    <div className="report-choice">
-                      <button className={reportLiked ? 'active' : ''} onClick={() => setReportLiked(true)}><ThumbsUp size={13} /> 孩子喜歡</button>
-                      <button className={!reportLiked ? 'active' : ''} onClick={() => setReportLiked(false)}><ThumbsDown size={13} /> 體驗普通</button>
-                    </div>
-                    <strong>這次有看到哪些設施？</strong>
-                    <div className="report-amenities">
-                      {[
-                        ['nursingRoom', '育嬰室'],
-                        ['diaperTable', '尿布台'],
-                        ['familyRestroom', '親子廁所'],
-                        ['accessibility', '無障礙'],
-                        ['parking', '停車'],
-                        ['strollerFriendly', '推車友善'],
-                      ].map(([key, label]) => (
-                        <label key={key}>
-                          <input
-                            type="checkbox"
-                            checked={reportAmenities[key as FamilyAmenityKey] === true}
-                            onChange={(event) => setReportAmenities((current) => ({
-                              ...current,
-                              [key]: event.target.checked,
-                            }))}
-                          />
-                          {label}
-                        </label>
-                      ))}
-                    </div>
-                    <textarea
-                      value={reportNote}
-                      onChange={(event) => setReportNote(event.target.value)}
-                      placeholder="例如：週六下午人很多、推車可走、停車等了 20 分鐘…"
-                      maxLength={240}
-                    />
-                    <div className="report-actions">
-                      <button onClick={() => setShowReportForm(false)}>取消</button>
-                      <button className="primary" onClick={saveReport}>{supabase ? '儲存並同步' : '儲存在這支手機'}</button>
-                    </div>
-                    <small>{supabase ? '回報將同步至雲端，可跨裝置查看。' : '目前回報只保存在此裝置，不會公開上傳。'}</small>
-                  </div>
+                  <ReportForm
+                    reportLiked={reportLiked}
+                    setReportLiked={setReportLiked}
+                    reportAmenities={reportAmenities}
+                    setReportAmenities={setReportAmenities}
+                    reportNote={reportNote}
+                    setReportNote={setReportNote}
+                    synced={Boolean(supabase)}
+                    onCancel={() => setShowReportForm(false)}
+                    onSave={saveReport}
+                  />
                 )}
               </div>
               <div className="detail-section">
