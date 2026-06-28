@@ -727,7 +727,12 @@ function App() {
     return [...ranked.slice(offset), ...ranked.slice(0, offset)].slice(0, 10)
   }, [places, placesStatus])
   const todayInspirationPlaces = useMemo(() => {
-    const source = recommended.length ? recommended : places
+    const source = recommended.length
+      ? [
+          ...recommended,
+          ...places.filter((place) => !recommended.some((featured) => featured.id === place.id)),
+        ]
+      : places
     return [...source]
       .sort((first, second) => (
         (userLocation ? distanceInKm(userLocation, first) - distanceInKm(userLocation, second) : 0) ||
@@ -735,7 +740,7 @@ function App() {
         Number(Boolean(second.familyAmenities)) - Number(Boolean(first.familyAmenities)) ||
         getQualityScore(second) - getQualityScore(first)
       ))
-      .slice(0, 24)
+      .slice(0, 96)
   }, [recommended, places, userLocation])
 
   const nearbyPlaces = useMemo(() => {

@@ -2407,6 +2407,15 @@ p.wizard-reason {
   font-size: 12px;
 }
 
+.weekend-panel-actions {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 7px;
+  flex: 0 0 auto;
+}
+
+.weekend-panel-actions button,
 .weekend-panel-head > button {
   min-height: 38px;
   padding: 0 13px;
@@ -2420,6 +2429,17 @@ p.wizard-reason {
   font-size: 13px;
   font-weight: 760;
   cursor: pointer;
+}
+
+.weekend-panel-actions button:last-child {
+  width: 38px;
+  padding: 0;
+  justify-content: center;
+}
+
+.weekend-panel-actions button:disabled {
+  opacity: 0.42;
+  cursor: not-allowed;
 }
 
 .weekend-panel-head > button:disabled {
@@ -4666,6 +4686,16 @@ p.wizard-reason {
 
   .weekend-panel-head {
     align-items: flex-start;
+  }
+
+  .weekend-panel-actions {
+    gap: 6px;
+  }
+
+  .weekend-panel-actions button {
+    min-height: 36px;
+    padding: 0 10px;
+    font-size: 12px;
   }
 
   .weekend-plan-button {

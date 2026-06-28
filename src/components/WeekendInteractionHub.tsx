@@ -8,6 +8,7 @@ import {
   MapPin,
   Navigation,
   RotateCcw,
+  Shuffle,
   Sparkles,
   Trash2,
   Umbrella,
@@ -280,7 +281,7 @@ export function WeekendInteractionHub({
   onFavorite,
   onOpenPlace,
 }: Props) {
-  const { queue, likedIds, isDone, like, dislike, reset } = useDiscovery(places, userLocation)
+  const { queue, likedIds, isDone, like, dislike, reset, refreshBatch, availableCount } = useDiscovery(places, userLocation)
   const [candidateIds, setCandidateIds] = useState<string[]>(loadCandidateIds)
   const [ejecting, setEjecting] = useState<{ id: string; direction: 'like' | 'dislike' } | null>(null)
   const [showPlan, setShowPlan] = useState(false)
@@ -345,11 +346,21 @@ export function WeekendInteractionHub({
           <div className="weekend-panel-head">
             <div>
               <strong>挑選想去的地方</strong>
-              <small>{likedIds.length ? `已加入 ${likedIds.length} 個靈感` : '看到喜歡的地點就先收進清單'}</small>
+              <small>{likedIds.length ? `已加入 ${likedIds.length} 個・還有 ${availableCount} 個可挑` : `還有 ${availableCount} 個地點可挑`}</small>
             </div>
-            <button onClick={resetAll} aria-label="清空並重新挑選">
-              <RotateCcw size={15} />
-            </button>
+            <div className="weekend-panel-actions">
+              <button
+                onClick={refreshBatch}
+                disabled={!placesReady || availableCount <= topThree.length}
+                aria-label="換一批地點"
+              >
+                <Shuffle size={15} />
+                <span>換一批</span>
+              </button>
+              <button onClick={resetAll} aria-label="清空並重新挑選">
+                <RotateCcw size={15} />
+              </button>
+            </div>
           </div>
 
           {!placesReady ? (
