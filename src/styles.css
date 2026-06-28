@@ -1879,6 +1879,53 @@ p.wizard-reason {
   gap: var(--space-6);
 }
 
+.mobile-sheet-action-placeholder {
+  width: 1px;
+  min-width: 1px;
+}
+
+.load-more-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-4) var(--space-3) var(--space-6);
+  color: var(--color-text-secondary);
+  text-align: center;
+}
+
+.load-more-panel p {
+  margin: 0;
+  color: var(--color-muted);
+  font-size: var(--font-caption);
+  font-weight: 650;
+  letter-spacing: 0.02em;
+}
+
+.load-more-button {
+  min-height: 46px;
+  padding: 0 22px;
+  border: 1px solid rgba(217, 119, 95, 0.22);
+  border-radius: var(--radius-pill);
+  color: var(--color-primary-dark);
+  background: linear-gradient(135deg, rgba(255,252,247,0.96), rgba(255,237,226,0.92));
+  box-shadow: 0 12px 28px rgba(184, 90, 71, 0.12);
+  font-size: 14px;
+  font-weight: 780;
+  cursor: pointer;
+  transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
+}
+
+.load-more-button:hover {
+  transform: translateY(-2px);
+  border-color: rgba(217, 119, 95, 0.38);
+  box-shadow: 0 16px 34px rgba(184, 90, 71, 0.16);
+}
+
+.load-more-button:active {
+  transform: scale(0.98);
+}
+
 .place-card {
   min-width: 0;
   overflow: hidden;

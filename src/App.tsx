@@ -1281,11 +1281,7 @@ function App() {
                   <strong>{mapViewport ? '目前地圖範圍' : activeTab === 'favorites' ? '收藏清單' : '推薦清單'}</strong>
                   <small>{mapAreaLabel}{isCompactResultsView ? `・已顯示 ${visiblePlaces.length} / ${viewportPlaces.length}` : ''}</small>
                 </div>
-                {canLoadMoreResults ? (
-                  <button onClick={() => setCompactResultsLimit((value) => Math.min(value + COMPACT_RESULTS_STEP, viewportPlaces.length))}>
-                    載入更多
-                  </button>
-                ) : <span />}
+                <span className="mobile-sheet-action-placeholder" aria-hidden="true" />
               </div>
               {placesStatus === 'loading' ? (
                 <div className="empty-state loading-state">
@@ -1300,16 +1296,34 @@ function App() {
                   <p>請確認網路後重新整理頁面。</p>
                   <button onClick={() => window.location.reload()}>重新載入</button>
                 </div>
-              ) : visiblePlaces.length ? visiblePlaces.map((place) => (
-                <PlaceCard
-                  key={place.id}
-                  place={place}
-                  onOpen={() => openPlace(place)}
-                  favorite={favorites.includes(place.id)}
-                  onFavorite={() => toggleFavorite(place.id)}
-                  distance={userLocation ? distanceInKm(userLocation, place) : undefined}
-                />
-              )) : (
+              ) : visiblePlaces.length ? (
+                <>
+                  {visiblePlaces.map((place) => (
+                    <PlaceCard
+                      key={place.id}
+                      place={place}
+                      onOpen={() => openPlace(place)}
+                      favorite={favorites.includes(place.id)}
+                      onFavorite={() => toggleFavorite(place.id)}
+                      distance={userLocation ? distanceInKm(userLocation, place) : undefined}
+                    />
+                  ))}
+                  {canLoadMoreResults && (
+                    <div className="load-more-panel">
+                      <p>{visiblePlaces.length} / {viewportPlaces.length}</p>
+                      <button
+                        className="load-more-button"
+                        onClick={() => {
+                          setCompactResultsLimit((value) => Math.min(value + COMPACT_RESULTS_STEP, viewportPlaces.length))
+                          playUiSound('tap')
+                        }}
+                      >
+                        載入更多
+                      </button>
+                    </div>
+                  )}
+                </>
+              ) : (
                 <div className="empty-state">
                   <Mascot variant={activeTab === 'favorites' ? 'camera' : 'thinking'} className="empty-mascot" />
                   <h3>{activeTab === 'favorites' ? '還沒有收藏景點' : '這組條件還沒有景點'}</h3>
