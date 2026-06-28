@@ -8332,9 +8332,7 @@
     "lat": 25.96207,
     "lng": 119.98571,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/189ad6e768224c23b96bc58cae25a915.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "一起@驛站 位於莒光遊客中心旁，用餐環境可以一覽海灘、聚落以及東莒燈塔的絶色美景，有著最美咖啡廳的美稱。餐廳提供新鮮手作麵包、點心、PIZZA、咖啡、飲品以及每日限定異國風味套餐，現作餐點，提早預約。另外可以預約團體包場或外燴活動等事宜。 服務項目：咖啡、輕食、套餐、活動企劃、場地租借",
     "highlights": [
@@ -8384,8 +8382,7 @@
         "官方網站",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000035",
@@ -8406,9 +8403,7 @@
     "lat": 23.5714,
     "lng": 119.5679,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20150306113751639.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "「澎湖餐廳．澎湖668海鮮餐廳」原創於2002年的66西餐廳，擁有6位專業、細心料理的廚師為客人服務，在老闆秉持物美價廉好吃又可口的理念下，每天清晨親自前往第三漁港挑選訂購現撈的生猛海鮮，減少關關中繼商的成本剝奪，以薄利多銷的方式，讓饕客們都可以平價享受到為美味的海鮮料理。「澎湖餐廳．澎湖668海鮮餐廳」原創於2002年的66西餐廳，擁有6位專業、細心料理的…",
     "highlights": [
@@ -8463,8 +8458,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000145",
@@ -8485,9 +8479,7 @@
     "lat": 23.5745922136,
     "lng": 119.5794720521,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20250903172720175815.png",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "如果你也熱愛鬆軟又富有層次感的美食，那你絕不能錯過 天津包料蔥抓餅！這款蔥抓餅不僅擁有千層口感，還有讓人一吃就停不下來的魅力。 【千層鬆軟，口感絕佳】 天津的蔥抓餅，以「鬆到無法立著拍」而聞名，每一口都充滿了餅皮的層次感， 咬下去的時候酥脆與柔軟兼具，完全滿足你的味蕾。而且，他們家的餅不油膩，就算多吃幾張也不會覺得負擔。 【多元口味選擇，滿足每個人】 無論你…",
     "highlights": [
@@ -8543,8 +8535,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002800",
@@ -8565,9 +8556,7 @@
     "lat": 26.17091,
     "lng": 119.92611,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/b5f1fc1580c2473d88707b5c129513bf.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "夫人咖啡館是南竿地區下午茶的首選，也是夫人村最佳的觀景休憩之處，設有餐廳和公共休息區，提供免費WiFi，並可欣賞海景。 建築本體是座近80年的老石屋，咖啡館提供特色飲品、馬祖特色小菜、美味簡餐等餐飲，期望透過老屋空間活化，讓老屋能再次展現光芒，不妨來這裡享受徐徐海風和浪濤聲，度過美好午後時光吧！ 服務項目：輕食、午餐、下午茶、咖啡、甜點",
     "highlights": [
@@ -8617,8 +8606,7 @@
         "官方網站",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000023",
@@ -8639,9 +8627,7 @@
     "lat": 23.6118,
     "lng": 119.5145,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20150305094244913.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "澎湖可口冰城以有刺總統冰聞名,運用各式澎湖名特產天然野生植物如仙人掌,研發富含營養素之冰品,多家媒體報章雜誌報導,總統先生也來嚐鮮,另設澎湖名特產品展售澎湖可口冰城以有刺總統冰聞名,運用各式澎湖名特產天然野生植物如仙人掌,研發富含營養素之冰品,多家媒體報章雜誌報導,總統先生也來嚐鮮,另設澎湖名特產品展售 萬物齊漲，製冰原物料平均漲幅達80%，為感謝遠道來本店…",
     "highlights": [
@@ -8697,8 +8683,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000051",
@@ -8719,9 +8704,7 @@
     "lat": 23.56754,
     "lng": 119.56813,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140917145425016.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "澎湖本地最老字號的PUB，道地的調酒，正點的裝潢，加上親切活潑又開朗的服務人員，還有MUSIC！旅遊後的夜晚，讓心靈再一次釋放於不同的次元。澎湖本地最老字號的PUB，道地的調酒，正點的裝潢，加上親切活潑又開朗的服務人員，還有MUSIC！旅遊後的夜晚，讓心靈再一次釋放於不同的次元。 推薦：絕對掛、麻辣肥腸",
     "highlights": [
@@ -8777,8 +8760,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000029",
@@ -8799,9 +8781,7 @@
     "lat": 23.566274,
     "lng": 119.569085,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140917145312317.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "「印地安燒烤海鮮」由一對澎湖年輕夫婦經營，為改變大眾對澎湖海鮮昂貴的印象，訴求平價，以自行裝潢、買多少賣多少的方式經營外，也不招攬團體遊客。「印地安燒烤海鮮」由一對澎湖年輕夫婦經營，為改變大眾對澎湖海鮮昂貴的印象，訴求平價，以自行裝潢、買多少賣多少的方式經營外，也不招攬團體遊客。",
     "highlights": [
@@ -8857,8 +8837,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002845",
@@ -8879,9 +8858,7 @@
     "lat": 26.16029,
     "lng": 119.91906,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/ae90e21f5d9f448aba599761a72c1873.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "位於馬祖村，緊鄰媽祖宗教園區，店面寬闊且產品種類豐富，開業近30年的時間，擁有各種類品項的馬祖特產，也經營自有品牌，店內亦販售馬祖特色酒品，以及馬祖酒廠早期酒類商品，深受饕客喜愛。 合歡特產店以最平實的價格、最親切的態度，以及最豐富的特產知識與經驗來服務消費者，讓每位消費者都可以在這裡找到自己心目中的馬祖紀念商品，將馬祖的旅遊記憶和在地滋味一起打包回家。 服…",
     "highlights": [
@@ -8932,8 +8909,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000044",
@@ -8954,9 +8930,7 @@
     "lat": 23.57237,
     "lng": 119.56839,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140917144044975.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "本餐廳在澎湖為餐飲界招牌老店之一，並榮獲優良餐飲，做的是澎湖最道地最傳統的風味菜，價錢公道，經濟實惠。本餐廳在澎湖為餐飲界招牌老店之一， 並榮獲優良餐飲,做的是澎湖最道地最傳統的風味菜， 價錢公道,經濟實惠， 菜色符合色、香、味具全,具有健康概念。 提供道地澎湖海鮮，經濟小吃，並有包辦團體會餐,喜慶宴客，到府外燴服務!",
     "highlights": [
@@ -9011,8 +8985,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002842",
@@ -9033,9 +9006,7 @@
     "lat": 26.15743,
     "lng": 119.95252,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/bd885dc9a97f4fe58dbe30e913616e1a.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "「兵兵友禮」會在馬祖，是一個奇妙的緣份，最初老闆娘只是一個「阿兵妹」，來到馬祖眷探後，愛上了馬祖的美、靜與優閒，與家人一番溝通後，決定了它的成立。從退伍到落地生根，直到現在仍依然深愛著這座不大卻很多情的島嶼，用心開發馬祖的紀念品，就是希望每個來到馬祖的遊客或過客，都能在生活中回憶起馬祖的美。專營：馬祖紀念品、特產、馬酒、禮贈品設計開發（含各種帽子、T-恤、排…",
     "highlights": [
@@ -9086,8 +9057,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002819",
@@ -9108,9 +9078,7 @@
     "lat": 25.95743,
     "lng": 119.97709,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/0bfcc2f1cbee440bb3f5f5cb4032addf.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "在東莒想喝冰涼飲品，就要來「找茶冰品店」喝人氣仙草奶凍，滑口仙草配上濃厚奶香，除了是東莒島上有名的冷飲，更紅遍全馬祖；除了仙草奶凍，店內的珍珠類飲品也很受歡迎，老闆堅持珍珠每日現煮，確保新鮮品質。 店內還有不少關於東莒的旅遊資訊與文宣品，歡迎遊客把「找茶」當成遊東莒的第一站，尋覓更多東莒的好玩秘境！",
     "highlights": [
@@ -9161,8 +9129,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003215",
@@ -9183,9 +9150,7 @@
     "lat": 26.16345,
     "lng": 119.95276,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/a278630ed285403c92820ef5a231ec59.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "由古厝改建而成的「依嬤的店」，提供馬祖傳統風味佳餚套餐，是當地人也推薦的老店！「依嬤」是馬祖話「奶奶」的意思，店面外觀是當地傳統建築特有的石砌房屋，店內更是滿滿的古宅特色。「風味套餐」以少量多樣的方式，讓遊客品嚐在地美食，雖份量不多，卻十分有飽足感。",
     "highlights": [
@@ -9236,8 +9201,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002848",
@@ -9258,9 +9222,7 @@
     "lat": 26.15636,
     "lng": 119.95196,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/8093eb3cc4e94d228ed96ed0f0c3ef33.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "兩岸特產藝品中心位於縣政府所在地的南竿鄉介壽村，店面座落在最熱鬧的介壽廣場，曾經榮獲2003年、2007年、2009年馬祖酒廠銷售冠軍，獲頌多面榮譽獎牌，是地區官兵和來訪遊客採購馬祖特產的最佳選擇。 店面供應各式馬祖特產、馬祖酒廠與東引酒廠各式名酒、大黃魚禮盒、特大黃魚、黃魚乾、魚麵、馬祖酥、糯米醋等，貨物齊全，應有盡有。",
     "highlights": [
@@ -9311,8 +9273,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000021",
@@ -9333,9 +9294,7 @@
     "lat": 23.657406,
     "lng": 119.555274,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20150211084352233.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "澎湖仙人掌冰創始店，易家仙人掌冰，原汁原味，冰涼中的酸甜滋味，帶給您最好的澎湖夏日美味。澎湖仙人掌冰創始店，易家仙人掌冰，原汁原味，冰涼中的酸甜滋味，帶給您最好的澎湖夏日美味。 這是仙人掌冰的發明人喔，他們的冰，真的是道道地地，每一口冰，都可以讓你吃到澎湖豔夏的滋味，還有老闆真實誠懇的心意。",
     "highlights": [
@@ -9391,8 +9350,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003186",
@@ -9413,9 +9371,7 @@
     "lat": 26.2245753,
     "lng": 119.9982607,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/7bd5b5e511134634aaf1742879be039c.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "金魚水手作坊經營理念是以馬祖在地元素出發，手工製作馬祖在地料理如：馬祖魚餃、馬祖手工魚丸、馬祖魚麵、潤飯米時、苞當米時、黃金地瓜餃、老酒麵線、鼎邊糊、紅糟炒飯、紅糟雞塊、紅糟鰻魚、紫菜酥、馬祖摃麵、扁肉湯、馬祖漢堡、老酒煎蛋、馬祖時疏、淡菜、海瓜子及當令海產等馬祖美食；及結合馬祖閩東語、馬祖諺語、馬祖歌謠、馬祖詩句及鳥蟲體書法藝術字，期盼觀光客藉由馬祖美食深…",
     "highlights": [
@@ -9466,8 +9422,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003201",
@@ -9488,9 +9443,7 @@
     "lat": 26.36753,
     "lng": 120.48849,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/2f3461ea53b74bc4ab3da93092217114.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "在成為荇菜廚房之前，長堤是間保有80年代風情、主打西式簡餐的咖啡屋，隨著小島消費者結構的改變，蔡家日常的私房菜成了顧客們指定的桌上佳餚，秉持著「來東引吃到真正的東引菜」，2017年正式以「荇菜廚房」取代「咖啡屋」。 店內主打蔡家私房菜的無菜單料理，內部裝潢精緻舒適，午餐、晚餐不同氛圍，但美味不變，想品嘗東引家常料理的溫馨，就來「長堤荇菜廚房」。 備註：無菜單…",
     "highlights": [
@@ -9540,8 +9493,7 @@
         "官方網站",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002825",
@@ -9562,9 +9514,7 @@
     "lat": 26.15452,
     "lng": 119.95526,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/2dc162785a6d49e4bc70e3ac51edf0cc.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "位於介壽村獅子市場2樓的「阿妹的店」是馬祖著名的鼎邊糊餐廳，鼎邊糊是福州人的傳統飲食，把米漿糊在高湯鍋邊加熱煮熟，米糊受熱熟透後鏟至高湯中，就成了一碗鮮美的鼎邊糊，是難得的道地特殊料理。 服務項目：鼎邊糊、燕餃 連絡電話：0836-26375",
     "highlights": [
@@ -9614,8 +9564,7 @@
         "官方網站",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000098",
@@ -9636,9 +9585,7 @@
     "lat": 23.52627,
     "lng": 119.56774,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "※ 因店家每週公休時間不固定，建議民眾前往參訪前，先至店家的官方Facebook粉絲專頁確認當週營業狀態，以免現場撲空影響行程唷~ 時咖啡 SHILI CAFE 我們座落在嵵裡沙灘內，隱約的藏身在澎湖特殊的洗石子建築內。 復古的外觀，小清新的裝修，是來嵵裡沙灘不能錯過的小小咖啡店。 來找我們喝一杯 交個朋友吧",
     "highlights": [
@@ -9693,8 +9640,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003155",
@@ -9715,9 +9661,7 @@
     "lat": 26.1554823,
     "lng": 119.9513411,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/efff956c577143f58df93991836e15ce.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "馬祖小柒 Z.O 咖啡·市場店座落於介壽獅子市場二樓，是旅客與在地居民最喜愛的早晨休憩角落。店內氛圍溫馨，提供香醇現煮咖啡、輕食與甜點，讓人能在市集熱鬧氛圍中享受片刻放鬆。無論是等船前的小憩、逛市場時的中繼站，或是單純想喝杯好咖啡，這裡都是不可錯過的馬祖小店。",
     "highlights": [
@@ -9767,8 +9711,7 @@
         "官方網站",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003111",
@@ -9789,9 +9732,7 @@
     "lat": 26.1545215,
     "lng": 119.9552627,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/7db612f059714db889a8958000fdeed7.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "本店位在縣府所在地的南竿鄉介壽村，坐落於7-11便利商店隔壁，前方是山隴廣場，停車方便，公車總站就在對面，交通便利，是遊客採購馬祖特產的最佳選擇。 店面供應各式馬祖特產、馬祖酒品與東引酒品、魚麵、紅糟、紫菜、馬祖酥、芙蓉酥、八八口酥、糯米醋及冷凍黃魚、魚丸、紅糟雞、紅糟肉、紅糟鰻魚、地瓜餃等，貨物齊全，並提供代客郵寄及宅配到府等貼心服務。 本店老闆娘陳愛珍在…",
     "highlights": [
@@ -9841,8 +9782,7 @@
         "官方網站",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003112",
@@ -9863,9 +9803,7 @@
     "lat": 26.2244823,
     "lng": 119.9942867,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/00f7c24112204ac0befbad45088af1e3.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "馬祖農漁產品企業社位於北竿橋仔村，由連江縣政府輔導成立於民國91年至今將要邁入第九年，我們寫下了許多記錄，馬祖第一家採用閩東建築風格設計之門市非常特別是旅客團體客必逛的景點，我們的馬祖黃魚知名度第一，凡是吃過的人還會再三回味哦，另外店內提供現炸黃魚及既食產品試吃是別家店所沒有的，也曾有多家電視台八大、三立等來採訪拍攝，今年我們也和長榮立榮航空合作線上購速配，…",
     "highlights": [
@@ -9916,8 +9854,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002846",
@@ -9938,9 +9875,7 @@
     "lat": 26.15794,
     "lng": 119.94441,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/4ef5751bb3c74b8080a06d12fd3644c8.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "40年來仍舊秉持著初衷，以最真誠的手工，呈現極接地氣的味道，舉凡起馬酥（馬祖酥）、芙蓉酥、地瓜糖等手工名產。 用心製作過程繁瑣也堅持遵循古法，自製自產的各式名產，頂好依金那名產因而遠近馳名。標榜在地精神的承傳，客戶們及鄉親間的支持與讚譽，使頂好名產的盛名綿延不斷，素常四鄉五島鄉民前往訂購之餘，台、澎、金、馬公司行號亦大批採購贈送員工、拜訪客戶之禮品。",
     "highlights": [
@@ -9991,8 +9926,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000033",
@@ -10013,9 +9947,7 @@
     "lat": 23.582481,
     "lng": 119.606264,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140916170844650.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "朝昔廬位於澎湖市區和環島公路交界點，外觀看起來古色古香，以鐵製菜盤組成的創意招牌，引人興趣；內部擺放老式挫冰機、古董海報或是早期的彈珠檯，讓這家特色食堂從外觀到內部陳設，充滿濃郁古早味。朝昔廬的每樣菜色，都結合了當地傳統食材做發揮，加上老闆的創意，打造出獨有的美味料理，如完美組合了糯米綿密口感和大蛤鮮味的大蛤米，將糯米包入大蛤內送上桌，讓人忍不住一個接一個吃…",
     "highlights": [
@@ -10071,8 +10003,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000116",
@@ -10093,9 +10024,7 @@
     "lat": 23.57047,
     "lng": 119.57124,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "瑪咖朵披薩Mercato Pizza 來自熱情的澎湖，提供優質的海鮮披薩，也是全台灣第一間雲朵披薩專賣店。 2019年老闆Liya親赴義大利拿坡里學習新潮流派「雲朵餅皮」，傳承自「傳統拿坡里披薩」的薄餅皮，以義大利麵粉、老麵製作，經兩次發酵、三道工序，餅皮加上滿滿的精選食材，放進義大利進口烤箱烤出豹紋般的特色餅皮，披薩餅皮空氣感十足，鬆軟Q彈超有嚼勁。 我們…",
     "highlights": [
@@ -10151,8 +10080,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003203",
@@ -10173,9 +10101,7 @@
     "lat": 26.160198,
     "lng": 119.9513711,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/7a3970ba031746018afc7fdf81319520.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "福來舖原為臺北天母的人氣個人麻辣鍋店，由馬祖返鄉青年創立，以傳承家鄉味與創新風味為理念。店內提供多款湯底，包括麻辣、酸白菜、柴魚焙茶等特色口味，也結合馬祖在地海味，加入淡菜、家常麵等限定食材。小鍋現煮、份量充足，是深受在地與遊客喜愛的特色鍋物餐館。",
     "highlights": [
@@ -10226,8 +10152,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000147",
@@ -10248,9 +10173,7 @@
     "lat": 23.5647680618,
     "lng": 119.5865473367,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20250909093209603428.png",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "「潮境」寓意海潮交會，象徵融合與層次，2021年開幕，由一群熱愛料理的年輕人經營，結合創意與澎湖新鮮海味，受型男大主廚拍攝肯定。我們經常到世界各地汲取創作靈感，菜單隨季節更換，2人就能享受的精緻合菜料理。 ★合菜形式出餐，同桌需選同價位 ★每人 $600 / $900 / $1200（2人就可上菜） ★$1200 套餐最晚需前1天預訂，現場恕無法提供 ★不吃…",
     "highlights": [
@@ -10306,8 +10229,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000104",
@@ -10328,9 +10250,7 @@
     "lat": 23.58125,
     "lng": 119.51104,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "我們在座落於西嶼鄉的寧靜小漁村-赤馬村, 老闆有學做花枝丸五年以上的經驗. 因為堅持使用在地食材, 因此創立了. 製作花枝丸, 從剝皮到製作成產品程序複雜, 秉持著要給客人最天然最新鮮最道地的味道. 全程手工處理, 整枝花枝從頭到腳從裡到外都不浪費，每個部分都是美味的食材，絕不添加進口花枝和味精來增加口感。",
     "highlights": [
@@ -10386,8 +10306,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002796",
@@ -10408,9 +10327,7 @@
     "lat": 26.15655,
     "lng": 119.95125,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/0d94bbc7c1644f79a5ddd1928acc16ed.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/food-court.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#7e8bd6",
     "description": "位在麗堤民宿一樓的醉仙樓，寬敞又氣派，還設有三間包廂，讓遊客能盡情把酒言歡；餐廳主廚原先是一位旅臺鄉親，返回原鄉南竿定居後，在介壽商場開設一家兼具臺菜與福州菜特色的美食餐廳，深受各界人士喜愛。 餐廳菜色隨著時令海鮮經常更換，近年也開始提供「馬祖風味旅遊套餐」，八菜一湯，以馬祖時令海鮮、貝類、酒糟調配為主要特色，讓遊客能體驗具有異國風味的馬祖美食，留下難忘回憶…",
     "highlights": [
@@ -10460,8 +10377,7 @@
         "官方網站",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Attraction_A15010200H_000044",
@@ -10554,9 +10470,7 @@
     "lat": 26.2244823,
     "lng": 119.9942867,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/c06413bbf468421f9f5f6d06833de954.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "主打的古早味糕餅，如馬祖酥、芙蓉酥、蘿蔔絲餅等，都是店內熾手可熱的商品。 老闆自豪的說，島上所供應的糕餅都是出自於他們家產品，是北竿的特產也是最佳伴手禮，更是報章雜誌及媒體爭相報導的店家。 無法到現場購買嗎?沒關係，店家提供代寄服務，只要一通電話即可寄到，既方便又快速。",
     "highlights": [
@@ -10607,8 +10521,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002863",
@@ -10629,9 +10542,7 @@
     "lat": 26.22477,
     "lng": 119.99777,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/b9dee890bdb142e597ed450d19de0c05.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "寶島特產藝品釣具行特產、藝品、刻印、釣具、馬酒銷售、代客托運、野生海芙蓉、批發零售 商店授證，希望提供旅客「開心來、安心買、買個夠」的優質觀光購物環境。 為滿足遊客對地方特產的需求，很多地方性的農會也會把各地的農產精品放在這些經過篩選的商店裏供遊客選購。 特產品項超過4,000種，讓人如入寶山，流連忘返；車亭藝品涵蓋範圍廣泛，國內外產品一應俱全。",
     "highlights": [
@@ -10682,8 +10593,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002797",
@@ -10704,9 +10614,7 @@
     "lat": 26.14777,
     "lng": 119.93791,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/27a4d1b5ec624810911f3f9fca6b9cee.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "想吃到平價好吃的道地海鮮料理，不妨來儷儐飲食店吧！位在南竿清水村的儷儐餐廳食材新鮮、餐點美味、價格公道，因此不只受到觀光客喜愛，也獲得不少在地馬祖人的肯定。 餐飲以道地的馬祖地方傳統菜餚為特色，以新鮮海產及閩東風味料理為主，儷儐飲食店以快炒見長，適合散客（不拘人數）及團體消費。曾受多家旅遊報章雜誌青睞報導，為國民旅遊卡特約店，為避免等候，建議提早訂位。",
     "highlights": [
@@ -10756,8 +10664,7 @@
         "官方網站",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000008",
@@ -10778,9 +10685,7 @@
     "lat": 23.1972420617,
     "lng": 119.4211192547,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140904171606864.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "漁村餐廳提供遊客海鮮合菜的選擇，也可提供人數少的客人簡單炒飯、炒麵料理。推薦菜色：三杯小管、涼拌珠螺、海膽炒蛋漁村餐廳提供遊客海鮮合菜的選擇，也可提供人數少的客人簡單炒飯、炒麵料理。推薦菜色：三杯小管、涼拌珠螺、海膽炒蛋，旺季及假日時段客人較多，人數較多建議先預約，以免久候",
     "highlights": [
@@ -10831,8 +10736,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000052",
@@ -10853,9 +10757,7 @@
     "lat": 23.565829,
     "lng": 119.568688,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20150306144225448.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "明亮舒適的川菜海鮮餐廳，熟客聚餐的最愛。沒有海產擔的擁擠嘈雜，卻有同樣生猛新鮮的澎湖海味。平實的價格，明確的標價，讓您可以安心的享用一餐豐富的澎湖美味。明亮舒適的川菜海鮮餐廳，熟客聚餐的最愛。沒有海產攤的擁擠嘈雜，卻有同樣生猛新鮮的澎湖海味。平實的價格，明確的標價，讓您可以安心的享用一餐豐富的澎湖美味。",
     "highlights": [
@@ -10906,8 +10808,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000040",
@@ -10928,9 +10829,7 @@
     "lat": 23.56341,
     "lng": 119.56493,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140917143353559.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "我家牛排位於馬公港務大樓旁,西餐平價化及多元選擇,樣樣用心料理回饋大眾;精巧佈置,讓您享有高品質服務,溫馨與舒適的體驗全面舒適的用餐環境。我家牛排位於馬公港務大樓旁,西餐平價化及多元選擇,樣樣用心料理回饋大眾;精巧佈置,讓您享有高品質服務,溫馨與舒適的體驗全面舒適的用餐環境。",
     "highlights": [
@@ -10982,8 +10881,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000050",
@@ -11004,9 +10902,7 @@
     "lat": 23.570084,
     "lng": 119.569412,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20171123120042948043303.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "道地澎湖生猛海鮮，如石老魚頭炒酸菜、紅燒象魚干豆腐、珠螺涼拌等等各式海鮮小吃應有盡有，來澎湖絕對不能錯過的海鮮餐廳，歡迎您的光臨。道地澎湖生猛海鮮，如石老魚頭炒酸菜、紅燒象魚干豆腐、珠螺涼拌等等各式海鮮小吃應有盡有，來澎湖絕對不能錯過的海鮮餐廳，歡迎您的光臨。",
     "highlights": [
@@ -11057,8 +10953,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000042",
@@ -11079,9 +10974,7 @@
     "lat": 23.56448,
     "lng": 119.587,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140917115525475.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "花菜干是以澎湖傳統古厝重新打造成特色餐廳，正廳左右各有相對稱的獨立用餐空間，屋外則是咾咕石的庭院圍牆，極為古樸。花菜干是以澎湖傳統古厝重新打造成特色餐廳，正廳左右各有相對稱的獨立用餐空間，屋外則是咾咕石的庭院圍牆，極為古樸。 推薦菜色：小管煎蛋、石鮔排骨湯、酸瓜炒肉、悶魚醬",
     "highlights": [
@@ -11132,8 +11025,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000028",
@@ -11154,9 +11046,7 @@
     "lat": 23.563869,
     "lng": 119.563651,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140917113410868.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "澎湖漁鄉代代相傳的家鄉美食，和海鮮脫不了關係， 不管海鮮饕客，還是美食主義者，來到澎湖，除了享受原味的海鮮大餐之外， 更別忘了嚐嚐具有當地風味的家常菜餚。澎湖漁鄉代代相傳的家鄉美食，和海鮮脫不了關係， 不管海鮮饕客，還是美食主義者，來到澎湖，除了享受原味的海鮮大餐之外， 更別忘了嚐嚐具有當地風味的家常菜餚。 推薦菜色：紅蟳粥、蜜汁雞腿、金瓜炒米粉、生吃海膽",
     "highlights": [
@@ -11207,8 +11097,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000014",
@@ -11229,9 +11118,7 @@
     "lat": 23.5693,
     "lng": 119.57302,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140917113230728.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "在澎湖吃外燴辦桌幾乎就是吃阿東的辦桌菜色，阿東開了餐廳，份量十足，絕對足以應付一桌客人撐漲肚子。在澎湖吃外燴辦桌幾乎就是吃阿東的辦桌菜色，阿東開了餐廳，份量十足，絕對足以應付一桌客人撐漲肚子。 推薦菜色：冷盤、清蒸石斑、龍蝦三明治、絲瓜丸子湯",
     "highlights": [
@@ -11282,8 +11169,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000025",
@@ -11304,9 +11190,7 @@
     "lat": 23.65351,
     "lng": 119.5177,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20150629150715851.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "仙人掌果汁做成的果肉果醬，冰涼後再加入碎冰，上頭再有一球仙人掌冰淇淋，就是一杯清流可口的仙人掌冰，紫紅色的視覺媚惑，冰涼中的酸甜滋味，令人久久難忘回味無窮。仙人掌果汁做成的果肉果醬，冰涼後再加入碎冰，上頭再有一球仙人掌冰淇淋，就是一杯清涼可口的仙人掌冰，紫紅色的視覺媚惑，冰涼中的酸甜滋味，令人久久難忘回味無窮。",
     "highlights": [
@@ -11358,8 +11242,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000010",
@@ -11380,9 +11263,7 @@
     "lat": 23.57063,
     "lng": 119.57746,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20171123145953820987213.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "阿霜料理的海鮮講求原味，沒有華麗的裝飾與添加香料，希望讓每位上門的客人吃到道地的澎湖海鮮料理。推薦菜色：沙拉小管、貝殼湯、酸瓜魚阿霜料理的海鮮講求原味，沒有華麗的裝飾與添加香料，希望讓每位上門的客人吃到道地的澎湖海鮮料理。 推薦菜色：沙拉小管、貝殼湯、酸瓜魚",
     "highlights": [
@@ -11434,8 +11315,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000002",
@@ -11456,9 +11336,7 @@
     "lat": 23.57093,
     "lng": 119.57245,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "美德的麵包種類繁多、蛋糕樣式多變，加上不斷創新的口味，讓美德在近年競爭激烈的麵包市場中，仍舊保有不敗地位。美德的麵包種類繁多、蛋糕樣式多變，加上不斷創新的口味，讓美德在近年競爭激烈的麵包市場中，仍舊保有不敗地位。 營業時間：08:00─22:00 電話:886-6-9263440 地址:澎湖縣馬公市中華路74號",
     "highlights": [
@@ -11510,8 +11388,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000015",
@@ -11532,9 +11409,7 @@
     "lat": 23.567967,
     "lng": 119.567017,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20150305094437350.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "店家每天選用新鮮肥腴的土魠魚，添加香料醃製後，裹上番薯粉現炸，呈現香酥馨熱的口感；之後再盛入由扁魚、烏醋、高麗菜等調成的清甜羹湯即成。店家每天選用新鮮肥腴的土魠魚，添加香料醃製後，裹上番薯粉現炸，呈現香酥馨熱的口感；之後再盛入由扁魚、烏醋、高麗菜等調成的清甜羹湯即成。",
     "highlights": [
@@ -11586,8 +11461,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000012",
@@ -11608,9 +11482,7 @@
     "lat": 23.65714,
     "lng": 119.55552,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140912160438911.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "推薦菜色：海鮮炒麵、炒絲瓜、涼拌鐘螺、小管沙拉、海膽炒蛋、酸菜(石老)頭榕園小吃部位於通梁古榕樹往跨海大橋的小路旁，小小的店面卻已經有26年歷史。 用料實在、價錢公道。 推薦菜色：海鮮炒麵、炒絲瓜、涼拌鐘螺、小管沙拉、海膽炒蛋、酸菜(石老)頭。",
     "highlights": [
@@ -11662,8 +11534,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000038",
@@ -11684,9 +11555,7 @@
     "lat": 23.56947,
     "lng": 119.56789,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20150306163421537.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "龍星餐廳，創立於民國83年，為澎湖當地著名的宴會餐廳，亦是十二年之老店，師傅是總鋪料理的老手，提供的各式菜色既道地又好吃，培養了不少老顧客，店家也將多年的老舊裝潢重新改變，有老店新開的味道，希望以全新裝潢吸引更多客人。龍星餐廳，創立於民國83年，為澎湖當地著名的宴會餐廳，亦是十二年之老店，師傅是總鋪料理的老手，提供的各式菜色既道地又好吃，培養了不少老顧客，店…",
     "highlights": [
@@ -11737,8 +11606,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000019",
@@ -11759,9 +11627,7 @@
     "lat": 23.66511,
     "lng": 119.6001,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140911152951787.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "以海鮮合菜為主，由於靠赤崁碼頭，漁獲相當的多，所以在價格上非常的便宜，不過夏天時由於團體客人頗多，散客如果要在此吃飯建議要事先預約。以海鮮合菜為主，由於靠赤崁碼頭，漁獲相當的多，所以在價格上非常的便宜，不過夏天時由於團體客人頗多，散客如果要在此吃飯建議要事先預約。",
     "highlights": [
@@ -11813,8 +11679,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000140",
@@ -11835,9 +11700,7 @@
     "lat": 23.65144,
     "lng": 119.6037,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20240726170642176383.jpeg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "來到澎湖必去的節目(綜藝新時代、花甲少年)及網紅推薦餐廳,以美式手抓海鮮崛起的【鮮雅圖】千萬別錯過!起源自美國南方港口的海鮮吃法,老闆將道地的美式海鮮飲食方式引進澎湖,特聘台北五星級飯店主廚,現點現做,堅持提供最新鮮的餐點, 烹飪入味的海鮮裝入桶子直接倒在客人桌上享用,豪邁的手抓吃法正是鮮雅圖的特色,饕客們都直呼「吃得好過癮!」。 店內異國風格設計,熱情橘黃…",
     "highlights": [
@@ -11888,8 +11751,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000046",
@@ -11910,9 +11772,7 @@
     "lat": 23.568452,
     "lng": 119.566998,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140910171531024.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "位於文康商圈,有別於一般中式傳統早餐店,首度將中式傳統燒餅及西式早點作完美結合,水缸烘烤,特殊燒餅做法,脆中帶軟,口感極佳,並可搭配成中西式早點喲!!本店位於文康商圈,有別於一般中式傳統早餐店,首度將中式傳統燒餅及西式早點作完美結合,水缸烘烤,特殊燒餅做法,脆中帶軟,口感極佳,並可搭配成中西式早點喲!!",
     "highlights": [
@@ -11964,8 +11824,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002799",
@@ -11986,9 +11845,7 @@
     "lat": 26.15826,
     "lng": 119.94506,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/c5404732fffc46378e75a32c822af406.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "九榕閣餐廳鄰近南竿福澳港不遠處，由石砌與木造牆面搭起的古色古香外觀別有一番風情，除了復古建築造型，也能在這吃到在地馬祖風味料理，也是許多遊客的口袋名單之一。",
     "highlights": [
@@ -12039,8 +11896,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002821",
@@ -12061,9 +11917,7 @@
     "lat": 26.16031,
     "lng": 119.91957,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/5a8d7597a9b442f7bcdf6693beef2d35.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "力安複合式餐坊的前身是一間簡餐坊，為了提升餐飲多元化，融入了新元素，將其改為複合式經營方式，餐飲項目多，其中小火鍋是力安的主力強棒。 服務項目：快餐、燴飯、麵類、小火鍋、其他。",
     "highlights": [
@@ -12114,8 +11968,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002822",
@@ -12136,9 +11989,7 @@
     "lat": 26.16003,
     "lng": 119.91899,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/4330797f7bcb401ea355d4ce9b954180.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/food-court.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "大眾飲食店為馬港美食街道地的風味小吃之一，1978年營業至今的老店，店內沒有華麗裝潢，就像一般住家，櫃台後的牆面擺設各式紀念酒，非常特別。菜色以馬祖當地食材和特色料理為主，許多遊客慕名而來，常常客滿。",
     "highlights": [
@@ -12189,8 +12040,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000065",
@@ -12211,9 +12061,7 @@
     "lat": 23.52226,
     "lng": 119.60095,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "小島上的那些小事 有喝的有吃的。 還有一起走過的夏天。 不定期公休。 預約電話0933868639。0919035095",
     "highlights": [
@@ -12270,8 +12118,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002808",
@@ -12292,9 +12139,7 @@
     "lat": 26.36703,
     "lng": 120.48969,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/fa353366f1d94b83ab44a6a88691c004.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "今友緣客棧老闆的好手藝、高CP值，連在地人都十分捧場，這裡的菜色多變、口味道地、價格又平實，來東引，想一次品嘗在地好料，來今友緣就對了！",
     "highlights": [
@@ -12345,8 +12190,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000045",
@@ -12367,9 +12211,7 @@
     "lat": 23.56537,
     "lng": 119.56753,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140917145713111.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "澎湖歷史最老的咖啡館, 比台北市頗負盛名的老樹咖啡還早了二十年, 雋永的懷舊氣質,讓您享受香醇咖啡及優美名曲。澎湖歷史最老的咖啡館, 比台北市頗負盛名的老樹咖啡還早了二十年, 雋永的懷舊氣質,讓您享受香醇咖啡及優美名曲。",
     "highlights": [
@@ -12424,8 +12266,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002661",
@@ -12446,9 +12287,7 @@
     "lat": 25.95676,
     "lng": 119.97671,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/ffea7f1d00a5477c90e65db8ad13dbf8.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "「巧屋餐廳」位在船老大民宿內，餐點最大特色就是新鮮健康、無菜單的美味料理，東莒海域漁產種類豐富加上用心栽種的有機蔬果，平均一個人只要300元左右的預算就可品嘗到海味滿點、健康美味的豐盛大餐。",
     "highlights": [
@@ -12499,8 +12338,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000020",
@@ -12521,9 +12359,7 @@
     "lat": 23.65631,
     "lng": 119.55709,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20171030182204059723860.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "澎湖仙人掌冰開業至今深受本地人喜愛， 觀光客更聞名蜂踴而來， 各種澎湖名產原料批發零售澎湖仙人掌冰開業至今深受本地人喜愛， 觀光客更聞名蜂踴而來， 各種澎湖名產原料批發零售",
     "highlights": [
@@ -12580,8 +12416,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003172",
@@ -12602,9 +12437,7 @@
     "lat": 26.2174103,
     "lng": 119.9726081,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/56ac05ef7eef483b9024651cf50b250a.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "位於連江縣北竿鄉坂里村27之1號。為當地頗受推薦的傳統早餐店，販售蛋餅、漢堡、三明治、餛飩湯等早點，是旅客於北竿港口附近常造訪的選擇。",
     "highlights": [
@@ -12656,8 +12489,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002823",
@@ -12678,9 +12510,7 @@
     "lat": 26.15996,
     "lng": 119.91895,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/6ffb952abebe441ba46045fb240f9df3.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "道地馬祖風味料理，餐點選擇多樣化，有湯麵、乾麵、水餃、炒飯、燴飯、簡餐類及各式小菜湯品，份量大且價格實惠。服務項目：拉麵、簡餐、小菜。",
     "highlights": [
@@ -12732,8 +12562,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003131",
@@ -12754,9 +12583,7 @@
     "lat": 26.1563246,
     "lng": 119.9444207,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/b4bf019b0a87492b97a33c491215fea2.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "枕戈待旦海景餐廳擁有無敵海景，我們的特色菜最有名的就是手工魚餃、魚麵、魚丸，是我們使用新鮮的鮸魚，取下魚肉經過繁瑣的程序而製作而成。",
     "highlights": [
@@ -12807,8 +12634,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003117",
@@ -12829,9 +12655,7 @@
     "lat": 26.1704534,
     "lng": 119.9205653,
     "image": "https://www.matsu-nsa.gov.tw/FileArtPic.ashx?id=3463&w=1280&h=960",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "馬祖林義和工坊 一間創造故事、傳承文化、用心推廣的誠信店家。 來自海上珍珠_馬祖列島的美味 嚴選食材、手工製造 用時間讓其自然熟成，換取最天然香醇的滋味",
     "highlights": [
@@ -12883,8 +12707,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003208",
@@ -12905,9 +12728,7 @@
     "lat": 26.2234479,
     "lng": 119.9812799,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/16d8d36e89ca48a3b66869abcbfdb20b.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "位於北竿鄉芹壁村山腰的海景咖啡烘焙館，除了多款手作麵包、咖啡與飲品，也結合披薩、在地老酒豬肉蛋口味等特色料理，坐在戶外欣賞海景，是旅客來訪芹壁村的重要餐飲選擇。",
     "highlights": [
@@ -12958,8 +12779,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002839",
@@ -12980,9 +12800,7 @@
     "lat": 26.22307,
     "lng": 119.99743,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/c3308422cc4c48f5add6328882a7f448.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "魚麵是馬祖當地一種特色風味麵條，以鰻魚或者馬加魚為主要原料，攪碎後和粉揉成麵糰、烤乾、切成麵條狀再曬乾包裝。其料理可製作乾炒、也可做湯麵，亦可直接炸來吃！",
     "highlights": [
@@ -13035,8 +12853,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003199",
@@ -13057,9 +12874,7 @@
     "lat": 26.36756,
     "lng": 120.48877,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/0b155b334f7a41f48f88f833af3ccc23.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "本店自戰地政務起已開業30多年，福州風味菜，最具特色是老媽子的魚丸、魚麵純手工製作.有種外島獨特香甜滋味。 服務項目：中式餐廳、旅遊餐飲（請先預定，風味更佳）",
     "highlights": [
@@ -13110,8 +12925,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002805",
@@ -13132,9 +12946,7 @@
     "lat": 26.36601,
     "lng": 120.49481,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/f5935416eae745e0993cbbcdec28175a.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "若想在東引吃頓豪華大餐，最常被當地人推薦的就是珍膳美餐廳。外觀是復古的閩東式建築，內部用餐環境舒適，料理口味更是一絕，老闆阿光師廚藝了得，店內沒有菜單，但菜色保證驚喜！",
     "highlights": [
@@ -13185,8 +12997,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002833",
@@ -13207,9 +13018,7 @@
     "lat": 26.36695,
     "lng": 120.48845,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/33d3e0c49dbf4f5c8a3f301fc464ff97.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "香記火鍋小吃店是一間開了20多年的老店，老闆是為人親切客氣的香爸，聽說香爸以前也是在東引當兵，在1976年香爸就與這裡有密不可分的關係，香爸常以東引為傲，退伍後在此經營香記火鍋小吃店，店內的食材應有盡有，是適合用餐的好地方！",
     "highlights": [
@@ -13260,8 +13069,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003176",
@@ -13282,9 +13090,7 @@
     "lat": 26.2234479,
     "lng": 119.9812799,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/d06fa384a8144eeb9aa815b60b4fa61d.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "位於北竿芹壁村第一排海景位置的「家適咖啡」，為結合咖啡、輕食與民宿的複合式空間。店內提供咖啡、甜點與簡餐，並以石頭屋與海景視野打造放鬆氛圍，是遊客前往芹壁時常規停留的特色店家。",
     "highlights": [
@@ -13336,8 +13142,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000144",
@@ -13358,9 +13163,7 @@
     "lat": 23.5772646769,
     "lng": 119.5701706809,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20250903171627438860.png",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "\"澎湖在地海鮮料理，堅持澎湖在地食材取之當季用之當令！ 【活體鮮魚湯】 使用當日進港現流活魚！手工去骨切片而成的無骨魚片！可以大口吃魚不需擔心魚刺問題～ 無論大人、小孩都能安心享用澎湖在地活體鮮魚的鮮甜美味！\"",
     "highlights": [
@@ -13416,8 +13219,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000142",
@@ -13438,9 +13240,7 @@
     "lat": 23.5771762777,
     "lng": 119.5725628674,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20250903170010886101.png",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "\"主打 【澎湖活體海鮮】、【日本A5和牛】、【Prime 等級美牛】 嚴選當季盛產肥美活體海鮮 活體海魚：現點、現撈、去骨、切片、擺盤呈現！ 我們提供生食、涮魚片等多重口感體驗\"",
     "highlights": [
@@ -13497,8 +13297,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003179",
@@ -13519,9 +13318,7 @@
     "lat": 26.2244823,
     "lng": 119.9942867,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/8f8a0af74ea5497691d0a310765df6b3.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "位於北竿鄉橋仔村20號，是一間海鮮景觀餐廳／客棧，提供海景用餐與住宿服務。海鮮料理為特色，環境鄰近碼頭與海岸，適合遊客停留。",
     "highlights": [
@@ -13572,8 +13369,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003216",
@@ -13594,9 +13390,7 @@
     "lat": 26.15742,
     "lng": 119.94384,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/d64b879828b043708aade3eece25ad38.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "馬祖素食園餐廳位在南竿福澳港附近，提供素食早點、素食簡餐、素食便當、素食炒飯，是馬祖必吃的素食料理餐館，讓茹素遊客也能品嘗到在地美食。",
     "highlights": [
@@ -13647,8 +13441,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002851",
@@ -13669,9 +13462,7 @@
     "lat": 26.16455,
     "lng": 119.95815,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/f3d92e8d75144976a293e23b0156cd28.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "1956年創設「中興酒廠」，1970年更名為馬祖酒廠，1992年馬祖解除戰地政務後，馬祖酒廠改隸屬連江縣政府，於1999年改制為「馬祖酒廠實業股份有限公司」。位於連江縣南竿鄉復興村，是以釀造馬祖高粱酒、陳年高粱酒、大麴酒等為主的酒廠。",
     "highlights": [
@@ -13722,8 +13513,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002859",
@@ -13744,9 +13534,7 @@
     "lat": 26.22391,
     "lng": 119.99849,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/a23a01c18f5245c79e0a7d423dbf3152.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "本中心展售馬祖特產包含：各式馬祖名酒、具地方特色之傳統手工伴手禮，應有盡有，滿足您旅遊購物需求，送禮自用皆宜。服務項目：國民旅遊卡特約商店",
     "highlights": [
@@ -13798,8 +13586,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002856",
@@ -13820,9 +13607,7 @@
     "lat": 26.22405,
     "lng": 119.99834,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/6b95ba3b1b37482697187fda770878eb.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "協和食品行創立於1976年，負責人王敦發先生有感於發揚馬祖傳統技藝之精神，於北竿塘岐創立協和食品行。近四十年協和食品行始終戰戰兢兢的延續馬祖傳統美食─馬祖酥、芙蓉酥、蘿蔔絲餅、黃金地瓜餃以及婚慶禮餅等傳統美食，深受地方人士喜愛。",
     "highlights": [
@@ -13873,8 +13658,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000121",
@@ -13895,9 +13679,7 @@
     "lat": 23.51684,
     "lng": 119.5963,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "鄰近山水沙灘步行一分鐘，在澎湖傳統菜宅裡，以紅色貨櫃打造的西班牙風格小酒館，提供葡萄酒、生啤、調酒，以及下酒菜西班牙小碟菜TAPAS，適合三兩好友短歇小酌！",
     "highlights": [
@@ -13954,8 +13736,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003217",
@@ -13976,9 +13757,7 @@
     "lat": 26.16041,
     "lng": 119.91906,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/0e11289b773945b69bd3c99b9bcbecca.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "「馬祖漢堡」是利用馬祖當地特產繼光餅所製作而成的漢堡，炸過的繼光餅，配上蔥蛋、肉排，口感酥脆不油膩，相當具有在地特色，是來馬祖村不可錯過的小吃名單之一。 服務項目：繼光餅漢堡、繼光餅。",
     "highlights": [
@@ -14030,8 +13809,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002841",
@@ -14052,9 +13830,7 @@
     "lat": 26.15567,
     "lng": 119.95227,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/ad9dacb34e164c25958e9d33879908d7.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "「萬家香」的每一粒餛飩，都強調親手現包，所使用的麵條及餛飩皆是手工壓的薄皮及手工桿的麵，因為只有如此，才能吃出其新鮮飽含香氣的最佳滋味。",
     "highlights": [
@@ -14106,8 +13882,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003120",
@@ -14128,9 +13903,7 @@
     "lat": 26.1476951,
     "lng": 119.9147816,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/dd51a84f6f11417f92938d606069a097.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "位置就在津沙路斜坡下來右手邊的大榕樹下方 菜色齊全，紅糟炒飯、老酒麵線、魚麵、佛手、鍋邊糊、花生粽、老酒豆花等小吃全都有.",
     "highlights": [
@@ -14182,8 +13955,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000134",
@@ -14204,9 +13976,7 @@
     "lat": 23.56714,
     "lng": 119.56467,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "最好的牡蠣，留在澎湖。 台灣人的牡蠣屋，澎湖人的驕傲。我們是老實蚵，牡蠣及各式海鮮料理 營業時間 11:00–14:30、17:00–21:00",
     "highlights": [
@@ -14263,8 +14033,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002830",
@@ -14285,9 +14054,7 @@
     "lat": 26.14246,
     "lng": 119.92518,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/d44bd3beb2084ae68fc9458f48aa3e91.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "服務項目：包子、芋頭包、紅豆包、包子+蛋、白饅頭、白饅頭+蛋、花生饅頭、花生饅頭+蛋、芝麻饅頭、芝麻饅頭+蛋.蛋餅、荷包蛋、蔥蛋、肉羹湯、豆漿",
     "highlights": [
@@ -14339,8 +14106,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002858",
@@ -14361,9 +14127,7 @@
     "lat": 26.22391,
     "lng": 119.99849,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/76ab64a5328a40c3b22a6eda1b780b97.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "臺灣行馬祖特產位於北竿鄉塘岐村中正路233號，靠近北竿機場，是馬祖旅客採購伴手禮與地方特產的熱門門市。店內提供各式馬祖在地名產，適合旅遊購物與送禮。服務項目：國民旅遊卡特約商店",
     "highlights": [
@@ -14415,8 +14179,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000136",
@@ -14437,9 +14200,7 @@
     "lat": 23.57205,
     "lng": 119.57575,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20240418172353971767.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "劉正港檸檬汁是一家在地經營50的老店，由老東家劉鉗先生於民國67年所創立。 中華店有劉家傳承二代的堅持，始終秉持老父親的經營理念 （遵循古法熬煮糖水、檸檬每日新鮮壓榨、飲品全程冰鎮不加冰塊） 就是要讓客人喝到【新鮮、 健康、天然】！",
     "highlights": [
@@ -14495,8 +14256,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000089",
@@ -14517,9 +14277,7 @@
     "lat": 23.57332,
     "lng": 119.57699,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20231116214838174018.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "尋找熟悉的滋味，一種讓人懷念、感動的味道，其實很簡單一期一會，追求的是職人的認真、執著和堅持 「樂晨」是圓夢的基地，我們誠摯歡迎您！ 老闆開店前獲獎經歷：⭐️⭐️2019年榮獲米其林餐盤推薦⭐️⭐️",
     "highlights": [
@@ -14576,8 +14334,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000132",
@@ -14598,9 +14355,7 @@
     "lat": 23.56631,
     "lng": 119.56513,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20231116214416095078.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "麵糰，不添加豬油及人工發酵成分。 餅皮，經由高溫快速油炸外酥內Q。 餅皮脆一點，軟一點... 調味要鹹一點、淡一點還是辣一點... 完全客製化...",
     "highlights": [
@@ -14657,8 +14412,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002813",
@@ -14679,9 +14433,7 @@
     "lat": 26.22375,
     "lng": 119.99779,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/4b929efee2f7428d8204ba2e2483d305.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "龍和閩東風味館菜色料理多元化，除了馬祖菜還有臺式料理以及燒臘，一次嚐盡多種風味！店內裝潢雖簡單，但空間寬敞，舒適的用餐環境讓遊客用平民價格，就能享受一流環境與美味，透明式廚房設計，就是要讓客人吃得安心。",
     "highlights": [
@@ -14732,8 +14484,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000137",
@@ -14754,9 +14505,7 @@
     "lat": 23.56455,
     "lng": 119.56471,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "藍媽媽仙草在自家車庫105年4月開始賣起一碗傳統仙草商品，用自家廚房現煮，讓食材像媽媽下廚做菜的好味道，成藍媽媽仙草一直在做的經營導向。藍媽媽仙草以傳統吃法呈現，讓一碗仙草吃起來滿滿古早味記憶。",
     "highlights": [
@@ -14813,8 +14562,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000138",
@@ -14835,9 +14583,7 @@
     "lat": 23.57702,
     "lng": 119.57278,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "【雛菊】義大利的國花，深受充滿熱情和活力的義大利人所喜愛，澎湖別名【菊島】，所以我們以雛菊為名，希望大家在菊島品嘗到美味的義式料理。",
     "highlights": [
@@ -14894,8 +14640,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003177",
@@ -14916,9 +14661,7 @@
     "lat": 26.2234479,
     "lng": 119.9812799,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/782514eb0807428ba00ceb53c3d8e695.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "位於北竿鄉芹壁村 75 號，是當地知名小吃店，以老酒麵線與黃金餃聞名。店內視野佳，可邊用餐邊欣賞海景，是芹壁村旅遊中熱門的用餐選擇。",
     "highlights": [
@@ -14970,8 +14713,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000105",
@@ -14992,9 +14734,7 @@
     "lat": 23.57058,
     "lng": 119.50202,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "Ken’s廚房用澎湖在地最頂級的食材，簡單但適切的烹調方式，讓您的澎湖之旅增添一頓難忘的味道，因為很多料理需要時間精心製作，所以敬請三天前預約，讓您的餐點更加豐富美味。",
     "highlights": [
@@ -15051,8 +14791,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Attraction_A15010500H_002725",
@@ -15716,9 +15455,7 @@
     "lat": 23.57727,
     "lng": 119.57231,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140917144410964.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "在澎湖屬於歷史悠久的老牌素食店，素食料理販售各種素食套餐，也有販售素食便當在澎湖屬於歷史悠久的老牌素食店，素食料理販售各種素食套餐，也有販售素食便當。",
     "highlights": [
@@ -15771,8 +15508,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000027",
@@ -15793,9 +15529,7 @@
     "lat": 23.564725,
     "lng": 119.569007,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140917135909753.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "京典奧菜海鮮館是一個有中式料理、粵菜、港式飲茶的粵菜海鮮館。京典奧菜海鮮館是一個有中式料理、粵菜、港式飲茶的粵菜海鮮館。",
     "highlights": [
@@ -15848,8 +15582,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000004",
@@ -15870,9 +15603,7 @@
     "lat": 23.56742,
     "lng": 119.56419,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140917104720485.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "座落於公車總站旁，有明亮乾淨的大片落地窗及內部陳設，餐廳提供各式飲料、咖啡、簡餐。座落於公車總站旁，有明亮乾淨的大片落地窗及內部陳設，餐廳提供各式飲料、咖啡、簡餐。",
     "highlights": [
@@ -15924,8 +15655,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000013",
@@ -15946,9 +15676,7 @@
     "lat": 23.56588,
     "lng": 119.56467,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20150306144742524.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "新鮮紮實的食材、公道的價格。 推薦菜色：鍋燒麵、奶油雞肉燒、蝦堡新鮮紮實的食材、公道的價格。 推薦菜色：鍋燒麵、奶油雞肉燒、蝦堡",
     "highlights": [
@@ -16001,8 +15729,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000006",
@@ -16023,9 +15750,7 @@
     "lat": 23.56521,
     "lng": 119.56495,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20150211084703624.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "使用十全大補的中藥材下去滷雞蛋，滷得十分入味，遠遠就可聞到四溢的中藥清香。使用十全大補的中藥材下去滷雞蛋，滷得十分入味的雞蛋，遠遠的就可聞到四溢的中藥清香。 推薦菜色：藥膳蛋",
     "highlights": [
@@ -16078,8 +15803,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000001",
@@ -16100,9 +15824,7 @@
     "lat": 23.56503,
     "lng": 119.56816,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140910103215442.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "鬧中取靜的望安茶坊，是一處能讓您ENJOY在JAZZ浪漫氣氛中的餐飲空間。鬧中取靜的望安茶房，是一處能讓您ENJOY在JAZZ浪漫氣氛中的餐飲空間。",
     "highlights": [
@@ -16154,8 +15876,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000039",
@@ -16176,9 +15897,7 @@
     "lat": 23.56753,
     "lng": 119.56696,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20171123113130322354338.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "道地土魠魚羹，嚴選魚肉，獨特配方;法式總匯，讚不絕口；傳統小吃，美味不在話下；團體訂餐享有超優惠，還有外送服務。道地土魠魚羹，嚴選魚肉，獨特配方;法式總匯，讚不絕口；傳統小吃，美味不在話下；團體訂餐享有超優惠，還有外送服務。",
     "highlights": [
@@ -16230,8 +15949,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000135",
@@ -16252,9 +15970,7 @@
     "lat": 23.57613,
     "lng": 119.57096,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20231116222610944226.png",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "老闆老闆娘服務很親切，甘梅地瓜薯條是招牌中的招牌，酥脆鮮甜。 鹹酥雞肉質鮮嫩且不油膩，搭配蒜頭、九層塔非常對味！ 炸物店難得出現的櫛瓜，健康美味又兼具營養價值，很值得一試！",
     "highlights": [
@@ -16307,8 +16023,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000026",
@@ -16329,9 +16044,7 @@
     "lat": 23.56717,
     "lng": 119.567,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140911171959133.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "在澎湖堪稱咖啡簡餐館的元老級店家，藏身巷弄，小小的空間內，深褐色的裝潢十分溫暖。在澎湖堪稱咖啡簡餐館的元老級店家，藏身巷弄，小小的空間內，深褐色的裝潢十分溫暖。 推薦：慾望之塔、鱈魚排、咖啡&茶",
     "highlights": [
@@ -16383,8 +16096,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000016",
@@ -16405,9 +16117,7 @@
     "lat": 23.566485,
     "lng": 119.568661,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140911170852013.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "店名取為「機場」，係因老闆張銀安早年曾在民航局餐廳賣牛肉麵之故。招牌為味醇道地的湖北口味牛肉麵，以及麵Q肉爛的排骨麵。店名取為\"機場\"，係因老闆張銀安早年曾在民航局餐廳賣牛肉麵之故。招牌為味醇道地的湖北口味牛肉麵，以及麵Q肉爛的排骨麵。",
     "highlights": [
@@ -16458,8 +16168,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Attraction_371020000A_000484",
@@ -17572,9 +17281,7 @@
     "lat": 23.56708,
     "lng": 119.5698,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "澎湖餐酒館",
     "highlights": [
@@ -17631,8 +17338,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000095",
@@ -17653,9 +17359,7 @@
     "lat": 23.55152,
     "lng": 119.61554,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "碳烤，舒適BBQ / 霸氣活海鮮",
     "highlights": [
@@ -17712,8 +17416,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003157",
@@ -17734,9 +17437,7 @@
     "lat": 26.160587,
     "lng": 119.9198424,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/4a81c1a8978a460cac0a6c08c0698bff.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "服務項目：在地料理（海鮮、合菜、熱炒）。",
     "highlights": [
@@ -17787,8 +17488,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000103",
@@ -17809,9 +17509,7 @@
     "lat": 23.60468,
     "lng": 119.51839,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20231116220818707383.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "澎湖二崁村最具知名的茶飲",
     "highlights": [
@@ -17868,8 +17566,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000113",
@@ -17890,9 +17587,7 @@
     "lat": 23.60546,
     "lng": 119.51367,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20231116220621676920.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "每日10:00~12:00、13:00~18:00限量，賣完就沒了！",
     "highlights": [
@@ -17949,8 +17644,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000106",
@@ -17971,9 +17665,7 @@
     "lat": 23.565,
     "lng": 119.47947,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "外垵必吃美食",
     "highlights": [
@@ -18048,8 +17740,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000129",
@@ -18070,9 +17761,7 @@
     "lat": 23.6216667662,
     "lng": 119.509502052,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "烏龜背蝦子，賣完就沒有了",
     "highlights": [
@@ -18129,8 +17818,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000097",
@@ -18151,9 +17839,7 @@
     "lat": 23.52024,
     "lng": 119.59416,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "牛肉炒泡麵、牛三寶(牛腱,牛肚,牛腩)、牛肉意麵",
     "highlights": [
@@ -18210,8 +17896,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003150",
@@ -18232,9 +17917,7 @@
     "lat": 26.1545215,
     "lng": 119.9552627,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/0a23667c360d4be6bf8d4fc0f5230c54.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "實際服務內容請以業者公告為準，如有疑問可直接致電店家洽詢。",
     "highlights": [
@@ -18286,8 +17969,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000127",
@@ -18308,9 +17990,7 @@
     "lat": 23.57063,
     "lng": 119.57746,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "『仁品』以生產製造高品質的『花枝丸』而聞名，香Ｑ可口的花枝丸。",
     "highlights": [
@@ -18367,8 +18047,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000091",
@@ -18389,9 +18068,7 @@
     "lat": 23.56325,
     "lng": 119.58514,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "因應防疫人人有責.愛大家更要保護自己.即日起入店請配合戴好口罩.實聯制.拿起隨身手機掃一掃QR 謝謝大家一同配合",
     "highlights": [
@@ -18448,8 +18125,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000149",
@@ -18470,9 +18146,7 @@
     "lat": 23.5658550088,
     "lng": 119.5807725248,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "海陸自助式燒烤吃到飽",
     "highlights": [
@@ -18528,8 +18202,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002850",
@@ -18550,9 +18223,7 @@
     "lat": 26.15849,
     "lng": 119.95239,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/2953c5eefc5e433b924deedef7131b4a.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "服務項目：國民旅遊卡特約商店",
     "highlights": [
@@ -18604,8 +18275,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003220",
@@ -18626,9 +18296,7 @@
     "lat": 26.1545215,
     "lng": 119.9552627,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/f7c4b665c905458bb6a07ca691971dcc.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "位於馬祖南竿介壽村巷內、預約才吃得到的隱藏版熱炒海鮮店，特色菜包括水煮牛肉、海鮮炒米粉、螺肉等。",
     "highlights": [
@@ -18680,8 +18348,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000139",
@@ -18702,9 +18369,7 @@
     "lat": 23.57541,
     "lng": 119.57441,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "各式滷味，種類豐富、香味四溢。",
     "highlights": [
@@ -18761,8 +18426,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002840",
@@ -18783,9 +18447,7 @@
     "lat": 26.15986,
     "lng": 119.91887,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/122b67930c854e4b9faedc1feb917247.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "老酒麵線，紅糟雞小火鍋、各式焗烤等各類美食！",
     "highlights": [
@@ -18837,8 +18499,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003222",
@@ -18859,9 +18520,7 @@
     "lat": 26.1565463,
     "lng": 119.9521538,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/fd71e4b6ee8d4fdc92ceddd4d127b2d8.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "服務項目：馬祖小吃、炸雞肉串。",
     "highlights": [
@@ -18913,8 +18572,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000107",
@@ -18935,9 +18593,7 @@
     "lat": 23.56491,
     "lng": 119.47944,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20231116220320582072.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "澎湖西嶼「外垵刈包福氣早餐店」30年老店，北環西嶼地方美食! 請認一樓平房才是。",
     "highlights": [
@@ -19012,8 +18668,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000067",
@@ -19034,9 +18689,7 @@
     "lat": 23.5728,
     "lng": 119.57458,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "美麗的澎湖灣， 帶來諸多美好. 清澈的麵湯， 是多少少年鄉愁的眼淚！",
     "highlights": [
@@ -19093,8 +18746,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000099",
@@ -19115,9 +18767,7 @@
     "lat": 23.61881,
     "lng": 119.60659,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "現採的石蚵",
     "highlights": [
@@ -19174,8 +18824,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000066",
@@ -19196,9 +18845,7 @@
     "lat": 23.57364,
     "lng": 119.57261,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "澎湖平價美食",
     "highlights": [
@@ -19255,8 +18902,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000128",
@@ -19277,9 +18923,7 @@
     "lat": 23.63214,
     "lng": 119.5992,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "炸粿(狗蝦)、炸米糕、花枝丸、海丸子、蘿蔔糕",
     "highlights": [
@@ -19336,8 +18980,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003187",
@@ -19358,9 +19001,7 @@
     "lat": 26.2244823,
     "lng": 119.9942867,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/2d1c8f18386c4db8ad1116bebeceb012.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "主打馬祖特色料理，團客聚餐好選擇。",
     "highlights": [
@@ -19412,8 +19053,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003167",
@@ -19434,9 +19074,7 @@
     "lat": 26.1477771,
     "lng": 119.9379151,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/84652be40d5944899887c53c52b7766e.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "海鮮合菜（無菜單料理）。",
     "highlights": [
@@ -19488,8 +19126,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003165",
@@ -19510,9 +19147,7 @@
     "lat": 26.1704534,
     "lng": 119.9205653,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/0f3f70be2b8b42ddac246294b09a3026.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "位於南竿島最西端芙蓉澳的老屋物產店，除了販售在地物產，也提供風味餐點與展覽空間，串聯海島生活與文化。",
     "highlights": [
@@ -19564,8 +19199,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003204",
@@ -19586,9 +19220,7 @@
     "lat": 26.36733,
     "lng": 120.48791,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/53c8bb6685dc4c48ad8fb9e9e7d3e871.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "服務項目：生活日用品、軍用品、五金、水電、特產及酒類等商品",
     "highlights": [
@@ -19640,8 +19272,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003143",
@@ -19662,9 +19293,7 @@
     "lat": 26.1545215,
     "lng": 119.9552627,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/bc0673498798472a9df65b10fa0b196d.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "以閩東風味餐為主",
     "highlights": [
@@ -19715,8 +19344,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000053",
@@ -19737,9 +19365,7 @@
     "lat": 23.57356,
     "lng": 119.56867,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "週四公休，不要白跑一趟哦",
     "highlights": [
@@ -19796,8 +19422,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Attraction_371020000A_001625",
@@ -19927,9 +19552,7 @@
     "lat": 23.56693,
     "lng": 119.56774,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "馬公銅板價炸物點心",
     "highlights": [
@@ -19986,8 +19609,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000058",
@@ -20008,9 +19630,7 @@
     "lat": 23.57474,
     "lng": 119.58002,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "車庫麵線位在三多路22號旁邊的車庫",
     "highlights": [
@@ -20067,8 +19687,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000084",
@@ -20089,9 +19708,7 @@
     "lat": 23.56553,
     "lng": 119.58304,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "早餐與早午餐餐廳",
     "highlights": [
@@ -20147,8 +19764,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000056",
@@ -20169,9 +19785,7 @@
     "lat": 23.57137,
     "lng": 119.5708,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "來北辰市場吃早餐！創意日式飯糰包入炸蝦、唐揚雞、泡菜燒肉等豐富內餡，口味多元又有飽足感，其中炸蝦飯糰更是人氣冠軍。",
     "highlights": [
@@ -20228,8 +19842,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003154",
@@ -20250,9 +19863,7 @@
     "lat": 26.1545215,
     "lng": 119.9552627,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/2c1b733161d2412cac595a3a8e68b0ac.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "在地料理",
     "highlights": [
@@ -20304,8 +19915,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000110",
@@ -20326,9 +19936,7 @@
     "lat": 23.59761,
     "lng": 119.64987,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "好吃的重慶美食盡在兩個番茄農場",
     "highlights": [
@@ -20385,8 +19993,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000057",
@@ -20407,9 +20014,7 @@
     "lat": 23.57163,
     "lng": 119.5713,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "北辰市場味良し壽司日本料理",
     "highlights": [
@@ -20466,8 +20071,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002807",
@@ -20488,9 +20092,7 @@
     "lat": 26.36695,
     "lng": 120.48845,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/d59b12e6678b4e05b0d327d952d039f4.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "服務項目：西式早餐",
     "highlights": [
@@ -20542,8 +20144,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003213",
@@ -20564,9 +20165,7 @@
     "lat": 26.22406,
     "lng": 119.998847,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/e59a3971d6324ce289d9eea1c74a2c29.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "服務項目：牛肉麵、餛飩、滷味、湯類、水餃",
     "highlights": [
@@ -20618,8 +20217,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000102",
@@ -20640,9 +20238,7 @@
     "lat": 23.60349,
     "lng": 119.51841,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "一家鬧中取靜，可享受在古厝中悠閒喝咖啡，吃點心，聊是非，休息充電好去處。",
     "highlights": [
@@ -20698,8 +20294,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003173",
@@ -20720,9 +20315,7 @@
     "lat": 26.2234479,
     "lng": 119.9812799,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/dd85305b77c1481f8bdb6bbfa7a5e627.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "芹壁望海樓",
     "highlights": [
@@ -20774,8 +20367,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003123",
@@ -20796,9 +20388,7 @@
     "lat": 26.1476951,
     "lng": 119.9147816,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/2cff710aae0d4cf9ab3b49599797e9c8.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "實際服務內容請以業者公告為準，如有疑問可直接致電店家洽詢。",
     "highlights": [
@@ -20850,8 +20440,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002861",
@@ -20872,9 +20461,7 @@
     "lat": 26.36734,
     "lng": 120.48941,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/268929e3ec1d423ca82e4f7ca379ff36.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/food-court.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#7e8bd6",
     "description": "服務項目：國民旅遊卡特約商店",
     "highlights": [
@@ -20926,8 +20513,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003152",
@@ -20948,9 +20534,7 @@
     "lat": 26.1545215,
     "lng": 119.9552627,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/71a88038fcd647d196c76d10c14a85f9.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "服務項目：越南小吃、簡餐、麵食、水餃。",
     "highlights": [
@@ -21002,8 +20586,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003184",
@@ -21024,9 +20607,7 @@
     "lat": 26.22406,
     "lng": 119.998847,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/bed0acae19104686a52e9cc0120f52ac.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "以新鮮海鮮、熱炒料理為特色的餐廳，深受在地與旅客喜愛。",
     "highlights": [
@@ -21078,8 +20659,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000100",
@@ -21100,9 +20680,7 @@
     "lat": 23.65687,
     "lng": 119.55747,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "通梁古榕旁邊40~50年歷史的在地老店店裡仙人掌冰",
     "highlights": [
@@ -21159,8 +20737,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000115",
@@ -21181,9 +20758,7 @@
     "lat": 23.60546,
     "lng": 119.51367,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "西嶼第一家天然水蓮羹、花粉涼丼、小管麵線、海膽炒蛋、三杯小卷、燒酒螺、仙人掌冰淇淋",
     "highlights": [
@@ -21240,8 +20815,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000125",
@@ -21262,9 +20836,7 @@
     "lat": 23.65115,
     "lng": 119.52092,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "小管麵線、海菜魚丸湯、紫菜冬粉",
     "highlights": [
@@ -21321,8 +20893,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003126",
@@ -21343,9 +20914,7 @@
     "lat": 26.1450617,
     "lng": 119.9263488,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/f9693efd045d4f2980191a9538a3215c.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "阿婆虫弟餅是隱藏版美食，採冬粉、肉、高麗菜、蛋等組成的「虫弟餅」，表面酥脆、內餡豐富，是馬祖經典銅板小吃。",
     "highlights": [
@@ -21397,8 +20966,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000083",
@@ -21419,9 +20987,7 @@
     "lat": 23.56515,
     "lng": 119.58204,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "古早味小吃,鹹粥粄條湯麵魚丸湯花枝湯",
     "highlights": [
@@ -21478,8 +21044,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003223",
@@ -21500,9 +21065,7 @@
     "lat": 26.160198,
     "lng": 119.9513711,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/6d8258ba35a147c5864c9537aafe5bab.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "提供馬祖在地海鮮與特色料理，如老酒麵線、紅槽肉、馬祖大黃魚等，份量澎湃，是在地與旅客皆愛的餐廳。",
     "highlights": [
@@ -21553,8 +21116,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000080",
@@ -21575,9 +21137,7 @@
     "lat": 23.56557,
     "lng": 119.57002,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "澎湖自助烤肉吃到飽",
     "highlights": [
@@ -21634,8 +21194,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000108",
@@ -21656,9 +21215,7 @@
     "lat": 23.58677,
     "lng": 119.669,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "南寮風車有機農場在地文化深度體驗",
     "highlights": [
@@ -21715,8 +21272,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003122",
@@ -21737,9 +21293,7 @@
     "lat": 26.1476951,
     "lng": 119.9147816,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/904ca998a0c54ccaa0a70fb26f808089.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "風味料理餐廳！麻辣水煮魚、老酒蒸黃魚、炒魚麵…等等當天新鮮海鮮料理。",
     "highlights": [
@@ -21790,8 +21344,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003218",
@@ -21812,9 +21365,7 @@
     "lat": 26.15075,
     "lng": 119.91594,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/fec177e00cd247568eba1f74489480b6.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "「津寮」為一棟傳統閩東式石頭屋，位於馬祖南竿津沙閩東聚落，提供馬祖風味套餐、酒吧、燒烤。",
     "highlights": [
@@ -21866,8 +21417,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000041",
@@ -21888,9 +21438,7 @@
     "lat": 23.5564,
     "lng": 119.5952,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20150306162157975.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "經濟小吃、團體便餐、各式海鮮經濟小吃、團體便餐、各式海鮮",
     "highlights": [
@@ -21946,8 +21494,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003156",
@@ -21968,9 +21515,7 @@
     "lat": 26.1545215,
     "lng": 119.9552627,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/d0858e7b9e7d4b998a22219f2c8030f3.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "麵包、蛋糕、酒(馬祖酒、洋酒)",
     "highlights": [
@@ -22022,8 +21567,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003129",
@@ -22044,9 +21588,7 @@
     "lat": 26.1477771,
     "lng": 119.9379151,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/7bec426b9d2748928a0a624a38c8cef7.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "在地風味餐跟定食。",
     "highlights": [
@@ -22098,8 +21640,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000114",
@@ -22120,9 +21661,7 @@
     "lat": 23.56513,
     "lng": 119.5652,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "鮮蚵滷肉飯、原味鮮蚵原味好滋味，在地實在味。",
     "highlights": [
@@ -22179,8 +21718,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000072",
@@ -22201,9 +21739,7 @@
     "lat": 23.56588,
     "lng": 119.56754,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "隱身在市區角落的手工美味雪片冰與下午茶!",
     "highlights": [
@@ -22260,8 +21796,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000112",
@@ -22282,9 +21817,7 @@
     "lat": 23.56512,
     "lng": 119.56464,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20231116215447471463.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "結合澎湖在地攝影的文創咖啡館",
     "highlights": [
@@ -22340,8 +21873,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000060",
@@ -22362,9 +21894,7 @@
     "lat": 23.57641,
     "lng": 119.57115,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "專賣平價串燒",
     "highlights": [
@@ -22421,8 +21951,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002860",
@@ -22443,9 +21972,7 @@
     "lat": 26.22393,
     "lng": 119.99713,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/4045a5aa70e548b9a3142c76623ba317.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "服務項目：國民旅遊卡特約商店",
     "highlights": [
@@ -22497,8 +22024,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000068",
@@ -22519,9 +22045,7 @@
     "lat": 23.56741,
     "lng": 119.56768,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "澎湖必喝的仙人掌冰沙",
     "highlights": [
@@ -22578,8 +22102,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003224",
@@ -22600,9 +22123,7 @@
     "lat": 26.160198,
     "lng": 119.9513711,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/3702179022dc4e71a03d00f58fc42405.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "服務項目：烤肉、啤酒。",
     "highlights": [
@@ -22654,8 +22175,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000090",
@@ -22676,9 +22196,7 @@
     "lat": 23.56532,
     "lng": 119.56467,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "寵物友善咖啡廳",
     "highlights": [
@@ -22734,8 +22252,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003127",
@@ -22756,9 +22273,7 @@
     "lat": 26.1477771,
     "lng": 119.9379151,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/6e8ed9a341da439f884846efc92210e1.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "餐廳隱藏版無菜單料理『海鮮痛風鍋』是旅遊必吃推薦。",
     "highlights": [
@@ -22809,8 +22324,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002824",
@@ -22831,9 +22345,7 @@
     "lat": 26.15655,
     "lng": 119.95224,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/bfcd996e9a7040cfac9b1ca05763ad0d.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "服務項目：紅糟肉、淡菜、魚麵、合菜。",
     "highlights": [
@@ -22885,8 +22397,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003221",
@@ -22907,9 +22418,7 @@
     "lat": 26.1578403,
     "lng": 119.9145981,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/8b73e37d3f694802b7e84218b35c7c4f.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "提供馬祖高粱酒香咖啡、自烘單品及伴手禮，是來馬祖不可錯過的特色咖啡館。",
     "highlights": [
@@ -22960,8 +22469,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002820",
@@ -22982,9 +22490,7 @@
     "lat": 26.15974,
     "lng": 119.91891,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/aae5334f26f040bfaa5381e0c7d2cbc1.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "服務項目：手工自製魚麵、手工魚丸、精製黃金地瓜餃、酒糟雞",
     "highlights": [
@@ -23036,8 +22542,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003226",
@@ -23058,9 +22563,7 @@
     "lat": 26.160198,
     "lng": 119.9513711,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/ab18f90c59e04d0b82aa922548ccd8e0.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "服務項目：鍋物、燉飯麵",
     "highlights": [
@@ -23111,8 +22614,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003188",
@@ -23133,9 +22635,7 @@
     "lat": 26.2244823,
     "lng": 119.9942867,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/3a95bdb730974590b039f90e5692e135.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "服務項目：老酒麵線、紅糟炒飯、紅糟肉飯、季節海鮮。",
     "highlights": [
@@ -23187,8 +22687,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000073",
@@ -23209,9 +22708,7 @@
     "lat": 23.56526,
     "lng": 119.56811,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "Enjoy在Jazz浪漫氣氛中的悠閒空間，還有貓陪伴",
     "highlights": [
@@ -23268,8 +22765,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002809",
@@ -23290,9 +22786,7 @@
     "lat": 26.36735,
     "lng": 120.48811,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/8a4ed7dca2194fb5a6fb1b3739bc2fc1.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "走平價路線的烹小鮮餐廳，以菜色新鮮跟多變化為主打，也是在地人推薦的一家餐廳。",
     "highlights": [
@@ -23343,8 +22837,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003163",
@@ -23365,9 +22858,7 @@
     "lat": 26.160587,
     "lng": 119.9198424,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/77dcfb019eeb419d81c6cd7173df3d91.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "簡餐、牛肉麵、咖啡、茶",
     "highlights": [
@@ -23418,8 +22909,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000120",
@@ -23440,9 +22930,7 @@
     "lat": 23.56596,
     "lng": 119.56407,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "澎湖在地人宵夜",
     "highlights": [
@@ -23499,8 +22987,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002847",
@@ -23521,9 +23008,7 @@
     "lat": 26.15771,
     "lng": 119.95166,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/99ed0f6d91574c9f8e85ea8b797d8733.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "服務項目：國民旅遊卡特約商店",
     "highlights": [
@@ -23575,8 +23060,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002832",
@@ -23597,9 +23081,7 @@
     "lat": 26.36778,
     "lng": 120.48754,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/7d7551960fcd4342a847c161d10b6da7.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "服務項目：碳烤雞排、日式雞排、密酥雞排、密酥雞腿",
     "highlights": [
@@ -23651,8 +23133,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003190",
@@ -23673,9 +23154,7 @@
     "lat": 26.2244823,
     "lng": 119.9942867,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/bce98022dcaf4ee794ff704a39dd0e54.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "服務項目「炸雞」等快餐小吃。",
     "highlights": [
@@ -23727,8 +23206,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003207",
@@ -23749,9 +23227,7 @@
     "lat": 26.3660185,
     "lng": 120.4948021,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/33594387f966465d82a9b7a89b7be17e.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "店內專營小火鍋，提供紅糟鍋等在地特色湯底，是東引鄉樂華村區域內的熱門火鍋選擇。",
     "highlights": [
@@ -23803,8 +23279,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000146",
@@ -23825,9 +23300,7 @@
     "lat": 23.5616987288,
     "lng": 119.5817652809,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20250909091901333725.png",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "一家將在地食材最做適當的料理方式千萬裝潢舒適的空間",
     "highlights": [
@@ -23884,8 +23357,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002857",
@@ -23906,9 +23378,7 @@
     "lat": 26.22291,
     "lng": 119.99741,
     "image": "https://www.matsu-nsa.gov.tw/FileArtPic.ashx?id=3456&w=1280&h=960",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "服務項目：手工製漁麵",
     "highlights": [
@@ -23960,8 +23430,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003071",
@@ -23982,9 +23451,7 @@
     "lat": 26.36696,
     "lng": 120.48861,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/86e790b7f62a4f329ba5e23eb24c27c0.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "想在東引吃到最多樣，最齊全的海鮮，份量多，味道好，來魚多多就對了！",
     "highlights": [
@@ -24035,8 +23502,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000133",
@@ -24057,9 +23523,7 @@
     "lat": 23.60498,
     "lng": 119.51855,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "澎湖當地新鮮漁獲，製作出的料理",
     "highlights": [
@@ -24116,8 +23580,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003183",
@@ -24138,9 +23601,7 @@
     "lat": 26.2244823,
     "lng": 119.9942867,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/168b9405dd7543e6b5f6519bff238472.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "位於連江縣北竿鄉塘岐村82號，是在地小吃餐廳，主打海鮮熱炒與家常料理，店內空間寬敞、適合散客與團體。",
     "highlights": [
@@ -24192,8 +23653,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003225",
@@ -24214,9 +23674,7 @@
     "lat": 26.1477771,
     "lng": 119.9379151,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/b76f045c08124a7290fca2af57f91499.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "入住時間請依現場公告為準。一樓設有紀念用品店，步行一分鐘即可抵達便利商店，生活機能便利。",
     "highlights": [
@@ -24269,8 +23727,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000078",
@@ -24291,9 +23748,7 @@
     "lat": 23.56245,
     "lng": 119.56825,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20250903162413672904.png",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "提供美式早午餐、義式燉飯、義大利麵、咖啡，供餐時間：10:00～14:00 17:00～21:00",
     "highlights": [
@@ -24349,8 +23804,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000123",
@@ -24371,9 +23825,7 @@
     "lat": 23.56778,
     "lng": 119.56825,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "消暑仙草冰",
     "highlights": [
@@ -24430,8 +23882,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000119",
@@ -24452,9 +23903,7 @@
     "lat": 23.57429,
     "lng": 119.57824,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "澎湖在地蛋奶素早午餐",
     "highlights": [
@@ -24511,8 +23960,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003142",
@@ -24533,9 +23981,7 @@
     "lat": 26.1545215,
     "lng": 119.9552627,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/0ea43b1fdf404988a71a8d1ac2579e25.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "實際服務內容請以業者公告為準，如有疑問可直接致電店家洽詢。",
     "highlights": [
@@ -24587,8 +24033,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003202",
@@ -24609,9 +24054,7 @@
     "lat": 26.160198,
     "lng": 119.9513711,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/93cde4516beb4a9ab1129a7817026f86.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "服務項目：便當、創新台越料理。",
     "highlights": [
@@ -24663,8 +24106,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003191",
@@ -24685,9 +24127,7 @@
     "lat": 26.2244823,
     "lng": 119.9942867,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/cf36c928590d407f81da3cb0aa0c2b14.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "燒烤BAR",
     "highlights": [
@@ -24739,8 +24179,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003175",
@@ -24761,9 +24200,7 @@
     "lat": 26.2234479,
     "lng": 119.9812799,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/496733e6c43c4f519041b87fd9d23171.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "位於芹壁聚落，海景窗外就是太平洋，提供咖啡、飲品與輕食，環境寧靜，是旅客於北竿芹壁欣賞海景、放鬆休憩的好去處。",
     "highlights": [
@@ -24815,8 +24252,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000088",
@@ -24837,9 +24273,7 @@
     "lat": 23.57199,
     "lng": 119.57883,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "澎湖吃到飽/澎湖美食/澎湖火鍋/在地推薦餐廳/澎湖必吃美食/人氣餐廳",
     "highlights": [
@@ -24895,8 +24329,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003219",
@@ -24917,9 +24350,7 @@
     "lat": 26.1545215,
     "lng": 119.9552627,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/a7e8bbb8c803498c859c451178961871.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "服務項目：調酒、甜點、咖啡、唱歌。",
     "highlights": [
@@ -24970,8 +24401,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002818",
@@ -24992,9 +24422,7 @@
     "lat": 25.95743,
     "lng": 119.97709,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/a99687fb9f394e0caef28efd31ac35f2.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "東莒島上唯二的小吃店之一，餐點好吃份量夠、價位合理、環境整潔，是許多觀光客到東莒的必吃美食小店。",
     "highlights": [
@@ -25046,8 +24474,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003138",
@@ -25068,9 +24495,7 @@
     "lat": 26.1545215,
     "lng": 119.9552627,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/557fabe4479c48238f9405e817fcad07.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "時尚小火鍋",
     "highlights": [
@@ -25122,8 +24547,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003128",
@@ -25144,9 +24568,7 @@
     "lat": 26.1477771,
     "lng": 119.9379151,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/ae90b18c20734a3699d972385b979d2c.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "馬祖風味餐、日式料理（少鹽少油）、海鮮料理、霜淇淋（季節限定）、紅糟香腸、炒飯／麵。",
     "highlights": [
@@ -25198,8 +24620,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000093",
@@ -25220,9 +24641,7 @@
     "lat": 23.59384,
     "lng": 119.61592,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "澎湖縣湖西鄉的餐廳",
     "highlights": [
@@ -25278,8 +24697,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000131",
@@ -25300,9 +24718,7 @@
     "lat": 23.56638,
     "lng": 119.56413,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "在地70年老麵店",
     "highlights": [
@@ -25359,8 +24775,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003144",
@@ -25381,9 +24796,7 @@
     "lat": 26.1545215,
     "lng": 119.9552627,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/d949d1ecc114452e9f55eba055fda330.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "熱炒類、馬祖風味菜",
     "highlights": [
@@ -25435,8 +24848,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000077",
@@ -25457,9 +24869,7 @@
     "lat": 23.56557,
     "lng": 119.57002,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "澎島之星燒烤吃到飽",
     "highlights": [
@@ -25516,8 +24926,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000069",
@@ -25538,9 +24947,7 @@
     "lat": 23.5666,
     "lng": 119.56777,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "新鮮現宰雞肉，酒釀醃製，限量供應，賣完為止。",
     "highlights": [
@@ -25597,8 +25004,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000124",
@@ -25619,9 +25025,7 @@
     "lat": 23.56544,
     "lng": 119.56549,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "現打仙人掌果汁",
     "highlights": [
@@ -25678,8 +25082,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000070",
@@ -25700,9 +25103,7 @@
     "lat": 23.5688939217,
     "lng": 119.5684984404,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "仙人掌韭菜盒",
     "highlights": [
@@ -25759,8 +25160,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000130",
@@ -25781,9 +25181,7 @@
     "lat": 23.56422,
     "lng": 119.56843,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "在地的老麵店",
     "highlights": [
@@ -25840,8 +25238,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000109",
@@ -25862,9 +25259,7 @@
     "lat": 23.5848,
     "lng": 119.66309,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "「澎福食品」，是由湖西老字號的「福榮食品廠」所經營的傳統美食販售店。",
     "highlights": [
@@ -25921,8 +25316,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003135",
@@ -25943,9 +25337,7 @@
     "lat": 26.1563246,
     "lng": 119.9444207,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/0c33fc5d006341e49105def54104befb.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "位置就在福澳港近 菜單從魚麵、老酒麵線、黃金餃、紅槽料理、淡菜幾乎所有可以想得到馬祖小吃都有",
     "highlights": [
@@ -25997,8 +25389,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000086",
@@ -26019,9 +25410,7 @@
     "lat": 23.57391,
     "lng": 119.57894,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "推廣蔬食食材都採用最好的並且都以手工製作以不油膩.不鹹的方式來保留食材的原味",
     "highlights": [
@@ -26078,8 +25467,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003137",
@@ -26100,9 +25488,7 @@
     "lat": 26.1645594,
     "lng": 119.9581538,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/7891f6258b1a4e32b7432cd663f49fc9.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "位於馬祖南竿東北端牛角聚落的熱門餐廳，以海鮮、紅糟、老酒蒸料理聞名，需提前預約。",
     "highlights": [
@@ -26153,8 +25539,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003139",
@@ -26175,9 +25560,7 @@
     "lat": 26.1545215,
     "lng": 119.9552627,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/e4c83ae6ce914d8d878eea0ebaa700f4.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "個人涮涮鍋",
     "highlights": [
@@ -26229,8 +25612,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Attraction_A15010200H_000136",
@@ -26323,9 +25705,7 @@
     "lat": 23.55711,
     "lng": 119.59414,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "為您服務是濠誠的榮幸",
     "highlights": [
@@ -26382,8 +25762,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003210",
@@ -26404,9 +25783,7 @@
     "lat": 26.2244823,
     "lng": 119.9942867,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/f9b070225f0c4cb9a84e8ea7ec8b72e1.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "服務項目：炒狗麵、炒飯、海鮮、小菜。",
     "highlights": [
@@ -26458,8 +25835,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000064",
@@ -26480,9 +25856,7 @@
     "lat": 23.56328,
     "lng": 119.5666,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "需要預訂 必須戴口罩 需要測量體溫 員工有配戴口罩 員工會接受體溫測量",
     "highlights": [
@@ -26539,8 +25913,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000082",
@@ -26561,9 +25934,7 @@
     "lat": 23.56468,
     "lng": 119.58142,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "搭配最好的鍋底，給您最簡單、最幸福的感受。",
     "highlights": [
@@ -26620,8 +25991,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003212",
@@ -26642,9 +26012,7 @@
     "lat": 26.2245753,
     "lng": 119.9982607,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/aca2fa3cbdad4bb8bc0e85c36f033a04.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "服務項目：中式早餐，在地料理",
     "highlights": [
@@ -26696,8 +26064,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002843",
@@ -26718,9 +26085,7 @@
     "lat": 26.15994,
     "lng": 119.91864,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/6236673c8a38468ba4bdcd79d4cba475.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "服務項目：國民旅遊卡特約商店",
     "highlights": [
@@ -26772,8 +26137,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002812",
@@ -26794,9 +26158,7 @@
     "lat": 26.22393,
     "lng": 119.99713,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/3b021a37ee124cc988a906e7a59d0d22.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "北竿知名海鮮餐廳，要來大快朵頤美味馬祖風味菜和道地海鮮料裡，不可錯過鴻星平海鮮樓喔！",
     "highlights": [
@@ -26847,8 +26209,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000063",
@@ -26869,9 +26230,7 @@
     "lat": 23.56313,
     "lng": 119.56516,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "以健康取向為訴求的檸檬香茅火鍋專賣店",
     "highlights": [
@@ -26928,8 +26287,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000055",
@@ -26950,9 +26308,7 @@
     "lat": 23.57368,
     "lng": 119.57165,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "蛋餅及澎湖燒為現點現煎",
     "highlights": [
@@ -27008,8 +26364,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000122",
@@ -27030,9 +26385,7 @@
     "lat": 23.56797,
     "lng": 119.57564,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "澎湖福朋喜來登酒店一樓的餐廳，全天候供餐",
     "highlights": [
@@ -27088,8 +26441,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000085",
@@ -27110,9 +26462,7 @@
     "lat": 23.57898,
     "lng": 119.57798,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "傳承口碑，真材實料製作，以不甜膩口味，呈現現代人不造成身體負擔的吃法。",
     "highlights": [
@@ -27169,8 +26519,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003180",
@@ -27191,9 +26540,7 @@
     "lat": 26.2244823,
     "lng": 119.9942867,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/4ccc3e9f70f04798af7fc0ceb5b2ae00.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "位於連江縣北竿鄉塘岐村249號，是一家提供日式涮涮鍋的餐廳。營業時間分早、晚兩段，用餐氣氛溫馨，深受在地及旅客喜愛。",
     "highlights": [
@@ -27244,8 +26591,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003206",
@@ -27266,9 +26612,7 @@
     "lat": 26.367288,
     "lng": 120.4879636,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/3cde0a8b115f468ab6d3b463bd01b154.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "服務項目：美式炸雞",
     "highlights": [
@@ -27320,8 +26664,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002849",
@@ -27342,9 +26685,7 @@
     "lat": 26.15684,
     "lng": 119.95288,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/26843faefb31416b9a8c6567ba4a6509.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "服務項目：繼光餅、馬祖酥、芙蓉酥、蘿蔔餅等、國民旅遊卡特約商店",
     "highlights": [
@@ -27396,8 +26737,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003209",
@@ -27418,9 +26758,7 @@
     "lat": 26.22406,
     "lng": 119.998847,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/e1f5fce948894b3980929bba1b071806.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "服務項目：蛋包飯、簡餐、餛飩。",
     "highlights": [
@@ -27473,8 +26811,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003205",
@@ -27495,9 +26832,7 @@
     "lat": 26.367288,
     "lng": 120.4879636,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/86e3b58d13074a9d8f78f44013c95b17.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "服務項目：咖啡、點心、文創手作",
     "highlights": [
@@ -27548,8 +26883,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003134",
@@ -27570,9 +26904,7 @@
     "lat": 26.1563246,
     "lng": 119.9444207,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/64add30bb6cf4112a60178fe2cbfff80.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "本店位於馬祖南竿福澳村巷內，主打牛肉拉麵，湯頭甘甜微辣、麵條嚼勁十足，是在地人與遊客都推薦的拉麵店。",
     "highlights": [
@@ -27624,8 +26956,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000074",
@@ -27646,9 +26977,7 @@
     "lat": 23.56512,
     "lng": 119.56614,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "堅持、理想、現實；缺一不可，但只能從中找出平衡堅持從餅皮到內餡都親自製作理想目標是創造100種屬於澎湖的口味",
     "highlights": [
@@ -27705,8 +27034,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Attraction_371020000A_000670",
@@ -27818,9 +27146,7 @@
     "lat": 26.160587,
     "lng": 119.9198424,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/479ccde785794825a090c8f7286981b2.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "位於南竿馬祖村的小餐酒館，以自製精釀啤酒與家常下酒菜聞名，是旅人夜晚聚會的好去處。",
     "highlights": [
@@ -27872,8 +27198,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000087",
@@ -27894,9 +27219,7 @@
     "lat": 23.57439,
     "lng": 119.57724,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "西式手法結合在地新鮮食材",
     "highlights": [
@@ -27952,8 +27275,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003169",
@@ -27974,9 +27296,7 @@
     "lat": 26.1545215,
     "lng": 119.9552627,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/85fd6dc64a154f479b731192901657ec.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "炸雞炸物專賣店，以酥脆雞塊與多樣炸品為主，深受在地與遊客喜愛。",
     "highlights": [
@@ -28028,8 +27348,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000148",
@@ -28050,9 +27369,7 @@
     "lat": 23.7005680562,
     "lng": 119.5511869012,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20251030162539579338.png",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "高空海景咖啡廳",
     "highlights": [
@@ -28108,8 +27425,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000061",
@@ -28130,9 +27446,7 @@
     "lat": 23.57671,
     "lng": 119.57382,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "高CP值的義式餐廳",
     "highlights": [
@@ -28188,8 +27502,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000111",
@@ -28210,9 +27523,7 @@
     "lat": 23.20001,
     "lng": 119.42315,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20231116214618392781.png",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "七美就是要去看雙心石滬及各大美景 就來越南大骨湯麵滿足您的味蕾吧！",
     "highlights": [
@@ -28269,8 +27580,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000062",
@@ -28291,9 +27601,7 @@
     "lat": 23.56811,
     "lng": 119.56707,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "澎湖隱藏版調酒吧",
     "highlights": [
@@ -28350,8 +27658,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000059",
@@ -28372,9 +27679,7 @@
     "lat": 23.57413,
     "lng": 119.57459,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "天人菊的色彩咖啡的香醇放鬆的時光",
     "highlights": [
@@ -28430,8 +27735,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000076",
@@ -28452,9 +27756,7 @@
     "lat": 23.56605,
     "lng": 119.56838,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "澎湖酒吧，未滿18歲，禁止進入！",
     "highlights": [
@@ -28511,8 +27813,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000054",
@@ -28533,9 +27834,7 @@
     "lat": 23.57453,
     "lng": 119.5707,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "歐式麵包、各式塔類、吐司、伴手禮",
     "highlights": [
@@ -28592,8 +27891,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003146",
@@ -28614,9 +27912,7 @@
     "lat": 26.1545215,
     "lng": 119.9552627,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/1d3b99c2fd1141869dfd925258d7f7a2.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "手工窯烤披薩炸雞",
     "highlights": [
@@ -28668,8 +27964,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Attraction_371020000A_001626",
@@ -28865,9 +28160,7 @@
     "lat": 23.1969759101,
     "lng": 119.4217782241,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140904171326430.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "金城餐廳的特色在於食材新鮮，大多使用當日海鮮魚貨料理。金城餐廳的特色在於食材新鮮，大多使用當日海鮮魚貨料理。",
     "highlights": [
@@ -28919,8 +28212,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000094",
@@ -28941,9 +28233,7 @@
     "lat": 23.5654,
     "lng": 119.62376,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "神秘的牛肉麵",
     "highlights": [
@@ -28996,8 +28286,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000034",
@@ -29018,9 +28307,7 @@
     "lat": 23.565971,
     "lng": 119.568844,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20171123115249744204358.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "位於馬公市區內台菜餐廳提供各式海鮮位於馬公市區內台菜餐廳提供各式海鮮",
     "highlights": [
@@ -29072,8 +28359,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000048",
@@ -29094,9 +28380,7 @@
     "lat": 23.55787,
     "lng": 119.5934,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20171123115347523766084.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "推薦菜色：紫菜炒冬粉、海鱷生魚片、烤象魚乾推薦菜色：紫菜炒冬粉、海鱷生魚片、烤象魚乾",
     "highlights": [
@@ -29148,8 +28432,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000005",
@@ -29170,9 +28453,7 @@
     "lat": 23.566136,
     "lng": 119.568551,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20150217084611175.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "推薦菜色：翡翠嫩仙草冰整個冰磚都是濃濃的仙草哦~每口都是超級退火的清涼~",
     "highlights": [
@@ -29225,8 +28506,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000117",
@@ -29247,9 +28527,7 @@
     "lat": 23.57274,
     "lng": 119.57418,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20231116220136847146.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "澎湖唯一炭火胡椒餅",
     "highlights": [
@@ -29302,8 +28580,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000031",
@@ -29324,9 +28601,7 @@
     "lat": 23.74245,
     "lng": 119.61279,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20171122094535231301249.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "各式海鮮、台菜餐廳各式海鮮、台菜餐廳",
     "highlights": [
@@ -29378,8 +28653,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000022",
@@ -29400,9 +28674,7 @@
     "lat": 23.59866,
     "lng": 119.5054,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140917143836786.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "台菜及海鮮餐廳台菜及海鮮餐廳",
     "highlights": [
@@ -29454,8 +28726,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000143",
@@ -29476,9 +28747,7 @@
     "lat": 23.7391152456,
     "lng": 119.6076021106,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20250903170531434757.png",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "吉貝島海鮮無菜單料理",
     "highlights": [
@@ -29530,8 +28799,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000141",
@@ -29552,9 +28820,7 @@
     "lat": 23.5746346983,
     "lng": 119.5732062566,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20250903164414928383.png",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "小管沙拉三明治結合海鮮與沙拉風味，口味清爽，為旅客體驗在地飲食文化的選項之一。店家亦提供蛋奶素選項，滿足不同飲食需求。",
     "highlights": [
@@ -29607,8 +28873,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000126",
@@ -29629,9 +28894,7 @@
     "lat": 23.66698,
     "lng": 119.59838,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "赤崁只有在地人才知道的美食",
     "highlights": [
@@ -29684,8 +28947,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000101",
@@ -29706,9 +28968,7 @@
     "lat": 23.6665,
     "lng": 119.55822,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "現炸花枝三兄弟~ 紫菜.海菜.原味(澎湖花枝丸真材實料)",
     "highlights": [
@@ -29761,8 +29021,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000032",
@@ -29783,9 +29042,7 @@
     "lat": 23.56578,
     "lng": 119.5688,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140917105015132.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "各式海鮮、台菜餐廳各式海鮮、台菜餐廳",
     "highlights": [
@@ -29837,8 +29094,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000017",
@@ -29859,9 +29115,7 @@
     "lat": 23.35644,
     "lng": 119.502592,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140910161710841.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "台菜餐館提供各式海鮮台菜餐館提供各式海鮮",
     "highlights": [
@@ -29914,8 +29168,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000037",
@@ -29936,9 +29189,7 @@
     "lat": 23.565718,
     "lng": 119.569874,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20171123150138261754904.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "海世界餐廳專營團體合菜，歡迎各級團體訂餐。海世界餐廳專營團體合菜，歡迎各級團體訂餐。",
     "highlights": [
@@ -29990,8 +29241,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000007",
@@ -30012,9 +29262,7 @@
     "lat": 23.35805,
     "lng": 119.50352,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140910161414104.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "海鮮及簡單飯麵提供海鮮及簡單飯麵提供",
     "highlights": [
@@ -30067,8 +29315,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000024",
@@ -30089,9 +29336,7 @@
     "lat": 23.6008,
     "lng": 119.5083,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20150306163325661.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "推薦菜色：生海膽、魷魚生片、香酥炸大蝦、海鮮炒飯推薦菜色：生海膽、魷魚生片、香酥炸大蝦、海鮮炒飯",
     "highlights": [
@@ -30144,8 +29389,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000030",
@@ -30166,9 +29410,7 @@
     "lat": 23.568683,
     "lng": 119.573044,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140916173210255.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "各式海鮮、台菜餐廳各式海鮮、台菜餐廳",
     "highlights": [
@@ -30220,8 +29462,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000081",
@@ -30242,9 +29483,7 @@
     "lat": 23.56525,
     "lng": 119.58172,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "#澎湖早餐#澎湖早午餐#澎湖晚餐#澎湖宵夜",
     "highlights": [
@@ -30297,8 +29536,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000047",
@@ -30319,9 +29557,7 @@
     "lat": 23.56615,
     "lng": 119.56949,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140916165640101.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "經濟小吃、團體便餐、各式海鮮經濟小吃、團體便餐、各式海鮮",
     "highlights": [
@@ -30374,8 +29610,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000096",
@@ -30396,9 +29631,7 @@
     "lat": 23.52449,
     "lng": 119.59635,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "來自緬甸的華僑，選用泰式雲南料理方法烹調澎湖海鮮。",
     "highlights": [
@@ -30451,8 +29684,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000003",
@@ -30473,9 +29705,7 @@
     "lat": 23.56775,
     "lng": 119.56842,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140916165108808.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "推薦菜色：傻愛莊蠻牛肉麵、傻愛莊珊瑚餅推薦菜色：傻愛莊蠻牛肉麵、傻愛莊珊瑚餅",
     "highlights": [
@@ -30528,8 +29758,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000043",
@@ -30550,9 +29779,7 @@
     "lat": 23.5663,
     "lng": 119.56514,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140916141759958.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "道地川味、大宴小酌、應時海鮮、可口實惠、親切服務。道地川味、大宴小酌、應時海鮮、可口實惠、親切服務。",
     "highlights": [
@@ -30605,8 +29832,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000049",
@@ -30627,9 +29853,7 @@
     "lat": 23.56502,
     "lng": 119.567953,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20150305093654632.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "各式海鮮、台菜餐廳經濟小吃、團體便餐、各式海鮮",
     "highlights": [
@@ -30681,8 +29905,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000118",
@@ -30703,9 +29926,7 @@
     "lat": 23.56623,
     "lng": 119.56534,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20231116215251174342.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "澎湖馬公老字號飲品",
     "highlights": [
@@ -30758,8 +29979,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000018",
@@ -30780,9 +30000,7 @@
     "lat": 23.564297,
     "lng": 119.673128,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140912171450199.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "各式海鮮、台菜餐廳各式海鮮、台菜餐廳",
     "highlights": [
@@ -30834,8 +30052,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000079",
@@ -30856,9 +30073,7 @@
     "lat": 23.56793,
     "lng": 119.57633,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "澎湖文化中心附近的在地美食",
     "highlights": [
@@ -30911,8 +30126,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000011",
@@ -30933,9 +30147,7 @@
     "lat": 23.5642562,
     "lng": 119.6354137,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140910164057404.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "推薦菜色：薑母鴨、各式小吃、江浙海鮮推薦菜色：薑母鴨、各式小吃、江浙海鮮",
     "highlights": [
@@ -30988,8 +30200,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Attraction_A15010200H_000031",

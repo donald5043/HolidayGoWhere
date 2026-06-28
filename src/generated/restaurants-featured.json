@@ -20,8 +20,7 @@
     "image": "https://klctb-ws.klcg.gov.tw/001/Upload/tour/445/12550/1098/pic/ff953d28-9af5-4877-84c9-3e2d8e9fb48d.jpg",
     "imageCandidates": [
       "https://klctb-ws.klcg.gov.tw/001/Upload/tour/445/12550/1099/pic/09952c4c-2ec9-4cae-80cf-ec66c2b66edc.jpg",
-      "https://klctb-ws.klcg.gov.tw/001/Upload/tour/445/12550/1100/pic/152420d6-b0fc-4414-b1fd-0768d4586721.jpg",
-      "restaurant-fallbacks/general-restaurant.svg"
+      "https://klctb-ws.klcg.gov.tw/001/Upload/tour/445/12550/1100/pic/152420d6-b0fc-4414-b1fd-0768d4586721.jpg"
     ],
     "accent": "#f2a65a",
     "description": "-景點簡介-基隆港好食城位於基隆市中正區中正路3號，設在基隆港東岸旅客服務中心（叁肆行）1、2樓，是一個全新打造的複合式美食與購物空間。這裡集合了台灣各地特色小吃、異國料理與人氣餐廳品牌，不論是家庭聚會或遊客用餐都相當便利。由於鄰近港口，還能欣賞到港灣風情與郵輪出入的壯觀景色。-景點特色-基隆港好食城匯聚七大連鎖餐飲品牌，不論是日本豬排、港式點心、川菜還是泰…",
@@ -95,8 +94,7 @@
       "missing": [
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376570000A_000537",
@@ -120,8 +118,7 @@
     "imageCandidates": [
       "https://klctb-ws.klcg.gov.tw/001/Upload/tour/445/12550/775/pic/58a1b6d6-947b-4bb4-afc4-05f4b7f3b61f.jpg",
       "https://klctb-ws.klcg.gov.tw/001/Upload/tour/445/12550/776/pic/ab06849a-a2eb-4843-a2ef-4247173f0320.jpg",
-      "https://klctb-ws.klcg.gov.tw/001/Upload/tour/445/12550/777/pic/5f4034fc-16c8-4e69-b31d-3e543267466c.jpg",
-      "restaurant-fallbacks/food-court.svg"
+      "https://klctb-ws.klcg.gov.tw/001/Upload/tour/445/12550/777/pic/5f4034fc-16c8-4e69-b31d-3e543267466c.jpg"
     ],
     "accent": "#7e8bd6",
     "description": "-景點簡介-基隆市政府於107年2月將原本東岸廣場老舊建築，變身為多功能複合式商場，進駐各國知名餐廳，搭配歷久彌新的廟口夜市，是基隆市區重要的核心。除了美食外，廣場內也設有體貼的親子設施，頂樓綠色公共空間，規劃成為空中海景區，還設計了一個開放式的200公尺的PU露天海景跑道，提供民眾有一個新的場地可以選擇，可就近休閒散步，增添更多的遊逛樂趣，走一圈可以把基隆…",
@@ -192,8 +189,7 @@
         "官方網站",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000018",
@@ -217,8 +213,7 @@
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/018_無恙/02.jpg",
       "https://hsinchuemap.tw/XmlImages/餐飲/018_無恙/03.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/018_無恙/04.jpg",
-      "restaurant-fallbacks/general-restaurant.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/018_無恙/04.jpg"
     ],
     "accent": "#f2a65a",
     "description": "*不接待6歲以下幼兒**寵物需有提籃或推車不落地*簡而有韻的質感空間位於中華路三段的 #無恙 ，在一排老宅透天厝民宅旁，若不是店家門口綠意盎然獨樹一格，與周圍樓房相印成趣，很容易不小心就錯過了。這裡的料理以少量調味為特色，並採用多樣新鮮時蔬，重點都是原型食物去料理，這點超級加分，讓每位訪客都能品味食材的天然原味並且食得健康，店內打造優雅而靜謐的用餐空間，收集…",
@@ -273,8 +268,7 @@
       "missing": [
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376570000A_000720",
@@ -298,8 +292,7 @@
     "imageCandidates": [
       "https://klctb-ws.klcg.gov.tw/001/Upload/tour/445/12550/1145/pic/93055b70-075a-43b8-ae56-3bef1e77f2e2.jpg",
       "https://klctb-ws.klcg.gov.tw/001/Upload/tour/445/12550/1146/pic/638a3376-854c-4e44-bbee-40071d6c975a.jpg",
-      "https://klctb-ws.klcg.gov.tw/001/Upload/tour/445/12550/1147/pic/f41eff46-f970-4d4e-ae7f-cb7c9dab4f07.jpg",
-      "restaurant-fallbacks/general-restaurant.svg"
+      "https://klctb-ws.klcg.gov.tw/001/Upload/tour/445/12550/1147/pic/f41eff46-f970-4d4e-ae7f-cb7c9dab4f07.jpg"
     ],
     "accent": "#d88962",
     "description": "-景點簡介- 沿著蜿蜒海岸線來到碧砂漁港，彷彿闖入一幅山海交織的畫卷。背倚翠綠山巒，面向湛藍大海，這座集結完善漁業機能與美景、美食的漁港，早已成為基隆不可錯過的獨特地標。-景點特色-碧砂漁港不僅是重要的漁產直銷中心，更是老饕們口耳相傳的海味寶庫。每日新鮮直送的漁貨在攤位上排列整齊，活跳跳的龍蝦、大閘蟹、蝦子等應有盡有，令人垂涎欲滴。陽光斜灑於漁港一隅，攤販叫…",
@@ -351,8 +344,7 @@
         "官方網站",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000091",
@@ -376,8 +368,7 @@
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/091_一二三台灣料理/02.jpg",
       "https://hsinchuemap.tw/XmlImages/餐飲/091_一二三台灣料理/03.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/091_一二三台灣料理/04.jpg",
-      "restaurant-fallbacks/general-restaurant.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/091_一二三台灣料理/04.jpg"
     ],
     "accent": "#f2a65a",
     "description": "這家開在護城河旁的溫馨 #一二三台灣料理，原本就是 #城編 的口袋名單，營業超過40個年頭，餐廳的環境布置溫馨，讓人感受到家的味道，無論是和朋友聚餐或是家庭聚會都非常適合。黑板上的菜單中、日文都有，是因為老闆精通日文所以店內經常都是來台經商、工作的日本饕客，雖然看似都是家常、下酒菜，但都色香味俱全一吃便成主顧，是許多日本朋友來新竹的指定用餐的餐廳之一。#城編…",
@@ -432,8 +423,7 @@
       "missing": [
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000047",
@@ -457,8 +447,7 @@
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/047_豪果複合式餐廳/02.jpg",
       "https://hsinchuemap.tw/XmlImages/餐飲/047_豪果複合式餐廳/03.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/047_豪果複合式餐廳/04.jpg",
-      "restaurant-fallbacks/general-restaurant.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/047_豪果複合式餐廳/04.jpg"
     ],
     "accent": "#f2a65a",
     "description": "親民平價複合式餐廳隱身在光華迷宮巷弄內的超平價家庭式複合餐廳，許多附近居民從叫做豪利的時候吃到現在叫 #豪果複合式餐廳 ，不起眼的外觀下，人來人往的顧客中，有些是從小吃到大的，也有些是帶著自己的小孩吃著自己小時候的味道，環境既懷舊又溫馨，平日、假日常看到座無虛席的景象。雖然價格超親民但味道可一點都不馬虎，不管外界的通膨或是原物料上漲，這些年來幾乎沒有漲價，餐…",
@@ -513,8 +502,7 @@
       "missing": [
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000032",
@@ -538,8 +526,7 @@
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/032_西米露之家/02.jpg",
       "https://hsinchuemap.tw/XmlImages/餐飲/032_西米露之家/03.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/032_西米露之家/04.jpg",
-      "restaurant-fallbacks/general-restaurant.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/032_西米露之家/04.jpg"
     ],
     "accent": "#f2a65a",
     "description": "學生族群愛的平價飲品位於東門國小巷子旁的 #西米露之家 ，是間西米露的專賣店，應該是不少新竹人學生時期常去購買的飲料店，自1990年營業至今，有許多種口味的西米露，由於不能客制化甜度選擇，所以喜歡1-3分糖的朋友可能需要慎重考慮囉！芋泥西米露喝起來粒粒分明的口感，喝起來咕嚕咕嚕滑順的在喉嚨中順暢流過，如果是小朋友或年長者，建議要慢慢品嚐，細嚼慢嚥最佳，不過因…",
@@ -595,8 +582,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000019",
@@ -620,8 +606,7 @@
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/019_柚子_Pomelo's_Home/02.jpg",
       "https://hsinchuemap.tw/XmlImages/餐飲/019_柚子_Pomelo's_Home/03.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/019_柚子_Pomelo's_Home/04.jpg",
-      "restaurant-fallbacks/general-restaurant.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/019_柚子_Pomelo's_Home/04.jpg"
     ],
     "accent": "#f2a65a",
     "description": "護河城河畔優質創意定食料理位在美麗的新竹護城河畔的 #柚子 Pomelo's Home，算是市區內風景宜人的地區，純白色的外觀，以及大片的玻璃，logo是可愛的鮮檸檬黃柚子一顆，店內裝潢是白色與木紋做搭配，另外隨處可見的花藝品及小物，餐廳使用了大量的實木及暖色照明，就是很日式居家舒適的用餐環境，處處可以感受到店家的用心。店內餐點由日本知名料理家親自指導，菜餚…",
@@ -676,8 +661,7 @@
       "missing": [
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000055",
@@ -701,8 +685,7 @@
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/055_RT雅特烘焙/02.jpg",
       "https://hsinchuemap.tw/XmlImages/餐飲/055_RT雅特烘焙/03.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/055_RT雅特烘焙/04.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/055_RT雅特烘焙/04.jpg"
     ],
     "accent": "#f2a65a",
     "description": "新竹首選麵包蛋糕店位於新竹圓環護城河邊的RT雅特烘培 ，在新竹地區可說是頗有名氣，從2012年開始，更是擴展版圖到了苗栗，在頭份與竹南都有分店呢！RT主要以歐式麵包及各式小西點聞名，還有許多獨創的商品，不僅是許多人的日常享受，RT更是陪伴他們成長的重要存在，從小朋友的生日派對到成人的婚禮喜餅、彌月蛋糕，都少不了RT的身影， 難怪每次 #城編 經過RT都有一種…",
@@ -758,8 +741,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15011000H_000234",
@@ -779,10 +761,8 @@
     "hours": "週一~週日11:00~16:00，17:00~21:30",
     "lat": 25.14103,
     "lng": 121.7954,
-    "image": "restaurant-fallbacks/general-restaurant.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/general-restaurant.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#f2a65a",
     "description": "用心把新鮮的食材分享給大家，是漁品軒堅持的品質保證！出身於捕魚家庭的老闆娘，藉由昔日父母親所傳承下來的點滴與回憶，將小時候飯桌上熱騰騰的海鮮米粉湯、新鮮漁獲製成的魚鬆，轉換為漁品軒的金字招牌產品，讓記憶中的美好滋味與大家分享。漁品軒不僅在餐飲經營有成，更跨足伴手禮市場，研發出可沖泡、可快煮的海鮮米粉，讓饕客回家後可以隨心品嘗到鮮甜美味；2019年更推出海鮮醬…",
     "highlights": [
@@ -837,8 +817,7 @@
         "票價資訊",
         "官方照片"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376570000A_000717",
@@ -862,8 +841,7 @@
     "imageCandidates": [
       "https://klctb-ws.klcg.gov.tw/001/Upload/tour/445/12550/1129/pic/d5f973e5-54df-4138-9087-53a47e98f447.jpg",
       "https://klctb-ws.klcg.gov.tw/001/Upload/tour/445/12550/1130/pic/22c70f6e-cd5b-44f1-8297-509ae73f5996.jpg",
-      "https://klctb-ws.klcg.gov.tw/001/Upload/tour/445/12550/1131/pic/627f551a-cbe3-4e1b-ba88-43c92042bd7d.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://klctb-ws.klcg.gov.tw/001/Upload/tour/445/12550/1131/pic/627f551a-cbe3-4e1b-ba88-43c92042bd7d.jpg"
     ],
     "accent": "#d88962",
     "description": "景點簡介夜晚的基隆崁仔頂商圈，總是人聲鼎沸。崁仔頂商圈泛指孝一路與孝二路一帶，結合了傳統漁市與懷舊商業文化，展現濃厚的在地風情與當地商業發展更迭的印記。崁仔頂漁市是北台灣最大的生鮮漁獲批發市場之一，吸引大台北地區的魚販和海產愛好者前來聚集。景點特色當整個城市都在沉睡時，崁仔頂商圈卻依然熱鬧非凡，這裡展現了港都城市獨特的夜晚風情。崁仔頂漁市為北台灣最大的生鮮漁…",
@@ -914,8 +892,7 @@
         "官方網站",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376570000A_000558",
@@ -939,8 +916,7 @@
     "imageCandidates": [
       "https://klctb-ws.klcg.gov.tw/001/Upload/tour/445/12550/1123/pic/f55e5d8c-e2fa-4a2f-91bf-aa8801481e75.jpg",
       "https://klctb-ws.klcg.gov.tw/001/Upload/tour/445/12550/884/pic/69197261-b829-461c-a433-209e1eb63816.jpg",
-      "https://klctb-ws.klcg.gov.tw/001/Upload/tour/445/12550/885/pic/bdf993a7-e76a-4fcb-bce0-9d640f02e626.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://klctb-ws.klcg.gov.tw/001/Upload/tour/445/12550/885/pic/bdf993a7-e76a-4fcb-bce0-9d640f02e626.jpg"
     ],
     "accent": "#d88962",
     "description": "-景點簡介- 隨著海風吹過港都的傍晚，夜色緩緩降臨，基隆廟口夜市也悄悄熱鬧起來。這裡是當地居民與觀光客最愛的美食據點之一，各式小吃攤點熱氣蒸騰、香氣四溢，無論是來嚐鮮還是重溫回憶，廟口夜市總能讓人流連忘返。-景點特色-基隆廟口的興起離不開「奠濟宮」的幫助，絡繹不絕的香客以及當地的居民、漁民，逐漸為這個地區帶來繁榮以及商機，許多美食隨著時間的推移逐漸發展出當地…",
@@ -991,8 +967,7 @@
         "官方網站",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000017",
@@ -1016,8 +991,7 @@
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/017_一想一響咖啡/02.jpg",
       "https://hsinchuemap.tw/XmlImages/餐飲/017_一想一響咖啡/03.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/017_一想一響咖啡/04.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/017_一想一響咖啡/04.jpg"
     ],
     "accent": "#df7bb4",
     "description": "老屋咖啡時光剪影由幼稚園改建而成，雖然是老宅改建卻又不似老屋一貫的風格，維持原有幼稚園獨特結構和樣貌，帶有些微廢墟的粗曠和冷調的專業感，保留原本挑高的兩層樓設計，輔以水泥牆面、黑色金屬、木紋層板、明亮落地窗，整體搭配映襯的很有質感，打造出富有慵懶頹廢風格卻又放鬆的氛圍。環境分為室內外區，戶外區在水泥及木紋地板上擺放粗曠木頭圓桌，另外設有沙發區，在微風輕拂、暖…",
@@ -1072,8 +1046,7 @@
       "missing": [
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000049",
@@ -1097,8 +1070,7 @@
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/049_八二親食/02.jpg",
       "https://hsinchuemap.tw/XmlImages/餐飲/049_八二親食/03.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/049_八二親食/04.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/049_八二親食/04.jpg"
     ],
     "accent": "#d88962",
     "description": "多一點蔬食，少一點負擔「八二」代表80%的蔬食、20%的葷食，「親食」則代表像是母親做給家人般的料理，每一道都是用心專研的成果，堅持以五色食藝，健康五色料理，再忙碌也要吃得健康又美味！#八二親食 目前有二家，皆在位於新竹市東區，分別為三民店及將軍村店，可以品嚐到各式各樣的健康料理，如石鍋米線、蔬果壽司、日式雜炊、和食無菜單以及手工甜品等。這些菜品皆以「少油少…",
@@ -1154,8 +1126,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000081",
@@ -1179,8 +1150,7 @@
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/081_三味鹹酥雞/02.jpg",
       "https://hsinchuemap.tw/XmlImages/餐飲/081_三味鹹酥雞/03.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/081_三味鹹酥雞/04.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/081_三味鹹酥雞/04.jpg"
     ],
     "accent": "#b98b73",
     "description": "只賣三種口味的炸物店經過大同路時長被一陣鹹酥雞香給吸引，這便是在這裡從攤車做到店面的 #三味鹹酥雞 ，說起店名的由來，是因為他只有三種口味，鹹酥雞、甜不辣與花枝丸，而每一種都要就選擇綜合。從下午便開始營業，下班下課時間總是大排長龍，也是許多新竹人極力推薦的炸物，#城編 覺得超適合當作下午茶或是飯前的嘴饞零食，鹹酥雞鹹香且鮮嫩多汁，酥炸的外皮還加上了白芝麻香氣…",
@@ -1236,8 +1206,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000077",
@@ -1261,8 +1230,7 @@
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/077_三廠炸醬麵/02.jpg",
       "https://hsinchuemap.tw/XmlImages/餐飲/077_三廠炸醬麵/03.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/077_三廠炸醬麵/04.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/077_三廠炸醬麵/04.jpg"
     ],
     "accent": "#d88962",
     "description": "吃貨城編的500碗在台灣的美食中，雜醬麵無疑是一個深受人們喜愛的經典小吃，每個人心中都有著那一碗熟悉的味道，那碗熟悉的家常麵，位在延平路上靠近經國路路口有一個大大的招牌，寫著 #三廠炸醬麵 這間老字號眷村家常菜，也是在地人從小吃到大的好滋味 。三廠炸醬麵最初是由退役老兵康伯伯於民國76年開設，民國96年因市場拆遷故遷址於現址，由市場小麵攤，轉成明亮麵店，外省…",
@@ -1318,8 +1286,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000104",
@@ -1340,9 +1307,7 @@
     "lat": 24.814813647085913,
     "lng": 120.95989647357983,
     "image": "https://hsinchuemap.tw/XmlImages/餐飲/104_大碗公冰_.甜品（新竹中正店）/01.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "炎炎夏日就該來碗大碗公隨著天氣熱， 想吃冰的心情就越發強烈啊，這間位於中正路上的大碗公冰店是從南部展店上來北部的，擁有許多分店，但冰品種類多到會選擇障礙，不只給料真的是超級大方，都是堆得滿滿的，然後品項也多，豆花、仙草、剉冰等等，而且還有多獨創冰品。店家獨有的超大碗公冰，據說比臉盆還大，非常適合多人一起挑戰！但不管大碗、小碗給的料都超級多，吃完不只消暑還非常…",
     "highlights": [
@@ -1397,8 +1362,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000031",
@@ -1422,8 +1386,7 @@
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/031_小木屋鬆餅/02.jpg",
       "https://hsinchuemap.tw/XmlImages/餐飲/031_小木屋鬆餅/03.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/031_小木屋鬆餅/04.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/031_小木屋鬆餅/04.jpg"
     ],
     "accent": "#df7bb4",
     "description": "正餐下午茶的好選擇#小木屋鬆餅 的前身，其實隱藏在交大二餐的飲料部，相信從前不少新竹學子們都曾至交大校園內排隊等候號碼取餐過，#城編 可是交大店、清大店都排過呢！最高紀錄等了一個多小時，從2006年迄今，帶著讓幸福傳遞每個角落的性念，以穩健的步伐從校園到街角巷口逐步開拓據點，在北台灣地區開設了不少的分店。即使是位於新竹圓環周邊鬧區的東門店，也如同打造一棟小木…",
@@ -1479,8 +1442,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000010",
@@ -1504,8 +1466,7 @@
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/010_不染_Cocktail_Bar/02.jpg",
       "https://hsinchuemap.tw/XmlImages/餐飲/010_不染_Cocktail_Bar/03.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/010_不染_Cocktail_Bar/04.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/010_不染_Cocktail_Bar/04.jpg"
     ],
     "accent": "#d88962",
     "description": "大人味的下班活動週末的晚上需要放鬆一下，轉換上班緊繃的心情，#城編 推薦找個地方小酌一下！位於新竹轉運站附近，南大路上鬧中取靜的 #不染 Cocktail Bar，氛圍輕鬆舒適，非常適合週末小酌，調酒師專業且友好，可以根據口味喜好推薦適合的飲品除了經典款的雞尾酒，他們也會定期推出季節限定的特調，非常值得一試，除了調酒，這裡的小菜也是一絕，炒溪、雞爪讓人一口接…",
@@ -1561,8 +1522,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000051",
@@ -1586,8 +1546,7 @@
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/051_井町日式蔬食料理/02.jpg",
       "https://hsinchuemap.tw/XmlImages/餐飲/051_井町日式蔬食料理/03.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/051_井町日式蔬食料理/04.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/051_井町日式蔬食料理/04.jpg"
     ],
     "accent": "#df7bb4",
     "description": "日式風味蔬食#城編 最近走健康路線，嘗試了不少蔬食特色餐廳，偶然發現在新竹市政府附近有間 #井町日式蔬食料理 (大同店)，在竹北、台中也有分店，雖是無肉料理，吃起來卻完全顛覆想像，家常日式的空間，木質裝潢符合日式料理，一點也不像傳統素食餐廳。井町咖喱飯，以炸豆包取代炸豬排的方式，豆包炸到非常香酥完全沒豆味只有香酥味，更讓人驚艷！咖哩味道濃郁，而且咖喱的搭配非…",
@@ -1642,8 +1601,7 @@
       "missing": [
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000094",
@@ -1667,8 +1625,7 @@
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/094_公園黑乾麵/02.jpg",
       "https://hsinchuemap.tw/XmlImages/餐飲/094_公園黑乾麵/03.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/094_公園黑乾麵/04.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/094_公園黑乾麵/04.jpg"
     ],
     "accent": "#d88962",
     "description": "讓人意猶未盡的黑醬鹹香甜新竹市藏匿著許多隱藏在巷弄中的美味麵食，當地的老饕們對這些美味可說是瞭如指掌！在新竹體育場旁，飄香已達30年的 #公園黑乾麵，是許多人從小吃到大的好味道，甚至被不少人選為早餐的首選，每到用餐時總是人潮絡繹不絕。一碗油麵，搭配少許豆芽菜，淋上那看似黑黑、鹹鹹的醬汁，然而，其實吃起來卻是甜味為主的滋味，鹹甜交融，再加上微微的辣感，讓人不由…",
@@ -1724,8 +1681,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000071",
@@ -1746,9 +1702,7 @@
     "lat": 24.804069947515067,
     "lng": 120.97265847357944,
     "image": "https://hsinchuemap.tw/XmlImages/餐飲/071_升一排骨/01.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "那一份承載青春的記憶記得嗎？在那嬉鬧的傍晚的放學後，那一份熟悉的熱騰騰排骨飯，陪伴著我們走過漫長的求學過程，但他始終在那，服務著曾經是學生的我，以及正在求學路上的同學，甚至出社會的 #城編 仍會偶爾回訪，點上那一盤熟悉的排骨飯。#升一排骨 依然可以讓大家加飯、內用飲料以及湯品，那一份令人回味的炸排骨，味道依舊做為CP值相當高的飲食店，不只是學生，也是許多新竹…",
     "highlights": [
@@ -1803,8 +1757,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000099",
@@ -1828,8 +1781,7 @@
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/099_日出咖啡Sunrise_Cafe/02.jpg",
       "https://hsinchuemap.tw/XmlImages/餐飲/099_日出咖啡Sunrise_Cafe/03.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/099_日出咖啡Sunrise_Cafe/04.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/099_日出咖啡Sunrise_Cafe/04.jpg"
     ],
     "accent": "#b98b73",
     "description": "將軍村裡飄出陣陣咖啡香「#日出咖啡 」座落在將軍村內的一棟宅邸，是將「方勵為上校」的故居重新活化改造而成，白天是間咖啡廳，販售輕食、咖啡☕️，晚上夜幕降臨則變身為酒吧。當然若是想感受眷村的幽靜，建議平日造訪；若是假日前往，還能順便逛逛將軍村不定期舉辦的文創市集，在老房子逛文創市集可是一種很潮的節奏呢！#拿鐵☕️咖啡香氣迷人，與鮮奶的調配也平衡，不愧是由厲害咖…",
@@ -1884,8 +1836,7 @@
       "missing": [
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000015",
@@ -1909,8 +1860,7 @@
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/015_水哥笠禾/02.jpg",
       "https://hsinchuemap.tw/XmlImages/餐飲/015_水哥笠禾/03.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/015_水哥笠禾/04.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/015_水哥笠禾/04.jpg"
     ],
     "accent": "#d88962",
     "description": "*不接受電話預約、周六+國定假日不接受線上預約*健康養生飯糰水哥飯糰成立於1999年原本是小攤販，至今已有自己的店面，位於三民網球場附近，上學、上班時段的等待人潮眾多，非內用時建議可以提前使用 #點餐預約服務 (不開放當日線上預約點餐），省去現場等待時間。水哥的飯糰特別在於米飯粒粒分明，相較於黏性較高的糯米，這樣的米飯口感更加清爽，由於米飯黏度不比糯米，建議…",
@@ -1966,8 +1916,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000101",
@@ -1991,8 +1940,7 @@
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/101_北門炸粿/02.jpg",
       "https://hsinchuemap.tw/XmlImages/餐飲/101_北門炸粿/03.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/101_北門炸粿/04.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/101_北門炸粿/04.jpg"
     ],
     "accent": "#d88962",
     "description": "傳承四代的排隊銅板美食日治時期起家的「北門炸粿」自第一代翁老闆推台車沿街叫賣起，來到現在已由第四代接手，假日常常大排長龍，是間位在新竹市長和宮附近，從城隍廟步行約8-10分鐘，店面看起來雖不起眼，卻充滿了許多新竹人兒時的味蕾記憶。現點現炸，用料實在！每一顆飽滿紮實才銅板價，外酥脆保有食材鮮甜味，雖然是油炸的但完全不油膩，大推具有懷古口味的米糕，類似炸年糕的口…",
@@ -2048,8 +1996,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000011",
@@ -2073,8 +2020,7 @@
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/011_皿富器食_minfood/02.jpg",
       "https://hsinchuemap.tw/XmlImages/餐飲/011_皿富器食_minfood/03.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/011_皿富器食_minfood/04.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/011_皿富器食_minfood/04.jpg"
     ],
     "accent": "#d88962",
     "description": "名副其實的美味再訪唸起來就是「名副其實」的 #皿富器室 ，一直久聞最有名的就是日式刨冰，逮到一個有陽光的春天午後，來上一碗刨冰是人生一大享受。期間限定的冬日草莓優格小刨冰，滿滿的新鮮 草莓果肉搭配 Q 彈的手工巧克力奶凍，外層再淋上粉嫩嫩草莓醬 結合口感順滑的優格，這酸酸甜甜的滋味，讓人感受到了屬於春天的「莓」好時刻，每一口都是皿富對草莓控的寵愛京都丸久小山…",
@@ -2130,8 +2076,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000083",
@@ -2155,8 +2100,7 @@
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/083_石家魚丸/02.jpg",
       "https://hsinchuemap.tw/XmlImages/餐飲/083_石家魚丸/03.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/083_石家魚丸/04.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/083_石家魚丸/04.jpg"
     ],
     "accent": "#d88962",
     "description": "超爆汁包肉大魚丸位於興學街上的 #石家魚丸，為新竹魚丸創始老店，店面看起來就是一個不起眼的尋常小攤，一邊是用餐區，一邊則是做魚丸的工廠，創立至今已經80個年頭，仍堅持手工製作最新鮮的魚丸，味道也讓每個吃過的新竹人都念念不忘。店內就賣兩種品項，湯跟滷肉飯，湯品推薦點 #三丸湯 ，裡頭有新竹貢丸、包肉魚丸、燕丸，都是很大一顆， #城編 最推包肉魚丸！魚丸內餡有新…",
@@ -2212,8 +2156,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000036",
@@ -2236,8 +2179,7 @@
     "image": "https://hsinchuemap.tw/XmlImages/餐飲/036_冰斗古早味剉冰/01.jpg",
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/036_冰斗古早味剉冰/02.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/036_冰斗古早味剉冰/03.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/036_冰斗古早味剉冰/03.jpg"
     ],
     "accent": "#df7bb4",
     "description": "任選配料濃濃古早味正港隱藏版巷仔內的 #冰斗古早味剉冰 ，位於新竹國賓飯店後方巷子內，復古風味的店內沒有太多裝潢，冰品不走浮誇的網美拍照路線，反而以最傳統的方式製作，畢竟最簡單的口味反而最耐吃。牆上掛的都是夏季冰品，可惜 #城編 拜訪時是出著大太陽的冬天了，否則一定嘗試一碗名字非常霸氣的 #流氓冰 (榴蓮+芒果)而充滿古早味的李鹹冰，用的是像梅酒裡的脆梅醃製…",
@@ -2293,8 +2235,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000078",
@@ -2318,8 +2259,7 @@
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/078_吉草堂青草舖/02.jpg",
       "https://hsinchuemap.tw/XmlImages/餐飲/078_吉草堂青草舖/03.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/078_吉草堂青草舖/04.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/078_吉草堂青草舖/04.jpg"
     ],
     "accent": "#d88962",
     "description": "嚐嚐阿公阿嬤年代的手搖飲位於新竹城隍廟的對面，早年這條被老新竹人稱為後車路很熱鬧的商業街，在早年街上還在販賣藥草乾貨時， #吉草堂青草舖 便以販賣青草茶打響名號。從前那個還沒有珍珠奶茶的年代，大家也是喝著古早味飲料，即使現已交由第三代接手，仍堅持老舖傳統風味，天然無添加、每日現煮的涼茶來享受清涼消暑，都是天然的新鮮在地食材熬煮的，喝起來當然也養生保健，除了現…",
@@ -2375,8 +2315,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000079",
@@ -2398,8 +2337,7 @@
     "lng": 120.94618517763823,
     "image": "https://hsinchuemap.tw/XmlImages/餐飲/079_竹山意麵/01.jpg",
     "imageCandidates": [
-      "https://hsinchuemap.tw/XmlImages/餐飲/079_竹山意麵/02.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/079_竹山意麵/02.jpg"
     ],
     "accent": "#d88962",
     "description": "巷仔內無法抗拒的簡單美味位在長和宮旁邊的巷子裡，有一間外表看似平凡的麵店，卻承載著許多新竹人對於美味的共同記憶，而一碗看起來只有淋上豬油和醬油配上青菜跟麵的竹山意麵 ，卻是不少新竹人無法抗拒的好味道！乾意麵端上桌切記要趁熱拌開來，不然麵條可是會整坨糾結在一起，只要拌開就能聞到香味撲鼻而來，簡單的一碗麵卻讓人一口接著一口停不下來。店家提供特製的辣油跟甜辣醬兩種…",
@@ -2455,8 +2393,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000075",
@@ -2480,8 +2417,7 @@
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/075_竹樂食堂/02.jpg",
       "https://hsinchuemap.tw/XmlImages/餐飲/075_竹樂食堂/03.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/075_竹樂食堂/04.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/075_竹樂食堂/04.jpg"
     ],
     "accent": "#d88962",
     "description": "老派的無菜單料理說起新竹傳統的台菜餐廳，相信許多在地新竹人都會想起位於民富國小斜對面開業數十年載的 #竹樂食堂 ，雖沒有新穎的內部裝潢，招牌也沒有很明顯，卻讓不少老饕客難以忘懷，可說是老新竹人的心頭好。開店超過30多年，沒有紙本菜單而是跟傳統的海產店一樣，一切依照門口冰櫃裡有的菜色點餐，內有當天才知道的海鮮，就是當天才知道的驚喜了！看著玻璃櫃想吃什麼點什麼，…",
@@ -2536,8 +2472,7 @@
       "missing": [
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000066",
@@ -2560,8 +2495,7 @@
     "image": "https://hsinchuemap.tw/XmlImages/餐飲/066_竹蓮肉圓/01.jpg",
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/066_竹蓮肉圓/02.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/066_竹蓮肉圓/03.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/066_竹蓮肉圓/03.jpg"
     ],
     "accent": "#d88962",
     "description": "竹蓮肉圓是新竹三大肉圓名店之一，榮登五百碗推介名單。已經賣了半個世紀的超老牌新竹在地美食，位於在通往新竹科學園區的西大路上車水馬龍間，第一代是由老闆的阿公創立，原本沒有名字大家都叫西大路28號肉圓，後來成名後才有了正式的名稱 #竹蓮肉圓，許多熱愛竹蓮肉圓的朋友，可是從早期攤車時，一直追到這裡來，而這令人難以忘懷的好滋味，也是饕客們一直追隨他的理由。肉圓是現包…",
@@ -2617,8 +2551,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000052",
@@ -2641,8 +2574,7 @@
     "image": "https://hsinchuemap.tw/XmlImages/餐飲/052_老宅豆花/01.jpg",
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/052_老宅豆花/02.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/052_老宅豆花/03.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/052_老宅豆花/03.jpg"
     ],
     "accent": "#d88962",
     "description": "隱身民宅的神祕豆花店天氣一下降溫不少，飽餐過後總還是免不了對甜食的渴望，這間隱身民宅之中的 #老宅豆花 ，位置超隱密，小巷內的老宅豆花其外觀低調而有韻味，一進店內便能感受到一股濃濃的懷舊氣息，在古樸的環境中吃著古早味的豆花，別有一番氣氛！豆花湯底有糖水和薑汁，想吃冰的可以加冰沙，冰沙有糖水、薑汁和豆漿口味，豆花細膩滑嫩，入口即化，搭配上濃郁的糖水和香濃的配料…",
@@ -2698,8 +2630,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000061",
@@ -2722,8 +2653,7 @@
     "image": "https://hsinchuemap.tw/XmlImages/餐飲/061_老豆花_プリプリ/01.jpg",
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/061_老豆花_プリプリ/02.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/061_老豆花_プリプリ/03.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/061_老豆花_プリプリ/03.jpg"
     ],
     "accent": "#df7bb4",
     "description": "健康低糖的文青豆花店在新竹有多間分店且小有名氣的 #老豆花 ，其一分店湳雅店開在一條安靜的小巷裡，內用餐空間不大座位算不多，店裡的裝潢偏日系復古且清新，整體氣氛很輕鬆且友善幼童，除了內用也有看到外帶的客人絡繹不絕。選單上有六種搭配好的豆花，也可以自己選配料自行搭配，有三種湯底可選(清爽糖水、濃醇豆漿、薑汁黑糖），不論是點哪種豆花湯頭都甜而不膩，並附上一球黑糖…",
@@ -2779,8 +2709,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000067",
@@ -2803,8 +2732,7 @@
     "image": "https://hsinchuemap.tw/XmlImages/餐飲/067_老雲記餃子館/01.jpg",
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/067_老雲記餃子館/02.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/067_老雲記餃子館/03.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/067_老雲記餃子館/03.jpg"
     ],
     "accent": "#d88962",
     "description": "網稱被水餃耽誤的牛肉麵館鄰近十八尖山及三所學校學區的老雲記餃子館 ，是一間老字號的麵食店，主要販售的品項水餃、麵食跟各式小菜，麵食的種類不多，每到用餐時段人潮總是絡繹不絕。半筋半牛肉麵的麵條用的是白扁麵，有著不錯的麵香，牛肉肉質極為軟嫩，連牛筋都入口就化開了口感很棒! 紅燒的湯底，喝起來醬香香醇。滷味的部分菜單上沒有，直接去小菜區點餐即可，滷味是冷滷味，口味…",
@@ -2860,8 +2788,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000102",
@@ -2885,8 +2812,7 @@
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/102_西市汕頭館-總店/02.jpg",
       "https://hsinchuemap.tw/XmlImages/餐飲/102_西市汕頭館-總店/03.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/102_西市汕頭館-總店/04.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/102_西市汕頭館-總店/04.jpg"
     ],
     "accent": "#d88962",
     "description": "藏身在菜市場的老牌汕頭沙茶火鍋假日的新竹城隍廟，遊客始終絡繹不絕，穿過小巷到了比鄰的市場，會發現一條等待用餐的排隊人潮，都在等待品嚐 #西市汕頭館 的沙茶火鍋，店內環境簡單樸實但座無虛席，是新竹在地人從小吃到大的回憶，人多的時候桌間緊挨著一起用餐的感覺，反而有種回家吃飯的熟悉感。吃沙茶牛肉火鍋的秘訣就是 「筷不離肉，鍋底三秒」，夾起牛肉的邊邊，放入溫度最高的…",
@@ -2942,8 +2868,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000037",
@@ -2967,8 +2892,7 @@
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/037_西市米粉湯/02.jpg",
       "https://hsinchuemap.tw/XmlImages/餐飲/037_西市米粉湯/03.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/037_西市米粉湯/04.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/037_西市米粉湯/04.jpg"
     ],
     "accent": "#b98b73",
     "description": "在地老饕的早午餐迺西市啊(台語)時，總是會有許多在地美食，像這家鄰近新竹城隍廟，不少在地人推薦的米粉攤老店 #西市米粉湯 ，更是絕對不可錯過的好滋味！看那鍋古早味湯頭，有用紅蔥頭爆香加入蝦米以及加入豬高湯熬煮，還有多種豬肉不同部位一起煮，讓整鍋的湯頭都是精華， #粗米粉 吸收了湯頭的精華吃起來是古溜滑口很暖胃，而最大的特色就是每碗米粉湯內都會有一塊 #芋頭…",
@@ -3024,8 +2948,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000074",
@@ -3049,8 +2972,7 @@
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/074_何家鴨肉麵/02.jpg",
       "https://hsinchuemap.tw/XmlImages/餐飲/074_何家鴨肉麵/03.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/074_何家鴨肉麵/04.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/074_何家鴨肉麵/04.jpg"
     ],
     "accent": "#d88962",
     "description": "巷口經濟實惠的煙燻味鴨肉何家鴨肉麵 在國華街與湳雅街交叉口是湳雅區頗受歡迎的美食店，雖說 #城編 吃過許許多多鴨肉炒麵，每家店的炒鴨肉麵都有不同的風味，而何家的炒鴨肉麵出色在於麵條炒得恰到好處，上桌就散發出陣陣香氣，特別是混合著油蔥酥的濃郁香味他們的鴨肉擁有淡淡的煙燻香，肉質鮮嫩多汁，搭配酸酸甜甜的配料，讓整盤鴨肉品味更上層樓！特別是沾上帶有一絲辣味的蒜蓉醬…",
@@ -3106,8 +3028,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000084",
@@ -3131,8 +3052,7 @@
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/084_私藏串燒居酒屋_-中正店/02.jpg",
       "https://hsinchuemap.tw/XmlImages/餐飲/084_私藏串燒居酒屋_-中正店/03.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/084_私藏串燒居酒屋_-中正店/04.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/084_私藏串燒居酒屋_-中正店/04.jpg"
     ],
     "accent": "#d88962",
     "description": "晚餐宵夜聚餐歡聚首選位於新竹市區中正路的巷弄內，主打平價串燒和各式創意料理，選擇多樣很豐富，非常適合三五好友歡聚，趁著中秋佳節到來， #城編 捨去自己烤肉時繁瑣的烤前準備，推薦大家可以前往幫忙烤好上桌的店家 #私藏串燒居酒屋重新裝潢後的中正店2.0，用餐環境大升級，與旗下的許多私藏系列店家一樣都是 #寵物友善 餐廳，非常貼心也替毛小孩準備專屬料理，真的很適合…",
@@ -3187,8 +3107,7 @@
       "missing": [
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000086",
@@ -3212,8 +3131,7 @@
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/086_延平大飯店/02.jpg",
       "https://hsinchuemap.tw/XmlImages/餐飲/086_延平大飯店/03.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/086_延平大飯店/04.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/086_延平大飯店/04.jpg"
     ],
     "accent": "#d88962",
     "description": "不等台版必比登500輯「全台街邊小吃-500碗」介紹，老新竹人都知道 #延平大飯店 ！賣的是許多平價美味，是個貨真價實吃飯的場所，從前在經過路的天橋下，就是許多人吃宵夜的最佳選擇，常常可見人潮絡繹不絕，完全充滿台式小吃部的人情味。搬家後的用餐時間就出現排隊人潮，主食畫單點餐不加豆芽菜、香菜直接勾選，小菜現點現炸、品項豐富，#城編 推薦 #炸肉 必點！外皮酥脆…",
@@ -3269,8 +3187,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000034",
@@ -3294,8 +3211,7 @@
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/034_河堤上的貓/02.jpg",
       "https://hsinchuemap.tw/XmlImages/餐飲/034_河堤上的貓/03.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/034_河堤上的貓/04.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/034_河堤上的貓/04.jpg"
     ],
     "accent": "#d88962",
     "description": "必點人氣 咪咕嚕嚕#河堤上的貓 創始店開設在新竹護城河旁，是陪伴不少新竹人成長的排隊手搖飲料店，現已 #喬遷至公園路 上，竹東邱記排骨酥麵旁，純白的店門口很有文青風格，店內販售自家出品的文創商品，還有販售季節限定的冷泡茶。店家主打以鮮奶為基底或水果風味的飲品，飲品有多種選擇，而且名稱很特別，像是小方塊綠奶茶、咪咕嚕嚕等飲品都是必點的！招牌飲品咪咕嚕嚕，使用奶…",
@@ -3351,8 +3267,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000027",
@@ -3376,8 +3291,7 @@
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/027_法諾義式廚房_-_金雅店/02.jpg",
       "https://hsinchuemap.tw/XmlImages/餐飲/027_法諾義式廚房_-_金雅店/03.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/027_法諾義式廚房_-_金雅店/04.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/027_法諾義式廚房_-_金雅店/04.jpg"
     ],
     "accent": "#df7bb4",
     "description": "平價人氣義式料理，目前只收現金在新竹目前有三家分店的 #法諾義式廚房 是一間非常平價，品質也不錯的義式餐廳，平價的價位不但有焗烤，也有窯烤披薩等等義式料理。先選擇想要的醬汁，再選擇搭配的義大利麵麵條或燉飯，以及是否要加焗烤，最後再決定要不要加蔬菜或是份量加大，套餐部分有四種選擇，主要為飲料、麵包、濃湯、甜點和沙拉的排列組合。濃湯很濃郁，奶油味很重，喜歡很奶的…",
@@ -3432,8 +3346,7 @@
       "missing": [
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000056",
@@ -3456,8 +3369,7 @@
     "image": "https://hsinchuemap.tw/XmlImages/餐飲/056_金佳脆皮臭豆腐/01.jpg",
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/056_金佳脆皮臭豆腐/02.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/056_金佳脆皮臭豆腐/03.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/056_金佳脆皮臭豆腐/03.jpg"
     ],
     "accent": "#b98b73",
     "description": "金黃又酥脆在地現炸臭豆腐大概是國人最愛的台灣小吃之一了！不論是在下午茶過後或是前往夜市尋覓晚餐，若只是嘴饞想吃個小點，臭豆腐絕對是不錯的選項呢！這間金佳脆皮臭豆腐 在新竹已經經營了多個年頭，每到用餐時段攤子前總是滿滿的人潮，除了臭豆腐，店家還有豬血湯可搭配，臭豆腐都是現點現炸的，還有 #素食者 可吃的素臭豆腐，生意好時至少需花15分鐘以上的時間等待。一份臭豆…",
@@ -3513,8 +3425,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000038",
@@ -3538,8 +3449,7 @@
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/038_長興釣蝦場之特級麻辣臭豆腐/02.jpg",
       "https://hsinchuemap.tw/XmlImages/餐飲/038_長興釣蝦場之特級麻辣臭豆腐/03.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/038_長興釣蝦場之特級麻辣臭豆腐/04.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/038_長興釣蝦場之特級麻辣臭豆腐/04.jpg"
     ],
     "accent": "#d88962",
     "description": "不釣蝦的釣蝦場位於香山區的 #長興釣蝦場 ，一間沒有明顯招牌的鐵皮屋，用餐時間現場常常都是排隊等候人潮，已經不釣蝦的池子裡面都是觀賞的錦鯉，釣蝦場已正式升級為熱炒店，不過蝦子料理仍然可以點到。特別一定要點的還有 #麻辣臭豆腐 ，也是許多人來此必點菜色，湯頭是長興自家以絞肉、辣椒、小魚乾和香菇熬製，臭豆腐本身也很講究，以萈菜加滷水浸泡而成ㄅ，且ㄅ未加防腐劑，豆…",
@@ -3595,8 +3505,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000069",
@@ -3619,8 +3528,7 @@
     "image": "https://hsinchuemap.tw/XmlImages/餐飲/069_阿明滷肉飯/01.jpg",
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/069_阿明滷肉飯/02.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/069_阿明滷肉飯/03.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/069_阿明滷肉飯/03.jpg"
     ],
     "accent": "#d88962",
     "description": "光華迷宮新竹人氣滷肉飯之一位於光華迷宮裡、大魯閣商圈旁，每天一早開門就湧入了滿滿用餐人潮的 #阿明滷肉飯 ，招牌大字「滷肉飯」與「魚丸湯」格外醒目，而這兩道招牌餐點更是不負盛名，深受在地人推薦！阿明滷肉飯的滷肉飯比較像是南部口味有一點點偏甜，還附有筍絲可一起搭配，滷汁不是屬於重口味型的吃起來完全不油膩，滷肉肥瘦適中，鹹香恰到好處，軟嫩的瘦肉搭配適量的肥肉，讓…",
@@ -3676,8 +3584,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000006",
@@ -3700,8 +3607,7 @@
     "image": "https://hsinchuemap.tw/XmlImages/餐飲/006_厚道飲食店/01.jpg",
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/006_厚道飲食店/02.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/006_厚道飲食店/03.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/006_厚道飲食店/03.jpg"
     ],
     "accent": "#d88962",
     "description": "當記憶中的味道悄悄飄來，是不是也喚醒了你對老時光的眷戀✨？懷舊的店面裝飾，是菸酒老招牌，是大紅囍字，是老舊門窗，是客家花紋。坐落於北門街的《厚道飲食店》，是一家用「古早味」說故事的在地小店。走進店內，彷彿搭上一班開往舊新竹的時光列車，看著屬於父母年代的生活享受美食ꗯ̤推薦品項➡️1️⃣古早味排骨飯2️⃣香酥雞腿飯3️⃣好吃控肉販4️⃣仙草甘茶",
@@ -3757,8 +3663,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000045",
@@ -3782,8 +3687,7 @@
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/045_昭日咖啡/02.jpg",
       "https://hsinchuemap.tw/XmlImages/餐飲/045_昭日咖啡/03.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/045_昭日咖啡/04.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/045_昭日咖啡/04.jpg"
     ],
     "accent": "#df7bb4",
     "description": "位於民生路巷弄中，鄰近新竹巨城的小巷子裡，這間可愛小巧的 #昭日咖啡 新竹寵物友善餐廳，不但可以吸貓，更可以與狐獴來一段近距離的接觸，可是新竹少數的有貓貓穿梭在旁的咖啡廳。店貓自由的在店裡四處遊走，完全不怕人，貓咪數量不少好動又親人，可以任你拍照，任你撫摸，好幾隻貓咪在店裡都活蹦亂跳，也有一直很安靜、置身事外超級安定的加菲貓，店主把貓咪照顧得很好、毛光滑柔順…",
@@ -3838,8 +3742,7 @@
       "missing": [
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000057",
@@ -3863,8 +3766,7 @@
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/057_段純貞牛肉麵/02.jpg",
       "https://hsinchuemap.tw/XmlImages/餐飲/057_段純貞牛肉麵/03.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/057_段純貞牛肉麵/04.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/057_段純貞牛肉麵/04.jpg"
     ],
     "accent": "#d88962",
     "description": "香氣四溢飄香海外牛肉麵是台灣美食代表，在新竹大名鼎鼎的 #段純貞牛肉麵 一定要納入口袋名單，一甲子的香味，美味飄洋過海，在海外拓展了不少分店，不曉得大家知道其創始店是來自於新竹嗎？麻辣銷魂的湯頭以牛油搭配花椒等多種辛香料炒製後，再加上牛骨熬煮8小時，湯頭香氣厚實，微辣麻香帶著辛香層次，Q彈有嚼勁又充滿張力的手打麵條，吸附著湯汁撲簌簌吸入嘴裡，麻麻辣辣但仍止不…",
@@ -3920,8 +3822,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000043",
@@ -3945,8 +3846,7 @@
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/043_籽田野菜屋/02.jpg",
       "https://hsinchuemap.tw/XmlImages/餐飲/043_籽田野菜屋/03.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/043_籽田野菜屋/04.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/043_籽田野菜屋/04.jpg"
     ],
     "accent": "#d88962",
     "description": "日式健康蔬食餐廳吃膩了大魚大肉想來點不一樣的清新日式風味，這間位於新竹世界街上的 #籽田野菜屋，十年來堅持自家製麵、使用天然食材入菜，天然健康路線，儘管附近有很多吃的餐廳，但主打蔬食拉麵的籽田野菜屋，人氣也不遑多讓，經常是還沒到營業時間，外面就很多人在等，一開門沒多久位子就坐滿了，人潮不斷，更是有許多忠實顧客，每個月必定回訪吃一頓熟悉溫暖的味道。門面格局很日…",
@@ -4001,8 +3901,7 @@
       "missing": [
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376580000A_000029",
@@ -4025,8 +3924,7 @@
     "image": "https://hsinchuemap.tw/XmlImages/餐飲/029_美味沙茶牛肉麵/01.jpg",
     "imageCandidates": [
       "https://hsinchuemap.tw/XmlImages/餐飲/029_美味沙茶牛肉麵/02.jpg",
-      "https://hsinchuemap.tw/XmlImages/餐飲/029_美味沙茶牛肉麵/03.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://hsinchuemap.tw/XmlImages/餐飲/029_美味沙茶牛肉麵/03.jpg"
     ],
     "accent": "#d88962",
     "description": "看似簡單卻很美味不少新竹人從小吃到現在的 #美味沙茶牛肉麵 ，交棒給年輕人了，據說開業初期是以販售沙茶醬為主，後來第一代老闆傳承給第二代兩兄弟分別經營，本店原位於林森路上，近期搬遷到中華路二段，新店面乾淨明亮，沒有多餘的擺設，賣的品項也是簡單的幾樣東西，而且廚房用玻璃隔開，除了沒有油煙味，也可以一眼看見老闆們忙碌的製作餐點。沙茶牛肉炒麵採用圓粗版的麵條，比一…",
@@ -4082,8 +3980,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376490000A_000096",
@@ -4104,9 +4001,7 @@
     "lat": 23.68102,
     "lng": 120.55237,
     "image": "https://k241.noon360.com/public/upload/StoreCover/220510014452079576W2XLK.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/general-restaurant.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#f2a65a",
     "description": "愛鵝樂義式餐廳位於斗六市的鵝媽媽鵝童樂園2樓，是以鵝為主題的義式餐廳，結合園區魚菜共生友善農耕所栽種的鵝、魚、菜入菜，多種特色餐點、義大利麵及濃郁的日式拉麵、兒童餐等，另有新穎特別又健康的氣泡水飲料，滿足一家大小不同年齡層的用餐需求，讓大家享受營養美味的餐點的同時，也吃得健康。",
     "highlights": [
@@ -4156,8 +4051,7 @@
         "官方網站",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010600H_000206",
@@ -4177,10 +4071,8 @@
     "hours": "週一至週日上午9:00 - 下午5:30週三公休",
     "lat": 23.82506,
     "lng": 120.81461,
-    "image": "restaurant-fallbacks/general-restaurant.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/general-restaurant.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#f2a65a",
     "description": "要說集集的歷史，那麼，絕對得從「山蕉」談起。倚著得天獨厚的氣候與水土，集集山蕉特別美味，既香且甜、飽足水分又彈牙，獨具一番風味。台灣曾有香蕉王國的美譽，早期大量出口外銷香蕉到日本，其中中部山蕉就佔了相當重要的位置，集集山蕉曾滿足日本天皇挑剔的嘴，指定為御用貢品，籃子外頭寫著”千”字的，就是品質保證的集集山蕉。把集集山蕉的特色介紹給大家認識，來集集不只是坐小火…",
     "highlights": [
@@ -4250,8 +4142,7 @@
         "票價資訊",
         "官方照片"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010600H_000021",
@@ -4271,10 +4162,8 @@
     "hours": "7:00-18:00；固定每週四店休",
     "lat": 23.86652,
     "lng": 120.91132,
-    "image": "restaurant-fallbacks/food-court.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/food-court.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#7e8bd6",
     "description": "捷安特單車休閒服務站：捷安特全球旗艦店就在日月潭！捷安特店位於水社綜合商場一樓，搭乘台灣好行的遊客可於日月潭(水社)站下車後，即可看見水社綜合商場 (位於派出所正對面)；選擇自駕的遊客則可以將車輛放置於水社中興停車場內，再步行約3分鐘前往租借腳踏車。日月潭近年大力推廣自行車活動，捷安特公司自97年起更進一步與日月潭風管處合作，設置全球旗艦店，在這裡可以享受其…",
     "highlights": [
@@ -4355,8 +4244,7 @@
         "票價資訊",
         "官方照片"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000368",
@@ -4379,8 +4267,7 @@
     "image": "https://tourism.chcg.gov.tw/upload/28/2014121609254639449.jpg",
     "imageCandidates": [
       "https://tourism.chcg.gov.tw/upload/28/2014121609255593545.jpg",
-      "https://tourism.chcg.gov.tw/upload/28/2014121609260276695.jpg",
-      "restaurant-fallbacks/general-restaurant.svg"
+      "https://tourism.chcg.gov.tw/upload/28/2014121609260276695.jpg"
     ],
     "accent": "#f2a65a",
     "description": "新加坡、馬來西亞是多種族的國家，有非常多的特色美食，店長本以為自己吃素應該無福享受，但是經朋友的介紹才發現，天啊！東南亞的美味素食還真多啊!有印度料理、中華料理(細分為潮州菜、客家菜、閩南菜、福建菜)、印尼料理.......等，只要葷的有，素的也一定有。",
@@ -4435,8 +4322,7 @@
       "missing": [
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376490000A_000037",
@@ -4457,9 +4343,7 @@
     "lat": 23.52114,
     "lng": 120.23248,
     "image": "https://k241.noon360.com/public/upload/old/20180718051842.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/general-restaurant.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#f2a65a",
     "description": "滴雞湯-也就是老一輩人所講的煉雞丹，許多年輕人都不知道了啊! 緣自於多年前黃媽媽照顧家庭，導致於體力透支身體開始體弱身虛，四處尋醫求藥，也不見任何起色，黃爸爸想起常聽到老一輩的長輩說用放山雞「滴雞湯」來調養身體，於是四處拜訪年邁老者，終於求得「老祖母」的秘方，便在屋子旁的水泥地上用磚塊堆疊大灶開始煉製起來。",
     "highlights": [
@@ -4510,8 +4394,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376490000A_000026",
@@ -4532,9 +4415,7 @@
     "lat": 23.70808,
     "lng": 120.43153,
     "image": "https://k241.noon360.com/public/upload/old/20180718044619.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/general-restaurant.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#f2a65a",
     "description": "店面乾淨明亮清幽，吸引不少學生、家庭族群聚餐的好地方，主要熱門商品有壽司類、蓋飯、日式烏龍麵等日式料理，平價消費顛覆吃日式料理所費不貸的觀念，店內還免費提供味噌湯、柳橙汁及紅茶無限暢飲，特別強調，味噌湯雖然是免費暢飲，依舊料多味美、實在有料，不訪來品嘗看看哦！",
     "highlights": [
@@ -4585,8 +4466,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000479",
@@ -4609,8 +4489,7 @@
     "image": "https://tourism.chcg.gov.tw/upload/28/2020061010041457463.jpg",
     "imageCandidates": [
       "https://tourism.chcg.gov.tw/upload/28/2020061010043628776.jpg",
-      "https://tourism.chcg.gov.tw/upload/28/2020061010045173021.jpg",
-      "restaurant-fallbacks/general-restaurant.svg"
+      "https://tourism.chcg.gov.tw/upload/28/2020061010045173021.jpg"
     ],
     "accent": "#f2a65a",
     "description": "熊賀甲手工煎餅捲是把蛋捲和煎餅結合在一起，做出厚實酥脆、無添加的料理，目前口味多達13種，現場都有提供試吃!假日、連續假日在鹿港同步販售，有單支包裝的手工捲、家庭號的分享包以及精美禮盒可供選擇，歡迎來彰化玩的朋友們，帶個伴手禮再回家!",
@@ -4662,8 +4541,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000493",
@@ -4687,8 +4565,7 @@
     "imageCandidates": [
       "https://tourism.chcg.gov.tw/upload/28/2023032009534335866.jpg",
       "https://tourism.chcg.gov.tw/upload/28/2023032009540027747.jpg",
-      "https://tourism.chcg.gov.tw/upload/28/2023032009541191945.jpg",
-      "restaurant-fallbacks/general-restaurant.svg"
+      "https://tourism.chcg.gov.tw/upload/28/2023032009541191945.jpg"
     ],
     "accent": "#f2a65a",
     "description": "百年傳承的在地好油，於2020年成立體驗館，油籽學堂導覽門市集結展售賣場、製油歷程以及黑芝麻、花生油籽介紹。2樓附設教學空間、會議室，提供製油相關的農業知識教育與DIY手作體驗活動。讓大朋友、小朋友透過有趣的視角認識芳苑在地傳統產業和生態環境。DIY手作課程需先來電預約，二樓製油歷史導覽僅開放團體活動參與者",
@@ -4740,8 +4617,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376490000A_000024",
@@ -4762,9 +4638,7 @@
     "lat": 23.710871,
     "lng": 120.436059,
     "image": "https://k241.noon360.com/public/upload/old/20180718041709.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/general-restaurant.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#f2a65a",
     "description": "虎尾科技大學附近的超級健康蔬食館-蓮花園複合式蔬食館打破單一口味刻板印象，特聘六星級飯店主廚為顧問，嚴選天恩蔬食高級食材，開發火鍋、焗烤、鍋巴拌飯、香椿飯、紅燒麵、咖哩飯、米樂堡等二十餘樣主餐，健康低負擔，每樣餐點都有驚豔的味蕾的本事。年輕學生與小朋友超喜歡素墨西哥捲，脆脆外皮，內餡有甜椒、香菇、時蔬與奶酪，咬下後有著極佳口感；義式冷拌涼麵則廣受女生好評，還…",
     "highlights": [
@@ -4815,8 +4689,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376490000A_000147",
@@ -4837,9 +4710,7 @@
     "lat": 23.70948,
     "lng": 120.53606,
     "image": "https://k241.noon360.com/public/upload/StoreCover/23021004093036248919UB5.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "異國老闆自營，深夜出爐漢堡包熱愛Bob Dylan的老闆自營居家休閒風酒吧，除了有專業調酒以外，還有被推爆的漢堡、下酒菜與牛肉沙拉，適合日常小酌與三五友小聚聽音樂，更是在地學生、上半族夜晚的秘密餐館！※飲酒過量，有害（礙）健康；酒後不開車，安全有保障",
     "highlights": [
@@ -4908,8 +4779,7 @@
         "官方網站",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376490000A_000309",
@@ -4930,9 +4800,7 @@
     "lat": 23.5988883,
     "lng": 120.6050266,
     "image": "https://k241.noon360.com/public/upload/StoreCover/230804063339087432PUGT1.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/cafe-rainy.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#f2a65a",
     "description": "品質至上，用感情沖泡的咖啡。1999年雲頂咖啡廳創辦人徐美幼決定放棄穩定的公務人員工作，全心投入她熱愛的咖啡產業，研究適合華山的咖啡樹種類，如何烘焙咖啡豆及相關知識，成為華山第一間景觀咖啡廳，進而帶動整個古坑咖啡商圈。由農場到餐桌0 km 零公里食物里程，選購使用當地食材，不讓食物旅行超過一公里 一直是我們的堅持，讓客人享受新鮮的空氣·泉水·餐點·咖啡同時被…",
     "highlights": [
@@ -4983,8 +4851,7 @@
         "官方網站",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376490000A_000215",
@@ -5005,9 +4872,7 @@
     "lat": 23.59939,
     "lng": 120.60522,
     "image": "https://k241.noon360.com/public/upload/StoreCover/221011093757265706F23MM.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/cafe-rainy.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#f2a65a",
     "description": "藏身在雲林古坑山區的「維野納複合式餐飲」總共三層樓，佔地遼闊且用餐空間寬廣舒適。 這家咖啡廳是由一對姐妹共同經營，兩姐妹在自己有了小孩後意識到帶小孩出門用餐的辛苦，因此咖啡廳也逐漸轉為主打家庭親子共遊，除了有戶外的草皮可以踏青嬉戲外，店內還設置兒童遊憩空間，像是溜滑梯、繪畫區等，即使帶著小孩也能好好用餐與享受山野風景。",
     "highlights": [
@@ -5057,8 +4922,7 @@
         "官方網站",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010600H_000010",
@@ -5078,10 +4942,8 @@
     "hours": "平日09:30-17:30，假日09:00-18:00",
     "lat": 23.83228,
     "lng": 120.86543,
-    "image": "restaurant-fallbacks/general-restaurant.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/general-restaurant.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#f2a65a",
     "description": "林班道體驗工廠為延續振昌木業的精神理念，打造的DIY木作工藝園區，體驗工廠擁有近百種木作品，提供已裁切好的木材及DIY組合教學，讓遊客在自已動手做的過程中，感受DIY的樂趣以及完成的成就感，結合傳統手工技術及休閒娛樂的好去處，帶有巧思的各種生活用品加上獨特的手工藝，讓每件作品都是獨一無二的；體驗工廠擁有木作技術純熟的設計團隊，充滿對木製品的喜愛及豐富的專業經…",
     "highlights": [
@@ -5152,8 +5014,7 @@
         "票價資訊",
         "官方照片"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376490000A_000089",
@@ -5174,9 +5035,7 @@
     "lat": 23.7048525,
     "lng": 120.5497745,
     "image": "https://k241.noon360.com/public/upload/StoreCover/220420105318313318QBXQV.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/general-restaurant.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#f2a65a",
     "description": "兒童親善餐廳，饗和牛、取新鮮、食在地、真堅持，以峒為主軸，取同字義但又有所”布峒”的品牌概念，在眾多的火鍋品牌下峒中求異，嚴選的食材與細節鋪設，讓人感受到品牌對於服務及品質的慎選與細膩。",
     "highlights": [
@@ -5227,8 +5086,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000016",
@@ -5249,9 +5107,7 @@
     "lat": 24.05755,
     "lng": 120.4291,
     "image": "https://tourism.chcg.gov.tw/upload/28/2012041611560574457.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "謝碧珍食品行，原址於車圍巷以傳統販售傳統的祭拜供品為主，新店位於民生路上，則以特製新研發手工健康糕餅「雪藏綠豆糕」為主，一般人對於糕點觀念總是太甜，「雪藏綠豆糕」會讓您顛覆傳統！記者第一次品嚐，入口即溶的口感，吃了爽口也不膩，會讓人想要一口接一口。彰化縣鹿港鎮民生路130號(天后宮停車場旁)、車圍巷9號(三和珍邊巷進入)。",
     "highlights": [
@@ -5305,8 +5161,7 @@
       "missing": [
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376450000A_000208",
@@ -5326,10 +5181,8 @@
     "hours": "每日11:00–21:30",
     "lat": 24.68241,
     "lng": 120.8689,
-    "image": "restaurant-fallbacks/general-restaurant.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/general-restaurant.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#f2a65a",
     "description": "苗栗縣特色美食認證類別：西式餐飲 「以一種餐飲專業，用將心比心的真誠，提供給在地客人一個沒有壓力、舒適、自在、不具負擔的飲食空間，是艾蜜奇的使命和願景。」 源自十餘年 PIZZA 專賣老店【馬可藍多】之延伸轉型，『艾蜜奇義大利坊』以更為專業謹慎的態度，嚴選高品質、高成本之食材，為客人做餐飲把關，並因此與消費者取得互信及共識。除了各式焗烤、燉飯、義大利麵及拿手…",
     "highlights": [
@@ -5384,8 +5237,7 @@
         "票價資訊",
         "官方照片"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000005",
@@ -5407,8 +5259,7 @@
     "lng": 120.5799,
     "image": "https://tourism.chcg.gov.tw/upload/28/2012041615113037529.GIF",
     "imageCandidates": [
-      "https://tourism.chcg.gov.tw/upload/28/2012041615114081016.GIF",
-      "restaurant-fallbacks/food-court.svg"
+      "https://tourism.chcg.gov.tw/upload/28/2012041615114081016.GIF"
     ],
     "accent": "#7e8bd6",
     "description": "「我們自己敢吃的，才能賣給客人吃」是林桔園的經營理念，所以與我們合作的都是很注重環境衛生與認真負責的工廠，我們賣的安心，客人買的才能放心。林桔園銷售的蜜餞種類有近百種之多，可以說是蜜餞百貨店，您想得到的，夢得到的都能在這裡找到，不管是新上市的口味，或者是古早味，都保證不會使您失望。",
@@ -5464,8 +5315,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15011100H_000335",
@@ -5485,10 +5335,8 @@
     "hours": "請至官方網站確認",
     "lat": 23.5456,
     "lng": 120.19027,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "王葉英（1946 年生）在孩子還小時，想做點生意貼補家用，就在光明路今址販售油蔥粿、鹹粿，由於油蔥粿、鹹粿素食者不能吃，且油蔥粿也在過年時才有人買，因此改賣煎盤粿，直到 2013 年因年紀大，而交棒兒子陳國書（1968 年生）、媳婦余雪虹繼續經營。清粿的作法是：前一天下午，把本島米浸泡 2-3 小時，磨成米漿，倒入鉛桶約9分滿，加粉及調味料拌勻備用。在大灶鼎…",
     "highlights": [
@@ -5587,8 +5435,7 @@
         "票價資訊",
         "官方照片"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376490000A_000325",
@@ -5609,9 +5456,7 @@
     "lat": 23.69267,
     "lng": 120.53214,
     "image": "https://k241.noon360.com/public/upload/StoreCover/2403080125438681476HS9H.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "提供精選帕里尼早午餐、義大利麵、咖哩飯、丼飯、甜點等多樣化的輕食文具選品，我們以自家製美味佳餚為主打，並歡迎您攜帶寵物共襄盛舉，店內不時有可愛的貓咪上班。用餐環境舒適，同時提供一系列小商品供您挑選。方便開車的您，可利用雲科大管理學院停車場臨停。",
     "highlights": [
@@ -5661,8 +5506,7 @@
         "官方網站",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376490000A_000081",
@@ -5683,9 +5527,7 @@
     "lat": 23.768953,
     "lng": 120.594117,
     "image": "https://k241.noon360.com/public/upload/StoreCover/230718024541877596GPJ1X.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "「林內教芋部」占地約一甲大，原本是林建安老家，經向水保局申請亮點計畫，變身為芋頭食農教育基地，周邊設置停車場、公廁、步道、芋頭生產區、濁水體驗區、活動舞台等公共建設，「農民交芋、民眾叫芋、遊客教芋」林建安說，希望成為全國最專業、最有活力的芋教園區。",
     "highlights": [
@@ -5735,8 +5577,7 @@
         "官方網站",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000500",
@@ -5760,8 +5601,7 @@
     "imageCandidates": [
       "https://tourism.chcg.gov.tw/upload/28/2023112009474153852.jpg",
       "https://tourism.chcg.gov.tw/upload/28/2023112009475024225.jpg",
-      "https://tourism.chcg.gov.tw/upload/28/2023112009475758878.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://tourism.chcg.gov.tw/upload/28/2023112009475758878.jpg"
     ],
     "accent": "#d88962",
     "description": "菁芳園原本是經營蘭花和觀葉植物的種植培育場，位在田尾鄉間僻靜幽靜小巷裡。園區內有具歷史意涵的植物遮陰棚架所改建成的停車場，運用大型玻璃溫室，提供餐飲服務的花草空間，園區生態豐富多元，環境靜謐寧靜，來到這裏可以學習到，怎麼用花草佈置自已的家，將園藝與生活做完美結合。",
@@ -5813,8 +5653,7 @@
         "官方網站",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000121",
@@ -5835,9 +5674,7 @@
     "lat": 23.95656,
     "lng": 120.486,
     "image": "https://tourism.chcg.gov.tw/upload/28/2021053115314088818.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "花爺爺花椰菜干遵循古法製作。新鮮花椰菜經粗鹽醃漬後日曬，透過陽光中的UVB產生鍺元素，食用更加香脆美味；經農藥殘毒檢驗合格，不添加防腐劑，是最具鄉土味之健康食品；真空包裝，便於貯藏。花椰菜含有高量蛋白質、脂肪質、醣類、碳水化合物、纖維質、灰質、鈣、磷、鐵、鉀、維生素A50、B1、B2、C、K等營養成份，料理前經清水浸泡並搓洗，讓附著於食材上之鹽分去除，方可料…",
     "highlights": [
@@ -5892,8 +5729,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000167",
@@ -5914,9 +5750,7 @@
     "lat": 24.05866,
     "lng": 120.4302,
     "image": "https://tourism.chcg.gov.tw/upload/28/2012041316572037062.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "在王功，因靠海大部分都是砂質土壤，所以很適合種植花生，這裡的花生粒粒飽滿且好吃，所以來到王功的遊客總是喜歡買回家品嚐。現在要吃王功的花生，在鹿港也吃的到呦，位於民生路上的王功土香王就是販售王功的花生而得名，雖然只是小小的攤位，但路過時就會被它異於其他花生而驚訝～因為實在太飽實了，可以試吃，吃到好吃的再購買。",
     "highlights": [
@@ -5971,8 +5805,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000373",
@@ -5996,8 +5829,7 @@
     "imageCandidates": [
       "https://tourism.chcg.gov.tw/upload/28/2015071415351198539.jpg",
       "https://tourism.chcg.gov.tw/upload/28/2015071415351822629.jpg",
-      "https://tourism.chcg.gov.tw/upload/28/2015071415352411600.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://tourism.chcg.gov.tw/upload/28/2015071415352411600.jpg"
     ],
     "accent": "#df7bb4",
     "description": "巧思推廣家鄉特色，讓看似不可能的組合成為王功人引以為傲的新滋味。『夏天需要透心涼，你一定最愛吃冰，彰化王功王者之蚵加入當地特產珍珠蚵，上頭再灑上巧克力米，無論清冰、巧克力、抹茶口味都可以配，這碗尚青、尚鮮的冰品不少遊客嚐鮮都舉起大拇指說讚。』王者之蚵-珍珠蚵雪花冰等著您喔！",
@@ -6053,8 +5885,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000355",
@@ -6076,8 +5907,7 @@
     "lng": 120.5579,
     "image": "https://tourism.chcg.gov.tw/upload/28/2014030716073447478.png",
     "imageCandidates": [
-      "https://tourism.chcg.gov.tw/upload/28/2014030716074099241.png",
-      "restaurant-fallbacks/dessert.svg"
+      "https://tourism.chcg.gov.tw/upload/28/2014030716074099241.png"
     ],
     "accent": "#d88962",
     "description": "「台盛農場」是一座充滿自然活力、散發著純樸農家精神的農場，秉持追求健康、疼惜大地的理念，詹仁銓先生於民國87年成立台盛農場，為了提供消費者無毒安全健康的農產品，及還給後代子孫一個清淨無汙染的生活環境，以有機農法栽培有機蔬菜，提供具有ISO22000、HACCP食品安全管理，及有機農產品與方式，培育出安全健康的珍珠芭樂、西瓜芭樂、金蜜芒果等...安全水果。",
@@ -6133,8 +5963,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000336",
@@ -6155,9 +5984,7 @@
     "lat": 23.89535,
     "lng": 120.5851,
     "image": "https://tourism.chcg.gov.tw/upload/28/2013032811460410059.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "旭聖旺產襪業有限公司自1995年創業以來，即致力於提升各項襪類產品的創新技術與開發機能性素材以及織法。經過十多年的發展，銷售市場涵蓋了歐、美、亞洲各國以及內銷各大連鎖通路。身為專業襪類製造工廠，我們的產品包括各類男、女、童短襪、褲襪、圍巾及手套。經過多年的生產經驗，我們提供各種素材以符合客戶的個別需求，如：遠紅外線，竹炭紗，超細纖維，棉，尼龍，羊毛，亞克力，…",
     "highlights": [
@@ -6212,8 +6039,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000345",
@@ -6235,8 +6061,7 @@
     "lng": 120.5877,
     "image": "https://tourism.chcg.gov.tw/upload/28/2013052915314548898.jpg",
     "imageCandidates": [
-      "https://tourism.chcg.gov.tw/upload/28/2013052915315934931.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://tourism.chcg.gov.tw/upload/28/2013052915315934931.jpg"
     ],
     "accent": "#d88962",
     "description": "肉圓輝除了好吃以外就是低廉的價格，肉圓每份是以兩粒為單位，也可以單點一粒就是十五元，搭配起來一個五十元銅板可以吃好飽，肉圓可提供宅配。店家自己製作的「甜醬、鹹醬油和蒜頭汁」等醬料亦為肉圓口味的主要來源，是以白砂糖、米漿、辣椒和水等一起熬製而成。菜單：肉圓、魚羹、豆腐湯、貢丸湯、綜合湯",
@@ -6292,8 +6117,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000120",
@@ -6314,9 +6138,7 @@
     "lat": 24.02113,
     "lng": 120.527,
     "image": "https://tourism.chcg.gov.tw/upload/28/2012041614090060282.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "艾草養生茶-採用有機質無農藥的艾草嫩草與七葉膽、白鶴靈芝和枸杞、茯苓、茵陳等養生草本植物，性溫甘、味香醇是大自然賦予的珍貴飲品，沒有任何副作用、可每天長期飲用，尤其是愛美的女性更需要多喝艾草茶，除了補充水份促進新陳代謝外、艾草溫經活絡的特殊效果更可以緩和神經，消弭緊張憂慮，讓妳輕輕鬆鬆成為一個快樂的艾草美人。",
     "highlights": [
@@ -6371,8 +6193,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000070",
@@ -6394,8 +6215,7 @@
     "lng": 120.4376,
     "image": "https://tourism.chcg.gov.tw/upload/28/2012041610514582147.jpg",
     "imageCandidates": [
-      "https://tourism.chcg.gov.tw/upload/28/2012041610515782363.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://tourism.chcg.gov.tw/upload/28/2012041610515782363.jpg"
     ],
     "accent": "#d88962",
     "description": "『麵担永』是當地人對曾祖父的稱號，現今傳承至第四代已有近八十年歷史。承傳至今成為當地老一輩充滿許多兒時回憶的老店。店內許多純手工製的食材，，猶如：蝦丸、肉丸、炸捲、香腸、蝦仁、肉粳都是由曾祖父堅持純手工製不外包的理念。許多異鄉遊子及老饕來到鹿港都不禁要來『麵担永』一趟嚐嚐令人懷念的古早味。資料來源：鹿港鎮公所",
@@ -6451,8 +6271,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000464",
@@ -6476,8 +6295,7 @@
     "imageCandidates": [
       "https://tourism.chcg.gov.tw/upload/28/2017122815074616549.jpg",
       "https://tourism.chcg.gov.tw/upload/28/2017122815083571856.jpg",
-      "https://tourism.chcg.gov.tw/upload/28/2017122815085090478.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://tourism.chcg.gov.tw/upload/28/2017122815085090478.jpg"
     ],
     "accent": "#b98b73",
     "description": "幸福咖啡文學館，坐落於彰化市華陽公園內，旁邊的139號縣道，是近年來彰化八卦山風景區的著名觀光廊道，腹地周邊環繞了國立彰化師範大學寶山校區、彰化縣立體育場園區、警政署保四總隊總部等機關單位。在彰化市中心的地帶，卻有著一個森林景觀的公園，是彰化市民的福氣。\"咖啡煮的不僅僅是咖啡，而煮的是幸福\"，歡迎您的到來。",
@@ -6532,8 +6350,7 @@
       "missing": [
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000126",
@@ -6554,9 +6371,7 @@
     "lat": 24.05961,
     "lng": 120.4309,
     "image": "https://tourism.chcg.gov.tw/upload/28/2012041610340676469.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "創立於昭和15年（西元1940年），由黃再興父親黃長有創立，迄今已傳承至第三代。走過一甲子歲月，長興餅舖的糕點口感及質感極佳，完全遵循古法、獨家配方並純手工製造；從外皮、配料到內餡，無一不追求最精緻的完美呈現，不僅讓人吃出美味，更吃出餅舖主人對糕餅的濃厚情感。產品有鳯眼糕、二珍糕、黑豆芝麻糕、牛舌餅、龍睛酥、鳯凰酥、麻糬餅、水蒸鹹蛋糕、手工牛軋糖芝麻糕、牛奶…",
     "highlights": [
@@ -6611,8 +6426,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000058",
@@ -6633,9 +6447,7 @@
     "lat": 23.95736,
     "lng": 120.4848,
     "image": "https://tourism.chcg.gov.tw/upload/28/2012041613453964270.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "「買最好的羊」、「新鮮、纖嫩、無腥味」，是阿秀羊肉店的經營宗旨。其沾醬以整塊豆腐乳和辣椒醬為主，由顧客自行調拌。阿秀羊肉由楊松雄在民國70年創立，招牌菜除了羊肉爐外，還有薑片麻油炒羊肝、白切三層肉、薑絲酸菜炒羊雜、芹菜炒羊肚等，新鮮、衛生，店家強調「掛保證」。該店好吃的秘訣在於嚴選羊隻，挑選黑或黃色，9個月至1歲的閹公羊為食材，店家認為這樣的羊肉肉質最為甘美…",
     "highlights": [
@@ -6690,8 +6502,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000278",
@@ -6714,8 +6525,7 @@
     "image": "https://tourism.chcg.gov.tw/upload/28/2012070515091383352.jpg",
     "imageCandidates": [
       "https://tourism.chcg.gov.tw/upload/28/2012070515092383263.jpg",
-      "https://tourism.chcg.gov.tw/upload/28/2012070515093382196.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://tourism.chcg.gov.tw/upload/28/2012070515093382196.jpg"
     ],
     "accent": "#d88962",
     "description": "近五十年的阿明羊肉爐傳承傳統烹調方式，選用企業化管理的臺灣土羊，羊肉鮮甜沒有羶味，韌度佳，在口中咀嚼時口感甚佳。阿明羊肉爐的羊肉菜色，包括肉、肝、心、肚、雜頭骨等，以不同的烹飪方式能變化出許多美味的料理。因應現代人口味較多變，且吃得較清淡，再加上冬、夏季節性的差異，發展出口味較濃的「中藥羊肉爐」和口味較淡的「薑絲羊肉爐」兩種。炒羊肚、羊肉薄片、燒烤羊肉、麵線…",
@@ -6771,8 +6581,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000308",
@@ -6796,8 +6605,7 @@
     "imageCandidates": [
       "https://tourism.chcg.gov.tw/upload/28/2023120114312667449.jpg",
       "https://tourism.chcg.gov.tw/upload/28/2023120114323849776.jpg",
-      "https://tourism.chcg.gov.tw/upload/28/2023120114324721425.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://tourism.chcg.gov.tw/upload/28/2023120114324721425.jpg"
     ],
     "accent": "#d88962",
     "description": "走過80多年歷史的「阿源炸粿」是在地人的家鄉美味，每一道端上桌的都是酥脆可口的美食，不論是鮮蚵仔、醃過的肉末、新鮮花枝、韭菜、米糕、整片芋頭、地瓜片等，只要裹上由再來米與黃豆精心調配過的米漿，再放入花生油鍋裡酥炸，便立即成為香噴噴的佳餚，一撈上來的炸粿在砧板上，老闆娘菜刀一下便發出喀滋、喀滋的聲音，就能知道炸得有多麼酥脆了，熱情的老闆娘也是店內的一大特色，這…",
@@ -6853,8 +6661,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000161",
@@ -6876,8 +6683,7 @@
     "lng": 120.6328,
     "image": "https://tourism.chcg.gov.tw/upload/28/2012041613533230036.jpg",
     "imageCandidates": [
-      "https://tourism.chcg.gov.tw/upload/28/2012041613534181966.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://tourism.chcg.gov.tw/upload/28/2012041613534181966.jpg"
     ],
     "accent": "#d88962",
     "description": "榮獲95年彰化縣政府最佳伴手人氣優等獎 柚子蜜茶有豐富的維他命C、A、D、B .....是符合現在人們的天然健康飲品，沖泡方便，風味甘醇獨特，有助於消除疲勞，美容養顏，促進新陳代謝。柚子加蜂蜜以完美比例手工調配出柚子蜜茶，一杓柚子蜜茶再加入10比1的熱水，就可嚐得到白柚紮實果肉，又香又甜的滋味，成為二水鄉的超人氣伴手禮!",
@@ -6933,8 +6739,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000074",
@@ -6955,9 +6760,7 @@
     "lat": 24.058,
     "lng": 120.4318,
     "image": "https://tourism.chcg.gov.tw/upload/28/2024053016441730684.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "在鹿港早年舊名的「飫鬼埕」旁，有一間復古與現代交錯的人文茶館，一旁飄著陣陣桂花香，在極簡乾淨的空間裡，連空氣都凝息住，僅任著桂花四處飄散，此刻來一杯遵古法熬煮而成的桂花酸梅湯，點一碗讓人回味的肉燥飯，或是阿嬤的炒米粉、古早味豬腳飯，讓童年回憶全湧上來！",
     "highlights": [
@@ -7012,8 +6815,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000119",
@@ -7037,8 +6839,7 @@
     "imageCandidates": [
       "https://tourism.chcg.gov.tw/upload/28/2012041614111441707.jpg",
       "https://tourism.chcg.gov.tw/upload/28/2012051813471690607.jpg",
-      "https://tourism.chcg.gov.tw/upload/28/2012051813534228879.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://tourism.chcg.gov.tw/upload/28/2012051813534228879.jpg"
     ],
     "accent": "#df7bb4",
     "description": "本店於鹿港開設十餘年，本著實在、認真態度服務客人，店內商品除了肉包、饅頭之外，也有菜包及國宴鹹蛋糕，並也開發許多種類的包子、饅頭，許多產品保留古早時期的傳統作法，也加入許多創新的思維。東西實在，價錢公道。菜脯鹹蛋糕、肉鬆鹹蛋糕兩種口味，於2001年入選鹿港國宴鹹蛋糕。鹹蛋糕用其水蒸方式使用古早的木製炊具蒸製，蛋香十足，口感紮實，且低油又低糖，口感不膩，值得細…",
@@ -7094,8 +6895,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000282",
@@ -7119,8 +6919,7 @@
     "imageCandidates": [
       "https://tourism.chcg.gov.tw/upload/28/2012070515272966218.jpg",
       "https://tourism.chcg.gov.tw/upload/28/2012070515273822170.jpg",
-      "https://tourism.chcg.gov.tw/upload/28/2012070515274798246.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://tourism.chcg.gov.tw/upload/28/2012070515274798246.jpg"
     ],
     "accent": "#df7bb4",
     "description": "陳義發食品創立於民國57年，早期製作喜餅為主，也就是俗稱的大餅。陳義發食品店內有各類糕餅類產品，黑糖甘蔗餅是其招牌產品，傳統方式製作，能吃到天然的香氣；另外薄鹽青蔥蛋捲以鹹口味為訴求，也相當受到歡迎。店門口另有販賣咖啡，咖啡搭配糕點，是最大的享受。",
@@ -7175,8 +6974,7 @@
       "missing": [
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000052",
@@ -7197,9 +6995,7 @@
     "lat": 23.90386,
     "lng": 120.3657,
     "image": "https://tourism.chcg.gov.tw/upload/28/2012061809042256117.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "哇！頂好快餐完全不一樣了，自8月份開始給您一個全新的味蕾享受。\"大碗公飯\"集傳統美食於\"一碗公\"的碗公飯在頂好開賣了，四項菜色加一主菜(有滷排、雞腿、爌肉、魚排可選喔)，只要花50元就可以吃到美食吃到飽。 精心熬燉的清燉排骨湯也是我們極力推薦，採用新鮮的肋骨燉煮5小時以上，排骨軟嫩、湯頭不油膩，是不容錯過的好湯。 台灣第一的美味小吃，滷肉飯、肉燥飯、高麗菜飯…",
     "highlights": [
@@ -7254,8 +7050,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000045",
@@ -7277,8 +7072,7 @@
     "lng": 120.4302,
     "image": "https://tourism.chcg.gov.tw/upload/28/2012041317082383846.jpg",
     "imageCandidates": [
-      "https://tourism.chcg.gov.tw/upload/28/2012041317084162276.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://tourism.chcg.gov.tw/upload/28/2012041317084162276.jpg"
     ],
     "accent": "#d88962",
     "description": "數前年鹿港王記芋丸老闆王登海結束了他的牛仔褲工廠，也卸下了鹿港天后宮及民俗才藝活動主委的職務，王登海60歲時重拾父親精製獨特的的製作手藝 ，舊業新開經營專業芋丸使中斷三十年的鹿港王記芋丸，六十年的老口味重現鹿港小鎮。三代祖傳鹿港王記專業芋丸，歡迎來您來試吃",
@@ -7334,8 +7128,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000031",
@@ -7356,9 +7149,7 @@
     "lat": 24.05969,
     "lng": 120.4308,
     "image": "https://tourism.chcg.gov.tw/upload/28/2012041610174524760.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "TVBS食尚玩家及各大媒體採訪報導，蝦猴為鹿港沿海特有的潮間帶生物，鹿港特有的「蝦猴」酥脆脆的蝦猴酥，採用新鮮的蝦猴以鹹酥口味方式油炸，配上蒜粉及胡椒鹽，口感酥脆且不油膩，老少咸宜，是來到鹿港必買必吃的特產，鹿港阿道蝦猴酥經營多年，口味獨特，食材新鮮，是遊客來鹿港必買的店家之一，方便遊客邊逛街邊品嚐美味蝦猴酥，乾淨衛生，包裝精美，送禮自用皆可。資料來源：鹿港…",
     "highlights": [
@@ -7413,8 +7204,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000025",
@@ -7438,8 +7228,7 @@
     "imageCandidates": [
       "https://tourism.chcg.gov.tw/upload/28/2023120114482529305.jpg",
       "https://tourism.chcg.gov.tw/upload/28/2023120114483478096.jpg",
-      "https://tourism.chcg.gov.tw/upload/28/2023120114484241890.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://tourism.chcg.gov.tw/upload/28/2023120114484241890.jpg"
     ],
     "accent": "#d88962",
     "description": "鹿港傳統古早味的小吃眾多，但位於民生路與泉州二路轉角處的好吃古早味的「素珠芋丸」，在當地頗具盛名。素珠媽媽以純熟手藝做出好吃芋丸，並不斷創新吃法，從煮湯轉變成一芋三吃；一吃煮湯、二吃清蒸、三吃炸，食用時再加上獨家醬料，風味獨特，不但是在地人永不厭倦的媽媽味道，更是外地人到鹿港一遊時，必定攜帶的伴手呢。",
@@ -7495,8 +7284,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000034",
@@ -7518,8 +7306,7 @@
     "lng": 120.4341,
     "image": "https://tourism.chcg.gov.tw/upload/28/2012041610133485480.jpg",
     "imageCandidates": [
-      "https://tourism.chcg.gov.tw/upload/28/2012051814323465252.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://tourism.chcg.gov.tw/upload/28/2012051814323465252.jpg"
     ],
     "accent": "#d88962",
     "description": "趩仔麵，在老一輩又稱文燦麵，由文燦伯傳承至今50餘年的歷史。趩仔麵至今仍用最傳統的竹麵杓，現煮的麵加上用大骨熬成的高湯，並搭配古早味的肉燥及每日以手工取用新鮮食材，所特製的三種丸子，炸卷、蝦丸、肉丸、芋丸，店內另有飯食類、排骨飯、焢肉飯、豬腳飯及各式小菜。資料來源：鹿港鎮公所趩仔麵其實就是一般的切仔麵，但是這裡的仔麵特別之處在於，清麵加上蝦丸、炸捲等，豐富配…",
@@ -7575,8 +7362,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000029",
@@ -7598,8 +7384,7 @@
     "lng": 120.4328,
     "image": "https://tourism.chcg.gov.tw/upload/28/2012041610202029176.jpg",
     "imageCandidates": [
-      "https://tourism.chcg.gov.tw/upload/28/2017081714212671128.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://tourism.chcg.gov.tw/upload/28/2017081714212671128.jpg"
     ],
     "accent": "#d88962",
     "description": "堅持以鹿港最有名的手工麵線，加上鮮嫩好吃的胛心肉、後腿肉肉羹，不含一滴油，配上獨門配料及辣椒醬，烹煮出好吃麵線糊，20年來深受饕客喜愛。曾經舉辦過大胃王挑戰賽，在鹿港掀起了一陣旋風，目前的紀錄衛冕者已達到八碗紀錄，至今仍常有人前來挑戰。本店獲得許多媒體及美食節目的肯定與好評，下次來鹿港可別忘了到這兒吃個麵線糊，保證讓您難以忘懷。",
@@ -7655,8 +7440,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000012",
@@ -7680,8 +7464,7 @@
     "imageCandidates": [
       "https://tourism.chcg.gov.tw/upload/28/2023032011265888115.jpg",
       "https://tourism.chcg.gov.tw/upload/28/2021081615325551139.jpg",
-      "https://tourism.chcg.gov.tw/upload/28/2014120815434499616.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://tourism.chcg.gov.tw/upload/28/2014120815434499616.jpg"
     ],
     "accent": "#d88962",
     "description": "是什麼樣的便當店，會讓日本人遠渡重洋，揪團前來？是什麼樣的便當店，在農業鄉鎮，一天動輒賣出上千份？福井食堂以鐵道風格呈現用餐環境與文物收藏，店內每件物品都是店長阿強精心所收藏的寶貝。希望您在享受我們精心準備的美食之餘，同時欣賞豐富且多元鐵道文化與歷史。",
@@ -7737,8 +7520,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000301",
@@ -7761,8 +7543,7 @@
     "image": "https://tourism.chcg.gov.tw/upload/28/2023041713082060498.jpg",
     "imageCandidates": [
       "https://tourism.chcg.gov.tw/upload/28/2023041713082943133.jpg",
-      "https://tourism.chcg.gov.tw/upload/28/2023041713084388888.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://tourism.chcg.gov.tw/upload/28/2023041713084388888.jpg"
     ],
     "accent": "#b98b73",
     "description": "綠海是田尾裡難得有歐風建築的咖啡館，城堡外觀的建築，彷彿置身於義大利的南島風情，中西景觀合併，裡裡外外景色為老闆親手打造，你在本店處處可以發現動人景緻，每個角落都會是驚喜，我們提供景觀、咖啡、園藝、簡餐，你到田尾來觀光千萬不能錯過本店，你可以優閒的在本店遊覽景觀、園藝，我們並且提供精緻套餐、下午茶，也是你親朋好友聚會用餐的好地點我們綠海咖啡館是兩層樓的建築，…",
@@ -7817,8 +7598,7 @@
       "missing": [
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000112",
@@ -7840,8 +7620,7 @@
     "lng": 120.5323,
     "image": "https://tourism.chcg.gov.tw/upload/28/2012041614241984724.jpg",
     "imageCandidates": [
-      "https://tourism.chcg.gov.tw/upload/28/2012041614242980222.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://tourism.chcg.gov.tw/upload/28/2012041614242980222.jpg"
     ],
     "accent": "#d88962",
     "description": "2006年3月，麥思佳公司成立了近千坪的專業烘培工廠，提供更完善、更多元的專業製造。它的「鳳梨纖果酥」，有別於傳統鳳梨酥的油膩、過甜，餅皮採用頂級VIV油脂，內餡採用低糖鳳梨纖果粒餡，甜度適中，成品小巧圓潤，柔軟有嚼勁。保證讓丈母娘一塊接一塊，低糖少油不怕胖，苗條健康跟著來。",
@@ -7897,8 +7676,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000122",
@@ -7922,8 +7700,7 @@
     "imageCandidates": [
       "https://tourism.chcg.gov.tw/upload/28/2013040815185053863.jpg",
       "https://tourism.chcg.gov.tw/upload/28/2013040815193192373.jpg",
-      "https://tourism.chcg.gov.tw/upload/28/2013040815201126753.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://tourism.chcg.gov.tw/upload/28/2013040815201126753.jpg"
     ],
     "accent": "#b98b73",
     "description": "在這八卦山脈上的【歐可茶葉科技公司】結合了傳統茶葉與現代科技的製茶過程，目的在於提供消費者最『純淨』的茶葉。＊減低茶單寧釋出，避免苦澀味，加強甜度：因為冷水中，茶葉中帶甜味的氨基酸分子，易先溶出，而苦澀來源的單寧酸、咖啡因較不易釋出。＊降低茶湯咖啡鹼含量，減輕胃壁負擔，對於喝茶易造成胃部不舒服問題，冷泡茶湯將可避免。而其咖啡鹼含量降低，也可改善因喝茶影響睡眠…",
@@ -7978,8 +7755,7 @@
       "missing": [
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000138",
@@ -8000,9 +7776,7 @@
     "lat": 24.05005,
     "lng": 120.4349,
     "image": "https://tourism.chcg.gov.tw/upload/28/2012041317383320814.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "創立於清光緒十三年，「鳯眼糕」是先祖鄭槌所研發的產品，在日據時代大正十五年榮獲日本東京金牌賞；口酥餅、鳯凰酥、石花糕、土鳳梨酥、綠豆糕等茶點，皆曾於日治時代榮獲食品金牌獎；近年更獲得彰化縣政府推薦為「彰化百宴」之代表產品。資料來源：鹿港鎮公所",
     "highlights": [
@@ -8057,8 +7831,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376470000A_000124",
@@ -8080,8 +7853,7 @@
     "lng": 120.4318,
     "image": "https://tourism.chcg.gov.tw/upload/28/2012041610374069875.jpg",
     "imageCandidates": [
-      "https://tourism.chcg.gov.tw/upload/28/2012051814000831437.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://tourism.chcg.gov.tw/upload/28/2012051814000831437.jpg"
     ],
     "accent": "#d88962",
     "description": "祖先即以糕餅製作維生，因風味獨特而代代相傳，已有六十年歷史，是鹿港著名的糕餅世家。多年來不斷研發，其中以香氣濃郁的內餡包入麻糬，而形成多層次口感的麻糬餅，把頂級綠豆以獨特古法製成的冰饌綠豆糕，產品品質、口感皆獲得消費者及機關行號的一致肯定。諸多獎項象徵著錦興餅舖數十年來的用心經營，得到政府與民間全面性認同，更名列為國宴中招待外賓的精緻茶點呢。資料來源：鹿港鎮…",
@@ -8137,8 +7909,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010400H_000693",
@@ -8159,9 +7930,7 @@
     "lat": 22.46595,
     "lng": 120.4584,
     "image": "https://www.dbnsa.gov.tw/fapi/ArtPic?type=ArticlePic&id=871&w=500",
-    "imageCandidates": [
-      "restaurant-fallbacks/general-restaurant.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "遇見秘境民宿附屬的餐廳，茹素者的老闆所推出的蔬食料理，不僅好看更是好吃，是親子、蔬食族群來東港必造訪的餐廳。營業時間：週四~週二，11:00-14:00、14:00-21:00。。",
     "highlights": [
@@ -8216,8 +7985,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15011200H_000083",
@@ -8238,9 +8006,7 @@
     "lat": 23.18193,
     "lng": 120.33745,
     "image": "https://www.siraya-nsa.gov.tw/image/98623/640x480",
-    "imageCandidates": [
-      "restaurant-fallbacks/general-restaurant.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#f2a65a",
     "description": "臺南官田隱藏著一家深受在地人喜愛的餐廳「銓弘土雞城」，這裡有著多樣土雞料理如三杯雞、豆乳雞、香茅雞等，每一道都展現著臺灣的鄉村風味，還有少見的刺仔雞湯品，成為許多老饕口中的必訪名單。傳統滋補美食，招牌刺仔雞湯「刺仔」（學名金合歡）為一種整株帶刺的山區植物，將曬乾後的刺仔入鍋熬煮，再加入山雞與中藥材，即是平埔族的傳統菜餚「刺仔雞湯」，不僅風味獨特，還能滋補養生…",
     "highlights": [
@@ -8291,8 +8057,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010400H_000688",
@@ -8313,9 +8078,7 @@
     "lat": 21.94317,
     "lng": 120.7364,
     "image": "https://www.dbnsa.gov.tw/fapi/ArtPic?type=ArticlePic&id=869&w=500",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "台灣潛水宗旨為「Bring Ocean Into Your Life」，藉由潛水，讓海洋進入大家的生活。讓更多人愛上大海而成為海人，跟著我們一起保護這片大海。親海、知海、愛海，是上天賦予海島國家重要的使命。無論是提供專業的潛水相關課程，海洋商品的販售，保育活動的推廣…都希望能真正的將海洋融入你我的生活。營業時間：每日",
     "highlights": [
@@ -8370,8 +8133,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010900H_000125",
@@ -8391,10 +8153,8 @@
     "hours": "周一~週五10：00~18：00、周六10：00~20：00、周日10：00~19：00 (每周二公休)",
     "lat": 22.71346,
     "lng": 120.6525,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "唯一美食餐廳創立至今，一直專注於發揚部落原住民美食並研究創新提供時下消費者有更大的接受度並持續著創造特殊風味餐飲，傳承排灣族文化美食，並針對消費大眾生活上對原住民的熱情與探訪心態，強調如何讓排灣族美食特有內涵可以突顯，如何讓排灣族的文化歷史透過美食對外聯結。為了提供遊客全套完整旅程，除了美食餐廳的經營可令消費者到「唯一原住民美食餐廳」享用美味的排灣族風味餐外…",
     "highlights": [
@@ -8475,8 +8235,7 @@
         "票價資訊",
         "官方照片"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010400H_000694",
@@ -8497,9 +8256,7 @@
     "lat": 22.70848,
     "lng": 120.556,
     "image": "https://www.dbnsa.gov.tw/fapi/ArtPic?type=ArticlePic&id=892&w=500",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "玉米三巷希望使用在地食材，做最道地的台灣味冰淇淋！我們在產地打滾，不追求華麗的伎倆，只要求最扎實的功夫底子，才可稱為水果冰淇淋專家。營業時間：週一/週四/週五 12:00~18:00。週六~周日 10:30~18:00",
     "highlights": [
@@ -8554,8 +8311,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376600000A_000079",
@@ -8575,10 +8331,8 @@
     "hours": "請至官方網站確認",
     "lat": 23.486003,
     "lng": 120.454558,
-    "image": "restaurant-fallbacks/general-restaurant.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/general-restaurant.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#f2a65a",
     "description": "寶寶的幸福米餅，自然食材的純真滋味「奮起福」是嘉義青年所創立的嘉義文創品牌，是一間全以「台灣米」為創作出發點的特色店家，主要販售以米製餅乾為主，「單純無添加物，用心做適合全家人吃的米餅」是品牌核心精神。門市位於嘉義檜意森活村內，產品從嬰兒到大人吃的米餅都有，禮盒設計方面皆以嘉義阿里山特色為設計意象，並結合嘉義在地農特產 - 山葵融入傳統米香，設計出特殊風味的…",
     "highlights": [
@@ -8635,8 +8389,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15011200H_000078",
@@ -8657,9 +8410,7 @@
     "lat": 23.35662,
     "lng": 120.53691,
     "image": "https://www.siraya-nsa.gov.tw/image/98576/640x480",
-    "imageCandidates": [
-      "restaurant-fallbacks/cafe-rainy.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#f2a65a",
     "description": "山風吹送著咖啡香，由老屋改建的一品咖啡莊園坐落於凍子頂山。「一品」之意，為莊園對咖啡品質無止境的追求，堅持採摘熟度完美的咖啡果實，以確保每一顆豆子達到最佳狀態，無論是日曬、蜜處理或水洗，都期望每一杯暖心的精品咖啡能帶來豐富的層次。從家庭出發的精品咖啡豆咖啡莊園的起心動念，純粹是主理人母親對咖啡的喜愛讓父親一頭栽進種植咖啡樹的世界。凍子頂山上的咖啡園午後雲霧繚…",
     "highlights": [
@@ -8710,8 +8461,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010400H_000687",
@@ -8732,9 +8482,7 @@
     "lat": 22.77668,
     "lng": 120.5452,
     "image": "https://www.dbnsa.gov.tw/fapi/ArtPic?type=ArticlePic&id=868&w=500",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "里港的大茉莉農場，取名來自老闆的姓「Lamorie」，農場的主要建築百分之十，來自回收再利用。老闆John希望台灣的每位朋友，都能進來了解我們在這寶貴七分地做什麼。",
     "highlights": [
@@ -8790,8 +8538,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010400H_000690",
@@ -8812,9 +8559,7 @@
     "lat": 22.6737,
     "lng": 120.4861,
     "image": "https://www.dbnsa.gov.tw/fapi/ArtPic?type=ArticlePic&id=888&w=500",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "不管你有沒有吃素，好吃不就是最重要的嗎?沒有服務費，沒有眉角，自在好吃又好玩，聽說不錯吃，燈光美氣氛佳，走過錯過千萬別路過。營業時間：11:00-16:00/17:00-20:00",
     "highlights": [
@@ -8870,8 +8615,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010400H_000619",
@@ -8891,10 +8635,8 @@
     "hours": "9:00-21:00",
     "lat": 22.46743,
     "lng": 120.4456,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "本餐廳是東港數一數二的老字號，鄰近華僑市場，廚師挑魚貨的經驗可說是一極棒。主廚採用台式、川味及廣東等多樣料理技法及調味手路，為食材創造出更多讓人回味的驚喜。堅強的廚師群，用料實在，打破海鮮單一料理手法的陽春感，多樣的廚藝總吸引饕客前往大啖美食。",
     "highlights": [
@@ -8964,8 +8706,7 @@
         "票價資訊",
         "官方照片"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_395000000A_001581",
@@ -8985,10 +8726,8 @@
     "hours": "請至官方網站確認",
     "lat": 23.18436,
     "lng": 120.56024,
-    "image": "restaurant-fallbacks/general-restaurant.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/general-restaurant.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#f2a65a",
     "description": "在林立的餐廳中，大眾飲食部特別一支獨秀，因為它位居梅嶺最高處，景觀極佳，而店內所推出的梅子料理，則包含了梅子蝦球、甘草梅子雞、梅子雞火鍋等多樣風味，其中尤以招牌梅子雞，不但入口肉質鮮美，梅子香氣還陣陣襲來，人氣最旺。店家亦同步提供溫泉室、兒童遊戲區等休閒設施，很適合周休二日全家出遊。",
     "highlights": [
@@ -9040,8 +8779,7 @@
         "票價資訊",
         "官方照片"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_395000000A_006392",
@@ -9061,10 +8799,8 @@
     "hours": "請至官方網站確認",
     "lat": 22.98847,
     "lng": 120.19648,
-    "image": "restaurant-fallbacks/general-restaurant.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/general-restaurant.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#f2a65a",
     "description": "在台南古都裡，你很容易就可以從吃喝飲食裡察覺對方的背景，不一定是身家行頭、職業背景，而是這個人內在的文化底蘊與生活氣度。在這樣的古都裡，也許只是一位普通的家庭主婦，卻懂得品味茶、找到自己喜愛的茶滋味，送完孩子上學後在六巷茶弄裡，拿著自己的杯子要店員調整出她個人專屬的觀音茶。也許是吃完台南味早餐，打算來杯餐後茶的中年男子，一到店面無須言語，店員們就俐落地做出烏…",
     "highlights": [
@@ -9117,8 +8853,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15011100H_000350",
@@ -9138,10 +8873,8 @@
     "hours": "請至官方網站確認",
     "lat": 23.32774,
     "lng": 120.15933,
-    "image": "restaurant-fallbacks/general-restaurant.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/general-restaurant.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#f2a65a",
     "description": "蔡新祈 (1951 年生 ) 以養殖為業，太太黃麗嬌 (1953 年生 ) 則在成衣加工廠工作，1986 年黃麗嬌辭掉成衣加工廠的工作，以便照顧就讀國小的孩子，以免孩子放學回來到處遊蕩；為貼補家用，亟思發展家庭副業，因胞妹曾參加社區烹飪活動，於是黃麗嬌便向胞妹學得包子、饅頭的製作，便在自家設攤販賣水煎包，不久又加賣蛋餅及煎餃。創業初始，水煎包是包高麗菜、肉燥…",
     "highlights": [
@@ -9194,8 +8927,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15011100H_000342",
@@ -9215,10 +8947,8 @@
     "hours": "請至官方網站確認",
     "lat": 23.32795,
     "lng": 120.1601,
-    "image": "restaurant-fallbacks/general-restaurant.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/general-restaurant.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#f2a65a",
     "description": "蔡崇明 (1951 年生 ) 原是臺鹽嘉義鹽場職員，太太是個裁縫師，替庄民縫製衣服來貼補家用。1970 年代起，成衣廠大量出現，裁縫生意大受影響，收入頓減，為讓太太在照顧孩子之餘有個副業，以增加家庭收入，蔡崇明去到高雄烏樹林鹽場向二哥、二嫂學習包子、饅頭的製作方法。蔡崇明的兄嫂是烏樹林鹽場福利社的員工，為增加收入而向一位做包子、饅頭的外省老伯伯學習的。蔡崇明…",
     "highlights": [
@@ -9271,8 +9001,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15011100H_000365",
@@ -9292,10 +9021,8 @@
     "hours": "請至官方網站確認",
     "lat": 23.1337,
     "lng": 120.1334,
-    "image": "restaurant-fallbacks/general-restaurant.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/general-restaurant.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#f2a65a",
     "description": "莊永圳 (1961 年生)，高雄人，因朋友邀約加盟烤地瓜，買烤爐，技術轉移，並提供地瓜商資訊，因緣際會販售起炭烤地瓜來，最先在高雄販賣，隔年遷回太太的七股娘家，早先像流動攤販般，往人潮、車潮多的地方擺攤，人潮、車潮散去再換個地方，直到 7-11七股店開張隔年 (1995)，才定點販售，且只賣星期假日，其他時間則從事家庭代工。莊記炭烤地瓜令人吃了還想再吃，其癥…",
     "highlights": [
@@ -9348,8 +9075,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_395000000A_006388",
@@ -9369,10 +9095,8 @@
     "hours": "請至官方網站確認",
     "lat": 23.30323,
     "lng": 120.31137,
-    "image": "restaurant-fallbacks/general-restaurant.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/general-restaurant.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#f2a65a",
     "description": "位在臺南市新營區的”卡布里義廚”是一間充滿異國氣息的義式餐廳，店內歐式裝潢擺設能發現店長的巧思，CP值超高的餐點用料實在，過去消費的民眾回顧率相當高，口碑良好很快在新營就成為非常知名的義式餐廳，每當用餐時間總是一位難求，老闆及員工的親切服務讓饕客能在愉悅且輕鬆的氣氛在店內享用美食，也是家庭聚會、朋友聚餐的優質地點，不必花大錢即可享受到高級餐廳的美味佳餚，真心…",
     "highlights": [
@@ -9424,8 +9148,7 @@
         "票價資訊",
         "官方照片"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_395000000A_001843",
@@ -9445,10 +9168,8 @@
     "hours": "請至官方網站確認",
     "lat": 22.98548,
     "lng": 120.2333,
-    "image": "restaurant-fallbacks/general-restaurant.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/general-restaurant.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#f2a65a",
     "description": "\"長春健康素食餐飲連鎖總經理張寶仁出身賣菜家庭，就讀成大附工時半工半讀，再自助餐店打工洗碗，幫忙家計。曾在川菜館當學徒的張寶仁，後因不敢殺生且祖母告誡他從事素食餐飲。退伍後繼續投入餐飲業，因對餐飲的熱忱，從打工洗碗做起，通過中餐丙級、乙級烹飪技術士證照考試，後來又進而自行創業當老闆，所有餐廳相關流程他都內行，也因為比一般經營者還要用心，所以長春健康素食餐廳，…",
     "highlights": [
@@ -9500,8 +9221,7 @@
         "票價資訊",
         "官方照片"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_395000000A_001533",
@@ -9521,10 +9241,8 @@
     "hours": "請至官方網站確認",
     "lat": 23.00261,
     "lng": 120.19881,
-    "image": "restaurant-fallbacks/general-restaurant.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/general-restaurant.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#f2a65a",
     "description": "阿秀是個家庭主婦，因為好手藝，過去十多年來，親朋好友都拜託她綁粽子，客人要出國也都帶著她的肉粽，所以國內外都有忠實顧客，因此才起意弄個小店。道地的台南古早味肉粽，請大家來嚐嚐，吃過後一定會回味無窮。老闆不用醬油調味，一口粽味道全在其中，入口即化的上等五花肉、鹹蛋黃、香菇、土豆、紅蔥頭一應俱全，有純糯米粽、五穀粽和南瓜粽3種口味，糯米粽的古早味，南瓜粽的香、Q…",
     "highlights": [
@@ -9577,8 +9295,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15011100H_000329",
@@ -9598,10 +9315,8 @@
     "hours": "請至官方網站確認",
     "lat": 23.28627,
     "lng": 120.14066,
-    "image": "restaurant-fallbacks/general-restaurant.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/general-restaurant.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#f2a65a",
     "description": "小小的燒酒螺，小小的攤車，一賣就是半個世紀，除了撐起一家溫飽外，還培育 7 位子女個個都是大學以上的學歷，現在 7 位子女都已成家立業，而這個燒酒螺攤仍繼續招徠全臺各地遊客，這就是南鯤鯓吳記燒酒螺寫下的傳奇。吳陳錦芒原是個家庭主婦，眼看食指浩繁，為減輕家庭經濟負擔，開始在南鯤鯓代天府萬善堂廟埕設攤販賣燒酒螺，1980 年代因南鯤鯓代天府在萬善堂廟前搭攤販區，…",
     "highlights": [
@@ -9654,8 +9369,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_395000000A_001642",
@@ -9675,10 +9389,8 @@
     "hours": "請至官方網站確認",
     "lat": 23.36617,
     "lng": 120.36718,
-    "image": "restaurant-fallbacks/general-restaurant.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/general-restaurant.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#f2a65a",
     "description": "沒有招牌，更無店面，純粹是家庭副業式的經營，但現場卻供不應求，而預約訂購的函件，亦如雪花般從各地飄來，且已排隊至二週後才能訂到貨，那便是後壁區後壁國小校門口的黎記廣東冰塘醬鴨。 黎記廣東冰糖醬鴨分辣與不辣兩種口味，但亦會依顧客指定製作超辣口味。每天上午七時開市，但現場採購不一定有貨，最好先預約，因限量供應，賣完為止。",
     "highlights": [
@@ -9731,8 +9443,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15011100H_000312",
@@ -9752,10 +9463,8 @@
     "hours": "請至官方網站確認",
     "lat": 23.21648,
     "lng": 120.09425,
-    "image": "restaurant-fallbacks/general-restaurant.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/general-restaurant.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#f2a65a",
     "description": "37 年的老攤，隱身在庄廟李聖宮廟前，沒有店招，但老饕都知道馬沙溝這攤「吳家蚵嗲」用料實在、經濟實惠，三不五時就彎進來解饞；而馬沙溝的居民，許多都是從小吃到大，嫁出去或旅居在外的鄉親，每次返鄉都一定拐到廟前吃它一兩粒過過癮。馬沙溝「吳家蚵嗲」老闆娘吳陳秀理原本是個家庭主婦，在么兒出生後不久，想做點生意來補貼家用，因馬沙溝當地生產蚵仔、海鮮，於是動起販賣蚵嗲的…",
     "highlights": [
@@ -9808,8 +9517,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_395000000A_006494",
@@ -9829,10 +9537,8 @@
     "hours": "請至官方網站確認",
     "lat": 22.97688,
     "lng": 120.22242,
-    "image": "restaurant-fallbacks/general-restaurant.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/general-restaurant.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#f2a65a",
     "description": "自營牧場高品質把關的優勢，在崇德市場走過30個年頭，亦為全市場唯一提供販售牛肉湯的攤商。以牛骨、牛腩、蔬果等食材熬煮湯頭，讓招牌牛肉湯富有層次感，每一瓢羹都是鮮甜的滋味。此外，由於自營自宰牧場，從牛頭到牛尾皆可接受客互預訂，店攤也販售新鮮溫體牛肉，可供民眾自行購買回家料理。特製紅燒牛腩料理包，便利的美味，更深受家庭主婦喜愛。於店內點購100元湯品，即贈送白飯…",
     "highlights": [
@@ -9885,8 +9591,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_395000000A_002047",
@@ -9906,10 +9611,8 @@
     "hours": "請至官方網站確認",
     "lat": 23.15122,
     "lng": 120.3839,
-    "image": "restaurant-fallbacks/general-restaurant.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/general-restaurant.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "南寶高爾夫俱樂部位於頭社公廨旁，鄰近走馬瀨農場、曾文水庫、烏山頭水庫、西拉雅親子公園、關仔嶺泥湯溫泉、南元農場、南瀛天文台以及國立台南藝術學院等景點。球場共有A、B、C區共二十七洞，球道大多呈南北走向，避免球友擊球時碰到正面逆光的情形。球場四周有溪流環繞，與外圍的原始樹林相映，景色宜人；球道地勢起伏，兩側種滿桃花心木、樟樹、台灣櫸木、南洋杉等樹林，加上造型各…",
     "highlights": [
@@ -9961,8 +9664,7 @@
         "票價資訊",
         "官方照片"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376600000A_000010",
@@ -9982,10 +9684,8 @@
     "hours": "請至官方網站確認",
     "lat": 23.500289,
     "lng": 120.452173,
-    "image": "restaurant-fallbacks/general-restaurant.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/general-restaurant.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#f2a65a",
     "description": "新鮮水果與酸甜優格的絕妙風味當美味優格，遇見新鮮水果，繽紛美妙的滋味，悄悄在嘉義展開來。新鮮結合手作與無添加色素的水果優格，是老闆柯博仁對家人與消費者的堅持。當年歷經中年轉業，原本從事和食品業完全無關的工作，憑著做給最愛的太太和家人食用的心意，展開了這一段酸甜機緣。憑著太太本身愛吃水果的心意，柯博仁特別找來了種水果的親戚，先從果汁店開始發跡，結合在地新鮮食材…",
     "highlights": [
@@ -10038,8 +9738,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15011200H_000086",
@@ -10060,9 +9759,7 @@
     "lat": 23.07864,
     "lng": 120.48734,
     "image": "https://www.siraya-nsa.gov.tw/image/98663/640x480",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "「小歇冰舖」以鮮明的幾何圖形結合貨櫃屋的樣態坐落於臺南南化臺3線上，嚴選當季新鮮水果，與在地小農、農會建立長期合作關係，將珍貴的農產品化為美味的義式冰淇淋。小歇冰舖同時複合咖啡廳，也提供簡餐與飲品，室內外寬敞的用餐區讓顧客能盡情享受悠閒的用餐時光。充滿在地風味的義式冰淇淋秉持著地方創生與支持農業發展的理念，使用臺南在地新鮮水果製作，如南化的百香果和酪梨、關廟…",
     "highlights": [
@@ -10113,8 +9810,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15011200H_000137",
@@ -10135,9 +9831,7 @@
     "lat": 23.44684,
     "lng": 120.54631,
     "image": "https://www.siraya-nsa.gov.tw/image/98567/640x480",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "以生產無農藥、無添加的阿里山高山茶為理念，「天然莊Nature Grange」已在嘉義深耕數十年，不僅推出金萱、烏龍茶等主打茶葉，還結合販售陶作茶具、茶植染精品，提供各式各樣的茶藝美學生活提案。莊園主人兼茶藝師莊育端將她對茶的熱忱與專業，轉化為茶席體驗、食農教育等活動，讓遊客可以在這裡盡情體驗、創造與茶葉的美好回憶。天然無農藥，來自阿里山的高山好茶天然莊的茶…",
     "highlights": [
@@ -10189,8 +9883,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15011200H_000092",
@@ -10211,9 +9904,7 @@
     "lat": 23.41614,
     "lng": 120.5457,
     "image": "https://www.siraya-nsa.gov.tw/image/100429/640x480",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "隱身在中埔鄉石硦村的好味道，佳鶯風味餐以「阿母的手路菜」為理念，使用中埔在地與自家食材，將最純樸的家常滋味化為一道道暖心料理，假日提供合菜形式，平日來訪也接受單點服務，適合熱愛尋訪隱藏版好味道的你。餐廳招牌菜，色香味俱全的苦茶油雞「手路菜」在臺語中是「拿手好菜」的意思。佳鶯風味餐在保留傳統家常風味的基礎上，融入創新的料理巧思，為味蕾帶來懷舊又驚喜的享受。餐廳…",
     "highlights": [
@@ -10264,8 +9955,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15011200H_000080",
@@ -10286,9 +9976,7 @@
     "lat": 23.29862,
     "lng": 120.58894,
     "image": "https://www.siraya-nsa.gov.tw/image/98604/640x480",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "大埔湖濱公園旁的迦寶火龍果雪花冰以色彩繽紛的水果雪花冰聞名，也是炎炎夏日中不可錯過的消暑美食。老闆娘北漂多年回鄉，將親戚栽植的火龍果轉化為各式冰品、美食，店內販售雪花冰、冰淇淋、鮮果汁、咖啡、健康果醋等，為顧客帶來清涼爽口的極致享受。打卡必點，紅綠相映的特色招牌雪花冰店內招牌「火龍果雙享綜合雪花冰」以鏟子造型器皿盛裝，創意十足，冰品由哈密瓜雪花冰作為基底，佐…",
     "highlights": [
@@ -10339,8 +10027,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15011200H_000082",
@@ -10361,9 +10048,7 @@
     "lat": 23.33568,
     "lng": 120.50382,
     "image": "https://www.siraya-nsa.gov.tw/image/98612/640x480",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "臺南旅遊勝地關子不僅有豐沛的溫泉天然資源，還有許多特色山產，桶仔雞即是遊人來訪的必吃美食之一。受在地居民與遊客喜愛的老字號「原味山產美食」使用最新鮮的在地食材料理，以多汁的桶仔雞、黑糖蜜香菇、山藥麻糬燒打開名氣，征服饕客的味蕾。脆皮桶仔雞，香嫩多汁的迷人風味桶仔雞是經典的臺灣料理，掛在桶子雞爐內的土雞以木炭慢烤數小時，表皮逐漸轉為金黃色澤，保留雞肉鮮嫩的肉質…",
     "highlights": [
@@ -10415,8 +10100,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15011200H_000088",
@@ -10437,9 +10121,7 @@
     "lat": 23.27145,
     "lng": 120.49247,
     "image": "https://www.siraya-nsa.gov.tw/image/98791/640x480",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "臺南東山的市道175線，因沿途設有許多特色咖啡廳，又被稱為「175咖啡公路」，崁頭山紅楓咖啡即坐落於公路15.3公里處。從前於崁頭山孚佑宮二樓經營了二十餘年，現址更為寬闊清幽，唯頂級咖啡香、熱情的老闆不變，崁頭山紅楓咖啡還是臺灣第一支獲得國際咖啡品質協會（CQI）認證的東山咖啡。從栽植、篩選到烘焙都由老闆親自把關，連年獲選總統國宴的指定咖啡。東山伴手禮推薦，…",
     "highlights": [
@@ -10490,8 +10172,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15011200H_000084",
@@ -10512,9 +10193,7 @@
     "lat": 23.19283,
     "lng": 120.31854,
     "image": "https://www.siraya-nsa.gov.tw/image/98646/640x480",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "臺南官田區的「買記鍋燒意麵」位於隆田火車站前，是當地知名的古早味美食之一，不僅價格合理，還提供多種湯頭選擇，如原味、沙茶、麻辣、牛奶、起司、泰式及咖哩等，滿足各種湯底口味需求，還有乾炒意麵供選擇。湯頭以雞骨和新鮮蔬果熬煮四小時，不加高湯粉，呈現自然鮮甜。客製化的配料選擇濃郁鮮甜的湯頭搭配彈牙有勁的麵條，還能客製化加料，包括麵、蛋、青菜、肉片、魚丸、蝦子等，讓…",
     "highlights": [
@@ -10566,8 +10245,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15011200H_000085",
@@ -10588,9 +10266,7 @@
     "lat": 23.13138,
     "lng": 120.47439,
     "image": "https://www.siraya-nsa.gov.tw/image/98656/640x480",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "臺南玉井的「黃金蕎麥探索館」一樓為觀光工廠，二樓為主題餐廳結合伴手禮銷售空間。在探索館初步認識種子、脫殼、炒焙、烤焙等不同形態的蕎麥顆粒，透過玻璃窗觀賞蕎麥的處理過程，參觀結束後，還能前往黃金蕎麥主題餐廳飽餐一頓。從種植到加工，探索蕎麥種植及知識探索館內，可以請服務人員進行專業導覽，認識蕎麥的種植奧秘、營養成分，還有蕎麥茶到點心的多元應用，適合全家大小一同參…",
     "highlights": [
@@ -10641,8 +10317,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15011200H_000047",
@@ -10663,9 +10338,7 @@
     "lat": 23.40478,
     "lng": 120.51206,
     "image": "https://www.siraya-nsa.gov.tw/image/98600/640x480",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "臺灣的經典米食料理「碗粿」以其充滿米香、彈牙的口感擄獲大眾的味蕾。「鈴蘭碗粿」自1999年來深耕嘉義縣中埔鄉，已成為在地著名的老字號碗粿，堅持古法製作，並嚴選來自嘉南平原的在來米作為原料，除了傳統鹹食口味外，鈴蘭碗粿也提供以黑糖為基底的甜口選擇。此外，店內還有販售米糕和各式湯品，讓顧客享受到更多元的美食。料多味美的招牌口味，金牌碗粿百分之百特選在來米製程製成…",
     "highlights": [
@@ -10717,8 +10390,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15011200H_000048",
@@ -10739,9 +10411,7 @@
     "lat": 23.12964,
     "lng": 120.4832,
     "image": "https://www.siraya-nsa.gov.tw/image/100217/640x480",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "玉井虎頭山瑪莎園景觀餐廳，是一個紀念狗狗的綠地，藉由綠色園藝灌溉而成的悠閒空間，讓顧客與狗狗紓解都會生活壓力，除了提供香醇咖啡餐點與冰品、寧靜的庭園景致與遼闊山景視野，同時也可以聽到各種不同類型的優美音樂。隨著季節變化，與果農合作， 利用芒果故鄉-玉井在地食材愛文芒果，提供芒果料理、四季料理、水果餐點、招牌芒果鬆餅、芒果啤酒、芒果冰品、咖啡、花茶、芒果乾等…",
     "highlights": [
@@ -10792,8 +10462,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15011200H_000138",
@@ -10814,9 +10483,7 @@
     "lat": 23.33593,
     "lng": 120.50397,
     "image": "https://www.siraya-nsa.gov.tw/image/98608/640x480",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "在關子嶺泡湯後，飢腸轆轆的時刻最適合來一顆鹹香的茶葉蛋止飢。溫泉老街上正好有間飄香已久的名店「關子嶺香菇蛋」，有別於一般茶葉蛋，額外加入在地生產的「香菇」與中藥滷汁一同熬製，大受國內外遊客喜愛，成為關子嶺必嚐的美食之一。香菇蛋另類吃法，冰鎮後口感升級與特殊配方中藥材一起熬煮到入味的香菇蛋，呈現濕潤清透的模樣，連蛋黃都有香菇的芳香，冰鎮後更加彈牙，不妨品嘗看看…",
     "highlights": [
@@ -10868,8 +10535,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_395000000A_001076",
@@ -10889,10 +10555,8 @@
     "hours": "請至官方網站確認",
     "lat": 22.98942,
     "lng": 120.20719,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "主要商品：蝦仁肉圓一份三粒45元、香菇肉羹一份35元、虱目魚丸湯一份25元。 特色：手工製作的蝦仁肉圓外皮由「在來米」磨成米漿加地瓜粉而成，皮薄又Q、蝦仁是採用「火燒蝦」，經抽沙處理，新鮮又脆，又有肉燥香，加上特製的醬汁，再來一碗味濃、料多的肉羹，真是人間美味。 商店歷史特色：本店於民國39年在東門圓環創業，至今已經傳至第三代，現址於民國89年重新裝修，冷氣…",
     "highlights": [
@@ -10963,8 +10627,7 @@
         "票價資訊",
         "官方照片"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_395000000A_002133",
@@ -10984,10 +10647,8 @@
     "hours": "請至官方網站確認",
     "lat": 23.12838,
     "lng": 120.31757,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "善化啤酒廠建設在人文薈萃的善化區，導引烏山頭水庫的清沁水質，經嚴格的品質管制，孕育出享譽世界的台灣啤酒，其清?、芳香、好入喉的特性，屢次榮獲世界酒類評選會金質獎，台灣啤酒的特殊風味，一口接一口的喝，芳香迴盪口齒間，生活有台灣啤酒陪伴，更增添歡樂時光生動迷人的氣質。",
     "highlights": [
@@ -11058,8 +10719,7 @@
         "票價資訊",
         "官方照片"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_395000000A_001808",
@@ -11079,10 +10739,8 @@
     "hours": "請至官方網站確認",
     "lat": 23.07671,
     "lng": 120.29569,
-    "image": "restaurant-fallbacks/general-restaurant.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/general-restaurant.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#f2a65a",
     "description": "二饌是ㄧ個大家庭 需要大家ㄧ起努力打拼才有那麼美味的美食讓來這裡的每ㄧ個客人能吃的滿足記下這個美好的味道期待下次的相聚我們不怕辛苦不怕累只要能夠讓客人滿意流再多汗都願二饌不只有賣牛肉麵也有幫不吃牛肉的人設計的餐點讓客人多樣的選擇。",
     "highlights": [
@@ -11135,8 +10793,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15011200H_000043",
@@ -11157,9 +10814,7 @@
     "lat": 23.28327,
     "lng": 120.50146,
     "image": "https://www.siraya-nsa.gov.tw/image/100219/640x480",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "大鋤花間位於台南市東山區淺山地區，二十多年前，農場主人郭雅聰放棄台北五光十色的繁華生活，毅然帶著妻小舉家南遷，拿筆桿的手改握起鋤頭，從台北出版人搖身一變為山林野人，在深山裡開闢洪荒的同時他意外與咖啡邂逅，自此展開大鋤花間的故事。",
     "highlights": [
@@ -11210,8 +10865,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010400H_000611",
@@ -11231,10 +10885,8 @@
     "hours": "24小時營業",
     "lat": 22.45839,
     "lng": 120.4824,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "福灣莊園提供在地創意料理，無固定菜單，全看當天海龍王賜什麼漁獲，土地公賞什麼水果做甜點。就像福灣兩個字所代表的意思，＂天賜一口田，悠然傍水灣。＂珍惜、感恩、樂活、環保，這樣的生活態度，希望遊客們都會喜歡。",
     "highlights": [
@@ -11290,8 +10942,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_395000000A_002132",
@@ -11311,10 +10962,8 @@
     "hours": "請至官方網站確認",
     "lat": 23.13847,
     "lng": 120.32289,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#f2a65a",
     "description": "位處台一線308.5公里處，翠綠草地、美麗的花圃、安全的兒童遊樂設施、古色古香的涼亭、充滿農村氣息之造景，適合孩童戲水消暑、情侶約會、闔家休閒同樂、遊客呷涼的好地方。販售各處季節性農特產調製及酒廠、台鹽之特色冰品、旺來伯稻香鳳梨酥及100%本地產胡麻油、胡麻清油等，歡迎前來參觀選購。",
     "highlights": [
@@ -11367,8 +11016,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_395000000A_001579",
@@ -11388,10 +11036,8 @@
     "hours": "請至官方網站確認",
     "lat": 23.18055,
     "lng": 120.51718,
-    "image": "restaurant-fallbacks/cafe-rainy.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/cafe-rainy.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#f2a65a",
     "description": "位於梅嶺水火洞旁，附近有大片百年老梅園，擁有絕佳之視野，梅花季賞梅好去處，果園開放採果，4月採梅，8月採龍眼，12月採仙桃。另闢登山步道、卡拉OK、泡茶區、庭園咖啡區、兒童遊樂區，可設席70桌以上，遊覽車合菜1500元起，梅子大餐、山土雞料理、山產、山菜，歡迎團體旅遊用餐。 * 本店梅子雞榮獲84年及87年度優良評鑑金牌獎。 每年4月中旬~5月中旬為螢火蟲季…",
     "highlights": [
@@ -11443,8 +11089,7 @@
         "票價資訊",
         "官方照片"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376600000A_000035",
@@ -11464,10 +11109,8 @@
     "hours": "請至官方網站確認",
     "lat": 23.4809235,
     "lng": 120.4521087,
-    "image": "restaurant-fallbacks/cafe-rainy.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/cafe-rainy.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#f2a65a",
     "description": "最有人情味的咖啡廳如果沒有很仔細地尋找，很容易就錯過位於中山路上的「融合度咖啡」，小小一家、外觀並不起眼的店面，一走進便感受到老闆熱情的問候以及在座客人們的輕鬆自在。人稱「二姐」的老闆娘林珮瑜提到，這就是這間咖啡店想要帶給人的感受，希望營造出一種家庭式、猶如朋友間相處的氛圍，因而咖啡店的店名也由此而來─讓來訪的客人都能「融合」於這氣氛中，感受這滿滿人情味的「…",
     "highlights": [
@@ -11519,8 +11162,7 @@
         "票價資訊",
         "官方照片"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_395000000A_001715",
@@ -11540,10 +11182,8 @@
     "hours": "請至官方網站確認",
     "lat": 23.26815,
     "lng": 120.29533,
-    "image": "restaurant-fallbacks/cafe-rainy.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/cafe-rainy.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#f2a65a",
     "description": "園區本著酪農精神，不僅生產牛奶，也以自產的牛奶製成牛奶包子、饅頭、土司、布丁、奶酪、冰棒、咖啡。此外，他們還開發許多副產品，像是香皂、藝品、背包等各式精美產品。小朋友設計了小乳牛DIY紙模彩繪、擠牛奶、沙畫等活動，一定要給你嘴裡甜甜、心底滿滿的紀念與回憶。",
     "highlights": [
@@ -11595,8 +11235,7 @@
         "票價資訊",
         "官方照片"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376600000A_000072",
@@ -11616,10 +11255,8 @@
     "hours": "請至官方網站確認",
     "lat": 23.485449,
     "lng": 120.436894,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#f2a65a",
     "description": "烘焙專門的先生 + 設計系出身的太太， 手牽手創造出有趣多元的親子同享空間！擁有專業烘焙及廚藝師資，還有現正熱門、大小朋友都愛的親子手作體驗。店內設有門市販售嚴選食品原料，玩累、逛累了還有餐廳供應精緻餐點與悠閒下午茶。就位於嘉義後火車站，好吃好喝、好逛好買！趕緊一起來吃喝玩樂啦！店內人氣首選，當然是滿足視覺與味蕾雙重感受的崩潰蛋糕系列。綿密 的蛋糕體包裹著特…",
     "highlights": [
@@ -11671,8 +11308,7 @@
         "票價資訊",
         "官方照片"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010900H_000100",
@@ -11692,10 +11328,8 @@
     "hours": "週一至週五(須先預約)，週六、日08：00 – 17：00(無須預約)",
     "lat": 22.74322,
     "lng": 120.7306,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "主人原經營雅大打鐵屋，是當地有名的製刀高手，為了讓入鄉的遊客在鄉內住宿有方便的用餐之處，便開始了山腳點小吃部的經營。小吃部外觀運用石板堆砌而成，散發著豐富的魯凱族建築特色，運用當地原生食材製作料理，讓飢腸轆轆的遊人在好山好水的環境下得到深深的滿足。",
     "highlights": [
@@ -11747,8 +11381,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010400H_000629",
@@ -11768,10 +11401,8 @@
     "hours": "11:30-14:00；17:30-21:00",
     "lat": 22.46233,
     "lng": 120.4629,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "總是高朋滿座的亞士都餐廳，雖無氣派外觀，但餐廳內部裝潢溫馨，用餐氣氛佳，一家店兩代相傳，皆為老闆親自掌廚，在大鵬灣屹立二十多年，吸引顧客一再造訪的是食用後的好滋味。對於魚獲鮮度要求嚴格把關，以在地食材、新鮮、平價及精湛的手藝創作出屬於東港在地特色的珍饈美味。",
     "highlights": [
@@ -11822,8 +11453,7 @@
         "票價資訊",
         "官方照片"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010900H_000121",
@@ -11843,10 +11473,8 @@
     "hours": "11：00~24：00",
     "lat": 22.72089,
     "lng": 120.665,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "是三地門最高的餐廳，位於海拔500公尺。原本只是一間非常簡易的鐵皮屋，供朋友泡茶及一些小點心之處，因為老闆喜愛種植鮮豔、美麗的花草，及提供創意料理而廣受好評，許多南部地區的民眾常到此賞景，遂漸轉成假日活動的另一個休閒去處。為了滿足客人的需求，開始慢慢將客人泡茶用餐座位區橫向直的擴展，讓遊客能享受「居高」的寧靜、自然及遠離塵囂的感受。",
     "highlights": [
@@ -11897,8 +11525,7 @@
         "票價資訊",
         "官方照片"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010900H_000095",
@@ -11918,10 +11545,8 @@
     "hours": "10：00~凌晨1：00",
     "lat": 22.72035,
     "lng": 120.6622,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "取名為「風刮地」是因為餐廳位於懸崖之上，風都會從這裡刮起。秋月是著名原住民藝術家撒古流的妻子，所以餐廳粗獷自然的裝潢也有一定的水準，值得好好品味哦！除了一般的咖啡簡餐以外，秋月的店最大的賣點就是風景。對秋月和撒古流來說，「風刮地」是夢想的起點，是達瓦蘭部落 ( 大社 ) 與外界聯繫的平台，部落族人在這裡與外界互動、也在這裡有了伸展的舞台。如果您想感受原住民現…",
     "highlights": [
@@ -11972,8 +11597,7 @@
         "票價資訊",
         "官方照片"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010900H_000090",
@@ -11993,10 +11617,8 @@
     "hours": "每周六、日早上9點半至下午5點",
     "lat": 22.75078,
     "lng": 120.7278,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "藜麥是被稱為穀物之母的營養聖品，更被美國NASA用為太空人食用之食品之一，而臺灣紅藜為臺灣原生種，研究發現，臺灣紅藜有更驚人而完整的營養素與膳食纖維，營養價值更甚藜麥，在料理界有紅寶石美名。而小米為原住民祭典上的聖物，更是飲食文化中的重要代表，更是飲食文化中的重要代表，任何慶典上都看得到各式以小米烹調出來的美食，現在我們原創團隊更以紅藜結合小米所料理出的紅藜…",
     "highlights": [
@@ -12048,8 +11670,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376550000A_001387",
@@ -12070,9 +11691,7 @@
     "lat": 23.99101349974,
     "lng": 121.59603433334,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1387/db8e44f7-6dba-47f6-bd31-f60a09a74b50@710x470.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "花蓮甘丹冰店，販賣各式冰品。黑糖剉冰本身就是黑糖去熬煮的，而不是常見淋上黑糖汁的冰品，香氣十足，口感獨特。冰淇淋不添加鮮奶油，加入大量水果製成，其實是國外所稱之Sorbet；而不論冰品還是冰料都是自己製作，強調天然、健康、無添加，讓你吃得開心又安心。然而甘丹不僅僅是間冰店，同時還是間桌遊店，提供了200多種桌遊可供選擇，是出遊休閒、下班聚會、親子同樂的好地方…",
     "highlights": [
@@ -12124,8 +11743,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376550000A_000830",
@@ -12149,8 +11767,7 @@
     "imageCandidates": [
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/830/69e68f9a-311b-440e-b398-6b828a89e517@710x470.jpeg",
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/830/b1d23333-71c9-44fd-96a9-2c6937333bfd@710x470.jpeg",
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/830/b8baa545-6094-43eb-9a7c-4fa40711edad@710x470.jpeg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/830/b8baa545-6094-43eb-9a7c-4fa40711edad@710x470.jpeg"
     ],
     "accent": "#d88962",
     "description": "依山近海的花蓮，擁有上天賜與最佳的天然美味食材，3番2次原住民風味餐，特地與原住民部落結盟，由原住民的頭目帶領年輕人採集天然可用食材，除了提供您味蕾上前所未有的饗宴外；藉此得以經驗傳承，讓更多人能了解原住民的飲食文化。According to mountain offshore Hualian,has the heaven to grant the best…",
@@ -12203,8 +11820,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376550000A_001012",
@@ -12225,9 +11841,7 @@
     "lat": 23.9053736,
     "lng": 121.5335551,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1012/3b20d51f-0f69-47fb-9d00-2b3a95fa493c@710x470.png",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "八方雲集鍋貼水餃專賣店-花蓮東華店",
     "highlights": [
@@ -12309,8 +11923,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376550000A_007827",
@@ -12334,8 +11947,7 @@
     "imageCandidates": [
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/7827/456383b8-53dd-40cd-808f-38fe7f2d64b1@710x470.jpg",
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/7827/4eb4b457-3c55-4e77-9c20-801b3b8f9a46@710x470.jpg",
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/7827/516e1ee2-3590-4138-9ac1-c70eb151e04f@710x470.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/7827/516e1ee2-3590-4138-9ac1-c70eb151e04f@710x470.jpg"
     ],
     "accent": "#d88962",
     "description": "【花蓮市好吃】一球入魂｜外酥內Q，下課放學小點心，市區小攤的絕讚地瓜球為什麼賣地瓜球，卻叫一球入魂這種聽起來很棒球的名字呢？因為以前喜歡打棒球、花蓮小巨蛋德興體育場每逢比賽必去朝聖，所以那時候Logo也是跟棒球有關。之後某次翻新，Logo商標請朋友重新設計，就成了現在這個可愛牛牛男孩吃美味地瓜球的樣貌。我們使用時下台灣最好吃的地瓜品種──台農57號黃肉地瓜，…",
@@ -12388,8 +12000,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376550000A_001376",
@@ -12413,8 +12024,7 @@
     "imageCandidates": [
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1376/34f4e22e-e470-4f60-82b6-dd02e37c9ee7@710x470.jpg",
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1376/8579badc-c0b5-4daf-b71e-0a3c766dcbe3@710x470.jpg",
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1376/a11b6706-009c-4855-bca2-48a0d86efbc6@710x470.png",
-      "restaurant-fallbacks/dessert.svg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1376/a11b6706-009c-4855-bca2-48a0d86efbc6@710x470.png"
     ],
     "accent": "#d88962",
     "description": "美食餐飲部無論是簡餐、套餐、國旅、喜慶宴會、特色餐點、風味小吃、景觀住宿，都有其獨特風采。景觀住宿花蓮太魯閣保有世界級的天然景觀，及台灣首屈一指的自然美景在這裡，可以放下城市的汲汲營營在這裡，可以擁抱神秘的山、深邃的海和浪漫的星空星─點亮這漫漫黑夜；晟─象徵著光明有了『星』讓這黑夜美的浮誇也因有了『晟』讓我們得以奢侈的享受美景這即是「星晟」的由來，也同時傳承…",
@@ -12466,8 +12076,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376550000A_008411",
@@ -12490,8 +12099,7 @@
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/8411/616f25d6-aa61-4355-9c18-9d94485f15e8@710x470.jpeg",
     "imageCandidates": [
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/8411/7c3c070d-9475-4453-af6c-d9326c4bdd58@710x470.jpeg",
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/8411/d2a83287-bbfa-4951-b83b-cdddda5e0391@710x470.jpeg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/8411/d2a83287-bbfa-4951-b83b-cdddda5e0391@710x470.jpeg"
     ],
     "accent": "#b98b73",
     "description": "茶覺飲品舖是由愛特歐企業社自創的花蓮在地飲品品牌，大部分的茶葉皆來由台灣茶農以及台灣果農提供，並且通過SGS認證的安全食材，環境寬敞還提供內用的下午茶點心，由於鄰近東大夜市成為不少外地遊客，尤其是國外的遊客青睞的在地好店家，茶覺希望能夠讓外國遊客看見花蓮！感受一切美好的相遇！",
@@ -12544,8 +12152,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376550000A_001055",
@@ -12567,8 +12174,7 @@
     "lng": 121.3526729,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1055/74b46702-04ad-4218-896c-b502c5920b02@710x470.jpeg",
     "imageCandidates": [
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1055/c8e5863b-3c1a-4866-9442-44f4155da752@710x470.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1055/c8e5863b-3c1a-4866-9442-44f4155da752@710x470.jpg"
     ],
     "accent": "#d88962",
     "description": "嘉茗茶園位於舞鶴台地上，更以天鶴茶聞名全台，三十多年來嘉茗茶園負責人高肇昫與夫人不斷研發改良新品種，同時擔任天鶴茶產銷班班長配合政府推動無毒農業栽培，意外研發出口感獨特的蜜香紅茶。以大葉烏龍為原料，予以全發酵製作紅茶，茶湯香檳色，茶味散發蜜味，偶有桂花香。種植茶品有：大葉烏龍茶、青心烏龍茶、金萱茶、翠玉茶。",
@@ -12621,8 +12227,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376550000A_001353",
@@ -12643,9 +12248,7 @@
     "lat": 23.97338768448,
     "lng": 121.60394431499,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1353/c03e59c1-ff55-419c-8597-00fb629c95c1@710x470.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "對老花蓮人而言，「廟口紅茶」是最令人熟悉不過的一家店了，隱身於舊社區成功街巷子裡，還保有過去傳統的建築體及裝潢，廟口紅茶最大特色,，是以特殊鋼管設計將紅茶從二樓傳導至一樓，只要水龍頭一開，就可立即享用，也販賣許多古早味餐點，如花生湯、杏仁湯等。",
     "highlights": [
@@ -12697,8 +12300,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376550000A_001269",
@@ -12722,8 +12324,7 @@
     "imageCandidates": [
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1269/4a5dfe2b-3012-41c0-8444-1d782c70f90e@710x470.jpg",
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1269/5a66a61a-f658-4eae-aa9d-b8a63cb0835a@710x470.jpg",
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1269/64dc032f-6c92-4bef-8005-e6fd0fcadc5b@710x470.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1269/64dc032f-6c92-4bef-8005-e6fd0fcadc5b@710x470.jpg"
     ],
     "accent": "#d88962",
     "description": "在地最夯『蔡記豆花』除了豆花外，最有名的莫非是薏仁牛奶和仙草奶凍了，所以菜單上又寫說是『蔡記傳統豆花、薏仁、仙草專賣店』，雖然現在開在花蓮市區的民國路上，不過相信許多以前讀東華的學生也應該不陌生吧！蔡記招牌說到『蔡記豆花』的招牌，那就是仙草奶凍、薏仁牛奶、粉圓豆花和檸檬愛玉粉圓了！商品資訊粉圓豆花把豆花鏟個幾匙，加入糖水和粉圓，就成了這一碗粉圓豆花囉～ 粉圓…",
@@ -12776,8 +12377,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376550000A_001294",
@@ -12801,8 +12401,7 @@
     "imageCandidates": [
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1294/b810af67-4881-4e47-8ef0-e8e4133b970a@710x470.jpg",
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1294/d06dbb24-e3ea-4daa-a9d7-d7b2d72fb408@710x470.jpg",
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1294/ee1bc9fb-db28-4729-90de-59c160bc3fee@710x470.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1294/ee1bc9fb-db28-4729-90de-59c160bc3fee@710x470.jpg"
     ],
     "accent": "#df7bb4",
     "description": "把對兩個女兒的愛，同樣放在產品中，將女兒們的名字各取一字→「百艾」。尋找發音與「百」和Bio是相似又有意義的字首，意指connected with living things or human life，真誠提供真食材與原味的感動，Bio讓想法更能透過文字和熱愛大自然生活的一群同好，分享彼此之間的愛。",
@@ -12855,8 +12454,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376550000A_001265",
@@ -12879,8 +12477,7 @@
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1265/07988f72-6bea-44a8-80d9-bcc6a1099019@710x470.jpg",
     "imageCandidates": [
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1265/184ffb72-4aae-4e37-a9bb-0a26a83fe21c@710x470.jpg",
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1265/ad863016-1cbc-42d5-8902-976c5b30e1b4@710x470.jpg",
-      "restaurant-fallbacks/food-court.svg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1265/ad863016-1cbc-42d5-8902-976c5b30e1b4@710x470.jpg"
     ],
     "accent": "#d88962",
     "description": "花蓮皇辣醬是在地人射箭教練謝宏德先生開發的全新品牌。曾經營過餐廳的他，擁有一身廚藝絕活，蒜蓉辣椒醬香氣足、辣度適中，嚐起來不苦微甘，適合作為沾醬、主食拌料及料理之用，口味很受歡迎，提供宅配服務，深獲主婦們及吃辣老饕好評。",
@@ -12932,8 +12529,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376540000A_001669",
@@ -12953,10 +12549,8 @@
     "hours": "請至官方網站確認",
     "lat": 22.76401,
     "lng": 121.15549,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "本人創立的皮揚工坊（位在臺東市巴布麓部落的博愛教會旁，地址：臺東市馬亨亨大道153之1號），雖仍在草創時期，但本人在傳統工藝教授課程這條路已有五、六年之久。皮揚工坊的成立對於我在製作上有著極大的重要性與啟發性。由於巴布麓部落（寶桑）從未有卑南族族人設立傳統工藝坊來對外呈現卑南族部落的文化及老祖先傳統工藝的智慧與創意，工坊的創立無非是提供族人聚會以及發揮創意的…",
     "highlights": [
@@ -13008,8 +12602,7 @@
         "票價資訊",
         "官方照片"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15011300H_000026",
@@ -13029,10 +12622,8 @@
     "hours": "9:00-21:00",
     "lat": 24.78991,
     "lng": 121.7621,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "宜蘭麻糬的製作先驅李傳仁師傅，嚴選台灣上等糯米及低糖內餡，全程以手工製作，口感細緻且Ｑ嫩有彈性，微甜而不膩皮薄餡料實在，師傅堅持不添加對身體有害的添加物，吃過的人都稱讚好吃，讓許多聞名而來的客戶都前來購買，更是旅客到宜蘭旅遊最佳的新伴手禮。目前李傳仁日式手工麻糬，有芝麻、芋頭、花生、紅豆、抹茶、綠豆、紅麴、榴連、柳橙、海苔肉鬆、楓漿、酒釀桂圓、竹炭烤地瓜、養…",
     "highlights": [
@@ -13084,8 +12675,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15011300H_020123",
@@ -13105,10 +12695,8 @@
     "hours": "09:00-21:00",
     "lat": 24.85879,
     "lng": 121.826,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "阿宗芋冰城創始人黃錫宗，一輩子都是從事於傳統冰品「叭噗」的製作，從沿街叫賣冰棒的小孩，到踩著三輪車叫買叭噗的小伙子，最後自己鑽研叭噗的製作與批發，因而誕生阿宗芋冰城！ 一直以來，阿宗芋冰城秉持著傳統「叭噗」的精神，即「真材實料、原味重現」八個字，用心於食材的採買與製作，保證不含色素、香料、乳化安定劑等化學添加劑，讓每位顧客都能吃到香Q可口的叭噗。",
     "highlights": [
@@ -13160,8 +12748,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376540000A_002306",
@@ -13181,10 +12768,8 @@
     "hours": "請至官方網站確認",
     "lat": 22.92625,
     "lng": 121.1269,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "​連記茶莊一個以茶葉文化為主題，搭配濃厚中國典雅風格的場域，主人對生活中茶道文化的分享更是來到高台茶園不可多得的體驗，對茶葉品質的提昇，茶點品味的研發，始終努力不懈，對茶藝推廣更不遺餘力，歡迎你的光臨與指導。特色產品：自然生態有機茶、紅烏龍茶、蜜香紅茶、宏烏龍手工茶餅、相映紅(紅烏龍茶+咖啡)、高山茶。",
     "highlights": [
@@ -13256,8 +12841,7 @@
         "票價資訊",
         "官方照片"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376550000A_001291",
@@ -13278,9 +12862,7 @@
     "lat": 23.89553400758,
     "lng": 121.57943066484,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1291/6b3059fb-b347-4b29-81db-c6fca1208a55@710x470.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "「055」好寫好記讓人印象深刻，魚貨新鮮、出菜快速是店裡兩大特色，除了蓄養龍蝦、石斑等活跳魚鮮外，特建蓄養池，提供「尚青」白蝦。",
     "highlights": [
@@ -13333,8 +12915,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376550000A_001272",
@@ -13355,9 +12936,7 @@
     "lat": 23.9825717628,
     "lng": 121.60594633786,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1272/967a17e1-3dd0-451b-bc56-df1fcf679ae0@710x470.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "採用頂級青蔥，外酥內Q。傳承傳統古法純手工製作蔥油餅，紮實麵皮、鬆軟有嚼勁，真材實料好味道。除了蔥油餅還有蔥肉餅可供選擇。",
     "highlights": [
@@ -13410,8 +12989,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376550000A_007773",
@@ -13434,8 +13012,7 @@
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/7773/0aab9ca2-ab8f-4d8a-a54b-de3deff3e406@710x470.jpg",
     "imageCandidates": [
       "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/7773/a746f192-592a-4441-9342-b358ab8b7f59@710x470.jpg",
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/7773/aad017de-1d69-4672-a440-3465163da036@710x470.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/7773/aad017de-1d69-4672-a440-3465163da036@710x470.jpg"
     ],
     "accent": "#d88962",
     "description": "巴西國民小吃炸餡餅+甘蔗汁，從地球的另一端原汁原味來到花蓮。 品名肚肚扁即是巴西葡萄牙語tudo bem\"你好\"的諧音，感受巴西式熱情好客又能在肚子餓時品嘗巴西美食之意。",
@@ -13489,8 +13066,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376550000A_001374",
@@ -13512,8 +13088,7 @@
     "lng": 121.6060667508,
     "image": "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1374/63c59583-65fd-42fe-9f0e-8a3be63bf417@710x470.jpg",
     "imageCandidates": [
-      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1374/85f7ac60-2f35-4731-811a-3dce7ced3095@710x470.jpg",
-      "restaurant-fallbacks/dessert.svg"
+      "https://tour-hualien-ws.hl.gov.tw/001/Upload/435/relpic/12302/1374/85f7ac60-2f35-4731-811a-3dce7ced3095@710x470.jpg"
     ],
     "accent": "#d88962",
     "description": "在花蓮市中華路路底跟中山路交接口附近最近出現很多深夜餐車,對於剛下班或想吃宵夜的人來說是超棒的選擇地點！！一間賣阿給的餐車，在花蓮這邊幾乎沒有人在賣阿給耶 ～",
@@ -13567,8 +13142,7 @@
         "親子設施",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15011300H_020105",
@@ -13588,10 +13162,8 @@
     "hours": "11:30–19:00",
     "lat": 24.95244,
     "lng": 121.9138,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "網元魚坊堅持選用當日新鮮食材，所有海鮮都是經由當天漁船所捕獲的，以及挑選當地季節性蔬菜，製作出一道道美味佳餚。(本餐館無菜單提供，所有食材選用當日捕獲活海鮮所搭配，餐點分為個人精緻套餐及闔家合菜，品嚐美食可事先提前登記預約。)",
     "highlights": [
@@ -13643,8 +13215,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15011300H_000022",
@@ -13664,10 +13235,8 @@
     "hours": "09:00-21:00(預約制)",
     "lat": 24.90903,
     "lng": 121.8496,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "來到藏酒酒莊，第一個映入簾的是一個超大的酒瓶，讓人留下深刻的印象。酒莊內以各式水果酒釀造為主，園內還有一個大型的酒窖，遊客除了賞景之外更可以體驗釀酒DIY的樂趣。除此之外，店家還有提供許多套裝行程，讓第一次到此遊玩的旅客，都能盡興而歸。",
     "highlights": [
@@ -13719,8 +13288,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376540000A_002290",
@@ -13740,10 +13308,8 @@
     "hours": "請至官方網站確認",
     "lat": 22.91168,
     "lng": 121.13596,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "鹿野地區位於花東縱谷區內，有高山、丘陵及平原，其中以大面積的梯田最具特色，更有充足的陽光，純淨零汙染的空氣，豐沛乾淨的水資源，依山傍水，風光明媚，因此孕育了多元的農特產品，使鹿野地區的農業成為最具競爭力的產業。",
     "highlights": [
@@ -13815,8 +13381,7 @@
         "票價資訊",
         "官方照片"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376540000A_001433",
@@ -13836,10 +13401,8 @@
     "hours": "請至官方網站確認",
     "lat": 22.71099,
     "lng": 121.06846,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "我有個夢，希望自己能夠自由自在的追求理想，我有個心願，希望自己擁有無止境的智慧和創意，創造出屬於自己的空間，我有個堅持，希望自己能夠在為自己的文化上，扮演傳承的責任和工作，而我呢，是一個傳統的阿美族婦女，更有一顆善良的心，總是會熱心的去幫助別人，曾幾何時，對傳統編織產生一股莫名的興趣，無法抵擋，編織在阿美族傳統生活裡，是一個重要的文化象徵，它是阿美族的美麗的…",
     "highlights": [
@@ -13892,8 +13455,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376540000A_000443",
@@ -13913,10 +13475,8 @@
     "hours": "請至官方網站確認",
     "lat": 22.84698,
     "lng": 121.06727,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "2002年，阿亮老師於臺東初鹿成立了九鳥陶燒工作室，工作室取名為「九鳥」，其實是當地地名新班「鳩」的拆解，「陶燒」則希望效法日本「志野燒」等著名陶藝文化，讓九鳥陶燒一如這些遠具聲名的陶藝創作，淵源流長，代代傳承。除了每年固定持續對於藝術的創作鑽研與精進，抱持著文化傳承與交流的期待，九鳥陶的阿亮與夏子老師並也開始了陶藝的教學之路，透過陶藝教學的工作謍的舉辦，替…",
     "highlights": [
@@ -13969,8 +13529,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376540000A_001778",
@@ -13990,10 +13549,8 @@
     "hours": "請至官方網站確認",
     "lat": 22.75332,
     "lng": 121.1487,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "若您來到風光明媚與無汙染的後山台東，輕鬆漫步在純樸的街道上，若您聞到一陣陣撲鼻的麻油香，不需懷疑，那就是臺東田中油行《三和油品》。本店坐落於純淨無汙染的臺東市，老闆《蕭輔鄉》自30於年前，從西螺的老油廠，擴店至臺東，繼續服務全台各地支持三和油品的愛用消費者。 在老闆堅持《品質第一》的信念下，原料都是精心挑選的上等品，尤其是黑芝麻的原料，全數來自無工業汙染的臺…",
     "highlights": [
@@ -14045,8 +13602,7 @@
         "票價資訊",
         "官方照片"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376540000A_000014",
@@ -14066,10 +13622,8 @@
     "hours": "請至官方網站確認",
     "lat": 22.75328,
     "lng": 121.1564,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "已累積數十年魚肉加工之技術經驗，並且傳承三代的「丸葉旗魚鬆」，是臺東縣內唯一的一家堅持以傳統方式製作的老店，長久以來一直使用精選的上等旗魚肉，產品中絕不添加味精、香料、人工色素、防腐劑等成份，為的是要讓顧客品嚐到『真材實料的傳統味道』。 【懷念的口感、豐富的味道、絕對的品質】是「丸葉旗魚鬆」自開創以來一直堅守的信念，保證讓前來消費的顧客吃出營養、吃出健康、更…",
     "highlights": [
@@ -14122,8 +13676,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376540000A_000400",
@@ -14143,10 +13696,8 @@
     "hours": "請至官方網站確認",
     "lat": 22.80826,
     "lng": 121.0499,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "大巴六九（Tamalakau）是卑南族語勇士的意思，位於台東縣卑南鄉海拔600公尺高處的「大巴六九藥用植物園區」，擁有三甲多的山林地，包括有一甲多的藥用植物區/野菜區種植上百種生機蔬果及藥草，以及擁有絕美視野的「大巴六九景觀餐廳」。佇立在園區內的觀景平台，可將遼闊的美景收進眼底，從腳下展開的花草綠樹到的遠方台東市平原、太平洋海岸，遼闊的視野讓人得以很快的放鬆…",
     "highlights": [
@@ -14198,8 +13749,7 @@
         "票價資訊",
         "官方照片"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376540000A_001837",
@@ -14219,10 +13769,8 @@
     "hours": "請至官方網站確認",
     "lat": 22.65191,
     "lng": 120.9576,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "興辦大馬力全地形車探險活動至今已逾3年。在這不算短的歲月裡，我們累積了非常豐富的經驗，也收集了國內外相當多的探險車資料。在眾多同好的鼓勵與敦促下，2011年大馬力森林探險基地希望能架構出一個屬於同好們的生活俱樂部。俱樂部的會員（個人、團體）可使用不同於一般來訪遊客所使用的車種（或駕駛自購專屬探險車）進行難度更高的越野、溯溪等活動。探險基地會為會員們及其眷屬、…",
     "highlights": [
@@ -14275,8 +13823,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376540000A_000402",
@@ -14296,10 +13843,8 @@
     "hours": "請至官方網站確認",
     "lat": 22.8757,
     "lng": 121.0959,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "1901年日本人從爪哇引進阿拉比卡種Arabica coffee 咖啡在屏東恆春的試驗場試種成果豐碩。1912年推廣到臺東花蓮等地，設有東臺灣咖啡株式會社，臺東振興株式會社及木村咖啡店臺灣事業部等相關公司專職發展臺灣咖啡產業，直到民國70年臺東還有將近30頃的咖啡園純樸的咖啡農，遵守自然生成定律以自然農法栽培清香甘醇的能量咖啡。臺東縣卑南鄉龍過脈卑南族古地名…",
     "highlights": [
@@ -14351,8 +13896,7 @@
         "票價資訊",
         "官方照片"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376540000A_001600",
@@ -14372,10 +13916,8 @@
     "hours": "請至官方網站確認",
     "lat": 22.95697,
     "lng": 121.12744,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "為了推廣臺東農村及社區部落的優質產品，在鹿野鄉永安社區的號召下，由臺東一群熱愛家鄉文化的民眾共同參與，決定於武陵綠色隧道，成立「台東２６２６市集」，不管是要來擺攤位，還是要到這裡找好康逛大街，都可以滿足大家的需求。臺東是臺灣最後一塊淨土，這裡有最純淨的環境，以及最善良的百姓，在這塊土地生產出最好最優質的農特產品，工藝達人們也生產出多樣有巧思的手工藝品，不過往…",
     "highlights": [
@@ -14428,8 +13970,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376540000A_001735",
@@ -14449,10 +13990,8 @@
     "hours": "請至官方網站確認",
     "lat": 22.75332,
     "lng": 121.15151,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "臺東山海關名產店 ３０年老店的山海關，秉持品質第一、服務第一、價格合理的精神，讓您買到最優質的臺東名產 山海關臺東名產店，絶對是一個實體的店面，在臺東已經經營了30年，時間就是產品最好的保證！維持產品的新鮮更是本店一直以來秉持的信念，無論舊雨新知，都期盼您來領略臺東之美時能來店裡逛逛。",
     "highlights": [
@@ -14505,8 +14044,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376540000A_002287",
@@ -14526,10 +14064,8 @@
     "hours": "請至官方網站確認",
     "lat": 22.75739,
     "lng": 121.15138,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "位於台東市區內，嚴選大台東地區知名伴手禮，埤南米、洛神系列、釋迦餅、飛魚餅、剝皮辣椒、杭菊、金針、酒類等，不定時推出最新產品及多項優惠商品，讓您到台東旅遊一站購足，打包台東特色，帶著美好回憶回家！特產：埤南米、飛魚、旗魚、釋迦、杭菊、洛神花、枇杷、苦茶油、地瓜酥",
     "highlights": [
@@ -14582,8 +14118,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376540000A_001833",
@@ -14603,10 +14138,8 @@
     "hours": "請至官方網站確認",
     "lat": 23.04427,
     "lng": 121.1626,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "關山建發租車在地經營已25年，提供您專業的租車服務及旅遊諮詢。無論是【機車或汽車出租、長短期租賃、團體包車、火車站接送、代訂房間】等等， 均能滿足您的需求。如有任何疑問，歡迎來電洽詢我們將竭誠為你服務。電話：089-811417、089-811427地址：台東縣關山鎮和平路1-15號（關山火車站步行至本店約３分鐘，於7-11、關山中油加油站斜對面）",
     "highlights": [
@@ -14659,8 +14192,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376540000A_002670",
@@ -14680,10 +14212,8 @@
     "hours": "請至官方網站確認",
     "lat": 22.75966,
     "lng": 121.15018,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "台東伴手禮名店，知名媒體和在地人推薦之天然、養生、永續的無添加養生點心。養生舒芙蕾蒸蛋糕：《天下雜誌》譽為【東方舒芙蕾】養生松子芝麻酥糖：2016年台灣好物九大伴手禮。自然食尚以「天然、養生、永續」(natural, healthy, sustainable)作為品牌DNA，堅持只使用天然食材，堅持無添加，研發低溫低碳製程，包裝減塑，印刷減量，包裝體積縮小，…",
     "highlights": [
@@ -14736,8 +14266,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376540000A_000437",
@@ -14757,10 +14286,8 @@
     "hours": "請至官方網站確認",
     "lat": 22.85287,
     "lng": 121.11302,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "店內招牌「有機咖啡」獲選為2012臺東縣十大旅遊伴手禮暨特色美食。黃義雄在臺東縣卑南鄉明峰村的這塊土地上從種植李子、芭樂、釋迦，等等，到最後的自然農法種植有機咖啡，已四十多年，在六十四歲時，有一天朋友請喝咖啡，苦澀口感，讓一向喝茶的他，覺得這不是自討苦吃嗎？咖啡苦為何全界有這麼多人愛喝，但也燃起研究的好奇心，所以決定在面積六甲多的果園，致力於咖啡種植也就是「…",
     "highlights": [
@@ -14812,8 +14339,7 @@
         "票價資訊",
         "官方照片"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376540000A_005354",
@@ -14833,10 +14359,8 @@
     "hours": "請至官方網站確認",
     "lat": 22.96825,
     "lng": 121.30435,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "臺東在地好農好物友善推廣平台。在這裡，你可以找到以友善環境方式生產的當季農作、私房手作及特色產品。期待你和我們一起吃在地、用在地，疼惜我們的土地。 「一開始只是單純想幫忙在地農民經濟問題...」 因為工作關係，有機會認識台東泰源都蘭部落的Faki(叔叔)和Fayi(阿姨)們，這些日子跟著他們在田間遊走，整地、插秧、施肥、收成，在春耕、夏耘、秋收和冬藏的節奏裡…",
     "highlights": [
@@ -14889,8 +14413,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376540000A_000047",
@@ -14910,10 +14433,8 @@
     "hours": "請至官方網站確認",
     "lat": 22.75641,
     "lng": 121.15248,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "精選臺農57號地瓜，堅持傳統手工製作，搭配純天然麥芽與砂糖黃金比例，充份保留食材原味，養生美味兼具!LINE ID : 0919611988 加入之後可線上撥打訂購住在市區的飯店或民宿，老闆可以外送到您所指定的地方(訂購十包以上，運送限市區)資訊由官方店家提供，官方店家保有最終決定權",
     "highlights": [
@@ -14966,8 +14487,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376540000A_001832",
@@ -14987,10 +14507,8 @@
     "hours": "請至官方網站確認",
     "lat": 23.10143,
     "lng": 121.37809,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "東海貝殼藝品為成功鎮上唯一販賣貝殼藝品的民宿，樓下為貝殼藝品區，三樓提供民宿，來到成功玩，不一定要買土產，也可以來到這，看看有沒有喜歡的紀念品，帶回這特殊的貝殼藝品回家慢慢欣賞。 本鎮靠山臨海，融合了海岸礁石、奇山峻嶺之自然景觀，而豐富的動植物生態資源，使得成功不僅兼具山光海色之美，更蘊含著知性深度之旅。",
     "highlights": [
@@ -15043,8 +14561,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376540000A_002303",
@@ -15064,10 +14581,8 @@
     "hours": "請至官方網站確認",
     "lat": 22.82133,
     "lng": 121.09087,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "獨特的地理環境位置，造就有機自然生態結合休閒，讓遊客能親自體驗茶園中的農趣，與茶樹一同享受著森林浴。品茗時有著得獎無數的烏龍茶，有機蜜香紅茶，以及臺東特色的紅烏龍茶。交流茶道、述說茶事，享受著好茶時光。特色產品：高山紅烏龍茶、有機蜜香紅茶、高山金萱茶",
     "highlights": [
@@ -15120,8 +14635,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376540000A_002305",
@@ -15141,10 +14655,8 @@
     "hours": "請至官方網站確認",
     "lat": 22.90197,
     "lng": 121.12983,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "於鹿野高台山麓邊平直和緩山坡地，種植氣韻自然芬芳烏龍茶系樹種，園區僅用認證有機、人工除草疏氣栽培，生產有機茶及無毒特色紅烏龍茶。從產銷履歷登錄到茶菁精製品牌包裝，皆可一貫化完成，達到台灣好茶安全衛生、品質穩定可靠的標準。特色產品：台東茗茶、蜜香紅茶、紅烏龍、甘甜梅汁。",
     "highlights": [
@@ -15197,8 +14709,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376540000A_001773",
@@ -15218,10 +14729,8 @@
     "hours": "請至官方網站確認",
     "lat": 22.75313,
     "lng": 121.14723,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "創作者馬秋，屬臺東知本卡地布部落，卑南族的「石生」支系。法拉撒(Varasa)，即是卑南族語「石頭」的意思。由石而生，由石告終，石頭是馬秋在四十歲時，找到得以抒發與展現自己的生命依託，長年的追尋，終於在這一刻找到港灣，同時在這樣的穩定中，讓心停歇，任創意開始奔馳，夢想開始茁壯。欲購買產品，歡迎至Ata東臺灣卡塔文化(臺東市中興路2段191號 臺東糖廠白色大倉…",
     "highlights": [
@@ -15274,8 +14783,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376540000A_001906",
@@ -15295,10 +14803,8 @@
     "hours": "請至官方網站確認",
     "lat": 22.79154,
     "lng": 121.12472,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "直航租車提供「最低的價格」「最貼心的服務」，是臺北、臺中、彰化、南投、臺南、高雄、花蓮、臺東、羅東、墾丁租車的最佳選擇! 以平實的價格、貼心與專業的服務態度提供給各位高品質、高保障的租車服務。 直航租車不僅提供一般顧客的短期租車，也針對公司企業與政府機關提供長期租車的服務，與中華電信、國防部、臺灣銀行及鴻海精密......等企業為長期合作夥伴。",
     "highlights": [
@@ -15351,8 +14857,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376540000A_000444",
@@ -15372,10 +14877,8 @@
     "hours": "請至官方網站確認",
     "lat": 22.61291,
     "lng": 120.82692,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "這個身處雲霧中的山中工作室，有個美麗的名字，「芭伊」，「芭伊」是排灣族對「婦女」的親密稱呼，蘊藏「親愛的」意涵，這是莫拉克風災之後成立的一個製作傳統排灣族陶珠的婦女工坊。 莫拉克風災不但重創嘉蘭的生活 , 也重創嘉蘭的文化。婦女們有感於部落文化受到風災而流失 , 為了提振部落產業, 在嘉蘭社區成立了「嘉蘭芭伊工坊」。於是一群在部落生活的媽媽開始了手工陶珠的創…",
     "highlights": [
@@ -15428,8 +14931,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376540000A_001753",
@@ -15449,10 +14951,8 @@
     "hours": "請至官方網站確認",
     "lat": 22.59467,
     "lng": 120.96066,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "金峰鄉的洛神花品質與成像，真可以說是頂級的！一般市售洛神花都是成像比較小朵，金峰鄉因為天氣與海拔很適合洛神的生長～加上臺東這裡無汙染少用化學藥劑；對於原住民而言，原始天然地農耕方式，才是最符合原民天性愛護大自然的原則唷～～ 洛神花富含的花青素與抗氧化特點，使她成為美容與養生的好食材！夏天常喝洛神花汁，不用擔心喝多會造成體質過寒或過熱！金峰洛神花蜜餞更是吃起來…",
     "highlights": [
@@ -15505,8 +15005,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376540000A_001958",
@@ -15526,10 +15025,8 @@
     "hours": "請至官方網站確認",
     "lat": 22.76825,
     "lng": 121.12738,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "阿水工房x文創東糖191 於2013年，跨界整合臺東在地創作資源與能量，以文創平臺嶄露頭角，為在地藝文創作者發聲，並開發手作體驗課程，增加民眾參與，商品展場及藝文空間複合式經營，更為臺東文創產業注入一股新力量。透過阿水工房x文創東糖191，期能營造臺東藝術家自由創作與交流的空間，落實藝術文化在地實現。阿水(陳正瑞)創作的主軸以原住民精神為出發，表現於木雕、鐵…",
     "highlights": [
@@ -15582,8 +15079,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376540000A_001717",
@@ -15603,10 +15099,8 @@
     "hours": "請至官方網站確認",
     "lat": 22.8011,
     "lng": 121.094,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "阿美釋迦形象館位於卑南鄉中，本著回饋鄉里的理念，因此結合本地農漁特產，搭上觀光列車，讓旅客了解臺東的風土人文，並把臺東的特產帶出去。致力尋求代表性的特產，因此相中鳳梨釋迦，作為主流；花費金錢、人力、物力，取其獨特的風味，克服技術上的問題，研發而成釋迦餅。並設立阿美釋迦形象館。希望將台東的人文風土、美食文化藉由阿美釋迦形象館的設立而傳播出去。",
     "highlights": [
@@ -15659,8 +15153,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376540000A_003532",
@@ -15680,10 +15173,8 @@
     "hours": "請至官方網站確認",
     "lat": 22.75288,
     "lng": 121.15114,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "創意禮品伴手禮，結合在地之特色，創新美食新風味。池上米麻糬，稻米與麻糬擦出美麗火花；手工琪瑪酥，古法製造傳承百年好滋味。各大節日更推出節日禮品禮盒，是送禮之首選。 特色商品：池上米麻糬禮盒、百年好滋味-琪瑪酥、青澤池上米穀酥、鹹蛋黃牛軋餅、醬心蛋捲。",
     "highlights": [
@@ -15736,8 +15227,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376540000A_002313",
@@ -15757,10 +15247,8 @@
     "hours": "請至官方網站確認",
     "lat": 23.04724,
     "lng": 121.16399,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "在臺東關山鎮上耕耘的第三代的小農戶，在自產自銷的概念下，收割近120~130天內飽足的關山米，並採自家烘穀方式來封存這百多天十一道工法加上日照與微風所孕育的自然「風味」，不經過特別的精工法碾製及過多的選米作業，呈現農家不假他人的誠意。特色產品：關山厚皮香蜜、糙米手札包、關山米布丁、佳鄉米、秧秧好米。",
     "highlights": [
@@ -15813,8 +15301,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376540000A_001902",
@@ -15834,10 +15321,8 @@
     "hours": "請至官方網站確認",
     "lat": 23.12246,
     "lng": 121.21971,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "這些年來，秋菊一邊製作手工皂，一邊想著如何連結發展在地特色，花東縱谷蘊藏的豐沛物產，就在她一次次嘗試與調配裡，將各式各樣精華融進色澤樸實的手工皂中。 皂方材料調合不下數十種的天然食油，全部都是可以用來做菜佐料拌醬的高級用油，適切地針對不同肌膚個性來調配用皂配方。它沒有深奧難解的學術原理，卻能溫和傳達自然平衡的生活主張，也是我們說來「簡單」做來「複雜」的心意。…",
     "highlights": [
@@ -15890,8 +15375,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_376540000A_002467",
@@ -15911,10 +15395,8 @@
     "hours": "請至官方網站確認",
     "lat": 22.53273,
     "lng": 120.95613,
-    "image": "restaurant-fallbacks/dessert.svg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "小時候在學校，看著學姐們編織，耳濡目染中，羅英惠女士對著部落工藝 即有著莫大興趣，並暗自立願 未來能從編織手藝中，走出一條屬於自己的路。勤儉的她，撿拾起學姊用剩的殘餘布塊辛苦地練習；小學一畢業，又到成衣工廠精進技藝 歷經15年來的努力，終於創立了英惠原藝工作坊。除了在家鄉做出口碑外，還常常到台北參加展覽 基於傳承與分享的念頭，現在的她，帶領著部落裡頭的婆婆媽…",
     "highlights": [
@@ -15967,8 +15449,7 @@
         "官方照片",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003111",
@@ -15989,9 +15470,7 @@
     "lat": 26.1545215,
     "lng": 119.9552627,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/7db612f059714db889a8958000fdeed7.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "本店位在縣府所在地的南竿鄉介壽村，坐落於7-11便利商店隔壁，前方是山隴廣場，停車方便，公車總站就在對面，交通便利，是遊客採購馬祖特產的最佳選擇。 店面供應各式馬祖特產、馬祖酒品與東引酒品、魚麵、紅糟、紫菜、馬祖酥、芙蓉酥、八八口酥、糯米醋及冷凍黃魚、魚丸、紅糟雞、紅糟肉、紅糟鰻魚、地瓜餃等，貨物齊全，並提供代客郵寄及宅配到府等貼心服務。 本店老闆娘陳愛珍在…",
     "highlights": [
@@ -16041,8 +15520,7 @@
         "官方網站",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002796",
@@ -16063,9 +15541,7 @@
     "lat": 26.15655,
     "lng": 119.95125,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/0d94bbc7c1644f79a5ddd1928acc16ed.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/food-court.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#7e8bd6",
     "description": "位在麗堤民宿一樓的醉仙樓，寬敞又氣派，還設有三間包廂，讓遊客能盡情把酒言歡；餐廳主廚原先是一位旅臺鄉親，返回原鄉南竿定居後，在介壽商場開設一家兼具臺菜與福州菜特色的美食餐廳，深受各界人士喜愛。 餐廳菜色隨著時令海鮮經常更換，近年也開始提供「馬祖風味旅遊套餐」，八菜一湯，以馬祖時令海鮮、貝類、酒糟調配為主要特色，讓遊客能體驗具有異國風味的馬祖美食，留下難忘回憶…",
     "highlights": [
@@ -16115,8 +15591,7 @@
         "官方網站",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003083",
@@ -16137,9 +15612,7 @@
     "lat": 25.96207,
     "lng": 119.98571,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/189ad6e768224c23b96bc58cae25a915.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "一起@驛站 位於莒光遊客中心旁，用餐環境可以一覽海灘、聚落以及東莒燈塔的絶色美景，有著最美咖啡廳的美稱。餐廳提供新鮮手作麵包、點心、PIZZA、咖啡、飲品以及每日限定異國風味套餐，現作餐點，提早預約。另外可以預約團體包場或外燴活動等事宜。 服務項目：咖啡、輕食、套餐、活動企劃、場地租借",
     "highlights": [
@@ -16189,8 +15662,7 @@
         "官方網站",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002800",
@@ -16211,9 +15683,7 @@
     "lat": 26.17091,
     "lng": 119.92611,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/b5f1fc1580c2473d88707b5c129513bf.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "夫人咖啡館是南竿地區下午茶的首選，也是夫人村最佳的觀景休憩之處，設有餐廳和公共休息區，提供免費WiFi，並可欣賞海景。 建築本體是座近80年的老石屋，咖啡館提供特色飲品、馬祖特色小菜、美味簡餐等餐飲，期望透過老屋空間活化，讓老屋能再次展現光芒，不妨來這裡享受徐徐海風和浪濤聲，度過美好午後時光吧！ 服務項目：輕食、午餐、下午茶、咖啡、甜點",
     "highlights": [
@@ -16263,8 +15733,7 @@
         "官方網站",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002845",
@@ -16285,9 +15754,7 @@
     "lat": 26.16029,
     "lng": 119.91906,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/ae90e21f5d9f448aba599761a72c1873.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "位於馬祖村，緊鄰媽祖宗教園區，店面寬闊且產品種類豐富，開業近30年的時間，擁有各種類品項的馬祖特產，也經營自有品牌，店內亦販售馬祖特色酒品，以及馬祖酒廠早期酒類商品，深受饕客喜愛。 合歡特產店以最平實的價格、最親切的態度，以及最豐富的特產知識與經驗來服務消費者，讓每位消費者都可以在這裡找到自己心目中的馬祖紀念商品，將馬祖的旅遊記憶和在地滋味一起打包回家。 服…",
     "highlights": [
@@ -16338,8 +15805,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002842",
@@ -16360,9 +15826,7 @@
     "lat": 26.15743,
     "lng": 119.95252,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/bd885dc9a97f4fe58dbe30e913616e1a.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "「兵兵友禮」會在馬祖，是一個奇妙的緣份，最初老闆娘只是一個「阿兵妹」，來到馬祖眷探後，愛上了馬祖的美、靜與優閒，與家人一番溝通後，決定了它的成立。從退伍到落地生根，直到現在仍依然深愛著這座不大卻很多情的島嶼，用心開發馬祖的紀念品，就是希望每個來到馬祖的遊客或過客，都能在生活中回憶起馬祖的美。專營：馬祖紀念品、特產、馬酒、禮贈品設計開發（含各種帽子、T-恤、排…",
     "highlights": [
@@ -16413,8 +15877,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002819",
@@ -16435,9 +15898,7 @@
     "lat": 25.95743,
     "lng": 119.97709,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/0bfcc2f1cbee440bb3f5f5cb4032addf.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "在東莒想喝冰涼飲品，就要來「找茶冰品店」喝人氣仙草奶凍，滑口仙草配上濃厚奶香，除了是東莒島上有名的冷飲，更紅遍全馬祖；除了仙草奶凍，店內的珍珠類飲品也很受歡迎，老闆堅持珍珠每日現煮，確保新鮮品質。 店內還有不少關於東莒的旅遊資訊與文宣品，歡迎遊客把「找茶」當成遊東莒的第一站，尋覓更多東莒的好玩秘境！",
     "highlights": [
@@ -16488,8 +15949,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003215",
@@ -16510,9 +15970,7 @@
     "lat": 26.16345,
     "lng": 119.95276,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/a278630ed285403c92820ef5a231ec59.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "由古厝改建而成的「依嬤的店」，提供馬祖傳統風味佳餚套餐，是當地人也推薦的老店！「依嬤」是馬祖話「奶奶」的意思，店面外觀是當地傳統建築特有的石砌房屋，店內更是滿滿的古宅特色。「風味套餐」以少量多樣的方式，讓遊客品嚐在地美食，雖份量不多，卻十分有飽足感。",
     "highlights": [
@@ -16563,8 +16021,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002848",
@@ -16585,9 +16042,7 @@
     "lat": 26.15636,
     "lng": 119.95196,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/8093eb3cc4e94d228ed96ed0f0c3ef33.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "兩岸特產藝品中心位於縣政府所在地的南竿鄉介壽村，店面座落在最熱鬧的介壽廣場，曾經榮獲2003年、2007年、2009年馬祖酒廠銷售冠軍，獲頌多面榮譽獎牌，是地區官兵和來訪遊客採購馬祖特產的最佳選擇。 店面供應各式馬祖特產、馬祖酒廠與東引酒廠各式名酒、大黃魚禮盒、特大黃魚、黃魚乾、魚麵、馬祖酥、糯米醋等，貨物齊全，應有盡有。",
     "highlights": [
@@ -16638,8 +16093,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003186",
@@ -16660,9 +16114,7 @@
     "lat": 26.2245753,
     "lng": 119.9982607,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/7bd5b5e511134634aaf1742879be039c.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "金魚水手作坊經營理念是以馬祖在地元素出發，手工製作馬祖在地料理如：馬祖魚餃、馬祖手工魚丸、馬祖魚麵、潤飯米時、苞當米時、黃金地瓜餃、老酒麵線、鼎邊糊、紅糟炒飯、紅糟雞塊、紅糟鰻魚、紫菜酥、馬祖摃麵、扁肉湯、馬祖漢堡、老酒煎蛋、馬祖時疏、淡菜、海瓜子及當令海產等馬祖美食；及結合馬祖閩東語、馬祖諺語、馬祖歌謠、馬祖詩句及鳥蟲體書法藝術字，期盼觀光客藉由馬祖美食深…",
     "highlights": [
@@ -16713,8 +16165,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003201",
@@ -16735,9 +16186,7 @@
     "lat": 26.36753,
     "lng": 120.48849,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/2f3461ea53b74bc4ab3da93092217114.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "在成為荇菜廚房之前，長堤是間保有80年代風情、主打西式簡餐的咖啡屋，隨著小島消費者結構的改變，蔡家日常的私房菜成了顧客們指定的桌上佳餚，秉持著「來東引吃到真正的東引菜」，2017年正式以「荇菜廚房」取代「咖啡屋」。 店內主打蔡家私房菜的無菜單料理，內部裝潢精緻舒適，午餐、晚餐不同氛圍，但美味不變，想品嘗東引家常料理的溫馨，就來「長堤荇菜廚房」。 備註：無菜單…",
     "highlights": [
@@ -16787,8 +16236,7 @@
         "官方網站",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002825",
@@ -16809,9 +16257,7 @@
     "lat": 26.15452,
     "lng": 119.95526,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/2dc162785a6d49e4bc70e3ac51edf0cc.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "位於介壽村獅子市場2樓的「阿妹的店」是馬祖著名的鼎邊糊餐廳，鼎邊糊是福州人的傳統飲食，把米漿糊在高湯鍋邊加熱煮熟，米糊受熱熟透後鏟至高湯中，就成了一碗鮮美的鼎邊糊，是難得的道地特殊料理。 服務項目：鼎邊糊、燕餃 連絡電話：0836-26375",
     "highlights": [
@@ -16861,8 +16307,7 @@
         "官方網站",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003155",
@@ -16883,9 +16328,7 @@
     "lat": 26.1554823,
     "lng": 119.9513411,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/efff956c577143f58df93991836e15ce.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "馬祖小柒 Z.O 咖啡·市場店座落於介壽獅子市場二樓，是旅客與在地居民最喜愛的早晨休憩角落。店內氛圍溫馨，提供香醇現煮咖啡、輕食與甜點，讓人能在市集熱鬧氛圍中享受片刻放鬆。無論是等船前的小憩、逛市場時的中繼站，或是單純想喝杯好咖啡，這裡都是不可錯過的馬祖小店。",
     "highlights": [
@@ -16935,8 +16378,7 @@
         "官方網站",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003112",
@@ -16957,9 +16399,7 @@
     "lat": 26.2244823,
     "lng": 119.9942867,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/00f7c24112204ac0befbad45088af1e3.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "馬祖農漁產品企業社位於北竿橋仔村，由連江縣政府輔導成立於民國91年至今將要邁入第九年，我們寫下了許多記錄，馬祖第一家採用閩東建築風格設計之門市非常特別是旅客團體客必逛的景點，我們的馬祖黃魚知名度第一，凡是吃過的人還會再三回味哦，另外店內提供現炸黃魚及既食產品試吃是別家店所沒有的，也曾有多家電視台八大、三立等來採訪拍攝，今年我們也和長榮立榮航空合作線上購速配，…",
     "highlights": [
@@ -17010,8 +16450,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002846",
@@ -17032,9 +16471,7 @@
     "lat": 26.15794,
     "lng": 119.94441,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/4ef5751bb3c74b8080a06d12fd3644c8.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "40年來仍舊秉持著初衷，以最真誠的手工，呈現極接地氣的味道，舉凡起馬酥（馬祖酥）、芙蓉酥、地瓜糖等手工名產。 用心製作過程繁瑣也堅持遵循古法，自製自產的各式名產，頂好依金那名產因而遠近馳名。標榜在地精神的承傳，客戶們及鄉親間的支持與讚譽，使頂好名產的盛名綿延不斷，素常四鄉五島鄉民前往訂購之餘，台、澎、金、馬公司行號亦大批採購贈送員工、拜訪客戶之禮品。",
     "highlights": [
@@ -17085,8 +16522,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003203",
@@ -17107,9 +16543,7 @@
     "lat": 26.160198,
     "lng": 119.9513711,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/7a3970ba031746018afc7fdf81319520.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "福來舖原為臺北天母的人氣個人麻辣鍋店，由馬祖返鄉青年創立，以傳承家鄉味與創新風味為理念。店內提供多款湯底，包括麻辣、酸白菜、柴魚焙茶等特色口味，也結合馬祖在地海味，加入淡菜、家常麵等限定食材。小鍋現煮、份量充足，是深受在地與遊客喜愛的特色鍋物餐館。",
     "highlights": [
@@ -17160,8 +16594,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_003114",
@@ -17182,9 +16615,7 @@
     "lat": 26.2244823,
     "lng": 119.9942867,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/c06413bbf468421f9f5f6d06833de954.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "主打的古早味糕餅，如馬祖酥、芙蓉酥、蘿蔔絲餅等，都是店內熾手可熱的商品。 老闆自豪的說，島上所供應的糕餅都是出自於他們家產品，是北竿的特產也是最佳伴手禮，更是報章雜誌及媒體爭相報導的店家。 無法到現場購買嗎?沒關係，店家提供代寄服務，只要一通電話即可寄到，既方便又快速。",
     "highlights": [
@@ -17235,8 +16666,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002863",
@@ -17257,9 +16687,7 @@
     "lat": 26.22477,
     "lng": 119.99777,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/b9dee890bdb142e597ed450d19de0c05.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "寶島特產藝品釣具行特產、藝品、刻印、釣具、馬酒銷售、代客托運、野生海芙蓉、批發零售 商店授證，希望提供旅客「開心來、安心買、買個夠」的優質觀光購物環境。 為滿足遊客對地方特產的需求，很多地方性的農會也會把各地的農產精品放在這些經過篩選的商店裏供遊客選購。 特產品項超過4,000種，讓人如入寶山，流連忘返；車亭藝品涵蓋範圍廣泛，國內外產品一應俱全。",
     "highlights": [
@@ -17310,8 +16738,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002797",
@@ -17332,9 +16759,7 @@
     "lat": 26.14777,
     "lng": 119.93791,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/27a4d1b5ec624810911f3f9fca6b9cee.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "想吃到平價好吃的道地海鮮料理，不妨來儷儐飲食店吧！位在南竿清水村的儷儐餐廳食材新鮮、餐點美味、價格公道，因此不只受到觀光客喜愛，也獲得不少在地馬祖人的肯定。 餐飲以道地的馬祖地方傳統菜餚為特色，以新鮮海產及閩東風味料理為主，儷儐飲食店以快炒見長，適合散客（不拘人數）及團體消費。曾受多家旅遊報章雜誌青睞報導，為國民旅遊卡特約店，為避免等候，建議提早訂位。",
     "highlights": [
@@ -17384,8 +16809,7 @@
         "官方網站",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002822",
@@ -17406,9 +16830,7 @@
     "lat": 26.16003,
     "lng": 119.91899,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/4330797f7bcb401ea355d4ce9b954180.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/food-court.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "大眾飲食店為馬港美食街道地的風味小吃之一，1978年營業至今的老店，店內沒有華麗裝潢，就像一般住家，櫃台後的牆面擺設各式紀念酒，非常特別。菜色以馬祖當地食材和特色料理為主，許多遊客慕名而來，常常客滿。",
     "highlights": [
@@ -17459,8 +16881,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000035",
@@ -17481,9 +16902,7 @@
     "lat": 23.5714,
     "lng": 119.5679,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20150306113751639.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "「澎湖餐廳．澎湖668海鮮餐廳」原創於2002年的66西餐廳，擁有6位專業、細心料理的廚師為客人服務，在老闆秉持物美價廉好吃又可口的理念下，每天清晨親自前往第三漁港挑選訂購現撈的生猛海鮮，減少關關中繼商的成本剝奪，以薄利多銷的方式，讓饕客們都可以平價享受到為美味的海鮮料理。「澎湖餐廳．澎湖668海鮮餐廳」原創於2002年的66西餐廳，擁有6位專業、細心料理的…",
     "highlights": [
@@ -17538,8 +16957,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000145",
@@ -17560,9 +16978,7 @@
     "lat": 23.5745922136,
     "lng": 119.5794720521,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20250903172720175815.png",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "如果你也熱愛鬆軟又富有層次感的美食，那你絕不能錯過 天津包料蔥抓餅！這款蔥抓餅不僅擁有千層口感，還有讓人一吃就停不下來的魅力。 【千層鬆軟，口感絕佳】 天津的蔥抓餅，以「鬆到無法立著拍」而聞名，每一口都充滿了餅皮的層次感， 咬下去的時候酥脆與柔軟兼具，完全滿足你的味蕾。而且，他們家的餅不油膩，就算多吃幾張也不會覺得負擔。 【多元口味選擇，滿足每個人】 無論你…",
     "highlights": [
@@ -17618,8 +17034,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000023",
@@ -17640,9 +17055,7 @@
     "lat": 23.6118,
     "lng": 119.5145,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20150305094244913.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "澎湖可口冰城以有刺總統冰聞名,運用各式澎湖名特產天然野生植物如仙人掌,研發富含營養素之冰品,多家媒體報章雜誌報導,總統先生也來嚐鮮,另設澎湖名特產品展售澎湖可口冰城以有刺總統冰聞名,運用各式澎湖名特產天然野生植物如仙人掌,研發富含營養素之冰品,多家媒體報章雜誌報導,總統先生也來嚐鮮,另設澎湖名特產品展售 萬物齊漲，製冰原物料平均漲幅達80%，為感謝遠道來本店…",
     "highlights": [
@@ -17698,8 +17111,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000051",
@@ -17720,9 +17132,7 @@
     "lat": 23.56754,
     "lng": 119.56813,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140917145425016.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "澎湖本地最老字號的PUB，道地的調酒，正點的裝潢，加上親切活潑又開朗的服務人員，還有MUSIC！旅遊後的夜晚，讓心靈再一次釋放於不同的次元。澎湖本地最老字號的PUB，道地的調酒，正點的裝潢，加上親切活潑又開朗的服務人員，還有MUSIC！旅遊後的夜晚，讓心靈再一次釋放於不同的次元。 推薦：絕對掛、麻辣肥腸",
     "highlights": [
@@ -17778,8 +17188,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000029",
@@ -17800,9 +17209,7 @@
     "lat": 23.566274,
     "lng": 119.569085,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140917145312317.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "「印地安燒烤海鮮」由一對澎湖年輕夫婦經營，為改變大眾對澎湖海鮮昂貴的印象，訴求平價，以自行裝潢、買多少賣多少的方式經營外，也不招攬團體遊客。「印地安燒烤海鮮」由一對澎湖年輕夫婦經營，為改變大眾對澎湖海鮮昂貴的印象，訴求平價，以自行裝潢、買多少賣多少的方式經營外，也不招攬團體遊客。",
     "highlights": [
@@ -17858,8 +17265,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000044",
@@ -17880,9 +17286,7 @@
     "lat": 23.57237,
     "lng": 119.56839,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140917144044975.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "本餐廳在澎湖為餐飲界招牌老店之一，並榮獲優良餐飲，做的是澎湖最道地最傳統的風味菜，價錢公道，經濟實惠。本餐廳在澎湖為餐飲界招牌老店之一， 並榮獲優良餐飲,做的是澎湖最道地最傳統的風味菜， 價錢公道,經濟實惠， 菜色符合色、香、味具全,具有健康概念。 提供道地澎湖海鮮，經濟小吃，並有包辦團體會餐,喜慶宴客，到府外燴服務!",
     "highlights": [
@@ -17937,8 +17341,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000021",
@@ -17959,9 +17362,7 @@
     "lat": 23.657406,
     "lng": 119.555274,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20150211084352233.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "澎湖仙人掌冰創始店，易家仙人掌冰，原汁原味，冰涼中的酸甜滋味，帶給您最好的澎湖夏日美味。澎湖仙人掌冰創始店，易家仙人掌冰，原汁原味，冰涼中的酸甜滋味，帶給您最好的澎湖夏日美味。 這是仙人掌冰的發明人喔，他們的冰，真的是道道地地，每一口冰，都可以讓你吃到澎湖豔夏的滋味，還有老闆真實誠懇的心意。",
     "highlights": [
@@ -18017,8 +17418,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000098",
@@ -18039,9 +17439,7 @@
     "lat": 23.52627,
     "lng": 119.56774,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "※ 因店家每週公休時間不固定，建議民眾前往參訪前，先至店家的官方Facebook粉絲專頁確認當週營業狀態，以免現場撲空影響行程唷~ 時咖啡 SHILI CAFE 我們座落在嵵裡沙灘內，隱約的藏身在澎湖特殊的洗石子建築內。 復古的外觀，小清新的裝修，是來嵵裡沙灘不能錯過的小小咖啡店。 來找我們喝一杯 交個朋友吧",
     "highlights": [
@@ -18096,8 +17494,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000033",
@@ -18118,9 +17515,7 @@
     "lat": 23.582481,
     "lng": 119.606264,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140916170844650.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "朝昔廬位於澎湖市區和環島公路交界點，外觀看起來古色古香，以鐵製菜盤組成的創意招牌，引人興趣；內部擺放老式挫冰機、古董海報或是早期的彈珠檯，讓這家特色食堂從外觀到內部陳設，充滿濃郁古早味。朝昔廬的每樣菜色，都結合了當地傳統食材做發揮，加上老闆的創意，打造出獨有的美味料理，如完美組合了糯米綿密口感和大蛤鮮味的大蛤米，將糯米包入大蛤內送上桌，讓人忍不住一個接一個吃…",
     "highlights": [
@@ -18176,8 +17571,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000116",
@@ -18198,9 +17592,7 @@
     "lat": 23.57047,
     "lng": 119.57124,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "瑪咖朵披薩Mercato Pizza 來自熱情的澎湖，提供優質的海鮮披薩，也是全台灣第一間雲朵披薩專賣店。 2019年老闆Liya親赴義大利拿坡里學習新潮流派「雲朵餅皮」，傳承自「傳統拿坡里披薩」的薄餅皮，以義大利麵粉、老麵製作，經兩次發酵、三道工序，餅皮加上滿滿的精選食材，放進義大利進口烤箱烤出豹紋般的特色餅皮，披薩餅皮空氣感十足，鬆軟Q彈超有嚼勁。 我們…",
     "highlights": [
@@ -18256,8 +17648,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000147",
@@ -18278,9 +17669,7 @@
     "lat": 23.5647680618,
     "lng": 119.5865473367,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20250909093209603428.png",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "「潮境」寓意海潮交會，象徵融合與層次，2021年開幕，由一群熱愛料理的年輕人經營，結合創意與澎湖新鮮海味，受型男大主廚拍攝肯定。我們經常到世界各地汲取創作靈感，菜單隨季節更換，2人就能享受的精緻合菜料理。 ★合菜形式出餐，同桌需選同價位 ★每人 $600 / $900 / $1200（2人就可上菜） ★$1200 套餐最晚需前1天預訂，現場恕無法提供 ★不吃…",
     "highlights": [
@@ -18336,8 +17725,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000104",
@@ -18358,9 +17746,7 @@
     "lat": 23.58125,
     "lng": 119.51104,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "我們在座落於西嶼鄉的寧靜小漁村-赤馬村, 老闆有學做花枝丸五年以上的經驗. 因為堅持使用在地食材, 因此創立了. 製作花枝丸, 從剝皮到製作成產品程序複雜, 秉持著要給客人最天然最新鮮最道地的味道. 全程手工處理, 整枝花枝從頭到腳從裡到外都不浪費，每個部分都是美味的食材，絕不添加進口花枝和味精來增加口感。",
     "highlights": [
@@ -18416,8 +17802,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000106",
@@ -18438,9 +17823,7 @@
     "lat": 23.565,
     "lng": 119.47947,
     "image": "https://www.penghu-nsa.gov.tw/images/module/travel2/default_pic.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "外垵必吃美食",
     "highlights": [
@@ -18515,8 +17898,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000107",
@@ -18537,9 +17919,7 @@
     "lat": 23.56491,
     "lng": 119.47944,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20231116220320582072.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "澎湖西嶼「外垵刈包福氣早餐店」30年老店，北環西嶼地方美食! 請認一樓平房才是。",
     "highlights": [
@@ -18614,8 +17994,7 @@
         "票價資訊",
         "詳細介紹"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002833",
@@ -18636,9 +18015,7 @@
     "lat": 26.36695,
     "lng": 120.48845,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/33d3e0c49dbf4f5c8a3f301fc464ff97.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "香記火鍋小吃店是一間開了20多年的老店，老闆是為人親切客氣的香爸，聽說香爸以前也是在東引當兵，在1976年香爸就與這裡有密不可分的關係，香爸常以東引為傲，退伍後在此經營香記火鍋小吃店，店內的食材應有盡有，是適合用餐的好地方！",
     "highlights": [
@@ -18689,8 +18066,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002851",
@@ -18711,9 +18087,7 @@
     "lat": 26.16455,
     "lng": 119.95815,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/f3d92e8d75144976a293e23b0156cd28.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "1956年創設「中興酒廠」，1970年更名為馬祖酒廠，1992年馬祖解除戰地政務後，馬祖酒廠改隸屬連江縣政府，於1999年改制為「馬祖酒廠實業股份有限公司」。位於連江縣南竿鄉復興村，是以釀造馬祖高粱酒、陳年高粱酒、大麴酒等為主的酒廠。",
     "highlights": [
@@ -18764,8 +18138,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002856",
@@ -18786,9 +18159,7 @@
     "lat": 26.22405,
     "lng": 119.99834,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/6b95ba3b1b37482697187fda770878eb.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "協和食品行創立於1976年，負責人王敦發先生有感於發揚馬祖傳統技藝之精神，於北竿塘岐創立協和食品行。近四十年協和食品行始終戰戰兢兢的延續馬祖傳統美食─馬祖酥、芙蓉酥、蘿蔔絲餅、黃金地瓜餃以及婚慶禮餅等傳統美食，深受地方人士喜愛。",
     "highlights": [
@@ -18839,8 +18210,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010500H_002813",
@@ -18861,9 +18231,7 @@
     "lat": 26.22375,
     "lng": 119.99779,
     "image": "https://www.matsu-nsa.gov.tw/api/uploads/others/4b929efee2f7428d8204ba2e2483d305.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "龍和閩東風味館菜色料理多元化，除了馬祖菜還有臺式料理以及燒臘，一次嚐盡多種風味！店內裝潢雖簡單，但空間寬敞，舒適的用餐環境讓遊客用平民價格，就能享受一流環境與美味，透明式廚房設計，就是要讓客人吃得安心。",
     "highlights": [
@@ -18914,8 +18282,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000045",
@@ -18936,9 +18303,7 @@
     "lat": 23.56537,
     "lng": 119.56753,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140917145713111.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#b98b73",
     "description": "澎湖歷史最老的咖啡館, 比台北市頗負盛名的老樹咖啡還早了二十年, 雋永的懷舊氣質,讓您享受香醇咖啡及優美名曲。澎湖歷史最老的咖啡館, 比台北市頗負盛名的老樹咖啡還早了二十年, 雋永的懷舊氣質,讓您享受香醇咖啡及優美名曲。",
     "highlights": [
@@ -18993,8 +18358,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000144",
@@ -19015,9 +18379,7 @@
     "lat": 23.5772646769,
     "lng": 119.5701706809,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20250903171627438860.png",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "\"澎湖在地海鮮料理，堅持澎湖在地食材取之當季用之當令！ 【活體鮮魚湯】 使用當日進港現流活魚！手工去骨切片而成的無骨魚片！可以大口吃魚不需擔心魚刺問題～ 無論大人、小孩都能安心享用澎湖在地活體鮮魚的鮮甜美味！\"",
     "highlights": [
@@ -19073,8 +18435,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000136",
@@ -19095,9 +18456,7 @@
     "lat": 23.57205,
     "lng": 119.57575,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20240418172353971767.jpg",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "劉正港檸檬汁是一家在地經營50的老店，由老東家劉鉗先生於民國67年所創立。 中華店有劉家傳承二代的堅持，始終秉持老父親的經營理念 （遵循古法熬煮糖水、檸檬每日新鮮壓榨、飲品全程冰鎮不加冰塊） 就是要讓客人喝到【新鮮、 健康、天然】！",
     "highlights": [
@@ -19153,8 +18512,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000008",
@@ -19175,9 +18533,7 @@
     "lat": 23.1972420617,
     "lng": 119.4211192547,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140904171606864.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "漁村餐廳提供遊客海鮮合菜的選擇，也可提供人數少的客人簡單炒飯、炒麵料理。推薦菜色：三杯小管、涼拌珠螺、海膽炒蛋漁村餐廳提供遊客海鮮合菜的選擇，也可提供人數少的客人簡單炒飯、炒麵料理。推薦菜色：三杯小管、涼拌珠螺、海膽炒蛋，旺季及假日時段客人較多，人數較多建議先預約，以免久候",
     "highlights": [
@@ -19228,8 +18584,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000052",
@@ -19250,9 +18605,7 @@
     "lat": 23.565829,
     "lng": 119.568688,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20150306144225448.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "明亮舒適的川菜海鮮餐廳，熟客聚餐的最愛。沒有海產擔的擁擠嘈雜，卻有同樣生猛新鮮的澎湖海味。平實的價格，明確的標價，讓您可以安心的享用一餐豐富的澎湖美味。明亮舒適的川菜海鮮餐廳，熟客聚餐的最愛。沒有海產攤的擁擠嘈雜，卻有同樣生猛新鮮的澎湖海味。平實的價格，明確的標價，讓您可以安心的享用一餐豐富的澎湖美味。",
     "highlights": [
@@ -19303,8 +18656,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000040",
@@ -19325,9 +18677,7 @@
     "lat": 23.56341,
     "lng": 119.56493,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140917143353559.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "我家牛排位於馬公港務大樓旁,西餐平價化及多元選擇,樣樣用心料理回饋大眾;精巧佈置,讓您享有高品質服務,溫馨與舒適的體驗全面舒適的用餐環境。我家牛排位於馬公港務大樓旁,西餐平價化及多元選擇,樣樣用心料理回饋大眾;精巧佈置,讓您享有高品質服務,溫馨與舒適的體驗全面舒適的用餐環境。",
     "highlights": [
@@ -19379,8 +18729,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000050",
@@ -19401,9 +18750,7 @@
     "lat": 23.570084,
     "lng": 119.569412,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20171123120042948043303.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "道地澎湖生猛海鮮，如石老魚頭炒酸菜、紅燒象魚干豆腐、珠螺涼拌等等各式海鮮小吃應有盡有，來澎湖絕對不能錯過的海鮮餐廳，歡迎您的光臨。道地澎湖生猛海鮮，如石老魚頭炒酸菜、紅燒象魚干豆腐、珠螺涼拌等等各式海鮮小吃應有盡有，來澎湖絕對不能錯過的海鮮餐廳，歡迎您的光臨。",
     "highlights": [
@@ -19454,8 +18801,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000042",
@@ -19476,9 +18822,7 @@
     "lat": 23.56448,
     "lng": 119.587,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140917115525475.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "花菜干是以澎湖傳統古厝重新打造成特色餐廳，正廳左右各有相對稱的獨立用餐空間，屋外則是咾咕石的庭院圍牆，極為古樸。花菜干是以澎湖傳統古厝重新打造成特色餐廳，正廳左右各有相對稱的獨立用餐空間，屋外則是咾咕石的庭院圍牆，極為古樸。 推薦菜色：小管煎蛋、石鮔排骨湯、酸瓜炒肉、悶魚醬",
     "highlights": [
@@ -19529,8 +18873,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000028",
@@ -19551,9 +18894,7 @@
     "lat": 23.563869,
     "lng": 119.563651,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140917113410868.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "澎湖漁鄉代代相傳的家鄉美食，和海鮮脫不了關係， 不管海鮮饕客，還是美食主義者，來到澎湖，除了享受原味的海鮮大餐之外， 更別忘了嚐嚐具有當地風味的家常菜餚。澎湖漁鄉代代相傳的家鄉美食，和海鮮脫不了關係， 不管海鮮饕客，還是美食主義者，來到澎湖，除了享受原味的海鮮大餐之外， 更別忘了嚐嚐具有當地風味的家常菜餚。 推薦菜色：紅蟳粥、蜜汁雞腿、金瓜炒米粉、生吃海膽",
     "highlights": [
@@ -19604,8 +18945,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000014",
@@ -19626,9 +18966,7 @@
     "lat": 23.5693,
     "lng": 119.57302,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140917113230728.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "在澎湖吃外燴辦桌幾乎就是吃阿東的辦桌菜色，阿東開了餐廳，份量十足，絕對足以應付一桌客人撐漲肚子。在澎湖吃外燴辦桌幾乎就是吃阿東的辦桌菜色，阿東開了餐廳，份量十足，絕對足以應付一桌客人撐漲肚子。 推薦菜色：冷盤、清蒸石斑、龍蝦三明治、絲瓜丸子湯",
     "highlights": [
@@ -19679,8 +19017,7 @@
         "明確開放時間",
         "票價資訊"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000025",
@@ -19701,9 +19038,7 @@
     "lat": 23.65351,
     "lng": 119.5177,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20150629150715851.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#df7bb4",
     "description": "仙人掌果汁做成的果肉果醬，冰涼後再加入碎冰，上頭再有一球仙人掌冰淇淋，就是一杯清流可口的仙人掌冰，紫紅色的視覺媚惑，冰涼中的酸甜滋味，令人久久難忘回味無窮。仙人掌果汁做成的果肉果醬，冰涼後再加入碎冰，上頭再有一球仙人掌冰淇淋，就是一杯清涼可口的仙人掌冰，紫紅色的視覺媚惑，冰涼中的酸甜滋味，令人久久難忘回味無窮。",
     "highlights": [
@@ -19755,8 +19090,7 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   },
   {
     "id": "Restaurant_A15010200H_000010",
@@ -19777,9 +19111,7 @@
     "lat": 23.57063,
     "lng": 119.57746,
     "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20171123145953820987213.JPG",
-    "imageCandidates": [
-      "restaurant-fallbacks/dessert.svg"
-    ],
+    "imageCandidates": [],
     "accent": "#d88962",
     "description": "阿霜料理的海鮮講求原味，沒有華麗的裝飾與添加香料，希望讓每位上門的客人吃到道地的澎湖海鮮料理。推薦菜色：沙拉小管、貝殼湯、酸瓜魚阿霜料理的海鮮講求原味，沒有華麗的裝飾與添加香料，希望讓每位上門的客人吃到道地的澎湖海鮮料理。 推薦菜色：沙拉小管、貝殼湯、酸瓜魚",
     "highlights": [
@@ -19831,7 +19163,6 @@
         "票價資訊",
         "親子設施"
       ]
-    },
-    "restaurantImageKind": "category-fallback"
+    }
   }
 ]

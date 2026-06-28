@@ -29,7 +29,6 @@ jobs:
       - run: npm run sync:osm-restaurants
       - run: npm run import:osm-restaurants
       - run: npm run import:michelin
-      - run: npm run enrich:restaurant-images
       - run: npm run data:quality:check
       - run: npm run build
 
