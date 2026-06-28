@@ -38,14 +38,25 @@ const mascotSrc: Record<MascotVariant, string> = {
   running: 'mascot/q-pang-running.webp',
 }
 
+function assetUrl(path: string) {
+  return `${import.meta.env.BASE_URL}${path}`
+}
+
 export function Mascot({ variant = 'waving', className = '', alt = '', loading = 'lazy' }: MascotProps) {
   return (
     <img
-      src={`${import.meta.env.BASE_URL}${mascotSrc[variant]}`}
+      src={assetUrl(mascotSrc[variant])}
       alt={alt}
       className={`mascot-figure mascot-figure--${variant} ${className}`.trim()}
       loading={loading}
+      decoding="async"
       draggable={false}
+      onError={(event) => {
+        const image = event.currentTarget
+        if (image.dataset.fallbackApplied) return
+        image.dataset.fallbackApplied = 'true'
+        image.src = assetUrl(mascotSrc.appIcon)
+      }}
     />
   )
 }

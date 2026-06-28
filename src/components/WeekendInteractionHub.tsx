@@ -1,7 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import {
   Baby,
-  CalendarDays,
   Car,
   ChevronRight,
   Clock3,
@@ -9,7 +8,6 @@ import {
   MapPin,
   Navigation,
   RotateCcw,
-  ShieldCheck,
   Sparkles,
   Trash2,
   Umbrella,
@@ -20,6 +18,7 @@ import type { Place } from '../data'
 import { bestImageSrc, FALLBACK_IMAGE } from '../imageUtils'
 import { getFamilyEvidence, getQualityScore } from '../placeQuality'
 import { useDiscovery } from '../hooks/useDiscovery'
+import { Mascot } from './Mascot'
 import { SwipeCard } from './SwipeCard'
 import { PlaceImage } from './PlaceCard'
 
@@ -334,6 +333,11 @@ export function WeekendInteractionHub({
         <span><Sparkles size={16} /> 週末行程小幫手</span>
         <h2>先挑想去的地方，再讓 Q胖整理成可出門的半日行程。</h2>
         <p>不用一開始就規劃路線。先把喜歡的景點放進清單，Q胖會依照距離、停留時間與親子友善線索，整理成比較不趕的小旅行安排。</p>
+        <div className="weekend-character-cues" aria-label="角色提醒">
+          <span><Mascot variant="head" loading="eager" /> Q胖排順路</span>
+          <span><Mascot variant="qBao" loading="eager" /> Q寶顧體力</span>
+          <span><Mascot variant="qMom" loading="eager" /> Q媽看設施</span>
+        </div>
       </div>
 
       <div className="weekend-hub-grid">
@@ -451,7 +455,7 @@ export function WeekendInteractionHub({
             </>
           ) : (
             <div className="weekend-candidate-empty">
-              <CalendarDays size={30} />
+              <Mascot variant="qBao" className="weekend-empty-mascot" />
               <strong>還沒有想去清單</strong>
               <p>先挑幾個有興趣的地方，Q胖會幫你整理成比較順路的半日安排。</p>
             </div>
@@ -472,7 +476,10 @@ export function WeekendInteractionHub({
               </div>
 
               <div className="weekend-route-note">
-                <ShieldCheck size={16} />
+                <Mascot
+                  variant={halfDayPlan.routeLabel === '不建議硬排半日' ? 'qMom' : 'head'}
+                  className="weekend-route-mascot"
+                />
                 <div>
                   <strong>{halfDayPlan.routeLabel}</strong>
                   <p>{halfDayPlan.routeNote}</p>

@@ -32,11 +32,11 @@ type Props = {
   onNearby: () => void
 }
 
-const scenarioCopy: Record<ScenarioKey, { label: string; icon: typeof Umbrella; hint: string }> = {
-  rainy: { label: '雨天也安心', icon: Umbrella, hint: '室內、餐飲、停車優先' },
-  energy: { label: '孩子要放電', icon: TreePine, hint: '戶外空間與半日行程' },
-  stroller: { label: '推車友善', icon: Baby, hint: '少樓梯、補給方便' },
-  parents: { label: '爸媽想喘口氣', icon: Coffee, hint: '咖啡、商場、餐廳備案' },
+const scenarioCopy: Record<ScenarioKey, { label: string; icon: typeof Umbrella; hint: string; mascot: 'head' | 'qBao' | 'qMom' }> = {
+  rainy: { label: '雨天也安心', icon: Umbrella, hint: '室內、餐飲、停車優先', mascot: 'qMom' },
+  energy: { label: '孩子要放電', icon: TreePine, hint: '戶外空間與半日行程', mascot: 'qBao' },
+  stroller: { label: '推車友善', icon: Baby, hint: '少樓梯、補給方便', mascot: 'qMom' },
+  parents: { label: '爸媽想喘口氣', icon: Coffee, hint: '咖啡、商場、餐廳備案', mascot: 'head' },
 }
 
 function amenityScore(place: Place) {
@@ -125,7 +125,10 @@ export function TodayInspiration({
           </div>
         </div>
         <div className="phase-hero-card" onClick={() => primaryPlace && onOpenPlace(primaryPlace)}>
-          <Mascot variant="map" className="phase-hero-mascot" />
+          <span className="phase-hero-sticker" aria-hidden="true">
+            <Mascot variant="head" className="phase-hero-sticker-img" loading="eager" />
+            <span>Q胖選</span>
+          </span>
           {primaryPlace ? (
             <>
               <PlaceImage place={primaryPlace} className="phase-hero-photo" eager />
@@ -149,6 +152,9 @@ export function TodayInspiration({
           const Icon = item.icon
           return (
             <button key={key} onClick={() => onScenario(key)}>
+              <span className="phase-scenario-mascot" aria-hidden="true">
+                <Mascot variant={item.mascot} loading="eager" />
+              </span>
               <Icon size={21} />
               <span>{item.label}</span>
               <small>{item.hint}</small>
@@ -170,6 +176,11 @@ export function TodayInspiration({
         <div className="phase-section-head">
           <span><ShieldCheck size={16} /> 親子安心雷達</span>
           <h2>把爸媽真正會擔心的事，放到決策最前面。</h2>
+          <div className="phase-family-cues" aria-label="Q胖家族提醒">
+            <span><Mascot variant="head" loading="eager" /> Q胖看距離</span>
+            <span><Mascot variant="qBao" loading="eager" /> Q寶看孩子</span>
+            <span><Mascot variant="qMom" loading="eager" /> Q媽看安心</span>
+          </div>
         </div>
         <div className="phase-plan-grid">
           {heroPlaces.map((place, index) => {
