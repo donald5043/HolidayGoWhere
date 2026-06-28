@@ -965,7 +965,11 @@ function App() {
     setActiveTab(tab)
     setShowProfile(false)
     window.setTimeout(
-      () => document.querySelector('.explore-section')?.scrollIntoView({ behavior: 'smooth' }),
+      () => {
+        const compactLandscape = window.matchMedia('(orientation: landscape) and (max-height: 520px)').matches
+        document.querySelector(compactLandscape ? '.explore-grid' : '.explore-section')
+          ?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      },
       0,
     )
   }
