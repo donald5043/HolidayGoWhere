@@ -2344,6 +2344,70 @@ p.wizard-reason {
   transform: translateX(-50%) scale(0.98);
 }
 
+.map-interaction-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 9;
+  border: 0;
+  border-radius: calc(var(--radius-lg) - 4px);
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 7px;
+  color: var(--color-text);
+  background:
+    radial-gradient(circle at 50% 38%, rgba(255,252,247,0.92), rgba(255,252,247,0.54) 42%, rgba(36,59,55,0.10)),
+    linear-gradient(180deg, rgba(255,252,247,0.10), rgba(36,59,55,0.18));
+  backdrop-filter: blur(1px);
+  cursor: pointer;
+  text-align: center;
+  transition: background var(--transition-base), transform var(--transition-base);
+}
+
+.map-interaction-overlay span {
+  padding: 10px 16px;
+  border: 1px solid rgba(255,255,255,0.76);
+  border-radius: var(--radius-pill);
+  background: rgba(255,252,247,0.94);
+  box-shadow: var(--shadow-sm);
+  font-size: 14px;
+  font-weight: 780;
+}
+
+.map-interaction-overlay small {
+  max-width: min(280px, calc(100% - 48px));
+  color: var(--color-text-secondary);
+  font-size: 12px;
+  font-weight: 620;
+  line-height: 1.45;
+}
+
+.map-interaction-overlay:active {
+  transform: scale(0.995);
+}
+
+.map-lock-button {
+  position: absolute;
+  z-index: 10;
+  top: 12px;
+  right: 12px;
+  min-height: 38px;
+  padding: 0 16px;
+  border: 1px solid rgba(255,255,255,0.78);
+  border-radius: var(--radius-pill);
+  color: #fff;
+  background: rgba(36,59,55,0.84);
+  box-shadow: 0 12px 26px rgba(36,59,55,0.18);
+  backdrop-filter: blur(14px);
+  font-size: 13px;
+  font-weight: 780;
+  cursor: pointer;
+}
+
+.map-lock-button:active {
+  transform: scale(0.98);
+}
+
 .mobile-sheet-head {
   display: none;
 }

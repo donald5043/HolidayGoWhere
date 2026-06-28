@@ -312,6 +312,8 @@ function App() {
   const [mapFocusKey, setMapFocusKey] = useState(0)
   const [compactResultsLimit, setCompactResultsLimit] = useState(COMPACT_INITIAL_RESULTS)
   const [isCompactResultsView, setIsCompactResultsView] = useState(false)
+  const [isMobilePortraitMap, setIsMobilePortraitMap] = useState(false)
+  const [mobileMapInteractive, setMobileMapInteractive] = useState(false)
   const [osmRestaurants, setOsmRestaurants] = useState<Place[]>([])
   const [osmRestaurantsLoaded, setOsmRestaurantsLoaded] = useState(false)
   const viewportRequestRegion = useRef<RegionName | null>(null)
@@ -335,6 +337,17 @@ function App() {
   useEffect(() => {
     const media = window.matchMedia('(max-width: 899px), (max-height: 520px)')
     const update = () => setIsCompactResultsView(media.matches)
+    update()
+    media.addEventListener('change', update)
+    return () => media.removeEventListener('change', update)
+  }, [])
+
+  useEffect(() => {
+    const media = window.matchMedia('(max-width: 640px) and (orientation: portrait)')
+    const update = () => {
+      setIsMobilePortraitMap(media.matches)
+      if (media.matches) setMobileMapInteractive(false)
+    }
     update()
     media.addEventListener('change', update)
     return () => media.removeEventListener('change', update)
@@ -643,6 +656,7 @@ function App() {
     ? `${viewportPlaces.length} 筆在目前地圖範圍`
     : `${displayedPlaces.length} 筆符合條件`
   const canLoadMoreResults = isCompactResultsView && visiblePlaces.length < viewportPlaces.length
+  const mapInteractive = !isMobilePortraitMap || mobileMapInteractive
 
   const recommended = useMemo(() => {
     if (placesStatus !== 'ready' || !places.length) return []
@@ -1258,7 +1272,33 @@ function App() {
                 userLocation={userLocation}
                 focusKey={mapFocusKey}
                 onViewportChange={handleMapViewportChange}
+                interactive={mapInteractive}
               />
+              {isMobilePortraitMap && !mobileMapInteractive && (
+                <button
+                  className="map-interaction-overlay"
+                  onClick={() => {
+                    setMobileMapInteractive(true)
+                    playUiSound('tap')
+                  }}
+                  type="button"
+                >
+                  <span>點一下啟用地圖</span>
+                  <small>啟用後可拖曳、縮放查看附近景點</small>
+                </button>
+              )}
+              {isMobilePortraitMap && mobileMapInteractive && (
+                <button
+                  className="map-lock-button"
+                  onClick={() => {
+                    setMobileMapInteractive(false)
+                    playUiSound('tap')
+                  }}
+                  type="button"
+                >
+                  完成
+                </button>
+              )}
               <div className="map-legend"><span /><span>點一下圖標查看景點</span></div>
               {mapViewport && (
                 <button

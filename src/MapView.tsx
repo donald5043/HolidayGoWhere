@@ -12,6 +12,7 @@ type Props = {
   userLocation: { lat: number; lng: number } | null
   focusKey: number
   onViewportChange: (viewport: MapViewport) => void
+  interactive?: boolean
 }
 
 export type MapViewport = {
@@ -141,6 +142,35 @@ function KeepMapSized() {
   return null
 }
 
+function MapInteractionController({ interactive }: { interactive: boolean }) {
+  const map = useMap()
+
+  useEffect(() => {
+    const handlers = [
+      map.dragging,
+      map.touchZoom,
+      map.scrollWheelZoom,
+      map.doubleClickZoom,
+      map.boxZoom,
+      map.keyboard,
+    ]
+
+    handlers.forEach((handler) => {
+      if (interactive) {
+        handler.enable()
+      } else {
+        handler.disable()
+      }
+    })
+
+    return () => {
+      handlers.forEach((handler) => handler.enable())
+    }
+  }, [interactive, map])
+
+  return null
+}
+
 export function MapView({
   places,
   selected,
@@ -148,6 +178,7 @@ export function MapView({
   userLocation,
   focusKey,
   onViewportChange,
+  interactive = true,
 }: Props) {
   return (
     <MapContainer
@@ -155,9 +186,14 @@ export function MapView({
       zoom={7}
       minZoom={6}
       maxZoom={18}
-      scrollWheelZoom
+      scrollWheelZoom={interactive}
       className="open-map"
-      zoomControl
+      dragging={interactive}
+      touchZoom={interactive}
+      doubleClickZoom={interactive}
+      boxZoom={interactive}
+      keyboard={interactive}
+      zoomControl={interactive}
       preferCanvas
     >
       <TileLayer
@@ -168,6 +204,7 @@ export function MapView({
         keepBuffer={1}
       />
       <KeepMapSized />
+      <MapInteractionController interactive={interactive} />
       <FitPlaces places={places} userLocation={userLocation} focusKey={focusKey} />
       <TrackMapViewport onChange={onViewportChange} />
       {userLocation && (
