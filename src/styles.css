@@ -2235,6 +2235,324 @@ p.wizard-reason {
   line-height: 1.45;
 }
 
+.weekend-hub {
+  padding: clamp(22px, 4vw, 34px);
+  border: 1px solid rgba(45,74,69,0.10);
+  border-radius: 34px;
+  background:
+    radial-gradient(circle at 8% 0%, rgba(255,220,188,0.48), transparent 32%),
+    radial-gradient(circle at 100% 20%, rgba(190,226,255,0.46), transparent 34%),
+    rgba(255,252,247,0.84);
+  box-shadow: var(--shadow-sm);
+}
+
+.weekend-hub-head {
+  max-width: 720px;
+  margin-bottom: 22px;
+}
+
+.weekend-hub-head span {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--color-primary-dark);
+  font-size: 13px;
+  font-weight: 820;
+  letter-spacing: 0.04em;
+}
+
+.weekend-hub-head h2 {
+  margin: 8px 0 8px;
+  color: var(--color-text);
+  font-size: clamp(28px, 4vw, 44px);
+  line-height: 1.1;
+  letter-spacing: -0.045em;
+}
+
+.weekend-hub-head p {
+  margin: 0;
+  color: var(--color-text-secondary);
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.weekend-hub-grid {
+  display: grid;
+  grid-template-columns: minmax(300px, 0.92fr) minmax(340px, 1.08fr);
+  gap: 18px;
+  align-items: stretch;
+}
+
+.weekend-swipe-panel,
+.weekend-candidates-panel {
+  min-width: 0;
+  padding: 18px;
+  border: 1px solid rgba(45,74,69,0.09);
+  border-radius: 28px;
+  background: rgba(255,252,247,0.86);
+  box-shadow: 0 16px 42px rgba(36,59,55,0.08);
+}
+
+.weekend-panel-head {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.weekend-panel-head strong {
+  display: block;
+  color: var(--color-text);
+  font-size: 17px;
+}
+
+.weekend-panel-head small {
+  display: block;
+  margin-top: 3px;
+  color: var(--color-text-secondary);
+  font-size: 12px;
+}
+
+.weekend-panel-head > button {
+  min-height: 38px;
+  padding: 0 13px;
+  border: 1px solid rgba(45,74,69,0.10);
+  border-radius: var(--radius-pill);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--color-text);
+  background: rgba(255,255,255,0.68);
+  font-size: 13px;
+  font-weight: 760;
+  cursor: pointer;
+}
+
+.weekend-panel-head > button:disabled {
+  opacity: 0.42;
+  cursor: not-allowed;
+}
+
+.weekend-plan-button:not(:disabled) {
+  color: #fff;
+  border-color: transparent;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  box-shadow: 0 12px 28px rgba(184,90,71,0.18);
+}
+
+.weekend-stack {
+  height: 430px;
+}
+
+.weekend-swipe-actions {
+  margin-top: 18px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.weekend-swipe-actions button {
+  min-height: 48px;
+  border: 0;
+  border-radius: var(--radius-pill);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 820;
+  cursor: pointer;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.weekend-swipe-actions button:active {
+  transform: scale(0.98);
+}
+
+.weekend-skip {
+  color: var(--color-text-secondary);
+  background: rgba(45,74,69,0.08);
+}
+
+.weekend-like {
+  color: #fff;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  box-shadow: 0 12px 28px rgba(184,90,71,0.20);
+}
+
+.weekend-empty-card,
+.weekend-candidate-empty {
+  min-height: 260px;
+  border: 1px dashed rgba(45,74,69,0.16);
+  border-radius: 24px;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 10px;
+  color: var(--color-text-secondary);
+  background: rgba(255,255,255,0.45);
+  text-align: center;
+}
+
+.weekend-empty-card strong,
+.weekend-candidate-empty strong {
+  color: var(--color-text);
+}
+
+.weekend-empty-card button {
+  min-height: 38px;
+  padding: 0 14px;
+  border: 0;
+  border-radius: var(--radius-pill);
+  color: #fff;
+  background: var(--color-primary);
+  font-weight: 760;
+  cursor: pointer;
+}
+
+.weekend-candidate-list {
+  display: grid;
+  gap: 10px;
+}
+
+.weekend-candidate-card {
+  padding: 9px;
+  border: 1px solid rgba(45,74,69,0.08);
+  border-radius: 22px;
+  display: grid;
+  grid-template-columns: 78px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 11px;
+  background: rgba(255,255,255,0.62);
+}
+
+.weekend-candidate-photo {
+  width: 78px;
+  height: 74px;
+  border-radius: 17px;
+  object-fit: cover;
+  display: block;
+}
+
+.weekend-candidate-card strong {
+  display: block;
+  overflow: hidden;
+  color: var(--color-text);
+  font-size: 14px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.weekend-candidate-card span,
+.weekend-candidate-card small {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--color-text-secondary);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.weekend-candidate-actions {
+  display: grid;
+  gap: 6px;
+}
+
+.weekend-candidate-actions button {
+  width: 34px;
+  height: 34px;
+  border: 1px solid rgba(45,74,69,0.10);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: var(--color-muted);
+  background: rgba(255,252,247,0.82);
+  cursor: pointer;
+}
+
+.weekend-candidate-actions button.is-favorite {
+  color: var(--color-primary);
+}
+
+.weekend-plan {
+  margin-top: 14px;
+  padding: 14px;
+  border-radius: 24px;
+  background: linear-gradient(135deg, rgba(255,238,225,0.86), rgba(238,248,242,0.86));
+}
+
+.weekend-plan-title {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 7px;
+  color: var(--color-text);
+}
+
+.weekend-plan-title span {
+  color: var(--color-text-secondary);
+  font-size: 12px;
+}
+
+.weekend-plan ol {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 9px;
+  list-style: none;
+}
+
+.weekend-plan li {
+  display: grid;
+  gap: 6px;
+}
+
+.weekend-travel {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--color-text-secondary);
+  font-size: 12px;
+  font-weight: 680;
+}
+
+.weekend-plan li button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgba(45,74,69,0.08);
+  border-radius: 18px;
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr) 18px;
+  align-items: center;
+  gap: 10px;
+  color: var(--color-text);
+  background: rgba(255,252,247,0.76);
+  text-align: left;
+  cursor: pointer;
+}
+
+.weekend-plan time {
+  color: var(--color-primary-dark);
+  font-size: 15px;
+  font-weight: 840;
+}
+
+.weekend-plan li strong {
+  display: block;
+  overflow: hidden;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.weekend-plan li small {
+  display: block;
+  color: var(--color-text-secondary);
+  font-size: 12px;
+}
+
 .phase-section,
 .phase-memory-card {
   padding: clamp(22px, 4vw, 34px);
@@ -4059,6 +4377,56 @@ p.wizard-reason {
     min-width: 172px;
     min-height: 106px;
     scroll-snap-align: start;
+  }
+
+  .weekend-hub {
+    padding: 20px 14px;
+    border-radius: 28px;
+  }
+
+  .weekend-hub-head h2 {
+    font-size: 25px;
+  }
+
+  .weekend-hub-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .weekend-swipe-panel,
+  .weekend-candidates-panel {
+    padding: 14px;
+    border-radius: 24px;
+  }
+
+  .weekend-panel-head {
+    align-items: flex-start;
+  }
+
+  .weekend-plan-button {
+    max-width: 154px;
+    justify-content: center;
+    white-space: normal;
+    text-align: center;
+  }
+
+  .weekend-stack {
+    height: 405px;
+  }
+
+  .weekend-candidate-card {
+    grid-template-columns: 64px minmax(0, 1fr) auto;
+    gap: 9px;
+  }
+
+  .weekend-candidate-photo {
+    width: 64px;
+    height: 64px;
+    border-radius: 15px;
+  }
+
+  .weekend-plan li button {
+    grid-template-columns: 54px minmax(0, 1fr) 16px;
   }
 
   .phase-section,

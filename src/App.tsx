@@ -735,7 +735,7 @@ function App() {
         Number(Boolean(second.familyAmenities)) - Number(Boolean(first.familyAmenities)) ||
         getQualityScore(second) - getQualityScore(first)
       ))
-      .slice(0, 6)
+      .slice(0, 24)
   }, [recommended, places, userLocation])
 
   const nearbyPlaces = useMemo(() => {

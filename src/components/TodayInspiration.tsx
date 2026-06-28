@@ -16,6 +16,7 @@ import {
 import type { Place, WeatherSummary } from '../data'
 import { Mascot } from './Mascot'
 import { PlaceImage } from './PlaceCard'
+import { WeekendInteractionHub } from './WeekendInteractionHub'
 
 type ScenarioKey = 'rainy' | 'energy' | 'stroller' | 'parents'
 
@@ -155,6 +156,15 @@ export function TodayInspiration({
           )
         })}
       </section>
+
+      <WeekendInteractionHub
+        places={places}
+        placesReady={places.length > 0}
+        userLocation={userLocation}
+        favorites={favorites}
+        onFavorite={onFavorite}
+        onOpenPlace={onOpenPlace}
+      />
 
       <section className="phase-section">
         <div className="phase-section-head">
