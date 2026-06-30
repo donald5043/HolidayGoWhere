@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef, useState, type CSSProperties, type ReactNode } from 'react'
+import { startTransition, useCallback, useEffect, useMemo, useRef, useState, type CSSProperties, type ReactNode } from 'react'
 import {
   Accessibility,
   Anchor,
@@ -289,7 +289,8 @@ function computePersonality(interactedIds: string[], places: Place[]): Personali
 // ─────────────────────────────────────────────────────────────────────────────
 
 const MAX_VISIBLE_PLACES = 120
-const MAX_MAP_PLACES = 80
+const MAX_DESKTOP_MAP_PLACES = 90
+const MAX_COMPACT_MAP_PLACES = 44
 const COMPACT_INITIAL_RESULTS = 8
 const COMPACT_RESULTS_STEP = 8
 const MAP_VIEWPORT_SYNC_DELAY = 420
@@ -541,8 +542,10 @@ function App() {
   }
 
   const handleMapViewportChange = useCallback((nextViewport: MapViewport) => {
-    setMapViewport(nextViewport)
-    setCompactResultsLimit(COMPACT_INITIAL_RESULTS)
+    startTransition(() => {
+      setMapViewport(nextViewport)
+      setCompactResultsLimit(COMPACT_INITIAL_RESULTS)
+    })
     if (mapViewportSyncTimer.current !== null) {
       window.clearTimeout(mapViewportSyncTimer.current)
     }
@@ -678,9 +681,9 @@ function App() {
         dist: anchor ? distanceInKm(anchor, place) : 0,
       }))
       .sort((first, second) => first.dist - second.dist)
-      .slice(0, 180)
+      .slice(0, isCompactResultsView ? 96 : 180)
       .map(({ place }) => place)
-  }, [restaurantOnly, osmRestaurants, places, mapViewport, userLocation, region])
+  }, [restaurantOnly, osmRestaurants, places, mapViewport, userLocation, region, isCompactResultsView])
 
   const sourcePlaces = useMemo(
     () => restaurantOnly ? [...places, ...scopedOsmRestaurants] : places,
@@ -711,7 +714,7 @@ function App() {
     const sorted = [...matches]
     const rainyWeather = weather && (weather.precipitationProbability >= 45 || weather.weatherCode >= 51)
     const hotWeather = weather && weather.temperature >= 32
-    const sortLocation = mapViewport?.center || userLocation
+    const sortLocation = userLocation
     const rank = (place: Place) => {
       let score = getQualityScore(place)
       if (weather && !restaurantOnly) {
@@ -733,7 +736,7 @@ function App() {
       rank(second) - rank(first) ||
       (sortLocation ? distanceInKm(sortLocation, first) - distanceInKm(sortLocation, second) : 0)
     )
-  }, [sourcePlaces, query, age, setting, duration, rainyOnly, eventOnly, restaurantOnly, weather, userLocation, mapViewport])
+  }, [sourcePlaces, query, age, setting, duration, rainyOnly, eventOnly, restaurantOnly, weather, userLocation])
   const displayedPlaces = useMemo(
     () => activeTab === 'favorites'
       ? filteredPlaces.filter((place) => favorites.includes(place.id))
@@ -768,9 +771,9 @@ function App() {
   )
   const mapPlaces = useMemo(
     () => {
-      return viewportPlaces.slice(0, MAX_MAP_PLACES)
+      return viewportPlaces.slice(0, isCompactResultsView ? MAX_COMPACT_MAP_PLACES : MAX_DESKTOP_MAP_PLACES)
     },
-    [viewportPlaces],
+    [viewportPlaces, isCompactResultsView],
   )
   const mapAreaLabel = mapViewport
     ? `${viewportPlaces.length} 筆在目前地圖範圍`

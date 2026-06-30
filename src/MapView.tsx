@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef } from 'react'
+import { memo, useEffect, useMemo, useRef } from 'react'
 import L from 'leaflet'
 import { MapContainer, Marker, Popup, TileLayer, Tooltip, useMap, useMapEvents } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
@@ -207,7 +207,7 @@ function familyBadgeText(place: Place) {
   return place.setting
 }
 
-function PlaceMarker({
+const PlaceMarker = memo(function PlaceMarker({
   place,
   selected,
   onSelect,
@@ -219,6 +219,10 @@ function PlaceMarker({
   onOpenPlace: (place: Place) => void
 }) {
   const markerRef = useRef<L.Marker | null>(null)
+  const icon = useMemo(
+    () => createPlaceIcon(place, selected),
+    [place, selected],
+  )
 
   useEffect(() => {
     if (selected) {
@@ -230,7 +234,7 @@ function PlaceMarker({
     <Marker
       ref={markerRef}
       position={[place.lat, place.lng]}
-      icon={createPlaceIcon(place, selected)}
+      icon={icon}
       eventHandlers={{ click: () => onSelect(place) }}
       title={place.name}
       zIndexOffset={selected ? 900 : 0}
@@ -253,7 +257,7 @@ function PlaceMarker({
       </Popup>
     </Marker>
   )
-}
+})
 
 function MapInteractionController({ interactive }: { interactive: boolean }) {
   const map = useMap()
