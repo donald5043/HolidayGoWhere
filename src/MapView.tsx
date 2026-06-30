@@ -9,6 +9,7 @@ type Props = {
   places: Place[]
   selected: Place | null
   onSelect: (place: Place) => void
+  onClearSelection: () => void
   onOpenPlace: (place: Place) => void
   userLocation: { lat: number; lng: number } | null
   focusKey: number
@@ -28,7 +29,7 @@ export type MapViewport = {
 }
 
 const taiwanCenter: [number, number] = [23.6978, 120.9605]
-const qBaoMarkerUrl = `${import.meta.env.BASE_URL}mascot/q-bao.png`
+const qPangMarkerHeadUrl = `${import.meta.env.BASE_URL}brand/q-pang-head-transparent.png`
 
 function markerTone(place: Place) {
   if (place.placeType === '餐飲') return '#789B8D'
@@ -56,7 +57,7 @@ function createPlaceIcon(place: Place, selected: boolean) {
     html: `
       <span class="leaflet-place-pin${selected ? ' is-selected' : ''}" style="--pin-color:${color}">
         <span class="leaflet-place-pin__face">
-          <img src="${qBaoMarkerUrl}" alt="" loading="lazy" />
+          <img src="${qPangMarkerHeadUrl}" alt="" loading="lazy" />
         </span>
         <b>${label}</b>
       </span>
@@ -88,12 +89,18 @@ function FitPlaces({
   const selectedLng = selected?.lng
   const userLat = userLocation?.lat
   const userLng = userLocation?.lng
+  const lastSelectedFocusKey = useRef<number | null>(null)
 
   useEffect(() => {
     if (selectedLat !== undefined && selectedLng !== undefined) {
+      if (lastSelectedFocusKey.current === focusKey) return
+      lastSelectedFocusKey.current = focusKey
       map.flyTo([selectedLat + 0.0008, selectedLng], Math.max(map.getZoom(), 15), { duration: 0.55 })
-      return
     }
+  }, [focusKey, map, selectedLat, selectedLng])
+
+  useEffect(() => {
+    if (selectedLat !== undefined && selectedLng !== undefined) return
     if (userLat !== undefined && userLng !== undefined) {
       map.flyTo([userLat, userLng], 12, { duration: 0.8 })
       return
@@ -113,15 +120,27 @@ function FitPlaces({
   return null
 }
 
-function TrackMapViewport({ onChange }: { onChange: (viewport: MapViewport) => void }) {
+function TrackMapViewport({
+  onChange,
+  onUserMoveStart,
+}: {
+  onChange: (viewport: MapViewport) => void
+  onUserMoveStart: () => void
+}) {
   const userMoving = useRef(false)
+  const clearSelectionForUserMove = () => {
+    if (userMoving.current) return
+    userMoving.current = true
+    map.closePopup()
+    onUserMoveStart()
+  }
   const map = useMapEvents({
     dragstart: () => {
-      userMoving.current = true
+      clearSelectionForUserMove()
     },
     zoomstart: (event) => {
       if ('originalEvent' in event && event.originalEvent) {
-        userMoving.current = true
+        clearSelectionForUserMove()
       }
     },
     moveend: () => {
@@ -262,6 +281,7 @@ export function MapView({
   places,
   selected,
   onSelect,
+  onClearSelection,
   onOpenPlace,
   userLocation,
   focusKey,
@@ -295,7 +315,7 @@ export function MapView({
       <KeepMapSized />
       <MapInteractionController interactive={interactive} />
       <FitPlaces places={places} selected={selected} userLocation={userLocation} focusKey={focusKey} />
-      <TrackMapViewport onChange={onViewportChange} />
+      <TrackMapViewport onChange={onViewportChange} onUserMoveStart={onClearSelection} />
       {userLocation && (
         <CircleMarker
           center={[userLocation.lat, userLocation.lng]}

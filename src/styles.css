@@ -3342,6 +3342,12 @@ p.wizard-reason {
   box-shadow: var(--shadow-sm), 0 0 0 1px var(--color-border);
 }
 
+.map-panel.is-expanded {
+  height: min(78vh, 760px);
+  z-index: 40;
+  box-shadow: var(--shadow-card-hover), 0 0 0 1px var(--color-border);
+}
+
 .map-panel::after {
   content: "";
   position: absolute;
@@ -3407,10 +3413,10 @@ p.wizard-reason {
 }
 
 .leaflet-place-pin__face img {
-  width: 132%;
-  height: 132%;
+  width: 116%;
+  height: 116%;
   object-fit: cover;
-  object-position: center 28%;
+  object-position: center 42%;
 }
 
 .leaflet-place-pin b {
@@ -3453,6 +3459,21 @@ p.wizard-reason {
 .place-map-popup .leaflet-popup-content {
   margin: 0;
   font-family: inherit;
+}
+
+.place-map-popup .leaflet-popup-close-button {
+  top: 8px !important;
+  right: 8px !important;
+  width: 34px !important;
+  height: 34px !important;
+  border-radius: 999px !important;
+  display: grid !important;
+  place-items: center !important;
+  color: var(--color-text) !important;
+  background: rgba(255,252,247,0.94) !important;
+  box-shadow: 0 8px 22px rgba(36,59,55,0.14);
+  font-size: 20px !important;
+  line-height: 1 !important;
 }
 
 .map-popup-card {
@@ -3505,6 +3526,37 @@ p.wizard-reason {
   font-size: 13px;
   font-weight: 820;
   cursor: pointer;
+}
+
+.map-expand-button {
+  position: absolute;
+  z-index: 12;
+  right: 14px;
+  top: 14px;
+  min-height: 40px;
+  padding: 0 13px;
+  border: 1px solid rgba(45,74,69,0.10);
+  border-radius: var(--radius-pill);
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--color-text);
+  background: rgba(255,252,247,0.92);
+  box-shadow: var(--shadow-sm);
+  backdrop-filter: blur(14px);
+  font-size: 12px;
+  font-weight: 820;
+  cursor: pointer;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast), background var(--transition-fast);
+}
+
+.map-expand-button:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.map-expand-button:active {
+  transform: scale(0.98);
 }
 
 .leaflet-tooltip {
@@ -5054,12 +5106,39 @@ p.wizard-reason {
     border-radius: 25px;
   }
 
+  .map-panel.is-expanded {
+    position: fixed;
+    inset: max(12px, env(safe-area-inset-top)) 12px calc(86px + env(safe-area-inset-bottom));
+    height: auto;
+    border-radius: 28px;
+    z-index: 1200;
+    box-shadow:
+      0 0 0 9999px rgba(36,59,55,0.34),
+      0 22px 70px rgba(36,59,55,0.26);
+  }
+
   .map-panel::after {
     border-radius: 20px;
   }
 
+  .map-panel.is-expanded::after {
+    border-radius: 23px;
+  }
+
   .open-map {
     min-height: 300px;
+  }
+
+  .map-panel.is-expanded .open-map {
+    min-height: 100%;
+  }
+
+  .map-expand-button {
+    right: 10px;
+    top: 10px;
+    min-height: 38px;
+    padding: 0 11px;
+    font-size: 11px;
   }
 
   .map-legend {

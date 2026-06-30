@@ -23,6 +23,8 @@ import {
   Layers,
   LocateFixed,
   MapPin,
+  Maximize2,
+  Minimize2,
   Mountain,
   Navigation,
   NotebookPen,
@@ -351,6 +353,7 @@ function App() {
   const { userLocation, setUserLocation, locationStatus, setLocationStatus, locationMessage, setLocationMessage } = useUserLocation()
   const [mapViewport, setMapViewport] = useState<MapViewport | null>(null)
   const [mapFocusKey, setMapFocusKey] = useState(0)
+  const [mapExpanded, setMapExpanded] = useState(false)
   const [compactResultsLimit, setCompactResultsLimit] = useState(COMPACT_INITIAL_RESULTS)
   const [isCompactResultsView, setIsCompactResultsView] = useState(false)
   const [isMobilePortraitMap, setIsMobilePortraitMap] = useState(false)
@@ -1426,17 +1429,31 @@ function App() {
           )}
 
           <div className="explore-grid">
-            <div className="map-panel">
+            <div className={`map-panel${mapExpanded ? ' is-expanded' : ''}`}>
               <MapView
                 places={mapPlaces}
                 selected={mapSelected}
                 onSelect={setMapSelected}
+                onClearSelection={() => setMapSelected(null)}
                 onOpenPlace={openPlace}
                 userLocation={userLocation}
                 focusKey={mapFocusKey}
                 onViewportChange={handleMapViewportChange}
                 interactive={mapInteractive}
               />
+              <button
+                className="map-expand-button"
+                onClick={() => {
+                  setMapExpanded((expanded) => !expanded)
+                  setMobileMapInteractive(true)
+                  playUiSound('tap')
+                }}
+                type="button"
+                aria-label={mapExpanded ? '縮小地圖' : '放大地圖'}
+              >
+                {mapExpanded ? <Minimize2 size={16} /> : <Maximize2 size={16} />}
+                <span>{mapExpanded ? '縮小地圖' : '放大地圖'}</span>
+              </button>
               {isMobilePortraitMap && !mobileMapInteractive && (
                 <button
                   className="map-interaction-overlay"
