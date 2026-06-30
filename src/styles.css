@@ -3424,6 +3424,7 @@ body.map-expanded-lock .bottom-nav {
 }
 
 .leaflet-place-pin__face {
+  position: relative;
   width: 33px;
   height: 33px;
   border-radius: 50%;
@@ -3438,11 +3439,15 @@ body.map-expanded-lock .bottom-nav {
 }
 
 .leaflet-place-pin__face img {
-  width: 140%;
-  height: 140%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 44px;
+  height: 44px;
+  max-width: none;
   object-fit: contain;
   object-position: center 34%;
-  transform: translateY(3px);
+  transform: translate(-50%, -43%);
 }
 
 .leaflet-place-pin b {
