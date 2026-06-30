@@ -1,6 +1,6 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useMemo, useRef } from 'react'
 import L from 'leaflet'
-import { CircleMarker, MapContainer, Marker, TileLayer, Tooltip, useMap, useMapEvents } from 'react-leaflet'
+import { CircleMarker, MapContainer, Marker, Popup, TileLayer, Tooltip, useMap, useMapEvents } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import type { Place } from './data'
 import { classifyRestaurant, CATEGORY_EMOJI } from './services/restaurantClassifier'
@@ -9,6 +9,7 @@ type Props = {
   places: Place[]
   selected: Place | null
   onSelect: (place: Place) => void
+  onOpenPlace: (place: Place) => void
   userLocation: { lat: number; lng: number } | null
   focusKey: number
   onViewportChange: (viewport: MapViewport) => void
@@ -27,57 +28,87 @@ export type MapViewport = {
 }
 
 const taiwanCenter: [number, number] = [23.6978, 120.9605]
+const qBaoMarkerUrl = `${import.meta.env.BASE_URL}mascot/q-bao.png`
 
-function createPlaceIcon(place: Place, selected: boolean) {
-  let emoji: string
+function markerTone(place: Place) {
+  if (place.placeType === '餐飲') return '#789B8D'
+  if (place.weekendEvent) return '#E9A93A'
+  if (place.rainyDay || place.setting === '室內') return '#5B8FF0'
+  return place.accent || '#D9775F'
+}
+
+function markerLabel(place: Place) {
   if (place.placeType === '餐飲') {
     const score = classifyRestaurant(place)
-    emoji = CATEGORY_EMOJI[score.restaurantCategory]
-  } else {
-    emoji =
-      place.category === '自然放電'
-        ? '🌳'
-        : place.category === '美感散步'
-          ? '🎨'
-          : '🚀'
+    return CATEGORY_EMOJI[score.restaurantCategory]
   }
+  if (place.rainyDay || place.setting === '室內') return '☂'
+  if (place.weekendEvent) return '★'
+  return 'Q'
+}
+
+function createPlaceIcon(place: Place, selected: boolean) {
+  const color = markerTone(place)
+  const label = markerLabel(place)
 
   return L.divIcon({
     className: 'leaflet-place-icon-wrap',
-    html: `<span class="leaflet-place-icon${selected ? ' is-selected' : ''}" style="--pin-color:${place.accent}"><b>${emoji}</b></span>`,
-    iconSize: [48, 52],
-    iconAnchor: [24, 46],
-    tooltipAnchor: [0, -42],
+    html: `
+      <span class="leaflet-place-pin${selected ? ' is-selected' : ''}" style="--pin-color:${color}">
+        <span class="leaflet-place-pin__face">
+          <img src="${qBaoMarkerUrl}" alt="" loading="lazy" />
+        </span>
+        <b>${label}</b>
+      </span>
+    `,
+    iconSize: [44, 52],
+    iconAnchor: [22, 48],
+    popupAnchor: [0, -44],
+    tooltipAnchor: [0, -44],
   })
 }
 
 function FitPlaces({
   places,
+  selected,
   userLocation,
   focusKey,
 }: {
   places: Place[]
+  selected: Place | null
   userLocation: { lat: number; lng: number } | null
   focusKey: number
 }) {
   const map = useMap()
+  const placePoints = useMemo(
+    () => places.map((place) => [place.lat, place.lng] as [number, number]),
+    [places],
+  )
+  const selectedLat = selected?.lat
+  const selectedLng = selected?.lng
+  const userLat = userLocation?.lat
+  const userLng = userLocation?.lng
 
   useEffect(() => {
-    if (userLocation) {
-      map.flyTo([userLocation.lat, userLocation.lng], 12, { duration: 0.8 })
+    if (selectedLat !== undefined && selectedLng !== undefined) {
+      map.flyTo([selectedLat + 0.0008, selectedLng], Math.max(map.getZoom(), 15), { duration: 0.55 })
       return
     }
-    if (!places.length) return
-    if (places.length === 1) {
-      map.flyTo([places[0].lat, places[0].lng], 13, { duration: 0.7 })
+    if (userLat !== undefined && userLng !== undefined) {
+      map.flyTo([userLat, userLng], 12, { duration: 0.8 })
+      return
+    }
+    if (!placePoints.length) return
+    if (placePoints.length === 1) {
+      map.flyTo(placePoints[0], 13, { duration: 0.7 })
       return
     }
 
     map.fitBounds(
-      places.map((place) => [place.lat, place.lng] as [number, number]),
+      placePoints,
       { padding: [45, 45], maxZoom: 11 },
     )
-  }, [focusKey, map])
+  }, [focusKey, map, placePoints, selectedLat, selectedLng, userLat, userLng])
 
   return null
 }
@@ -142,6 +173,62 @@ function KeepMapSized() {
   return null
 }
 
+function familyBadgeText(place: Place) {
+  if (place.familyAmenities?.strollerFriendly === 'confirmed') return '推車友善'
+  if (place.familyAmenities?.parking === 'confirmed') return '停車線索'
+  if (place.familyAmenities?.nursingRoom === 'confirmed' || place.familyAmenities?.diaperTable === 'confirmed') return '育兒設施'
+  if (place.rainyDay) return '雨天備案'
+  return place.setting
+}
+
+function PlaceMarker({
+  place,
+  selected,
+  onSelect,
+  onOpenPlace,
+}: {
+  place: Place
+  selected: boolean
+  onSelect: (place: Place) => void
+  onOpenPlace: (place: Place) => void
+}) {
+  const markerRef = useRef<L.Marker | null>(null)
+
+  useEffect(() => {
+    if (selected) {
+      window.setTimeout(() => markerRef.current?.openPopup(), 120)
+    }
+  }, [selected])
+
+  return (
+    <Marker
+      ref={markerRef}
+      position={[place.lat, place.lng]}
+      icon={createPlaceIcon(place, selected)}
+      eventHandlers={{ click: () => onSelect(place) }}
+      title={place.name}
+      zIndexOffset={selected ? 900 : 0}
+    >
+      <Popup className="place-map-popup" maxWidth={260} minWidth={210}>
+        <div className="map-popup-card">
+          <strong>{place.name}</strong>
+          <div className="map-popup-meta">
+            <span>{place.city}</span>
+            <span>{place.category}</span>
+          </div>
+          <div className="map-popup-badges">
+            <span>{familyBadgeText(place)}</span>
+            <span>{place.ageMin}–{place.ageMax} 歲</span>
+          </div>
+          <button type="button" onClick={() => onOpenPlace(place)}>
+            查看詳情
+          </button>
+        </div>
+      </Popup>
+    </Marker>
+  )
+}
+
 function MapInteractionController({ interactive }: { interactive: boolean }) {
   const map = useMap()
 
@@ -175,6 +262,7 @@ export function MapView({
   places,
   selected,
   onSelect,
+  onOpenPlace,
   userLocation,
   focusKey,
   onViewportChange,
@@ -197,15 +285,16 @@ export function MapView({
       preferCanvas
     >
       <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+        url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
+        subdomains="abcd"
         maxZoom={19}
         updateWhenIdle
         keepBuffer={1}
       />
       <KeepMapSized />
       <MapInteractionController interactive={interactive} />
-      <FitPlaces places={places} userLocation={userLocation} focusKey={focusKey} />
+      <FitPlaces places={places} selected={selected} userLocation={userLocation} focusKey={focusKey} />
       <TrackMapViewport onChange={onViewportChange} />
       {userLocation && (
         <CircleMarker
@@ -224,19 +313,13 @@ export function MapView({
         </CircleMarker>
       )}
       {places.map((place) => (
-        <Marker
+        <PlaceMarker
           key={place.id}
-          position={[place.lat, place.lng]}
-          icon={createPlaceIcon(place, selected?.id === place.id)}
-          eventHandlers={{ click: () => onSelect(place) }}
-          title={place.name}
-        >
-          <Tooltip direction="top" offset={[0, -12]} opacity={0.95}>
-            <strong>{place.name}</strong>
-            <br />
-            {place.city}・{place.category}
-          </Tooltip>
-        </Marker>
+          place={place}
+          selected={selected?.id === place.id}
+          onSelect={onSelect}
+          onOpenPlace={onOpenPlace}
+        />
       ))}
     </MapContainer>
   )

@@ -347,6 +347,7 @@ function App() {
   const { weather, weatherStatus, loadWeather } = useWeather()
   const [showFilters, setShowFilters] = useState(false)
   const [selected, setSelected] = useState<Place | null>(null)
+  const [mapSelected, setMapSelected] = useState<Place | null>(null)
   const { userLocation, setUserLocation, locationStatus, setLocationStatus, locationMessage, setLocationMessage } = useUserLocation()
   const [mapViewport, setMapViewport] = useState<MapViewport | null>(null)
   const [mapFocusKey, setMapFocusKey] = useState(0)
@@ -761,8 +762,19 @@ function App() {
   const openPlace = useCallback((place: Place) => {
     playUiSound('open')
     setSelected(place)
+    setMapSelected(place)
     setClickHistory((prev) => [...prev.slice(-99), place.id])
   }, [playUiSound, setClickHistory])
+
+  const focusPlaceOnMap = useCallback((place: Place) => {
+    playUiSound('tap')
+    setMapSelected(place)
+    setMapFocusKey((current) => current + 1)
+    setActiveTab('explore')
+    window.setTimeout(() => {
+      document.querySelector('.map-panel')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }, 0)
+  }, [playUiSound])
 
   const toggleFavorite = (id: string) => {
     playUiSound('favorite')
@@ -1417,10 +1429,9 @@ function App() {
             <div className="map-panel">
               <MapView
                 places={mapPlaces}
-                selected={selected}
-                onSelect={(place) => {
-                  openPlace(place)
-                }}
+                selected={mapSelected}
+                onSelect={setMapSelected}
+                onOpenPlace={openPlace}
                 userLocation={userLocation}
                 focusKey={mapFocusKey}
                 onViewportChange={handleMapViewportChange}
@@ -1495,6 +1506,7 @@ function App() {
                       key={place.id}
                       place={place}
                       onOpen={() => openPlace(place)}
+                      onShowOnMap={() => focusPlaceOnMap(place)}
                       favorite={favorites.includes(place.id)}
                       onFavorite={() => toggleFavorite(place.id)}
                       distance={userLocation ? distanceInKm(userLocation, place) : undefined}

@@ -76,12 +76,14 @@ export function MichelinBadge({ award }: { award: string }) {
 export function PlaceCard({
   place,
   onOpen,
+  onShowOnMap,
   favorite,
   onFavorite,
   distance,
 }: {
   place: Place
   onOpen: () => void
+  onShowOnMap: () => void
   favorite: boolean
   onFavorite: () => void
   distance?: number
@@ -101,6 +103,17 @@ export function PlaceCard({
           aria-label={favorite ? '取消收藏' : '加入收藏'}
         >
           <Heart size={18} fill={favorite ? 'currentColor' : 'none'} />
+        </button>
+        <button
+          className="map-focus-button"
+          onClick={(event) => {
+            event.stopPropagation()
+            onShowOnMap()
+          }}
+          aria-label="在地圖上查看位置"
+          title="在地圖上查看位置"
+        >
+          <LocateFixed size={17} />
         </button>
       </div>
       <div className="place-copy">
