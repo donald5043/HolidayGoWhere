@@ -1922,6 +1922,7 @@ p.wizard-reason {
 }
 
 .weather-loading {
+  display: none;
   margin-top: var(--space-2);
   color: var(--color-muted);
   font-size: 12px;
@@ -3661,6 +3662,7 @@ body.map-expanded-lock .bottom-nav {
 }
 
 .map-legend {
+  display: none !important;
   position: absolute;
   z-index: 6;
   left: 14px;
@@ -3677,6 +3679,38 @@ body.map-expanded-lock .bottom-nav {
   box-shadow: var(--shadow-sm);
   font-size: 10.5px;
   font-weight: 550;
+}
+
+.map-locate-button {
+  position: absolute;
+  z-index: 8;
+  left: 14px;
+  bottom: 16px;
+  min-height: 36px;
+  padding: 0 11px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--color-text-secondary);
+  background: rgba(255,252,247,0.92);
+  backdrop-filter: blur(14px);
+  box-shadow: var(--shadow-sm);
+  font-size: 11px;
+  font-weight: 780;
+  cursor: pointer;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast), background var(--transition-fast);
+}
+
+.map-locate-button:hover {
+  color: var(--color-text);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-1px);
+}
+
+.map-locate-button:active {
+  transform: scale(0.98);
 }
 
 .map-legend span:first-child {
@@ -5218,6 +5252,14 @@ body.map-expanded-lock .bottom-nav {
   .map-expand-button {
     right: 10px;
     top: auto;
+    bottom: 66px;
+    min-height: 34px;
+    padding: 0 11px;
+    font-size: 11px;
+  }
+
+  .map-locate-button {
+    left: 10px;
     bottom: 66px;
     min-height: 34px;
     padding: 0 11px;

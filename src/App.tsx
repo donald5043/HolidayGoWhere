@@ -835,6 +835,18 @@ function App() {
     )
   }
 
+  const focusUserOnMap = useCallback(() => {
+    if (!userLocation) {
+      findNearbyPlaces()
+      return
+    }
+    playUiSound('tap')
+    setMapSelected(null)
+    setMapViewport(null)
+    setMobileMapInteractive(true)
+    setMapFocusKey((current) => current + 1)
+  }, [findNearbyPlaces, playUiSound, userLocation])
+
   const openExplore = (tab: 'explore' | 'favorites') => {
     playUiSound('tap')
     setActiveTab(tab)
@@ -1488,6 +1500,15 @@ function App() {
                 </button>
               )}
               <div className="map-legend"><span /><span>點一下圖標查看景點</span></div>
+              <button
+                className="map-locate-button"
+                type="button"
+                onClick={focusUserOnMap}
+                aria-label={userLocation ? '回到我的位置' : '取得我的位置'}
+              >
+                <LocateFixed size={14} />
+                <span>{userLocation ? '我的位置' : '定位'}</span>
+              </button>
               {mapViewport && (
                 <button
                   className="map-area-button"

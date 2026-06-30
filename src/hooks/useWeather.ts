@@ -35,7 +35,7 @@ export function useWeather() {
 
   const loadWeather = useCallback(
     (lat: number, lng: number, shouldApply: () => boolean = () => true) => {
-      setWeatherStatus('loading')
+      setWeatherStatus((current) => current === 'ready' ? current : 'loading')
       void fetchWeather(lat, lng)
         .then((summary) => {
           if (!shouldApply()) return
