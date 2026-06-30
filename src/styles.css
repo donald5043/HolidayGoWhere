@@ -5432,12 +5432,12 @@ body.map-expanded-lock .bottom-nav {
   .map-panel {
     position: sticky;
     top: 72px;
-    height: min(260px, calc(100svh - 112px));
+    height: min(240px, calc(100svh - 158px));
     border-radius: 22px;
   }
 
   .open-map {
-    min-height: 240px;
+    min-height: 210px;
   }
 
   .results-panel {
@@ -5603,10 +5603,33 @@ body.map-expanded-lock .bottom-nav {
     gap: 18px;
   }
 
-  /* Bottom nav: slightly wider pill on desktop */
+  /* Desktop nav becomes a compact top tab bar so it never covers the map. */
   .bottom-nav {
-    width: min(520px, calc(100% - 48px));
-    height: 68px;
+    top: 72px;
+    bottom: auto;
+    width: min(460px, calc(100% - 48px));
+    height: 58px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    border-radius: 24px;
+    transform: translateX(-50%);
+  }
+
+  .bottom-nav button {
+    min-height: 46px;
+  }
+
+  .nav-indicator {
+    top: 6px;
+    bottom: 6px;
+    left: 6px;
+    width: calc((100% - 12px) / 4);
+    height: auto;
+    transform: translateX(calc(var(--nav-index) * 100%));
+  }
+
+  body.map-expanded-lock .bottom-nav {
+    transform: translate(-50%, -140%);
   }
 }
 
