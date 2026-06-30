@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef } from 'react'
 import L from 'leaflet'
-import { CircleMarker, MapContainer, Marker, Popup, TileLayer, Tooltip, useMap, useMapEvents } from 'react-leaflet'
+import { MapContainer, Marker, Popup, TileLayer, Tooltip, useMap, useMapEvents } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import type { Place } from './data'
 import { classifyRestaurant, CATEGORY_EMOJI } from './services/restaurantClassifier'
@@ -30,6 +30,13 @@ export type MapViewport = {
 
 const taiwanCenter: [number, number] = [23.6978, 120.9605]
 const qPangMarkerHeadUrl = `${import.meta.env.BASE_URL}brand/q-pang-marker-head.png`
+const userLocationIcon = L.divIcon({
+  className: 'user-location-icon-wrap',
+  html: '<span class="user-location-pin"><span /></span>',
+  iconSize: [34, 34],
+  iconAnchor: [17, 17],
+  tooltipAnchor: [0, -18],
+})
 
 function markerTone(place: Place) {
   if (place.placeType === '餐飲') return '#789B8D'
@@ -55,10 +62,8 @@ function createPlaceIcon(place: Place, selected: boolean) {
   return L.divIcon({
     className: 'leaflet-place-icon-wrap',
     html: `
-      <span class="leaflet-place-pin${selected ? ' is-selected' : ''}" style="--pin-color:${color}">
-        <span class="leaflet-place-pin__face">
-          <img src="${qPangMarkerHeadUrl}" alt="" loading="lazy" />
-        </span>
+      <span class="leaflet-place-pin${selected ? ' is-selected' : ''}" style="--pin-color:${color};--marker-face:url(${qPangMarkerHeadUrl})">
+        <span class="leaflet-place-pin__face" aria-hidden="true"></span>
         <b>${label}</b>
       </span>
     `,
@@ -319,20 +324,17 @@ export function MapView({
       <FitPlaces places={places} selected={selected} userLocation={userLocation} focusKey={focusKey} />
       <TrackMapViewport onChange={onViewportChange} onUserMoveStart={onClearSelection} />
       {userLocation && (
-        <CircleMarker
-          center={[userLocation.lat, userLocation.lng]}
-          radius={9}
-          pathOptions={{
-            color: '#ffffff',
-            weight: 4,
-            fillColor: '#3185fc',
-            fillOpacity: 1,
-          }}
+        <Marker
+          position={[userLocation.lat, userLocation.lng]}
+          icon={userLocationIcon}
+          interactive={false}
+          keyboard={false}
+          zIndexOffset={5000}
         >
           <Tooltip direction="top" offset={[0, -8]} opacity={0.95}>
             你的位置
           </Tooltip>
-        </CircleMarker>
+        </Marker>
       )}
       {places.map((place) => (
         <PlaceMarker
