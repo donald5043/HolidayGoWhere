@@ -987,6 +987,12 @@ function App() {
         <a className="brand" href="#" aria-label="假日去哪兒首頁" onClick={(event) => { event.preventDefault(); openHome() }}>
           <BrandLogo />
         </a>
+        <nav className="desktop-nav" aria-label="桌面主要導覽">
+          <button className={activeTab === 'home' && !showProfile ? 'active' : ''} onClick={openHome}><Home size={17} /><span>首頁</span></button>
+          <button className={activeTab === 'explore' && !showProfile ? 'active' : ''} onClick={() => openExplore('explore')}><Compass size={17} /><span>探索</span></button>
+          <button className={activeTab === 'favorites' && !showProfile ? 'active' : ''} onClick={() => openExplore('favorites')}><Heart size={17} /><span>收藏</span></button>
+          <button className={showProfile ? 'active' : ''} onClick={openProfile}><Baby size={17} /><span>我的</span></button>
+        </nav>
         <div className="topbar-actions">
           <button className="icon-button" onClick={toggleSound} aria-label={soundEnabled ? '關閉介面音效' : '開啟介面音效'}>
             {soundEnabled ? <Volume2 size={19} /> : <VolumeX size={19} />}
