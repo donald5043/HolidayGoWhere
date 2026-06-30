@@ -1,8 +1,8 @@
 {
   "sourceUrl": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
-  "sourceUpdatedAt": "2026-06-29T02:31:50+08:00",
-  "generatedFromSourceAt": "2026-06-29T02:31:50+08:00",
-  "sourceCount": 6083,
+  "sourceUpdatedAt": "2026-07-01T02:30:59+08:00",
+  "generatedFromSourceAt": "2026-07-01T02:30:59+08:00",
+  "sourceCount": 6093,
   "restaurantSourceCount": 3690,
   "restaurantPublishedCount": 2664,
   "restaurantRejected": {
@@ -12,29 +12,29 @@
     "relevance": 0,
     "quality": 828
   },
-  "eventSourceCount": 791,
-  "eventPublishedCount": 198,
+  "eventSourceCount": 792,
+  "eventPublishedCount": 194,
   "eventRejected": {
-    "expired": 494,
+    "expired": 503,
     "coordinate": 1,
     "duplicate": 15,
-    "relevance": 83
+    "relevance": 79
   },
-  "candidateCount": 6035,
-  "publishedCount": 6035,
+  "candidateCount": 6036,
+  "publishedCount": 6036,
   "featuredCount": 300,
   "regionCounts": {
-    "北部": 1636,
+    "北部": 1640,
     "中部": 1874,
     "南部": 1282,
-    "東部": 745,
-    "離島": 498
+    "東部": 743,
+    "離島": 497
   },
   "rejected": {
     "inactive": 136,
     "coordinate": 24,
-    "duplicate": 219,
-    "relevance": 2531,
+    "duplicate": 218,
+    "relevance": 2537,
     "quality": 0
   },
   "categoryCounts": {
@@ -43,39 +43,39 @@
     "動物萌友": 157,
     "咖啡下午茶": 266,
     "室內餐廳": 2027,
-    "探索學習": 240,
-    "本週活動": 198,
+    "探索學習": 242,
+    "本週活動": 194,
     "甜點冰品": 290,
     "百貨商場": 34,
     "自然放電": 1221,
-    "藝文美感": 338,
+    "藝文美感": 339,
     "親子樂園": 445,
     "親子餐廳": 67,
-    "農場體驗": 384
+    "農場體驗": 386
   },
   "amenityCoverage": {
-    "accessibility": 378,
+    "accessibility": 379,
     "ramp": 21,
-    "nursingRoom": 357,
-    "diaperTable": 212,
+    "nursingRoom": 356,
+    "diaperTable": 214,
     "familyRestroom": 71,
     "parking": 227,
     "strollerFriendly": 45
   },
   "officialAmenityMatches": {
-    "accessibility": 333,
+    "accessibility": 335,
     "ramp": 0,
-    "nursingRoom": 346,
-    "diaperTable": 212,
+    "nursingRoom": 345,
+    "diaperTable": 214,
     "familyRestroom": 68,
     "parking": 0,
     "strollerFriendly": 0
   },
   "familyOpenData": {
     "nursingCount": 3996,
-    "toiletCount": 45679,
+    "toiletCount": 45611,
     "nursingUpdatedAt": "2026-01-26 15:04:48",
-    "toiletUpdatedAt": "2026-06-28 09:09:24",
+    "toiletUpdatedAt": "2026-06-30 09:09:34",
     "sources": [
       {
         "id": 23750,

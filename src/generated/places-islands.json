@@ -33,10 +33,10 @@
       "出發前請確認設施"
     ],
     "familyAmenities": {
-      "accessibility": "confirmed",
+      "accessibility": "notListed",
       "ramp": "notListed",
       "nursingRoom": "notListed",
-      "diaperTable": "notListed",
+      "diaperTable": "confirmed",
       "familyRestroom": "notListed",
       "parking": "notListed",
       "strollerFriendly": "notListed",
@@ -44,12 +44,12 @@
       "evidence": [
         {
           "amenities": [
-            "accessibility"
+            "diaperTable"
           ],
           "source": "全國公廁建檔資料",
-          "label": "澎湖水族館二樓無障礙廁",
+          "label": "澎湖水族館外女廁",
           "url": "https://data.gov.tw/dataset/30794",
-          "note": "無障礙廁所・距景點約 422 公尺"
+          "note": "女廁所・尿布檯 1 組・距景點約 422 公尺"
         }
       ]
     },
@@ -79,13 +79,13 @@
     "placeType": "景點",
     "familyEvidence": [
       {
-        "type": "accessibility",
+        "type": "diaperTable",
         "status": "nearby",
         "distanceMeters": 422,
         "source": "全國公廁建檔資料",
-        "label": "澎湖水族館二樓無障礙廁",
+        "label": "澎湖水族館外女廁",
         "url": "https://data.gov.tw/dataset/30794",
-        "note": "無障礙廁所・距景點約 422 公尺"
+        "note": "女廁所・尿布檯 1 組・距景點約 422 公尺"
       }
     ],
     "qualityScoreV2": 93,
@@ -1443,7 +1443,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_371020000A_004201",
     "qualityScore": 10,
-    "updatedAt": "2026-06-26T05:49:57+08:00",
+    "updatedAt": "2026-06-30T00:40:26+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-06-30T16:00:00+08:00",
@@ -1961,7 +1961,7 @@
     }
   },
   {
-    "id": "Event_A15010200H_000006",
+    "id": "Event_A15010200H_000005",
     "name": "2026年澎湖國際海上花火節",
     "region": "離島",
     "city": "澎湖縣",
@@ -2020,7 +2020,7 @@
       }
     ],
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
-    "sourceId": "Event_A15010200H_000006",
+    "sourceId": "Event_A15010200H_000005",
     "qualityScore": 10,
     "updatedAt": "2026-03-06T14:32:03+08:00",
     "rainyDay": false,
@@ -2250,7 +2250,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081943",
     "qualityScore": 10,
-    "updatedAt": "2026-06-28T02:00:05+08:00",
+    "updatedAt": "2026-06-30T02:00:03+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-04-01T00:00:00+08:00",
@@ -2562,6 +2562,84 @@
   },
   {
     "id": "Event_A15010200H_000007",
+    "name": "2026金色雙島藝術祭",
+    "region": "離島",
+    "city": "澎湖縣",
+    "district": "馬公市",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "本週活動",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "澎湖縣馬公市永福街30號",
+    "hours": "7/1－7/19",
+    "lat": 23.84772,
+    "lng": 120.90081,
+    "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20260629120505669408.jpg",
+    "imageCandidates": [],
+    "accent": "#ff6b6b",
+    "description": "馬公市公所將於7月1日至7月19日透過國內IP授權第一「白爛貓」系列活動，規劃今年2026金色雙島藝術祭，歡迎市民朋友及白爛貓粉絲參與此次藝術祭，登島至本市虎井嶼及桶盤嶼遊玩拍照打卡。 馬公市公所表示此次藝術祭規劃六項特色亮點：1.凡是搭乘船隻登貓島(虎井嶼)之遊客一律發放藝術祭扇子(金色雙島系列共有8款)2.白爛貓氣偶展示於虎井嶼街道及桶盤嶼港口（共11隻…",
+    "highlights": [
+      "本週末限定",
+      "期間限定",
+      "親子新鮮事"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": []
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2026%E9%87%91%E8%89%B2%E9%9B%99%E5%B3%B6%E8%97%9D%E8%A1%93%E7%A5%AD%20%E6%BE%8E%E6%B9%96%E7%B8%A3%E9%A6%AC%E5%85%AC%E5%B8%82%E6%B0%B8%E7%A6%8F%E8%A1%9730%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "查看官方資訊",
+        "url": "https://www.mkcity.gov.tw/ch/index.jsp"
+      },
+      {
+        "type": "Instagram",
+        "label": "查看 #2026金色雙島藝術祭",
+        "url": "https://www.instagram.com/explore/tags/2026%E9%87%91%E8%89%B2%E9%9B%99%E5%B3%B6%E8%97%9D%E8%A1%93%E7%A5%AD/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=2026%E9%87%91%E8%89%B2%E9%9B%99%E5%B3%B6%E8%97%9D%E8%A1%93%E7%A5%AD%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
+    "sourceId": "Event_A15010200H_000007",
+    "qualityScore": 10,
+    "updatedAt": "2026-06-29T12:04:30+08:00",
+    "rainyDay": false,
+    "placeType": "活動",
+    "eventStart": "2026-07-01T08:00:00+08:00",
+    "eventEnd": "2026-07-19T17:30:00+08:00",
+    "weekendEvent": true,
+    "familyEvidence": [],
+    "qualityScoreV2": 97,
+    "completeness": {
+      "score": 67,
+      "missing": [
+        "票價資訊",
+        "親子設施"
+      ]
+    }
+  },
+  {
+    "id": "Event_A15010200H_000006",
     "name": "2026望安主題特色遊程",
     "region": "離島",
     "city": "澎湖縣",
@@ -2620,7 +2698,7 @@
       }
     ],
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
-    "sourceId": "Event_A15010200H_000007",
+    "sourceId": "Event_A15010200H_000006",
     "qualityScore": 10,
     "updatedAt": "2026-05-14T16:30:29+08:00",
     "rainyDay": false,
@@ -2850,7 +2928,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081944",
     "qualityScore": 10,
-    "updatedAt": "2026-06-28T02:00:05+08:00",
+    "updatedAt": "2026-06-30T02:00:03+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-03-01T00:00:00+08:00",
@@ -3003,7 +3081,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081946",
     "qualityScore": 10,
-    "updatedAt": "2026-06-28T02:00:05+08:00",
+    "updatedAt": "2026-06-30T02:00:03+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-04-01T00:00:00+08:00",
@@ -3156,7 +3234,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081945",
     "qualityScore": 10,
-    "updatedAt": "2026-06-28T02:00:05+08:00",
+    "updatedAt": "2026-06-30T02:00:03+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-04-01T00:00:00+08:00",
@@ -3243,126 +3321,6 @@
         "官方網站",
         "票價資訊",
         "親子設施"
-      ]
-    }
-  },
-  {
-    "id": "Event_A15010200H_000005",
-    "name": "澎湖自行車春季領騎服務",
-    "region": "離島",
-    "city": "澎湖縣",
-    "district": "馬公市",
-    "ageMin": 3,
-    "ageMax": 12,
-    "setting": "室內外",
-    "duration": "半日",
-    "category": "本週活動",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查官網",
-    "address": "澎湖縣馬公市光華里171號",
-    "hours": "3/1－6/30",
-    "lat": 23.55658,
-    "lng": 119.60646,
-    "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20260306115600796563.jpg",
-    "imageCandidates": [],
-    "accent": "#ff6b6b",
-    "description": "為讓來自全台的車友體驗澎湖之美，深入巷弄轉角間所隱藏的常民文化、生活秘境，於春、秋季時節推動全國首創「自行車領騎服務活動」，由專業領騎志工協助自行車領騎、景點解說等服務，讓車友感受菊島不同風情的騎乘享受。春季：115年3月1日至6月30日止秋季：115年9月1日至11月30日止報名方式：5人（含）以上團體，並於活動前7日至報名網站進行申請活動內容：1.領騎及…",
-    "highlights": [
-      "近期活動",
-      "期間限定",
-      "親子新鮮事"
-    ],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "confirmed",
-      "ramp": "notListed",
-      "nursingRoom": "confirmed",
-      "diaperTable": "confirmed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "官方資料尚未提供停車資訊。",
-      "evidence": [
-        {
-          "amenities": [
-            "nursingRoom"
-          ],
-          "source": "依法應設置哺集乳室公共場所名單",
-          "label": "交通部觀光局澎湖國家風景區管理處澎湖遊客中心",
-          "url": "https://data.gov.tw/dataset/23750",
-          "note": "澎湖縣馬公市光華里171號・週一至週日 | 上午8:00~下午5:30旺季(上午6:30~下午9:30)"
-        },
-        {
-          "amenities": [
-            "accessibility",
-            "diaperTable"
-          ],
-          "source": "全國公廁建檔資料",
-          "label": "澎湖遊客服務中心無障礙廁",
-          "url": "https://data.gov.tw/dataset/30794",
-          "note": "無障礙廁所・尿布檯 1 組・距景點約 73 公尺"
-        }
-      ]
-    },
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%BE%8E%E6%B9%96%E8%87%AA%E8%A1%8C%E8%BB%8A%E6%98%A5%E5%AD%A3%E9%A0%98%E9%A8%8E%E6%9C%8D%E5%8B%99%20%E6%BE%8E%E6%B9%96%E7%B8%A3%E9%A6%AC%E5%85%AC%E5%B8%82%E5%85%89%E8%8F%AF%E9%87%8C171%E8%99%9F",
-    "sources": [
-      {
-        "type": "Instagram",
-        "label": "查看 #澎湖自行車春季領騎服務",
-        "url": "https://www.instagram.com/explore/tags/%E6%BE%8E%E6%B9%96%E8%87%AA%E8%A1%8C%E8%BB%8A%E6%98%A5%E5%AD%A3%E9%A0%98%E9%A8%8E%E6%9C%8D%E5%8B%99/"
-      },
-      {
-        "type": "部落格",
-        "label": "搜尋親子遊記",
-        "url": "https://www.google.com/search?q=%E6%BE%8E%E6%B9%96%E8%87%AA%E8%A1%8C%E8%BB%8A%E6%98%A5%E5%AD%A3%E9%A0%98%E9%A8%8E%E6%9C%8D%E5%8B%99%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
-      }
-    ],
-    "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
-    "sourceId": "Event_A15010200H_000005",
-    "qualityScore": 10,
-    "updatedAt": "2026-05-29T14:26:21+08:00",
-    "rainyDay": true,
-    "placeType": "活動",
-    "eventStart": "2026-03-01T08:00:00+08:00",
-    "eventEnd": "2026-06-30T19:00:00+08:00",
-    "weekendEvent": false,
-    "familyEvidence": [
-      {
-        "type": "nursingRoom",
-        "status": "confirmed",
-        "source": "依法應設置哺集乳室公共場所名單",
-        "label": "交通部觀光局澎湖國家風景區管理處澎湖遊客中心",
-        "url": "https://data.gov.tw/dataset/23750",
-        "note": "澎湖縣馬公市光華里171號・週一至週日 | 上午8:00~下午5:30旺季(上午6:30~下午9:30)"
-      },
-      {
-        "type": "accessibility",
-        "status": "nearby",
-        "distanceMeters": 73,
-        "source": "全國公廁建檔資料",
-        "label": "澎湖遊客服務中心無障礙廁",
-        "url": "https://data.gov.tw/dataset/30794",
-        "note": "無障礙廁所・尿布檯 1 組・距景點約 73 公尺"
-      },
-      {
-        "type": "diaperTable",
-        "status": "nearby",
-        "distanceMeters": 73,
-        "source": "全國公廁建檔資料",
-        "label": "澎湖遊客服務中心無障礙廁",
-        "url": "https://data.gov.tw/dataset/30794",
-        "note": "無障礙廁所・尿布檯 1 組・距景點約 73 公尺"
-      }
-    ],
-    "qualityScoreV2": 100,
-    "completeness": {
-      "score": 67,
-      "missing": [
-        "官方網站",
-        "票價資訊"
       ]
     }
   },
@@ -4170,7 +4128,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081894",
     "qualityScore": 10,
-    "updatedAt": "2026-06-28T02:00:05+08:00",
+    "updatedAt": "2026-06-30T02:00:03+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-09-20T00:00:00+08:00",
@@ -4254,81 +4212,6 @@
         "官方網站",
         "票價資訊",
         "親子設施"
-      ]
-    }
-  },
-  {
-    "id": "Event_371020000A_004375",
-    "name": "薪火相傳·文學花園—陳慶元師生文學作品聯展",
-    "region": "離島",
-    "city": "金門縣",
-    "district": "金沙鎮",
-    "ageMin": 3,
-    "ageMax": 12,
-    "setting": "室外",
-    "duration": "半日",
-    "category": "本週活動",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查官網",
-    "address": "金門縣金沙鎮",
-    "hours": "4/1－6/30",
-    "lat": 24.43586,
-    "lng": 118.31705,
-    "image": "https://kinmen.travel/image/46295/640x480",
-    "imageCandidates": [],
-    "accent": "#ff6b6b",
-    "description": "「薪火相傳·文學花園—陳慶元師生文學作品聯展」",
-    "highlights": [
-      "近期活動",
-      "期間限定",
-      "親子新鮮事"
-    ],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "官方資料尚未提供停車資訊。",
-      "evidence": []
-    },
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%96%AA%E7%81%AB%E7%9B%B8%E5%82%B3%C2%B7%E6%96%87%E5%AD%B8%E8%8A%B1%E5%9C%92%E2%80%94%E9%99%B3%E6%85%B6%E5%85%83%E5%B8%AB%E7%94%9F%E6%96%87%E5%AD%B8%E4%BD%9C%E5%93%81%E8%81%AF%E5%B1%95%20%E9%87%91%E9%96%80%E7%B8%A3%E9%87%91%E6%B2%99%E9%8E%AE",
-    "sources": [
-      {
-        "type": "Instagram",
-        "label": "查看 #薪火相傳文學花園陳慶元師生文學作品聯展",
-        "url": "https://www.instagram.com/explore/tags/%E8%96%AA%E7%81%AB%E7%9B%B8%E5%82%B3%E6%96%87%E5%AD%B8%E8%8A%B1%E5%9C%92%E9%99%B3%E6%85%B6%E5%85%83%E5%B8%AB%E7%94%9F%E6%96%87%E5%AD%B8%E4%BD%9C%E5%93%81%E8%81%AF%E5%B1%95/"
-      },
-      {
-        "type": "部落格",
-        "label": "搜尋親子遊記",
-        "url": "https://www.google.com/search?q=%E8%96%AA%E7%81%AB%E7%9B%B8%E5%82%B3%C2%B7%E6%96%87%E5%AD%B8%E8%8A%B1%E5%9C%92%E2%80%94%E9%99%B3%E6%85%B6%E5%85%83%E5%B8%AB%E7%94%9F%E6%96%87%E5%AD%B8%E4%BD%9C%E5%93%81%E8%81%AF%E5%B1%95%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
-      }
-    ],
-    "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
-    "sourceId": "Event_371020000A_004375",
-    "qualityScore": 10,
-    "updatedAt": "2026-03-26T00:59:56+08:00",
-    "rainyDay": false,
-    "placeType": "活動",
-    "eventStart": "2026-04-01T01:00:00+08:00",
-    "eventEnd": "2026-06-30T09:00:00+08:00",
-    "weekendEvent": false,
-    "familyEvidence": [],
-    "qualityScoreV2": 75,
-    "completeness": {
-      "score": 33,
-      "missing": [
-        "官方網站",
-        "票價資訊",
-        "親子設施",
-        "詳細介紹"
       ]
     }
   },
@@ -4469,7 +4352,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081690",
     "qualityScore": 10,
-    "updatedAt": "2026-06-28T02:00:05+08:00",
+    "updatedAt": "2026-06-30T02:00:03+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-09-01T00:00:00+08:00",
@@ -4923,7 +4806,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081888",
     "qualityScore": 10,
-    "updatedAt": "2026-06-28T02:00:05+08:00",
+    "updatedAt": "2026-06-30T02:00:03+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-08-21T00:00:00+08:00",
@@ -5125,7 +5008,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081873",
     "qualityScore": 10,
-    "updatedAt": "2026-06-28T02:00:05+08:00",
+    "updatedAt": "2026-06-30T02:00:03+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-10-17T00:00:00+08:00",
@@ -37933,7 +37816,7 @@
     "dataSource": "osm",
     "sourceId": "node/12896536301",
     "qualityScore": 4,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -37982,7 +37865,7 @@
     "dataSource": "osm",
     "sourceId": "node/7091524767",
     "qualityScore": 4,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -38021,7 +37904,7 @@
     "dataSource": "osm",
     "sourceId": "node/7091524766",
     "qualityScore": 3,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -38070,7 +37953,7 @@
     "dataSource": "osm",
     "sourceId": "node/4532154189",
     "qualityScore": 5,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -38119,7 +38002,7 @@
     "dataSource": "osm",
     "sourceId": "node/5412039685",
     "qualityScore": 5,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -38168,7 +38051,7 @@
     "dataSource": "osm",
     "sourceId": "node/5415716180",
     "qualityScore": 5,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -38217,7 +38100,7 @@
     "dataSource": "osm",
     "sourceId": "node/5439284365",
     "qualityScore": 5,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -38266,7 +38149,7 @@
     "dataSource": "osm",
     "sourceId": "node/8392980417",
     "qualityScore": 5,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -38315,7 +38198,7 @@
     "dataSource": "osm",
     "sourceId": "node/11041690433",
     "qualityScore": 5,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -38364,7 +38247,7 @@
     "dataSource": "osm",
     "sourceId": "node/12923112691",
     "qualityScore": 5,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -38413,7 +38296,7 @@
     "dataSource": "osm",
     "sourceId": "way/330220933",
     "qualityScore": 5,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -38462,7 +38345,7 @@
     "dataSource": "osm",
     "sourceId": "way/1393195099",
     "qualityScore": 5,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -38511,7 +38394,7 @@
     "dataSource": "osm",
     "sourceId": "node/4041952192",
     "qualityScore": 4,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -38560,7 +38443,7 @@
     "dataSource": "osm",
     "sourceId": "node/4109104489",
     "qualityScore": 4,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -38609,7 +38492,7 @@
     "dataSource": "osm",
     "sourceId": "node/4113230089",
     "qualityScore": 4,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -38658,7 +38541,7 @@
     "dataSource": "osm",
     "sourceId": "node/4115555789",
     "qualityScore": 4,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -38707,7 +38590,7 @@
     "dataSource": "osm",
     "sourceId": "node/4185279437",
     "qualityScore": 4,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -38756,7 +38639,7 @@
     "dataSource": "osm",
     "sourceId": "node/4504037691",
     "qualityScore": 4,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -38805,7 +38688,7 @@
     "dataSource": "osm",
     "sourceId": "node/4587300794",
     "qualityScore": 4,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -38854,7 +38737,7 @@
     "dataSource": "osm",
     "sourceId": "node/4593844489",
     "qualityScore": 4,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -38903,7 +38786,7 @@
     "dataSource": "osm",
     "sourceId": "node/4597428090",
     "qualityScore": 4,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -38952,7 +38835,7 @@
     "dataSource": "osm",
     "sourceId": "node/4597685190",
     "qualityScore": 4,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -39001,7 +38884,7 @@
     "dataSource": "osm",
     "sourceId": "node/4686957755",
     "qualityScore": 4,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -39050,7 +38933,7 @@
     "dataSource": "osm",
     "sourceId": "node/5205227142",
     "qualityScore": 4,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -39099,7 +38982,7 @@
     "dataSource": "osm",
     "sourceId": "node/5419211569",
     "qualityScore": 4,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -39148,7 +39031,7 @@
     "dataSource": "osm",
     "sourceId": "node/5512100342",
     "qualityScore": 4,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -39197,7 +39080,7 @@
     "dataSource": "osm",
     "sourceId": "node/10106542142",
     "qualityScore": 4,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -39246,7 +39129,7 @@
     "dataSource": "osm",
     "sourceId": "node/12923162173",
     "qualityScore": 4,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -39295,7 +39178,7 @@
     "dataSource": "osm",
     "sourceId": "node/12923164410",
     "qualityScore": 4,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -39344,7 +39227,7 @@
     "dataSource": "osm",
     "sourceId": "node/12923279643",
     "qualityScore": 4,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -39393,7 +39276,7 @@
     "dataSource": "osm",
     "sourceId": "way/330733837",
     "qualityScore": 4,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -39442,7 +39325,7 @@
     "dataSource": "osm",
     "sourceId": "way/408116839",
     "qualityScore": 4,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -39491,7 +39374,7 @@
     "dataSource": "osm",
     "sourceId": "way/485524555",
     "qualityScore": 4,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -39530,7 +39413,7 @@
     "dataSource": "osm",
     "sourceId": "node/2835983797",
     "qualityScore": 3,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -39569,7 +39452,7 @@
     "dataSource": "osm",
     "sourceId": "node/2835983798",
     "qualityScore": 3,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -39608,7 +39491,7 @@
     "dataSource": "osm",
     "sourceId": "node/2835983799",
     "qualityScore": 3,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -39647,7 +39530,7 @@
     "dataSource": "osm",
     "sourceId": "node/2836007402",
     "qualityScore": 3,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -39686,7 +39569,7 @@
     "dataSource": "osm",
     "sourceId": "node/2836007403",
     "qualityScore": 3,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -39725,7 +39608,7 @@
     "dataSource": "osm",
     "sourceId": "node/2836015227",
     "qualityScore": 3,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -39764,7 +39647,7 @@
     "dataSource": "osm",
     "sourceId": "node/4298578492",
     "qualityScore": 3,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -39803,7 +39686,7 @@
     "dataSource": "osm",
     "sourceId": "node/4334953491",
     "qualityScore": 3,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -39842,7 +39725,7 @@
     "dataSource": "osm",
     "sourceId": "node/4486723290",
     "qualityScore": 3,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -39881,7 +39764,7 @@
     "dataSource": "osm",
     "sourceId": "node/4593918396",
     "qualityScore": 3,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -39920,7 +39803,7 @@
     "dataSource": "osm",
     "sourceId": "node/4597428089",
     "qualityScore": 3,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -39959,7 +39842,7 @@
     "dataSource": "osm",
     "sourceId": "node/4597666590",
     "qualityScore": 3,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -39998,7 +39881,7 @@
     "dataSource": "osm",
     "sourceId": "node/4686957735",
     "qualityScore": 3,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -40037,7 +39920,7 @@
     "dataSource": "osm",
     "sourceId": "node/4813004821",
     "qualityScore": 3,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -40076,7 +39959,7 @@
     "dataSource": "osm",
     "sourceId": "node/4817321924",
     "qualityScore": 3,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -40115,7 +39998,7 @@
     "dataSource": "osm",
     "sourceId": "node/5239314068",
     "qualityScore": 3,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -40154,7 +40037,7 @@
     "dataSource": "osm",
     "sourceId": "node/5439255129",
     "qualityScore": 3,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -40193,7 +40076,7 @@
     "dataSource": "osm",
     "sourceId": "node/8444506917",
     "qualityScore": 3,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -40232,7 +40115,7 @@
     "dataSource": "osm",
     "sourceId": "node/11914957643",
     "qualityScore": 3,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -40271,7 +40154,7 @@
     "dataSource": "osm",
     "sourceId": "way/1116421076",
     "qualityScore": 3,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   },
   {
@@ -40310,7 +40193,7 @@
     "dataSource": "osm",
     "sourceId": "way/1443489517",
     "qualityScore": 3,
-    "updatedAt": "2026-06-28",
+    "updatedAt": "2026-06-30",
     "placeType": "餐飲"
   }
 ]
