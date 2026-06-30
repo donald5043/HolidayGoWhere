@@ -292,6 +292,7 @@ const MAX_VISIBLE_PLACES = 120
 const MAX_MAP_PLACES = 80
 const COMPACT_INITIAL_RESULTS = 8
 const COMPACT_RESULTS_STEP = 8
+const MAP_VIEWPORT_SYNC_DELAY = 420
 type RegionName = Exclude<(typeof regions)[number], '全部'>
 const regionCenters: Record<RegionName, { lat: number; lng: number }> = {
   北部: { lat: 25.04, lng: 121.52 },
@@ -361,6 +362,8 @@ function App() {
   const [osmRestaurants, setOsmRestaurants] = useState<Place[]>([])
   const [osmRestaurantsLoaded, setOsmRestaurantsLoaded] = useState(false)
   const viewportRequestRegion = useRef<RegionName | null>(null)
+  const mapViewportSyncTimer = useRef<number | null>(null)
+  const lastViewportWeatherRegion = useRef<RegionName | null>(null)
   const autoLoadedLocationRegion = useRef(false)
   const [activeTab, setActiveTab] = useState<'home' | 'explore' | 'favorites' | 'profile'>('home')
   const [showProfile, setShowProfile] = useState(false)
@@ -437,9 +440,9 @@ function App() {
     if (!options.silent) playUiSound()
     setRegion(nextRegion)
     setMapViewport(null)
-    const cached = placeCache[nextRegion]
+    const cached = placeCache[nextRegion] as Place[] | undefined
     if (cached) {
-      setPlaces(cached)
+      setPlaces(cached!)
       setPlacesStatus('ready')
       setMapFocusKey((current) => current + 1)
       if (nextRegion !== '全部') {
@@ -540,7 +543,53 @@ function App() {
   const handleMapViewportChange = useCallback((nextViewport: MapViewport) => {
     setMapViewport(nextViewport)
     setCompactResultsLimit(COMPACT_INITIAL_RESULTS)
-    const nextRegion = regionFromCoordinate(nextViewport.center)
+    if (mapViewportSyncTimer.current !== null) {
+      window.clearTimeout(mapViewportSyncTimer.current)
+    }
+
+    mapViewportSyncTimer.current = window.setTimeout(() => {
+      const debouncedRegion = regionFromCoordinate(nextViewport.center)
+      if (!debouncedRegion) {
+        viewportRequestRegion.current = null
+        setLocationMessage('地圖已移到資料範圍外，請移回臺灣附近。')
+        return
+      }
+
+      viewportRequestRegion.current = debouncedRegion
+      if (region !== debouncedRegion) {
+        setRegion(debouncedRegion)
+      }
+
+      if (lastViewportWeatherRegion.current !== debouncedRegion) {
+        lastViewportWeatherRegion.current = debouncedRegion
+        loadWeather(nextViewport.center.lat, nextViewport.center.lng, () => viewportRequestRegion.current === debouncedRegion)
+      }
+
+      const cached = placeCache[debouncedRegion]
+      if (cached) {
+        if (region !== debouncedRegion || placesStatus !== 'ready') {
+          setPlaces(cached)
+          setPlacesStatus('ready')
+        }
+        return
+      }
+
+      if (region === debouncedRegion && placesStatus === 'ready') return
+
+      setPlacesStatus('loading')
+      void regionLoaders[debouncedRegion]()
+        .then((loaded) => {
+          setPlaceCache((current) => ({ ...current, [debouncedRegion]: loaded }))
+          if (viewportRequestRegion.current !== debouncedRegion) return
+          setPlaces(loaded)
+          setPlacesStatus('ready')
+        })
+        .catch(() => {
+          if (viewportRequestRegion.current === debouncedRegion) setPlacesStatus('error')
+        })
+    }, MAP_VIEWPORT_SYNC_DELAY)
+    return
+    const nextRegion = regionFromCoordinate(nextViewport.center) as RegionName
     if (!nextRegion) {
       setLocationMessage('地圖已移到資料範圍外，請移回臺灣附近。')
       return
@@ -551,9 +600,9 @@ function App() {
     setLocationMessage(`已依地圖中心載入${nextRegion}景點，拖曳或縮放可繼續探索。`)
     loadWeather(nextViewport.center.lat, nextViewport.center.lng, () => viewportRequestRegion.current === nextRegion)
 
-    const cached = placeCache[nextRegion]
+    const cached = placeCache[nextRegion] as Place[] | undefined
     if (cached) {
-      setPlaces(cached)
+      setPlaces(cached!)
       setPlacesStatus('ready')
       return
     }
@@ -569,7 +618,15 @@ function App() {
       .catch(() => {
         if (viewportRequestRegion.current === nextRegion) setPlacesStatus('error')
       })
-  }, [placeCache, loadWeather, setLocationMessage, setPlaceCache, setPlaces, setPlacesStatus, setRegion])
+  }, [placeCache, placesStatus, region, loadWeather, setLocationMessage, setPlaceCache, setPlaces, setPlacesStatus, setRegion])
+
+  useEffect(() => {
+    return () => {
+      if (mapViewportSyncTimer.current !== null) {
+        window.clearTimeout(mapViewportSyncTimer.current)
+      }
+    }
+  }, [])
 
   useEffect(() => {
     if (!restaurantOnly || osmRestaurantsLoaded) return
@@ -799,7 +856,7 @@ function App() {
     setRestaurantOnly(false)
   }
 
-  const findNearbyPlaces = () => {
+  const findNearbyPlaces = useCallback(() => {
     if (!navigator.geolocation) {
       setLocationStatus('error')
       setLocationMessage('這個瀏覽器不支援定位，請改用 Safari 或 Chrome。')
@@ -833,7 +890,7 @@ function App() {
         maximumAge: 5 * 60 * 1000,
       },
     )
-  }
+  }, [loadWeather, setLocationMessage, setLocationStatus, setUserLocation])
 
   const focusUserOnMap = useCallback(() => {
     if (!userLocation) {
