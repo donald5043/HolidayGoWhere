@@ -3343,9 +3343,26 @@ p.wizard-reason {
 }
 
 .map-panel.is-expanded {
-  height: min(78vh, 760px);
-  z-index: 40;
-  box-shadow: var(--shadow-card-hover), 0 0 0 1px var(--color-border);
+  position: fixed;
+  inset: max(12px, env(safe-area-inset-top)) 12px max(12px, env(safe-area-inset-bottom));
+  width: auto;
+  height: auto !important;
+  z-index: 2000;
+  border-radius: 30px;
+  box-shadow:
+    0 0 0 9999px rgba(36,59,55,0.34),
+    0 24px 74px rgba(36,59,55,0.28);
+}
+
+body.map-expanded-lock {
+  overflow: hidden;
+  overscroll-behavior: contain;
+}
+
+body.map-expanded-lock .bottom-nav {
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, calc(100% + 28px));
 }
 
 .map-panel::after {
@@ -3356,6 +3373,10 @@ p.wizard-reason {
   pointer-events: none;
   border-radius: 26px;
   box-shadow: inset 0 0 0 1px rgba(45,74,69,0.08);
+}
+
+.map-panel.is-expanded::after {
+  border-radius: 26px;
 }
 
 .open-map {
@@ -3378,14 +3399,16 @@ p.wizard-reason {
 
 .leaflet-place-pin {
   position: relative;
-  width: 38px;
-  height: 38px;
+  width: 42px;
+  height: 42px;
   border: 3px solid #fff;
-  border-radius: 50% 50% 50% 12px;
+  border-radius: 50% 50% 50% 14px;
   display: grid;
   place-items: center;
   color: #fff;
-  background: var(--pin-color, var(--color-primary));
+  background:
+    radial-gradient(circle at 42% 34%, rgba(255,255,255,0.46), transparent 34%),
+    var(--pin-color, var(--color-primary));
   transform: rotate(-45deg);
   box-shadow: 0 10px 22px rgba(36,59,55,0.24);
   transition: transform var(--transition-fast), box-shadow var(--transition-fast), filter var(--transition-fast);
@@ -3401,30 +3424,33 @@ p.wizard-reason {
 }
 
 .leaflet-place-pin__face {
-  width: 27px;
-  height: 27px;
+  width: 33px;
+  height: 33px;
   border-radius: 50%;
   overflow: hidden;
   display: grid;
   place-items: center;
-  background: #fff8ec;
+  background: rgba(255,248,236,0.96);
   transform: rotate(45deg);
-  box-shadow: inset 0 0 0 1px rgba(45,74,69,0.08);
+  box-shadow:
+    inset 0 0 0 1px rgba(45,74,69,0.08),
+    0 2px 4px rgba(36,59,55,0.10);
 }
 
 .leaflet-place-pin__face img {
-  width: 116%;
-  height: 116%;
-  object-fit: cover;
-  object-position: center 42%;
+  width: 140%;
+  height: 140%;
+  object-fit: contain;
+  object-position: center 34%;
+  transform: translateY(3px);
 }
 
 .leaflet-place-pin b {
   position: absolute;
-  right: -7px;
-  bottom: 1px;
-  width: 18px;
-  height: 18px;
+  right: -6px;
+  bottom: 2px;
+  width: 16px;
+  height: 16px;
   border: 2px solid #fff;
   border-radius: 50%;
   display: grid;
@@ -3432,7 +3458,7 @@ p.wizard-reason {
   color: #fff;
   background: var(--pin-color, var(--color-primary));
   transform: rotate(45deg);
-  font-size: 10px;
+  font-size: 9px;
   font-weight: 900;
   line-height: 1;
 }
@@ -3459,6 +3485,11 @@ p.wizard-reason {
 .place-map-popup .leaflet-popup-content {
   margin: 0;
   font-family: inherit;
+}
+
+.map-panel.is-expanded .open-map {
+  min-height: 0;
+  height: 100%;
 }
 
 .place-map-popup .leaflet-popup-close-button {
@@ -5108,10 +5139,10 @@ p.wizard-reason {
 
   .map-panel.is-expanded {
     position: fixed;
-    inset: max(12px, env(safe-area-inset-top)) 12px calc(86px + env(safe-area-inset-bottom));
-    height: auto;
+    inset: max(10px, env(safe-area-inset-top)) 10px max(10px, env(safe-area-inset-bottom));
+    height: auto !important;
     border-radius: 28px;
-    z-index: 1200;
+    z-index: 2000;
     box-shadow:
       0 0 0 9999px rgba(36,59,55,0.34),
       0 22px 70px rgba(36,59,55,0.26);
@@ -5130,7 +5161,8 @@ p.wizard-reason {
   }
 
   .map-panel.is-expanded .open-map {
-    min-height: 100%;
+    min-height: 0;
+    height: 100%;
   }
 
   .map-expand-button {

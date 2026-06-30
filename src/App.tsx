@@ -395,12 +395,17 @@ function App() {
     const media = window.matchMedia('(max-width: 640px) and (orientation: portrait)')
     const update = () => {
       setIsMobilePortraitMap(media.matches)
-      if (media.matches) setMobileMapInteractive(false)
+      if (media.matches && !mapExpanded) setMobileMapInteractive(false)
     }
     update()
     media.addEventListener('change', update)
     return () => media.removeEventListener('change', update)
-  }, [])
+  }, [mapExpanded])
+
+  useEffect(() => {
+    document.body.classList.toggle('map-expanded-lock', mapExpanded)
+    return () => document.body.classList.remove('map-expanded-lock')
+  }, [mapExpanded])
 
   useEffect(() => {
     if (!selected) {
@@ -714,7 +719,7 @@ function App() {
     ? `${viewportPlaces.length} 筆在目前地圖範圍`
     : `${displayedPlaces.length} 筆符合條件`
   const canLoadMoreResults = isCompactResultsView && visiblePlaces.length < viewportPlaces.length
-  const mapInteractive = !isMobilePortraitMap || mobileMapInteractive
+  const mapInteractive = mapExpanded || !isMobilePortraitMap || mobileMapInteractive
 
   const recommended = useMemo(() => {
     if (placesStatus !== 'ready' || !places.length) return []
@@ -1434,7 +1439,7 @@ function App() {
                 places={mapPlaces}
                 selected={mapSelected}
                 onSelect={setMapSelected}
-                onClearSelection={() => setMapSelected(null)}
+                onClearSelection={() => setMapSelected((current) => current ? null : current)}
                 onOpenPlace={openPlace}
                 userLocation={userLocation}
                 focusKey={mapFocusKey}
@@ -1444,8 +1449,11 @@ function App() {
               <button
                 className="map-expand-button"
                 onClick={() => {
-                  setMapExpanded((expanded) => !expanded)
-                  setMobileMapInteractive(true)
+                  setMapExpanded((expanded) => {
+                    const nextExpanded = !expanded
+                    setMobileMapInteractive(nextExpanded || !isMobilePortraitMap)
+                    return nextExpanded
+                  })
                   playUiSound('tap')
                 }}
                 type="button"
@@ -1454,7 +1462,7 @@ function App() {
                 {mapExpanded ? <Minimize2 size={16} /> : <Maximize2 size={16} />}
                 <span>{mapExpanded ? '縮小地圖' : '放大地圖'}</span>
               </button>
-              {isMobilePortraitMap && !mobileMapInteractive && (
+              {isMobilePortraitMap && !mobileMapInteractive && !mapExpanded && (
                 <button
                   className="map-interaction-overlay"
                   onClick={() => {
@@ -1467,7 +1475,7 @@ function App() {
                   <small>啟用後可拖曳、縮放查看附近景點</small>
                 </button>
               )}
-              {isMobilePortraitMap && mobileMapInteractive && (
+              {isMobilePortraitMap && mobileMapInteractive && !mapExpanded && (
                 <button
                   className="map-lock-button"
                   onClick={() => {

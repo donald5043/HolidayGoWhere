@@ -29,7 +29,7 @@ export type MapViewport = {
 }
 
 const taiwanCenter: [number, number] = [23.6978, 120.9605]
-const qPangMarkerHeadUrl = `${import.meta.env.BASE_URL}brand/q-pang-head-transparent.png`
+const qPangMarkerHeadUrl = `${import.meta.env.BASE_URL}brand/q-pang-marker-head.png`
 
 function markerTone(place: Place) {
   if (place.placeType === '餐飲') return '#789B8D'
@@ -62,10 +62,10 @@ function createPlaceIcon(place: Place, selected: boolean) {
         <b>${label}</b>
       </span>
     `,
-    iconSize: [44, 52],
-    iconAnchor: [22, 48],
-    popupAnchor: [0, -44],
-    tooltipAnchor: [0, -44],
+    iconSize: [52, 58],
+    iconAnchor: [26, 54],
+    popupAnchor: [0, -50],
+    tooltipAnchor: [0, -50],
   })
 }
 
@@ -100,7 +100,9 @@ function FitPlaces({
   }, [focusKey, map, selectedLat, selectedLng])
 
   useEffect(() => {
+    if (lastSelectedFocusKey.current === focusKey) return
     if (selectedLat !== undefined && selectedLng !== undefined) return
+    lastSelectedFocusKey.current = focusKey
     if (userLat !== undefined && userLng !== undefined) {
       map.flyTo([userLat, userLng], 12, { duration: 0.8 })
       return
