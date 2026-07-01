@@ -132,7 +132,7 @@ export function TodayInspiration({
               開始找地方 <ChevronRight size={16} />
             </button>
             <button className="phase-secondary-action" onClick={onNearby}>
-              我的附近 <MapPin size={16} />
+              附近景點 <MapPin size={16} />
             </button>
             <button className="phase-secondary-action" onClick={onRescue}>
               臨時補給 <ShoppingCart size={16} />

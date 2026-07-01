@@ -362,7 +362,7 @@ function App() {
     restaurantOnly, setRestaurantOnly,
     rescueOnly, setRescueOnly,
   } = useFilters()
-  const { rescuePlaces, rescueStatus } = useRescueSupplies(rescueOnly)
+  const { rescuePlaces, rescueStatus, rescueMeta } = useRescueSupplies(rescueOnly)
   const { healthAdvisories, healthAdvisoryGeneratedAt, healthCdcStatus } = useHealthAdvisories(age, region === '全部' ? null : region)
   const { weather, weatherStatus, loadWeather } = useWeather()
   const [showFilters, setShowFilters] = useState(false)
@@ -894,6 +894,14 @@ function App() {
   const currentModeLabel = rescueOnly ? '臨時補給點' : restaurantOnly ? '親子餐廳' : '景點'
   const currentListTitle = rescueOnly ? '附近臨時補給' : activeTab === 'favorites' ? '收藏的景點' : '週末靈感地圖'
   const currentKicker = rescueOnly ? '親子救援' : activeTab === 'favorites' ? '我的收藏' : '為你精選'
+  const rescueCandidatePreview = useMemo(
+    () => rescueMeta?.discovery?.candidateBrands?.map((brand) => brand.name).join('、') ?? '',
+    [rescueMeta],
+  )
+  const rescueActivePreview = useMemo(
+    () => rescueMeta?.discovery?.activeBrands?.map((brand) => brand.name).join('、') ?? '卡多摩、安琪兒',
+    [rescueMeta],
+  )
   const canLoadMoreResults = isCompactResultsView && visiblePlaces.length < viewportPlaces.length
   const healthInsertIndex = useMemo(() => {
     if (rescueOnly || activeTab !== 'explore' || visiblePlaces.length < 6 || healthAdvisories.length === 0) return -1
@@ -1011,7 +1019,18 @@ function App() {
     setRescueOnly(false)
   }
 
-  const findNearbyPlaces = useCallback(() => {
+  const findNearbyPlaces = useCallback((options: { forceAttractions?: boolean } = {}) => {
+    const forceAttractions = options.forceAttractions === true
+    if (forceAttractions) {
+      setAge('all')
+      setSetting('全部')
+      setDuration('全部')
+      setRainyOnly(false)
+      setEventOnly(false)
+      setRestaurantOnly(false)
+      setRescueOnly(false)
+    }
+
     if (!navigator.geolocation) {
       setLocationStatus('error')
       setLocationMessage('這個瀏覽器不支援定位，請改用 Safari 或 Chrome。')
@@ -1026,7 +1045,7 @@ function App() {
         setMapViewport(null)
         setMapFocusKey((current) => current + 1)
         setLocationStatus('ready')
-        setLocationMessage(`已依距離重新排列${rescueOnly ? '臨時補給點' : restaurantOnly ? '餐廳' : '景點'}，藍點是你的位置。`)
+        setLocationMessage(`已依距離重新排列${forceAttractions ? '景點' : rescueOnly ? '臨時補給點' : restaurantOnly ? '餐廳' : '景點'}，藍點是你的位置。`)
         loadWeather(coords.latitude, coords.longitude)
         document.querySelector('.explore-section')?.scrollIntoView({ behavior: 'smooth' })
       },
@@ -1045,7 +1064,11 @@ function App() {
         maximumAge: 5 * 60 * 1000,
       },
     )
-  }, [loadWeather, rescueOnly, restaurantOnly, setLocationMessage, setLocationStatus, setUserLocation])
+  }, [loadWeather, rescueOnly, restaurantOnly, setAge, setDuration, setEventOnly, setLocationMessage, setLocationStatus, setRainyOnly, setRescueOnly, setRestaurantOnly, setSetting, setUserLocation])
+
+  const findNearbyAttractions = useCallback(() => {
+    findNearbyPlaces({ forceAttractions: true })
+  }, [findNearbyPlaces])
 
   const focusUserOnMap = useCallback(() => {
     if (!userLocation) {
@@ -1182,7 +1205,7 @@ function App() {
               onOpenPlace={openPlace}
               onFavorite={toggleFavorite}
               onExplore={() => goExplore()}
-              onNearby={() => goExplore(findNearbyPlaces)}
+              onNearby={() => goExplore(findNearbyAttractions)}
               onRescue={() => goExplore(enableRescueMode)}
               onScenario={(scenario) => {
                 if (scenario === 'rainy') {
@@ -1278,7 +1301,7 @@ function App() {
                 <span className="entry-icon tile-yellow"><CalendarCheck size={24} /></span>
                 <small>近期活動</small>
               </button>
-              <button className="entry-tile" onClick={() => goExplore(findNearbyPlaces)}>
+              <button className="entry-tile" onClick={() => goExplore(findNearbyAttractions)}>
                 <span className="entry-icon tile-violet"><LocateFixed size={24} /></span>
                 <small>附近景點</small>
               </button>
@@ -1409,7 +1432,7 @@ function App() {
               <section className="home-section nearby-section">
                 <div className="home-section-head">
                   <h2>📍 附近推薦</h2>
-                  <button onClick={() => goExplore(findNearbyPlaces)}>更多 <ChevronRight size={15} /></button>
+                  <button onClick={() => goExplore(findNearbyAttractions)}>更多 <ChevronRight size={15} /></button>
                 </div>
                 <div className="nearby-scroll">
                   {nearbyPlaces.map(({ place, dist }) => (
@@ -1670,12 +1693,12 @@ function App() {
               )}
               <button
                 className={`location-button ${locationStatus === 'ready' ? 'is-active' : ''}`}
-                onClick={findNearbyPlaces}
+                onClick={() => findNearbyPlaces()}
                 disabled={locationStatus === 'loading'}
-                aria-label={locationStatus === 'loading' ? '正在取得位置' : '顯示我的附近'}
+                aria-label={locationStatus === 'loading' ? '正在取得位置' : rescueOnly ? '顯示附近補給' : restaurantOnly ? '顯示附近餐廳' : '顯示附近景點'}
               >
                 <LocateFixed size={17} />
-                {locationStatus === 'loading' ? '定位中…' : locationStatus === 'ready' ? '離我最近' : '我的附近'}
+                {locationStatus === 'loading' ? '定位中…' : locationStatus === 'ready' ? '離我最近' : rescueOnly ? '附近補給' : restaurantOnly ? '附近餐廳' : '附近景點'}
               </button>
             </div>
           </div>
@@ -1699,6 +1722,19 @@ function App() {
               >
                 <X size={15} />
               </button>
+            </div>
+          )}
+
+          {rescueOnly && rescueMeta?.summary && (
+            <div className="rescue-source-note" role="note">
+              <ShoppingCart size={16} />
+              <div>
+                <strong>官方門市優先・{rescueMeta.summary.highConfidence} 筆高信任補給點</strong>
+                <span>
+                  目前上架{rescueActivePreview}；候選品牌包含 {rescueCandidatePreview || '麗嬰房、奇哥、藥局通路'}，
+                  通過官方頁解析與座標補強後才會加入地圖。
+                </span>
+              </div>
             </div>
           )}
 
@@ -1895,7 +1931,7 @@ function App() {
             setRestaurantOnly(false)
             openExplore('explore')
           }}
-          onNearby={() => goExplore(findNearbyPlaces)}
+          onNearby={() => goExplore(findNearbyAttractions)}
           onRestaurants={() => {
             setAge('all')
             setSetting('全部')

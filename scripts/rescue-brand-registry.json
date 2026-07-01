@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "candidateKeywords": [
+    "婦嬰",
+    "母嬰",
+    "嬰兒",
+    "嬰童",
+    "寶寶",
+    "奶粉",
+    "尿布",
+    "孕婦",
+    "親子百貨"
+  ],
+  "governmentCandidateSources": [
+    {
+      "id": "mof-business-tax",
+      "label": "財政部全國營業（稅籍）登記資料集",
+      "url": "https://data.gov.tw/dataset/9400",
+      "downloadUrl": "https://eip.fia.gov.tw/data/BGMOPEN1.zip",
+      "updateFrequency": "每日",
+      "role": "用營業人名稱、營業地址、行業名稱與關鍵字找出各地候選母嬰用品店。"
+    },
+    {
+      "id": "gcis-open-api",
+      "label": "經濟部商工行政資料開放平臺",
+      "url": "https://data.gcis.nat.gov.tw/",
+      "updateFrequency": "依商工資料更新",
+      "role": "用公司登記 / 商業登記 API 輔助確認候選品牌是否為實體商家。"
+    },
+    {
+      "id": "nlsc-business-facility",
+      "label": "國土測繪中心查詢工商設施 API",
+      "url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/bus",
+      "updateFrequency": "依 NLSC API 更新",
+      "role": "依使用者附近座標查詢工商設施，作為在地補給點備援。"
+    }
+  ],
+  "brands": [
+    {
+      "id": "kodomo",
+      "name": "卡多摩",
+      "status": "active",
+      "adapter": "kodomoOfficialHtml",
+      "category": "baby_supply",
+      "officialUrl": "https://kodomoshops.com/location.php",
+      "regions": ["北部"],
+      "aliases": ["卡多摩嬰童館", "KODOMO"],
+      "priority": 100
+    },
+    {
+      "id": "angelbaby",
+      "name": "安琪兒",
+      "status": "active",
+      "adapter": "angelbabyOfficialHtml",
+      "category": "baby_supply",
+      "officialUrl": "https://www.angelbaby.com.tw/pages/location",
+      "regions": ["北部", "中部"],
+      "aliases": ["安琪兒婦嬰百貨", "安琪兒婦嬰用品"],
+      "priority": 95
+    },
+    {
+      "id": "les-enphants",
+      "name": "麗嬰房",
+      "status": "candidate",
+      "category": "baby_supply",
+      "regions": ["全台"],
+      "aliases": ["麗嬰房 Les enphants"],
+      "priority": 80
+    },
+    {
+      "id": "chicco",
+      "name": "奇哥",
+      "status": "candidate",
+      "category": "baby_supply",
+      "regions": ["全台"],
+      "aliases": ["Chicco"],
+      "priority": 78
+    },
+    {
+      "id": "mamaway",
+      "name": "媽媽餵",
+      "status": "active",
+      "adapter": "mamawayOfficialHtml",
+      "category": "baby_supply",
+      "officialUrl": "https://www.mamaway.com.tw/store/",
+      "regions": ["全台"],
+      "aliases": ["Mamaway"],
+      "priority": 72
+    },
+    {
+      "id": "dingding",
+      "name": "丁丁藥局",
+      "status": "candidate",
+      "category": "pharmacy",
+      "regions": ["中部", "南部"],
+      "aliases": ["丁丁連鎖藥妝"],
+      "priority": 70
+    },
+    {
+      "id": "greattree",
+      "name": "大樹藥局",
+      "status": "candidate",
+      "category": "pharmacy",
+      "regions": ["全台"],
+      "aliases": ["大樹連鎖藥局"],
+      "priority": 68
+    },
+    {
+      "id": "medfirst",
+      "name": "杏一",
+      "status": "candidate",
+      "category": "pharmacy",
+      "regions": ["全台"],
+      "aliases": ["杏一醫療用品"],
+      "priority": 66
+    },
+    {
+      "id": "wellcare",
+      "name": "維康",
+      "status": "candidate",
+      "category": "pharmacy",
+      "regions": ["全台"],
+      "aliases": ["維康醫療用品"],
+      "priority": 64
+    },
+    {
+      "id": "watsons",
+      "name": "屈臣氏",
+      "status": "candidate",
+      "category": "pharmacy",
+      "officialUrl": "https://www.watsons.com.tw/store-finder",
+      "regions": ["全台"],
+      "aliases": ["Watsons"],
+      "priority": 62
+    },
+    {
+      "id": "cosmed",
+      "name": "康是美",
+      "status": "candidate",
+      "category": "pharmacy",
+      "officialUrl": "https://www.cosmed.com.tw/shop.aspx",
+      "regions": ["全台"],
+      "aliases": ["COSMED"],
+      "priority": 60
+    }
+  ]
+}

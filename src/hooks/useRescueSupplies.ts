@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import type { Place, RescueSupply } from '../data'
+import type { Place, RescueSupply, RescueSupplyDatasetMeta } from '../data'
 import { fetchPublicJson } from '../lib/fetchPublicJson'
 
 const rescueAccent = '#789B8D'
@@ -13,10 +13,13 @@ function regionFromCity(city: string): Place['region'] {
 }
 
 function rescueDescription(supply: RescueSupply): string {
+  const confidenceHint = supply.confidence === 'high'
+    ? '座標由官方地圖連結補強。'
+    : '座標或門市細節仍需出發前確認。'
   const stockHint = supply.tags.includes('尿布') || supply.tags.includes('奶粉')
     ? '適合臨時補尿布、奶粉、濕紙巾、奶瓶奶嘴或外出用品。'
     : '適合臨時補給親子外出用品，出發前建議先電話確認庫存與營業時間。'
-  return `${supply.brand}官方門市資料整理，${stockHint}`
+  return `${supply.brand}官方門市資料整理，${stockHint}${confidenceHint}`
 }
 
 export function rescueSupplyToPlace(supply: RescueSupply): Place | null {
@@ -75,18 +78,25 @@ export function rescueSupplyToPlace(supply: RescueSupply): Place | null {
 
 export function useRescueSupplies(enabled: boolean) {
   const [supplies, setSupplies] = useState<RescueSupply[]>([])
+  const [meta, setMeta] = useState<RescueSupplyDatasetMeta | null>(null)
   const [status, setStatus] = useState<'idle' | 'loading' | 'ready' | 'error'>('idle')
 
   useEffect(() => {
     if (!enabled || status === 'loading' || status === 'ready') return
     setStatus('loading')
-    fetchPublicJson<{ supplies: RescueSupply[] }>('data/rescue-supplies.json')
+    fetchPublicJson<RescueSupplyDatasetMeta & { supplies: RescueSupply[] }>('data/rescue-supplies.json')
       .then((data) => {
         setSupplies(Array.isArray(data.supplies) ? data.supplies : [])
+        setMeta({
+          summary: data.summary,
+          pipeline: data.pipeline,
+          discovery: data.discovery,
+        })
         setStatus('ready')
       })
       .catch(() => {
         setSupplies([])
+        setMeta(null)
         setStatus('error')
       })
   }, [enabled, status])
@@ -96,5 +106,5 @@ export function useRescueSupplies(enabled: boolean) {
     [supplies],
   )
 
-  return { rescueSupplies: supplies, rescuePlaces: places, rescueStatus: status }
+  return { rescueSupplies: supplies, rescuePlaces: places, rescueStatus: status, rescueMeta: meta }
 }

@@ -1,21 +1,294 @@
 {
-  "generatedAt": "2026-07-01T11:07:26.855Z",
+  "generatedAt": "2026-07-01T14:15:42.905Z",
   "sources": [
     {
-      "label": "卡多摩官方門市據點",
+      "label": "卡多摩官方門市資訊",
       "url": "https://kodomoshops.com/location.php"
     },
     {
       "label": "安琪兒官方門市資訊",
       "url": "https://www.angelbaby.com.tw/pages/location"
+    },
+    {
+      "label": "媽媽餵官方門市資訊",
+      "url": "https://www.mamaway.com.tw/store/"
+    },
+    {
+      "label": "財政部全國營業（稅籍）登記資料集",
+      "url": "https://data.gov.tw/dataset/9400"
+    },
+    {
+      "label": "經濟部商工行政資料開放平臺",
+      "url": "https://data.gcis.nat.gov.tw/"
+    },
+    {
+      "label": "國土測繪中心查詢工商設施 API",
+      "url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/bus"
     }
   ],
+  "pipeline": {
+    "version": 2,
+    "generatedAt": "2026-07-01T14:15:42.905Z",
+    "philosophy": "六層模式：先找候選、再官方驗證、再解析門市、再補座標、再信任分級，最後才分層呈現在前端。",
+    "layers": [
+      {
+        "id": "candidate_discovery",
+        "label": "候選店家發現",
+        "status": "implemented_seeded",
+        "description": "使用政府資料來源清單、品牌 registry 與母嬰關鍵字維護候選池；大型政府資料不直接灌進前端。",
+        "sources": [
+          {
+            "id": "mof-business-tax",
+            "label": "財政部全國營業（稅籍）登記資料集",
+            "url": "https://data.gov.tw/dataset/9400",
+            "downloadUrl": "https://eip.fia.gov.tw/data/BGMOPEN1.zip",
+            "updateFrequency": "每日",
+            "role": "用營業人名稱、營業地址、行業名稱與關鍵字找出各地候選母嬰用品店。"
+          },
+          {
+            "id": "gcis-open-api",
+            "label": "經濟部商工行政資料開放平臺",
+            "url": "https://data.gcis.nat.gov.tw/",
+            "updateFrequency": "依商工資料更新",
+            "role": "用公司登記 / 商業登記 API 輔助確認候選品牌是否為實體商家。"
+          },
+          {
+            "id": "nlsc-business-facility",
+            "label": "國土測繪中心查詢工商設施 API",
+            "url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/bus",
+            "updateFrequency": "依 NLSC API 更新",
+            "role": "依使用者附近座標查詢工商設施，作為在地補給點備援。"
+          }
+        ],
+        "keywords": [
+          "婦嬰",
+          "母嬰",
+          "嬰兒",
+          "嬰童",
+          "寶寶",
+          "奶粉",
+          "尿布",
+          "孕婦",
+          "親子百貨"
+        ]
+      },
+      {
+        "id": "official_verification",
+        "label": "官方來源確認",
+        "status": "implemented",
+        "description": "只有具官方門市頁 adapter 的品牌會進入上架資料。"
+      },
+      {
+        "id": "store_extraction",
+        "label": "分店資訊解析",
+        "status": "implemented",
+        "description": "本次從官方門市頁解析 84 筆門市候選。"
+      },
+      {
+        "id": "geocoding",
+        "label": "地圖座標補強",
+        "status": "implemented",
+        "description": "使用官方 Google Maps 連結轉址解析座標；80/84 筆可上地圖，其中 80 筆為精準地點座標。"
+      },
+      {
+        "id": "confidence",
+        "label": "信任分級",
+        "status": "implemented",
+        "description": "high=官方門市 + 精準座標；medium=官方門市但座標仍需確認；low 暫不上架地圖。"
+      },
+      {
+        "id": "presentation",
+        "label": "前端分層呈現",
+        "status": "implemented",
+        "description": "以「臨時補給」模式獨立載入與顯示，不混入原本景點推薦。"
+      }
+    ]
+  },
+  "discovery": {
+    "activeBrands": [
+      {
+        "id": "kodomo",
+        "name": "卡多摩",
+        "adapter": "kodomoOfficialHtml",
+        "officialUrl": "https://kodomoshops.com/location.php",
+        "regions": [
+          "北部"
+        ]
+      },
+      {
+        "id": "angelbaby",
+        "name": "安琪兒",
+        "adapter": "angelbabyOfficialHtml",
+        "officialUrl": "https://www.angelbaby.com.tw/pages/location",
+        "regions": [
+          "北部",
+          "中部"
+        ]
+      },
+      {
+        "id": "mamaway",
+        "name": "媽媽餵",
+        "adapter": "mamawayOfficialHtml",
+        "officialUrl": "https://www.mamaway.com.tw/store/",
+        "regions": [
+          "全台"
+        ]
+      }
+    ],
+    "candidateBrands": [
+      {
+        "id": "les-enphants",
+        "name": "麗嬰房",
+        "category": "baby_supply",
+        "regions": [
+          "全台"
+        ],
+        "aliases": [
+          "麗嬰房 Les enphants"
+        ],
+        "status": "candidate",
+        "nextStep": "需要建立官方門市 adapter，通過解析與座標補強後才會上架。"
+      },
+      {
+        "id": "chicco",
+        "name": "奇哥",
+        "category": "baby_supply",
+        "regions": [
+          "全台"
+        ],
+        "aliases": [
+          "Chicco"
+        ],
+        "status": "candidate",
+        "nextStep": "需要建立官方門市 adapter，通過解析與座標補強後才會上架。"
+      },
+      {
+        "id": "dingding",
+        "name": "丁丁藥局",
+        "category": "pharmacy",
+        "regions": [
+          "中部",
+          "南部"
+        ],
+        "aliases": [
+          "丁丁連鎖藥妝"
+        ],
+        "status": "candidate",
+        "nextStep": "需要建立官方門市 adapter，通過解析與座標補強後才會上架。"
+      },
+      {
+        "id": "greattree",
+        "name": "大樹藥局",
+        "category": "pharmacy",
+        "regions": [
+          "全台"
+        ],
+        "aliases": [
+          "大樹連鎖藥局"
+        ],
+        "status": "candidate",
+        "nextStep": "需要建立官方門市 adapter，通過解析與座標補強後才會上架。"
+      },
+      {
+        "id": "medfirst",
+        "name": "杏一",
+        "category": "pharmacy",
+        "regions": [
+          "全台"
+        ],
+        "aliases": [
+          "杏一醫療用品"
+        ],
+        "status": "candidate",
+        "nextStep": "需要建立官方門市 adapter，通過解析與座標補強後才會上架。"
+      },
+      {
+        "id": "wellcare",
+        "name": "維康",
+        "category": "pharmacy",
+        "regions": [
+          "全台"
+        ],
+        "aliases": [
+          "維康醫療用品"
+        ],
+        "status": "candidate",
+        "nextStep": "需要建立官方門市 adapter，通過解析與座標補強後才會上架。"
+      },
+      {
+        "id": "watsons",
+        "name": "屈臣氏",
+        "category": "pharmacy",
+        "regions": [
+          "全台"
+        ],
+        "aliases": [
+          "Watsons"
+        ],
+        "status": "candidate",
+        "nextStep": "需要建立官方門市 adapter，通過解析與座標補強後才會上架。"
+      },
+      {
+        "id": "cosmed",
+        "name": "康是美",
+        "category": "pharmacy",
+        "regions": [
+          "全台"
+        ],
+        "aliases": [
+          "COSMED"
+        ],
+        "status": "candidate",
+        "nextStep": "需要建立官方門市 adapter，通過解析與座標補強後才會上架。"
+      }
+    ],
+    "keywords": [
+      "婦嬰",
+      "母嬰",
+      "嬰兒",
+      "嬰童",
+      "寶寶",
+      "奶粉",
+      "尿布",
+      "孕婦",
+      "親子百貨"
+    ],
+    "governmentSources": [
+      {
+        "id": "mof-business-tax",
+        "label": "財政部全國營業（稅籍）登記資料集",
+        "url": "https://data.gov.tw/dataset/9400",
+        "downloadUrl": "https://eip.fia.gov.tw/data/BGMOPEN1.zip",
+        "updateFrequency": "每日",
+        "role": "用營業人名稱、營業地址、行業名稱與關鍵字找出各地候選母嬰用品店。"
+      },
+      {
+        "id": "gcis-open-api",
+        "label": "經濟部商工行政資料開放平臺",
+        "url": "https://data.gcis.nat.gov.tw/",
+        "updateFrequency": "依商工資料更新",
+        "role": "用公司登記 / 商業登記 API 輔助確認候選品牌是否為實體商家。"
+      },
+      {
+        "id": "nlsc-business-facility",
+        "label": "國土測繪中心查詢工商設施 API",
+        "url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/bus",
+        "updateFrequency": "依 NLSC API 更新",
+        "role": "依使用者附近座標查詢工商設施，作為在地補給點備援。"
+      }
+    ]
+  },
   "summary": {
-    "total": 62,
-    "withCoordinates": 58,
+    "total": 84,
+    "withCoordinates": 80,
+    "highConfidence": 80,
+    "mediumConfidence": 4,
+    "activeBrands": 3,
+    "candidateBrands": 8,
     "brands": {
       "卡多摩": 47,
-      "安琪兒": 15
+      "安琪兒": 15,
+      "媽媽餵": 22
     }
   },
   "supplies": [
@@ -34,9 +307,9 @@
       "mapsUrl": "https://goo.gl/maps/VWekCay6cGBmeUZP7",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -46,7 +319,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-內湖東湖店",
@@ -63,9 +360,9 @@
       "mapsUrl": "https://goo.gl/maps/91fFFUPAznqJrwZT6",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -75,7 +372,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-台北木柵店",
@@ -92,9 +413,9 @@
       "mapsUrl": "https://goo.gl/maps/SGKJb2D8TgDe7FHG8",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -104,7 +425,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-台北北投店",
@@ -121,9 +466,9 @@
       "mapsUrl": "https://goo.gl/maps/neEq2CdmTifZyoe1A",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -133,7 +478,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-中壢環北店",
@@ -150,9 +519,9 @@
       "mapsUrl": "https://goo.gl/maps/Dvsykh3h1k8QEeCm6",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -162,7 +531,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-南港忠孝店",
@@ -179,9 +572,9 @@
       "mapsUrl": "https://goo.gl/maps/WuVJfVd299rP4cq29",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -191,7 +584,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-楊梅埔心店",
@@ -208,9 +625,9 @@
       "mapsUrl": "https://goo.gl/maps/P1bmz3Ln7NEHBueu7",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -220,7 +637,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-台北西園店",
@@ -237,9 +678,9 @@
       "mapsUrl": "https://goo.gl/maps/N3kv8RHN7cqAhQSs7",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -249,7 +690,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-台北大安店",
@@ -266,9 +731,9 @@
       "mapsUrl": "https://goo.gl/maps/XPArS8obZ3LBZpT86",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -278,7 +743,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-台北中華店",
@@ -295,9 +784,9 @@
       "mapsUrl": "https://goo.gl/maps/ozURkgzjhA22APpk9",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -307,7 +796,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-八德介壽店",
@@ -324,9 +837,9 @@
       "mapsUrl": "https://goo.gl/maps/Z6cLMk4dVUFaSMmw5",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -336,7 +849,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-內湖文德店",
@@ -353,9 +890,9 @@
       "mapsUrl": "https://goo.gl/maps/X5KEeZhdVuq3DGcQA",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -365,7 +902,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-桃園莊敬店-原桃園大興店",
@@ -382,9 +943,9 @@
       "mapsUrl": "https://maps.app.goo.gl/6SozUya9pcUYK3C78",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -394,7 +955,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-桃園中山店",
@@ -411,9 +996,9 @@
       "mapsUrl": "https://goo.gl/maps/rsKgy2oNPZ2XXGqs7",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -423,7 +1008,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-桃園大園店",
@@ -440,9 +1049,9 @@
       "mapsUrl": "https://goo.gl/maps/9rHz3eqi3nuTXF9v6",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -452,7 +1061,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-三重重陽店",
@@ -469,9 +1102,9 @@
       "mapsUrl": "https://goo.gl/maps/bc8hQFG3i4m8Fshi9",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -481,7 +1114,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-新店安康店",
@@ -498,9 +1155,9 @@
       "mapsUrl": "https://goo.gl/maps/fwHwAcWJ35pjYroj9",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -510,7 +1167,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-泰山明志店",
@@ -527,9 +1208,9 @@
       "mapsUrl": "https://goo.gl/maps/tZ35AqMk49z2kyNt7",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -539,7 +1220,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-永和中山店",
@@ -556,9 +1261,9 @@
       "mapsUrl": "https://goo.gl/maps/MKVK5Jk4RQB9n9D49",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -568,7 +1273,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-三重正義店",
@@ -585,9 +1314,9 @@
       "mapsUrl": "https://goo.gl/maps/CCDWRQ4eGN8zKifa8",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -597,7 +1326,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-中和員山店",
@@ -614,9 +1367,9 @@
       "mapsUrl": "https://goo.gl/maps/Ld1uf1T24B5F6BjR6",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -626,7 +1379,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-蘆洲長榮店",
@@ -643,9 +1420,9 @@
       "mapsUrl": "https://goo.gl/maps/6wGsFgjYmf3M6Mkw9",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -655,7 +1432,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-新莊化成店",
@@ -672,9 +1473,9 @@
       "mapsUrl": "https://goo.gl/maps/FTpZsfgEUeyue9GF6",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -684,7 +1485,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-鶯歌鶯桃店",
@@ -701,9 +1526,9 @@
       "mapsUrl": "https://goo.gl/maps/vkn37v82Ya4fbqAP8",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -713,7 +1538,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-台北新光店",
@@ -730,9 +1579,9 @@
       "mapsUrl": "https://goo.gl/maps/MvkebEbW4xn26tGy5",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -742,7 +1591,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-板橋新海店",
@@ -759,9 +1632,9 @@
       "mapsUrl": "https://goo.gl/maps/PyySFAEwG7vLZb7z6",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -771,7 +1644,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-土城明德店",
@@ -788,9 +1685,9 @@
       "mapsUrl": "https://goo.gl/maps/fi3UpEJ4RwD7aX6x7",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -800,7 +1697,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-新莊幸福店",
@@ -817,9 +1738,9 @@
       "mapsUrl": "https://goo.gl/maps/5KxUHb11X8UA4o29A",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -829,7 +1750,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-新莊民安店",
@@ -846,9 +1791,9 @@
       "mapsUrl": "https://goo.gl/maps/HEEyd5tLE3ZndEGW8",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -858,7 +1803,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-樹林北大店",
@@ -875,9 +1844,9 @@
       "mapsUrl": "https://goo.gl/maps/B9u1JXKbeBFtSNwW7",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -887,7 +1856,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-三峽店",
@@ -904,9 +1897,9 @@
       "mapsUrl": "https://goo.gl/maps/x5P9dHZJF9ihxjcb6",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -916,7 +1909,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-樹林保安店",
@@ -933,9 +1950,9 @@
       "mapsUrl": "https://goo.gl/maps/J4NdxCb8vAJv7VzG9",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -945,7 +1962,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-台北天母店",
@@ -962,9 +2003,9 @@
       "mapsUrl": "https://goo.gl/maps/d5XnimVchvib6AeK6",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -974,7 +2015,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-台北重慶北店",
@@ -991,9 +2056,9 @@
       "mapsUrl": "https://goo.gl/maps/1FJGMDpdbY5LgLDj8",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -1003,7 +2068,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-板橋中山店",
@@ -1020,9 +2109,9 @@
       "mapsUrl": "https://goo.gl/maps/cWHkR969fHGdyEwL8",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -1032,7 +2121,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-台北民權店",
@@ -1049,9 +2162,9 @@
       "mapsUrl": "https://goo.gl/maps/RHTCFJZBkGi2v6Eu6",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -1061,7 +2174,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-中和永安店",
@@ -1078,9 +2215,9 @@
       "mapsUrl": "https://goo.gl/maps/oounHoxarENff7CR8",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -1090,7 +2227,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-永和福和店",
@@ -1107,9 +2268,9 @@
       "mapsUrl": "https://goo.gl/maps/2ZPn2fBSQHwzh66r5",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -1119,7 +2280,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-蘆洲三民店",
@@ -1136,9 +2321,9 @@
       "mapsUrl": "https://goo.gl/maps/jMHdEW4jDZKasAuQ7",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -1148,7 +2333,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-台北延吉店",
@@ -1165,9 +2374,9 @@
       "mapsUrl": "https://goo.gl/maps/SFaLCX9z2yqEsBMi8",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -1177,7 +2386,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-板橋文化店",
@@ -1194,9 +2427,9 @@
       "mapsUrl": "https://goo.gl/maps/wSoUEc65vdpVgdhw8",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -1206,7 +2439,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-桃園蘆竹店",
@@ -1223,9 +2480,9 @@
       "mapsUrl": "https://goo.gl/maps/6wDDRfwNfV2KKYim7",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -1235,7 +2492,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-台北和平西店",
@@ -1252,9 +2533,9 @@
       "mapsUrl": "https://goo.gl/maps/ZCtMo41zH9dCtFAPA",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -1264,7 +2545,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-林口仁愛店",
@@ -1281,9 +2586,9 @@
       "mapsUrl": "https://goo.gl/maps/MNvfCNLV51ZcgkvV6",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -1293,7 +2598,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-龜山長庚店",
@@ -1310,9 +2639,9 @@
       "mapsUrl": "https://goo.gl/maps/K4QieXemSUDrHRDi9",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -1322,7 +2651,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-淡水竹圍店",
@@ -1339,9 +2692,9 @@
       "mapsUrl": "https://goo.gl/maps/zCRDYk3w4x2MeuXa9",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -1351,7 +2704,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-kodomo-板橋忠孝店",
@@ -1368,9 +2745,9 @@
       "mapsUrl": "https://goo.gl/maps/Tb5e1XDce2NDgC577",
       "source": {
         "type": "official",
-        "label": "卡多摩官方門市據點",
+        "label": "卡多摩官方門市資訊",
         "url": "https://kodomoshops.com/location.php",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -1380,7 +2757,31 @@
         "汽座",
         "奶瓶奶嘴",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "卡多摩",
+            "卡多摩嬰童館",
+            "KODOMO"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://kodomoshops.com/location.php",
+          "adapter": "kodomoOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-angelbaby-大直忠泰店-new",
@@ -1399,7 +2800,7 @@
         "type": "official",
         "label": "安琪兒官方門市資訊",
         "url": "https://www.angelbaby.com.tw/pages/location",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -1409,7 +2810,32 @@
         "奶瓶奶嘴",
         "嬰兒床",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "安琪兒",
+            "安琪兒婦嬰百貨",
+            "安琪兒婦嬰用品"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選",
+            "中部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.angelbaby.com.tw/pages/location",
+          "adapter": "angelbabyOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-angelbaby-安琪兒-八德店",
@@ -1428,7 +2854,7 @@
         "type": "official",
         "label": "安琪兒官方門市資訊",
         "url": "https://www.angelbaby.com.tw/pages/location",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -1438,7 +2864,32 @@
         "奶瓶奶嘴",
         "嬰兒床",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "安琪兒",
+            "安琪兒婦嬰百貨",
+            "安琪兒婦嬰用品"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選",
+            "中部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.angelbaby.com.tw/pages/location",
+          "adapter": "angelbabyOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-angelbaby-安琪兒-內湖店",
@@ -1457,7 +2908,7 @@
         "type": "official",
         "label": "安琪兒官方門市資訊",
         "url": "https://www.angelbaby.com.tw/pages/location",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -1467,7 +2918,32 @@
         "奶瓶奶嘴",
         "嬰兒床",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "安琪兒",
+            "安琪兒婦嬰百貨",
+            "安琪兒婦嬰用品"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選",
+            "中部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.angelbaby.com.tw/pages/location",
+          "adapter": "angelbabyOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-angelbaby-安琪兒-國泰店",
@@ -1486,7 +2962,7 @@
         "type": "official",
         "label": "安琪兒官方門市資訊",
         "url": "https://www.angelbaby.com.tw/pages/location",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -1496,7 +2972,32 @@
         "奶瓶奶嘴",
         "嬰兒床",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "安琪兒",
+            "安琪兒婦嬰百貨",
+            "安琪兒婦嬰用品"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選",
+            "中部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.angelbaby.com.tw/pages/location",
+          "adapter": "angelbabyOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-angelbaby-安琪兒-和平店",
@@ -1515,7 +3016,7 @@
         "type": "official",
         "label": "安琪兒官方門市資訊",
         "url": "https://www.angelbaby.com.tw/pages/location",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "medium",
       "tags": [
@@ -1525,7 +3026,32 @@
         "奶瓶奶嘴",
         "嬰兒床",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "安琪兒",
+            "安琪兒婦嬰百貨",
+            "安琪兒婦嬰用品"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選",
+            "中部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.angelbaby.com.tw/pages/location",
+          "adapter": "angelbabyOfficialHtml"
+        },
+        "geocoding": {
+          "status": "missing",
+          "provider": "none"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-angelbaby-安琪兒-新北中和體驗店",
@@ -1544,7 +3070,7 @@
         "type": "official",
         "label": "安琪兒官方門市資訊",
         "url": "https://www.angelbaby.com.tw/pages/location",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -1554,7 +3080,32 @@
         "奶瓶奶嘴",
         "嬰兒床",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "安琪兒",
+            "安琪兒婦嬰百貨",
+            "安琪兒婦嬰用品"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選",
+            "中部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.angelbaby.com.tw/pages/location",
+          "adapter": "angelbabyOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-angelbaby-安琪兒-新北板橋新板店",
@@ -1573,7 +3124,7 @@
         "type": "official",
         "label": "安琪兒官方門市資訊",
         "url": "https://www.angelbaby.com.tw/pages/location",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "medium",
       "tags": [
@@ -1583,7 +3134,32 @@
         "奶瓶奶嘴",
         "嬰兒床",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "安琪兒",
+            "安琪兒婦嬰百貨",
+            "安琪兒婦嬰用品"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選",
+            "中部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.angelbaby.com.tw/pages/location",
+          "adapter": "angelbabyOfficialHtml"
+        },
+        "geocoding": {
+          "status": "missing",
+          "provider": "none"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-angelbaby-安琪兒-新北中和環球店",
@@ -1602,7 +3178,7 @@
         "type": "official",
         "label": "安琪兒官方門市資訊",
         "url": "https://www.angelbaby.com.tw/pages/location",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -1612,7 +3188,32 @@
         "奶瓶奶嘴",
         "嬰兒床",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "安琪兒",
+            "安琪兒婦嬰百貨",
+            "安琪兒婦嬰用品"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選",
+            "中部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.angelbaby.com.tw/pages/location",
+          "adapter": "angelbabyOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-angelbaby-安琪兒-蘆洲長榮店",
@@ -1631,7 +3232,7 @@
         "type": "official",
         "label": "安琪兒官方門市資訊",
         "url": "https://www.angelbaby.com.tw/pages/location",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "medium",
       "tags": [
@@ -1641,7 +3242,32 @@
         "奶瓶奶嘴",
         "嬰兒床",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "安琪兒",
+            "安琪兒婦嬰百貨",
+            "安琪兒婦嬰用品"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選",
+            "中部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.angelbaby.com.tw/pages/location",
+          "adapter": "angelbabyOfficialHtml"
+        },
+        "geocoding": {
+          "status": "missing",
+          "provider": "none"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-angelbaby-安琪兒-桃園旗艦店",
@@ -1660,7 +3286,7 @@
         "type": "official",
         "label": "安琪兒官方門市資訊",
         "url": "https://www.angelbaby.com.tw/pages/location",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -1670,7 +3296,32 @@
         "奶瓶奶嘴",
         "嬰兒床",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "安琪兒",
+            "安琪兒婦嬰百貨",
+            "安琪兒婦嬰用品"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選",
+            "中部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.angelbaby.com.tw/pages/location",
+          "adapter": "angelbabyOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-angelbaby-安琪兒-桃園環球店",
@@ -1689,7 +3340,7 @@
         "type": "official",
         "label": "安琪兒官方門市資訊",
         "url": "https://www.angelbaby.com.tw/pages/location",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -1699,7 +3350,32 @@
         "奶瓶奶嘴",
         "嬰兒床",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "安琪兒",
+            "安琪兒婦嬰百貨",
+            "安琪兒婦嬰用品"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選",
+            "中部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.angelbaby.com.tw/pages/location",
+          "adapter": "angelbabyOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-angelbaby-安琪兒-桃園慈文店",
@@ -1718,7 +3394,7 @@
         "type": "official",
         "label": "安琪兒官方門市資訊",
         "url": "https://www.angelbaby.com.tw/pages/location",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "medium",
       "tags": [
@@ -1728,7 +3404,32 @@
         "奶瓶奶嘴",
         "嬰兒床",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "安琪兒",
+            "安琪兒婦嬰百貨",
+            "安琪兒婦嬰用品"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選",
+            "中部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.angelbaby.com.tw/pages/location",
+          "adapter": "angelbabyOfficialHtml"
+        },
+        "geocoding": {
+          "status": "missing",
+          "provider": "none"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-angelbaby-安琪兒-台中廣三sogo店",
@@ -1747,7 +3448,7 @@
         "type": "official",
         "label": "安琪兒官方門市資訊",
         "url": "https://www.angelbaby.com.tw/pages/location",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -1757,7 +3458,32 @@
         "奶瓶奶嘴",
         "嬰兒床",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "安琪兒",
+            "安琪兒婦嬰百貨",
+            "安琪兒婦嬰用品"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選",
+            "中部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.angelbaby.com.tw/pages/location",
+          "adapter": "angelbabyOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-angelbaby-安琪兒-台中旗艦店",
@@ -1776,7 +3502,7 @@
         "type": "official",
         "label": "安琪兒官方門市資訊",
         "url": "https://www.angelbaby.com.tw/pages/location",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -1786,7 +3512,32 @@
         "奶瓶奶嘴",
         "嬰兒床",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "安琪兒",
+            "安琪兒婦嬰百貨",
+            "安琪兒婦嬰用品"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選",
+            "中部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.angelbaby.com.tw/pages/location",
+          "adapter": "angelbabyOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     },
     {
       "id": "baby-angelbaby-安琪兒-台中豐原店",
@@ -1805,7 +3556,7 @@
         "type": "official",
         "label": "安琪兒官方門市資訊",
         "url": "https://www.angelbaby.com.tw/pages/location",
-        "checkedAt": "2026-07-01T11:07:26.855Z"
+        "checkedAt": "2026-07-01T14:15:42.905Z"
       },
       "confidence": "high",
       "tags": [
@@ -1815,7 +3566,1110 @@
         "奶瓶奶嘴",
         "嬰兒床",
         "孕婦用品"
-      ]
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "安琪兒",
+            "安琪兒婦嬰百貨",
+            "安琪兒婦嬰用品"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "北部候選",
+            "中部候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.angelbaby.com.tw/pages/location",
+          "adapter": "angelbabyOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
+    },
+    {
+      "id": "baby-mamaway-基隆門市",
+      "name": "媽媽餵 基隆門市",
+      "brand": "媽媽餵",
+      "category": "baby_supply",
+      "city": "基隆市",
+      "district": "中正區",
+      "address": "基隆市中正區義一路29號",
+      "phone": "(02)2426-9949",
+      "hours": "週一~週日 PM 12:00~PM 9:00",
+      "lat": 25.133008,
+      "lng": 121.74551,
+      "mapsUrl": "https://www.google.com/maps/place/基隆市中正區義一路29號",
+      "source": {
+        "type": "official",
+        "label": "媽媽餵官方門市資訊",
+        "url": "https://www.mamaway.com.tw/store/",
+        "checkedAt": "2026-07-01T14:15:42.905Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "親子補給"
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "媽媽餵",
+            "Mamaway"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "全台候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.mamaway.com.tw/store/",
+          "adapter": "mamawayOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
+    },
+    {
+      "id": "baby-mamaway-安和門市",
+      "name": "媽媽餵 安和門市",
+      "brand": "媽媽餵",
+      "category": "baby_supply",
+      "city": "",
+      "district": "",
+      "address": "台北市大安區安和路一段74號",
+      "phone": "(02)2701-9591",
+      "hours": "週一~週日 AM 11:00~PM 8:00",
+      "lat": 25.035202483971773,
+      "lng": 121.55027071500622,
+      "mapsUrl": "https://www.google.com/maps/place/台北市大安區安和路一段74號",
+      "source": {
+        "type": "official",
+        "label": "媽媽餵官方門市資訊",
+        "url": "https://www.mamaway.com.tw/store/",
+        "checkedAt": "2026-07-01T14:15:42.905Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "親子補給"
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "媽媽餵",
+            "Mamaway"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "全台候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.mamaway.com.tw/store/",
+          "adapter": "mamawayOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
+    },
+    {
+      "id": "baby-mamaway-婦幼門市",
+      "name": "媽媽餵 婦幼門市",
+      "brand": "媽媽餵",
+      "category": "baby_supply",
+      "city": "臺北市",
+      "district": "中正區",
+      "address": "台北市中正區福州街2號1樓",
+      "phone": "(02)3393-1120",
+      "hours": "周一~周日 AM 10:00~PM 7:00",
+      "lat": 25.024283,
+      "lng": 121.52478400000001,
+      "mapsUrl": "https://www.google.com/maps/place/台北市中正區福州街2號1樓",
+      "source": {
+        "type": "official",
+        "label": "媽媽餵官方門市資訊",
+        "url": "https://www.mamaway.com.tw/store/",
+        "checkedAt": "2026-07-01T14:15:42.905Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "親子補給"
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "媽媽餵",
+            "Mamaway"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "全台候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.mamaway.com.tw/store/",
+          "adapter": "mamawayOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
+    },
+    {
+      "id": "baby-mamaway-台北馬偕門市",
+      "name": "媽媽餵 台北馬偕門市",
+      "brand": "媽媽餵",
+      "category": "baby_supply",
+      "city": "臺北市",
+      "district": "中山區",
+      "address": "台北市中山區民生西路16號",
+      "phone": "：(02)2511-7918",
+      "hours": "請見官方門市資訊",
+      "lat": 25.057708,
+      "lng": 121.52215999999999,
+      "mapsUrl": "https://www.google.com/maps/place/台北市中山區民生西路16號",
+      "source": {
+        "type": "official",
+        "label": "媽媽餵官方門市資訊",
+        "url": "https://www.mamaway.com.tw/store/",
+        "checkedAt": "2026-07-01T14:15:42.905Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "親子補給"
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "媽媽餵",
+            "Mamaway"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "全台候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.mamaway.com.tw/store/",
+          "adapter": "mamawayOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
+    },
+    {
+      "id": "baby-mamaway-美麗華門市",
+      "name": "媽媽餵 美麗華門市",
+      "brand": "媽媽餵",
+      "category": "baby_supply",
+      "city": "臺北市",
+      "district": "中山區",
+      "address": "台北市中山區敬業三路20號本館4樓",
+      "phone": "(02)8501-1392",
+      "hours": "依百貨公司營業時間",
+      "lat": 25.08330718394927,
+      "lng": 121.55497611500724,
+      "mapsUrl": "https://www.google.com/maps/place/台北市中山區敬業三路20號本館4樓",
+      "source": {
+        "type": "official",
+        "label": "媽媽餵官方門市資訊",
+        "url": "https://www.mamaway.com.tw/store/",
+        "checkedAt": "2026-07-01T14:15:42.905Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "親子補給"
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "媽媽餵",
+            "Mamaway"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "全台候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.mamaway.com.tw/store/",
+          "adapter": "mamawayOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
+    },
+    {
+      "id": "baby-mamaway-台北大葉高島屋",
+      "name": "媽媽餵 台北大葉高島屋",
+      "brand": "媽媽餵",
+      "category": "baby_supply",
+      "city": "臺北市",
+      "district": "士林區",
+      "address": "台北市士林區忠誠路二段55號3樓",
+      "phone": "(02)2833-5122",
+      "hours": "依百貨公司營業時間",
+      "lat": 25.11197053917704,
+      "lng": 121.53051681844285,
+      "mapsUrl": "https://www.google.com/maps/place/台北市士林區忠誠路二段55號3樓",
+      "source": {
+        "type": "official",
+        "label": "媽媽餵官方門市資訊",
+        "url": "https://www.mamaway.com.tw/store/",
+        "checkedAt": "2026-07-01T14:15:42.905Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "親子補給"
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "媽媽餵",
+            "Mamaway"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "全台候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.mamaway.com.tw/store/",
+          "adapter": "mamawayOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
+    },
+    {
+      "id": "baby-mamaway-新北中和門市",
+      "name": "媽媽餵 新北中和門市",
+      "brand": "媽媽餵",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "中和區",
+      "address": "新北市中和區中安街12號",
+      "phone": "(02)2920-2479",
+      "hours": "週一~週日 AM 11:00~PM 8:00",
+      "lat": 25.00584,
+      "lng": 121.513995,
+      "mapsUrl": "https://www.google.com/maps/place/新北市中和區中安街12號",
+      "source": {
+        "type": "official",
+        "label": "媽媽餵官方門市資訊",
+        "url": "https://www.mamaway.com.tw/store/",
+        "checkedAt": "2026-07-01T14:15:42.905Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "親子補給"
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "媽媽餵",
+            "Mamaway"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "全台候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.mamaway.com.tw/store/",
+          "adapter": "mamawayOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
+    },
+    {
+      "id": "baby-mamaway-新北蘆洲門市",
+      "name": "媽媽餵 新北蘆洲門市",
+      "brand": "媽媽餵",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "蘆洲區",
+      "address": "新北市蘆洲區長榮路69號",
+      "phone": "(02)2848-9801",
+      "hours": "週一~週日 AM 11:00~PM 9:00",
+      "lat": 25.083799583949084,
+      "lng": 121.45976041500724,
+      "mapsUrl": "https://www.google.com/maps/place/新北市蘆洲區長榮路69號",
+      "source": {
+        "type": "official",
+        "label": "媽媽餵官方門市資訊",
+        "url": "https://www.mamaway.com.tw/store/",
+        "checkedAt": "2026-07-01T14:15:42.905Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "親子補給"
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "媽媽餵",
+            "Mamaway"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "全台候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.mamaway.com.tw/store/",
+          "adapter": "mamawayOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
+    },
+    {
+      "id": "baby-mamaway-新北中和環球",
+      "name": "媽媽餵 新北中和環球",
+      "brand": "媽媽餵",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "中和區",
+      "address": "新北市中和區中山路三段122號3樓",
+      "phone": "(02)2222-9052",
+      "hours": "依百貨公司營業時間",
+      "lat": 25.006673177834088,
+      "lng": 121.4722035753756,
+      "mapsUrl": "https://www.google.com/maps/place/新北市中和區中山路三段122號3樓",
+      "source": {
+        "type": "official",
+        "label": "媽媽餵官方門市資訊",
+        "url": "https://www.mamaway.com.tw/store/",
+        "checkedAt": "2026-07-01T14:15:42.905Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "親子補給"
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "媽媽餵",
+            "Mamaway"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "全台候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.mamaway.com.tw/store/",
+          "adapter": "mamawayOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
+    },
+    {
+      "id": "baby-mamaway-新北板橋大遠百",
+      "name": "媽媽餵 新北板橋大遠百",
+      "brand": "媽媽餵",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "板橋區",
+      "address": "新北市板橋區新站路28號5樓",
+      "phone": "(02)2964-6779",
+      "hours": "依百貨公司營業時間",
+      "lat": 25.013491845267023,
+      "lng": 121.46468451515234,
+      "mapsUrl": "https://www.google.com/maps/place/新北市板橋區新站路28號5樓",
+      "source": {
+        "type": "official",
+        "label": "媽媽餵官方門市資訊",
+        "url": "https://www.mamaway.com.tw/store/",
+        "checkedAt": "2026-07-01T14:15:42.905Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "親子補給"
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "媽媽餵",
+            "Mamaway"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "全台候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.mamaway.com.tw/store/",
+          "adapter": "mamawayOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
+    },
+    {
+      "id": "baby-mamaway-新北新莊幸福門市",
+      "name": "媽媽餵 新北新莊幸福門市",
+      "brand": "媽媽餵",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "新莊區",
+      "address": "新北市新莊區幸福路649號1樓",
+      "phone": "(02)2998-3585",
+      "hours": "週一~週日 AM 11:00~PM 8:00",
+      "lat": 25.049007,
+      "lng": 121.450901,
+      "mapsUrl": "https://www.google.com/maps/place/新北市新莊區幸福路649號1樓",
+      "source": {
+        "type": "official",
+        "label": "媽媽餵官方門市資訊",
+        "url": "https://www.mamaway.com.tw/store/",
+        "checkedAt": "2026-07-01T14:15:42.905Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "親子補給"
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "媽媽餵",
+            "Mamaway"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "全台候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.mamaway.com.tw/store/",
+          "adapter": "mamawayOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
+    },
+    {
+      "id": "baby-mamaway-新北新店裕隆城",
+      "name": "媽媽餵 新北新店裕隆城",
+      "brand": "媽媽餵",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "新店區",
+      "address": "新北市新店區中興路三段70號3樓-櫃位L325",
+      "phone": "(02)8911-1215",
+      "hours": "依百貨公司營業時間",
+      "lat": 24.978062214286584,
+      "lng": 121.54583426962725,
+      "mapsUrl": "https://www.google.com/maps/place/新北市新店區中興路三段70號3樓-櫃位L325",
+      "source": {
+        "type": "official",
+        "label": "媽媽餵官方門市資訊",
+        "url": "https://www.mamaway.com.tw/store/",
+        "checkedAt": "2026-07-01T14:15:42.905Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "親子補給"
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "媽媽餵",
+            "Mamaway"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "全台候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.mamaway.com.tw/store/",
+          "adapter": "mamawayOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
+    },
+    {
+      "id": "baby-mamaway-新北林口門市",
+      "name": "媽媽餵 新北林口門市",
+      "brand": "媽媽餵",
+      "category": "baby_supply",
+      "city": "桃園市",
+      "district": "龜山區",
+      "address": "桃園市龜山區復興一路193號",
+      "phone": "(03)327-7925",
+      "hours": "週一~週日 AM 11:00~PM 8:00",
+      "lat": 25.058361167627957,
+      "lng": 121.36477672468978,
+      "mapsUrl": "https://www.google.com/maps/place/桃園市龜山區復興一路193號",
+      "source": {
+        "type": "official",
+        "label": "媽媽餵官方門市資訊",
+        "url": "https://www.mamaway.com.tw/store/",
+        "checkedAt": "2026-07-01T14:15:42.905Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "親子補給"
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "媽媽餵",
+            "Mamaway"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "全台候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.mamaway.com.tw/store/",
+          "adapter": "mamawayOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
+    },
+    {
+      "id": "baby-mamaway-桃園經國門市",
+      "name": "媽媽餵 桃園經國門市",
+      "brand": "媽媽餵",
+      "category": "baby_supply",
+      "city": "桃園市",
+      "district": "桃園區",
+      "address": "桃園市桃園區經國二路95號1樓",
+      "phone": "(03)358-1033",
+      "hours": "週一~週日 AM 11:00~PM 8:00",
+      "lat": 25.030543878374885,
+      "lng": 121.29744072227847,
+      "mapsUrl": "https://www.google.com/maps/place/桃園市桃園區經國二路95號1樓",
+      "source": {
+        "type": "official",
+        "label": "媽媽餵官方門市資訊",
+        "url": "https://www.mamaway.com.tw/store/",
+        "checkedAt": "2026-07-01T14:15:42.905Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "親子補給"
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "媽媽餵",
+            "Mamaway"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "全台候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.mamaway.com.tw/store/",
+          "adapter": "mamawayOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
+    },
+    {
+      "id": "baby-mamaway-中壢元化門市",
+      "name": "媽媽餵 中壢元化門市",
+      "brand": "媽媽餵",
+      "category": "baby_supply",
+      "city": "桃園市",
+      "district": "中壢區",
+      "address": "桃園市中壢區元化路270號1樓",
+      "phone": "(03)427-7072",
+      "hours": "週一~週日 AM 11:00~PM 9:00",
+      "lat": 24.96207688400609,
+      "lng": 121.22322771500488,
+      "mapsUrl": "https://www.google.com/maps/place/桃園市中壢區元化路270號1樓",
+      "source": {
+        "type": "official",
+        "label": "媽媽餵官方門市資訊",
+        "url": "https://www.mamaway.com.tw/store/",
+        "checkedAt": "2026-07-01T14:15:42.905Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "親子補給"
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "媽媽餵",
+            "Mamaway"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "全台候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.mamaway.com.tw/store/",
+          "adapter": "mamawayOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
+    },
+    {
+      "id": "baby-mamaway-桃園遠東門市",
+      "name": "媽媽餵 桃園遠東門市",
+      "brand": "媽媽餵",
+      "category": "baby_supply",
+      "city": "",
+      "district": "",
+      "address": "桃園市中正路20號5樓",
+      "phone": "(03)332-4221",
+      "hours": "依百貨公司營業時間",
+      "lat": 24.989797087317047,
+      "lng": 121.31259934172667,
+      "mapsUrl": "https://www.google.com/maps/place/桃園市中正路20號5樓",
+      "source": {
+        "type": "official",
+        "label": "媽媽餵官方門市資訊",
+        "url": "https://www.mamaway.com.tw/store/",
+        "checkedAt": "2026-07-01T14:15:42.905Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "親子補給"
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "媽媽餵",
+            "Mamaway"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "全台候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.mamaway.com.tw/store/",
+          "adapter": "mamawayOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
+    },
+    {
+      "id": "baby-mamaway-桃園台茂門市",
+      "name": "媽媽餵 桃園台茂門市",
+      "brand": "媽媽餵",
+      "category": "baby_supply",
+      "city": "桃園市",
+      "district": "蘆竹區",
+      "address": "桃園市蘆竹區南崁路一段112號4樓",
+      "phone": "(03)311-6729",
+      "hours": "依百貨公司營業時間",
+      "lat": 25.053678718887348,
+      "lng": 121.28807492414897,
+      "mapsUrl": "https://www.google.com/maps/place/桃園市蘆竹區南崁路一段112號4樓",
+      "source": {
+        "type": "official",
+        "label": "媽媽餵官方門市資訊",
+        "url": "https://www.mamaway.com.tw/store/",
+        "checkedAt": "2026-07-01T14:15:42.905Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "親子補給"
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "媽媽餵",
+            "Mamaway"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "全台候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.mamaway.com.tw/store/",
+          "adapter": "mamawayOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
+    },
+    {
+      "id": "baby-mamaway-桃園大江購物中心",
+      "name": "媽媽餵 桃園大江購物中心",
+      "brand": "媽媽餵",
+      "category": "baby_supply",
+      "city": "桃園市",
+      "district": "中壢區",
+      "address": "桃園市中壢區中園路二段501號2樓",
+      "phone": "(03)468-0598",
+      "hours": "依百貨公司營業時間",
+      "lat": 25.00149239538724,
+      "lng": 121.22778311527489,
+      "mapsUrl": "https://www.google.com/maps/place/桃園市中壢區中園路二段501號2樓",
+      "source": {
+        "type": "official",
+        "label": "媽媽餵官方門市資訊",
+        "url": "https://www.mamaway.com.tw/store/",
+        "checkedAt": "2026-07-01T14:15:42.905Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "親子補給"
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "媽媽餵",
+            "Mamaway"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "全台候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.mamaway.com.tw/store/",
+          "adapter": "mamawayOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
+    },
+    {
+      "id": "baby-mamaway-新竹東元門市",
+      "name": "媽媽餵 新竹東元門市",
+      "brand": "媽媽餵",
+      "category": "baby_supply",
+      "city": "新竹縣",
+      "district": "竹北市",
+      "address": "新竹縣竹北市縣政二路67號",
+      "phone": "(03)657-2852",
+      "hours": "週一~週日 AM 11:00~ PM 9:00",
+      "lat": 24.823678,
+      "lng": 121.01430100000002,
+      "mapsUrl": "https://www.google.com/maps/place/新竹縣竹北市縣政二路67號",
+      "source": {
+        "type": "official",
+        "label": "媽媽餵官方門市資訊",
+        "url": "https://www.mamaway.com.tw/store/",
+        "checkedAt": "2026-07-01T14:15:42.905Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "親子補給"
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "媽媽餵",
+            "Mamaway"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "全台候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.mamaway.com.tw/store/",
+          "adapter": "mamawayOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
+    },
+    {
+      "id": "baby-mamaway-竹北遠百",
+      "name": "媽媽餵 竹北遠百",
+      "brand": "媽媽餵",
+      "category": "baby_supply",
+      "city": "新竹縣",
+      "district": "竹北市",
+      "address": "新竹縣竹北市莊敬北路18號3樓",
+      "phone": "(03)658-5011",
+      "hours": "依百貨公司營業時間",
+      "lat": 24.824041384071045,
+      "lng": 121.02168911500208,
+      "mapsUrl": "https://www.google.com/maps/place/新竹縣竹北市莊敬北路18號3樓",
+      "source": {
+        "type": "official",
+        "label": "媽媽餵官方門市資訊",
+        "url": "https://www.mamaway.com.tw/store/",
+        "checkedAt": "2026-07-01T14:15:42.905Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "親子補給"
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "媽媽餵",
+            "Mamaway"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "全台候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.mamaway.com.tw/store/",
+          "adapter": "mamawayOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
+    },
+    {
+      "id": "baby-mamaway-新竹big-city購物中心",
+      "name": "媽媽餵 新竹Big City購物中心",
+      "brand": "媽媽餵",
+      "category": "baby_supply",
+      "city": "",
+      "district": "",
+      "address": "新竹市中央路229號5樓",
+      "phone": "(03)623-8501",
+      "hours": "依百貨公司營業時間",
+      "lat": 24.809224,
+      "lng": 120.97511100000001,
+      "mapsUrl": "https://www.google.com/maps/place/新竹市中央路229號5樓",
+      "source": {
+        "type": "official",
+        "label": "媽媽餵官方門市資訊",
+        "url": "https://www.mamaway.com.tw/store/",
+        "checkedAt": "2026-07-01T14:15:42.905Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "親子補給"
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "媽媽餵",
+            "Mamaway"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "全台候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.mamaway.com.tw/store/",
+          "adapter": "mamawayOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
+    },
+    {
+      "id": "baby-mamaway-桃園青埔門市",
+      "name": "媽媽餵 桃園青埔門市",
+      "brand": "媽媽餵",
+      "category": "baby_supply",
+      "city": "桃園市",
+      "district": "中壢區",
+      "address": "桃園市中壢區領航南路二段265號",
+      "phone": "",
+      "hours": "週一~週日 PM 12：00~PM 9:00",
+      "lat": 25.006282739405144,
+      "lng": 121.21310107639607,
+      "mapsUrl": "https://www.google.com/maps/place/桃園市中壢區領航南路二段265號",
+      "source": {
+        "type": "official",
+        "label": "媽媽餵官方門市資訊",
+        "url": "https://www.mamaway.com.tw/store/",
+        "checkedAt": "2026-07-01T14:15:42.905Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "親子補給"
+      ],
+      "evidence": {
+        "candidateDiscovery": {
+          "method": "brand_registry",
+          "matchedKeywords": [
+            "媽媽餵",
+            "Mamaway"
+          ],
+          "sourceLabels": [
+            "救援品牌 registry",
+            "全台候選"
+          ]
+        },
+        "officialVerification": {
+          "status": "verified",
+          "sourceUrl": "https://www.mamaway.com.tw/store/",
+          "adapter": "mamawayOfficialHtml"
+        },
+        "geocoding": {
+          "status": "exact",
+          "provider": "official_google_maps_redirect"
+        }
+      },
+      "notes": "官方門市資料整理；商品庫存與營業異動請出發前電話確認。"
     }
   ]
 }

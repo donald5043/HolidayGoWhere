@@ -79,6 +79,23 @@ export type RescueSupplyCategory =
 
 export type RescueSupplyConfidence = 'high' | 'medium' | 'low'
 
+export type RescueSupplyEvidence = {
+  candidateDiscovery?: {
+    method: 'brand_registry' | 'government_keyword' | 'osm_keyword' | 'manual_seed'
+    matchedKeywords: string[]
+    sourceLabels: string[]
+  }
+  officialVerification?: {
+    status: 'verified' | 'candidate_only'
+    sourceUrl?: string
+    adapter?: string
+  }
+  geocoding?: {
+    status: 'exact' | 'map_center' | 'missing'
+    provider: 'official_google_maps_redirect' | 'manual' | 'none'
+  }
+}
+
 export type RescueSupply = {
   id: string
   name: string
@@ -100,7 +117,49 @@ export type RescueSupply = {
   }
   confidence: RescueSupplyConfidence
   tags: string[]
+  evidence?: RescueSupplyEvidence
   notes?: string
+}
+
+export type RescueSupplyDatasetMeta = {
+  summary?: {
+    total: number
+    withCoordinates: number
+    highConfidence: number
+    mediumConfidence: number
+    activeBrands: number
+    candidateBrands: number
+    brands: Record<string, number>
+  }
+  pipeline?: {
+    version: number
+    generatedAt: string
+    philosophy: string
+    layers: {
+      id: string
+      label: string
+      status: string
+      description: string
+    }[]
+  }
+  discovery?: {
+    activeBrands: {
+      id: string
+      name: string
+      adapter: string
+      officialUrl: string
+      regions: string[]
+    }[]
+    candidateBrands: {
+      id: string
+      name: string
+      category: RescueSupplyCategory
+      regions: string[]
+      aliases: string[]
+      status: string
+      nextStep: string
+    }[]
+  }
 }
 
 export type Place = {
