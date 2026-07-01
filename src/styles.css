@@ -4761,6 +4761,10 @@ body.map-expanded-lock .bottom-nav {
   gap: 10px;
 }
 
+.notification-list--digest {
+  gap: 12px;
+}
+
 .notification-card {
   padding: 14px;
   border: 1px solid rgba(45,74,69,0.08);
@@ -4775,6 +4779,11 @@ body.map-expanded-lock .bottom-nav {
 
 .notification-card.is-urgent {
   background: linear-gradient(135deg, #fff8ed, #eef7f2);
+}
+
+.notification-card--soft {
+  background: rgba(248,244,236,0.72);
+  box-shadow: none;
 }
 
 .notification-card-icon {
@@ -6045,7 +6054,7 @@ body.map-expanded-lock .bottom-nav {
 
   .explore-grid {
     grid-template-columns: minmax(300px, 0.95fr) minmax(0, 1.05fr);
-    grid-template-areas: "list map";
+    grid-template-areas: "map list";
     gap: 14px;
     align-items: start;
   }

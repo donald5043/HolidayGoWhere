@@ -382,6 +382,7 @@ function App() {
   const [activeTab, setActiveTab] = useState<'home' | 'explore' | 'favorites' | 'profile'>('home')
   const [showProfile, setShowProfile] = useState(false)
   const [showNotifications, setShowNotifications] = useState(false)
+  const [seenNotificationKey, setSeenNotificationKey] = useState(() => localStorage.getItem('holiday-notification-seen') || '')
   const [wizardAge, setWizardAge]           = useState<WizardAgeGroup>('all')
   const [wizardDuration, setWizardDuration] = useState<WizardDuration>('all')
   const [wizardDistKm, setWizardDistKm]     = useState<10 | 20 | 40>(20)
@@ -860,6 +861,15 @@ function App() {
     () => sourcePlaces.filter((place) => place.placeType === '餐飲').length,
     [sourcePlaces],
   )
+  const notificationKey = useMemo(() => {
+    const today = new Date().toISOString().slice(0, 10)
+    const weatherBucket = weather
+      ? `${weather.weatherCode}-${Math.round(weather.precipitationProbability / 10) * 10}-${Math.round(weather.temperature)}`
+      : weatherStatus
+    const healthKey = healthAdvisories[0]?.id || 'no-health'
+    return `${today}|${weatherBucket}|${healthKey}|nearby-${nearbyPlaces.length ? 'ready' : 'empty'}|rainy-${rainyBackupCount}`
+  }, [healthAdvisories, nearbyPlaces.length, rainyBackupCount, weather, weatherStatus])
+  const hasUnreadNotification = seenNotificationKey !== notificationKey
 
   const personality = useMemo(
     () => computePersonality([...favorites, ...clickHistory], places),
@@ -979,6 +989,8 @@ function App() {
   const openNotifications = () => {
     playUiSound('open')
     setShowProfile(false)
+    localStorage.setItem('holiday-notification-seen', notificationKey)
+    setSeenNotificationKey(notificationKey)
     setShowNotifications(true)
   }
 
@@ -1048,7 +1060,7 @@ function App() {
           </button>
           <button className="icon-button notification-button" onClick={openNotifications} aria-label="打開今日親子提醒">
             <Bell size={19} />
-            <span className="notification-dot" aria-hidden="true" />
+            {hasUnreadNotification && <span className="notification-dot" aria-hidden="true" />}
           </button>
         </div>
       </header>
