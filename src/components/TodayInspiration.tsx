@@ -156,13 +156,6 @@ export function TodayInspiration({
         </div>
       </section>
 
-      <QMomHealthAdvisory
-        advisories={healthAdvisories}
-        cdcStatus={healthCdcStatus}
-        generatedAt={healthAdvisoryGeneratedAt}
-        selectedAge={selectedAge}
-      />
-
       <section className="phase-scenarios" aria-label="親子情境快速選擇">
         {(Object.entries(scenarioCopy) as [ScenarioKey, typeof scenarioCopy[ScenarioKey]][]).map(([key, item]) => {
           const Icon = item.icon
@@ -245,6 +238,19 @@ export function TodayInspiration({
           })}
         </div>
       </section>
+
+      {healthAdvisories.length > 0 && (
+        <section className="phase-health-note" aria-label="行前安心小提醒">
+          <QMomHealthAdvisory
+            advisories={healthAdvisories}
+            compact
+            mode="inline"
+            cdcStatus={healthCdcStatus}
+            generatedAt={healthAdvisoryGeneratedAt}
+            selectedAge={selectedAge}
+          />
+        </section>
+      )}
 
       <section className="phase-memory-card">
         <Mascot variant="family" className="phase-memory-mascot" />

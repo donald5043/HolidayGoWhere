@@ -2456,6 +2456,14 @@ p.wizard-reason {
   display: none;
 }
 
+.phase-health-note {
+  margin: -2px 0 2px;
+}
+
+.phase-health-note .qmom-advisory--inline {
+  opacity: 0.92;
+}
+
 .phase-hero-actions {
   margin-top: 26px;
   display: flex;
