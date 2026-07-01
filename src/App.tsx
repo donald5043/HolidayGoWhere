@@ -77,6 +77,7 @@ import { ReportForm } from './components/ReportForm'
 import { ProfileDrawer } from './components/ProfileDrawer'
 import { TodayInspiration } from './components/TodayInspiration'
 import { compactNumber } from './lib/format'
+import { fetchPublicJson } from './lib/fetchPublicJson'
 
 const regionIcons: Partial<Record<(typeof regions)[number], ReactNode>> = {
   北部: <Building2 size={14} />,
@@ -304,11 +305,11 @@ const regionCenters: Record<RegionName, { lat: number; lng: number }> = {
 }
 
 const regionLoaders: Record<RegionName, () => Promise<Place[]>> = {
-  北部: () => import('./generated/places-north.json').then((module) => module.default as Place[]),
-  中部: () => import('./generated/places-central.json').then((module) => module.default as Place[]),
-  南部: () => import('./generated/places-south.json').then((module) => module.default as Place[]),
-  東部: () => import('./generated/places-east.json').then((module) => module.default as Place[]),
-  離島: () => import('./generated/places-islands.json').then((module) => module.default as Place[]),
+  北部: () => fetchPublicJson<Place[]>('data/places-north.json'),
+  中部: () => fetchPublicJson<Place[]>('data/places-central.json'),
+  南部: () => fetchPublicJson<Place[]>('data/places-south.json'),
+  東部: () => fetchPublicJson<Place[]>('data/places-east.json'),
+  離島: () => fetchPublicJson<Place[]>('data/places-islands.json'),
 }
 
 function distanceInKm(
@@ -633,9 +634,9 @@ function App() {
 
   useEffect(() => {
     if (!restaurantOnly || osmRestaurantsLoaded) return
-    import('./generated/restaurants-osm.json')
-      .then((module) => {
-        setOsmRestaurants(module.default as Place[])
+    fetchPublicJson<Place[]>('data/restaurants-osm.json')
+      .then((restaurants) => {
+        setOsmRestaurants(restaurants)
         setOsmRestaurantsLoaded(true)
       })
       .catch(() => {

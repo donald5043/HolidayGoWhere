@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import type { AiInsight, Place } from '../data'
+import { fetchPublicJson } from '../lib/fetchPublicJson'
 
 export function usePlaces() {
   const [places, setPlaces] = useState<Place[]>([])
@@ -9,10 +10,9 @@ export function usePlaces() {
 
   useEffect(() => {
     let active = true
-    import('../generated/places-featured.json')
-      .then((module) => {
+    fetchPublicJson<Place[]>('data/places-featured.json')
+      .then((featured) => {
         if (!active) return
-        const featured = module.default as Place[]
         setPlaces(featured)
         setPlaceCache({ 全部: featured })
         setPlacesStatus('ready')
@@ -26,8 +26,8 @@ export function usePlaces() {
   }, [])
 
   useEffect(() => {
-    import('../generated/ai-insights.json')
-      .then((module) => setAiInsights(module.default as Record<string, AiInsight>))
+    fetchPublicJson<Record<string, AiInsight>>('data/ai-insights.json')
+      .then((insights) => setAiInsights(insights))
       .catch(() => setAiInsights({}))
   }, [])
 

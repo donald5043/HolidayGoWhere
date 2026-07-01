@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import type { Place, RestaurantCategory } from '../data'
+import { fetchPublicJson } from '../lib/fetchPublicJson'
 import { classifyRestaurant, categoryPriority, CATEGORY_LABEL } from '../services/restaurantClassifier'
 import { RestaurantCard } from './RestaurantCard'
 
@@ -50,11 +51,11 @@ export function NearbyRestaurants({ allPlaces, anchor, onOpen }: Props) {
   const handleSetRadius = (r: RadiusKm) => { setRadiusKm(r); setShowAll(false) }
 
   useEffect(() => {
-    import('../generated/restaurants-featured.json')
-      .then((m) => setFeatured(m.default as Place[]))
+    fetchPublicJson<Place[]>('data/restaurants-featured.json')
+      .then((restaurants) => setFeatured(restaurants))
       .catch(() => {/* silent */})
-    import('../generated/restaurants-osm.json')
-      .then((m) => setOsm(m.default as Place[]))
+    fetchPublicJson<Place[]>('data/restaurants-osm.json')
+      .then((restaurants) => setOsm(restaurants))
       .catch(() => {/* silent */})
   }, [])
 

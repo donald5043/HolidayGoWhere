@@ -17,6 +17,7 @@ export default defineConfig({
         clientsClaim: true,
         skipWaiting: true,
         globIgnores: [
+          '**/data/*.json',
           '**/places-north-*.js',
           '**/places-central-*.js',
           '**/places-south-*.js',
@@ -26,12 +27,12 @@ export default defineConfig({
         ],
         runtimeCaching: [
           {
-            urlPattern: /\/assets\/places-(north|central|south|east|islands)-.*\.js$/,
+            urlPattern: /\/data\/(places|restaurants|ai-insights).*\.json$/,
             handler: 'CacheFirst',
             options: {
-              cacheName: 'holiday-region-data',
+              cacheName: 'holiday-public-data',
               expiration: {
-                maxEntries: 10,
+                maxEntries: 16,
                 maxAgeSeconds: 7 * 24 * 60 * 60
               }
             }
