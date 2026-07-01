@@ -360,7 +360,7 @@ function App() {
     eventOnly, setEventOnly,
     restaurantOnly, setRestaurantOnly,
   } = useFilters()
-  const { healthAdvisories } = useHealthAdvisories(age, region === '全部' ? null : region)
+  const { healthAdvisories, healthAdvisoryGeneratedAt, healthCdcStatus } = useHealthAdvisories(age, region === '全部' ? null : region)
   const { weather, weatherStatus, loadWeather } = useWeather()
   const [showFilters, setShowFilters] = useState(false)
   const [selected, setSelected] = useState<Place | null>(null)
@@ -1044,6 +1044,9 @@ function App() {
               userLocation={userLocation}
               favorites={favorites}
               healthAdvisories={healthAdvisories}
+              healthCdcStatus={healthCdcStatus}
+              healthAdvisoryGeneratedAt={healthAdvisoryGeneratedAt}
+              selectedAge={age}
               onOpenPlace={openPlace}
               onFavorite={toggleFavorite}
               onExplore={() => goExplore()}
@@ -1151,7 +1154,13 @@ function App() {
               </button>
             </section>
 
-            <QMomHealthAdvisory advisories={healthAdvisories} compact />
+            <QMomHealthAdvisory
+              advisories={healthAdvisories}
+              compact
+              selectedAge={age}
+              cdcStatus={healthCdcStatus}
+              generatedAt={healthAdvisoryGeneratedAt}
+            />
 
             {/* ── 天氣主動提示 ── */}
             {weatherStatus === 'ready' && weather && (() => {
@@ -1467,6 +1476,14 @@ function App() {
               <Utensils size={14} />爸媽想休息
             </button>
           </div>
+
+          <QMomHealthAdvisory
+            advisories={healthAdvisories}
+            compact
+            selectedAge={age}
+            cdcStatus={healthCdcStatus}
+            generatedAt={healthAdvisoryGeneratedAt}
+          />
 
           {weather && (
             <div className="weather-recommendation">

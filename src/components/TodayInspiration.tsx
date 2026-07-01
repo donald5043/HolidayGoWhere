@@ -27,6 +27,9 @@ type Props = {
   userLocation: { lat: number; lng: number } | null
   favorites: string[]
   healthAdvisories: HealthAdvisory[]
+  healthCdcStatus?: Parameters<typeof QMomHealthAdvisory>[0]['cdcStatus']
+  healthAdvisoryGeneratedAt?: string | null
+  selectedAge?: string
   onOpenPlace: (place: Place) => void
   onFavorite: (id: string) => void
   onScenario: (scenario: ScenarioKey) => void
@@ -84,6 +87,9 @@ export function TodayInspiration({
   userLocation,
   favorites,
   healthAdvisories,
+  healthCdcStatus,
+  healthAdvisoryGeneratedAt,
+  selectedAge = 'all',
   onOpenPlace,
   onFavorite,
   onScenario,
@@ -150,7 +156,12 @@ export function TodayInspiration({
         </div>
       </section>
 
-      <QMomHealthAdvisory advisories={healthAdvisories} />
+      <QMomHealthAdvisory
+        advisories={healthAdvisories}
+        cdcStatus={healthCdcStatus}
+        generatedAt={healthAdvisoryGeneratedAt}
+        selectedAge={selectedAge}
+      />
 
       <section className="phase-scenarios" aria-label="親子情境快速選擇">
         {(Object.entries(scenarioCopy) as [ScenarioKey, typeof scenarioCopy[ScenarioKey]][]).map(([key, item]) => {

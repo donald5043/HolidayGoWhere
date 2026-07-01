@@ -6,6 +6,26 @@ type HealthAdvisoryPayload = {
   schemaVersion: number
   generatedAt: string
   sourcePolicy: string
+  syncStatus?: {
+    cdc?: {
+      freshAdvisories: number
+      fallbackAdvisories: number
+      failedDiseases: string[]
+      attempts?: {
+        diseaseName: string
+        dataGovDatasetId?: number
+        metadataVerified?: boolean
+        dataset?: string
+        metadataUrl?: string
+        resourceUrl?: string
+        usedUrl?: string
+        resourceFormat?: string
+        records?: number
+        ok: boolean
+        error?: string
+      }[]
+    }
+  }
   advisories: HealthAdvisory[]
 }
 
@@ -29,19 +49,23 @@ function matchesRegion(advisory: HealthAdvisory, region: string | null) {
 
 export function useHealthAdvisories(age: string, region: string | null) {
   const [advisories, setAdvisories] = useState<HealthAdvisory[]>([])
+  const [payload, setPayload] = useState<HealthAdvisoryPayload | null>(null)
   const [status, setStatus] = useState<'idle' | 'loading' | 'ready' | 'error'>('idle')
 
   useEffect(() => {
     let cancelled = false
+    const dailyVersion = new Date().toISOString().slice(0, 10)
     setStatus('loading')
-    fetchPublicJson<HealthAdvisoryPayload>('data/health-advisories.json')
+    fetchPublicJson<HealthAdvisoryPayload>(`data/health-advisories.json?v=${dailyVersion}`, { cache: 'no-cache' })
       .then((payload) => {
         if (cancelled) return
+        setPayload(payload)
         setAdvisories(payload.advisories || [])
         setStatus('ready')
       })
       .catch(() => {
         if (cancelled) return
+        setPayload(null)
         setAdvisories([])
         setStatus('error')
       })
@@ -51,14 +75,22 @@ export function useHealthAdvisories(age: string, region: string | null) {
   }, [])
 
   const visibleAdvisories = useMemo(
-    () => advisories
-      .filter((advisory) => matchesAge(advisory, age) && matchesRegion(advisory, region))
-      .sort((first, second) => {
+    () => {
+      const ageMatched = advisories.filter((advisory) => matchesAge(advisory, age))
+      const regionMatched = ageMatched.filter((advisory) => matchesRegion(advisory, region))
+      const fallbackMatched = regionMatched.length ? regionMatched : ageMatched
+      return fallbackMatched.sort((first, second) => {
         const severityRank = { elevated: 3, notice: 2, info: 1 }
         return severityRank[second.severity] - severityRank[first.severity]
-      }),
+      })
+    },
     [advisories, age, region],
   )
 
-  return { healthAdvisories: visibleAdvisories, healthAdvisoryStatus: status }
+  return {
+    healthAdvisories: visibleAdvisories,
+    healthAdvisoryStatus: status,
+    healthAdvisoryGeneratedAt: payload?.generatedAt ?? null,
+    healthCdcStatus: payload?.syncStatus?.cdc ?? null,
+  }
 }
