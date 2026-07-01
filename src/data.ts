@@ -71,6 +71,38 @@ export type RestaurantTier =
   | 'tourism_restaurant'
   | 'general_nearby'
 
+export type RescueSupplyCategory =
+  | 'baby_supply'
+  | 'pharmacy'
+  | 'hospital_emergency'
+  | 'family_facility'
+
+export type RescueSupplyConfidence = 'high' | 'medium' | 'low'
+
+export type RescueSupply = {
+  id: string
+  name: string
+  brand: string
+  category: RescueSupplyCategory
+  city: string
+  district: string
+  address: string
+  phone: string
+  hours: string
+  lat: number | null
+  lng: number | null
+  mapsUrl: string
+  source: {
+    type: 'official' | 'open_data' | 'osm' | 'curated'
+    label: string
+    url: string
+    checkedAt: string
+  }
+  confidence: RescueSupplyConfidence
+  tags: string[]
+  notes?: string
+}
+
 export type Place = {
   id: string
   name: string

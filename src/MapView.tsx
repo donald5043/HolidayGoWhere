@@ -39,6 +39,7 @@ const userLocationIcon = L.divIcon({
 })
 
 function markerTone(place: Place) {
+  if (place.category === '臨時補給') return '#789B8D'
   if (place.placeType === '餐飲') return '#789B8D'
   if (place.weekendEvent) return '#E9A93A'
   if (place.rainyDay || place.setting === '室內') return '#5B8FF0'
@@ -46,6 +47,7 @@ function markerTone(place: Place) {
 }
 
 function markerLabel(place: Place) {
+  if (place.category === '臨時補給') return '🛒'
   if (place.placeType === '餐飲') {
     const score = classifyRestaurant(place)
     return CATEGORY_EMOJI[score.restaurantCategory]

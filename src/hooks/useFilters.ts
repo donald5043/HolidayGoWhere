@@ -14,6 +14,7 @@ export function useFilters() {
   const [rainyOnly, setRainyOnly] = useState(false)
   const [eventOnly, setEventOnly] = useState(false)
   const [restaurantOnly, setRestaurantOnly] = useState(false)
+  const [rescueOnly, setRescueOnly] = useState(false)
 
   return {
     query, setQuery,
@@ -24,5 +25,6 @@ export function useFilters() {
     rainyOnly, setRainyOnly,
     eventOnly, setEventOnly,
     restaurantOnly, setRestaurantOnly,
+    rescueOnly, setRescueOnly,
   }
 }

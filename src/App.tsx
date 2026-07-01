@@ -71,6 +71,7 @@ import { usePlaces } from './hooks/usePlaces'
 import { useWeather } from './hooks/useWeather'
 import { useUserLocation } from './hooks/useUserLocation'
 import { useHealthAdvisories } from './hooks/useHealthAdvisories'
+import { useRescueSupplies } from './hooks/useRescueSupplies'
 import { regions, useFilters } from './hooks/useFilters'
 import { MichelinBadge, PlaceCard, PlaceImage } from './components/PlaceCard'
 import { FilterSheet } from './components/FilterSheet'
@@ -359,7 +360,9 @@ function App() {
     rainyOnly, setRainyOnly,
     eventOnly, setEventOnly,
     restaurantOnly, setRestaurantOnly,
+    rescueOnly, setRescueOnly,
   } = useFilters()
+  const { rescuePlaces, rescueStatus } = useRescueSupplies(rescueOnly)
   const { healthAdvisories, healthAdvisoryGeneratedAt, healthCdcStatus } = useHealthAdvisories(age, region === '全部' ? null : region)
   const { weather, weatherStatus, loadWeather } = useWeather()
   const [showFilters, setShowFilters] = useState(false)
@@ -542,6 +545,7 @@ function App() {
 
   const enableRestaurantMode = () => {
     setRestaurantOnly(true)
+    setRescueOnly(false)
     setEventOnly(false)
     setRainyOnly(false)
     if (region === '全部') loadRestaurantsNearUser()
@@ -554,6 +558,63 @@ function App() {
       return
     }
     enableRestaurantMode()
+  }
+
+  const enableRescueMode = useCallback(() => {
+    setRescueOnly(true)
+    setRestaurantOnly(false)
+    setEventOnly(false)
+    setRainyOnly(false)
+    setAge('all')
+    setSetting('全部')
+    setDuration('全部')
+    setMapViewport(null)
+    if (userLocation) {
+      setLocationStatus('ready')
+      setLocationMessage('已依你的位置排序臨時補給點，適合找尿布、奶粉、推車汽座用品。')
+      setMapFocusKey((current) => current + 1)
+      return
+    }
+    if (!navigator.geolocation) {
+      setLocationStatus('error')
+      setLocationMessage('這個瀏覽器不支援定位，會先顯示已整理的官方補給點。')
+      return
+    }
+    setLocationStatus('loading')
+    setLocationMessage('正在取得你的位置，準備找附近的母嬰補給點…')
+    navigator.geolocation.getCurrentPosition(
+      ({ coords }) => {
+        const nextLocation = { lat: coords.latitude, lng: coords.longitude }
+        setUserLocation(nextLocation)
+        setLocationStatus('ready')
+        setLocationMessage('已依你的位置排序臨時補給點，出發前建議先電話確認庫存。')
+        setMapFocusKey((current) => current + 1)
+        loadWeather(coords.latitude, coords.longitude)
+      },
+      (error) => {
+        const messages: Record<number, string> = {
+          1: '定位權限被關閉了，會先顯示已整理的官方補給點。',
+          2: '目前無法取得位置，會先顯示已整理的官方補給點。',
+          3: '定位等待太久，會先顯示已整理的官方補給點。',
+        }
+        setLocationStatus('error')
+        setLocationMessage(messages[error.code] || '無法取得位置，會先顯示已整理的官方補給點。')
+      },
+      {
+        enableHighAccuracy: false,
+        timeout: 10000,
+        maximumAge: 5 * 60 * 1000,
+      },
+    )
+  }, [loadWeather, setAge, setDuration, setEventOnly, setLocationMessage, setLocationStatus, setRainyOnly, setRescueOnly, setRestaurantOnly, setSetting, setUserLocation, userLocation])
+
+  const toggleRescueMode = () => {
+    playUiSound()
+    if (rescueOnly) {
+      setRescueOnly(false)
+      return
+    }
+    enableRescueMode()
   }
 
   const handleMapViewportChange = useCallback((nextViewport: MapViewport) => {
@@ -659,6 +720,38 @@ function App() {
       })
   }, [restaurantOnly, osmRestaurantsLoaded])
 
+  const scopedRescuePlaces = useMemo(() => {
+    if (!rescueOnly || !rescuePlaces.length) return [] as Place[]
+
+    const inViewport = (place: Place) => {
+      if (!mapViewport) return true
+      const latPadding = Math.max((mapViewport.bounds.north - mapViewport.bounds.south) * 0.2, 0.02)
+      const lngPadding = Math.max((mapViewport.bounds.east - mapViewport.bounds.west) * 0.2, 0.02)
+      return (
+        place.lat <= mapViewport.bounds.north + latPadding &&
+        place.lat >= mapViewport.bounds.south - latPadding &&
+        place.lng <= mapViewport.bounds.east + lngPadding &&
+        place.lng >= mapViewport.bounds.west - lngPadding
+      )
+    }
+
+    const anchor = mapViewport?.center || userLocation || (region !== '全部' ? regionCenters[region] : null)
+    const maxDistanceKm = mapViewport ? 80 : userLocation ? 35 : 120
+
+    return rescuePlaces
+      .filter((place) =>
+        inViewport(place) &&
+        (!anchor || distanceInKm(anchor, place) <= maxDistanceKm),
+      )
+      .map((place) => ({
+        place,
+        dist: anchor ? distanceInKm(anchor, place) : 0,
+      }))
+      .sort((first, second) => first.dist - second.dist)
+      .slice(0, isCompactResultsView ? 80 : 140)
+      .map(({ place }) => place)
+  }, [rescueOnly, rescuePlaces, mapViewport, userLocation, region, isCompactResultsView])
+
   const scopedOsmRestaurants = useMemo(() => {
     if (!restaurantOnly || !osmRestaurants.length) return [] as Place[]
     const existingIds = new Set(places.map((place) => place.id))
@@ -701,8 +794,8 @@ function App() {
   }, [restaurantOnly, osmRestaurants, places, mapViewport, userLocation, region, isCompactResultsView])
 
   const sourcePlaces = useMemo(
-    () => restaurantOnly ? [...places, ...scopedOsmRestaurants] : places,
-    [restaurantOnly, places, scopedOsmRestaurants],
+    () => rescueOnly ? scopedRescuePlaces : restaurantOnly ? [...places, ...scopedOsmRestaurants] : places,
+    [rescueOnly, scopedRescuePlaces, restaurantOnly, places, scopedOsmRestaurants],
   )
 
   const filteredPlaces = useMemo(() => {
@@ -711,6 +804,7 @@ function App() {
     const matches = sourcePlaces.filter((place) => {
       const searchText = buildPlaceSearchText(place)
       const textMatches = queryTokens.length === 0 || queryTokens.every((token) => searchText.includes(token))
+      if (rescueOnly) return textMatches
       const ageMatches = age === '0-2'
         ? place.ageMin === 0
         : place.ageMin <= maxAge && place.ageMax >= minAge
@@ -732,7 +826,7 @@ function App() {
     const sortLocation = userLocation
     const rank = (place: Place) => {
       let score = getQualityScore(place)
-      if (weather && !restaurantOnly) {
+      if (weather && !restaurantOnly && !rescueOnly) {
         if (rainyWeather && place.rainyDay) score += 18
         if (hotWeather && place.setting !== '室外') score += 12
         if (place.weekendEvent) score += 10
@@ -740,6 +834,9 @@ function App() {
       if (!eventOnly && place.placeType === '活動') score -= 20
       if (restaurantOnly && place.placeType === '餐飲') {
         score += getFamilyEvidence(place).length ? 8 : 0
+      }
+      if (rescueOnly) {
+        score += 16
       }
       if (sortLocation) {
         const distance = distanceInKm(sortLocation, place)
@@ -751,7 +848,7 @@ function App() {
       rank(second) - rank(first) ||
       (sortLocation ? distanceInKm(sortLocation, first) - distanceInKm(sortLocation, second) : 0)
     )
-  }, [sourcePlaces, query, age, setting, duration, rainyOnly, eventOnly, restaurantOnly, weather, userLocation])
+  }, [sourcePlaces, query, age, setting, duration, rainyOnly, eventOnly, restaurantOnly, rescueOnly, weather, userLocation])
   const displayedPlaces = useMemo(
     () => activeTab === 'favorites'
       ? filteredPlaces.filter((place) => favorites.includes(place.id))
@@ -760,7 +857,7 @@ function App() {
   )
   useEffect(() => {
     setCompactResultsLimit(COMPACT_INITIAL_RESULTS)
-  }, [activeTab, query, age, setting, duration, rainyOnly, eventOnly, restaurantOnly, region, mapViewport])
+  }, [activeTab, query, age, setting, duration, rainyOnly, eventOnly, restaurantOnly, rescueOnly, region, mapViewport])
   const viewportPlaces = useMemo(
     () => {
       if (!mapViewport) return displayedPlaces
@@ -793,16 +890,20 @@ function App() {
   const mapAreaLabel = mapViewport
     ? `${viewportPlaces.length} 筆在目前地圖範圍`
     : `${displayedPlaces.length} 筆符合條件`
+  const currentPlacesStatus = rescueOnly ? rescueStatus : placesStatus
+  const currentModeLabel = rescueOnly ? '臨時補給點' : restaurantOnly ? '親子餐廳' : '景點'
+  const currentListTitle = rescueOnly ? '附近臨時補給' : activeTab === 'favorites' ? '收藏的景點' : '週末靈感地圖'
+  const currentKicker = rescueOnly ? '親子救援' : activeTab === 'favorites' ? '我的收藏' : '為你精選'
   const canLoadMoreResults = isCompactResultsView && visiblePlaces.length < viewportPlaces.length
   const healthInsertIndex = useMemo(() => {
-    if (activeTab !== 'explore' || visiblePlaces.length < 6 || healthAdvisories.length === 0) return -1
+    if (rescueOnly || activeTab !== 'explore' || visiblePlaces.length < 6 || healthAdvisories.length === 0) return -1
     const today = new Date()
     const seedText = `${today.getFullYear()}-${today.getMonth() + 1}-${today.getDate()}-${age}-${region}-${visiblePlaces.length}`
     const seed = [...seedText].reduce((sum, char) => sum + char.charCodeAt(0), 0)
     const lowerBound = isCompactResultsView ? 4 : 5
     const upperBound = Math.min(visiblePlaces.length - 1, isCompactResultsView ? 8 : 10)
     return Math.min(upperBound, lowerBound + (seed % Math.max(1, upperBound - lowerBound + 1)))
-  }, [activeTab, age, healthAdvisories.length, isCompactResultsView, region, visiblePlaces.length])
+  }, [activeTab, age, healthAdvisories.length, isCompactResultsView, region, rescueOnly, visiblePlaces.length])
   const inlineHealthAdvisories = useMemo(() => {
     if (healthInsertIndex < 0 || healthAdvisories.length === 0) return []
     const today = new Date()
@@ -907,6 +1008,7 @@ function App() {
     setRainyOnly(false)
     setEventOnly(false)
     setRestaurantOnly(false)
+    setRescueOnly(false)
   }
 
   const findNearbyPlaces = useCallback(() => {
@@ -924,7 +1026,7 @@ function App() {
         setMapViewport(null)
         setMapFocusKey((current) => current + 1)
         setLocationStatus('ready')
-        setLocationMessage('已依距離重新排列景點，藍點是你的位置。')
+        setLocationMessage(`已依距離重新排列${rescueOnly ? '臨時補給點' : restaurantOnly ? '餐廳' : '景點'}，藍點是你的位置。`)
         loadWeather(coords.latitude, coords.longitude)
         document.querySelector('.explore-section')?.scrollIntoView({ behavior: 'smooth' })
       },
@@ -943,7 +1045,7 @@ function App() {
         maximumAge: 5 * 60 * 1000,
       },
     )
-  }, [loadWeather, setLocationMessage, setLocationStatus, setUserLocation])
+  }, [loadWeather, rescueOnly, restaurantOnly, setLocationMessage, setLocationStatus, setUserLocation])
 
   const focusUserOnMap = useCallback(() => {
     if (!userLocation) {
@@ -1081,20 +1183,21 @@ function App() {
               onFavorite={toggleFavorite}
               onExplore={() => goExplore()}
               onNearby={() => goExplore(findNearbyPlaces)}
+              onRescue={() => goExplore(enableRescueMode)}
               onScenario={(scenario) => {
                 if (scenario === 'rainy') {
-                  goExplore(() => { setAge('all'); setSetting('全部'); setRainyOnly(true); setEventOnly(false); setRestaurantOnly(false) })
+                  goExplore(() => { setAge('all'); setSetting('全部'); setRainyOnly(true); setEventOnly(false); setRestaurantOnly(false); setRescueOnly(false) })
                   return
                 }
                 if (scenario === 'stroller') {
-                  goExplore(() => { setAge('0-2'); setRainyOnly(false); setEventOnly(false) })
+                  goExplore(() => { setAge('0-2'); setRainyOnly(false); setEventOnly(false); setRescueOnly(false) })
                   return
                 }
                 if (scenario === 'parents') {
                   goExplore(() => { setAge('all'); setSetting('全部'); setRainyOnly(false); setEventOnly(false); enableRestaurantMode() })
                   return
                 }
-                goExplore(() => { setAge('all'); setSetting('室外'); setRainyOnly(false); setEventOnly(false); setRestaurantOnly(false) })
+                goExplore(() => { setAge('all'); setSetting('室外'); setRainyOnly(false); setEventOnly(false); setRestaurantOnly(false); setRescueOnly(false) })
               }}
             />
           ) : (
@@ -1130,6 +1233,7 @@ function App() {
                           setRainyOnly(false)
                           setEventOnly(false)
                           setRestaurantOnly(false)
+                          setRescueOnly(false)
                         })
                       }
                     }}
@@ -1158,19 +1262,19 @@ function App() {
             </section>
 
             <section className="quick-entries" aria-label="快速入口">
-              <button className="entry-tile" onClick={() => goExplore(() => { setSetting('室外'); setRainyOnly(false); setEventOnly(false) })}>
+              <button className="entry-tile" onClick={() => goExplore(() => { setSetting('室外'); setRainyOnly(false); setEventOnly(false); setRestaurantOnly(false); setRescueOnly(false) })}>
                 <span className="entry-icon tile-green"><TreePine size={24} /></span>
                 <small>戶外踏青</small>
               </button>
-              <button className="entry-tile" onClick={() => goExplore(() => { setRainyOnly(true); setEventOnly(false) })}>
+              <button className="entry-tile" onClick={() => goExplore(() => { setRainyOnly(true); setEventOnly(false); setRestaurantOnly(false); setRescueOnly(false) })}>
                 <span className="entry-icon tile-blue"><Umbrella size={24} /></span>
                 <small>雨天備案</small>
               </button>
-              <button className="entry-tile" onClick={() => goExplore(() => { setAge('0-2'); setRainyOnly(false); setEventOnly(false) })}>
+              <button className="entry-tile" onClick={() => goExplore(() => { setAge('0-2'); setRainyOnly(false); setEventOnly(false); setRestaurantOnly(false); setRescueOnly(false) })}>
                 <span className="entry-icon tile-coral"><Baby size={24} /></span>
                 <small>親子友善</small>
               </button>
-              <button className="entry-tile" onClick={() => goExplore(() => { setEventOnly(true); setRainyOnly(false) })}>
+              <button className="entry-tile" onClick={() => goExplore(() => { setEventOnly(true); setRainyOnly(false); setRestaurantOnly(false); setRescueOnly(false) })}>
                 <span className="entry-icon tile-yellow"><CalendarCheck size={24} /></span>
                 <small>近期活動</small>
               </button>
@@ -1181,6 +1285,10 @@ function App() {
               <button className="entry-tile" onClick={() => goExplore(enableRestaurantMode)}>
                 <span className="entry-icon tile-coral"><Utensils size={24} /></span>
                 <small>親子餐廳</small>
+              </button>
+              <button className="entry-tile" onClick={() => goExplore(enableRescueMode)}>
+                <span className="entry-icon tile-green"><ShoppingCart size={24} /></span>
+                <small>臨時補給</small>
               </button>
             </section>
 
@@ -1438,11 +1546,10 @@ function App() {
                     setDuration('全部')
                     setRainyOnly(false)
                     setEventOnly(false)
-                    setRestaurantOnly(false)
                     event.currentTarget.blur()
                   }
                 }}
-                placeholder="搜尋景點、城市或活動"
+                placeholder={rescueOnly ? '搜尋卡多摩、安琪兒、尿布或城市' : restaurantOnly ? '搜尋餐廳、咖啡廳或城市' : '搜尋景點、城市或活動'}
               />
               {query && <button onClick={() => setQuery('')} aria-label="清除搜尋"><X size={16} /></button>}
             </label>
@@ -1468,14 +1575,17 @@ function App() {
                 <Baby size={15} />{item.label}
               </button>
             ))}
-            <button className={rainyOnly ? 'active rainy-filter' : 'rainy-filter'} onClick={() => { playUiSound(); setRainyOnly((value) => { if (!value) setRestaurantOnly(false); return !value }) }}>
+            <button className={rainyOnly ? 'active rainy-filter' : 'rainy-filter'} onClick={() => { playUiSound(); setRainyOnly((value) => { if (!value) { setRestaurantOnly(false); setRescueOnly(false) } return !value }) }}>
               <Umbrella size={14} /> 雨天備案
             </button>
-            <button className={eventOnly ? 'active event-filter' : 'event-filter'} onClick={() => { playUiSound(); setEventOnly((value) => { if (!value) setRestaurantOnly(false); return !value }) }}>
+            <button className={eventOnly ? 'active event-filter' : 'event-filter'} onClick={() => { playUiSound(); setEventOnly((value) => { if (!value) { setRestaurantOnly(false); setRescueOnly(false) } return !value }) }}>
               <CalendarCheck size={14} /> 本週活動
             </button>
             <button className={restaurantOnly ? 'active' : ''} onClick={toggleRestaurantMode}>
               <Utensils size={14} /> 餐廳
+            </button>
+            <button className={rescueOnly ? 'active' : ''} onClick={toggleRescueMode}>
+              <ShoppingCart size={14} /> 臨時補給
             </button>
           </div>
 
@@ -1483,19 +1593,19 @@ function App() {
             <span>快速情境</span>
             <button
               className={rainyOnly ? 'active' : ''}
-              onClick={() => { playUiSound(); setAge('all'); setSetting('全部'); setRainyOnly(true); setEventOnly(false); setRestaurantOnly(false) }}
+              onClick={() => { playUiSound(); setAge('all'); setSetting('全部'); setRainyOnly(true); setEventOnly(false); setRestaurantOnly(false); setRescueOnly(false) }}
             >
               <Umbrella size={14} />雨天
             </button>
             <button
-              className={setting === '室外' && !rainyOnly && !restaurantOnly ? 'active' : ''}
-              onClick={() => { playUiSound(); setAge('all'); setSetting('室外'); setRainyOnly(false); setEventOnly(false); setRestaurantOnly(false) }}
+              className={setting === '室外' && !rainyOnly && !restaurantOnly && !rescueOnly ? 'active' : ''}
+              onClick={() => { playUiSound(); setAge('all'); setSetting('室外'); setRainyOnly(false); setEventOnly(false); setRestaurantOnly(false); setRescueOnly(false) }}
             >
               <TreePine size={14} />放電
             </button>
             <button
-              className={age === '0-2' && !restaurantOnly ? 'active' : ''}
-              onClick={() => { playUiSound(); setAge('0-2'); setRainyOnly(false); setEventOnly(false); setRestaurantOnly(false) }}
+              className={age === '0-2' && !restaurantOnly && !rescueOnly ? 'active' : ''}
+              onClick={() => { playUiSound(); setAge('0-2'); setRainyOnly(false); setEventOnly(false); setRestaurantOnly(false); setRescueOnly(false) }}
             >
               <Baby size={14} />推車
             </button>
@@ -1504,6 +1614,12 @@ function App() {
               onClick={() => { playUiSound(); setAge('all'); setSetting('全部'); setRainyOnly(false); setEventOnly(false); enableRestaurantMode() }}
             >
               <Utensils size={14} />爸媽想休息
+            </button>
+            <button
+              className={rescueOnly ? 'active' : ''}
+              onClick={() => { playUiSound(); enableRescueMode() }}
+            >
+              <ShoppingCart size={14} />尿布奶粉
             </button>
           </div>
 
@@ -1533,13 +1649,14 @@ function App() {
 
           <div className="section-heading">
             <div>
-              <span className="section-kicker"><TentTree size={17} /> {activeTab === 'favorites' ? '我的收藏' : '為你精選'}</span>
-              <h2>{activeTab === 'favorites' ? '收藏的景點' : '週末靈感地圖'}</h2>
+              <span className="section-kicker"><TentTree size={17} /> {currentKicker}</span>
+              <h2>{currentListTitle}</h2>
               <p>
-                {activeTab === 'favorites' ? '已收藏' : '找到'} <strong>{displayedPlaces.length}</strong> 個地點
+                {activeTab === 'favorites' ? '已收藏' : '找到'} <strong>{displayedPlaces.length}</strong> 個{currentModeLabel}
                 {viewportPlaces.length > MAX_VISIBLE_PLACES && `・先顯示前 ${MAX_VISIBLE_PLACES} 筆`}
                 {mapViewport && activeTab !== 'favorites' && `・目前地圖範圍 ${viewportPlaces.length} 筆`}
-                {region === '全部' && activeTab !== 'favorites' && '・選擇地區可查看完整景點'}
+                {region === '全部' && activeTab !== 'favorites' && !rescueOnly && '・選擇地區可查看完整景點'}
+                {rescueOnly && '・資料來自官方門市頁，出發前建議電話確認庫存'}
               </p>
             </div>
             <div className="section-heading-actions">
@@ -1639,7 +1756,7 @@ function App() {
                   完成
                 </button>
               )}
-              <div className="map-legend"><span /><span>點一下圖標查看景點</span></div>
+              <div className="map-legend"><span /><span>點一下圖標查看{rescueOnly ? '補給點' : restaurantOnly ? '餐廳' : '景點'}</span></div>
               <button
                 className="map-locate-button"
                 type="button"
@@ -1672,16 +1789,16 @@ function App() {
                 </div>
                 <span className="mobile-sheet-action-placeholder" aria-hidden="true" />
               </div>
-              {placesStatus === 'loading' ? (
+              {currentPlacesStatus === 'loading' ? (
                 <div className="empty-state loading-state">
                   <MapPin size={40} />
-                  <h3>正在整理親子景點</h3>
-                  <p>載入官方開放資料中，馬上就好。</p>
+                  <h3>{rescueOnly ? '正在整理臨時補給點' : '正在整理親子景點'}</h3>
+                  <p>{rescueOnly ? '載入官方門市資料中，馬上就好。' : '載入官方開放資料中，馬上就好。'}</p>
                 </div>
-              ) : placesStatus === 'error' ? (
+              ) : currentPlacesStatus === 'error' ? (
                 <div className="empty-state">
                   <Wrench size={40} />
-                  <h3>景點資料暫時載入失敗</h3>
+                  <h3>{rescueOnly ? '補給資料暫時載入失敗' : '景點資料暫時載入失敗'}</h3>
                   <p>請確認網路後重新整理頁面。</p>
                   <button onClick={() => window.location.reload()}>重新載入</button>
                 </div>
@@ -1727,10 +1844,10 @@ function App() {
               ) : (
                 <div className="empty-state">
                   <Mascot variant={activeTab === 'favorites' ? 'camera' : 'thinking'} className="empty-mascot" />
-                  <h3>{activeTab === 'favorites' ? '還沒有收藏景點' : '這組條件還沒有景點'}</h3>
-                  <p>{activeTab === 'favorites' ? '看到喜歡的地點時，點愛心就能放進這裡。' : '換個地區或放寬孩子年齡試試看。'}</p>
+                  <h3>{activeTab === 'favorites' ? '還沒有收藏景點' : rescueOnly ? '附近暫時沒有補給點' : '這組條件還沒有景點'}</h3>
+                  <p>{activeTab === 'favorites' ? '看到喜歡的地點時，點愛心就能放進這裡。' : rescueOnly ? '可以移動地圖、放寬搜尋字，或直接打開 Google Maps 搜尋官方門市。' : '換個地區或放寬孩子年齡試試看。'}</p>
                   <button onClick={activeTab === 'favorites' ? () => openExplore('explore') : clearFilters}>
-                    {activeTab === 'favorites' ? '去探索景點' : '查看全部景點'}
+                    {activeTab === 'favorites' ? '去探索景點' : rescueOnly ? '回到景點探索' : '查看全部景點'}
                   </button>
                 </div>
               )}

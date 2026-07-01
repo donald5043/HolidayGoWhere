@@ -8,6 +8,7 @@ import {
   Heart,
   MapPin,
   ShieldCheck,
+  ShoppingCart,
   Sparkles,
   SunMedium,
   TreePine,
@@ -35,6 +36,7 @@ type Props = {
   onScenario: (scenario: ScenarioKey) => void
   onExplore: () => void
   onNearby: () => void
+  onRescue: () => void
 }
 
 const scenarioCopy: Record<ScenarioKey, { label: string; icon: typeof Umbrella; hint: string; mascot: 'head' | 'qBao' | 'qMom' }> = {
@@ -95,6 +97,7 @@ export function TodayInspiration({
   onScenario,
   onExplore,
   onNearby,
+  onRescue,
 }: Props) {
   const heroPlaces = places.slice(0, 3)
   const primaryPlace = heroPlaces[0]
@@ -130,6 +133,9 @@ export function TodayInspiration({
             </button>
             <button className="phase-secondary-action" onClick={onNearby}>
               我的附近 <MapPin size={16} />
+            </button>
+            <button className="phase-secondary-action" onClick={onRescue}>
+              臨時補給 <ShoppingCart size={16} />
             </button>
           </div>
         </div>

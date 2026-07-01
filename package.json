@@ -21,6 +21,7 @@
     "sync:osm-restaurants": "node scripts/sync-osm-restaurants.mjs && npm run data:publish",
     "import:michelin": "node scripts/import-michelin.mjs && npm run data:publish",
     "sync:health": "node scripts/sync-health-advisories.mjs",
+    "sync:rescue": "node scripts/sync-rescue-supplies.mjs",
     "data:quality": "node scripts/data-quality-report.mjs",
     "data:quality:check": "node scripts/data-quality-report.mjs --check",
     "ai:enrich": "node scripts/enrich-ai.mjs && npm run data:publish"

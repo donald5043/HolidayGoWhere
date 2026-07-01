@@ -1,0 +1,1821 @@
+{
+  "generatedAt": "2026-07-01T11:07:26.855Z",
+  "sources": [
+    {
+      "label": "卡多摩官方門市據點",
+      "url": "https://kodomoshops.com/location.php"
+    },
+    {
+      "label": "安琪兒官方門市資訊",
+      "url": "https://www.angelbaby.com.tw/pages/location"
+    }
+  ],
+  "summary": {
+    "total": 62,
+    "withCoordinates": 58,
+    "brands": {
+      "卡多摩": 47,
+      "安琪兒": 15
+    }
+  },
+  "supplies": [
+    {
+      "id": "baby-kodomo-新店建國店",
+      "name": "卡多摩 新店建國店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "新店區",
+      "address": "新北市新店區建國路12號 1+地下一樓",
+      "phone": "(02)2916-1032",
+      "hours": "AM11:00-PM9:30",
+      "lat": 24.9736953,
+      "lng": 121.5401632,
+      "mapsUrl": "https://goo.gl/maps/VWekCay6cGBmeUZP7",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-內湖東湖店",
+      "name": "卡多摩 內湖東湖店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "臺北市",
+      "district": "內湖區",
+      "address": "台北市內湖區東湖路29號1F、地下室。",
+      "phone": "(02)2631-1866",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.0690279,
+      "lng": 121.613272,
+      "mapsUrl": "https://goo.gl/maps/91fFFUPAznqJrwZT6",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-台北木柵店",
+      "name": "卡多摩 台北木柵店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "臺北市",
+      "district": "文山區",
+      "address": "台北市文山區木柵路2段92號(1、2樓)",
+      "phone": "02 2936 9968",
+      "hours": "AM11:00-PM9:30",
+      "lat": 24.9886075,
+      "lng": 121.5605993,
+      "mapsUrl": "https://goo.gl/maps/SGKJb2D8TgDe7FHG8",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-台北北投店",
+      "name": "卡多摩 台北北投店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "臺北市",
+      "district": "北投區",
+      "address": "台北市北投區中和街219-1號",
+      "phone": "02-2897-1366",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.139201,
+      "lng": 121.501277,
+      "mapsUrl": "https://goo.gl/maps/neEq2CdmTifZyoe1A",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-中壢環北店",
+      "name": "卡多摩 中壢環北店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "桃園市",
+      "district": "中壢區",
+      "address": "桃園市中壢區環北路107-1號1+2樓",
+      "phone": "(03)4333-822",
+      "hours": "AM11:00-PM9:30",
+      "lat": 24.9665682,
+      "lng": 121.2205752,
+      "mapsUrl": "https://goo.gl/maps/Dvsykh3h1k8QEeCm6",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-南港忠孝店",
+      "name": "卡多摩 南港忠孝店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "臺北市",
+      "district": "南港區",
+      "address": "台北市南港區忠孝東路5段992號、992號2樓",
+      "phone": "(02)2653-6027",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.0448143,
+      "lng": 121.5826465,
+      "mapsUrl": "https://goo.gl/maps/WuVJfVd299rP4cq29",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-楊梅埔心店",
+      "name": "卡多摩 楊梅埔心店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "桃園市",
+      "district": "楊梅區",
+      "address": "桃園市楊梅區永美路385-7號1、2F",
+      "phone": "(03)431-1123",
+      "hours": "AM11:00-PM9:30",
+      "lat": 24.9159187,
+      "lng": 121.1807569,
+      "mapsUrl": "https://goo.gl/maps/P1bmz3Ln7NEHBueu7",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-台北西園店",
+      "name": "卡多摩 台北西園店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "臺北市",
+      "district": "萬華區",
+      "address": "台北市萬華區西園路2段171之1號+171之2號 ( 1、2樓 )",
+      "phone": "02-2303-2398",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.0279878,
+      "lng": 121.4952611,
+      "mapsUrl": "https://goo.gl/maps/N3kv8RHN7cqAhQSs7",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-台北大安店",
+      "name": "卡多摩 台北大安店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "",
+      "district": "",
+      "address": "台北市大安區大安路二段104號",
+      "phone": "(02)2325-5750",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.0307129,
+      "lng": 121.5458659,
+      "mapsUrl": "https://goo.gl/maps/XPArS8obZ3LBZpT86",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-台北中華店",
+      "name": "卡多摩 台北中華店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "臺北市",
+      "district": "中正區",
+      "address": "台北市中正區中華路二段77、79號",
+      "phone": "(02)23118006",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.0342029,
+      "lng": 121.5058977,
+      "mapsUrl": "https://goo.gl/maps/ozURkgzjhA22APpk9",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-八德介壽店",
+      "name": "卡多摩 八德介壽店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "桃園市",
+      "district": "八德區",
+      "address": "桃園市八德區介壽路二段1068號",
+      "phone": "(03)361-9140",
+      "hours": "AM11:00-PM9:30",
+      "lat": 24.9724153,
+      "lng": 121.3017844,
+      "mapsUrl": "https://goo.gl/maps/Z6cLMk4dVUFaSMmw5",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-內湖文德店",
+      "name": "卡多摩 內湖文德店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "臺北市",
+      "district": "內湖區",
+      "address": "台北市內湖區文德路8號",
+      "phone": "(02)2659-6343",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.0784513,
+      "lng": 121.578965,
+      "mapsUrl": "https://goo.gl/maps/X5KEeZhdVuq3DGcQA",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-桃園莊敬店-原桃園大興店",
+      "name": "卡多摩 桃園莊敬店(原桃園大興店)",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "",
+      "district": "",
+      "address": "桃園區莊敬路一段168號",
+      "phone": "(03)215-0117",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.0253766,
+      "lng": 121.2998625,
+      "mapsUrl": "https://maps.app.goo.gl/6SozUya9pcUYK3C78",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-桃園中山店",
+      "name": "卡多摩 桃園中山店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "桃園市",
+      "district": "桃園區",
+      "address": "桃園市桃園區泰山里中山路393-1號",
+      "phone": "(03)339-0622",
+      "hours": "AM11:00-PM9:30",
+      "lat": 24.991703,
+      "lng": 121.3014251,
+      "mapsUrl": "https://goo.gl/maps/rsKgy2oNPZ2XXGqs7",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-桃園大園店",
+      "name": "卡多摩 桃園大園店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "",
+      "district": "",
+      "address": "桃園市大園區中華路88號1+2樓",
+      "phone": "(03)384-3661",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.0674677,
+      "lng": 121.1996779,
+      "mapsUrl": "https://goo.gl/maps/9rHz3eqi3nuTXF9v6",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-三重重陽店",
+      "name": "卡多摩 三重重陽店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "三重區",
+      "address": "新北市三重區重陽路二段9號",
+      "phone": "(02)2986-1107",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.0620133,
+      "lng": 121.4870328,
+      "mapsUrl": "https://goo.gl/maps/bc8hQFG3i4m8Fshi9",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-新店安康店",
+      "name": "卡多摩 新店安康店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "新店區",
+      "address": "新北市新店區安康路二段145號",
+      "phone": "(02)2212-9333",
+      "hours": "AM11:00-PM9:30",
+      "lat": 24.9599518,
+      "lng": 121.5115499,
+      "mapsUrl": "https://goo.gl/maps/fwHwAcWJ35pjYroj9",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-泰山明志店",
+      "name": "卡多摩 泰山明志店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "泰山區",
+      "address": "新北市泰山區明志路三段79號",
+      "phone": "(02)2907-2035",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.041852,
+      "lng": 121.425077,
+      "mapsUrl": "https://goo.gl/maps/tZ35AqMk49z2kyNt7",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-永和中山店",
+      "name": "卡多摩 永和中山店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "永和區",
+      "address": "新北市永和區中山路一段71號",
+      "phone": "(02)2929-1511",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.0105042,
+      "lng": 121.5125647,
+      "mapsUrl": "https://goo.gl/maps/MKVK5Jk4RQB9n9D49",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-三重正義店",
+      "name": "卡多摩 三重正義店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "三重區",
+      "address": "新北市三重區正義北路281號",
+      "phone": "(02)8981-8099",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.0704028,
+      "lng": 121.4952162,
+      "mapsUrl": "https://goo.gl/maps/CCDWRQ4eGN8zKifa8",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-中和員山店",
+      "name": "卡多摩 中和員山店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "中和區",
+      "address": "新北市中和區員山路375號",
+      "phone": "(02)8221-7616",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.0022648,
+      "lng": 121.481186,
+      "mapsUrl": "https://goo.gl/maps/Ld1uf1T24B5F6BjR6",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-蘆洲長榮店",
+      "name": "卡多摩 蘆洲長榮店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "蘆洲區",
+      "address": "新北市蘆洲區長榮路45號",
+      "phone": "(02)8282-5216",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.0828578,
+      "lng": 121.4627377,
+      "mapsUrl": "https://goo.gl/maps/6wGsFgjYmf3M6Mkw9",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-新莊化成店",
+      "name": "卡多摩 新莊化成店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "新莊區",
+      "address": "新北市新莊區化成路390號",
+      "phone": "(02)8991-2211",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.050272,
+      "lng": 121.4659432,
+      "mapsUrl": "https://goo.gl/maps/FTpZsfgEUeyue9GF6",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-鶯歌鶯桃店",
+      "name": "卡多摩 鶯歌鶯桃店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "鶯歌區",
+      "address": "新北市鶯歌區鶯桃路610號",
+      "phone": "(02)2678-1000",
+      "hours": "AM11:00-PM9:30",
+      "lat": 24.968591,
+      "lng": 121.330031,
+      "mapsUrl": "https://goo.gl/maps/vkn37v82Ya4fbqAP8",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-台北新光店",
+      "name": "卡多摩 台北新光店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "臺北市",
+      "district": "士林區",
+      "address": "台北市士林區文昌路60號",
+      "phone": "(02)2831-5977",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.09599,
+      "lng": 121.521403,
+      "mapsUrl": "https://goo.gl/maps/MvkebEbW4xn26tGy5",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-板橋新海店",
+      "name": "卡多摩 板橋新海店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "板橋區",
+      "address": "新北市板橋區新海路360號",
+      "phone": "(02)2253-7679",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.0251219,
+      "lng": 121.4597992,
+      "mapsUrl": "https://goo.gl/maps/PyySFAEwG7vLZb7z6",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-土城明德店",
+      "name": "卡多摩 土城明德店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "土城區",
+      "address": "新北市土城區明德路二段96號",
+      "phone": "(02)8262-2411",
+      "hours": "AM11:00-PM9:30",
+      "lat": 24.9841027,
+      "lng": 121.445712,
+      "mapsUrl": "https://goo.gl/maps/fi3UpEJ4RwD7aX6x7",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-新莊幸福店",
+      "name": "卡多摩 新莊幸福店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "新莊區",
+      "address": "新北市新莊區幸福路696號",
+      "phone": "(02)2277-1166",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.0492986,
+      "lng": 121.4501053,
+      "mapsUrl": "https://goo.gl/maps/5KxUHb11X8UA4o29A",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-新莊民安店",
+      "name": "卡多摩 新莊民安店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "新莊區",
+      "address": "新北市新莊區民安西路38巷2號",
+      "phone": "：(02)2204-0707",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.0210169,
+      "lng": 121.4271078,
+      "mapsUrl": "https://goo.gl/maps/HEEyd5tLE3ZndEGW8",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-樹林北大店",
+      "name": "卡多摩 樹林北大店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "樹林區",
+      "address": "新北市樹林區學成路707號",
+      "phone": "02-2668-6734",
+      "hours": "AM11:00-PM9:30",
+      "lat": 24.9467359,
+      "lng": 121.3837634,
+      "mapsUrl": "https://goo.gl/maps/B9u1JXKbeBFtSNwW7",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-三峽店",
+      "name": "卡多摩 三峽店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "三峽區",
+      "address": "新北市三峽區復興路66、68號",
+      "phone": "02-8671-3322",
+      "hours": "AM11:00-PM9:30",
+      "lat": 24.9372928,
+      "lng": 121.3733307,
+      "mapsUrl": "https://goo.gl/maps/x5P9dHZJF9ihxjcb6",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-樹林保安店",
+      "name": "卡多摩 樹林保安店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "樹林區",
+      "address": "新北市樹林區保安街一段198號",
+      "phone": "02-2682-9955",
+      "hours": "AM11:00-PM9:30",
+      "lat": 24.9958176,
+      "lng": 121.4214905,
+      "mapsUrl": "https://goo.gl/maps/J4NdxCb8vAJv7VzG9",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-台北天母店",
+      "name": "卡多摩 台北天母店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "臺北市",
+      "district": "士林區",
+      "address": "台北市士林區天母北路12號",
+      "phone": "(02)2873-1298",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.1194173,
+      "lng": 121.5262519,
+      "mapsUrl": "https://goo.gl/maps/d5XnimVchvib6AeK6",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-台北重慶北店",
+      "name": "卡多摩 台北重慶北店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "",
+      "district": "",
+      "address": "台北市大同區重慶北路三段113-1號",
+      "phone": "(02)2585-6100",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.0673203,
+      "lng": 121.5139373,
+      "mapsUrl": "https://goo.gl/maps/1FJGMDpdbY5LgLDj8",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-板橋中山店",
+      "name": "卡多摩 板橋中山店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "板橋區",
+      "address": "新北市板橋區中山路二段58號",
+      "phone": "(02)8953-0586",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.0156269,
+      "lng": 121.4738079,
+      "mapsUrl": "https://goo.gl/maps/cWHkR969fHGdyEwL8",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-台北民權店",
+      "name": "卡多摩 台北民權店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "臺北市",
+      "district": "中山區",
+      "address": "台北市中山區民權東路三段10號",
+      "phone": "(02)2502-2416",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.062139,
+      "lng": 121.539531,
+      "mapsUrl": "https://goo.gl/maps/RHTCFJZBkGi2v6Eu6",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-中和永安店",
+      "name": "卡多摩 中和永安店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "中和區",
+      "address": "新北市中和區中和路302號",
+      "phone": "(02)2921-5860",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.0001369,
+      "lng": 121.5089004,
+      "mapsUrl": "https://goo.gl/maps/oounHoxarENff7CR8",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-永和福和店",
+      "name": "卡多摩 永和福和店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "永和區",
+      "address": "新北市永和區福和路196號",
+      "phone": "(02)2923-1360",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.0077778,
+      "lng": 121.5201048,
+      "mapsUrl": "https://goo.gl/maps/2ZPn2fBSQHwzh66r5",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-蘆洲三民店",
+      "name": "卡多摩 蘆洲三民店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "蘆洲區",
+      "address": "新北市蘆洲區三民路215號",
+      "phone": "(02)8286-8886",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.084185,
+      "lng": 121.4746754,
+      "mapsUrl": "https://goo.gl/maps/jMHdEW4jDZKasAuQ7",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-台北延吉店",
+      "name": "卡多摩 台北延吉店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "",
+      "district": "",
+      "address": "台北市大安區延吉街233-1號",
+      "phone": "(02)2325-3715",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.029635,
+      "lng": 121.550956,
+      "mapsUrl": "https://goo.gl/maps/SFaLCX9z2yqEsBMi8",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-板橋文化店",
+      "name": "卡多摩 板橋文化店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "板橋區",
+      "address": "新北市板橋區文化路二段486號",
+      "phone": "02-2250-1299",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.0328862,
+      "lng": 121.4752964,
+      "mapsUrl": "https://goo.gl/maps/wSoUEc65vdpVgdhw8",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-桃園蘆竹店",
+      "name": "卡多摩 桃園蘆竹店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "桃園市",
+      "district": "蘆竹區",
+      "address": "桃園市蘆竹區仁愛路一段26號1樓",
+      "phone": "(03)212-2780",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.0507356,
+      "lng": 121.2943478,
+      "mapsUrl": "https://goo.gl/maps/6wDDRfwNfV2KKYim7",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-台北和平西店",
+      "name": "卡多摩 台北和平西店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "臺北市",
+      "district": "中正區",
+      "address": "台北市中正區和平西路一段65、67號",
+      "phone": "(02)2356-3789",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.0266913,
+      "lng": 121.5191113,
+      "mapsUrl": "https://goo.gl/maps/ZCtMo41zH9dCtFAPA",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-林口仁愛店",
+      "name": "卡多摩 林口仁愛店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "林口區",
+      "address": "新北市林口區仁愛路一段691號、693號",
+      "phone": "(02)2601-9373",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.0762489,
+      "lng": 121.3861525,
+      "mapsUrl": "https://goo.gl/maps/MNvfCNLV51ZcgkvV6",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-龜山長庚店",
+      "name": "卡多摩 龜山長庚店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "桃園市",
+      "district": "龜山區",
+      "address": "桃園市龜山區文化三路388號",
+      "phone": "(03)327-8575",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.0541184,
+      "lng": 121.3665953,
+      "mapsUrl": "https://goo.gl/maps/K4QieXemSUDrHRDi9",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-淡水竹圍店",
+      "name": "卡多摩 淡水竹圍店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "淡水區",
+      "address": "新北市淡水區竹圍里民權路103號",
+      "phone": "(02)2808-5639",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.1376495,
+      "lng": 121.4601753,
+      "mapsUrl": "https://goo.gl/maps/zCRDYk3w4x2MeuXa9",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-kodomo-板橋忠孝店",
+      "name": "卡多摩 板橋忠孝店",
+      "brand": "卡多摩",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "板橋區",
+      "address": "新北市板橋區忠孝路41號",
+      "phone": "(02)2955-9591",
+      "hours": "AM11:00-PM9:30",
+      "lat": 25.002078,
+      "lng": 121.461178,
+      "mapsUrl": "https://goo.gl/maps/Tb5e1XDce2NDgC577",
+      "source": {
+        "type": "official",
+        "label": "卡多摩官方門市據點",
+        "url": "https://kodomoshops.com/location.php",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "奶粉",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-angelbaby-大直忠泰店-new",
+      "name": "安琪兒 大直忠泰店 New!",
+      "brand": "安琪兒",
+      "category": "baby_supply",
+      "city": "臺北市",
+      "district": "中山區",
+      "address": "台北市中山區樂群三路200號4樓",
+      "phone": "02-7709-7675",
+      "hours": "請見官方門市資訊",
+      "lat": 25.0827255,
+      "lng": 121.5572232,
+      "mapsUrl": "https://maps.app.goo.gl/uvaMHAtApYBbcLHy9",
+      "source": {
+        "type": "official",
+        "label": "安琪兒官方門市資訊",
+        "url": "https://www.angelbaby.com.tw/pages/location",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "嬰兒床",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-angelbaby-安琪兒-八德店",
+      "name": "安琪兒 八德店",
+      "brand": "安琪兒",
+      "category": "baby_supply",
+      "city": "臺北市",
+      "district": "松山區",
+      "address": "台北市松山區八德路二段441號",
+      "phone": "02 7709 4660 / 02 2721 0123",
+      "hours": "請見官方門市資訊",
+      "lat": 25.048326,
+      "lng": 121.547168,
+      "mapsUrl": "https://goo.gl/maps/sfJkqsREpmbxuqbm9",
+      "source": {
+        "type": "official",
+        "label": "安琪兒官方門市資訊",
+        "url": "https://www.angelbaby.com.tw/pages/location",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "嬰兒床",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-angelbaby-安琪兒-內湖店",
+      "name": "安琪兒 內湖店",
+      "brand": "安琪兒",
+      "category": "baby_supply",
+      "city": "臺北市",
+      "district": "內湖區",
+      "address": "台北市內湖區文德路36號",
+      "phone": "02 7709 5770 / 02 2657 2315",
+      "hours": "請見官方門市資訊",
+      "lat": 25.0782837,
+      "lng": 121.5801687,
+      "mapsUrl": "https://goo.gl/maps/NbJbZ6GbAsbd8Ua37",
+      "source": {
+        "type": "official",
+        "label": "安琪兒官方門市資訊",
+        "url": "https://www.angelbaby.com.tw/pages/location",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "嬰兒床",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-angelbaby-安琪兒-國泰店",
+      "name": "安琪兒 國泰店",
+      "brand": "安琪兒",
+      "category": "baby_supply",
+      "city": "",
+      "district": "",
+      "address": "台北市大安區仁愛路4段266巷15弄2號",
+      "phone": "02 7709 4080 / 02 2702 3952",
+      "hours": "請見官方門市資訊",
+      "lat": 25.0365597,
+      "lng": 121.5530553,
+      "mapsUrl": "https://goo.gl/maps/1aPYdpsgf56MaRcTA",
+      "source": {
+        "type": "official",
+        "label": "安琪兒官方門市資訊",
+        "url": "https://www.angelbaby.com.tw/pages/location",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "嬰兒床",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-angelbaby-安琪兒-和平店",
+      "name": "安琪兒 和平店",
+      "brand": "安琪兒",
+      "category": "baby_supply",
+      "city": "",
+      "district": "",
+      "address": "台北市大安區和平東路一段274-1號1樓及B1",
+      "phone": "",
+      "hours": "請見官方門市資訊",
+      "lat": null,
+      "lng": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%89%E7%90%AA%E5%85%92%20%E5%92%8C%E5%B9%B3%E5%BA%97%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E5%92%8C%E5%B9%B3%E6%9D%B1%E8%B7%AF%E4%B8%80%E6%AE%B5274-1%E8%99%9F1%E6%A8%93%E5%8F%8AB1",
+      "source": {
+        "type": "official",
+        "label": "安琪兒官方門市資訊",
+        "url": "https://www.angelbaby.com.tw/pages/location",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "medium",
+      "tags": [
+        "尿布",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "嬰兒床",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-angelbaby-安琪兒-新北中和體驗店",
+      "name": "安琪兒 新北中和體驗店",
+      "brand": "安琪兒",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "中和區",
+      "address": "新北市中和區建康路10號2樓",
+      "phone": "02 7709 8828",
+      "hours": "請見官方門市資訊",
+      "lat": 24.999405,
+      "lng": 121.48684,
+      "mapsUrl": "https://goo.gl/maps/cv3gv9nxhFrFcXzF9",
+      "source": {
+        "type": "official",
+        "label": "安琪兒官方門市資訊",
+        "url": "https://www.angelbaby.com.tw/pages/location",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "嬰兒床",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-angelbaby-安琪兒-新北板橋新板店",
+      "name": "安琪兒 新北板橋新板店",
+      "brand": "安琪兒",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "板橋區",
+      "address": "新北市板橋區中山路1段208號",
+      "phone": "",
+      "hours": "請見官方門市資訊",
+      "lat": null,
+      "lng": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%89%E7%90%AA%E5%85%92%20%E6%96%B0%E5%8C%97%E6%9D%BF%E6%A9%8B%E6%96%B0%E6%9D%BF%E5%BA%97%20%E6%96%B0%E5%8C%97%E5%B8%82%E6%9D%BF%E6%A9%8B%E5%8D%80%E4%B8%AD%E5%B1%B1%E8%B7%AF1%E6%AE%B5208%E8%99%9F",
+      "source": {
+        "type": "official",
+        "label": "安琪兒官方門市資訊",
+        "url": "https://www.angelbaby.com.tw/pages/location",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "medium",
+      "tags": [
+        "尿布",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "嬰兒床",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-angelbaby-安琪兒-新北中和環球店",
+      "name": "安琪兒 新北中和環球店",
+      "brand": "安琪兒",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "中和區",
+      "address": "新北市中和區中山路三段122號3樓",
+      "phone": "",
+      "hours": "請見官方門市資訊",
+      "lat": 25.0066732,
+      "lng": 121.4747785,
+      "mapsUrl": "https://goo.gl/maps/uBRdieBBkRqcgruF8",
+      "source": {
+        "type": "official",
+        "label": "安琪兒官方門市資訊",
+        "url": "https://www.angelbaby.com.tw/pages/location",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "嬰兒床",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-angelbaby-安琪兒-蘆洲長榮店",
+      "name": "安琪兒 蘆洲長榮店",
+      "brand": "安琪兒",
+      "category": "baby_supply",
+      "city": "新北市",
+      "district": "蘆洲區",
+      "address": "新北市蘆洲區長榮路375-1號",
+      "phone": "02 7709 4090",
+      "hours": "請見官方門市資訊",
+      "lat": null,
+      "lng": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%89%E7%90%AA%E5%85%92%20%E8%98%86%E6%B4%B2%E9%95%B7%E6%A6%AE%E5%BA%97%20%E6%96%B0%E5%8C%97%E5%B8%82%E8%98%86%E6%B4%B2%E5%8D%80%E9%95%B7%E6%A6%AE%E8%B7%AF375-1%E8%99%9F",
+      "source": {
+        "type": "official",
+        "label": "安琪兒官方門市資訊",
+        "url": "https://www.angelbaby.com.tw/pages/location",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "medium",
+      "tags": [
+        "尿布",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "嬰兒床",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-angelbaby-安琪兒-桃園旗艦店",
+      "name": "安琪兒 桃園旗艦店",
+      "brand": "安琪兒",
+      "category": "baby_supply",
+      "city": "桃園市",
+      "district": "桃園區",
+      "address": "桃園市桃園區經國二路52號1樓",
+      "phone": "",
+      "hours": "請見官方門市資訊",
+      "lat": 25.0291283,
+      "lng": 121.298181,
+      "mapsUrl": "https://goo.gl/maps/j1FBqCQUxAyQh5f5A",
+      "source": {
+        "type": "official",
+        "label": "安琪兒官方門市資訊",
+        "url": "https://www.angelbaby.com.tw/pages/location",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "嬰兒床",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-angelbaby-安琪兒-桃園環球店",
+      "name": "安琪兒 桃園環球店",
+      "brand": "安琪兒",
+      "category": "baby_supply",
+      "city": "桃園市",
+      "district": "桃園區",
+      "address": "桃園市桃園區高鐵南路二段352號3樓 (317櫃位)",
+      "phone": "",
+      "hours": "請見官方門市資訊",
+      "lat": 25.0019989,
+      "lng": 121.2024647,
+      "mapsUrl": "https://maps.app.goo.gl/ACcbEJkpD4F1vS4g6",
+      "source": {
+        "type": "official",
+        "label": "安琪兒官方門市資訊",
+        "url": "https://www.angelbaby.com.tw/pages/location",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "嬰兒床",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-angelbaby-安琪兒-桃園慈文店",
+      "name": "安琪兒 桃園慈文店",
+      "brand": "安琪兒",
+      "category": "baby_supply",
+      "city": "桃園市",
+      "district": "桃園區",
+      "address": "桃園市桃園區慈文路808號1、2樓",
+      "phone": "03 271 5090",
+      "hours": "請見官方門市資訊",
+      "lat": null,
+      "lng": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%89%E7%90%AA%E5%85%92%20%E6%A1%83%E5%9C%92%E6%85%88%E6%96%87%E5%BA%97%20%E6%A1%83%E5%9C%92%E5%B8%82%E6%A1%83%E5%9C%92%E5%8D%80%E6%85%88%E6%96%87%E8%B7%AF808%E8%99%9F1%E3%80%812%E6%A8%93",
+      "source": {
+        "type": "official",
+        "label": "安琪兒官方門市資訊",
+        "url": "https://www.angelbaby.com.tw/pages/location",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "medium",
+      "tags": [
+        "尿布",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "嬰兒床",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-angelbaby-安琪兒-台中廣三sogo店",
+      "name": "安琪兒-台中廣三SOGO店",
+      "brand": "安琪兒",
+      "category": "baby_supply",
+      "city": "臺中市",
+      "district": "西區",
+      "address": "台中市西區臺灣大道二段459號8樓",
+      "phone": "02-7730-4905",
+      "hours": "請見官方門市資訊",
+      "lat": 24.15531,
+      "lng": 120.6617994,
+      "mapsUrl": "https://maps.app.goo.gl/NZBtTixRCCqGZkSi8",
+      "source": {
+        "type": "official",
+        "label": "安琪兒官方門市資訊",
+        "url": "https://www.angelbaby.com.tw/pages/location",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "嬰兒床",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-angelbaby-安琪兒-台中旗艦店",
+      "name": "安琪兒 台中旗艦店",
+      "brand": "安琪兒",
+      "category": "baby_supply",
+      "city": "臺中市",
+      "district": "西屯區",
+      "address": "台中市西屯區福玄路83號",
+      "phone": "",
+      "hours": "請見官方門市資訊",
+      "lat": 24.1769437,
+      "lng": 120.6230907,
+      "mapsUrl": "https://www.google.com/maps/place/%E5%AE%89%E7%90%AA%E5%85%92%E5%A9%A6%E5%AC%B0%E7%99%BE%E8%B2%A8-%E5%8F%B0%E4%B8%AD%E8%A5%BF%E5%B1%AF%E6%97%97%E8%89%A6%E5%BA%97%EF%BD%9C%E5%A5%B6%E7%B2%89%E3%80%81%E5%AC%B0%E5%85%92%E6%8E%A8%E8%BB%8A%E3%80%81%E6%B1%BD%E8%BB%8A%E5%BA%A7%E6%A4%85%E3%80%81%E5%AC%B0%E5%85%92%E5%BA%8A/@24.1769437,120.6205104,17z/data=!4m15!1m8!3m7!1s0x34691601cc101479:0x11739542b236aa0a!2zNDA35Y-w5Lit5biC6KW_5bGv5Y2A56aP546E6LevODPomZ8!3b1!8m2!3d24.1769437!4d120.6230907!16s%2Fg%2F11h1hw5m3_!3m5!1s0x346917c85f01d3e1:0xf3b838015aa95e64!8m2!3d24.1769196!4d120.6231778!16s%2Fg%2F11sbmm_n64?hl=zh-TW&entry=ttu",
+      "source": {
+        "type": "official",
+        "label": "安琪兒官方門市資訊",
+        "url": "https://www.angelbaby.com.tw/pages/location",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "嬰兒床",
+        "孕婦用品"
+      ]
+    },
+    {
+      "id": "baby-angelbaby-安琪兒-台中豐原店",
+      "name": "安琪兒 台中豐原店",
+      "brand": "安琪兒",
+      "category": "baby_supply",
+      "city": "臺中市",
+      "district": "豐原區",
+      "address": "台中市豐原區圓環北路一段298號1樓",
+      "phone": "",
+      "hours": "請見官方門市資訊",
+      "lat": 24.257947,
+      "lng": 120.7197873,
+      "mapsUrl": "https://www.google.com/maps/place/%E5%AE%89%E7%90%AA%E5%85%92%E5%A9%A6%E5%AC%B0%E7%99%BE%E8%B2%A8-%E5%8F%B0%E4%B8%AD%E8%B1%90%E5%8E%9F%E5%BA%97%EF%BD%9C%E5%A5%B6%E7%B2%89%E3%80%81%E5%B0%BF%E5%B8%83%E3%80%81%E6%8E%A8%E8%BB%8A%E3%80%81%E6%B1%BD%E5%BA%A7/@24.217506,120.6302827,13z/data=!4m6!3m5!1s0x34691b3e07c3dd63:0xdf20daa3167258f5!8m2!3d24.257947!4d120.7197873!16s%2Fg%2F11ks5ghhjf?entry=ttu",
+      "source": {
+        "type": "official",
+        "label": "安琪兒官方門市資訊",
+        "url": "https://www.angelbaby.com.tw/pages/location",
+        "checkedAt": "2026-07-01T11:07:26.855Z"
+      },
+      "confidence": "high",
+      "tags": [
+        "尿布",
+        "推車",
+        "汽座",
+        "奶瓶奶嘴",
+        "嬰兒床",
+        "孕婦用品"
+      ]
+    }
+  ]
+}
