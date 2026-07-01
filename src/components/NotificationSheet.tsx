@@ -1,5 +1,5 @@
-import { Bell, CloudRain, Heart, LocateFixed, Sparkles, Utensils, X } from 'lucide-react'
-import type { WeatherSummary } from '../data'
+import { Bell, CloudRain, Heart, LocateFixed, ShieldCheck, Sparkles, Utensils, X } from 'lucide-react'
+import type { HealthAdvisory, WeatherSummary } from '../data'
 
 function rainText(weather: WeatherSummary) {
   const current = `近1小時降雨 ${weather.precipitationProbability}%`
@@ -17,6 +17,7 @@ export function NotificationSheet({
   rainyCount,
   restaurantCount,
   favoritesCount,
+  healthAdvisories,
   onClose,
   onRainy,
   onNearby,
@@ -29,6 +30,7 @@ export function NotificationSheet({
   rainyCount: number
   restaurantCount: number
   favoritesCount: number
+  healthAdvisories: HealthAdvisory[]
   onClose: () => void
   onRainy: () => void
   onNearby: () => void
@@ -44,6 +46,7 @@ export function NotificationSheet({
   const rainyLine = weather
     ? `${weatherLine}${rainyCount ? `，可查看 ${rainyCount} 個雨天備案` : ''}`
     : weatherLine
+  const healthAdvisory = healthAdvisories[0]
 
   const runAction = (action: () => void) => {
     action()
@@ -72,6 +75,17 @@ export function NotificationSheet({
             </div>
             <button onClick={() => runAction(onRainy)}>{isRainy ? '看雨備' : '雨天備案'}</button>
           </article>
+
+          {healthAdvisory && (
+            <article className={`notification-card health-notification severity-${healthAdvisory.severity}`}>
+              <span className="notification-card-icon"><ShieldCheck size={19} /></span>
+              <div>
+                <strong>Q媽衛教提醒</strong>
+                <p>{healthAdvisory.title}：{healthAdvisory.action}</p>
+              </div>
+              <a href={healthAdvisory.source.url} target="_blank" rel="noreferrer">看來源</a>
+            </article>
+          )}
 
           <article className="notification-card">
             <span className="notification-card-icon"><LocateFixed size={19} /></span>

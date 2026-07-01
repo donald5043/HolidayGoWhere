@@ -70,6 +70,7 @@ import { useClickHistory } from './hooks/useClickHistory'
 import { usePlaces } from './hooks/usePlaces'
 import { useWeather } from './hooks/useWeather'
 import { useUserLocation } from './hooks/useUserLocation'
+import { useHealthAdvisories } from './hooks/useHealthAdvisories'
 import { regions, useFilters } from './hooks/useFilters'
 import { MichelinBadge, PlaceCard, PlaceImage } from './components/PlaceCard'
 import { FilterSheet } from './components/FilterSheet'
@@ -77,6 +78,7 @@ import { ReportForm } from './components/ReportForm'
 import { ProfileDrawer } from './components/ProfileDrawer'
 import { TodayInspiration } from './components/TodayInspiration'
 import { NotificationSheet } from './components/NotificationSheet'
+import { QMomHealthAdvisory } from './components/QMomHealthAdvisory'
 import { compactNumber } from './lib/format'
 import { fetchPublicJson } from './lib/fetchPublicJson'
 
@@ -358,6 +360,7 @@ function App() {
     eventOnly, setEventOnly,
     restaurantOnly, setRestaurantOnly,
   } = useFilters()
+  const { healthAdvisories } = useHealthAdvisories(age, region === '全部' ? null : region)
   const { weather, weatherStatus, loadWeather } = useWeather()
   const [showFilters, setShowFilters] = useState(false)
   const [selected, setSelected] = useState<Place | null>(null)
@@ -1040,6 +1043,7 @@ function App() {
               weather={weather}
               userLocation={userLocation}
               favorites={favorites}
+              healthAdvisories={healthAdvisories}
               onOpenPlace={openPlace}
               onFavorite={toggleFavorite}
               onExplore={() => goExplore()}
@@ -1146,6 +1150,8 @@ function App() {
                 <small>親子餐廳</small>
               </button>
             </section>
+
+            <QMomHealthAdvisory advisories={healthAdvisories} compact />
 
             {/* ── 天氣主動提示 ── */}
             {weatherStatus === 'ready' && weather && (() => {
@@ -1712,6 +1718,7 @@ function App() {
           rainyCount={rainyBackupCount}
           restaurantCount={restaurantBackupCount}
           favoritesCount={favorites.length}
+          healthAdvisories={healthAdvisories}
           onClose={() => setShowNotifications(false)}
           onRainy={() => {
             setAge('all')

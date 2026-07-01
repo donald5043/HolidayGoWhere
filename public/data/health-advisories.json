@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-01T05:03:47.380Z",
+  "sourcePolicy": "Only government public data and official Ministry of Health and Welfare / Taiwan CDC sources are allowed. Do not generate medical claims with AI.",
+  "syncStatus": {
+    "cdc": {
+      "freshAdvisories": 0,
+      "fallbackAdvisories": 0,
+      "failedDiseases": [],
+      "attempts": [
+        {
+          "diseaseName": "腸病毒",
+          "dataGovDatasetId": 14587,
+          "metadataVerified": true,
+          "dataset": "急診傳染病監測統計-腸病毒",
+          "metadataUrl": "https://data.gov.tw/dataset/14587",
+          "resourceUrl": "https://od.cdc.gov.tw/eic/RODS_EnteroviralInfection.json",
+          "usedUrl": "http://od.cdc.gov.tw/eic/RODS_EnteroviralInfection.json",
+          "resourceFormat": "JSON",
+          "records": 60794,
+          "ok": true
+        },
+        {
+          "diseaseName": "類流感",
+          "dataGovDatasetId": 14584,
+          "metadataVerified": true,
+          "dataset": "急診傳染病監測統計-類流感",
+          "metadataUrl": "https://data.gov.tw/dataset/14584",
+          "resourceUrl": "https://od.cdc.gov.tw/eic/RODS_Influenza_like_illness.json",
+          "usedUrl": "http://od.cdc.gov.tw/eic/RODS_Influenza_like_illness.json",
+          "resourceFormat": "JSON",
+          "records": 109147,
+          "ok": true
+        }
+      ],
+      "fetchRetries": 3,
+      "searchTimeoutMs": 30000,
+      "resourceTimeoutMs": 30000
+    }
+  },
+  "advisories": [
+    {
+      "id": "hpa-development-screening-under-7",
+      "category": "development",
+      "severity": "notice",
+      "title": "未滿 7 歲可以留意兒童發展篩檢時程",
+      "summary": "國健署兒童發展篩檢服務涵蓋粗大動作、精細動作、語言認知與社會發展；出門玩時也可以順手觀察孩子的動作與互動。",
+      "action": "Q媽提醒：若接近篩檢年齡區間，出門前可以把兒童健康手冊一起放進包包。",
+      "applicableAges": [
+        {
+          "label": "6至10個月",
+          "minMonths": 6,
+          "maxMonths": 10
+        },
+        {
+          "label": "10個月至1歲6個月",
+          "minMonths": 10,
+          "maxMonths": 18
+        },
+        {
+          "label": "1歲6個月至2歲",
+          "minMonths": 18,
+          "maxMonths": 24
+        },
+        {
+          "label": "2至3歲",
+          "minMonths": 24,
+          "maxMonths": 36
+        },
+        {
+          "label": "3至5歲",
+          "minMonths": 36,
+          "maxMonths": 60
+        },
+        {
+          "label": "5至未滿7歲",
+          "minMonths": 60,
+          "maxMonths": 83
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童發展篩檢服務",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/List.aspx?nodeid=4856",
+        "fetchedAt": "2026-07-01T05:03:47.380Z",
+        "dataPeriod": "國健署公開資訊"
+      },
+      "evidence": "國健署公開資訊列出未滿7歲兒童新增6次兒童發展篩檢服務，服務項目包含粗大動作、精細動作、語言認知、社會發展。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-child-handbook-outing-safety",
+      "category": "safety",
+      "severity": "info",
+      "title": "親子出遊前，先快速掃一次安全風險",
+      "summary": "兒童健康手冊包含家中常見嬰幼兒安全陷阱與緊急狀況處理等章節；外出到遊戲場、餐廳或商場，也可以用同樣概念檢查環境。",
+      "action": "Q媽提醒：到新場地先看出口、洗手台、樓梯與尖角，讓孩子開始玩之前先少一點意外風險。",
+      "applicableAges": [
+        {
+          "label": "0至6歲",
+          "minMonths": 0,
+          "maxMonths": 83
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童健康手冊",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1139",
+        "fetchedAt": "2026-07-01T05:03:47.380Z",
+        "dataPeriod": "兒童健康手冊"
+      },
+      "evidence": "國健署兒童健康手冊提供兒童發展、預防接種、緊急狀況處理與衛教資料等章節。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-child-education-infant-care",
+      "category": "safety",
+      "severity": "info",
+      "title": "小小孩出門，睡眠與照護用品也要想在前面",
+      "summary": "兒童衛教手冊包含早產兒居家照護、嬰兒猝死症預防、副食品添加、營養與事故傷害預防等育兒保健資訊。",
+      "action": "Q媽提醒：0–2 歲出門可以多確認尿布、替換衣物、餵食用品與安全睡眠安排。",
+      "applicableAges": [
+        {
+          "label": "0至2歲",
+          "minMonths": 0,
+          "maxMonths": 35
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童衛教手冊",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
+        "fetchedAt": "2026-07-01T05:03:47.380Z",
+        "dataPeriod": "兒童衛教手冊"
+      },
+      "evidence": "國健署兒童衛教手冊提供家長及主要照顧者育兒保健資訊，包含嬰兒照護、副食品、營養與預防事故傷害。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-child-nutrition-outing",
+      "category": "nutrition",
+      "severity": "info",
+      "title": "半日行程也要幫孩子保留喝水與點心節奏",
+      "summary": "兒童衛教手冊收錄嬰幼兒與兒童期每日膳食營養素等資訊；安排親子行程時，別只看景點，也要預留補水與用餐時間。",
+      "action": "Q媽提醒：戶外放電或排隊活動前，先準備水、簡單點心與休息點，爸媽比較不會被臨時狀況追著跑。",
+      "applicableAges": [
+        {
+          "label": "0至12歲",
+          "minMonths": 0,
+          "maxMonths": 155
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童衛教手冊",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
+        "fetchedAt": "2026-07-01T05:03:47.380Z",
+        "dataPeriod": "兒童衛教手冊"
+      },
+      "evidence": "國健署兒童衛教手冊包含副食品添加、嬰幼兒與兒童期營養等育兒保健資訊。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    }
+  ]
+}

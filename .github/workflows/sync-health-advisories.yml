@@ -1,0 +1,64 @@
+name: Sync health advisories
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 每天 04:30 UTC（台灣時間 12:30）同步疾管署與國健署安心提醒資料
+    - cron: '30 4 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Sync government health advisories
+        run: npm run sync:health
+        env:
+          CDC_FETCH_RETRIES: 3
+          CDC_SEARCH_TIMEOUT_MS: 30000
+          CDC_RESOURCE_TIMEOUT_MS: 30000
+
+      - name: Validate health advisory data
+        run: |
+          node - <<'NODE'
+          const fs = require('fs')
+          const payload = JSON.parse(fs.readFileSync('public/data/health-advisories.json', 'utf8'))
+          const allowed = new Set(['衛生福利部國民健康署', '衛生福利部疾病管制署'])
+          const invalid = (payload.advisories || []).filter((item) =>
+            !item.id ||
+            !item.title ||
+            !item.summary ||
+            !item.action ||
+            !item.disclaimer ||
+            !item.source?.url ||
+            !allowed.has(item.source?.agency)
+          )
+          if (invalid.length) {
+            console.error('Invalid health advisories:', invalid.map((item) => item.id || item.title))
+            process.exit(1)
+          }
+          console.log(`Validated ${payload.advisories.length} health advisories.`)
+          NODE
+
+      - name: Commit updated health data
+        run: |
+          if git diff --quiet -- public/data/health-advisories.json; then
+            echo "No health advisory changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/health-advisories.json
+          git commit -m "data: auto-sync health advisories [skip ci]"
+          git push

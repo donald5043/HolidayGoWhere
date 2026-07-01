@@ -13,10 +13,11 @@ import {
   TreePine,
   Umbrella,
 } from 'lucide-react'
-import type { Place, WeatherSummary } from '../data'
+import type { HealthAdvisory, Place, WeatherSummary } from '../data'
 import { Mascot } from './Mascot'
 import { PlaceImage } from './PlaceCard'
 import { WeekendInteractionHub } from './WeekendInteractionHub'
+import { QMomHealthAdvisory } from './QMomHealthAdvisory'
 
 type ScenarioKey = 'rainy' | 'energy' | 'stroller' | 'parents'
 
@@ -25,6 +26,7 @@ type Props = {
   weather: WeatherSummary | null
   userLocation: { lat: number; lng: number } | null
   favorites: string[]
+  healthAdvisories: HealthAdvisory[]
   onOpenPlace: (place: Place) => void
   onFavorite: (id: string) => void
   onScenario: (scenario: ScenarioKey) => void
@@ -81,6 +83,7 @@ export function TodayInspiration({
   weather,
   userLocation,
   favorites,
+  healthAdvisories,
   onOpenPlace,
   onFavorite,
   onScenario,
@@ -146,6 +149,8 @@ export function TodayInspiration({
           )}
         </div>
       </section>
+
+      <QMomHealthAdvisory advisories={healthAdvisories} />
 
       <section className="phase-scenarios" aria-label="親子情境快速選擇">
         {(Object.entries(scenarioCopy) as [ScenarioKey, typeof scenarioCopy[ScenarioKey]][]).map(([key, item]) => {

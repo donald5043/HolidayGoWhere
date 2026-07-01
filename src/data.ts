@@ -130,6 +130,33 @@ export type WeatherSummary = {
   fetchedAt: string
 }
 
+export type HealthAdvisorySource = {
+  name: string
+  agency: '衛生福利部國民健康署' | '衛生福利部疾病管制署'
+  url: string
+  fetchedAt: string
+  dataPeriod?: string
+}
+
+export type HealthAdvisory = {
+  id: string
+  category: 'development' | 'disease' | 'safety' | 'nutrition'
+  severity: 'info' | 'notice' | 'elevated'
+  mascot: 'qMom'
+  title: string
+  summary: string
+  action: string
+  applicableAges: {
+    label: string
+    minMonths: number
+    maxMonths: number
+  }[]
+  regions: string[]
+  source: HealthAdvisorySource
+  evidence: string
+  disclaimer: string
+}
+
 export type ParentReport = {
   visitedAt: string
   liked: boolean
