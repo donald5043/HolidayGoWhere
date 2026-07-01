@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-01T05:03:47.380Z",
+  "generatedAt": "2026-07-01T08:01:30.785Z",
   "sourcePolicy": "Only government public data and official Ministry of Health and Welfare / Taiwan CDC sources are allowed. Do not generate medical claims with AI.",
   "syncStatus": {
     "cdc": {
@@ -85,7 +85,7 @@
         "name": "兒童發展篩檢服務",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/List.aspx?nodeid=4856",
-        "fetchedAt": "2026-07-01T05:03:47.380Z",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
         "dataPeriod": "國健署公開資訊"
       },
       "evidence": "國健署公開資訊列出未滿7歲兒童新增6次兒童發展篩檢服務，服務項目包含粗大動作、精細動作、語言認知、社會發展。",
@@ -113,7 +113,7 @@
         "name": "兒童健康手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1139",
-        "fetchedAt": "2026-07-01T05:03:47.380Z",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
         "dataPeriod": "兒童健康手冊"
       },
       "evidence": "國健署兒童健康手冊提供兒童發展、預防接種、緊急狀況處理與衛教資料等章節。",
@@ -141,7 +141,7 @@
         "name": "兒童衛教手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
-        "fetchedAt": "2026-07-01T05:03:47.380Z",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
         "dataPeriod": "兒童衛教手冊"
       },
       "evidence": "國健署兒童衛教手冊提供家長及主要照顧者育兒保健資訊，包含嬰兒照護、副食品、營養與預防事故傷害。",
@@ -169,10 +169,995 @@
         "name": "兒童衛教手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
-        "fetchedAt": "2026-07-01T05:03:47.380Z",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
         "dataPeriod": "兒童衛教手冊"
       },
       "evidence": "國健署兒童衛教手冊包含副食品添加、嬰幼兒與兒童期營養等育兒保健資訊。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-outing-check-energy-appetite",
+      "category": "safety",
+      "severity": "info",
+      "title": "出門前先看精神、食慾與活動力",
+      "summary": "兒童健康手冊與兒童衛教資料都強調日常觀察的重要性；若孩子精神、食慾或活動力明顯和平常不同，行程可以先放慢。",
+      "action": "Q媽提醒：今天若要跑多個點，先把行程改成一個主景點加一個休息點，爸媽比較不會硬撐。",
+      "applicableAges": [
+        {
+          "label": "0至12歲",
+          "minMonths": 0,
+          "maxMonths": 155
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童健康手冊",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1139",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "兒童健康手冊"
+      },
+      "evidence": "依國健署兒童健康手冊與兒童衛教資料整理，提醒家長出遊前觀察孩子狀態。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-outing-hydration-breaks",
+      "category": "nutrition",
+      "severity": "info",
+      "title": "半日行程也要安排喝水與休息",
+      "summary": "兒童衛教手冊收錄兒童營養與照護資訊；外出時若只排景點、不排休息點，孩子容易在後半段失去耐心。",
+      "action": "Q媽提醒：每段活動中間留 15–20 分鐘喝水、吃點心或換尿布，行程會穩很多。",
+      "applicableAges": [
+        {
+          "label": "0至12歲",
+          "minMonths": 0,
+          "maxMonths": 155
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童衛教手冊",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "兒童衛教手冊"
+      },
+      "evidence": "依國健署兒童衛教手冊之兒童照護與營養主題整理。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-baby-diaper-bag-before-going",
+      "category": "safety",
+      "severity": "info",
+      "title": "0–2 歲出門，尿布包比景點更重要",
+      "summary": "嬰幼兒照護重視規律與安全；對小小孩來說，乾淨尿布、替換衣物與餵食用品常常比多跑一個景點更關鍵。",
+      "action": "Q媽提醒：尿布、濕紙巾、替換衣物、常用安撫物先放同一袋，臨時狀況比較不慌。",
+      "applicableAges": [
+        {
+          "label": "0至2歲",
+          "minMonths": 0,
+          "maxMonths": 35
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童衛教手冊",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "兒童衛教手冊"
+      },
+      "evidence": "依國健署兒童衛教手冊嬰幼兒照護主題整理。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-baby-safe-sleep-nap",
+      "category": "safety",
+      "severity": "info",
+      "title": "小小孩午睡點要先想好",
+      "summary": "嬰幼兒照護資料提醒家長重視安全睡眠與照護環境；外出若跨過午睡時間，先確認哪裡可以安靜休息。",
+      "action": "Q媽提醒：選景點時優先看有沒有育嬰室、親子廁所、安靜角落或可推車通行的室內空間。",
+      "applicableAges": [
+        {
+          "label": "0至2歲",
+          "minMonths": 0,
+          "maxMonths": 35
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童衛教手冊",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "兒童衛教手冊"
+      },
+      "evidence": "依國健署兒童衛教手冊嬰幼兒照護與安全睡眠主題整理。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-baby-feeding-rhythm",
+      "category": "nutrition",
+      "severity": "info",
+      "title": "0–2 歲行程跟著餵食節奏排",
+      "summary": "嬰幼兒照護需要兼顧餵食與休息節奏；行程若剛好卡在餵奶或副食品時間，爸媽會更辛苦。",
+      "action": "Q媽提醒：先排「餵食點」再排「拍照點」，親子出遊會順很多。",
+      "applicableAges": [
+        {
+          "label": "0至2歲",
+          "minMonths": 0,
+          "maxMonths": 35
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童衛教手冊",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "兒童衛教手冊"
+      },
+      "evidence": "依國健署兒童衛教手冊嬰幼兒餵食與照護主題整理。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-development-observe-play",
+      "category": "development",
+      "severity": "info",
+      "title": "玩也是觀察發展的小窗口",
+      "summary": "兒童發展篩檢服務涵蓋動作、語言認知與社會互動；出遊時可以自然觀察孩子怎麼走、怎麼拿、怎麼跟人互動。",
+      "action": "Q媽提醒：不用把旅行變考試，只要把觀察到的狀況記下來，回診或篩檢時比較好描述。",
+      "applicableAges": [
+        {
+          "label": "0至未滿7歲",
+          "minMonths": 0,
+          "maxMonths": 83
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童發展篩檢服務",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/List.aspx?nodeid=4856",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "兒童發展篩檢服務"
+      },
+      "evidence": "依國健署兒童發展篩檢服務項目整理。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-preschool-large-movement",
+      "category": "development",
+      "severity": "info",
+      "title": "3–5 歲適合安排跑跳放電，但要留退場路線",
+      "summary": "學齡前孩子活動量高，戶外跑跳能釋放精力；但環境安全、動線與休息點仍需要爸媽先看過。",
+      "action": "Q媽提醒：到公園先看出口、車道、水邊、樓梯與遮蔭處，再讓孩子開始跑。",
+      "applicableAges": [
+        {
+          "label": "3至5歲",
+          "minMonths": 36,
+          "maxMonths": 71
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童健康手冊",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1139",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "兒童健康手冊"
+      },
+      "evidence": "依國健署兒童健康手冊兒童安全與照護概念整理。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-preschool-language-sharing",
+      "category": "development",
+      "severity": "info",
+      "title": "3–5 歲可以把景點變成聊天素材",
+      "summary": "兒童發展包含語言認知與社會互動；旅行中的看見、等待、選擇，都可以變成親子對話。",
+      "action": "Q媽提醒：問孩子「你看到什麼、想先去哪裡、剛剛最喜歡什麼」，比一直趕行程更有收穫。",
+      "applicableAges": [
+        {
+          "label": "3至5歲",
+          "minMonths": 36,
+          "maxMonths": 71
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童發展篩檢服務",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/List.aspx?nodeid=4856",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "兒童發展篩檢服務"
+      },
+      "evidence": "依國健署兒童發展篩檢服務語言認知與社會發展面向整理。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-school-age-choice",
+      "category": "development",
+      "severity": "info",
+      "title": "6–12 歲可以讓孩子參與行程選擇",
+      "summary": "較大的孩子開始有更明確的偏好；讓孩子在兩三個選項中做選擇，能增加參與感，也減少臨場爭執。",
+      "action": "Q媽提醒：出門前讓孩子選「想看展、想放電、想吃點心」其中一個，行程會比較有共同感。",
+      "applicableAges": [
+        {
+          "label": "6至12歲",
+          "minMonths": 72,
+          "maxMonths": 155
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童衛教手冊",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "兒童衛教手冊"
+      },
+      "evidence": "依國健署兒童衛教手冊兒童照護與親子互動主題整理。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-school-age-screen-break",
+      "category": "safety",
+      "severity": "info",
+      "title": "長途移動後，先讓孩子動一動",
+      "summary": "兒童照護重視活動與休息平衡；長時間搭車或排隊後，孩子需要伸展與轉換情緒。",
+      "action": "Q媽提醒：抵達景點先找安全空地走一圈，再進入需要安靜排隊的區域。",
+      "applicableAges": [
+        {
+          "label": "6至12歲",
+          "minMonths": 72,
+          "maxMonths": 155
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童衛教手冊",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "兒童衛教手冊"
+      },
+      "evidence": "依國健署兒童衛教手冊兒童照護與日常活動主題整理。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-playground-first-scan",
+      "category": "safety",
+      "severity": "info",
+      "title": "遊戲場先掃一圈，再開始玩",
+      "summary": "兒童安全重點是先辨識環境風險；新的遊戲場不急著衝，先看地面、尖角、高低落差與人流。",
+      "action": "Q媽提醒：爸媽先花 30 秒看遊具、地墊、出口與水邊，孩子玩起來會安全很多。",
+      "applicableAges": [
+        {
+          "label": "0至12歲",
+          "minMonths": 0,
+          "maxMonths": 155
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童健康手冊",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1139",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "兒童健康手冊"
+      },
+      "evidence": "依國健署兒童健康手冊兒童事故傷害預防概念整理。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-stairs-escalator-watch",
+      "category": "safety",
+      "severity": "info",
+      "title": "商場與車站，樓梯手扶梯要特別慢",
+      "summary": "公共場所的樓梯、手扶梯、電梯與車道，是親子出遊常見需要注意的動線。",
+      "action": "Q媽提醒：推車改搭電梯，小孩走手扶梯時牽好手，不要邊走邊看手機。",
+      "applicableAges": [
+        {
+          "label": "0至12歲",
+          "minMonths": 0,
+          "maxMonths": 155
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童健康手冊",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1139",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "兒童健康手冊"
+      },
+      "evidence": "依國健署兒童健康手冊兒童安全與事故傷害預防概念整理。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-restaurant-hot-food",
+      "category": "safety",
+      "severity": "info",
+      "title": "餐廳熱湯熱飲先放遠",
+      "summary": "兒童事故傷害預防提醒家長留意燙傷與環境危險；餐廳裡熱湯、熱茶、電線和尖角都要先看。",
+      "action": "Q媽提醒：孩子坐下前先把熱湯熱飲移到大人側，餐具與剪刀也不要放在桌邊。",
+      "applicableAges": [
+        {
+          "label": "0至12歲",
+          "minMonths": 0,
+          "maxMonths": 155
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童健康手冊",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1139",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "兒童健康手冊"
+      },
+      "evidence": "依國健署兒童健康手冊事故傷害預防主題整理。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-handwash-before-eating",
+      "category": "disease",
+      "severity": "info",
+      "title": "吃東西前先洗手，是最便宜的行前準備",
+      "summary": "疾管署公開資料持續監測腸病毒與類流感；在人多的親子館、餐廳、商場活動後，手部清潔很重要。",
+      "action": "Q媽提醒：包包固定放一包濕紙巾或乾洗手，但有水有肥皂時仍優先好好洗手。",
+      "applicableAges": [
+        {
+          "label": "0至12歲",
+          "minMonths": 0,
+          "maxMonths": 155
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "疾病管制署資料開放平台",
+        "agency": "衛生福利部疾病管制署",
+        "url": "https://data.cdc.gov.tw/zh_TW/pages/developer",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "疾管署開放資料監測"
+      },
+      "evidence": "依疾管署腸病毒與類流感開放資料監測主題，搭配兒童外出清潔情境整理。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "cdc-indoor-play-clean-hands",
+      "category": "disease",
+      "severity": "info",
+      "title": "室內遊戲場玩完，先洗手再吃點心",
+      "summary": "疾管署資料每日監測腸病毒急診就診人次；室內遊戲場人多、接觸共用設施多，清潔節奏要先排進行程。",
+      "action": "Q媽提醒：把「玩完洗手」設定成點心前的固定步驟，孩子比較容易接受。",
+      "applicableAges": [
+        {
+          "label": "0至12歲",
+          "minMonths": 0,
+          "maxMonths": 155
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "疾病管制署資料開放平台",
+        "agency": "衛生福利部疾病管制署",
+        "url": "https://data.cdc.gov.tw/zh_TW/pages/developer",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "腸病毒急診監測資料"
+      },
+      "evidence": "依疾管署腸病毒急診監測開放資料與親子室內活動情境整理。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "cdc-crowded-indoor-mask-option",
+      "category": "disease",
+      "severity": "info",
+      "title": "人很多的室內空間，先準備備用口罩",
+      "summary": "疾管署資料每日監測類流感急診就診人次；如果行程會進入人多密閉空間，可以先把備用口罩放進包包。",
+      "action": "Q媽提醒：不是每個地方都需要戴，但孩子或爸媽覺得不舒服時，有備用品比較安心。",
+      "applicableAges": [
+        {
+          "label": "0至12歲",
+          "minMonths": 0,
+          "maxMonths": 155
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "疾病管制署資料開放平台",
+        "agency": "衛生福利部疾病管制署",
+        "url": "https://data.cdc.gov.tw/zh_TW/pages/developer",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "類流感急診監測資料"
+      },
+      "evidence": "依疾管署類流感急診監測開放資料與室內活動情境整理。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "cdc-sick-child-rest",
+      "category": "disease",
+      "severity": "info",
+      "title": "孩子不舒服，行程可以改成休息日",
+      "summary": "疾管署監測資料用來觀察傳染病趨勢；若孩子已經有明顯不適，最好的親子安排有時是延後出門。",
+      "action": "Q媽提醒：不要硬跑行程。改成外帶、短散步或在家活動，通常比全家累壞更好。",
+      "applicableAges": [
+        {
+          "label": "0至12歲",
+          "minMonths": 0,
+          "maxMonths": 155
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "疾病管制署資料開放平台",
+        "agency": "衛生福利部疾病管制署",
+        "url": "https://data.cdc.gov.tw/zh_TW/pages/developer",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "疾管署開放資料監測"
+      },
+      "evidence": "依疾管署急診傳染病監測資料與兒童出遊情境整理。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-rainy-day-indoor-choice",
+      "category": "safety",
+      "severity": "info",
+      "title": "雨天備案不只看室內，也要看動線",
+      "summary": "帶孩子遇到雨天時，室內景點、停車距離、推車動線與廁所位置都會影響體驗。",
+      "action": "Q媽提醒：雨天優先選停車近、有電梯、廁所清楚、可坐下休息的地方。",
+      "applicableAges": [
+        {
+          "label": "0至12歲",
+          "minMonths": 0,
+          "maxMonths": 155
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童健康手冊",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1139",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "兒童健康手冊"
+      },
+      "evidence": "依國健署兒童健康手冊安全照護概念，延伸到雨天親子出遊情境。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-sun-outdoor-shade",
+      "category": "safety",
+      "severity": "info",
+      "title": "戶外放電要先找遮蔭與補水點",
+      "summary": "戶外活動前先確認遮蔭、飲水、廁所與休息處，孩子比較能玩得久，也比較不容易情緒爆炸。",
+      "action": "Q媽提醒：公園或農場行程先找樹蔭、販賣機、洗手間，再開始大放電。",
+      "applicableAges": [
+        {
+          "label": "0至12歲",
+          "minMonths": 0,
+          "maxMonths": 155
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童衛教手冊",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "兒童衛教手冊"
+      },
+      "evidence": "依國健署兒童衛教手冊兒童照護與營養補水概念整理。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-car-seat-rest-stop",
+      "category": "safety",
+      "severity": "info",
+      "title": "車程久一點，要安排下車伸展",
+      "summary": "親子出遊常卡在交通時間；長途移動後安排短暫休息，能幫孩子轉換狀態。",
+      "action": "Q媽提醒：超過一段長車程就安排休息站或短步行，不要一下車就衝排隊。",
+      "applicableAges": [
+        {
+          "label": "0至12歲",
+          "minMonths": 0,
+          "maxMonths": 155
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童健康手冊",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1139",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "兒童健康手冊"
+      },
+      "evidence": "依國健署兒童健康手冊兒童安全與日常照護概念整理。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-toilet-before-queue",
+      "category": "safety",
+      "severity": "info",
+      "title": "排隊前先問一次廁所",
+      "summary": "孩子常在排隊或剛入場時才說想上廁所；先確認廁所位置，能減少臨時折返。",
+      "action": "Q媽提醒：進場、點餐、排隊前問一次，上完廁所再開始下一段比較穩。",
+      "applicableAges": [
+        {
+          "label": "0至12歲",
+          "minMonths": 0,
+          "maxMonths": 155
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童健康手冊",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1139",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "兒童健康手冊"
+      },
+      "evidence": "依國健署兒童健康手冊兒童照護與外出安全概念整理。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-stroller-route",
+      "category": "safety",
+      "severity": "info",
+      "title": "推車家庭先看電梯與坡道",
+      "summary": "0–2 歲或需要推車的家庭，景點好不好玩之外，動線是否友善會直接影響爸媽體力。",
+      "action": "Q媽提醒：先找電梯、坡道、哺乳室、親子廁所，再決定要不要深入景點。",
+      "applicableAges": [
+        {
+          "label": "0至2歲",
+          "minMonths": 0,
+          "maxMonths": 35
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童健康手冊",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1139",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "兒童健康手冊"
+      },
+      "evidence": "依國健署兒童健康手冊兒童外出照護與安全概念整理。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-food-backup",
+      "category": "nutrition",
+      "severity": "info",
+      "title": "孩子餓了才找餐廳，通常太晚",
+      "summary": "兒童飲食與作息需要穩定節奏；熱門景點附近餐廳可能排隊，備用點心能讓等待變短。",
+      "action": "Q媽提醒：包包放簡單點心和水，餐廳排隊時就是救援隊。",
+      "applicableAges": [
+        {
+          "label": "0至12歲",
+          "minMonths": 0,
+          "maxMonths": 155
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童衛教手冊",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "兒童衛教手冊"
+      },
+      "evidence": "依國健署兒童衛教手冊兒童營養與日常照護概念整理。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-new-food-simple",
+      "category": "nutrition",
+      "severity": "info",
+      "title": "出遊日餐點簡單一點也很好",
+      "summary": "外出時環境變化多，孩子的飲食選擇可以先求穩定，不一定要每餐都嘗鮮。",
+      "action": "Q媽提醒：安排一餐孩子熟悉的食物，爸媽也會輕鬆很多。",
+      "applicableAges": [
+        {
+          "label": "0至12歲",
+          "minMonths": 0,
+          "maxMonths": 155
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童衛教手冊",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "兒童衛教手冊"
+      },
+      "evidence": "依國健署兒童衛教手冊兒童營養與照護概念整理。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-overstimulated-child",
+      "category": "development",
+      "severity": "info",
+      "title": "孩子不是不乖，可能只是刺激太多",
+      "summary": "親子出遊有聲音、人群、等待與新環境；孩子累了或刺激過多時，可能需要安靜退場。",
+      "action": "Q媽提醒：保留一個「不用拍照、不用排隊」的休息角落，常常比多玩一項更值得。",
+      "applicableAges": [
+        {
+          "label": "0至12歲",
+          "minMonths": 0,
+          "maxMonths": 155
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童衛教手冊",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "兒童衛教手冊"
+      },
+      "evidence": "依國健署兒童衛教手冊兒童照護與親子互動概念整理。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-transition-warning",
+      "category": "development",
+      "severity": "info",
+      "title": "離開前先預告，比突然喊走更有效",
+      "summary": "孩子面對活動轉換時需要心理準備；提前預告能降低哭鬧與拉扯。",
+      "action": "Q媽提醒：離開前 5 分鐘先說一次，再讓孩子選最後一件小事，例如最後溜一次或拍一張照。",
+      "applicableAges": [
+        {
+          "label": "0至2歲",
+          "minMonths": 0,
+          "maxMonths": 35
+        },
+        {
+          "label": "3至5歲",
+          "minMonths": 36,
+          "maxMonths": 71
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童衛教手冊",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "兒童衛教手冊"
+      },
+      "evidence": "依國健署兒童衛教手冊親子互動與兒童照護概念整理。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-family-restroom",
+      "category": "safety",
+      "severity": "info",
+      "title": "親子廁所不是加分，是救援點",
+      "summary": "帶孩子外出時，尿布、換衣服、如廁與洗手都可能突然發生；親子廁所能大幅降低爸媽壓力。",
+      "action": "Q媽提醒：到景點先看廁所在哪裡，不要等孩子急了才找。",
+      "applicableAges": [
+        {
+          "label": "0至12歲",
+          "minMonths": 0,
+          "maxMonths": 155
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童健康手冊",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1139",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "兒童健康手冊"
+      },
+      "evidence": "依國健署兒童健康手冊兒童外出照護與安全概念整理。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-crowd-exit-plan",
+      "category": "safety",
+      "severity": "info",
+      "title": "人多的活動，先約好走散集合點",
+      "summary": "市集、展覽與大型活動人流多，先看出口和集合點，能降低臨時慌張。",
+      "action": "Q媽提醒：到場第一件事先指給孩子看服務台、出口或明顯地標。",
+      "applicableAges": [
+        {
+          "label": "6至12歲",
+          "minMonths": 72,
+          "maxMonths": 155
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童健康手冊",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1139",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "兒童健康手冊"
+      },
+      "evidence": "依國健署兒童健康手冊兒童安全與事故傷害預防概念整理。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-small-toy-waiting",
+      "category": "development",
+      "severity": "info",
+      "title": "等待時間也要有備案",
+      "summary": "孩子的耐心有限，餐廳、停車、入場排隊都可能成為情緒引爆點。",
+      "action": "Q媽提醒：準備一本小書、貼紙或安靜玩具，等候時間會柔軟很多。",
+      "applicableAges": [
+        {
+          "label": "0至12歲",
+          "minMonths": 0,
+          "maxMonths": 155
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童衛教手冊",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "兒童衛教手冊"
+      },
+      "evidence": "依國健署兒童衛教手冊兒童照護與親子互動概念整理。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-return-home-cleanup",
+      "category": "disease",
+      "severity": "info",
+      "title": "回家第一件事：洗手、換衣、整理包包",
+      "summary": "疾管署監測腸病毒與類流感等資料；外出回家後建立清潔流程，是親子旅遊很實用的小習慣。",
+      "action": "Q媽提醒：孩子回家先洗手，大人順手把水壺、餐具、濕紙巾補齊，下次出門更快。",
+      "applicableAges": [
+        {
+          "label": "0至12歲",
+          "minMonths": 0,
+          "maxMonths": 155
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "疾病管制署資料開放平台",
+        "agency": "衛生福利部疾病管制署",
+        "url": "https://data.cdc.gov.tw/zh_TW/pages/developer",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "疾管署開放資料監測"
+      },
+      "evidence": "依疾管署急診傳染病監測資料與兒童外出清潔情境整理。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-parent-rest-is-plan",
+      "category": "safety",
+      "severity": "info",
+      "title": "爸媽休息也是行程的一部分",
+      "summary": "親子出遊不是越滿越好；照顧者疲累時，判斷力和耐心都會下降。",
+      "action": "Q媽提醒：每半日安排一個爸媽能坐下的點，親子旅遊才走得長久。",
+      "applicableAges": [
+        {
+          "label": "0至12歲",
+          "minMonths": 0,
+          "maxMonths": 155
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童衛教手冊",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "兒童衛教手冊"
+      },
+      "evidence": "依國健署兒童衛教手冊家庭照護與兒童安全概念整理。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-morning-one-main-place",
+      "category": "safety",
+      "severity": "info",
+      "title": "半日行程，一個主景點就很夠",
+      "summary": "對孩子來說，移動、等待、吃飯、上廁所都會消耗能量；半日行程不需要塞滿。",
+      "action": "Q媽提醒：一個主景點加一個備案點，比三個景點趕場更像真正的休假。",
+      "applicableAges": [
+        {
+          "label": "0至12歲",
+          "minMonths": 0,
+          "maxMonths": 155
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童衛教手冊",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "兒童衛教手冊"
+      },
+      "evidence": "依國健署兒童衛教手冊兒童日常照護與親子互動概念整理。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-photo-not-pressure",
+      "category": "development",
+      "severity": "info",
+      "title": "不要為了拍照，把孩子逼到爆炸",
+      "summary": "出遊紀錄很重要，但孩子的情緒與安全更重要；拍照可以短、快、自然。",
+      "action": "Q媽提醒：如果孩子不想拍，先玩、先休息，通常等等自然會有更好的照片。",
+      "applicableAges": [
+        {
+          "label": "0至12歲",
+          "minMonths": 0,
+          "maxMonths": 155
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童衛教手冊",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "兒童衛教手冊"
+      },
+      "evidence": "依國健署兒童衛教手冊親子互動與兒童照護概念整理。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-backup-clothes",
+      "category": "safety",
+      "severity": "info",
+      "title": "備用衣物不只給嬰兒，也給玩水玩沙的孩子",
+      "summary": "親子景點常有水、沙、草地或流汗活動；一套備用衣物能讓後半段行程不崩盤。",
+      "action": "Q媽提醒：就算孩子已經上小學，玩水玩沙日也建議帶輕便換洗衣物。",
+      "applicableAges": [
+        {
+          "label": "0至12歲",
+          "minMonths": 0,
+          "maxMonths": 155
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童健康手冊",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1139",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "兒童健康手冊"
+      },
+      "evidence": "依國健署兒童健康手冊兒童外出照護與安全概念整理。",
+      "mascot": "qMom",
+      "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
+    },
+    {
+      "id": "hpa-check-official-opening",
+      "category": "safety",
+      "severity": "info",
+      "title": "出發前看一次官方開放資訊",
+      "summary": "親子行程最怕到現場才發現休館、施工或活動異動；官方資訊比社群貼文更適合當最後確認。",
+      "action": "Q媽提醒：出門前最後 10 分鐘，確認營業時間、停車、票價和是否需要預約。",
+      "applicableAges": [
+        {
+          "label": "0至12歲",
+          "minMonths": 0,
+          "maxMonths": 155
+        }
+      ],
+      "regions": [
+        "全國"
+      ],
+      "source": {
+        "name": "兒童健康手冊",
+        "agency": "衛生福利部國民健康署",
+        "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1139",
+        "fetchedAt": "2026-07-01T08:01:30.785Z",
+        "dataPeriod": "兒童健康手冊"
+      },
+      "evidence": "依國健署兒童健康手冊外出安全照護概念整理。",
       "mascot": "qMom",
       "disclaimer": "本提醒依政府公開資料整理，不能取代醫師診斷或治療建議；如孩子有不適或疑慮，請諮詢專業醫療人員。"
     }

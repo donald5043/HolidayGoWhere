@@ -2456,6 +2456,25 @@ p.wizard-reason {
   display: none;
 }
 
+.qmom-advisory__next {
+  width: fit-content;
+  margin-top: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  border: 0;
+  border-radius: var(--radius-pill);
+  padding: 5px 9px;
+  color: var(--color-text-secondary);
+  background: rgba(120,155,141,0.10);
+  font-size: 11px;
+  font-weight: 820;
+}
+
+.qmom-advisory__next:active {
+  transform: scale(0.96);
+}
+
 .phase-health-note {
   margin: -2px 0 2px;
 }

@@ -50,7 +50,8 @@ export function QMomHealthAdvisory({
   generatedAt?: string | null
 }) {
   const [activeIndex, setActiveIndex] = useState(0)
-  const orderedAdvisories = useMemo(() => advisories.slice(0, 6), [advisories])
+  const [touchStartX, setTouchStartX] = useState<number | null>(null)
+  const orderedAdvisories = useMemo(() => advisories, [advisories])
 
   useEffect(() => {
     setActiveIndex(0)
@@ -84,10 +85,22 @@ export function QMomHealthAdvisory({
     })
   }
 
+  const handleTouchEnd = (clientX: number) => {
+    if (touchStartX === null || orderedAdvisories.length <= 1) return
+    const delta = clientX - touchStartX
+    if (Math.abs(delta) > 42) {
+      if (delta < 0) goNext()
+      else goPrevious()
+    }
+    setTouchStartX(null)
+  }
+
   return (
     <section
       className={`qmom-advisory ${compact ? 'qmom-advisory--compact' : ''} ${isInline ? 'qmom-advisory--inline' : ''}`}
       aria-label="Q媽安心提醒"
+      onTouchStart={(event) => setTouchStartX(event.touches[0]?.clientX ?? null)}
+      onTouchEnd={(event) => handleTouchEnd(event.changedTouches[0]?.clientX ?? 0)}
     >
       <div className="qmom-advisory__mascot" aria-hidden="true">
         <Mascot variant="qMom" loading="eager" />
@@ -137,6 +150,11 @@ export function QMomHealthAdvisory({
             查看政府來源 <ArrowUpRight size={13} />
           </a>
           {generatedDate && <span>更新 {generatedDate}</span>}
+          {isInline && orderedAdvisories.length > 1 && (
+            <button type="button" className="qmom-advisory__next" onClick={goNext}>
+              下一則 <ChevronRight size={13} />
+            </button>
+          )}
         </div>
         {!isInline && cdcAttempts.length > 0 && (
           <div className="qmom-advisory__cdc" aria-label="疾管署資料檢查狀態">
