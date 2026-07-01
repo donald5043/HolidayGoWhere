@@ -1,4 +1,4 @@
-import { startTransition, useCallback, useEffect, useMemo, useRef, useState, type CSSProperties, type ReactNode } from 'react'
+import { Fragment, startTransition, useCallback, useEffect, useMemo, useRef, useState, type CSSProperties, type ReactNode } from 'react'
 import {
   Accessibility,
   Anchor,
@@ -793,6 +793,24 @@ function App() {
     ? `${viewportPlaces.length} 筆在目前地圖範圍`
     : `${displayedPlaces.length} 筆符合條件`
   const canLoadMoreResults = isCompactResultsView && visiblePlaces.length < viewportPlaces.length
+  const healthInsertIndex = useMemo(() => {
+    if (activeTab !== 'explore' || visiblePlaces.length < 6 || healthAdvisories.length === 0) return -1
+    const today = new Date()
+    const seedText = `${today.getFullYear()}-${today.getMonth() + 1}-${today.getDate()}-${age}-${region}-${visiblePlaces.length}`
+    const seed = [...seedText].reduce((sum, char) => sum + char.charCodeAt(0), 0)
+    const lowerBound = isCompactResultsView ? 4 : 5
+    const upperBound = Math.min(visiblePlaces.length - 1, isCompactResultsView ? 8 : 10)
+    return Math.min(upperBound, lowerBound + (seed % Math.max(1, upperBound - lowerBound + 1)))
+  }, [activeTab, age, healthAdvisories.length, isCompactResultsView, region, visiblePlaces.length])
+  const inlineHealthAdvisories = useMemo(() => {
+    if (healthInsertIndex < 0 || healthAdvisories.length === 0) return []
+    const today = new Date()
+    const seed = today.getDate() + healthInsertIndex + age.length
+    return healthAdvisories
+      .map((advisory, index) => ({ advisory, sortKey: (index * 17 + seed) % Math.max(1, healthAdvisories.length) }))
+      .sort((first, second) => first.sortKey - second.sortKey)
+      .map((item) => item.advisory)
+  }, [age.length, healthAdvisories, healthInsertIndex])
   const mapInteractive = mapExpanded || !isMobilePortraitMap || mobileMapInteractive
 
   const recommended = useMemo(() => {
@@ -1477,14 +1495,6 @@ function App() {
             </button>
           </div>
 
-          <QMomHealthAdvisory
-            advisories={healthAdvisories}
-            compact
-            selectedAge={age}
-            cdcStatus={healthCdcStatus}
-            generatedAt={healthAdvisoryGeneratedAt}
-          />
-
           {weather && (
             <div className="weather-recommendation">
               <CloudRain size={20} />
@@ -1665,16 +1675,27 @@ function App() {
                 </div>
               ) : visiblePlaces.length ? (
                 <>
-                  {visiblePlaces.map((place) => (
-                    <PlaceCard
-                      key={place.id}
-                      place={place}
-                      onOpen={() => openPlace(place)}
-                      onShowOnMap={() => focusPlaceOnMap(place)}
-                      favorite={favorites.includes(place.id)}
-                      onFavorite={() => toggleFavorite(place.id)}
-                      distance={userLocation ? distanceInKm(userLocation, place) : undefined}
-                    />
+                  {visiblePlaces.map((place, index) => (
+                    <Fragment key={place.id}>
+                      <PlaceCard
+                        place={place}
+                        onOpen={() => openPlace(place)}
+                        onShowOnMap={() => focusPlaceOnMap(place)}
+                        favorite={favorites.includes(place.id)}
+                        onFavorite={() => toggleFavorite(place.id)}
+                        distance={userLocation ? distanceInKm(userLocation, place) : undefined}
+                      />
+                      {index === healthInsertIndex && (
+                        <QMomHealthAdvisory
+                          advisories={inlineHealthAdvisories}
+                          compact
+                          mode="inline"
+                          selectedAge={age}
+                          cdcStatus={healthCdcStatus}
+                          generatedAt={healthAdvisoryGeneratedAt}
+                        />
+                      )}
+                    </Fragment>
                   ))}
                   {canLoadMoreResults && (
                     <div className="load-more-panel">

@@ -37,12 +37,14 @@ const ageLabel = {
 export function QMomHealthAdvisory({
   advisories,
   compact = false,
+  mode = 'feature',
   selectedAge = 'all',
   cdcStatus = null,
   generatedAt = null,
 }: {
   advisories: HealthAdvisory[]
   compact?: boolean
+  mode?: 'feature' | 'inline'
   selectedAge?: keyof typeof ageLabel | string
   cdcStatus?: CdcStatus | null
   generatedAt?: string | null
@@ -56,6 +58,7 @@ export function QMomHealthAdvisory({
 
   const primary = orderedAdvisories[activeIndex] ?? orderedAdvisories[0]
   if (!primary) return null
+  const isInline = mode === 'inline'
   const Icon = categoryIcon[primary.category]
   const extraCount = Math.max(0, orderedAdvisories.length - 1)
   const currentAgeLabel = ageLabel[selectedAge as keyof typeof ageLabel] ?? '目前年齡'
@@ -82,7 +85,10 @@ export function QMomHealthAdvisory({
   }
 
   return (
-    <section className={`qmom-advisory ${compact ? 'qmom-advisory--compact' : ''}`} aria-label="Q媽安心提醒">
+    <section
+      className={`qmom-advisory ${compact ? 'qmom-advisory--compact' : ''} ${isInline ? 'qmom-advisory--inline' : ''}`}
+      aria-label="Q媽安心提醒"
+    >
       <div className="qmom-advisory__mascot" aria-hidden="true">
         <Mascot variant="qMom" loading="eager" />
       </div>
@@ -100,9 +106,9 @@ export function QMomHealthAdvisory({
         <div className="qmom-advisory__meta">
           <span>{primary.source.agency}</span>
           {primary.source.dataPeriod && <span>{primary.source.dataPeriod}</span>}
-          {extraCount > 0 && <span>可切換 {extraCount} 則提醒</span>}
+          {!isInline && extraCount > 0 && <span>可切換 {extraCount} 則提醒</span>}
         </div>
-        {orderedAdvisories.length > 1 && (
+        {!isInline && orderedAdvisories.length > 1 && (
           <div className="qmom-advisory__controls" aria-label="切換 Q媽提醒">
             <button type="button" onClick={goPrevious} aria-label="上一則提醒">
               <ChevronLeft size={15} />
@@ -132,7 +138,7 @@ export function QMomHealthAdvisory({
           </a>
           {generatedDate && <span>更新 {generatedDate}</span>}
         </div>
-        {cdcAttempts.length > 0 && (
+        {!isInline && cdcAttempts.length > 0 && (
           <div className="qmom-advisory__cdc" aria-label="疾管署資料檢查狀態">
             <div className="qmom-advisory__cdc-title">
               {hasDiseaseCard ? <Activity size={14} /> : <CheckCircle2 size={14} />}
@@ -154,7 +160,7 @@ export function QMomHealthAdvisory({
             </div>
           </div>
         )}
-        {!compact && <small>{primary.disclaimer}</small>}
+        {!compact && !isInline && <small>{primary.disclaimer}</small>}
       </div>
     </section>
   )

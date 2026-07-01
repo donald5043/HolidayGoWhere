@@ -2384,6 +2384,78 @@ p.wizard-reason {
   margin-top: 4px;
 }
 
+.qmom-advisory--inline {
+  grid-template-columns: 54px minmax(0, 1fr);
+  gap: 12px;
+  margin: 6px 0 10px;
+  padding: 13px 14px;
+  border-radius: 22px;
+  border-color: rgba(120,155,141,0.12);
+  background:
+    radial-gradient(circle at 100% 100%, rgba(120,155,141,0.08), transparent 8rem),
+    rgba(255,252,247,0.78);
+  box-shadow: 0 10px 24px rgba(32,52,48,0.06);
+}
+
+.qmom-advisory--inline::after {
+  display: none;
+}
+
+.qmom-advisory--inline .qmom-advisory__mascot {
+  width: 54px;
+  height: 54px;
+  border-radius: 18px;
+}
+
+.qmom-advisory--inline .qmom-advisory__badge,
+.qmom-advisory--inline .qmom-advisory__age {
+  padding: 4px 8px;
+  font-size: 10px;
+}
+
+.qmom-advisory--inline h3 {
+  margin: 7px 0 4px;
+  font-size: 15px;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+}
+
+.qmom-advisory--inline p,
+.qmom-advisory--inline strong {
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.qmom-advisory--inline p {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.qmom-advisory--inline strong {
+  margin-top: 5px;
+  font-weight: 760;
+}
+
+.qmom-advisory--inline .qmom-advisory__meta {
+  margin-top: 8px;
+}
+
+.qmom-advisory--inline .qmom-advisory__meta span {
+  padding: 4px 7px;
+  font-size: 10px;
+}
+
+.qmom-advisory--inline .qmom-advisory__footer a {
+  margin-top: 8px;
+  font-size: 11px;
+}
+
+.qmom-advisory--inline .qmom-advisory__footer > span {
+  display: none;
+}
+
 .phase-hero-actions {
   margin-top: 26px;
   display: flex;
@@ -5437,6 +5509,27 @@ body.map-expanded-lock .bottom-nav {
 
   .qmom-advisory__cdc-list small {
     display: inline;
+  }
+
+  .qmom-advisory--inline {
+    grid-template-columns: 48px minmax(0, 1fr);
+    padding: 12px;
+    border-radius: 20px;
+  }
+
+  .qmom-advisory--inline .qmom-advisory__mascot {
+    width: 48px;
+    height: 48px;
+    border-radius: 16px;
+  }
+
+  .qmom-advisory--inline h3 {
+    font-size: 14px;
+  }
+
+  .qmom-advisory--inline p,
+  .qmom-advisory--inline strong {
+    font-size: 12px;
   }
 
   .phase-hero-actions {
