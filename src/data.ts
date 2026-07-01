@@ -124,6 +124,8 @@ export type WeatherSummary = {
   temperature: number
   weatherCode: number
   precipitationProbability: number
+  dailyPrecipitationProbabilityMax?: number
+  precipitationProbabilitySource?: 'current-hour' | 'daily-max'
   label: string
   fetchedAt: string
 }

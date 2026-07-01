@@ -91,7 +91,7 @@ export function TodayInspiration({
   const primaryPlace = heroPlaces[0]
   const isRainy = Boolean(weather && (weather.precipitationProbability >= 45 || weather.weatherCode >= 51))
   const weatherText = weather
-    ? `${weather.label}・${Math.round(weather.temperature)}°C・降雨 ${weather.precipitationProbability}%`
+    ? `${weather.label}・${Math.round(weather.temperature)}°C・近1小時降雨 ${weather.precipitationProbability}%`
     : userLocation
       ? '正在整理你附近的週末條件'
       : '開啟定位後可加入天氣與距離判斷'

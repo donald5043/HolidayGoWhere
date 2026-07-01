@@ -76,6 +76,7 @@ import { FilterSheet } from './components/FilterSheet'
 import { ReportForm } from './components/ReportForm'
 import { ProfileDrawer } from './components/ProfileDrawer'
 import { TodayInspiration } from './components/TodayInspiration'
+import { NotificationSheet } from './components/NotificationSheet'
 import { compactNumber } from './lib/format'
 import { fetchPublicJson } from './lib/fetchPublicJson'
 
@@ -337,6 +338,14 @@ function regionFromCoordinate({ lat, lng }: { lat: number; lng: number }): Regio
   return '南部'
 }
 
+function weatherRainText(weather: WeatherSummary) {
+  const current = `近1小時降雨 ${weather.precipitationProbability}%`
+  const max = weather.dailyPrecipitationProbabilityMax
+  return typeof max === 'number' && max !== weather.precipitationProbability
+    ? `${current}・今日最高 ${max}%`
+    : current
+}
+
 function App() {
   const { places, setPlaces, placeCache, setPlaceCache, aiInsights, placesStatus, setPlacesStatus } = usePlaces()
   const {
@@ -369,6 +378,7 @@ function App() {
   const autoLoadedLocationRegion = useRef(false)
   const [activeTab, setActiveTab] = useState<'home' | 'explore' | 'favorites' | 'profile'>('home')
   const [showProfile, setShowProfile] = useState(false)
+  const [showNotifications, setShowNotifications] = useState(false)
   const [wizardAge, setWizardAge]           = useState<WizardAgeGroup>('all')
   const [wizardDuration, setWizardDuration] = useState<WizardDuration>('all')
   const [wizardDistKm, setWizardDistKm]     = useState<10 | 20 | 40>(20)
@@ -821,6 +831,14 @@ function App() {
       .sort((a, b) => a.dist - b.dist)
       .slice(0, 6)
   }, [places, userLocation, placesStatus])
+  const rainyBackupCount = useMemo(
+    () => sourcePlaces.filter((place) => place.rainyDay && place.placeType !== '餐飲').length,
+    [sourcePlaces],
+  )
+  const restaurantBackupCount = useMemo(
+    () => sourcePlaces.filter((place) => place.placeType === '餐飲').length,
+    [sourcePlaces],
+  )
 
   const personality = useMemo(
     () => computePersonality([...favorites, ...clickHistory], places),
@@ -912,6 +930,7 @@ function App() {
     playUiSound('tap')
     setActiveTab(tab)
     setShowProfile(false)
+    setShowNotifications(false)
     window.setTimeout(
       () => {
         const compactLandscape = window.matchMedia('(orientation: landscape) and (max-height: 520px)').matches
@@ -926,12 +945,20 @@ function App() {
     playUiSound('tap')
     setActiveTab('home')
     setShowProfile(false)
+    setShowNotifications(false)
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
   const openProfile = () => {
     playUiSound('open')
+    setShowNotifications(false)
     setShowProfile(true)
+  }
+
+  const openNotifications = () => {
+    playUiSound('open')
+    setShowProfile(false)
+    setShowNotifications(true)
   }
 
   const saveReport = () => {
@@ -998,8 +1025,9 @@ function App() {
           <button className="icon-button" onClick={toggleSound} aria-label={soundEnabled ? '關閉介面音效' : '開啟介面音效'}>
             {soundEnabled ? <Volume2 size={19} /> : <VolumeX size={19} />}
           </button>
-          <button className="icon-button" onClick={openProfile} aria-label="通知與我的">
+          <button className="icon-button notification-button" onClick={openNotifications} aria-label="打開今日親子提醒">
             <Bell size={19} />
+            <span className="notification-dot" aria-hidden="true" />
           </button>
         </div>
       </header>
@@ -1135,7 +1163,7 @@ function App() {
                     <SunMedium size={22} />
                   )}
                   <div className="weather-nudge-copy">
-                    <strong>{isRainy ? `今天降雨機率 ${weather.precipitationProbability}%` : `今天高達 ${Math.round(weather.temperature)}°C`}</strong>
+                    <strong>{isRainy ? weatherRainText(weather) : `今天高達 ${Math.round(weather.temperature)}°C`}</strong>
                     <span>{isRainy ? '幫你整理好雨天室內景點' : '推薦涼快的室內景點'}</span>
                   </div>
                   <span className="weather-nudge-cta">看景點 <ChevronRight size={13} /></span>
@@ -1335,7 +1363,7 @@ function App() {
                   </strong>
                   <span>
                     {weather
-                      ? `今日降雨機率 ${weather.precipitationProbability}%`
+                      ? weatherRainText(weather)
                       : '開啟定位即可看當地天氣'}
                   </span>
                 </div>
@@ -1439,7 +1467,7 @@ function App() {
               <CloudRain size={20} />
               <div>
                 <strong>{weather.label}・{Math.round(weather.temperature)}°C</strong>
-                <span>今日降雨機率 {weather.precipitationProbability}%・已依天氣優先排序</span>
+                <span>{weatherRainText(weather)}・已依天氣優先排序</span>
               </div>
               {weather.precipitationProbability >= 45 && !rainyOnly && (
                 <button onClick={() => setRainyOnly(true)}>只看雨備</button>
@@ -1673,6 +1701,36 @@ function App() {
           age={age}
           onViewFavorites={() => { setShowProfile(false); openExplore('favorites') }}
           onAdjustPreferences={() => { setShowProfile(false); setShowFilters(true); openExplore('explore') }}
+        />
+      )}
+
+      {showNotifications && (
+        <NotificationSheet
+          weather={weather}
+          weatherStatus={weatherStatus}
+          nearbyCount={nearbyPlaces.length}
+          rainyCount={rainyBackupCount}
+          restaurantCount={restaurantBackupCount}
+          favoritesCount={favorites.length}
+          onClose={() => setShowNotifications(false)}
+          onRainy={() => {
+            setAge('all')
+            setSetting('全部')
+            setRainyOnly(true)
+            setEventOnly(false)
+            setRestaurantOnly(false)
+            openExplore('explore')
+          }}
+          onNearby={() => goExplore(findNearbyPlaces)}
+          onRestaurants={() => {
+            setAge('all')
+            setSetting('全部')
+            setRainyOnly(false)
+            setEventOnly(false)
+            enableRestaurantMode()
+            openExplore('explore')
+          }}
+          onFavorites={() => openExplore(favorites.length ? 'favorites' : 'explore')}
         />
       )}
 
