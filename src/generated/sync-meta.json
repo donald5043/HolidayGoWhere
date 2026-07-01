@@ -1,7 +1,7 @@
 {
   "sourceUrl": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
-  "sourceUpdatedAt": "2026-07-01T02:30:59+08:00",
-  "generatedFromSourceAt": "2026-07-01T02:30:59+08:00",
+  "sourceUpdatedAt": "2026-07-02T02:31:00+08:00",
+  "generatedFromSourceAt": "2026-07-02T02:31:00+08:00",
   "sourceCount": 6093,
   "restaurantSourceCount": 3690,
   "restaurantPublishedCount": 2664,
@@ -12,39 +12,39 @@
     "relevance": 0,
     "quality": 828
   },
-  "eventSourceCount": 792,
-  "eventPublishedCount": 194,
+  "eventSourceCount": 794,
+  "eventPublishedCount": 196,
   "eventRejected": {
-    "expired": 503,
+    "expired": 502,
     "coordinate": 1,
     "duplicate": 15,
-    "relevance": 79
+    "relevance": 80
   },
-  "candidateCount": 6036,
-  "publishedCount": 6036,
+  "candidateCount": 6039,
+  "publishedCount": 6039,
   "featuredCount": 300,
   "regionCounts": {
-    "北部": 1640,
+    "北部": 1641,
     "中部": 1874,
-    "南部": 1282,
-    "東部": 743,
+    "南部": 1283,
+    "東部": 744,
     "離島": 497
   },
   "rejected": {
     "inactive": 136,
     "coordinate": 24,
     "duplicate": 218,
-    "relevance": 2537,
+    "relevance": 2536,
     "quality": 0
   },
   "categoryCounts": {
     "交通迷": 173,
-    "假日散步": 195,
+    "假日散步": 196,
     "動物萌友": 157,
     "咖啡下午茶": 266,
     "室內餐廳": 2027,
     "探索學習": 242,
-    "本週活動": 194,
+    "本週活動": 196,
     "甜點冰品": 290,
     "百貨商場": 34,
     "自然放電": 1221,
@@ -75,7 +75,7 @@
     "nursingCount": 3996,
     "toiletCount": 45611,
     "nursingUpdatedAt": "2026-01-26 15:04:48",
-    "toiletUpdatedAt": "2026-06-30 09:09:34",
+    "toiletUpdatedAt": "2026-07-01 09:09:07",
     "sources": [
       {
         "id": 23750,
