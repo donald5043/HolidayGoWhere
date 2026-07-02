@@ -7090,10 +7090,36 @@ body.map-expanded-lock .bottom-nav {
   object-fit: contain;
   pointer-events: none;
   filter: drop-shadow(0 1px 3px rgba(58, 46, 42, 0.15));
+  transition: width 0.2s ease, height 0.2s ease;
 }
 
 .concierge-fab-label {
   pointer-events: none;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 60px;
+  transition: max-width 0.2s ease, opacity 0.2s ease;
+}
+
+/* 縮小狀態：只剩Q寶大頭照的圓形按鈕 */
+.concierge-fab.is-collapsed {
+  padding: 3px;
+  gap: 0; /* 標籤寬度歸零後 flex gap 仍佔位，會讓頭像偏左 */
+  border-radius: 50%;
+}
+
+.concierge-fab.is-collapsed .concierge-fab-face {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  /* 全身圖用 CSS 裁出頭部特寫 */
+  object-fit: cover;
+  object-position: 50% 8%;
+}
+
+.concierge-fab.is-collapsed .concierge-fab-label {
+  max-width: 0;
+  opacity: 0;
 }
 
 .concierge-backdrop {

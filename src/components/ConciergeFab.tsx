@@ -26,12 +26,25 @@ function loadPos(): Pos | null {
   }
 }
 
+const COLLAPSE_AFTER_MS = 4000
+
 export function ConciergeFab({ onOpen }: { onOpen: () => void }) {
   const [pos, setPos] = useState<Pos | null>(loadPos)
+  const [expanded, setExpanded] = useState(false)
   const buttonRef = useRef<HTMLButtonElement>(null)
   const dragging = useRef(false)
   const moved = useRef(false)
   const grabOffset = useRef({ x: 0, y: 0 })
+  const collapseTimer = useRef<number | null>(null)
+
+  const armCollapse = useCallback(() => {
+    if (collapseTimer.current != null) window.clearTimeout(collapseTimer.current)
+    collapseTimer.current = window.setTimeout(() => setExpanded(false), COLLAPSE_AFTER_MS)
+  }, [])
+
+  useEffect(() => () => {
+    if (collapseTimer.current != null) window.clearTimeout(collapseTimer.current)
+  }, [])
 
   // 視窗大小改變（轉向等）時把按鈕拉回畫面內
   useEffect(() => {
@@ -80,19 +93,31 @@ export function ConciergeFab({ onOpen }: { onOpen: () => void }) {
   const handlePointerUp = useCallback(() => {
     if (!dragging.current) return
     dragging.current = false
-    if (!moved.current) onOpen()
-  }, [onOpen])
+    if (moved.current) {
+      // 拖曳結束：維持現有展開狀態，展開中則重新計時
+      if (expanded) armCollapse()
+      return
+    }
+    // 第一下展開顯示「問Q媽」，第二下才進入對話
+    if (!expanded) {
+      setExpanded(true)
+      armCollapse()
+    } else {
+      setExpanded(false)
+      onOpen()
+    }
+  }, [armCollapse, expanded, onOpen])
 
   return (
     <button
       ref={buttonRef}
-      className="concierge-fab"
+      className={`concierge-fab${expanded ? '' : ' is-collapsed'}`}
       style={pos ? { left: pos.left, top: pos.top, right: 'auto', bottom: 'auto' } : undefined}
       onPointerDown={handlePointerDown}
       onPointerMove={handlePointerMove}
       onPointerUp={handlePointerUp}
       onPointerCancel={handlePointerUp}
-      aria-label="開啟Q媽隨行管家（可拖曳移動）"
+      aria-label={expanded ? '開啟Q媽隨行管家' : '展開問Q媽按鈕（可拖曳移動）'}
     >
       <Mascot variant="qBao" className="concierge-fab-face" alt="" loading="eager" />
       <span className="concierge-fab-label">問Q媽</span>
