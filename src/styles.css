@@ -7061,14 +7061,16 @@ body.map-expanded-lock .bottom-nav {
   align-items: center;
   gap: 6px;
   padding: 6px 13px 6px 7px;
-  border: 1px solid var(--color-border-strong);
+  border: 1px solid rgba(255, 255, 255, 0.65);
   border-radius: var(--radius-pill);
-  background: rgba(255, 255, 255, 0.92);
-  backdrop-filter: blur(6px);
+  /* 玻璃感：半透明漸層 + 高斯模糊（iOS 必須帶 -webkit- 前綴才會生效） */
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.3));
+  -webkit-backdrop-filter: blur(14px) saturate(160%);
+  backdrop-filter: blur(14px) saturate(160%);
   color: var(--color-primary-dark);
   font-size: 13px;
   font-weight: 700;
-  box-shadow: var(--shadow-sm);
+  box-shadow: 0 8px 24px rgba(58, 46, 42, 0.16), inset 0 1px 0 rgba(255, 255, 255, 0.7);
   cursor: grab;
   touch-action: none;
   user-select: none;
@@ -7077,7 +7079,7 @@ body.map-expanded-lock .bottom-nav {
 }
 
 .concierge-fab:hover {
-  box-shadow: var(--shadow-md);
+  box-shadow: 0 12px 30px rgba(58, 46, 42, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.7);
 }
 
 .concierge-fab:active {

@@ -4,33 +4,36 @@ import { Mascot } from './Mascot'
 const POS_KEY = 'holiday-go-where:concierge-fab-pos'
 const TAP_MAX_MOVE = 8 // px — 低於此距離視為點擊而非拖曳
 const EDGE_MARGIN = 8
+const COLLAPSE_AFTER_MS = 4000
 
-type Pos = { left: number; top: number }
+// side 決定展開方向：靠右半邊時以 right 定位，展開往左長，避免文字被螢幕切掉
+type Pos = { left: number; top: number; right: number; side: 'left' | 'right' }
 
-function clampPos(pos: Pos, width: number, height: number): Pos {
-  return {
-    left: Math.min(Math.max(pos.left, EDGE_MARGIN), window.innerWidth - width - EDGE_MARGIN),
-    top: Math.min(Math.max(pos.top, EDGE_MARGIN), window.innerHeight - height - EDGE_MARGIN),
-  }
+function clampCoord(value: number, size: number, viewport: number): number {
+  return Math.min(Math.max(value, EDGE_MARGIN), viewport - size - EDGE_MARGIN)
 }
 
 function loadPos(): Pos | null {
   try {
     const raw = localStorage.getItem(POS_KEY)
     if (!raw) return null
-    const parsed = JSON.parse(raw) as Pos
+    const parsed = JSON.parse(raw) as Partial<Pos>
     if (typeof parsed.left !== 'number' || typeof parsed.top !== 'number') return null
-    return parsed
+    return {
+      left: parsed.left,
+      top: parsed.top,
+      right: typeof parsed.right === 'number' ? parsed.right : window.innerWidth - parsed.left - 54,
+      side: parsed.side === 'right' ? 'right' : 'left',
+    }
   } catch {
     return null
   }
 }
 
-const COLLAPSE_AFTER_MS = 4000
-
 export function ConciergeFab({ onOpen }: { onOpen: () => void }) {
   const [pos, setPos] = useState<Pos | null>(loadPos)
   const [expanded, setExpanded] = useState(false)
+  const [isDragging, setIsDragging] = useState(false)
   const buttonRef = useRef<HTMLButtonElement>(null)
   const dragging = useRef(false)
   const moved = useRef(false)
@@ -52,7 +55,15 @@ export function ConciergeFab({ onOpen }: { onOpen: () => void }) {
       setPos((current) => {
         if (!current) return current
         const rect = buttonRef.current?.getBoundingClientRect()
-        return clampPos(current, rect?.width ?? 120, rect?.height ?? 52)
+        const width = rect?.width ?? 54
+        const height = rect?.height ?? 54
+        const left = clampCoord(current.left, width, window.innerWidth)
+        return {
+          ...current,
+          left,
+          top: clampCoord(current.top, height, window.innerHeight),
+          right: Math.max(EDGE_MARGIN, window.innerWidth - left - width),
+        }
       })
     }
     window.addEventListener('resize', onResize)
@@ -60,10 +71,10 @@ export function ConciergeFab({ onOpen }: { onOpen: () => void }) {
   }, [])
 
   useEffect(() => {
-    if (pos) {
+    if (pos && !isDragging) {
       try { localStorage.setItem(POS_KEY, JSON.stringify(pos)) } catch { /* ignore */ }
     }
-  }, [pos])
+  }, [pos, isDragging])
 
   const handlePointerDown = useCallback((event: React.PointerEvent<HTMLButtonElement>) => {
     const rect = event.currentTarget.getBoundingClientRect()
@@ -76,25 +87,35 @@ export function ConciergeFab({ onOpen }: { onOpen: () => void }) {
   const handlePointerMove = useCallback((event: React.PointerEvent<HTMLButtonElement>) => {
     if (!dragging.current) return
     const rect = event.currentTarget.getBoundingClientRect()
-    const next = clampPos(
-      { left: event.clientX - grabOffset.current.x, top: event.clientY - grabOffset.current.y },
-      rect.width,
-      rect.height,
-    )
+    const left = clampCoord(event.clientX - grabOffset.current.x, rect.width, window.innerWidth)
+    const top = clampCoord(event.clientY - grabOffset.current.y, rect.height, window.innerHeight)
     // 超過門檻才進入拖曳，避免手指微顫誤判
     if (!moved.current) {
-      const current = pos ?? { left: rect.left, top: rect.top }
-      if (Math.hypot(next.left - current.left, next.top - current.top) <= TAP_MAX_MOVE) return
+      const start = { left: rect.left, top: rect.top }
+      if (Math.hypot(left - start.left, top - start.top) <= TAP_MAX_MOVE) return
       moved.current = true
+      setIsDragging(true)
     }
-    setPos(next)
-  }, [pos])
+    // 拖曳期間以 left 跟隨手指
+    setPos({ left, top, right: window.innerWidth - left - rect.width, side: 'left' })
+  }, [])
 
   const handlePointerUp = useCallback(() => {
     if (!dragging.current) return
     dragging.current = false
     if (moved.current) {
-      // 拖曳結束：維持現有展開狀態，展開中則重新計時
+      // 拖曳結束：依落點決定展開方向（右半邊 → 往左展開）
+      setIsDragging(false)
+      const rect = buttonRef.current?.getBoundingClientRect()
+      if (rect) {
+        const onRightHalf = rect.left + rect.width / 2 > window.innerWidth / 2
+        setPos({
+          left: rect.left,
+          top: rect.top,
+          right: Math.max(EDGE_MARGIN, window.innerWidth - rect.right),
+          side: onRightHalf ? 'right' : 'left',
+        })
+      }
       if (expanded) armCollapse()
       return
     }
@@ -108,11 +129,17 @@ export function ConciergeFab({ onOpen }: { onOpen: () => void }) {
     }
   }, [armCollapse, expanded, onOpen])
 
+  const style = pos
+    ? pos.side === 'right' && !isDragging
+      ? { right: pos.right, top: pos.top, left: 'auto' as const, bottom: 'auto' as const }
+      : { left: pos.left, top: pos.top, right: 'auto' as const, bottom: 'auto' as const }
+    : undefined
+
   return (
     <button
       ref={buttonRef}
       className={`concierge-fab${expanded ? '' : ' is-collapsed'}`}
-      style={pos ? { left: pos.left, top: pos.top, right: 'auto', bottom: 'auto' } : undefined}
+      style={style}
       onPointerDown={handlePointerDown}
       onPointerMove={handlePointerMove}
       onPointerUp={handlePointerUp}
