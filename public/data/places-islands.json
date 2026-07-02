@@ -1443,7 +1443,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_371020000A_004201",
     "qualityScore": 10,
-    "updatedAt": "2026-07-01T00:57:28+08:00",
+    "updatedAt": "2026-07-02T06:19:35+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-06-30T16:00:00+08:00",
@@ -2250,7 +2250,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081943",
     "qualityScore": 10,
-    "updatedAt": "2026-07-01T02:00:04+08:00",
+    "updatedAt": "2026-07-02T02:00:03+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-04-01T00:00:00+08:00",
@@ -2928,7 +2928,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081944",
     "qualityScore": 10,
-    "updatedAt": "2026-07-01T02:00:04+08:00",
+    "updatedAt": "2026-07-02T02:00:03+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-03-01T00:00:00+08:00",
@@ -3081,7 +3081,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081946",
     "qualityScore": 10,
-    "updatedAt": "2026-07-01T02:00:04+08:00",
+    "updatedAt": "2026-07-02T02:00:03+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-04-01T00:00:00+08:00",
@@ -3234,7 +3234,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081945",
     "qualityScore": 10,
-    "updatedAt": "2026-07-01T02:00:04+08:00",
+    "updatedAt": "2026-07-02T02:00:03+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-04-01T00:00:00+08:00",
@@ -3993,11 +3993,11 @@
     }
   },
   {
-    "id": "Event_371020000A_004436",
-    "name": "台語親子音樂劇《春天佇佗位》",
+    "id": "Event_371020000A_004241",
+    "name": "2026 金寧鄉鄉村市集",
     "region": "離島",
     "city": "金門縣",
-    "district": "金城鎮",
+    "district": "金寧鄉",
     "ageMin": 0,
     "ageMax": 12,
     "setting": "室外",
@@ -4006,14 +4006,14 @@
     "rating": null,
     "reviews": 0,
     "priceLabel": "請查官網",
-    "address": "金門縣金城鎮環島北路一段66號",
-    "hours": "7/2",
-    "lat": 24.44087,
-    "lng": 118.32351,
-    "image": "https://kinmen.travel/image/47102/640x480",
+    "address": "金門縣金寧鄉和平紀念園區",
+    "hours": "10/30－11/1",
+    "lat": 24.47603,
+    "lng": 118.31649,
+    "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd4297?auto=format&fit=crop&w=900&q=80",
     "imageCandidates": [],
     "accent": "#ff6b6b",
-    "description": "《春天佇佗位》 專輯於2006年問世，當年跟著專輯歌曲牙牙學語的孩子都已長大成人；多年來，〈春天佇佗位〉依然是許多孩子學會的第一首台語童謠。時隔15年，詞曲創作者黃靜雅思考，「《春天佇佗位》 能不能成為孩子的第一本台語故事書呢？」於是，用母親的語言溫柔述說、活潑生動的《春天佇佗位》繪本在2021年誕生了，除了再度由原編曲謝漢揚製作全新演奏版及線上音樂故事劇，…",
+    "description": "鄉村市集派對目標客群以在地親子家庭為主，由公部門建立一個平台，提供販售、宣導及親子同樂的場域，冀望能帶動經濟文化及社區的永續發展，並提供一個溫馨有趣的兒童園地讓民眾於假日時能同享天倫一同放鬆玩樂。",
     "highlights": [
       "近期活動",
       "期間限定",
@@ -4033,36 +4033,38 @@
       "parkingInfo": "官方資料尚未提供停車資訊。",
       "evidence": []
     },
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8F%B0%E8%AA%9E%E8%A6%AA%E5%AD%90%E9%9F%B3%E6%A8%82%E5%8A%87%E3%80%8A%E6%98%A5%E5%A4%A9%E4%BD%87%E4%BD%97%E4%BD%8D%E3%80%8B%20%E9%87%91%E9%96%80%E7%B8%A3%E9%87%91%E5%9F%8E%E9%8E%AE%E7%92%B0%E5%B3%B6%E5%8C%97%E8%B7%AF%E4%B8%80%E6%AE%B566%E8%99%9F",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2026%20%E9%87%91%E5%AF%A7%E9%84%89%E9%84%89%E6%9D%91%E5%B8%82%E9%9B%86%20%E9%87%91%E9%96%80%E7%B8%A3%E9%87%91%E5%AF%A7%E9%84%89%E5%92%8C%E5%B9%B3%E7%B4%80%E5%BF%B5%E5%9C%92%E5%8D%80",
     "sources": [
       {
         "type": "Instagram",
-        "label": "查看 #台語親子音樂劇春天佇佗位",
-        "url": "https://www.instagram.com/explore/tags/%E5%8F%B0%E8%AA%9E%E8%A6%AA%E5%AD%90%E9%9F%B3%E6%A8%82%E5%8A%87%E6%98%A5%E5%A4%A9%E4%BD%87%E4%BD%97%E4%BD%8D/"
+        "label": "查看 #2026金寧鄉鄉村市集",
+        "url": "https://www.instagram.com/explore/tags/2026%E9%87%91%E5%AF%A7%E9%84%89%E9%84%89%E6%9D%91%E5%B8%82%E9%9B%86/"
       },
       {
         "type": "部落格",
         "label": "搜尋親子遊記",
-        "url": "https://www.google.com/search?q=%E5%8F%B0%E8%AA%9E%E8%A6%AA%E5%AD%90%E9%9F%B3%E6%A8%82%E5%8A%87%E3%80%8A%E6%98%A5%E5%A4%A9%E4%BD%87%E4%BD%97%E4%BD%8D%E3%80%8B%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+        "url": "https://www.google.com/search?q=2026%20%E9%87%91%E5%AF%A7%E9%84%89%E9%84%89%E6%9D%91%E5%B8%82%E9%9B%86%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
       }
     ],
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
-    "sourceId": "Event_371020000A_004436",
+    "sourceId": "Event_371020000A_004241",
     "qualityScore": 10,
-    "updatedAt": "2026-06-23T08:41:45+08:00",
+    "updatedAt": "2026-04-01T07:48:58+08:00",
     "rainyDay": false,
     "placeType": "活動",
-    "eventStart": "2026-07-02T11:30:00+08:00",
-    "eventEnd": "2026-07-02T13:30:00+08:00",
+    "eventStart": "2026-10-30T16:00:00+08:00",
+    "eventEnd": "2026-11-01T15:59:59+08:00",
     "weekendEvent": false,
     "familyEvidence": [],
-    "qualityScoreV2": 83,
+    "qualityScoreV2": 60,
     "completeness": {
-      "score": 50,
+      "score": 17,
       "missing": [
         "官方網站",
         "票價資訊",
-        "親子設施"
+        "官方照片",
+        "親子設施",
+        "詳細介紹"
       ]
     }
   },
@@ -4128,7 +4130,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081894",
     "qualityScore": 10,
-    "updatedAt": "2026-07-01T02:00:04+08:00",
+    "updatedAt": "2026-07-02T02:00:03+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-09-20T00:00:00+08:00",
@@ -4352,7 +4354,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081690",
     "qualityScore": 10,
-    "updatedAt": "2026-07-01T02:00:04+08:00",
+    "updatedAt": "2026-07-02T02:00:03+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-09-01T00:00:00+08:00",
@@ -4806,7 +4808,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081888",
     "qualityScore": 10,
-    "updatedAt": "2026-07-01T02:00:04+08:00",
+    "updatedAt": "2026-07-02T02:00:03+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-08-21T00:00:00+08:00",
@@ -5008,7 +5010,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081873",
     "qualityScore": 10,
-    "updatedAt": "2026-07-01T02:00:04+08:00",
+    "updatedAt": "2026-07-02T02:00:03+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-10-17T00:00:00+08:00",
@@ -5155,7 +5157,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_371020000A_004239",
     "qualityScore": 10,
-    "updatedAt": "2026-07-01T00:41:07+08:00",
+    "updatedAt": "2026-07-02T01:16:47+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-10-16T16:00:00+08:00",
@@ -5251,7 +5253,7 @@
   },
   {
     "id": "Event_371020000A_004202",
-    "name": "後浦十六藝文特區音樂季",
+    "name": "後浦音樂季",
     "region": "離島",
     "city": "金門縣",
     "district": "金城鎮",
@@ -5267,10 +5269,10 @@
     "hours": "7/9－8/29",
     "lat": 24.43289,
     "lng": 118.31687,
-    "image": "https://kinmen.travel/image/46647/640x480",
+    "image": "https://kinmen.travel/image/47193/640x480",
     "imageCandidates": [],
     "accent": "#ff6b6b",
-    "description": "邀請台金演唱者在後浦16藝文特區舉辦音樂季，享受輕鬆的夏夜風情，唯美、浪漫的音樂勢必帶給聆賞者豐富的聽覺與視覺饗宴。",
+    "description": "2026 年夏天，後浦16藝文特區將以音樂陪伴旅人走進金門夏夜。活動自7月10日至8月29日期間舉行，每週五、六晚間19:30至21:00，邀請多組優秀音樂人與樂團輪番登場，帶來流行、弦樂、樂團演出等多元音樂饗宴。",
     "highlights": [
       "近期活動",
       "期間限定",
@@ -5290,37 +5292,36 @@
       "parkingInfo": "官方資料尚未提供停車資訊。",
       "evidence": []
     },
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BE%8C%E6%B5%A6%E5%8D%81%E5%85%AD%E8%97%9D%E6%96%87%E7%89%B9%E5%8D%80%E9%9F%B3%E6%A8%82%E5%AD%A3%20%E9%87%91%E9%96%80%E7%B8%A3%E9%87%91%E5%9F%8E%E9%8E%AE%E5%BE%8C%E6%B5%A6%E5%8D%81%E5%85%AD%E8%97%9D%E6%96%87%E7%89%B9%E5%8D%80",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BE%8C%E6%B5%A6%E9%9F%B3%E6%A8%82%E5%AD%A3%20%E9%87%91%E9%96%80%E7%B8%A3%E9%87%91%E5%9F%8E%E9%8E%AE%E5%BE%8C%E6%B5%A6%E5%8D%81%E5%85%AD%E8%97%9D%E6%96%87%E7%89%B9%E5%8D%80",
     "sources": [
       {
         "type": "Instagram",
-        "label": "查看 #後浦十六藝文特區音樂季",
-        "url": "https://www.instagram.com/explore/tags/%E5%BE%8C%E6%B5%A6%E5%8D%81%E5%85%AD%E8%97%9D%E6%96%87%E7%89%B9%E5%8D%80%E9%9F%B3%E6%A8%82%E5%AD%A3/"
+        "label": "查看 #後浦音樂季",
+        "url": "https://www.instagram.com/explore/tags/%E5%BE%8C%E6%B5%A6%E9%9F%B3%E6%A8%82%E5%AD%A3/"
       },
       {
         "type": "部落格",
         "label": "搜尋親子遊記",
-        "url": "https://www.google.com/search?q=%E5%BE%8C%E6%B5%A6%E5%8D%81%E5%85%AD%E8%97%9D%E6%96%87%E7%89%B9%E5%8D%80%E9%9F%B3%E6%A8%82%E5%AD%A3%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+        "url": "https://www.google.com/search?q=%E5%BE%8C%E6%B5%A6%E9%9F%B3%E6%A8%82%E5%AD%A3%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
       }
     ],
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_371020000A_004202",
     "qualityScore": 10,
-    "updatedAt": "2026-05-25T03:05:20+08:00",
+    "updatedAt": "2026-07-02T08:45:24+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-07-09T16:00:00+08:00",
     "eventEnd": "2026-08-29T15:59:59+08:00",
     "weekendEvent": false,
     "familyEvidence": [],
-    "qualityScoreV2": 75,
+    "qualityScoreV2": 83,
     "completeness": {
-      "score": 33,
+      "score": 50,
       "missing": [
         "官方網站",
         "票價資訊",
-        "親子設施",
-        "詳細介紹"
+        "親子設施"
       ]
     }
   },
@@ -5386,6 +5387,156 @@
     "placeType": "活動",
     "eventStart": "2026-07-17T11:00:00+08:00",
     "eventEnd": "2026-10-16T13:00:00+08:00",
+    "weekendEvent": false,
+    "familyEvidence": [],
+    "qualityScoreV2": 75,
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "票價資訊",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "Event_371020000A_004240",
+    "name": "萬聖節活動",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金城鎮",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "本週活動",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "金門縣金城鎮金城市區",
+    "hours": "10/30－10/31",
+    "lat": 24.43206,
+    "lng": 118.31551,
+    "image": "https://kinmen.travel/image/45556/640x480",
+    "imageCandidates": [],
+    "accent": "#ff6b6b",
+    "description": "藉由主題性活動的舉辦，活絡後浦商圈整體產業發展並透過變裝踩街遊行及走秀比賽活動，暫時跳脫現實生活的枷鎖，激發創意和想像力，帶給後浦城區年輕活力新朝氣。",
+    "highlights": [
+      "近期活動",
+      "期間限定",
+      "親子新鮮事"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": []
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%90%AC%E8%81%96%E7%AF%80%E6%B4%BB%E5%8B%95%20%E9%87%91%E9%96%80%E7%B8%A3%E9%87%91%E5%9F%8E%E9%8E%AE%E9%87%91%E5%9F%8E%E5%B8%82%E5%8D%80",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #萬聖節活動",
+        "url": "https://www.instagram.com/explore/tags/%E8%90%AC%E8%81%96%E7%AF%80%E6%B4%BB%E5%8B%95/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=%E8%90%AC%E8%81%96%E7%AF%80%E6%B4%BB%E5%8B%95%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
+    "sourceId": "Event_371020000A_004240",
+    "qualityScore": 10,
+    "updatedAt": "2025-12-17T07:27:06+08:00",
+    "rainyDay": false,
+    "placeType": "活動",
+    "eventStart": "2026-10-30T16:00:00+08:00",
+    "eventEnd": "2026-10-31T15:59:59+08:00",
+    "weekendEvent": false,
+    "familyEvidence": [],
+    "qualityScoreV2": 75,
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "票價資訊",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
+    "id": "Event_371020000A_004446",
+    "name": "KDC 暑假街舞成果展",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金沙鎮",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "本週活動",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "金門縣金沙鎮",
+    "hours": "7/19",
+    "lat": 24.43586,
+    "lng": 118.31705,
+    "image": "https://kinmen.travel/image/47181/640x480",
+    "imageCandidates": [],
+    "accent": "#ff6b6b",
+    "description": "KDC 暑假街舞成果展｜夏日舞動節奏派對",
+    "highlights": [
+      "近期活動",
+      "期間限定",
+      "親子新鮮事"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": []
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=KDC%20%E6%9A%91%E5%81%87%E8%A1%97%E8%88%9E%E6%88%90%E6%9E%9C%E5%B1%95%20%E9%87%91%E9%96%80%E7%B8%A3%E9%87%91%E6%B2%99%E9%8E%AE",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #KDC暑假街舞成果展",
+        "url": "https://www.instagram.com/explore/tags/KDC%E6%9A%91%E5%81%87%E8%A1%97%E8%88%9E%E6%88%90%E6%9E%9C%E5%B1%95/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=KDC%20%E6%9A%91%E5%81%87%E8%A1%97%E8%88%9E%E6%88%90%E6%9E%9C%E5%B1%95%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
+    "sourceId": "Event_371020000A_004446",
+    "qualityScore": 10,
+    "updatedAt": "2026-07-02T05:50:40+08:00",
+    "rainyDay": false,
+    "placeType": "活動",
+    "eventStart": "2026-07-19T09:00:00+08:00",
+    "eventEnd": "2026-07-19T10:00:00+08:00",
     "weekendEvent": false,
     "familyEvidence": [],
     "qualityScoreV2": 75,
@@ -37817,7 +37968,7 @@
     "dataSource": "osm",
     "sourceId": "node/12896536301",
     "qualityScore": 4,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -37866,7 +38017,7 @@
     "dataSource": "osm",
     "sourceId": "node/7091524767",
     "qualityScore": 4,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -37905,7 +38056,7 @@
     "dataSource": "osm",
     "sourceId": "node/7091524766",
     "qualityScore": 3,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -37954,7 +38105,7 @@
     "dataSource": "osm",
     "sourceId": "node/4532154189",
     "qualityScore": 5,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -38003,7 +38154,7 @@
     "dataSource": "osm",
     "sourceId": "node/5412039685",
     "qualityScore": 5,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -38052,7 +38203,7 @@
     "dataSource": "osm",
     "sourceId": "node/5415716180",
     "qualityScore": 5,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -38101,7 +38252,7 @@
     "dataSource": "osm",
     "sourceId": "node/5439284365",
     "qualityScore": 5,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -38150,7 +38301,7 @@
     "dataSource": "osm",
     "sourceId": "node/8392980417",
     "qualityScore": 5,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -38199,7 +38350,7 @@
     "dataSource": "osm",
     "sourceId": "node/11041690433",
     "qualityScore": 5,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -38248,7 +38399,7 @@
     "dataSource": "osm",
     "sourceId": "node/12923112691",
     "qualityScore": 5,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -38297,7 +38448,7 @@
     "dataSource": "osm",
     "sourceId": "way/330220933",
     "qualityScore": 5,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -38346,7 +38497,7 @@
     "dataSource": "osm",
     "sourceId": "way/1393195099",
     "qualityScore": 5,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -38395,7 +38546,7 @@
     "dataSource": "osm",
     "sourceId": "node/4041952192",
     "qualityScore": 4,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -38444,7 +38595,7 @@
     "dataSource": "osm",
     "sourceId": "node/4109104489",
     "qualityScore": 4,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -38493,7 +38644,7 @@
     "dataSource": "osm",
     "sourceId": "node/4113230089",
     "qualityScore": 4,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -38542,7 +38693,7 @@
     "dataSource": "osm",
     "sourceId": "node/4115555789",
     "qualityScore": 4,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -38591,7 +38742,7 @@
     "dataSource": "osm",
     "sourceId": "node/4185279437",
     "qualityScore": 4,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -38640,7 +38791,7 @@
     "dataSource": "osm",
     "sourceId": "node/4504037691",
     "qualityScore": 4,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -38689,7 +38840,7 @@
     "dataSource": "osm",
     "sourceId": "node/4587300794",
     "qualityScore": 4,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -38738,7 +38889,7 @@
     "dataSource": "osm",
     "sourceId": "node/4593844489",
     "qualityScore": 4,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -38787,7 +38938,7 @@
     "dataSource": "osm",
     "sourceId": "node/4597428090",
     "qualityScore": 4,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -38836,7 +38987,7 @@
     "dataSource": "osm",
     "sourceId": "node/4597685190",
     "qualityScore": 4,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -38885,7 +39036,7 @@
     "dataSource": "osm",
     "sourceId": "node/4686957755",
     "qualityScore": 4,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -38934,7 +39085,7 @@
     "dataSource": "osm",
     "sourceId": "node/5205227142",
     "qualityScore": 4,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -38983,7 +39134,7 @@
     "dataSource": "osm",
     "sourceId": "node/5419211569",
     "qualityScore": 4,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -39032,7 +39183,7 @@
     "dataSource": "osm",
     "sourceId": "node/5512100342",
     "qualityScore": 4,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -39081,7 +39232,7 @@
     "dataSource": "osm",
     "sourceId": "node/10106542142",
     "qualityScore": 4,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -39130,7 +39281,7 @@
     "dataSource": "osm",
     "sourceId": "node/12923162173",
     "qualityScore": 4,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -39179,7 +39330,7 @@
     "dataSource": "osm",
     "sourceId": "node/12923164410",
     "qualityScore": 4,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -39228,7 +39379,7 @@
     "dataSource": "osm",
     "sourceId": "node/12923279643",
     "qualityScore": 4,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -39277,7 +39428,7 @@
     "dataSource": "osm",
     "sourceId": "way/330733837",
     "qualityScore": 4,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -39326,7 +39477,7 @@
     "dataSource": "osm",
     "sourceId": "way/408116839",
     "qualityScore": 4,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -39375,7 +39526,7 @@
     "dataSource": "osm",
     "sourceId": "way/485524555",
     "qualityScore": 4,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -39414,7 +39565,7 @@
     "dataSource": "osm",
     "sourceId": "node/2835983797",
     "qualityScore": 3,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -39453,7 +39604,7 @@
     "dataSource": "osm",
     "sourceId": "node/2835983798",
     "qualityScore": 3,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -39492,7 +39643,7 @@
     "dataSource": "osm",
     "sourceId": "node/2835983799",
     "qualityScore": 3,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -39531,7 +39682,7 @@
     "dataSource": "osm",
     "sourceId": "node/2836007402",
     "qualityScore": 3,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -39570,7 +39721,7 @@
     "dataSource": "osm",
     "sourceId": "node/2836007403",
     "qualityScore": 3,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -39609,7 +39760,7 @@
     "dataSource": "osm",
     "sourceId": "node/2836015227",
     "qualityScore": 3,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -39648,7 +39799,7 @@
     "dataSource": "osm",
     "sourceId": "node/4298578492",
     "qualityScore": 3,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -39687,7 +39838,7 @@
     "dataSource": "osm",
     "sourceId": "node/4334953491",
     "qualityScore": 3,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -39726,7 +39877,7 @@
     "dataSource": "osm",
     "sourceId": "node/4486723290",
     "qualityScore": 3,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -39765,7 +39916,7 @@
     "dataSource": "osm",
     "sourceId": "node/4593918396",
     "qualityScore": 3,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -39804,7 +39955,7 @@
     "dataSource": "osm",
     "sourceId": "node/4597428089",
     "qualityScore": 3,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -39843,7 +39994,7 @@
     "dataSource": "osm",
     "sourceId": "node/4597666590",
     "qualityScore": 3,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -39882,7 +40033,7 @@
     "dataSource": "osm",
     "sourceId": "node/4686957735",
     "qualityScore": 3,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -39921,7 +40072,7 @@
     "dataSource": "osm",
     "sourceId": "node/4813004821",
     "qualityScore": 3,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -39960,7 +40111,7 @@
     "dataSource": "osm",
     "sourceId": "node/4817321924",
     "qualityScore": 3,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -39999,7 +40150,7 @@
     "dataSource": "osm",
     "sourceId": "node/5239314068",
     "qualityScore": 3,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -40038,7 +40189,7 @@
     "dataSource": "osm",
     "sourceId": "node/5439255129",
     "qualityScore": 3,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -40077,7 +40228,7 @@
     "dataSource": "osm",
     "sourceId": "node/8444506917",
     "qualityScore": 3,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -40116,7 +40267,7 @@
     "dataSource": "osm",
     "sourceId": "node/11914957643",
     "qualityScore": 3,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -40155,7 +40306,7 @@
     "dataSource": "osm",
     "sourceId": "way/1116421076",
     "qualityScore": 3,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   },
   {
@@ -40194,7 +40345,7 @@
     "dataSource": "osm",
     "sourceId": "way/1443489517",
     "qualityScore": 3,
-    "updatedAt": "2026-07-01",
+    "updatedAt": "2026-07-02",
     "placeType": "餐飲"
   }
 ]
