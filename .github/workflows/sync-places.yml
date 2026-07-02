@@ -34,12 +34,12 @@ jobs:
 
       - name: Commit updated place data
         run: |
-          if git diff --quiet -- src/generated docs/data-quality-report.md; then
+          if git diff --quiet -- src/generated public/data docs/data-quality-report.md; then
             echo "No place data changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/generated docs/data-quality-report.md
+          git add src/generated public/data docs/data-quality-report.md
           git commit -m "data: sync tourism attractions"
           git push

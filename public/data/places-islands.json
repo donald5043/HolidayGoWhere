@@ -1443,7 +1443,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_371020000A_004201",
     "qualityScore": 10,
-    "updatedAt": "2026-06-30T00:40:26+08:00",
+    "updatedAt": "2026-07-01T00:57:28+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-06-30T16:00:00+08:00",
@@ -2250,7 +2250,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081943",
     "qualityScore": 10,
-    "updatedAt": "2026-06-30T02:00:03+08:00",
+    "updatedAt": "2026-07-01T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-04-01T00:00:00+08:00",
@@ -2928,7 +2928,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081944",
     "qualityScore": 10,
-    "updatedAt": "2026-06-30T02:00:03+08:00",
+    "updatedAt": "2026-07-01T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-03-01T00:00:00+08:00",
@@ -3081,7 +3081,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081946",
     "qualityScore": 10,
-    "updatedAt": "2026-06-30T02:00:03+08:00",
+    "updatedAt": "2026-07-01T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-04-01T00:00:00+08:00",
@@ -3234,7 +3234,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081945",
     "qualityScore": 10,
-    "updatedAt": "2026-06-30T02:00:03+08:00",
+    "updatedAt": "2026-07-01T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-04-01T00:00:00+08:00",
@@ -3268,7 +3268,7 @@
     "hours": "7/23－7/26",
     "lat": 24.42486,
     "lng": 118.42767,
-    "image": "https://kinmen.travel/image/46645/640x480",
+    "image": "https://kinmen.travel/image/47177/640x480",
     "imageCandidates": [],
     "accent": "#ff6b6b",
     "description": "2026金湖海灘花蛤季將於7月24日至7月26日熱鬧登場。今年夏天，金湖海灘將化身為充滿歡笑與活力的大型海洋遊樂園，結合大型遊樂設施、親子互動體驗、沙灘闖關遊戲與海洋運動挑戰，打造適合親子家庭、好友同行及旅客一同參與的夏日盛會。",
@@ -3307,7 +3307,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_371020000A_004231",
     "qualityScore": 10,
-    "updatedAt": "2026-06-11T06:03:13+08:00",
+    "updatedAt": "2026-07-01T01:18:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-07-23T16:00:00+08:00",
@@ -4128,7 +4128,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081894",
     "qualityScore": 10,
-    "updatedAt": "2026-06-30T02:00:03+08:00",
+    "updatedAt": "2026-07-01T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-09-20T00:00:00+08:00",
@@ -4352,7 +4352,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081690",
     "qualityScore": 10,
-    "updatedAt": "2026-06-30T02:00:03+08:00",
+    "updatedAt": "2026-07-01T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-09-01T00:00:00+08:00",
@@ -4806,7 +4806,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081888",
     "qualityScore": 10,
-    "updatedAt": "2026-06-30T02:00:03+08:00",
+    "updatedAt": "2026-07-01T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-08-21T00:00:00+08:00",
@@ -5008,7 +5008,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081873",
     "qualityScore": 10,
-    "updatedAt": "2026-06-30T02:00:03+08:00",
+    "updatedAt": "2026-07-01T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-10-17T00:00:00+08:00",
@@ -5116,10 +5116,10 @@
     "hours": "10/16－10/18",
     "lat": 24.39003,
     "lng": 118.31995,
-    "image": "https://kinmen.travel/image/45557/640x480",
+    "image": "https://kinmen.travel/image/47172/640x480",
     "imageCandidates": [],
     "accent": "#ff6b6b",
-    "description": "被譽為「一生必聽的音樂會」的金門坑道音樂節，將於 2026年10月17日至18日 在金門知名景點翟山坑道震撼登場。今年共規劃 6場次演出，預計於 7月上旬開放網路售票，名額有限，喜愛音樂與深度旅行的旅人千萬別錯過。",
+    "description": "被譽為「一生必聽的音樂會」的金門坑道音樂節，將於 2026年10月17日至18日 在金門知名景點翟山坑道震撼登場。",
     "highlights": [
       "近期活動",
       "期間限定",
@@ -5155,20 +5155,21 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_371020000A_004239",
     "qualityScore": 10,
-    "updatedAt": "2026-05-20T05:41:37+08:00",
+    "updatedAt": "2026-07-01T00:41:07+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-10-16T16:00:00+08:00",
     "eventEnd": "2026-10-18T15:59:59+08:00",
     "weekendEvent": false,
     "familyEvidence": [],
-    "qualityScoreV2": 83,
+    "qualityScoreV2": 75,
     "completeness": {
-      "score": 50,
+      "score": 33,
       "missing": [
         "官方網站",
         "票價資訊",
-        "親子設施"
+        "親子設施",
+        "詳細介紹"
       ]
     }
   },
@@ -37816,7 +37817,7 @@
     "dataSource": "osm",
     "sourceId": "node/12896536301",
     "qualityScore": 4,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -37865,7 +37866,7 @@
     "dataSource": "osm",
     "sourceId": "node/7091524767",
     "qualityScore": 4,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -37904,7 +37905,7 @@
     "dataSource": "osm",
     "sourceId": "node/7091524766",
     "qualityScore": 3,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -37953,7 +37954,7 @@
     "dataSource": "osm",
     "sourceId": "node/4532154189",
     "qualityScore": 5,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -38002,7 +38003,7 @@
     "dataSource": "osm",
     "sourceId": "node/5412039685",
     "qualityScore": 5,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -38051,7 +38052,7 @@
     "dataSource": "osm",
     "sourceId": "node/5415716180",
     "qualityScore": 5,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -38100,7 +38101,7 @@
     "dataSource": "osm",
     "sourceId": "node/5439284365",
     "qualityScore": 5,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -38149,7 +38150,7 @@
     "dataSource": "osm",
     "sourceId": "node/8392980417",
     "qualityScore": 5,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -38198,7 +38199,7 @@
     "dataSource": "osm",
     "sourceId": "node/11041690433",
     "qualityScore": 5,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -38247,7 +38248,7 @@
     "dataSource": "osm",
     "sourceId": "node/12923112691",
     "qualityScore": 5,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -38296,7 +38297,7 @@
     "dataSource": "osm",
     "sourceId": "way/330220933",
     "qualityScore": 5,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -38345,7 +38346,7 @@
     "dataSource": "osm",
     "sourceId": "way/1393195099",
     "qualityScore": 5,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -38394,7 +38395,7 @@
     "dataSource": "osm",
     "sourceId": "node/4041952192",
     "qualityScore": 4,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -38443,7 +38444,7 @@
     "dataSource": "osm",
     "sourceId": "node/4109104489",
     "qualityScore": 4,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -38492,7 +38493,7 @@
     "dataSource": "osm",
     "sourceId": "node/4113230089",
     "qualityScore": 4,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -38541,7 +38542,7 @@
     "dataSource": "osm",
     "sourceId": "node/4115555789",
     "qualityScore": 4,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -38590,7 +38591,7 @@
     "dataSource": "osm",
     "sourceId": "node/4185279437",
     "qualityScore": 4,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -38639,7 +38640,7 @@
     "dataSource": "osm",
     "sourceId": "node/4504037691",
     "qualityScore": 4,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -38688,7 +38689,7 @@
     "dataSource": "osm",
     "sourceId": "node/4587300794",
     "qualityScore": 4,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -38737,7 +38738,7 @@
     "dataSource": "osm",
     "sourceId": "node/4593844489",
     "qualityScore": 4,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -38786,7 +38787,7 @@
     "dataSource": "osm",
     "sourceId": "node/4597428090",
     "qualityScore": 4,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -38835,7 +38836,7 @@
     "dataSource": "osm",
     "sourceId": "node/4597685190",
     "qualityScore": 4,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -38884,7 +38885,7 @@
     "dataSource": "osm",
     "sourceId": "node/4686957755",
     "qualityScore": 4,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -38933,7 +38934,7 @@
     "dataSource": "osm",
     "sourceId": "node/5205227142",
     "qualityScore": 4,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -38982,7 +38983,7 @@
     "dataSource": "osm",
     "sourceId": "node/5419211569",
     "qualityScore": 4,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -39031,7 +39032,7 @@
     "dataSource": "osm",
     "sourceId": "node/5512100342",
     "qualityScore": 4,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -39080,7 +39081,7 @@
     "dataSource": "osm",
     "sourceId": "node/10106542142",
     "qualityScore": 4,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -39129,7 +39130,7 @@
     "dataSource": "osm",
     "sourceId": "node/12923162173",
     "qualityScore": 4,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -39178,7 +39179,7 @@
     "dataSource": "osm",
     "sourceId": "node/12923164410",
     "qualityScore": 4,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -39227,7 +39228,7 @@
     "dataSource": "osm",
     "sourceId": "node/12923279643",
     "qualityScore": 4,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -39276,7 +39277,7 @@
     "dataSource": "osm",
     "sourceId": "way/330733837",
     "qualityScore": 4,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -39325,7 +39326,7 @@
     "dataSource": "osm",
     "sourceId": "way/408116839",
     "qualityScore": 4,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -39374,7 +39375,7 @@
     "dataSource": "osm",
     "sourceId": "way/485524555",
     "qualityScore": 4,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -39413,7 +39414,7 @@
     "dataSource": "osm",
     "sourceId": "node/2835983797",
     "qualityScore": 3,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -39452,7 +39453,7 @@
     "dataSource": "osm",
     "sourceId": "node/2835983798",
     "qualityScore": 3,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -39491,7 +39492,7 @@
     "dataSource": "osm",
     "sourceId": "node/2835983799",
     "qualityScore": 3,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -39530,7 +39531,7 @@
     "dataSource": "osm",
     "sourceId": "node/2836007402",
     "qualityScore": 3,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -39569,7 +39570,7 @@
     "dataSource": "osm",
     "sourceId": "node/2836007403",
     "qualityScore": 3,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -39608,7 +39609,7 @@
     "dataSource": "osm",
     "sourceId": "node/2836015227",
     "qualityScore": 3,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -39647,7 +39648,7 @@
     "dataSource": "osm",
     "sourceId": "node/4298578492",
     "qualityScore": 3,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -39686,7 +39687,7 @@
     "dataSource": "osm",
     "sourceId": "node/4334953491",
     "qualityScore": 3,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -39725,7 +39726,7 @@
     "dataSource": "osm",
     "sourceId": "node/4486723290",
     "qualityScore": 3,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -39764,7 +39765,7 @@
     "dataSource": "osm",
     "sourceId": "node/4593918396",
     "qualityScore": 3,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -39803,7 +39804,7 @@
     "dataSource": "osm",
     "sourceId": "node/4597428089",
     "qualityScore": 3,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -39842,7 +39843,7 @@
     "dataSource": "osm",
     "sourceId": "node/4597666590",
     "qualityScore": 3,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -39881,7 +39882,7 @@
     "dataSource": "osm",
     "sourceId": "node/4686957735",
     "qualityScore": 3,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -39920,7 +39921,7 @@
     "dataSource": "osm",
     "sourceId": "node/4813004821",
     "qualityScore": 3,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -39959,7 +39960,7 @@
     "dataSource": "osm",
     "sourceId": "node/4817321924",
     "qualityScore": 3,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -39998,7 +39999,7 @@
     "dataSource": "osm",
     "sourceId": "node/5239314068",
     "qualityScore": 3,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -40037,7 +40038,7 @@
     "dataSource": "osm",
     "sourceId": "node/5439255129",
     "qualityScore": 3,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -40076,7 +40077,7 @@
     "dataSource": "osm",
     "sourceId": "node/8444506917",
     "qualityScore": 3,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -40115,7 +40116,7 @@
     "dataSource": "osm",
     "sourceId": "node/11914957643",
     "qualityScore": 3,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -40154,7 +40155,7 @@
     "dataSource": "osm",
     "sourceId": "way/1116421076",
     "qualityScore": 3,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   },
   {
@@ -40193,7 +40194,7 @@
     "dataSource": "osm",
     "sourceId": "way/1443489517",
     "qualityScore": 3,
-    "updatedAt": "2026-06-30",
+    "updatedAt": "2026-07-01",
     "placeType": "餐飲"
   }
 ]
