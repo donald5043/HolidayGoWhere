@@ -81,6 +81,7 @@ import { TodayInspiration } from './components/TodayInspiration'
 import { NotificationSheet } from './components/NotificationSheet'
 import { QMomHealthAdvisory } from './components/QMomHealthAdvisory'
 import { ConciergeChat } from './components/ConciergeChat'
+import { ConciergeFab } from './components/ConciergeFab'
 import { compactNumber } from './lib/format'
 import { fetchPublicJson } from './lib/fetchPublicJson'
 
@@ -1896,14 +1897,7 @@ function App() {
       </main>
 
       {!showConcierge && !selected && !mapExpanded && (
-        <button
-          className="concierge-fab"
-          onClick={() => { playUiSound(); setShowConcierge(true) }}
-          aria-label="開啟Q媽隨行管家"
-        >
-          <Mascot variant="head" className="concierge-fab-face" alt="" loading="eager" />
-          <span className="concierge-fab-label">問Q媽</span>
-        </button>
+        <ConciergeFab onOpen={() => { playUiSound(); setShowConcierge(true) }} />
       )}
 
       <nav className="bottom-nav" aria-label="主要導覽">
