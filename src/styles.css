@@ -7104,6 +7104,7 @@ body.map-expanded-lock .bottom-nav {
 /* 縮小狀態：只剩Q寶大頭照的圓形按鈕 */
 .concierge-fab.is-collapsed {
   padding: 3px;
+  gap: 0; /* 標籤寬度歸零後 flex gap 仍佔位，會讓頭像偏左 */
   border-radius: 50%;
 }
 
