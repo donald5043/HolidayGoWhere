@@ -7,7 +7,7 @@
  * 推薦名單一律出自這裡的檢索結果，不會憑空生出地點。
  */
 
-import type { Place, WeatherSummary } from '../data'
+import type { Place, Region, WeatherSummary } from '../data'
 import { getQualityScore } from '../placeQuality'
 
 export type ConciergeContext = {
@@ -83,6 +83,19 @@ const CITY_ALIASES: [RegExp, string][] = [
   [/金門/, '金門縣'],
   [/馬祖|連江/, '連江縣'],
 ]
+
+const CITY_REGION: Record<string, Region> = {
+  '臺北市': '北部', '新北市': '北部', '基隆市': '北部', '桃園市': '北部', '新竹市': '北部', '新竹縣': '北部',
+  '苗栗縣': '中部', '臺中市': '中部', '彰化縣': '中部', '南投縣': '中部', '雲林縣': '中部',
+  '嘉義市': '南部', '嘉義縣': '南部', '臺南市': '南部', '高雄市': '南部', '屏東縣': '南部',
+  '宜蘭縣': '東部', '花蓮縣': '東部', '臺東縣': '東部',
+  '澎湖縣': '離島', '金門縣': '離島', '連江縣': '離島',
+}
+
+/** 詢問的城市屬於哪個資料分區（供聊天介面按需載入該區景點檔） */
+export function regionForCity(city: string): Region | null {
+  return CITY_REGION[city] ?? null
+}
 
 const ZH_NUM: Record<string, number> = {
   一: 1, 兩: 2, 二: 2, 三: 3, 四: 4, 五: 5,
