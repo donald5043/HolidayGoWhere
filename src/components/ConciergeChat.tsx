@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { ChevronRight, MapPin, Mic, Send, Sparkles, X } from 'lucide-react'
 import type { Place, WeatherSummary } from '../data'
-import { answerQuery, GREETING_CHIPS, GREETING_TEXT, type ConciergePick } from '../services/concierge'
+import { answerQuery, parseIntent, regionForCity, GREETING_CHIPS, GREETING_TEXT, type ConciergePick } from '../services/concierge'
 import { isNanoReady, rewriteWithNano } from '../services/promptApi'
 import { fetchPublicJson } from '../lib/fetchPublicJson'
 import { Mascot } from './Mascot'
@@ -27,6 +27,14 @@ type Props = {
 
 const STORAGE_KEY = 'holiday-go-where:concierge-chat'
 const MAX_STORED_MESSAGES = 30
+
+const REGION_FILES: Record<string, string> = {
+  '北部': 'places-north.json',
+  '中部': 'places-central.json',
+  '南部': 'places-south.json',
+  '東部': 'places-east.json',
+  '離島': 'places-islands.json',
+}
 
 type SpeechRecognitionLike = {
   lang: string
@@ -86,6 +94,8 @@ export function ConciergeChat({ places, weather, userLocation, onClose, onOpenPl
   const [featuredRestaurants, setFeaturedRestaurants] = useState<Place[]>([])
   const shownIdsRef = useRef<Set<string>>(new Set())
   const lastQueryRef = useRef<string>('')
+  // 問到其他縣市時按需載入該區景點檔（人在台北問台中也要有資料）
+  const regionPoolsRef = useRef<Map<string, Place[]>>(new Map())
   const scrollRef = useRef<HTMLDivElement>(null)
   const recognitionRef = useRef<SpeechRecognitionLike | null>(null)
   const voiceTimeoutRef = useRef<number | null>(null)
@@ -150,7 +160,32 @@ export function ConciergeChat({ places, weather, userLocation, onClose, onOpenPl
     // 讓「思考中」動畫至少露臉一下，回覆才不會閃現
     const minDelay = new Promise((resolve) => setTimeout(resolve, 450))
 
-    const answer = answerQuery(effectiveQuery, { places: conciergePlaces, weather, userLocation }, {
+    // 問到目前資料池沒有的縣市 → 先抓該區景點檔（之後由 SW 快取）
+    const askedRegion = (() => {
+      const city = parseIntent(effectiveQuery).city
+      return city ? regionForCity(city) : null
+    })()
+    if (askedRegion && !regionPoolsRef.current.has(askedRegion)) {
+      try {
+        const regionPlaces = await fetchPublicJson<Place[]>(`data/${REGION_FILES[askedRegion]}`)
+        regionPoolsRef.current.set(askedRegion, regionPlaces)
+      } catch {
+        regionPoolsRef.current.set(askedRegion, [])
+      }
+    }
+
+    let searchPool = conciergePlaces
+    if (regionPoolsRef.current.size > 0) {
+      const seen = new Set(conciergePlaces.map((p) => p.id))
+      searchPool = [...conciergePlaces]
+      for (const regionPlaces of regionPoolsRef.current.values()) {
+        for (const place of regionPlaces) {
+          if (!seen.has(place.id)) { seen.add(place.id); searchPool.push(place) }
+        }
+      }
+    }
+
+    const answer = answerQuery(effectiveQuery, { places: searchPool, weather, userLocation }, {
       excludeIds: [...shownIdsRef.current],
       seed: messages.length,
     })
