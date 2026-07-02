@@ -28,12 +28,12 @@ jobs:
 
       - name: Commit updated restaurant data
         run: |
-          if git diff --quiet -- src/generated/restaurants-osm.json; then
+          if git diff --quiet -- src/generated/restaurants-osm.json public/data/restaurants-osm.json public/data/restaurants-featured.json; then
             echo "No OSM restaurant changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/generated/restaurants-osm.json
+          git add src/generated/restaurants-osm.json public/data/restaurants-osm.json public/data/restaurants-featured.json
           git commit -m "data: auto-sync OSM restaurant data [skip ci]"
           git push
