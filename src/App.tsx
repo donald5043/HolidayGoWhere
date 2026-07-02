@@ -80,6 +80,7 @@ import { ProfileDrawer } from './components/ProfileDrawer'
 import { TodayInspiration } from './components/TodayInspiration'
 import { NotificationSheet } from './components/NotificationSheet'
 import { QMomHealthAdvisory } from './components/QMomHealthAdvisory'
+import { ConciergeChat } from './components/ConciergeChat'
 import { compactNumber } from './lib/format'
 import { fetchPublicJson } from './lib/fetchPublicJson'
 
@@ -385,6 +386,7 @@ function App() {
   const [activeTab, setActiveTab] = useState<'home' | 'explore' | 'favorites' | 'profile'>('home')
   const [showProfile, setShowProfile] = useState(false)
   const [showNotifications, setShowNotifications] = useState(false)
+  const [showConcierge, setShowConcierge] = useState(false)
   const [seenNotificationKey, setSeenNotificationKey] = useState(() => localStorage.getItem('holiday-notification-seen') || '')
   const [wizardAge, setWizardAge]           = useState<WizardAgeGroup>('all')
   const [wizardDuration, setWizardDuration] = useState<WizardDuration>('all')
@@ -1893,6 +1895,17 @@ function App() {
         )}
       </main>
 
+      {!showConcierge && !selected && !mapExpanded && (
+        <button
+          className="concierge-fab"
+          onClick={() => { playUiSound(); setShowConcierge(true) }}
+          aria-label="開啟Q媽隨行管家"
+        >
+          <Mascot variant="head" className="concierge-fab-face" alt="" loading="eager" />
+          <span className="concierge-fab-label">問Q媽</span>
+        </button>
+      )}
+
       <nav className="bottom-nav" aria-label="主要導覽">
         <button className={activeTab === 'home' && !showProfile ? 'active' : ''} onClick={openHome}><Home size={21} /><span>首頁</span></button>
         <button className={activeTab === 'explore' && !showProfile ? 'active' : ''} onClick={() => openExplore('explore')}><Compass size={21} /><span>探索</span></button>
@@ -1910,6 +1923,16 @@ function App() {
           age={age}
           onViewFavorites={() => { setShowProfile(false); openExplore('favorites') }}
           onAdjustPreferences={() => { setShowProfile(false); setShowFilters(true); openExplore('explore') }}
+        />
+      )}
+
+      {showConcierge && (
+        <ConciergeChat
+          places={places}
+          weather={weather}
+          userLocation={userLocation}
+          onClose={() => setShowConcierge(false)}
+          onOpenPlace={(place) => { setShowConcierge(false); openPlace(place) }}
         />
       )}
 
