@@ -100,9 +100,9 @@ function parseAge(query: string): { ageMin: number; ageMax: number } | null {
     const n = ZH_NUM[zh[1]]
     return { ageMin: n, ageMax: n }
   }
-  if (/寶寶|嬰兒|嬰幼兒|新生兒/.test(query)) return { ageMin: 0, ageMax: 2 }
-  if (/幼兒園|幼稚園/.test(query)) return { ageMin: 3, ageMax: 5 }
-  if (/小學|國小/.test(query)) return { ageMin: 6, ageMax: 12 }
+  if (/寶寶|嬰兒|嬰幼兒|新生兒|嫩嬰|小嬰/.test(query)) return { ageMin: 0, ageMax: 2 }
+  if (/幼兒園|幼稚園|小班|中班|大班|學齡前/.test(query)) return { ageMin: 3, ageMax: 5 }
+  if (/小學|國小|低年級|高年級/.test(query)) return { ageMin: 6, ageMax: 12 }
   return null
 }
 
@@ -110,18 +110,19 @@ export function parseIntent(query: string): ConciergeIntent {
   const q = query.trim()
   const signals: string[] = []
 
-  const rainy = /雨|颱風|天氣不好|天氣差/.test(q)
-  const indoor = /室內/.test(q)
-  const outdoor = /戶外|室外|野餐|踏青/.test(q)
-  const energy = /放電|跑跳|消耗|體力|活力|運動/.test(q)
-  const stroller = /推車|嬰兒車/.test(q)
-  const restaurant = /吃|餐廳|美食|午餐|晚餐|早午餐|覓食|用餐/.test(q)
-  const cafe = /咖啡|下午茶|甜點/.test(q)
-  const michelin = /米其林|必比登|星級餐廳/.test(q)
-  const free = /免費|不用錢|省錢|不花錢/.test(q)
-  const event = /活動|展覽|市集|表演/.test(q)
-  const night = /晚上|夜市|夜遊|夜間/.test(q)
-  const nearby = /附近|周邊|週邊|離我|旁邊/.test(q)
+  const rainy = /雨|颱風|天氣不好|天氣差|天氣爛|天氣糟|濕答答/.test(q)
+  const indoor = /室內|冷氣|不想曬|怕曬|怕熱|太熱|好熱|避暑|躲太陽|躲雨/.test(q)
+  // 「曬太陽」不列入戶外訊號：常見的是否定句「不想曬太陽」，會和室內訊號打架
+  const outdoor = /戶外|室外|野餐|踏青|爬山|步道|大自然|草地|放風|透透氣/.test(q)
+  const energy = /放電|跑跳|消耗|體力|活力|運動|悶壞|精力|坐不住|活蹦亂跳|奔跑|發洩|溜滑梯|盪鞦韆|遊戲場|特色公園/.test(q)
+  const stroller = /推車|嬰兒車|娃娃車|寶寶車/.test(q)
+  const restaurant = /吃|餐廳|美食|午餐|晚餐|早午餐|宵夜|小吃|聚餐|覓食|用餐|餓/.test(q)
+  const cafe = /咖啡|下午茶|甜點|蛋糕|鬆餅|冰淇淋/.test(q)
+  const michelin = /米其林|必比登|星級餐廳|摘星/.test(q)
+  const free = /免費|不用錢|省錢|不花錢|免門票|不用門票|省荷包/.test(q)
+  const event = /活動|展覽|特展|市集|表演|音樂會|嘉年華|園遊會|燈會|煙火|節慶/.test(q)
+  const night = /晚上|夜市|夜遊|夜間|夜景|傍晚/.test(q)
+  const nearby = /附近|周邊|週邊|離我|旁邊|就近|不遠|近一點/.test(q)
   const greeting = /^(hi|hello|嗨|哈囉|你好|妳好|安安|你會什麼|妳會什麼|怎麼用|幫助|help)[!！?？~～。]*$/i.test(q)
 
   const age = parseAge(q)
