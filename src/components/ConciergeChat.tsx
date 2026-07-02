@@ -37,6 +37,7 @@ type SpeechRecognitionLike = {
   onend: (() => void) | null
   start: () => void
   stop: () => void
+  abort?: () => void
 }
 
 function getSpeechRecognition(): (new () => SpeechRecognitionLike) | null {
@@ -87,6 +88,7 @@ export function ConciergeChat({ places, weather, userLocation, onClose, onOpenPl
   const lastQueryRef = useRef<string>('')
   const scrollRef = useRef<HTMLDivElement>(null)
   const recognitionRef = useRef<SpeechRecognitionLike | null>(null)
+  const voiceTimeoutRef = useRef<number | null>(null)
 
   const speechSupported = useMemo(() => getSpeechRecognition() !== null, [])
 
@@ -110,7 +112,25 @@ export function ConciergeChat({ places, weather, userLocation, onClose, onOpenPl
     if (el) el.scrollTop = el.scrollHeight
   }, [messages, thinking])
 
-  useEffect(() => () => { recognitionRef.current?.stop() }, [])
+  const stopVoice = useCallback(() => {
+    if (voiceTimeoutRef.current != null) {
+      window.clearTimeout(voiceTimeoutRef.current)
+      voiceTimeoutRef.current = null
+    }
+    const recognition = recognitionRef.current
+    recognitionRef.current = null
+    setListening(false)
+    if (recognition) {
+      // 先卸掉 handler 再停止，避免 iOS 延遲觸發的 onend/onerror 又動到狀態
+      recognition.onresult = null
+      recognition.onend = null
+      recognition.onerror = null
+      try { recognition.stop() } catch { /* iOS 可能在未啟動完成時丟錯 */ }
+      try { recognition.abort?.() } catch { /* 同上 */ }
+    }
+  }, [])
+
+  useEffect(() => () => { stopVoice() }, [stopVoice])
 
   const runQuery = useCallback(async (rawQuery: string) => {
     const query = rawQuery.trim()
@@ -150,9 +170,14 @@ export function ConciergeChat({ places, weather, userLocation, onClose, onOpenPl
     setThinking(false)
   }, [conciergePlaces, messages.length, nanoActive, thinking, userLocation, weather])
 
-  const startVoice = useCallback(() => {
+  const toggleVoice = useCallback(() => {
+    // 聆聽中再按一次 = 取消，回到打字輸入
+    if (listening) {
+      stopVoice()
+      return
+    }
     const Recognition = getSpeechRecognition()
-    if (!Recognition || listening) return
+    if (!Recognition) return
     try {
       const recognition = new Recognition()
       recognitionRef.current = recognition
@@ -161,16 +186,19 @@ export function ConciergeChat({ places, weather, userLocation, onClose, onOpenPl
       recognition.maxAlternatives = 1
       recognition.onresult = (event) => {
         const transcript = event.results[0]?.[0]?.transcript?.trim()
+        stopVoice()
         if (transcript) runQuery(transcript)
       }
-      recognition.onerror = () => setListening(false)
-      recognition.onend = () => setListening(false)
+      recognition.onerror = () => stopVoice()
+      recognition.onend = () => stopVoice()
       recognition.start()
       setListening(true)
+      // 保險絲：iOS 的 onend 不一定觸發，15 秒後強制結束避免卡死
+      voiceTimeoutRef.current = window.setTimeout(stopVoice, 15000)
     } catch {
-      setListening(false)
+      stopVoice()
     }
-  }, [listening, runQuery])
+  }, [listening, runQuery, stopVoice])
 
   return (
     <div className="modal-backdrop concierge-backdrop" onClick={onClose}>
@@ -250,17 +278,21 @@ export function ConciergeChat({ places, weather, userLocation, onClose, onOpenPl
             <button
               type="button"
               className={`concierge-mic${listening ? ' is-listening' : ''}`}
-              onClick={startVoice}
-              aria-label="語音輸入"
+              onClick={toggleVoice}
+              aria-label={listening ? '取消語音輸入' : '語音輸入'}
             >
-              <Mic size={17} />
+              {listening ? <X size={17} /> : <Mic size={17} />}
             </button>
           )}
           <input
             type="text"
             value={input}
-            onChange={(event) => setInput(event.target.value)}
-            placeholder={listening ? '請說話…' : '例如：下雨帶2歲去哪？'}
+            onChange={(event) => {
+              if (listening) stopVoice()
+              setInput(event.target.value)
+            }}
+            onFocus={() => { if (listening) stopVoice() }}
+            placeholder={listening ? '聆聽中…再按一次取消' : '例如：下雨帶2歲去哪？'}
             aria-label="輸入問題"
             enterKeyHint="send"
           />
