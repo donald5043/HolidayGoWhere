@@ -7334,6 +7334,26 @@ body.map-expanded-lock .bottom-nav {
   flex-shrink: 0;
 }
 
+.concierge-maps-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 14px;
+  border-radius: var(--radius-md);
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  color: #fff;
+  font-size: 13.5px;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.concierge-maps-link:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
 .concierge-chips {
   display: flex;
   flex-wrap: wrap;
