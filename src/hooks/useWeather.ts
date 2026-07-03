@@ -39,6 +39,31 @@ function nearestHourlyProbability(payload: {
   return bestIndex >= 0 ? Number(values[bestIndex]) : null
 }
 
+// 接下來 6 小時的最高降雨機率 — 反映實際出遊時段，
+// 全日最大值在夏天午後雷陣雨季會天天接近 100%，不適合當決策依據
+function upcomingHoursMaxProbability(payload: {
+  current?: { time?: string }
+  hourly?: { time?: string[]; precipitation_probability?: Array<number | null> }
+}) {
+  const times = payload.hourly?.time ?? []
+  const values = payload.hourly?.precipitation_probability ?? []
+  if (!times.length || !values.length) return null
+
+  const now = payload.current?.time ? Date.parse(payload.current.time) : Date.now()
+  const windowEnd = now + 6 * 60 * 60 * 1000
+  let max: number | null = null
+
+  for (let index = 0; index < times.length; index += 1) {
+    const value = values[index]
+    if (value === null || value === undefined) continue
+    const t = Date.parse(times[index])
+    if (t < now - 30 * 60 * 1000 || t > windowEnd) continue
+    if (max === null || Number(value) > max) max = Number(value)
+  }
+
+  return max
+}
+
 async function fetchWeather(lat: number, lng: number): Promise<WeatherSummary> {
   const url = new URL('https://api.open-meteo.com/v1/forecast')
   url.searchParams.set('latitude', String(lat))
@@ -55,12 +80,14 @@ async function fetchWeather(lat: number, lng: number): Promise<WeatherSummary> {
   const payload = await response.json()
   const currentHourProbability = nearestHourlyProbability(payload)
   const dailyMaxProbability = Number(payload.daily?.precipitation_probability_max?.[0] || 0)
+  const upcomingMaxProbability = upcomingHoursMaxProbability(payload)
 
   return {
     temperature: Number(payload.current?.temperature_2m || 0),
     weatherCode: Number(payload.current?.weather_code || 0),
     precipitationProbability: currentHourProbability ?? dailyMaxProbability,
     dailyPrecipitationProbabilityMax: dailyMaxProbability,
+    upcomingPrecipitationProbabilityMax: upcomingMaxProbability ?? undefined,
     precipitationProbabilitySource: currentHourProbability === null ? 'daily-max' : 'current-hour',
     label: weatherLabel(Number(payload.current?.weather_code || 0)),
     fetchedAt: new Date().toISOString(),

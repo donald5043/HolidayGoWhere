@@ -216,6 +216,8 @@ export type WeatherSummary = {
   weatherCode: number
   precipitationProbability: number
   dailyPrecipitationProbabilityMax?: number
+  /** 接下來 6 小時的最高降雨機率 — 出遊決策用這個，別用全日最大值（夏天午後雷陣雨會天天 100%） */
+  upcomingPrecipitationProbabilityMax?: number
   precipitationProbabilitySource?: 'current-hour' | 'daily-max'
   label: string
   fetchedAt: string

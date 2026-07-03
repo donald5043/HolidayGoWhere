@@ -172,12 +172,22 @@ export function parseIntent(query: string): ConciergeIntent {
 
 type ScoredPlace = { place: Place; score: number; distanceKm: number | null }
 
+/**
+ * 出遊時段（現在起 6 小時）是否可能下雨。
+ * 刻意不用全日最大值：夏天午後雷陣雨會讓它天天接近 100%，
+ * 明明整個上午晴朗也會被誤判成雨天模式。
+ */
+function isRainLikely(intent: ConciergeIntent, weather: WeatherSummary | null): boolean {
+  if (intent.rainy) return true
+  if (!weather) return false
+  const upcoming = weather.upcomingPrecipitationProbabilityMax
+    ?? weather.precipitationProbability
+  return weather.precipitationProbability >= 55 || upcoming >= 60
+}
+
 function scorePlaces(intent: ConciergeIntent, ctx: ConciergeContext, excludeIds: Set<string>): ScoredPlace[] {
   const wantsFood = intent.restaurant || intent.cafe || intent.michelin
-  const rainLikely = Boolean(
-    intent.rainy ||
-    (ctx.weather && (ctx.weather.precipitationProbability >= 55 || (ctx.weather.dailyPrecipitationProbabilityMax ?? 0) >= 70)),
-  )
+  const rainLikely = isRainLikely(intent, ctx.weather)
 
   const scored: ScoredPlace[] = []
   for (const place of ctx.places) {
@@ -290,10 +300,7 @@ export function answerQuery(
   }
 
   const excludeIds = new Set(options.excludeIds ?? [])
-  const rainLikely = Boolean(
-    intent.rainy ||
-    (ctx.weather && (ctx.weather.precipitationProbability >= 55 || (ctx.weather.dailyPrecipitationProbabilityMax ?? 0) >= 70)),
-  )
+  const rainLikely = isRainLikely(intent, ctx.weather)
   const ranked = scorePlaces(intent, ctx, excludeIds)
   const picks: ConciergePick[] = ranked.slice(0, 3).map((entry) => ({
     place: entry.place,
@@ -319,7 +326,8 @@ export function answerQuery(
   const summary = intent.signals.length > 0 ? `依「${intent.signals.join('＋')}」` : '依你的位置和今天的條件'
   let text = `${opener}${summary}挑了 ${picks.length} 個，點卡片看細節：`
   if (!intent.rainy && rainLikely && ctx.weather) {
-    text += `\n（提醒：今天降雨機率約 ${Math.max(ctx.weather.precipitationProbability, ctx.weather.dailyPrecipitationProbabilityMax ?? 0)}%，Q媽優先挑了不怕雨的）`
+    const upcoming = ctx.weather.upcomingPrecipitationProbabilityMax ?? ctx.weather.precipitationProbability
+    text += `\n（提醒：接下來幾小時降雨機率最高約 ${Math.max(ctx.weather.precipitationProbability, upcoming)}%，Q媽優先挑了不怕雨的）`
   }
 
   return { text, picks, chips: chipsFor(intent, true), intent }
