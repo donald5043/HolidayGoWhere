@@ -12,7 +12,24 @@ function regionFromCity(city: string): Place['region'] {
   return '離島'
 }
 
+/** 分類 → 主頁篩選用的顯示標籤 */
+export const RESCUE_CATEGORY_LABEL: Record<RescueSupply['category'], string> = {
+  baby_supply: '母嬰補給',
+  pharmacy: '健保藥局',
+  hospital_emergency: '急診醫院',
+  family_facility: '親子設施',
+}
+
 function rescueDescription(supply: RescueSupply): string {
+  if (supply.category === 'pharmacy') {
+    return `健保特約藥局，可臨時買退燒藥、體溫計、尿布或嬰幼兒用品。營業時間與藥品庫存請先電話確認。資料來源：健保署特約藥局名冊。`
+  }
+  if (supply.category === 'hospital_emergency') {
+    const erHint = supply.tags.includes('急診')
+      ? '設有急診部門，'
+      : '急診設置請先電話確認，'
+    return `${erHint}孩子突發狀況時可就近就醫。出發前建議先電話確認看診科別。資料來源：OpenStreetMap。`
+  }
   const confidenceHint = supply.confidence === 'high'
     ? '座標由官方地圖連結補強。'
     : '座標或門市細節仍需出發前確認。'
@@ -36,7 +53,7 @@ export function rescueSupplyToPlace(supply: RescueSupply): Place | null {
     ageMax: 12,
     setting: '室內',
     duration: '半日',
-    category: '臨時補給',
+    category: RESCUE_CATEGORY_LABEL[supply.category] ?? '臨時補給',
     rating: null,
     reviews: 0,
     priceLabel: '補給',
@@ -84,9 +101,16 @@ export function useRescueSupplies(enabled: boolean) {
   useEffect(() => {
     if (!enabled || status === 'loading' || status === 'ready') return
     setStatus('loading')
-    fetchPublicJson<RescueSupplyDatasetMeta & { supplies: RescueSupply[] }>('data/rescue-supplies.json')
-      .then((data) => {
-        setSupplies(Array.isArray(data.supplies) ? data.supplies : [])
+    Promise.all([
+      fetchPublicJson<RescueSupplyDatasetMeta & { supplies: RescueSupply[] }>('data/rescue-supplies.json'),
+      // 藥局 + 急診醫院（sync-medical.mjs 產出）；載入失敗不影響母嬰補給
+      fetchPublicJson<{ facilities: RescueSupply[] }>('data/medical-facilities.json')
+        .catch(() => ({ facilities: [] as RescueSupply[] })),
+    ])
+      .then(([data, medical]) => {
+        const base = Array.isArray(data.supplies) ? data.supplies : []
+        const med = Array.isArray(medical.facilities) ? medical.facilities : []
+        setSupplies([...base, ...med])
         setMeta({
           summary: data.summary,
           pipeline: data.pipeline,

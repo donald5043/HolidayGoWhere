@@ -365,6 +365,7 @@ function App() {
     rescueOnly, setRescueOnly,
   } = useFilters()
   const { rescuePlaces, rescueStatus, rescueMeta } = useRescueSupplies(rescueOnly)
+  const [rescueCategory, setRescueCategory] = useState<'all' | '母嬰補給' | '健保藥局' | '急診醫院'>('all')
   const { healthAdvisories, healthAdvisoryGeneratedAt, healthCdcStatus } = useHealthAdvisories(age, region === '全部' ? null : region)
   const { weather, weatherStatus, loadWeather } = useWeather()
   const [showFilters, setShowFilters] = useState(false)
@@ -743,6 +744,7 @@ function App() {
 
     return rescuePlaces
       .filter((place) =>
+        (rescueCategory === 'all' || place.category === rescueCategory) &&
         inViewport(place) &&
         (!anchor || distanceInKm(anchor, place) <= maxDistanceKm),
       )
@@ -753,7 +755,7 @@ function App() {
       .sort((first, second) => first.dist - second.dist)
       .slice(0, isCompactResultsView ? 80 : 140)
       .map(({ place }) => place)
-  }, [rescueOnly, rescuePlaces, mapViewport, userLocation, region, isCompactResultsView])
+  }, [rescueOnly, rescuePlaces, rescueCategory, mapViewport, userLocation, region, isCompactResultsView])
 
   const scopedOsmRestaurants = useMemo(() => {
     if (!restaurantOnly || !osmRestaurants.length) return [] as Place[]
@@ -1575,7 +1577,7 @@ function App() {
                     event.currentTarget.blur()
                   }
                 }}
-                placeholder={rescueOnly ? '搜尋卡多摩、安琪兒、尿布或城市' : restaurantOnly ? '搜尋餐廳、咖啡廳或城市' : '搜尋景點、城市或活動'}
+                placeholder={rescueOnly ? '搜尋藥局、醫院、母嬰店或城市' : restaurantOnly ? '搜尋餐廳、咖啡廳或城市' : '搜尋景點、城市或活動'}
               />
               {query && <button onClick={() => setQuery('')} aria-label="清除搜尋"><X size={16} /></button>}
             </label>
@@ -1614,6 +1616,25 @@ function App() {
               <ShoppingCart size={14} /> 臨時補給
             </button>
           </div>
+
+          {rescueOnly && (
+            <div className="rescue-category-chips" aria-label="補給分類">
+              {([
+                ['all', '全部'],
+                ['母嬰補給', '🍼 母嬰補給'],
+                ['健保藥局', '💊 藥局'],
+                ['急診醫院', '🏥 急診醫院'],
+              ] as const).map(([value, label]) => (
+                <button
+                  key={value}
+                  className={rescueCategory === value ? 'active' : ''}
+                  onClick={() => { playUiSound(); setRescueCategory(value) }}
+                >
+                  {label}
+                </button>
+              ))}
+            </div>
+          )}
 
           <div className="explore-scenario-chips" aria-label="快速情境">
             <span>快速情境</span>

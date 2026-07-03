@@ -1864,6 +1864,43 @@ p.wizard-reason {
   box-shadow: 0 8px 18px rgba(184,90,71,0.20);
 }
 
+/* 臨時補給模式的分類篩選（母嬰/藥局/急診） */
+.rescue-category-chips {
+  margin: 10px 0 4px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.rescue-category-chips::-webkit-scrollbar {
+  display: none;
+}
+
+.rescue-category-chips button {
+  min-height: 36px;
+  padding: 0 14px;
+  border: 1px solid rgba(45,74,69,0.10);
+  border-radius: var(--radius-pill);
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--color-text-secondary);
+  background: rgba(255,255,255,0.72);
+  font-size: 13px;
+  font-weight: 700;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+
+.rescue-category-chips button.active {
+  color: #fff;
+  background: linear-gradient(135deg, #5f8f7f, #44685c);
+  box-shadow: 0 6px 14px rgba(68, 104, 92, 0.22);
+}
+
 .explore-scenario-chips button:active {
   transform: scale(0.98);
 }

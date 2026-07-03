@@ -27,7 +27,7 @@ export default defineConfig({
         ],
         runtimeCaching: [
           {
-            urlPattern: /\/data\/(places|restaurants|ai-insights|health-advisories).*\.json$/,
+            urlPattern: /\/data\/(places|restaurants|ai-insights|health-advisories|medical-facilities|rescue-supplies).*\.json$/,
             handler: 'CacheFirst',
             options: {
               cacheName: 'holiday-public-data',

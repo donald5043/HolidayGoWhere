@@ -100,6 +100,8 @@ export function ConciergeChat({ places, weather, userLocation, onClose, onOpenPl
   const regionPoolsRef = useRef<Map<string, Place[]>>(new Map())
   // 問尿布奶粉時按需載入母嬰補給門市（null = 尚未載入）
   const rescuePoolRef = useRef<Place[] | null>(null)
+  // 問醫院藥局時按需載入醫療設施（健保藥局 + OSM 醫院）
+  const medicalPoolRef = useRef<Place[] | null>(null)
   const scrollRef = useRef<HTMLDivElement>(null)
   const recognitionRef = useRef<SpeechRecognitionLike | null>(null)
   const voiceTimeoutRef = useRef<number | null>(null)
@@ -178,6 +180,18 @@ export function ConciergeChat({ places, weather, userLocation, onClose, onOpenPl
       }
     }
 
+    // 問醫療 → 先抓藥局/醫院資料（健保特約藥局名冊 + OSM 醫院）
+    if (preIntent.medical && medicalPoolRef.current === null) {
+      try {
+        const data = await fetchPublicJson<{ facilities: RescueSupply[] }>('data/medical-facilities.json')
+        medicalPoolRef.current = (data.facilities ?? [])
+          .map(rescueSupplyToPlace)
+          .filter((p): p is Place => p !== null)
+      } catch {
+        medicalPoolRef.current = []
+      }
+    }
+
     // 問到目前資料池沒有的縣市 → 先抓該區景點檔（之後由 SW 快取）
     const askedRegion = preIntent.city ? regionForCity(preIntent.city) : null
     if (askedRegion && !regionPoolsRef.current.has(askedRegion)) {
@@ -205,6 +219,7 @@ export function ConciergeChat({ places, weather, userLocation, onClose, onOpenPl
       weather,
       userLocation,
       rescuePlaces: rescuePoolRef.current ?? [],
+      medicalPlaces: medicalPoolRef.current ?? [],
     }, {
       excludeIds: [...shownIdsRef.current],
       seed: messages.length,

@@ -16,6 +16,8 @@ export type ConciergeContext = {
   userLocation: { lat: number; lng: number } | null
   /** 母嬰補給門市（rescue-supplies 轉換後），問尿布奶粉時使用 */
   rescuePlaces?: Place[]
+  /** 藥局與急診醫院（medical-facilities 轉換後），問醫療時使用 */
+  medicalPlaces?: Place[]
 }
 
 export type ConciergeIntent = {
@@ -323,20 +325,66 @@ export function answerQuery(
     return { text: GREETING_TEXT, picks: [], chips: GREETING_CHIPS, intent }
   }
 
-  // 醫療類：資料庫沒收錄，誠實告知並轉跳 Google 地圖（給錯會耽誤事）
+  // 醫療類：藥局用健保特約名冊、醫院用 OSM 資料就近推薦；
+  // 診所（無資料）或找不到時誠實告知並轉跳 Google 地圖
   if (intent.medical) {
     const kind = intent.medicalKind ?? '醫院'
     const scope = intent.city ?? (ctx.userLocation ? '附近' : '')
     const searchTerm = `${scope === '附近' ? '附近的' : scope}${kind}`
+    const mapsBackup = {
+      label: `在 Google 地圖搜尋「${searchTerm}」`,
+      url: mapsSearchUrl(searchTerm, intent.city ? null : ctx.userLocation),
+    }
+
+    if (kind !== '診所') {
+      const excludeSet = new Set(options.excludeIds ?? [])
+      const wantPharmacy = kind === '藥局'
+      const pool = (ctx.medicalPlaces ?? []).filter((p) => {
+        if (excludeSet.has(p.id)) return false
+        if (wantPharmacy) return p.category === '健保藥局'
+        if (p.category !== '急診醫院') return false
+        // 問急診時只給有急診標記的醫院
+        return kind === '急診' ? p.highlights.includes('急診') : true
+      })
+      const inScope = intent.city ? pool.filter((p) => p.city === intent.city) : pool
+      const withDist = inScope.map((place) => ({
+        place,
+        distanceKm: ctx.userLocation && Number.isFinite(place.lat)
+          ? haversineKm(ctx.userLocation, place)
+          : null,
+      }))
+      withDist.sort((a, b) => (a.distanceKm ?? 999) - (b.distanceKm ?? 999))
+      const medPicks: ConciergePick[] = withDist.slice(0, 3).map(({ place, distanceKm }) => ({
+        place,
+        distanceKm,
+        reason: [
+          wantPharmacy ? '健保特約藥局' : place.highlights.includes('急診') ? '設有急診' : '醫院',
+          distanceKm != null && distanceKm < 100
+            ? (distanceKm < 1 ? `${Math.round(distanceKm * 1000)} 公尺` : `${distanceKm.toFixed(1)} 公里`)
+            : null,
+        ].filter(Boolean).join('・'),
+      }))
+
+      if (medPicks.length > 0) {
+        const caution = wantPharmacy
+          ? '出發前建議先電話確認營業中與藥品庫存。'
+          : '出發前建議先電話確認急診與看診科別；緊急狀況請直接撥 119。'
+        return {
+          text: `找到${intent.city ?? '離你最近'}的${kind}，${caution}`,
+          picks: medPicks,
+          chips: ['換一批', '哪裡買尿布？', '附近吃什麼？'],
+          intent,
+          mapsSearch: mapsBackup,
+        }
+      }
+    }
+
     return {
-      text: `${kind}的即時資訊（營業狀態、${kind === '藥局' ? '藥品庫存' : '看診科別與候診狀況'}）Q媽的資料庫還沒收錄，怕給錯耽誤你。直接用 Google 地圖搜最準，Q媽幫你準備好了：`,
+      text: `${kind}的即時資訊Q媽手上不夠齊全，怕給錯耽誤你。直接用 Google 地圖搜最準，Q媽幫你準備好了：`,
       picks: [],
       chips: ['哪裡買尿布？', '附近吃什麼？', '雨天備案'],
       intent,
-      mapsSearch: {
-        label: `在 Google 地圖搜尋「${searchTerm}」`,
-        url: mapsSearchUrl(searchTerm, intent.city ? null : ctx.userLocation),
-      },
+      mapsSearch: mapsBackup,
     }
   }
 
