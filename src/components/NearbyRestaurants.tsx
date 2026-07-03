@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
+import { Utensils } from 'lucide-react'
 import type { Place, RestaurantCategory } from '../data'
 import { fetchPublicJson } from '../lib/fetchPublicJson'
 import { classifyRestaurant, categoryPriority, CATEGORY_LABEL } from '../services/restaurantClassifier'
@@ -158,7 +159,7 @@ export function NearbyRestaurants({ allPlaces, anchor, onOpen }: Props) {
 
   return (
     <div className="detail-section nearby-restaurants-section">
-      <h3>🍴 附近餐廳</h3>
+      <h3><Utensils size={15} /> 附近餐廳</h3>
       {filterRow}
       {radiusRow}
       {restaurants.length === 0 ? (

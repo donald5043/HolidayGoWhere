@@ -1,7 +1,8 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { ChevronRight, MapPin, Mic, Send, Sparkles, X } from 'lucide-react'
-import type { Place, WeatherSummary } from '../data'
+import { ChevronRight, ExternalLink, MapPin, Mic, Send, Sparkles, X } from 'lucide-react'
+import type { Place, RescueSupply, WeatherSummary } from '../data'
 import { answerQuery, parseIntent, regionForCity, GREETING_CHIPS, GREETING_TEXT, type ConciergePick } from '../services/concierge'
+import { rescueSupplyToPlace } from '../hooks/useRescueSupplies'
 import { isNanoReady, rewriteWithNano } from '../services/promptApi'
 import { fetchPublicJson } from '../lib/fetchPublicJson'
 import { Mascot } from './Mascot'
@@ -15,6 +16,7 @@ type ChatMessage = {
   text: string
   picks?: ConciergePick[]
   chips?: string[]
+  mapsSearch?: { label: string; url: string }
 }
 
 type Props = {
@@ -57,8 +59,8 @@ function loadStoredMessages(): ChatMessage[] {
   try {
     const raw = localStorage.getItem(STORAGE_KEY)
     if (!raw) return []
-    const parsed = JSON.parse(raw) as { id: string; role: 'user' | 'assistant'; text: string; chips?: string[] }[]
-    // picks 內含完整 place 物件，不落地儲存 — 只還原文字與 chips
+    const parsed = JSON.parse(raw) as { id: string; role: 'user' | 'assistant'; text: string; chips?: string[]; mapsSearch?: { label: string; url: string } }[]
+    // picks 內含完整 place 物件，不落地儲存 — 只還原文字、chips 與地圖連結
     return parsed.filter((m) => m && typeof m.text === 'string' && (m.role === 'user' || m.role === 'assistant'))
   } catch {
     return []
@@ -67,7 +69,7 @@ function loadStoredMessages(): ChatMessage[] {
 
 function persistMessages(messages: ChatMessage[]) {
   try {
-    const slim = messages.slice(-MAX_STORED_MESSAGES).map(({ id, role, text, chips }) => ({ id, role, text, chips }))
+    const slim = messages.slice(-MAX_STORED_MESSAGES).map(({ id, role, text, chips, mapsSearch }) => ({ id, role, text, chips, mapsSearch }))
     localStorage.setItem(STORAGE_KEY, JSON.stringify(slim))
   } catch { /* 儲存失敗不影響對話 */ }
 }
@@ -96,6 +98,10 @@ export function ConciergeChat({ places, weather, userLocation, onClose, onOpenPl
   const lastQueryRef = useRef<string>('')
   // 問到其他縣市時按需載入該區景點檔（人在台北問台中也要有資料）
   const regionPoolsRef = useRef<Map<string, Place[]>>(new Map())
+  // 問尿布奶粉時按需載入母嬰補給門市（null = 尚未載入）
+  const rescuePoolRef = useRef<Place[] | null>(null)
+  // 問醫院藥局時按需載入醫療設施（健保藥局 + OSM 醫院）
+  const medicalPoolRef = useRef<Place[] | null>(null)
   const scrollRef = useRef<HTMLDivElement>(null)
   const recognitionRef = useRef<SpeechRecognitionLike | null>(null)
   const voiceTimeoutRef = useRef<number | null>(null)
@@ -160,11 +166,34 @@ export function ConciergeChat({ places, weather, userLocation, onClose, onOpenPl
     // 讓「思考中」動畫至少露臉一下，回覆才不會閃現
     const minDelay = new Promise((resolve) => setTimeout(resolve, 450))
 
+    const preIntent = parseIntent(effectiveQuery)
+
+    // 問母嬰補給 → 先抓救援門市資料（84 間官方門市，SW 會快取）
+    if (preIntent.babySupply && rescuePoolRef.current === null) {
+      try {
+        const data = await fetchPublicJson<{ supplies: RescueSupply[] }>('data/rescue-supplies.json')
+        rescuePoolRef.current = (data.supplies ?? [])
+          .map(rescueSupplyToPlace)
+          .filter((p): p is Place => p !== null)
+      } catch {
+        rescuePoolRef.current = []
+      }
+    }
+
+    // 問醫療 → 先抓藥局/醫院資料（健保特約藥局名冊 + OSM 醫院）
+    if (preIntent.medical && medicalPoolRef.current === null) {
+      try {
+        const data = await fetchPublicJson<{ facilities: RescueSupply[] }>('data/medical-facilities.json')
+        medicalPoolRef.current = (data.facilities ?? [])
+          .map(rescueSupplyToPlace)
+          .filter((p): p is Place => p !== null)
+      } catch {
+        medicalPoolRef.current = []
+      }
+    }
+
     // 問到目前資料池沒有的縣市 → 先抓該區景點檔（之後由 SW 快取）
-    const askedRegion = (() => {
-      const city = parseIntent(effectiveQuery).city
-      return city ? regionForCity(city) : null
-    })()
+    const askedRegion = preIntent.city ? regionForCity(preIntent.city) : null
     if (askedRegion && !regionPoolsRef.current.has(askedRegion)) {
       try {
         const regionPlaces = await fetchPublicJson<Place[]>(`data/${REGION_FILES[askedRegion]}`)
@@ -185,7 +214,13 @@ export function ConciergeChat({ places, weather, userLocation, onClose, onOpenPl
       }
     }
 
-    const answer = answerQuery(effectiveQuery, { places: searchPool, weather, userLocation }, {
+    const answer = answerQuery(effectiveQuery, {
+      places: searchPool,
+      weather,
+      userLocation,
+      rescuePlaces: rescuePoolRef.current ?? [],
+      medicalPlaces: medicalPoolRef.current ?? [],
+    }, {
       excludeIds: [...shownIdsRef.current],
       seed: messages.length,
     })
@@ -200,7 +235,7 @@ export function ConciergeChat({ places, weather, userLocation, onClose, onOpenPl
 
     setMessages((current) => [
       ...current,
-      { id: nextId(), role: 'assistant', text, picks: answer.picks, chips: answer.chips },
+      { id: nextId(), role: 'assistant', text, picks: answer.picks, chips: answer.chips, mapsSearch: answer.mapsSearch },
     ])
     setThinking(false)
   }, [conciergePlaces, messages.length, nanoActive, thinking, userLocation, weather])
@@ -282,6 +317,18 @@ export function ConciergeChat({ places, weather, userLocation, onClose, onOpenPl
                       </button>
                     ))}
                   </div>
+                )}
+                {message.mapsSearch && (
+                  <a
+                    className="concierge-maps-link"
+                    href={message.mapsSearch.url}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <MapPin size={14} />
+                    {message.mapsSearch.label}
+                    <ExternalLink size={12} />
+                  </a>
                 )}
                 {message.chips && message.chips.length > 0 && (
                   <div className="concierge-chips">

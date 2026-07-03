@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import { Heart, X } from 'lucide-react'
+import { Baby, Car, Heart, ShoppingCart, Umbrella, X } from 'lucide-react'
 import type { Place } from '../data'
 import { FALLBACK_IMAGE } from '../imageUtils'
 
@@ -157,9 +157,9 @@ export function SwipeCard({
           {place.michelinAward === '2star' && <span className="swipe-badge swipe-badge-michelin">★★ 二星</span>}
           {place.michelinAward === '1star' && <span className="swipe-badge swipe-badge-michelin">★ 一星</span>}
           {place.michelinAward === 'bib_gourmand' && <span className="swipe-badge swipe-badge-michelin">必比登</span>}
-          {place.rainyDay && <span className="swipe-badge">🌧️ 雨天備案</span>}
-          {place.ageMin <= 2 && <span className="swipe-badge">🍼 嬰幼兒適合</span>}
-          {isFavorite && <span className="swipe-badge swipe-badge-fav">❤️ 已收藏</span>}
+          {place.rainyDay && <span className="swipe-badge"><Umbrella size={11} /> 雨天備案</span>}
+          {place.ageMin <= 2 && <span className="swipe-badge"><Baby size={11} /> 嬰幼兒適合</span>}
+          {isFavorite && <span className="swipe-badge swipe-badge-fav"><Heart size={11} fill="currentColor" /> 已收藏</span>}
         </div>
       </div>
 
@@ -178,10 +178,10 @@ export function SwipeCard({
           <span className="swipe-tag">{place.ageMin}–{place.ageMax} 歲</span>
           <span className="swipe-tag">{place.duration}</span>
           {(place.familyAmenities as Record<string, unknown> | undefined)?.['parking'] === 'confirmed' && (
-            <span className="swipe-tag">🚗 停車</span>
+            <span className="swipe-tag"><Car size={12} /> 停車</span>
           )}
           {(place.familyAmenities as Record<string, unknown> | undefined)?.['strollerFriendly'] === 'confirmed' && (
-            <span className="swipe-tag">👶 推車友善</span>
+            <span className="swipe-tag"><ShoppingCart size={12} /> 推車友善</span>
           )}
         </div>
       </div>

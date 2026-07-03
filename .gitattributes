@@ -1,3 +1,4 @@
 # Large auto-generated OSM data file — always keep base branch (CI-synced) version on merge
 # PR branches may contain a test snapshot; CI will regenerate the authoritative version after merge
 src/generated/restaurants-osm.json merge=ours
+public/data/medical-facilities.json merge=ours

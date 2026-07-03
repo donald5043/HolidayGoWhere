@@ -1,0 +1,38 @@
+name: Sync medical facilities
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 每週一 02:30 UTC（台灣 10:30）— 藥局/醫院名冊變動慢，週更即可
+    - cron: '30 2 * * 1'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Fetch pharmacy + hospital data
+        run: npm run sync:medical || echo "::warning::medical sync failed — keeping previous data"
+
+      - name: Commit updated medical data
+        run: |
+          if git diff --quiet -- public/data/medical-facilities.json; then
+            echo "No medical facility changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/medical-facilities.json
+          git commit -m "data: auto-sync medical facilities [skip ci]"
+          git push

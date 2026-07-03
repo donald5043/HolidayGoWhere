@@ -14,6 +14,10 @@ export type ConciergeContext = {
   places: Place[]
   weather: WeatherSummary | null
   userLocation: { lat: number; lng: number } | null
+  /** 母嬰補給門市（rescue-supplies 轉換後），問尿布奶粉時使用 */
+  rescuePlaces?: Place[]
+  /** 藥局與急診醫院（medical-facilities 轉換後），問醫療時使用 */
+  medicalPlaces?: Place[]
 }
 
 export type ConciergeIntent = {
@@ -31,6 +35,9 @@ export type ConciergeIntent = {
   night: boolean
   nearby: boolean
   greeting: boolean
+  babySupply: boolean
+  medical: boolean
+  medicalKind: '醫院' | '急診' | '診所' | '藥局' | null
   ageMin: number | null
   ageMax: number | null
   city: string | null
@@ -48,6 +55,15 @@ export type ConciergeAnswer = {
   picks: ConciergePick[]
   chips: string[]
   intent: ConciergeIntent
+  /** 聽不懂或資料庫沒有時，誠實告知並提供 Google 地圖搜尋連結 */
+  mapsSearch?: { label: string; url: string }
+}
+
+function mapsSearchUrl(query: string, loc: { lat: number; lng: number } | null): string {
+  const q = encodeURIComponent(query)
+  return loc
+    ? `https://www.google.com/maps/search/${q}/@${loc.lat.toFixed(5)},${loc.lng.toFixed(5)},14z`
+    : `https://www.google.com/maps/search/${q}`
 }
 
 function haversineKm(a: { lat: number; lng: number }, b: { lat: number; lng: number }): number {
@@ -137,6 +153,13 @@ export function parseIntent(query: string): ConciergeIntent {
   const night = /晚上|夜市|夜遊|夜間|夜景|傍晚/.test(q)
   const nearby = /附近|周邊|週邊|離我|旁邊|就近|不遠|近一點/.test(q)
   const greeting = /^(hi|hello|嗨|哈囉|你好|妳好|安安|你會什麼|妳會什麼|怎麼用|幫助|help)[!！?？~～。]*$/i.test(q)
+  const babySupply = /尿布|奶粉|濕紙巾|奶瓶|奶嘴|母嬰|嬰兒用品|哺乳用品|副食品|尿褲/.test(q)
+  const medicalKind = /急診/.test(q) ? '急診' as const
+    : /醫院|掛號|發燒|受傷|小兒科/.test(q) ? '醫院' as const
+    : /診所/.test(q) ? '診所' as const
+    : /藥局|藥房|買藥|退燒藥|感冒藥/.test(q) ? '藥局' as const
+    : null
+  const medical = medicalKind !== null
 
   const age = parseAge(q)
   const baby = age != null && age.ageMax <= 2
@@ -159,10 +182,13 @@ export function parseIntent(query: string): ConciergeIntent {
   if (free) signals.push('免費')
   if (event) signals.push('活動')
   if (night) signals.push('晚上')
+  if (babySupply) signals.push('母嬰補給')
+  if (medical) signals.push(medicalKind!)
 
   return {
     rainy, indoor, outdoor, energy, stroller, baby,
     restaurant, cafe, michelin, free, event, night, nearby, greeting,
+    babySupply, medical, medicalKind,
     ageMin: age?.ageMin ?? null,
     ageMax: age?.ageMax ?? null,
     city,
@@ -283,9 +309,9 @@ function chipsFor(intent: ConciergeIntent, hasPicks: boolean): string[] {
 }
 
 const GREETING_TEXT =
-  '嗨，我是Q媽！跟我說說今天的狀況——例如「下雨帶2歲去哪」「附近吃什麼」「台中免費景點」，我馬上從全台開放資料幫你挑。'
+  '嗨，我是Q媽！跟我說說今天的狀況——例如「下雨帶2歲去哪」「附近吃什麼」「哪裡買尿布」，我馬上從全台開放資料幫你挑；聽不懂的我也會誠實說，直接幫你轉 Google 地圖。'
 
-const GREETING_CHIPS = ['下雨天帶寶寶去哪？', '孩子要放電', '附近吃什麼？', '米其林餐廳']
+const GREETING_CHIPS = ['下雨天帶寶寶去哪？', '孩子要放電', '哪裡買尿布？', '附近吃什麼？']
 
 export function answerQuery(
   query: string,
@@ -297,6 +323,145 @@ export function answerQuery(
 
   if (intent.greeting || query.trim().length < 2) {
     return { text: GREETING_TEXT, picks: [], chips: GREETING_CHIPS, intent }
+  }
+
+  // 醫療類：藥局用健保特約名冊、醫院用 OSM 資料就近推薦；
+  // 診所（無資料）或找不到時誠實告知並轉跳 Google 地圖
+  if (intent.medical) {
+    const kind = intent.medicalKind ?? '醫院'
+    const scope = intent.city ?? (ctx.userLocation ? '附近' : '')
+    const searchTerm = `${scope === '附近' ? '附近的' : scope}${kind}`
+    const mapsBackup = {
+      label: `在 Google 地圖搜尋「${searchTerm}」`,
+      url: mapsSearchUrl(searchTerm, intent.city ? null : ctx.userLocation),
+    }
+
+    if (kind !== '診所') {
+      const excludeSet = new Set(options.excludeIds ?? [])
+      const wantPharmacy = kind === '藥局'
+      const pool = (ctx.medicalPlaces ?? []).filter((p) => {
+        if (excludeSet.has(p.id)) return false
+        if (wantPharmacy) return p.category === '健保藥局'
+        if (p.category !== '急診醫院') return false
+        // 問急診時只給有急診標記的醫院
+        return kind === '急診' ? p.highlights.includes('急診') : true
+      })
+      const inScope = intent.city ? pool.filter((p) => p.city === intent.city) : pool
+      const withDist = inScope.map((place) => ({
+        place,
+        distanceKm: ctx.userLocation && Number.isFinite(place.lat)
+          ? haversineKm(ctx.userLocation, place)
+          : null,
+      }))
+      withDist.sort((a, b) => (a.distanceKm ?? 999) - (b.distanceKm ?? 999))
+      const medPicks: ConciergePick[] = withDist.slice(0, 3).map(({ place, distanceKm }) => ({
+        place,
+        distanceKm,
+        reason: [
+          wantPharmacy ? '健保特約藥局' : place.highlights.includes('急診') ? '設有急診' : '醫院',
+          distanceKm != null && distanceKm < 100
+            ? (distanceKm < 1 ? `${Math.round(distanceKm * 1000)} 公尺` : `${distanceKm.toFixed(1)} 公里`)
+            : null,
+        ].filter(Boolean).join('・'),
+      }))
+
+      if (medPicks.length > 0) {
+        const caution = wantPharmacy
+          ? '出發前建議先電話確認營業中與藥品庫存。'
+          : '出發前建議先電話確認急診與看診科別；緊急狀況請直接撥 119。'
+        return {
+          text: `找到${intent.city ?? '離你最近'}的${kind}，${caution}`,
+          picks: medPicks,
+          chips: ['換一批', '哪裡買尿布？', '附近吃什麼？'],
+          intent,
+          mapsSearch: mapsBackup,
+        }
+      }
+    }
+
+    return {
+      text: `${kind}的即時資訊Q媽手上不夠齊全，怕給錯耽誤你。直接用 Google 地圖搜最準，Q媽幫你準備好了：`,
+      picks: [],
+      chips: ['哪裡買尿布？', '附近吃什麼？', '雨天備案'],
+      intent,
+      mapsSearch: mapsBackup,
+    }
+  }
+
+  // 母嬰補給：搜尋官方門市資料（尿布、奶粉、濕紙巾等）
+  if (intent.babySupply) {
+    const excludeSet = new Set(options.excludeIds ?? [])
+    const pool = (ctx.rescuePlaces ?? []).filter((p) => !excludeSet.has(p.id))
+    const inScope = intent.city ? pool.filter((p) => p.city === intent.city) : pool
+    const withDist = inScope.map((place) => ({
+      place,
+      distanceKm: ctx.userLocation && Number.isFinite(place.lat)
+        ? haversineKm(ctx.userLocation, place)
+        : null,
+    }))
+    withDist.sort((a, b) => (a.distanceKm ?? 999) - (b.distanceKm ?? 999))
+    const supplyPicks: ConciergePick[] = withDist.slice(0, 3).map(({ place, distanceKm }) => ({
+      place,
+      distanceKm,
+      reason: distanceKm != null && distanceKm < 50
+        ? `尿布奶粉臨時補給・${distanceKm < 1 ? `${Math.round(distanceKm * 1000)} 公尺` : `${distanceKm.toFixed(1)} 公里`}`
+        : '尿布奶粉臨時補給',
+    }))
+
+    if (supplyPicks.length > 0) {
+      const scopeLabel = intent.city ?? '你附近'
+      return {
+        text: `找到${scopeLabel}的母嬰用品門市，出發前建議先電話確認庫存：`,
+        picks: supplyPicks,
+        chips: ['換一批', '附近的藥局？', '附近吃什麼？'],
+        intent,
+      }
+    }
+    const searchTerm = `${intent.city ?? '附近的'}母嬰用品店`
+    return {
+      text: `嗚，${intent.city ?? '你附近'}Q媽收錄的母嬰門市不夠近。用 Google 地圖搜最快：`,
+      picks: [],
+      chips: ['附近吃什麼？', '雨天備案'],
+      intent,
+      mapsSearch: {
+        label: `在 Google 地圖搜尋「${searchTerm}」`,
+        url: mapsSearchUrl(searchTerm, intent.city ? null : ctx.userLocation),
+      },
+    }
+  }
+
+  // 完全沒解析出任何訊號：先試景點名稱比對，再誠實告知＋轉跳地圖
+  if (intent.signals.length === 0) {
+    const norm = (s: string) => s.replace(/臺/g, '台').toLowerCase()
+    const nq = norm(query.trim())
+    if (nq.length >= 2) {
+      const nameMatches = ctx.places
+        .filter((p) => norm(p.name).includes(nq))
+        .sort((a, b) => getQualityScore(b) - getQualityScore(a))
+        .slice(0, 3)
+      if (nameMatches.length > 0) {
+        return {
+          text: `找到名稱符合「${query.trim()}」的地點：`,
+          picks: nameMatches.map((place) => ({
+            place,
+            reason: place.category,
+            distanceKm: ctx.userLocation && Number.isFinite(place.lat) ? haversineKm(ctx.userLocation, place) : null,
+          })),
+          chips: ['附近吃什麼？', '雨天備案', '孩子要放電'],
+          intent,
+        }
+      }
+    }
+    return {
+      text: `這句Q媽還聽不太懂，先跟你說聲抱歉。我目前會聽：雨天備案、孩子放電、推車友善、餐廳美食、尿布補給、各縣市景點。不過別擔心，直接幫你丟 Google 地圖搜尋：`,
+      picks: [],
+      chips: GREETING_CHIPS,
+      intent,
+      mapsSearch: {
+        label: `在 Google 地圖搜尋「${query.trim()}」`,
+        url: mapsSearchUrl(query.trim(), ctx.userLocation),
+      },
+    }
   }
 
   const excludeIds = new Set(options.excludeIds ?? [])
@@ -315,10 +480,14 @@ export function answerQuery(
         ? '你附近 25 公里內找不到完全符合的'
         : '目前找不到完全符合的'
     return {
-      text: `嗚，${scopeHint}。試試放寬一點？也可以先選好地區再問我一次。`,
+      text: `嗚，${scopeHint}。試試放寬一點？或直接用 Google 地圖搜尋：`,
       picks: [],
       chips: ['免費景點', '雨天備案', '附近吃什麼？'],
       intent,
+      mapsSearch: {
+        label: `在 Google 地圖搜尋「${query.trim()}」`,
+        url: mapsSearchUrl(query.trim(), intent.city ? null : ctx.userLocation),
+      },
     }
   }
 

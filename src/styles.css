@@ -997,6 +997,9 @@ button:active,
 
 .wizard-no-location {
   margin: 4px 0 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
   font-size: 11.5px;
   color: #b45309;
   background: #fef3c7;
@@ -1228,9 +1231,15 @@ p.wizard-reason {
 }
 
 .persona-emoji {
-  font-size: 36px;
   flex: 0 0 auto;
-  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  color: var(--color-primary-dark);
+  background: var(--color-primary-soft);
 }
 
 .persona-copy {
@@ -1274,7 +1283,17 @@ p.wizard-reason {
   border: 1.5px solid #f5d9a0;
   margin-bottom: 16px;
 }
-.profile-persona-emoji { font-size: 32px; flex: 0 0 auto; }
+.profile-persona-emoji {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: #92400e;
+  background: rgba(146, 64, 14, 0.12);
+}
 .profile-persona div { display: flex; flex-direction: column; gap: 2px; }
 .profile-persona strong { font-size: 14px; font-weight: 800; color: #92400e; }
 .profile-persona span { font-size: 12px; color: #78350f; line-height: 1.4; }
@@ -1415,6 +1434,9 @@ p.wizard-reason {
 }
 
 .swipe-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
   font-size: 10.5px;
   font-weight: 700;
   padding: 3px 8px;
@@ -1473,6 +1495,9 @@ p.wizard-reason {
 }
 
 .swipe-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
   font-size: 11px;
   font-weight: 600;
   padding: 2px 8px;
@@ -1862,6 +1887,43 @@ p.wizard-reason {
   color: #fff;
   background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
   box-shadow: 0 8px 18px rgba(184,90,71,0.20);
+}
+
+/* 臨時補給模式的分類篩選（母嬰/藥局/急診） */
+.rescue-category-chips {
+  margin: 10px 0 4px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.rescue-category-chips::-webkit-scrollbar {
+  display: none;
+}
+
+.rescue-category-chips button {
+  min-height: 36px;
+  padding: 0 14px;
+  border: 1px solid rgba(45,74,69,0.10);
+  border-radius: var(--radius-pill);
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--color-text-secondary);
+  background: rgba(255,255,255,0.72);
+  font-size: 13px;
+  font-weight: 700;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+
+.rescue-category-chips button.active {
+  color: #fff;
+  background: linear-gradient(135deg, #5f8f7f, #44685c);
+  box-shadow: 0 6px 14px rgba(68, 104, 92, 0.22);
 }
 
 .explore-scenario-chips button:active {
@@ -3872,6 +3934,12 @@ body.map-expanded-lock .bottom-nav {
   font-size: 9px;
   font-weight: 900;
   line-height: 1;
+}
+
+.leaflet-place-pin b svg {
+  width: 10px;
+  height: 10px;
+  display: block;
 }
 
 .leaflet-place-pin:hover,
@@ -7332,6 +7400,26 @@ body.map-expanded-lock .bottom-nav {
 .concierge-pick-arrow {
   color: var(--color-muted);
   flex-shrink: 0;
+}
+
+.concierge-maps-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 14px;
+  border-radius: var(--radius-md);
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  color: #fff;
+  font-size: 13.5px;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.concierge-maps-link:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
 }
 
 .concierge-chips {

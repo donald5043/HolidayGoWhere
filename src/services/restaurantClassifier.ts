@@ -64,14 +64,6 @@ export const CATEGORY_TEXT_COLOR: Record<RestaurantCategory, string> = {
   general_restaurant: '#616161',
 }
 
-export const CATEGORY_EMOJI: Record<RestaurantCategory, string> = {
-  family_chain: '🍔',
-  mall_food_court: '🏬',
-  family_supply_brand: '☕',
-  attraction_attached: '🎡',
-  tourism_restaurant: '🍜',
-  general_restaurant: '🍴',
-}
 
 function matchChain(text: string): { rule: ChainRule; category: RestaurantCategory } | null {
   for (const [catKey, rules] of Object.entries(RULES)) {
@@ -102,13 +94,13 @@ export function classifyRestaurant(place: Place): RestaurantScore {
     matched.rule.defaultTags.forEach((t) => tagSet.add(t))
 
     const f = matched.rule.defaultFlags
-    if (f.babyChair)     { score += 15; tagSet.add('🍼 兒童椅') }
-    if (f.kidsMenu)      { score += 15; tagSet.add('🍽️ 兒童餐') }
-    if (f.diaperStation) { score += 20; tagSet.add('🚼 尿布台') }
-    if (f.playArea)      { score += 25; tagSet.add('🎨 遊戲區') }
-    if (f.parking)       { score += 15; tagSet.add('🚗 停車') }
-    if (f.strollerFriendly) { score += 15; tagSet.add('👶 親子友善') }
-    if (f.indoor)        { score += 10; tagSet.add('☔ 室內') }
+    if (f.babyChair)     { score += 15; tagSet.add('兒童椅') }
+    if (f.kidsMenu)      { score += 15; tagSet.add('兒童餐') }
+    if (f.diaperStation) { score += 20; tagSet.add('尿布台') }
+    if (f.playArea)      { score += 25; tagSet.add('遊戲區') }
+    if (f.parking)       { score += 15; tagSet.add('停車') }
+    if (f.strollerFriendly) { score += 15; tagSet.add('親子友善') }
+    if (f.indoor)        { score += 10; tagSet.add('室內') }
   } else if (place.restaurantCategory) {
     // Use pre-stored category from data pipeline
     restaurantCategory = place.restaurantCategory
@@ -127,10 +119,10 @@ export function classifyRestaurant(place: Place): RestaurantScore {
 
   // ── 2. familyAmenities (confirmed fields from data) ───────────────────────
   const a = place.familyAmenities as Record<string, unknown> | undefined
-  if (a?.nursingRoom === 'confirmed')     { score += 25; tagSet.add('🚼 尿布台') }
-  if (a?.diaperTable === 'confirmed')     { score += 20; tagSet.add('🚼 尿布台') }
-  if (a?.strollerFriendly === 'confirmed') { score += 15; tagSet.add('👶 親子友善') }
-  if (a?.parking === 'confirmed')         { score += 15; tagSet.add('🚗 停車') }
+  if (a?.nursingRoom === 'confirmed')     { score += 25; tagSet.add('尿布台') }
+  if (a?.diaperTable === 'confirmed')     { score += 20; tagSet.add('尿布台') }
+  if (a?.strollerFriendly === 'confirmed') { score += 15; tagSet.add('親子友善') }
+  if (a?.parking === 'confirmed')         { score += 15; tagSet.add('停車') }
 
   // ── 3. Text keyword scoring ───────────────────────────────────────────────
   const FAMILY_KW = ['親子', '兒童', '寶寶', '嬰兒', '哺乳', '育嬰', '孩子', '家庭', '兒童餐']
@@ -138,17 +130,17 @@ export function classifyRestaurant(place: Place): RestaurantScore {
   const PLAY_KW = ['遊戲區', '遊樂區', '球池', '溜滑梯', '兒童樂園']
 
   const familyHits = FAMILY_KW.filter((k) => text.includes(k)).length
-  if (familyHits > 0) { score += familyHits * 6; tagSet.add('👶 親子友善') }
+  if (familyHits > 0) { score += familyHits * 6; tagSet.add('親子友善') }
 
-  if (HIGHCHAIR_KW.some((k) => text.includes(k))) { score += 15; tagSet.add('🍼 兒童椅') }
-  if (PLAY_KW.some((k) => text.includes(k)))       { score += 25; tagSet.add('🎨 遊戲區') }
+  if (HIGHCHAIR_KW.some((k) => text.includes(k))) { score += 15; tagSet.add('兒童椅') }
+  if (PLAY_KW.some((k) => text.includes(k)))       { score += 25; tagSet.add('遊戲區') }
 
-  if (/尿布台|換尿布|更衣台/.test(text)) { score += 20; tagSet.add('🚼 尿布台') }
-  if (/兒童餐|kids menu|兒童套餐/.test(text)) { score += 15; tagSet.add('🍽️ 兒童餐') }
-  if (/停車|停車場|車位/.test(text)) { score += 10; tagSet.add('🚗 停車') }
+  if (/尿布台|換尿布|更衣台/.test(text)) { score += 20; tagSet.add('尿布台') }
+  if (/兒童餐|kids menu|兒童套餐/.test(text)) { score += 15; tagSet.add('兒童餐') }
+  if (/停車|停車場|車位/.test(text)) { score += 10; tagSet.add('停車') }
 
   if (place.rainyDay) score += 10
-  if (place.setting === '室內') { score += 10; tagSet.add('☔ 室內') }
+  if (place.setting === '室內') { score += 10; tagSet.add('室內') }
 
   return {
     familyScore: Math.min(100, score),

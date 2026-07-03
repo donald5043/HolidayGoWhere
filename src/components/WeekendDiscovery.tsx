@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Heart, RotateCcw, X } from 'lucide-react'
+import { Heart, PartyPopper, RotateCcw, X } from 'lucide-react'
 import type { Place } from '../data'
 import { bestImageSrc, FALLBACK_IMAGE } from '../imageUtils'
 import { useDiscovery } from '../hooks/useDiscovery'
@@ -77,7 +77,7 @@ export function WeekendDiscovery({ places, placesReady, userLocation, favorites,
         </div>
       ) : isDone ? (
         <div className="discovery-done">
-          <span className="discovery-done-emoji">🎉</span>
+          <span className="discovery-done-emoji"><PartyPopper size={30} /></span>
           <strong>今天的景點都看完了！</strong>
           <p>你已標記 <em>{likedIds.length}</em> 個想去的景點</p>
           <button className="discovery-reset-btn" onClick={reset}>
@@ -135,7 +135,7 @@ export function WeekendDiscovery({ places, placesReady, userLocation, favorites,
           {/* Liked count hint */}
           {likedIds.length >= 2 && (
             <p className="discovery-liked-hint">
-              ❤️ 已標記 {likedIds.length} 個想去的景點，已加入收藏
+              <Heart size={13} fill="currentColor" /> 已標記 {likedIds.length} 個想去的景點，已加入收藏
             </p>
           )}
         </>
