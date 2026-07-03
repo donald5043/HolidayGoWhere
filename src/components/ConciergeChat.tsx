@@ -180,8 +180,8 @@ export function ConciergeChat({ places, weather, userLocation, onClose, onOpenPl
       }
     }
 
-    // 問醫療 → 先抓藥局/醫院資料（健保特約藥局名冊 + OSM 醫院）
-    if (preIntent.medical && medicalPoolRef.current === null) {
+    // 問醫療或母嬰補給 → 先抓藥局/醫院/母嬰店資料（婦嬰藥局也是尿布補給點）
+    if ((preIntent.medical || preIntent.babySupply) && medicalPoolRef.current === null) {
       try {
         const data = await fetchPublicJson<{ facilities: RescueSupply[] }>('data/medical-facilities.json')
         medicalPoolRef.current = (data.facilities ?? [])

@@ -388,10 +388,14 @@ export function answerQuery(
     }
   }
 
-  // 母嬰補給：搜尋官方門市資料（尿布、奶粉、濕紙巾等）
+  // 母嬰補給：官方母嬰門市 + OSM 母嬰店 + 婦嬰藥局（大樹丁丁啄木鳥等）
   if (intent.babySupply) {
     const excludeSet = new Set(options.excludeIds ?? [])
-    const pool = (ctx.rescuePlaces ?? []).filter((p) => !excludeSet.has(p.id))
+    const babyCapableMedical = (ctx.medicalPlaces ?? []).filter(
+      (p) => p.category === '母嬰補給' || p.highlights.includes('母嬰用品'),
+    )
+    const pool = [...(ctx.rescuePlaces ?? []), ...babyCapableMedical]
+      .filter((p) => !excludeSet.has(p.id))
     const inScope = intent.city ? pool.filter((p) => p.city === intent.city) : pool
     const withDist = inScope.map((place) => ({
       place,
