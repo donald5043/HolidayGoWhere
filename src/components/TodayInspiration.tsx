@@ -6,9 +6,9 @@ import {
   CloudRain,
   Coffee,
   Heart,
+  LifeBuoy,
   MapPin,
   ShieldCheck,
-  ShoppingCart,
   Sparkles,
   SunMedium,
   TreePine,
@@ -135,7 +135,7 @@ export function TodayInspiration({
               附近景點 <MapPin size={16} />
             </button>
             <button className="phase-secondary-action" onClick={onRescue}>
-              臨時補給 <ShoppingCart size={16} />
+              親子救援 <LifeBuoy size={16} />
             </button>
           </div>
         </div>

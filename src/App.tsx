@@ -22,6 +22,7 @@ import {
   Home,
   Instagram,
   Layers,
+  LifeBuoy,
   LocateFixed,
   MapPin,
   Maximize2,
@@ -580,7 +581,7 @@ function App() {
     setMapViewport(null)
     if (userLocation) {
       setLocationStatus('ready')
-      setLocationMessage('已依你的位置排序臨時補給點，適合找尿布、奶粉、推車汽座用品。')
+      setLocationMessage('已依你的位置排序救援據點，找尿布奶粉、藥局或急診都更快。')
       setMapFocusKey((current) => current + 1)
       return
     }
@@ -596,7 +597,7 @@ function App() {
         const nextLocation = { lat: coords.latitude, lng: coords.longitude }
         setUserLocation(nextLocation)
         setLocationStatus('ready')
-        setLocationMessage('已依你的位置排序臨時補給點，出發前建議先電話確認庫存。')
+        setLocationMessage('已依你的位置排序救援據點，出發前建議先電話確認。')
         setMapFocusKey((current) => current + 1)
         loadWeather(coords.latitude, coords.longitude)
       },
@@ -901,8 +902,8 @@ function App() {
     ? `${viewportPlaces.length} 筆在目前地圖範圍`
     : `${displayedPlaces.length} 筆符合條件`
   const currentPlacesStatus = rescueOnly ? rescueStatus : placesStatus
-  const currentModeLabel = rescueOnly ? '臨時補給點' : restaurantOnly ? '親子餐廳' : '景點'
-  const currentListTitle = rescueOnly ? '附近臨時補給' : activeTab === 'favorites' ? '收藏的景點' : '週末靈感地圖'
+  const currentModeLabel = rescueOnly ? '救援據點' : restaurantOnly ? '親子餐廳' : '景點'
+  const currentListTitle = rescueOnly ? '附近親子救援' : activeTab === 'favorites' ? '收藏的景點' : '週末靈感地圖'
   const currentKicker = rescueOnly ? '親子救援' : activeTab === 'favorites' ? '我的收藏' : '為你精選'
   const rescueCandidatePreview = useMemo(
     () => rescueMeta?.discovery?.candidateBrands?.map((brand) => brand.name).join('、') ?? '',
@@ -1055,7 +1056,7 @@ function App() {
         setMapViewport(null)
         setMapFocusKey((current) => current + 1)
         setLocationStatus('ready')
-        setLocationMessage(`已依距離重新排列${forceAttractions ? '景點' : rescueOnly ? '臨時補給點' : restaurantOnly ? '餐廳' : '景點'}，藍點是你的位置。`)
+        setLocationMessage(`已依距離重新排列${forceAttractions ? '景點' : rescueOnly ? '救援據點' : restaurantOnly ? '餐廳' : '景點'}，藍點是你的位置。`)
         loadWeather(coords.latitude, coords.longitude)
         document.querySelector('.explore-section')?.scrollIntoView({ behavior: 'smooth' })
       },
@@ -1320,8 +1321,8 @@ function App() {
                 <small>親子餐廳</small>
               </button>
               <button className="entry-tile" onClick={() => goExplore(enableRescueMode)}>
-                <span className="entry-icon tile-green"><ShoppingCart size={24} /></span>
-                <small>臨時補給</small>
+                <span className="entry-icon tile-green"><LifeBuoy size={24} /></span>
+                <small>親子救援</small>
               </button>
             </section>
 
@@ -1608,6 +1609,9 @@ function App() {
                 <Baby size={15} />{item.label}
               </button>
             ))}
+          </div>
+
+          <div className="filter-group mode-tabs" aria-label="瀏覽模式">
             <button className={rainyOnly ? 'active rainy-filter' : 'rainy-filter'} onClick={() => { playUiSound(); setRainyOnly((value) => { if (!value) { setRestaurantOnly(false); setRescueOnly(false) } return !value }) }}>
               <Umbrella size={14} /> 雨天備案
             </button>
@@ -1617,8 +1621,8 @@ function App() {
             <button className={restaurantOnly ? 'active' : ''} onClick={toggleRestaurantMode}>
               <Utensils size={14} /> 餐廳
             </button>
-            <button className={rescueOnly ? 'active' : ''} onClick={toggleRescueMode}>
-              <ShoppingCart size={14} /> 臨時補給
+            <button className={rescueOnly ? 'active' : ''} onClick={() => { setRescueCategory('all'); toggleRescueMode() }}>
+              <LifeBuoy size={14} /> 親子救援
             </button>
           </div>
 
@@ -1669,7 +1673,7 @@ function App() {
             </button>
             <button
               className={rescueOnly ? 'active' : ''}
-              onClick={() => { playUiSound(); enableRescueMode() }}
+              onClick={() => { playUiSound(); setRescueCategory('母嬰補給'); enableRescueMode() }}
             >
               <ShoppingCart size={14} />尿布奶粉
             </button>
@@ -1857,7 +1861,7 @@ function App() {
               {currentPlacesStatus === 'loading' ? (
                 <div className="empty-state loading-state">
                   <MapPin size={40} />
-                  <h3>{rescueOnly ? '正在整理臨時補給點' : '正在整理親子景點'}</h3>
+                  <h3>{rescueOnly ? '正在整理救援據點' : '正在整理親子景點'}</h3>
                   <p>{rescueOnly ? '載入官方門市資料中，馬上就好。' : '載入官方開放資料中，馬上就好。'}</p>
                 </div>
               ) : currentPlacesStatus === 'error' ? (
