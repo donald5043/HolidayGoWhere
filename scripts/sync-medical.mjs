@@ -34,6 +34,16 @@ const HOSPITAL_QUERY = `[out:json][timeout:180][bbox:21.7,118.0,26.5,122.5];
 );
 out center tags;`
 
+const BABY_GOODS_QUERY = `[out:json][timeout:180][bbox:21.7,118.0,26.5,122.5];
+(
+  node["shop"="baby_goods"]["name"];
+  way["shop"="baby_goods"]["name"];
+);
+out center tags;`
+
+// 婦嬰藥局連鎖 — 台灣爸媽買尿布奶粉的主力通路，標記後併入母嬰補給
+const BABY_PHARMACY_CHAINS = /大樹|丁丁|啄木鳥|佑全|杏一|維康/
+
 // 城市概略邊界（座標 fallback 用，OSM 醫院常缺 addr:city）
 const CITY_BOUNDS = {
   '臺北市': { latMin: 24.95, latMax: 25.22, lngMin: 121.44, lngMax: 121.68 },
@@ -104,6 +114,9 @@ async function fetchPharmacies() {
     const city = normalizeCity(p.county) ?? cityFromCoords(lat, lng)
     if (!city) { skipped++; continue }
 
+    // 婦嬰藥局連鎖同時是尿布奶粉補給點，加上母嬰標記讓補給分類也能搜到
+    const isBabyPharmacy = BABY_PHARMACY_CHAINS.test(p.name)
+
     out.push({
       id: `pharmacy-${p.id || `${lat}-${lng}`}`,
       name: p.name,
@@ -124,7 +137,7 @@ async function fetchPharmacies() {
         checkedAt,
       },
       confidence: 'high',
-      tags: ['藥局', '健保特約'],
+      tags: isBabyPharmacy ? ['藥局', '母嬰用品', '尿布', '奶粉'] : ['藥局', '健保特約'],
     })
   }
 
@@ -204,9 +217,61 @@ async function fetchHospitals() {
   return out
 }
 
+async function fetchBabyGoodsStores() {
+  console.log('Fetching baby goods stores from OSM Overpass...')
+  const elements = await fetchFromOverpass(BABY_GOODS_QUERY)
+  const checkedAt = new Date().toISOString().split('T')[0]
+  const out = []
+  let skipped = 0
+
+  for (const el of elements) {
+    const tags = el.tags ?? {}
+    const name = tags['name:zh'] || tags.name
+    const lat = el.lat ?? el.center?.lat
+    const lng = el.lon ?? el.center?.lon
+    if (!name || !Number.isFinite(lat) || !Number.isFinite(lng)) { skipped++; continue }
+
+    const city = normalizeCity(tags['addr:city']) ?? cityFromCoords(lat, lng)
+    if (!city) { skipped++; continue }
+
+    const street = tags['addr:street'] || ''
+    const num = tags['addr:housenumber'] ? `${tags['addr:housenumber']}號` : ''
+    const district = tags['addr:district'] || tags['addr:suburb'] || ''
+
+    out.push({
+      id: `baby-osm-${el.type}-${el.id}`,
+      name,
+      brand: tags.brand || '母嬰用品店',
+      category: 'baby_supply',
+      city,
+      district,
+      address: [city, district, street, num].filter(Boolean).join('') || '地址請以地圖為準',
+      phone: tags.phone || tags['contact:phone'] || '',
+      hours: tags.opening_hours || '營業時間請電話確認',
+      lat,
+      lng,
+      mapsUrl: mapsUrlFor(name, lat, lng),
+      source: {
+        type: 'osm',
+        label: 'OpenStreetMap',
+        url: `https://www.openstreetmap.org/${el.type}/${el.id}`,
+        checkedAt,
+      },
+      confidence: 'medium',
+      tags: ['尿布', '奶粉', '母嬰用品'],
+    })
+  }
+
+  console.log(`Baby goods stores: ${out.length} (skipped ${skipped})`)
+  return out
+}
+
 async function main() {
-  const [pharmacies, hospitals] = await Promise.all([fetchPharmacies(), fetchHospitals()])
-  const facilities = [...hospitals, ...pharmacies]
+  const pharmacies = await fetchPharmacies()
+  // Overpass 同一時間打兩個查詢容易被限流，序列執行
+  const hospitals = await fetchHospitals()
+  const babyStores = await fetchBabyGoodsStores()
+  const facilities = [...hospitals, ...babyStores, ...pharmacies]
 
   const payload = {
     generatedAt: new Date().toISOString(),
@@ -219,6 +284,8 @@ async function main() {
       pharmacies: pharmacies.length,
       hospitals: hospitals.length,
       emergencyTagged: hospitals.filter((h) => h.tags.includes('急診')).length,
+      babyGoodsStores: babyStores.length,
+      babyPharmacies: pharmacies.filter((p) => p.tags.includes('母嬰用品')).length,
     },
     facilities,
   }

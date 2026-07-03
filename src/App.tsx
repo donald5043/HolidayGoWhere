@@ -748,9 +748,15 @@ function App() {
     const anchor = mapViewport?.center || userLocation || (region !== '全部' ? regionCenters[region] : null)
     const maxDistanceKm = mapViewport ? 80 : userLocation ? 35 : 120
 
+    // 母嬰補給也包含有母嬰標記的婦嬰藥局（大樹、丁丁、啄木鳥等）
+    const matchesCategory = (place: Place) =>
+      rescueCategory === 'all' ||
+      place.category === rescueCategory ||
+      (rescueCategory === '母嬰補給' && place.highlights.includes('母嬰用品'))
+
     return rescuePlaces
       .filter((place) =>
-        (rescueCategory === 'all' || place.category === rescueCategory) &&
+        matchesCategory(place) &&
         inViewport(place) &&
         (!anchor || distanceInKm(anchor, place) <= maxDistanceKm),
       )
