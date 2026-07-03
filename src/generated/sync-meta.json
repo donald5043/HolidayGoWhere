@@ -1,8 +1,8 @@
 {
   "sourceUrl": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
-  "sourceUpdatedAt": "2026-07-03T02:31:00+08:00",
-  "generatedFromSourceAt": "2026-07-03T02:31:00+08:00",
-  "sourceCount": 6093,
+  "sourceUpdatedAt": "2026-07-04T02:31:36+08:00",
+  "generatedFromSourceAt": "2026-07-04T02:31:36+08:00",
+  "sourceCount": 6094,
   "restaurantSourceCount": 3690,
   "restaurantPublishedCount": 2664,
   "restaurantRejected": {
@@ -12,29 +12,29 @@
     "relevance": 0,
     "quality": 828
   },
-  "eventSourceCount": 797,
-  "eventPublishedCount": 201,
+  "eventSourceCount": 802,
+  "eventPublishedCount": 216,
   "eventRejected": {
-    "expired": 499,
+    "expired": 485,
     "coordinate": 1,
-    "duplicate": 16,
-    "relevance": 80
+    "duplicate": 18,
+    "relevance": 82
   },
-  "candidateCount": 6043,
-  "publishedCount": 6043,
+  "candidateCount": 6057,
+  "publishedCount": 6057,
   "featuredCount": 300,
   "regionCounts": {
-    "北部": 1641,
+    "北部": 1645,
     "中部": 1875,
-    "南部": 1282,
-    "東部": 746,
-    "離島": 499
+    "南部": 1284,
+    "東部": 753,
+    "離島": 500
   },
   "rejected": {
     "inactive": 136,
     "coordinate": 24,
     "duplicate": 218,
-    "relevance": 2537,
+    "relevance": 2539,
     "quality": 0
   },
   "categoryCounts": {
@@ -44,17 +44,17 @@
     "咖啡下午茶": 266,
     "室內餐廳": 2027,
     "探索學習": 242,
-    "本週活動": 201,
+    "本週活動": 216,
     "甜點冰品": 290,
     "百貨商場": 34,
     "自然放電": 1221,
-    "藝文美感": 339,
+    "藝文美感": 338,
     "親子樂園": 445,
     "親子餐廳": 67,
     "農場體驗": 386
   },
   "amenityCoverage": {
-    "accessibility": 379,
+    "accessibility": 380,
     "ramp": 21,
     "nursingRoom": 356,
     "diaperTable": 214,
@@ -63,7 +63,7 @@
     "strollerFriendly": 45
   },
   "officialAmenityMatches": {
-    "accessibility": 335,
+    "accessibility": 336,
     "ramp": 0,
     "nursingRoom": 345,
     "diaperTable": 214,
@@ -75,7 +75,7 @@
     "nursingCount": 3996,
     "toiletCount": 45611,
     "nursingUpdatedAt": "2026-01-26 15:04:48",
-    "toiletUpdatedAt": "2026-07-02 09:09:13",
+    "toiletUpdatedAt": "2026-07-03 09:08:50",
     "sources": [
       {
         "id": 23750,

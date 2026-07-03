@@ -5463,5 +5463,98 @@
     "pageTitle": "",
     "wikidataId": "",
     "checkedAt": "2026-07-02T23:31:49.981Z"
+  },
+  "Attraction_376600000A_000030:中正公園": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/ef/Keelung_Tower_and_Ts%C3%BA-ph%C3%B3o-tu%C3%A2nn_20231108.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Keelung%20Tower%20and%20Ts%C3%BA-ph%C3%B3o-tu%C3%A2nn%2020231108.jpg?width=1400"
+    ],
+    "pageTitle": "中正公園 (基隆市)",
+    "wikidataId": "Q10875733",
+    "checkedAt": "2026-07-03T23:19:28.099Z"
+  },
+  "Attraction_376600000A_000022:港坪運動公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-07-03T23:19:28.454Z"
+  },
+  "Attraction_376600000A_000074:KANO遊客中心": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-07-03T23:19:28.783Z"
+  },
+  "Attraction_376600000A_000034:嘉義市政府文化局": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-07-03T23:19:29.145Z"
+  },
+  "Attraction_376600000A_000033:嘉義文化創意產業園區": {
+    "urls": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Strike%20Chimnery%20Theatre%2020171103.jpg?width=1400"
+    ],
+    "pageTitle": "嘉義文化創意產業園區",
+    "wikidataId": "Q10911193",
+    "checkedAt": "2026-07-03T23:19:29.668Z"
+  },
+  "Attraction_376600000A_000064:嘉義火車站": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-07-03T23:19:29.989Z"
+  },
+  "Attraction_376600000A_000027:嘉大植物園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-07-03T23:19:30.327Z"
+  },
+  "Attraction_376600000A_000065:嘉義市立美術館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-07-03T23:19:30.683Z"
+  },
+  "Attraction_376600000A_000046:北香湖公園": {
+    "urls": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/55/Chiayi_City_Forestry_Culture_Public_Park_%28Taiwan%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Chiayi_City_Forestry_Culture_Public_Park_%28Taiwan%29.jpg/1920px-Chiayi_City_Forestry_Culture_Public_Park_%28Taiwan%29.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Chiayi%20City%20Forestry%20Culture%20Public%20Park%20(Taiwan).jpg?width=1400"
+    ],
+    "pageTitle": "北香湖公園",
+    "wikidataId": "Q21041591",
+    "checkedAt": "2026-07-03T23:19:31.154Z"
+  },
+  "Attraction_376600000A_000025:嘉義公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-07-03T23:19:31.487Z"
+  },
+  "Attraction_376600000A_000051:愛木村休閒觀光工廠": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-07-03T23:19:31.830Z"
+  },
+  "Attraction_376600000A_000068:臺灣花磚博物館": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-07-03T23:19:32.199Z"
+  },
+  "Attraction_376600000A_000063:蘭潭後山步道": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-07-03T23:19:32.527Z"
+  },
+  "Attraction_376600000A_000045:沉睡森林主題公園": {
+    "urls": [],
+    "pageTitle": "",
+    "wikidataId": "",
+    "checkedAt": "2026-07-03T23:19:32.829Z"
   }
 }
