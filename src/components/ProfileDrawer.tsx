@@ -1,4 +1,4 @@
-import { Heart, SlidersHorizontal, X } from 'lucide-react'
+import { Heart, SlidersHorizontal, X, type LucideIcon } from 'lucide-react'
 import { Mascot } from './Mascot'
 
 export function ProfileDrawer({
@@ -11,7 +11,7 @@ export function ProfileDrawer({
   onAdjustPreferences,
 }: {
   onClose: () => void
-  personalityProfile: { emoji: string; label: string; desc: string } | null
+  personalityProfile: { icon: LucideIcon; label: string; desc: string } | null
   favoritesCount: number
   clickHistoryCount: number
   age: string
@@ -29,7 +29,7 @@ export function ProfileDrawer({
         <p>你的收藏與偏好會保存在這支手機裡。</p>
         {personalityProfile && (
           <div className="profile-persona">
-            <span className="profile-persona-emoji">{personalityProfile.emoji}</span>
+            <span className="profile-persona-emoji"><personalityProfile.icon size={24} /></span>
             <div>
               <strong>{personalityProfile.label}</strong>
               <span>{personalityProfile.desc}</span>

@@ -2,8 +2,9 @@ import { memo, useEffect, useMemo, useRef } from 'react'
 import L from 'leaflet'
 import { MapContainer, Marker, Popup, TileLayer, Tooltip, useMap, useMapEvents } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
-import type { Place } from './data'
-import { classifyRestaurant, CATEGORY_EMOJI } from './services/restaurantClassifier'
+import type { Place, RestaurantCategory } from './data'
+import { classifyRestaurant } from './services/restaurantClassifier'
+import { MARKER_ICON_SVG } from './lib/markerIcons'
 
 type Props = {
   places: Place[]
@@ -38,22 +39,38 @@ const userLocationIcon = L.divIcon({
   tooltipAnchor: [0, -18],
 })
 
+const RESCUE_CATEGORIES = new Set(['臨時補給', '母嬰補給', '健保藥局', '急診醫院'])
+
 function markerTone(place: Place) {
-  if (place.category === '臨時補給') return '#789B8D'
+  if (place.category === '急診醫院') return '#C0564A'
+  if (RESCUE_CATEGORIES.has(place.category)) return '#789B8D'
   if (place.placeType === '餐飲') return '#789B8D'
   if (place.weekendEvent) return '#E9A93A'
   if (place.rainyDay || place.setting === '室內') return '#5B8FF0'
   return place.accent || '#D9775F'
 }
 
+// 地圖 pin 圖示走 lucide inline SVG，與全站圖示語言一致（不用 emoji）
+const RESTAURANT_MARKER_SVG: Record<RestaurantCategory, string> = {
+  family_chain: MARKER_ICON_SVG.sandwich,
+  mall_food_court: MARKER_ICON_SVG.building2,
+  family_supply_brand: MARKER_ICON_SVG.coffee,
+  attraction_attached: MARKER_ICON_SVG.ferrisWheel,
+  tourism_restaurant: MARKER_ICON_SVG.soup,
+  general_restaurant: MARKER_ICON_SVG.utensils,
+}
+
 function markerLabel(place: Place) {
-  if (place.category === '臨時補給') return '🛒'
+  if (place.category === '母嬰補給') return MARKER_ICON_SVG.baby
+  if (place.category === '健保藥局') return MARKER_ICON_SVG.pill
+  if (place.category === '急診醫院') return MARKER_ICON_SVG.ambulance
+  if (place.category === '臨時補給') return MARKER_ICON_SVG.shoppingCart
   if (place.placeType === '餐飲') {
     const score = classifyRestaurant(place)
-    return CATEGORY_EMOJI[score.restaurantCategory]
+    return RESTAURANT_MARKER_SVG[score.restaurantCategory]
   }
-  if (place.rainyDay || place.setting === '室內') return '☂'
-  if (place.weekendEvent) return '★'
+  if (place.rainyDay || place.setting === '室內') return MARKER_ICON_SVG.umbrella
+  if (place.weekendEvent) return MARKER_ICON_SVG.star
   return 'Q'
 }
 

@@ -997,6 +997,9 @@ button:active,
 
 .wizard-no-location {
   margin: 4px 0 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
   font-size: 11.5px;
   color: #b45309;
   background: #fef3c7;
@@ -1228,9 +1231,15 @@ p.wizard-reason {
 }
 
 .persona-emoji {
-  font-size: 36px;
   flex: 0 0 auto;
-  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  color: var(--color-primary-dark);
+  background: var(--color-primary-soft);
 }
 
 .persona-copy {
@@ -1274,7 +1283,17 @@ p.wizard-reason {
   border: 1.5px solid #f5d9a0;
   margin-bottom: 16px;
 }
-.profile-persona-emoji { font-size: 32px; flex: 0 0 auto; }
+.profile-persona-emoji {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: #92400e;
+  background: rgba(146, 64, 14, 0.12);
+}
 .profile-persona div { display: flex; flex-direction: column; gap: 2px; }
 .profile-persona strong { font-size: 14px; font-weight: 800; color: #92400e; }
 .profile-persona span { font-size: 12px; color: #78350f; line-height: 1.4; }
@@ -1415,6 +1434,9 @@ p.wizard-reason {
 }
 
 .swipe-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
   font-size: 10.5px;
   font-weight: 700;
   padding: 3px 8px;
@@ -1473,6 +1495,9 @@ p.wizard-reason {
 }
 
 .swipe-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
   font-size: 11px;
   font-weight: 600;
   padding: 2px 8px;
@@ -3909,6 +3934,12 @@ body.map-expanded-lock .bottom-nav {
   font-size: 9px;
   font-weight: 900;
   line-height: 1;
+}
+
+.leaflet-place-pin b svg {
+  width: 10px;
+  height: 10px;
+  display: block;
 }
 
 .leaflet-place-pin:hover,

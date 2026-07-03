@@ -453,7 +453,7 @@ export function answerQuery(
       }
     }
     return {
-      text: `這句Q媽還聽不太懂🙈 我目前會聽：雨天備案、孩子放電、推車友善、餐廳美食、尿布補給、各縣市景點。不過別擔心，直接幫你丟 Google 地圖搜尋：`,
+      text: `這句Q媽還聽不太懂，先跟你說聲抱歉。我目前會聽：雨天備案、孩子放電、推車友善、餐廳美食、尿布補給、各縣市景點。不過別擔心，直接幫你丟 Google 地圖搜尋：`,
       picks: [],
       chips: GREETING_CHIPS,
       intent,

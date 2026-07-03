@@ -1,6 +1,7 @@
 import { Fragment, startTransition, useCallback, useEffect, useMemo, useRef, useState, type CSSProperties, type ReactNode } from 'react'
 import {
   Accessibility,
+  Ambulance,
   Anchor,
   ArrowUpRight,
   Baby,
@@ -28,6 +29,8 @@ import {
   Mountain,
   Navigation,
   NotebookPen,
+  PawPrint,
+  Pill,
   Search,
   ShoppingCart,
   SlidersHorizontal,
@@ -37,6 +40,7 @@ import {
   TentTree,
   Ticket,
   TreePine,
+  TriangleAlert,
   Umbrella,
   Users,
   Utensils,
@@ -45,6 +49,7 @@ import {
   Waves,
   Wrench,
   X,
+  type LucideIcon,
 } from 'lucide-react'
 import {
   ageOptions,
@@ -213,13 +218,13 @@ function computeWizardResults(
 // ── 親子人格 ─────────────────────────────────────────────────────────────────
 
 type PersonalityId = 'outdoor' | 'indoor' | 'animal' | 'rainy'
-type PersonalityProfile = { id: PersonalityId; label: string; emoji: string; desc: string }
+type PersonalityProfile = { id: PersonalityId; label: string; icon: LucideIcon; desc: string }
 
 const PERSONALITIES: PersonalityProfile[] = [
-  { id: 'outdoor', label: '戶外探索型', emoji: '🌿', desc: '愛在大自然裡奔跑冒險，公園、步道、農場都難不倒你' },
-  { id: 'indoor', label: '室內學習型', emoji: '🏛️', desc: '偏愛博物館、科教館與手作體驗，寓教於樂最對味' },
-  { id: 'animal', label: '動物愛好型', emoji: '🦋', desc: '對動物、海洋生態、農場牧場總是走不開' },
-  { id: 'rainy', label: '雨天備案型', emoji: '☔', desc: '室內活動玩得超開心，下雨也不怕找不到去處' },
+  { id: 'outdoor', label: '戶外探索型', icon: TreePine, desc: '愛在大自然裡奔跑冒險，公園、步道、農場都難不倒你' },
+  { id: 'indoor', label: '室內學習型', icon: Building2, desc: '偏愛博物館、科教館與手作體驗，寓教於樂最對味' },
+  { id: 'animal', label: '動物愛好型', icon: PawPrint, desc: '對動物、海洋生態、農場牧場總是走不開' },
+  { id: 'rainy', label: '雨天備案型', icon: Umbrella, desc: '室內活動玩得超開心，下雨也不怕找不到去處' },
 ]
 
 const ANIMAL_KW = ['動物', '水族', '海洋', '鳥', '蝴蝶', '昆蟲', '牧場', '農場', '魚', '熊', '貓', '兔', '羊', '馬', '龜', '蛇', '鱷']
@@ -1388,7 +1393,7 @@ function App() {
                     ))}
                   </div>
                   {!userLocation && (
-                    <p className="wizard-no-location">⚠️ 未取得定位，將略過距離篩選</p>
+                    <p className="wizard-no-location"><TriangleAlert size={13} /> 未取得定位，將略過距離篩選</p>
                   )}
                 </div>
               </div>
@@ -1436,7 +1441,7 @@ function App() {
             {nearbyPlaces.length > 0 && (
               <section className="home-section nearby-section">
                 <div className="home-section-head">
-                  <h2>📍 附近推薦</h2>
+                  <h2><MapPin size={18} /> 附近推薦</h2>
                   <button onClick={() => goExplore(findNearbyAttractions)}>更多 <ChevronRight size={15} /></button>
                 </div>
                 <div className="nearby-scroll">
@@ -1506,7 +1511,7 @@ function App() {
                   <button onClick={() => openProfile()}>查看檔案 <ChevronRight size={15} /></button>
                 </div>
                 <div className="persona-card">
-                  <span className="persona-emoji" aria-hidden="true">{personalityProfile.emoji}</span>
+                  <span className="persona-emoji" aria-hidden="true"><personalityProfile.icon size={26} /></span>
                   <div className="persona-copy">
                     <strong>{personalityProfile.label}</strong>
                     <p>{personalityProfile.desc}</p>
@@ -1620,17 +1625,17 @@ function App() {
           {rescueOnly && (
             <div className="rescue-category-chips" aria-label="補給分類">
               {([
-                ['all', '全部'],
-                ['母嬰補給', '🍼 母嬰補給'],
-                ['健保藥局', '💊 藥局'],
-                ['急診醫院', '🏥 急診醫院'],
-              ] as const).map(([value, label]) => (
+                ['all', '全部', Layers],
+                ['母嬰補給', '母嬰補給', Baby],
+                ['健保藥局', '藥局', Pill],
+                ['急診醫院', '急診醫院', Ambulance],
+              ] as const).map(([value, label, Icon]) => (
                 <button
                   key={value}
                   className={rescueCategory === value ? 'active' : ''}
                   onClick={() => { playUiSound(); setRescueCategory(value) }}
                 >
-                  {label}
+                  <Icon size={14} />{label}
                 </button>
               ))}
             </div>
