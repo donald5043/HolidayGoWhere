@@ -1,10 +1,10 @@
 # HolidayGoWhere Data Quality Report
 
-Generated at: 2026-07-03T23:26:59.962Z
+Generated at: 2026-07-04T23:22:09.554Z
 
 ## Summary
 
-- 總資料量：8662
+- 總資料量：8660
 - 首頁精選：300
 - 親子餐廳精選：250
 - qualityScoreV2 中位數：63
@@ -14,7 +14,7 @@ Generated at: 2026-07-03T23:26:59.962Z
 
 | 類型 | 筆數 |
 | --- | --- |
-| 活動 | 216 |
+| 活動 | 214 |
 | 景點 | 3395 |
 | 餐飲 | 5051 |
 
@@ -36,11 +36,11 @@ Generated at: 2026-07-03T23:26:59.962Z
 
 | 地區 | 筆數 | 景點 | 餐飲 | 活動 | 檔案 |
 | --- | --- | --- | --- | --- | --- |
-| 北部 | 2530 | 1267 | 1204 | 59 | places-north.json |
+| 北部 | 2527 | 1267 | 1204 | 56 | places-north.json |
 | 中部 | 2429 | 859 | 1554 | 16 | places-central.json |
-| 南部 | 1966 | 627 | 1306 | 33 | places-south.json |
+| 南部 | 1968 | 627 | 1306 | 35 | places-south.json |
 | 東部 | 1183 | 442 | 670 | 71 | places-east.json |
-| 離島 | 554 | 200 | 317 | 37 | places-islands.json |
+| 離島 | 553 | 200 | 317 | 36 | places-islands.json |
 
 ## Family Amenity Coverage
 
@@ -75,7 +75,7 @@ Generated at: 2026-07-03T23:26:59.962Z
 | 藝文美感 | 370 |
 | 甜點冰品 | 307 |
 | 探索學習 | 257 |
-| 本週活動 | 216 |
+| 本週活動 | 214 |
 | 動物萌友 | 208 |
 | 假日散步 | 197 |
 | 交通迷 | 173 |
