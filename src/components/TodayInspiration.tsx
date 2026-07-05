@@ -55,6 +55,13 @@ const scenarioCopy: Record<ScenarioKey, { label: string; icon: typeof Umbrella; 
 
 const HOME_DEFER_MS = 650
 
+type HeroMood = {
+  kicker: string
+  title: string[]
+  description: string
+  weatherFallback: string
+}
+
 function amenityScore(place: Place) {
   const amenities = place.familyAmenities
   if (!amenities) return 42
@@ -92,6 +99,84 @@ function reasonFor(place: Place, weather: WeatherSummary | null) {
   return '適合想要半日出門、不要把爸媽體力一次燒光的家庭。'
 }
 
+function getHeroMood({
+  weather,
+  userLocation,
+  selectedAge,
+}: {
+  weather: WeatherSummary | null
+  userLocation: { lat: number; lng: number } | null
+  selectedAge: string
+}): HeroMood {
+  const now = new Date()
+  const hour = now.getHours()
+  const day = now.getDay()
+  const isWeekend = day === 0 || day === 6
+  const isRainy = Boolean(weather && (weather.precipitationProbability >= 45 || weather.weatherCode >= 51))
+  const isHot = Boolean(weather && weather.temperature >= 32)
+
+  if (!userLocation) {
+    return {
+      kicker: '先定位，推薦會更準',
+      title: ['今天附近，', '有什麼', '適合孩子？'],
+      description: '開啟定位後，Q胖會把距離、天氣、孩子年齡與臨時補給一起納入推薦。',
+      weatherFallback: '開啟定位後，會依距離與天氣推薦',
+    }
+  }
+
+  if (selectedAge === '0-2') {
+    return {
+      kicker: '小小孩出門版',
+      title: ['推車好走，', '補給方便，', '再出門。'],
+      description: '優先看推車友善、室內備案、尿布台與爸媽能短暫休息的地方。',
+      weatherFallback: '正在整理適合嬰幼兒的附近選擇',
+    }
+  }
+
+  if (isRainy) {
+    return {
+      kicker: '雨天親子備案',
+      title: ['下雨也能', '好好玩，', '不狼狽。'],
+      description: '先找室內、停車方便、能吃飯休息的地方，把雨天行程變簡單。',
+      weatherFallback: '正在整理附近雨天備案',
+    }
+  }
+
+  if (isHot) {
+    return {
+      kicker: '炎熱天氣提案',
+      title: ['太熱了，', '找個地方', '舒服放電。'],
+      description: '優先推薦室內、遮蔭、餐飲與補給方便的親子去處。',
+      weatherFallback: '正在整理附近室內與遮蔭選擇',
+    }
+  }
+
+  if (hour >= 14) {
+    return {
+      kicker: '半日小旅行',
+      title: ['還有半天，', '去哪裡', '剛剛好？'],
+      description: '幫你挑不趕、不繞路，孩子能放電、爸媽也不會太累的半日選擇。',
+      weatherFallback: '正在整理附近半日行程',
+    }
+  }
+
+  if (isWeekend) {
+    return {
+      kicker: '週末靈感入口',
+      title: ['這個週末，', '讓 Q胖', '先想好。'],
+      description: '從附近景點、雨天備案、餐廳到臨時補給，整理成可以立刻出門的親子方案。',
+      weatherFallback: '正在整理你附近的週末靈感',
+    }
+  }
+
+  return {
+    kicker: '親子假日靈感入口',
+    title: ['今天去哪玩，', '讓 Q胖', '先想好。'],
+    description: '依孩子年齡、天氣、距離、停車與臨時補給，快速整理適合今天出門的景點、餐廳與雨天備案。',
+    weatherFallback: '正在整理你附近適合親子的選擇',
+  }
+}
+
 export function TodayInspiration({
   places,
   weather,
@@ -112,17 +197,15 @@ export function TodayInspiration({
   const primaryPlace = heroPlaces[0]
   const [showDeferredSections, setShowDeferredSections] = useState(false)
   const isRainy = Boolean(weather && (weather.precipitationProbability >= 45 || weather.weatherCode >= 51))
+  const heroMood = useMemo(
+    () => getHeroMood({ weather, userLocation, selectedAge }),
+    [weather, userLocation, selectedAge],
+  )
   const weatherText = weather
     ? `${weather.label}・${Math.round(weather.temperature)}°C・近1小時降雨 ${weather.precipitationProbability}%`
     : userLocation
-      ? '正在整理你附近適合親子的選擇'
+      ? heroMood.weatherFallback
       : '開啟定位後，會依距離與天氣推薦'
-  const heroTitle = useMemo(
-    () => isRainy
-      ? ['雨天出門，', '也能', '不狼狽。']
-      : ['今天去哪玩，', '讓 Q胖', '先幫你想好。'],
-    [isRainy],
-  )
 
   useEffect(() => {
     let cancelled = false
@@ -150,14 +233,11 @@ export function TodayInspiration({
       <section className="phase-hero">
         <div className="phase-hero-glow" aria-hidden="true" />
         <div className="phase-hero-copy">
-          <span className="phase-kicker"><Sparkles size={15} /> 親子假日靈感入口</span>
+          <span className="phase-kicker"><Sparkles size={15} /> {heroMood.kicker}</span>
           <h1>
-            {heroTitle.map((line) => <span key={line}>{line}</span>)}
+            {heroMood.title.map((line) => <span key={line}>{line}</span>)}
           </h1>
-          <p>
-            依照孩子年齡、天氣、距離、停車與臨時補給，快速整理適合今天出門的景點、
-            餐廳與雨天備案。
-          </p>
+          <p>{heroMood.description}</p>
           <div className="phase-weather-pill">
             {isRainy ? <CloudRain size={18} /> : <SunMedium size={18} />}
             <span>{weatherText}</span>

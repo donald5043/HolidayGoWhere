@@ -2155,12 +2155,13 @@ p.wizard-reason {
 }
 
 .phase-hero h1 {
-  max-width: 620px;
-  margin: 14px 0 16px;
+  max-width: 560px;
+  margin: 16px 0 18px;
   color: var(--color-text);
-  font-size: clamp(42px, 7vw, 72px);
-  line-height: 0.96;
-  letter-spacing: -0.06em;
+  font-size: clamp(36px, 5.6vw, 58px);
+  line-height: 1.06;
+  letter-spacing: -0.045em;
+  text-wrap: balance;
 }
 
 .phase-hero h1 span {
@@ -2168,11 +2169,12 @@ p.wizard-reason {
 }
 
 .phase-hero p {
-  max-width: 540px;
+  max-width: 520px;
   margin: 0;
   color: var(--color-text-secondary);
-  font-size: 17px;
-  line-height: 1.8;
+  font-size: 16.5px;
+  line-height: 1.82;
+  letter-spacing: 0.01em;
 }
 
 .phase-weather-pill {
@@ -5622,21 +5624,22 @@ body.map-expanded-lock .bottom-nav {
   }
 
   .phase-hero h1 {
+    max-width: 330px;
     margin-top: 12px;
-    font-size: clamp(35px, 9.8vw, 38px);
-    line-height: 1.12;
-    letter-spacing: -0.045em;
+    font-size: clamp(31px, 8.8vw, 36px);
+    line-height: 1.16;
+    letter-spacing: -0.035em;
     text-wrap: balance;
   }
 
   .phase-hero h1 span {
     display: block;
-    white-space: nowrap;
   }
 
   .phase-hero p {
     font-size: 15px;
-    line-height: 1.7;
+    line-height: 1.76;
+    text-wrap: pretty;
   }
 
   .phase-weather-pill {
