@@ -10,7 +10,7 @@ const categoryIcon = {
   nutrition: Stethoscope,
 } as const
 
-type CdcAttempt = {
+export type CdcAttempt = {
   diseaseName: string
   dataset?: string
   metadataUrl?: string
@@ -20,7 +20,7 @@ type CdcAttempt = {
   error?: string
 }
 
-type CdcStatus = {
+export type CdcStatus = {
   freshAdvisories: number
   fallbackAdvisories: number
   failedDiseases: string[]

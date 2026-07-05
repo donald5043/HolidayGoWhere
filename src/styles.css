@@ -2759,6 +2759,49 @@ p.wizard-reason {
   line-height: 1.45;
 }
 
+.home-deferred-skeleton {
+  min-height: 188px;
+  padding: 28px;
+  border: 1px solid rgba(45,74,69,0.08);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  background:
+    linear-gradient(90deg, rgba(255,252,247,0.70), rgba(255,255,255,0.92), rgba(255,252,247,0.70)),
+    radial-gradient(circle at 8% 20%, rgba(255,224,196,0.42), transparent 12rem);
+  background-size: 220% 100%, auto;
+  box-shadow: var(--shadow-sm);
+  animation: shimmer 1.6s ease-in-out infinite;
+}
+
+.home-deferred-skeleton div {
+  max-width: 520px;
+}
+
+.home-deferred-skeleton span {
+  display: block;
+  width: 72px;
+  height: 10px;
+  margin-bottom: 16px;
+  border-radius: var(--radius-pill);
+  background: rgba(217,119,95,0.24);
+}
+
+.home-deferred-skeleton strong {
+  display: block;
+  color: var(--color-text);
+  font-size: 21px;
+  letter-spacing: -0.02em;
+}
+
+.home-deferred-skeleton p {
+  max-width: 430px;
+  margin: 9px 0 0;
+  color: var(--color-text-secondary);
+  font-size: 15px;
+  line-height: 1.65;
+}
+
 .weekend-hub {
   padding: clamp(22px, 4vw, 34px);
   border: 1px solid rgba(45,74,69,0.10);

@@ -955,13 +955,30 @@ function App() {
     return [...ranked.slice(offset), ...ranked.slice(0, offset)].slice(0, 10)
   }, [places, placesStatus])
   const todayInspirationPlaces = useMemo(() => {
-    const source = recommended.length
-      ? [
-          ...recommended,
-          ...places.filter((place) => !recommended.some((featured) => featured.id === place.id)),
-        ]
-      : places
-    return [...source]
+    if (!places.length) return []
+    const featuredIds = new Set(recommended.map((place) => place.id))
+    const candidates: Place[] = [...recommended]
+
+    if (userLocation) {
+      candidates.push(
+        ...places
+          .filter((place) => !featuredIds.has(place.id))
+          .map((place) => ({ place, distance: distanceInKm(userLocation, place) }))
+          .sort((first, second) => first.distance - second.distance)
+          .slice(0, 72)
+          .map(({ place }) => place),
+      )
+    }
+
+    for (const place of places) {
+      if (candidates.length >= 112) break
+      if (!featuredIds.has(place.id) && (place.rainyDay || place.familyAmenities || place.image)) {
+        candidates.push(place)
+      }
+    }
+
+    const uniqueCandidates = Array.from(new Map(candidates.map((place) => [place.id, place])).values())
+    return uniqueCandidates
       .sort((first, second) => (
         (userLocation ? distanceInKm(userLocation, first) - distanceInKm(userLocation, second) : 0) ||
         Number(Boolean(second.rainyDay)) - Number(Boolean(first.rainyDay)) ||
