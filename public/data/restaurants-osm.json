@@ -134433,6 +134433,58 @@
     "placeType": "餐飲"
   },
   {
+    "id": "osm-node-13989815371",
+    "name": "微咖哩",
+    "region": "中部",
+    "city": "臺中市",
+    "district": "西區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺中市西區美村路一段806號",
+    "hours": "請以商家公告為準",
+    "lat": 24.1326137,
+    "lng": 120.661547,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "微咖哩，位於台灣的餐廳，提供curry料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [
+      "提供兒童座椅"
+    ],
+    "facilities": [
+      "高腳椅",
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E5%BE%AE%E5%92%96%E5%93%A9/@24.132614,120.661547,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/13989815371"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/13989815371",
+    "qualityScore": 3,
+    "updatedAt": "2026-07-05",
+    "placeType": "餐飲"
+  },
+  {
     "id": "osm-node-2657775936",
     "name": "喜樂魚Joy Fish 泰式家庭料理餐廳",
     "region": "中部",
@@ -149009,55 +149061,6 @@
     ],
     "dataSource": "osm",
     "sourceId": "node/5107505547",
-    "qualityScore": 5,
-    "updatedAt": "2026-07-05",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-5109589160",
-    "name": "綠蓋茶‧館",
-    "region": "中部",
-    "city": "臺中市",
-    "district": "西屯區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "臺中市西屯區河南路二段278",
-    "hours": "Mo-Su 13:00-24:00; Fr-Sa 13:00-01:00",
-    "lat": 24.1750618,
-    "lng": 120.6488157,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "綠蓋茶‧館，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E7%B6%A0%E8%93%8B%E8%8C%B6%E2%80%A7%E9%A4%A8/@24.175062,120.648816,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/5109589160"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/5109589160",
     "qualityScore": 5,
     "updatedAt": "2026-07-05",
     "placeType": "餐飲"
