@@ -54,6 +54,9 @@ const scenarioCopy: Record<ScenarioKey, { label: string; icon: typeof Umbrella; 
 }
 
 const HOME_DEFER_MS = 650
+const UNSETTLED_RAIN_THRESHOLD = 40
+const HERO_RAINY_THRESHOLD = 60
+const RAIN_WEATHER_CODE = 51
 
 type HeroMood = {
   kicker: string
@@ -112,7 +115,13 @@ function getHeroMood({
   const hour = now.getHours()
   const day = now.getDay()
   const isWeekend = day === 0 || day === 6
-  const isRainy = Boolean(weather && (weather.precipitationProbability >= 45 || weather.weatherCode >= 51))
+  const isRainy = Boolean(weather && (weather.precipitationProbability >= HERO_RAINY_THRESHOLD || weather.weatherCode >= RAIN_WEATHER_CODE))
+  const isUnsettled = Boolean(
+    weather &&
+    weather.precipitationProbability >= UNSETTLED_RAIN_THRESHOLD &&
+    weather.precipitationProbability < HERO_RAINY_THRESHOLD &&
+    weather.weatherCode < RAIN_WEATHER_CODE,
+  )
   const isHot = Boolean(weather && weather.temperature >= 32)
 
   if (!userLocation) {
@@ -139,6 +148,15 @@ function getHeroMood({
       title: ['下雨也能', '好好玩，', '不狼狽。'],
       description: '先找室內、停車方便、能吃飯休息的地方，把雨天行程變簡單。',
       weatherFallback: '正在整理附近雨天備案',
+    }
+  }
+
+  if (isUnsettled) {
+    return {
+      kicker: '天氣不穩，先留備案',
+      title: ['可能會下雨，', '先找個', '安心去處。'],
+      description: '降雨機率還不到雨天模式，但 Q胖會優先提醒室內、餐飲與停車方便的選擇。',
+      weatherFallback: '正在整理附近的天氣備案',
     }
   }
 
@@ -196,7 +214,7 @@ export function TodayInspiration({
   const heroPlaces = places.slice(0, 3)
   const primaryPlace = heroPlaces[0]
   const [showDeferredSections, setShowDeferredSections] = useState(false)
-  const isRainy = Boolean(weather && (weather.precipitationProbability >= 45 || weather.weatherCode >= 51))
+  const isRainy = Boolean(weather && (weather.precipitationProbability >= HERO_RAINY_THRESHOLD || weather.weatherCode >= RAIN_WEATHER_CODE))
   const heroMood = useMemo(
     () => getHeroMood({ weather, userLocation, selectedAge }),
     [weather, userLocation, selectedAge],
