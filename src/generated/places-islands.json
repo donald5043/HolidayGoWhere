@@ -1443,7 +1443,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_371020000A_004201",
     "qualityScore": 10,
-    "updatedAt": "2026-07-02T06:19:35+08:00",
+    "updatedAt": "2026-07-06T00:42:58+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-06-30T16:00:00+08:00",
@@ -2175,7 +2175,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081943",
     "qualityScore": 10,
-    "updatedAt": "2026-07-05T02:00:03+08:00",
+    "updatedAt": "2026-07-09T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-04-01T00:00:00+08:00",
@@ -2853,7 +2853,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081944",
     "qualityScore": 10,
-    "updatedAt": "2026-07-05T02:00:03+08:00",
+    "updatedAt": "2026-07-09T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-03-01T00:00:00+08:00",
@@ -2945,6 +2945,81 @@
     }
   },
   {
+    "id": "Event_371020000A_004447",
+    "name": "2026沃皮斯盃金城國際籃球邀請賽",
+    "region": "離島",
+    "city": "金門縣",
+    "district": "金城鎮",
+    "ageMin": 3,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "本週活動",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查官網",
+    "address": "金門縣立體育館",
+    "hours": "7/6－7/11",
+    "lat": 24.42993,
+    "lng": 118.31442,
+    "image": "https://kinmen.travel/image/47211/640x480",
+    "imageCandidates": [],
+    "accent": "#ff6b6b",
+    "description": "夏日金門熱血開戰！「2026沃皮斯盃金城國際籃球邀請賽」將集結台灣HBL甲級勁旅、馬來西亞菁英代表隊及女子籃球好手，在金門展開精彩對決。",
+    "highlights": [
+      "本週末限定",
+      "期間限定",
+      "親子新鮮事"
+    ],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "官方資料尚未提供停車資訊。",
+      "evidence": []
+    },
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2026%E6%B2%83%E7%9A%AE%E6%96%AF%E7%9B%83%E9%87%91%E5%9F%8E%E5%9C%8B%E9%9A%9B%E7%B1%83%E7%90%83%E9%82%80%E8%AB%8B%E8%B3%BD%20%E9%87%91%E9%96%80%E7%B8%A3%E7%AB%8B%E9%AB%94%E8%82%B2%E9%A4%A8",
+    "sources": [
+      {
+        "type": "Instagram",
+        "label": "查看 #2026沃皮斯盃金城國際籃球邀請賽",
+        "url": "https://www.instagram.com/explore/tags/2026%E6%B2%83%E7%9A%AE%E6%96%AF%E7%9B%83%E9%87%91%E5%9F%8E%E5%9C%8B%E9%9A%9B%E7%B1%83%E7%90%83%E9%82%80%E8%AB%8B%E8%B3%BD/"
+      },
+      {
+        "type": "部落格",
+        "label": "搜尋親子遊記",
+        "url": "https://www.google.com/search?q=2026%E6%B2%83%E7%9A%AE%E6%96%AF%E7%9B%83%E9%87%91%E5%9F%8E%E5%9C%8B%E9%9A%9B%E7%B1%83%E7%90%83%E9%82%80%E8%AB%8B%E8%B3%BD%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
+      }
+    ],
+    "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
+    "sourceId": "Event_371020000A_004447",
+    "qualityScore": 10,
+    "updatedAt": "2026-07-06T07:42:07+08:00",
+    "rainyDay": false,
+    "placeType": "活動",
+    "eventStart": "2026-07-06T16:00:00+08:00",
+    "eventEnd": "2026-07-11T15:59:59+08:00",
+    "weekendEvent": true,
+    "familyEvidence": [],
+    "qualityScoreV2": 81,
+    "completeness": {
+      "score": 33,
+      "missing": [
+        "官方網站",
+        "票價資訊",
+        "親子設施",
+        "詳細介紹"
+      ]
+    }
+  },
+  {
     "id": "Event_A15010000H_081946",
     "name": "夜賞藍眼淚",
     "region": "離島",
@@ -3006,7 +3081,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081946",
     "qualityScore": 10,
-    "updatedAt": "2026-07-05T02:00:03+08:00",
+    "updatedAt": "2026-07-09T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-04-01T00:00:00+08:00",
@@ -3233,7 +3308,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081945",
     "qualityScore": 10,
-    "updatedAt": "2026-07-05T02:00:03+08:00",
+    "updatedAt": "2026-07-09T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-04-01T00:00:00+08:00",
@@ -3267,7 +3342,7 @@
     "hours": "7/23－7/26",
     "lat": 24.42486,
     "lng": 118.42767,
-    "image": "https://kinmen.travel/image/47177/640x480",
+    "image": "https://kinmen.travel/image/47209/640x480",
     "imageCandidates": [],
     "accent": "#ff6b6b",
     "description": "2026金湖海灘花蛤季將於7月24日至7月26日熱鬧登場。今年夏天，金湖海灘將化身為充滿歡笑與活力的大型海洋遊樂園，結合大型遊樂設施、親子互動體驗、沙灘闖關遊戲與海洋運動挑戰，打造適合親子家庭、好友同行及旅客一同參與的夏日盛會。",
@@ -3306,7 +3381,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_371020000A_004231",
     "qualityScore": 10,
-    "updatedAt": "2026-07-01T01:18:04+08:00",
+    "updatedAt": "2026-07-07T07:26:35+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-07-23T16:00:00+08:00",
@@ -3341,7 +3416,7 @@
     "hours": "7/17－7/19",
     "lat": 24.43586,
     "lng": 118.31705,
-    "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd4297?auto=format&fit=crop&w=900&q=80",
+    "image": "https://kinmen.travel/image/47282/640x480",
     "imageCandidates": [],
     "accent": "#ff6b6b",
     "description": "為了拉近親子之間的關係與情感，設計多樣化的互動活動，促進家長與孩子之間的情感交流，並透過園遊會形式打造及展示烈嶼的地方產業特色，吸引更多遊客的參與。",
@@ -3380,20 +3455,19 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_371020000A_004197",
     "qualityScore": 10,
-    "updatedAt": "2026-06-04T07:34:18+08:00",
+    "updatedAt": "2026-07-09T03:34:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-07-17T16:00:00+08:00",
     "eventEnd": "2026-07-19T15:59:59+08:00",
     "weekendEvent": false,
     "familyEvidence": [],
-    "qualityScoreV2": 60,
+    "qualityScoreV2": 75,
     "completeness": {
-      "score": 17,
+      "score": 33,
       "missing": [
         "官方網站",
         "票價資訊",
-        "官方照片",
         "親子設施",
         "詳細介紹"
       ]
@@ -4139,7 +4213,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081721",
     "qualityScore": 10,
-    "updatedAt": "2026-07-05T02:00:03+08:00",
+    "updatedAt": "2026-07-09T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-11-01T00:00:00+08:00",
@@ -4226,7 +4300,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081894",
     "qualityScore": 10,
-    "updatedAt": "2026-07-05T02:00:03+08:00",
+    "updatedAt": "2026-07-09T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-09-20T00:00:00+08:00",
@@ -4450,7 +4524,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081690",
     "qualityScore": 10,
-    "updatedAt": "2026-07-05T02:00:03+08:00",
+    "updatedAt": "2026-07-09T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-09-01T00:00:00+08:00",
@@ -4904,7 +4978,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081888",
     "qualityScore": 10,
-    "updatedAt": "2026-07-05T02:00:03+08:00",
+    "updatedAt": "2026-07-09T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-08-21T00:00:00+08:00",
@@ -5106,7 +5180,7 @@
     "dataSource": "交通部觀光署活動資訊資料庫 V2.1",
     "sourceId": "Event_A15010000H_081873",
     "qualityScore": 10,
-    "updatedAt": "2026-07-05T02:00:03+08:00",
+    "updatedAt": "2026-07-09T02:00:04+08:00",
     "rainyDay": false,
     "placeType": "活動",
     "eventStart": "2026-10-17T00:00:00+08:00",
@@ -8442,7 +8516,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000035",
+    "id": "Restaurant_A15010200H_000034",
     "name": "六六八海鮮餐廳【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -8501,7 +8575,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000035",
+    "sourceId": "Restaurant_A15010200H_000034",
     "qualityScore": 9,
     "updatedAt": "2023-10-30T17:12:10+08:00",
     "rainyDay": true,
@@ -8518,7 +8592,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000145",
+    "id": "Restaurant_A15010200H_000144",
     "name": "天津（包料）蔥抓餅【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -8577,7 +8651,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000145",
+    "sourceId": "Restaurant_A15010200H_000144",
     "qualityScore": 9,
     "updatedAt": "2026-01-06T17:01:53+08:00",
     "rainyDay": true,
@@ -8666,7 +8740,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000023",
+    "id": "Restaurant_A15010200H_000022",
     "name": "可口冰城【西嶼鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -8725,7 +8799,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000023",
+    "sourceId": "Restaurant_A15010200H_000022",
     "qualityScore": 9,
     "updatedAt": "2025-02-10T11:48:36+08:00",
     "rainyDay": true,
@@ -8743,7 +8817,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000051",
+    "id": "Restaurant_A15010200H_000050",
     "name": "弗洛伊得 音樂‧廚房【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -8802,7 +8876,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000051",
+    "sourceId": "Restaurant_A15010200H_000050",
     "qualityScore": 9,
     "updatedAt": "2025-12-03T13:43:04+08:00",
     "rainyDay": true,
@@ -8820,7 +8894,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000029",
+    "id": "Restaurant_A15010200H_000028",
     "name": "印地安平價活海鮮【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -8879,7 +8953,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000029",
+    "sourceId": "Restaurant_A15010200H_000028",
     "qualityScore": 9,
     "updatedAt": "2026-05-08T17:23:24+08:00",
     "rainyDay": true,
@@ -8969,7 +9043,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000044",
+    "id": "Restaurant_A15010200H_000043",
     "name": "自強餐廳【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -9028,7 +9102,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000044",
+    "sourceId": "Restaurant_A15010200H_000043",
     "qualityScore": 9,
     "updatedAt": "2025-02-10T11:38:56+08:00",
     "rainyDay": true,
@@ -9333,7 +9407,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000021",
+    "id": "Restaurant_A15010200H_000020",
     "name": "易家仙人掌冰【白沙鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -9392,9 +9466,9 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000021",
+    "sourceId": "Restaurant_A15010200H_000020",
     "qualityScore": 9,
-    "updatedAt": "2023-10-30T17:17:34+08:00",
+    "updatedAt": "2026-07-08T10:37:42+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "familyEvidence": [],
@@ -9624,7 +9698,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000098",
+    "id": "Restaurant_A15010200H_000097",
     "name": "時咖啡 SHILICAFE【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -9683,9 +9757,9 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000098",
+    "sourceId": "Restaurant_A15010200H_000097",
     "qualityScore": 9,
-    "updatedAt": "2026-05-08T16:43:43+08:00",
+    "updatedAt": "2026-07-08T09:59:58+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "familyEvidence": [],
@@ -9986,7 +10060,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000033",
+    "id": "Restaurant_A15010200H_000032",
     "name": "朝昔廬客棧【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -10045,7 +10119,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000033",
+    "sourceId": "Restaurant_A15010200H_000032",
     "qualityScore": 9,
     "updatedAt": "2023-10-30T17:12:58+08:00",
     "rainyDay": true,
@@ -10063,7 +10137,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000116",
+    "id": "Restaurant_A15010200H_000115",
     "name": "瑪咖朵披薩 Mercato Pizza【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -10122,9 +10196,9 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000116",
+    "sourceId": "Restaurant_A15010200H_000115",
     "qualityScore": 9,
-    "updatedAt": "2026-06-09T09:51:57+08:00",
+    "updatedAt": "2026-07-08T09:50:14+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "familyEvidence": [],
@@ -10212,7 +10286,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000147",
+    "id": "Restaurant_A15010200H_000146",
     "name": "潮境 TideLand｜海鮮料理【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -10271,7 +10345,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000147",
+    "sourceId": "Restaurant_A15010200H_000146",
     "qualityScore": 9,
     "updatedAt": "2026-06-09T11:36:30+08:00",
     "rainyDay": true,
@@ -10289,7 +10363,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000104",
+    "id": "Restaurant_A15010200H_000103",
     "name": "緝馬灣花枝丸【西嶼鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -10348,7 +10422,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000104",
+    "sourceId": "Restaurant_A15010200H_000103",
     "qualityScore": 9,
     "updatedAt": "2023-10-30T16:26:45+08:00",
     "rainyDay": true,
@@ -10796,7 +10870,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000052",
+    "id": "Restaurant_A15010200H_000051",
     "name": "合苑小吃部【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -10850,7 +10924,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000052",
+    "sourceId": "Restaurant_A15010200H_000051",
     "qualityScore": 8,
     "updatedAt": "2023-10-30T17:05:49+08:00",
     "rainyDay": true,
@@ -10868,7 +10942,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000040",
+    "id": "Restaurant_A15010200H_000039",
     "name": "我家牛排館【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -10922,7 +10996,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000040",
+    "sourceId": "Restaurant_A15010200H_000039",
     "qualityScore": 8,
     "updatedAt": "2023-10-30T17:11:07+08:00",
     "rainyDay": true,
@@ -10941,7 +11015,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000050",
+    "id": "Restaurant_A15010200H_000049",
     "name": "來福海鮮餐廳【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -10995,7 +11069,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000050",
+    "sourceId": "Restaurant_A15010200H_000049",
     "qualityScore": 8,
     "updatedAt": "2023-10-30T17:07:57+08:00",
     "rainyDay": true,
@@ -11013,7 +11087,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000042",
+    "id": "Restaurant_A15010200H_000041",
     "name": "花菜干人文懷舊餐館【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -11067,7 +11141,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000042",
+    "sourceId": "Restaurant_A15010200H_000041",
     "qualityScore": 8,
     "updatedAt": "2023-10-30T17:10:23+08:00",
     "rainyDay": true,
@@ -11085,7 +11159,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000028",
+    "id": "Restaurant_A15010200H_000027",
     "name": "長進餐廳【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -11139,7 +11213,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000028",
+    "sourceId": "Restaurant_A15010200H_000027",
     "qualityScore": 8,
     "updatedAt": "2023-10-30T17:15:04+08:00",
     "rainyDay": true,
@@ -11157,7 +11231,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000014",
+    "id": "Restaurant_A15010200H_000013",
     "name": "阿東餐廳【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -11211,7 +11285,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000014",
+    "sourceId": "Restaurant_A15010200H_000013",
     "qualityScore": 8,
     "updatedAt": "2025-10-30T13:46:36+08:00",
     "rainyDay": true,
@@ -11229,7 +11303,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000025",
+    "id": "Restaurant_A15010200H_000024",
     "name": "阿虹仙人掌專賣店【西嶼鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -11283,7 +11357,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000025",
+    "sourceId": "Restaurant_A15010200H_000024",
     "qualityScore": 8,
     "updatedAt": "2023-10-30T17:16:33+08:00",
     "rainyDay": true,
@@ -11302,7 +11376,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000010",
+    "id": "Restaurant_A15010200H_000009",
     "name": "阿霜小吃部【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -11356,7 +11430,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000010",
+    "sourceId": "Restaurant_A15010200H_000009",
     "qualityScore": 8,
     "updatedAt": "2026-02-05T10:33:16+08:00",
     "rainyDay": true,
@@ -11448,7 +11522,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000015",
+    "id": "Restaurant_A15010200H_000014",
     "name": "香亭土魠魚羹【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -11502,7 +11576,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000015",
+    "sourceId": "Restaurant_A15010200H_000014",
     "qualityScore": 8,
     "updatedAt": "2023-10-30T17:22:01+08:00",
     "rainyDay": true,
@@ -11521,7 +11595,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000012",
+    "id": "Restaurant_A15010200H_000011",
     "name": "榕園小吃部【白沙鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -11575,9 +11649,9 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000012",
+    "sourceId": "Restaurant_A15010200H_000011",
     "qualityScore": 8,
-    "updatedAt": "2026-05-08T17:29:27+08:00",
+    "updatedAt": "2026-07-08T10:46:44+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "familyEvidence": [],
@@ -11594,7 +11668,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000038",
+    "id": "Restaurant_A15010200H_000037",
     "name": "龍星餐廳【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -11648,7 +11722,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000038",
+    "sourceId": "Restaurant_A15010200H_000037",
     "qualityScore": 8,
     "updatedAt": "2025-09-04T10:31:09+08:00",
     "rainyDay": true,
@@ -11666,7 +11740,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000019",
+    "id": "Restaurant_A15010200H_000018",
     "name": "韓湘館【白沙鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -11720,7 +11794,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000019",
+    "sourceId": "Restaurant_A15010200H_000018",
     "qualityScore": 8,
     "updatedAt": "2026-01-06T17:07:37+08:00",
     "rainyDay": true,
@@ -11739,7 +11813,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000140",
+    "id": "Restaurant_A15010200H_000139",
     "name": "鮮雅圖手抓海鮮【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -11793,7 +11867,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000140",
+    "sourceId": "Restaurant_A15010200H_000139",
     "qualityScore": 8,
     "updatedAt": "2026-02-05T09:11:22+08:00",
     "rainyDay": true,
@@ -11811,7 +11885,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000046",
+    "id": "Restaurant_A15010200H_000045",
     "name": "鐘記燒餅【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -11865,7 +11939,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000046",
+    "sourceId": "Restaurant_A15010200H_000045",
     "qualityScore": 8,
     "updatedAt": "2025-07-30T11:42:54+08:00",
     "rainyDay": true,
@@ -12100,7 +12174,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000065",
+    "id": "Restaurant_A15010200H_000064",
     "name": "小島家早午餐【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -12159,9 +12233,9 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000065",
+    "sourceId": "Restaurant_A15010200H_000064",
     "qualityScore": 7,
-    "updatedAt": "2025-12-03T13:31:19+08:00",
+    "updatedAt": "2026-07-08T10:18:52+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "familyEvidence": [],
@@ -12250,7 +12324,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000045",
+    "id": "Restaurant_A15010200H_000044",
     "name": "巴里園【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -12309,7 +12383,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000045",
+    "sourceId": "Restaurant_A15010200H_000044",
     "qualityScore": 7,
     "updatedAt": "2025-12-03T13:49:14+08:00",
     "rainyDay": true,
@@ -12398,7 +12472,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000020",
+    "id": "Restaurant_A15010200H_000019",
     "name": "自由冰品【白沙鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -12457,7 +12531,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000020",
+    "sourceId": "Restaurant_A15010200H_000019",
     "qualityScore": 7,
     "updatedAt": "2025-10-30T13:41:54+08:00",
     "rainyDay": true,
@@ -13202,7 +13276,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000144",
+    "id": "Restaurant_A15010200H_000143",
     "name": "海城 上湯鮮魚粥【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -13261,7 +13335,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000144",
+    "sourceId": "Restaurant_A15010200H_000143",
     "qualityScore": 7,
     "updatedAt": "2026-01-06T17:00:50+08:00",
     "rainyDay": true,
@@ -13279,7 +13353,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000142",
+    "id": "Restaurant_A15010200H_000141",
     "name": "海苑 活造鍋物【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -13338,7 +13412,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000142",
+    "sourceId": "Restaurant_A15010200H_000141",
     "qualityScore": 7,
     "updatedAt": "2026-01-06T16:58:20+08:00",
     "rainyDay": true,
@@ -13718,7 +13792,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000121",
+    "id": "Restaurant_A15010200H_000120",
     "name": "菜宅裡的小酒館 The Garden Tapas & Bar【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -13777,9 +13851,9 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000121",
+    "sourceId": "Restaurant_A15010200H_000120",
     "qualityScore": 7,
-    "updatedAt": "2026-03-09T09:36:49+08:00",
+    "updatedAt": "2026-07-08T09:39:26+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "familyEvidence": [],
@@ -14015,7 +14089,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000134",
+    "id": "Restaurant_A15010200H_000133",
     "name": "福牡蠣屋【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -14074,7 +14148,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000134",
+    "sourceId": "Restaurant_A15010200H_000133",
     "qualityScore": 7,
     "updatedAt": "2024-02-15T18:06:45+08:00",
     "rainyDay": true,
@@ -14239,7 +14313,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000136",
+    "id": "Restaurant_A15010200H_000135",
     "name": "劉正港檸檬汁中華店",
     "region": "離島",
     "city": "澎湖縣",
@@ -14298,7 +14372,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000136",
+    "sourceId": "Restaurant_A15010200H_000135",
     "qualityScore": 7,
     "updatedAt": "2026-02-05T09:15:28+08:00",
     "rainyDay": true,
@@ -14316,7 +14390,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000089",
+    "id": "Restaurant_A15010200H_000088",
     "name": "澎湖樂晨早午餐【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -14375,7 +14449,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000089",
+    "sourceId": "Restaurant_A15010200H_000088",
     "qualityScore": 7,
     "updatedAt": "2025-10-30T11:35:08+08:00",
     "rainyDay": true,
@@ -14394,7 +14468,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000132",
+    "id": "Restaurant_A15010200H_000131",
     "name": "蔬脆蛋餅 【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -14453,7 +14527,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000132",
+    "sourceId": "Restaurant_A15010200H_000131",
     "qualityScore": 7,
     "updatedAt": "2024-02-15T18:10:08+08:00",
     "rainyDay": true,
@@ -14544,7 +14618,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000137",
+    "id": "Restaurant_A15010200H_000136",
     "name": "藍媽媽仙草【中央店】",
     "region": "離島",
     "city": "澎湖縣",
@@ -14603,7 +14677,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000137",
+    "sourceId": "Restaurant_A15010200H_000136",
     "qualityScore": 7,
     "updatedAt": "2025-07-30T15:43:55+08:00",
     "rainyDay": true,
@@ -14622,7 +14696,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000138",
+    "id": "Restaurant_A15010200H_000137",
     "name": "雛菊見DAISY HOUSE-澎湖店【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -14681,7 +14755,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000138",
+    "sourceId": "Restaurant_A15010200H_000137",
     "qualityScore": 7,
     "updatedAt": "2026-03-31T16:55:01+08:00",
     "rainyDay": true,
@@ -14773,7 +14847,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000105",
+    "id": "Restaurant_A15010200H_000104",
     "name": "Ken's廚房【西嶼鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -14832,7 +14906,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000105",
+    "sourceId": "Restaurant_A15010200H_000104",
     "qualityScore": 7,
     "updatedAt": "2024-07-19T14:26:33+08:00",
     "rainyDay": true,
@@ -15494,7 +15568,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000036",
+    "id": "Restaurant_A15010200H_000035",
     "name": "好朋友素食屋【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -15548,9 +15622,9 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000036",
+    "sourceId": "Restaurant_A15010200H_000035",
     "qualityScore": 6,
-    "updatedAt": "2024-05-31T16:04:11+08:00",
+    "updatedAt": "2026-07-08T10:30:17+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "familyEvidence": [],
@@ -15568,7 +15642,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000027",
+    "id": "Restaurant_A15010200H_000026",
     "name": "京典粵菜海鮮館【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -15622,9 +15696,9 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000027",
+    "sourceId": "Restaurant_A15010200H_000026",
     "qualityScore": 6,
-    "updatedAt": "2025-12-03T14:03:37+08:00",
+    "updatedAt": "2026-07-08T10:34:38+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "familyEvidence": [],
@@ -15715,7 +15789,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000013",
+    "id": "Restaurant_A15010200H_000012",
     "name": "桃太郎日本料理【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -15769,7 +15843,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000013",
+    "sourceId": "Restaurant_A15010200H_000012",
     "qualityScore": 6,
     "updatedAt": "2025-02-10T11:52:30+08:00",
     "rainyDay": true,
@@ -15919,7 +15993,7 @@
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
     "sourceId": "Restaurant_A15010200H_000001",
     "qualityScore": 6,
-    "updatedAt": "2025-07-30T14:02:53+08:00",
+    "updatedAt": "2026-07-08T10:53:16+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "familyEvidence": [],
@@ -15936,7 +16010,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000039",
+    "id": "Restaurant_A15010200H_000038",
     "name": "港口土魠魚羹【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -15990,7 +16064,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000039",
+    "sourceId": "Restaurant_A15010200H_000038",
     "qualityScore": 6,
     "updatedAt": "2023-10-30T17:11:19+08:00",
     "rainyDay": true,
@@ -16009,7 +16083,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000135",
+    "id": "Restaurant_A15010200H_000134",
     "name": "詠華香炸物販賣所",
     "region": "離島",
     "city": "澎湖縣",
@@ -16063,7 +16137,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000135",
+    "sourceId": "Restaurant_A15010200H_000134",
     "qualityScore": 6,
     "updatedAt": "2026-03-09T09:21:19+08:00",
     "rainyDay": true,
@@ -16083,7 +16157,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000026",
+    "id": "Restaurant_A15010200H_000025",
     "name": "蒙地卡羅咖啡館【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -16137,7 +16211,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000026",
+    "sourceId": "Restaurant_A15010200H_000025",
     "qualityScore": 6,
     "updatedAt": "2025-07-30T12:07:43+08:00",
     "rainyDay": true,
@@ -16156,7 +16230,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000016",
+    "id": "Restaurant_A15010200H_000015",
     "name": "機場老牌牛肉麵【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -16210,7 +16284,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000016",
+    "sourceId": "Restaurant_A15010200H_000015",
     "qualityScore": 6,
     "updatedAt": "2025-07-30T13:39:13+08:00",
     "rainyDay": true,
@@ -17320,7 +17394,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000075",
+    "id": "Restaurant_A15010200H_000074",
     "name": "1818·餐酒館‧Bistro【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -17379,7 +17453,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000075",
+    "sourceId": "Restaurant_A15010200H_000074",
     "qualityScore": 4,
     "updatedAt": "2025-10-08T14:23:54+08:00",
     "rainyDay": true,
@@ -17398,7 +17472,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000095",
+    "id": "Restaurant_A15010200H_000094",
     "name": "369漁樂世界 碳烤熱炒美食【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -17457,7 +17531,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000095",
+    "sourceId": "Restaurant_A15010200H_000094",
     "qualityScore": 4,
     "updatedAt": "2025-07-30T10:29:18+08:00",
     "rainyDay": true,
@@ -17548,7 +17622,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000103",
+    "id": "Restaurant_A15010200H_000102",
     "name": "二崁杏仁茶【西嶼鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -17607,7 +17681,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000103",
+    "sourceId": "Restaurant_A15010200H_000102",
     "qualityScore": 4,
     "updatedAt": "2026-05-08T16:41:03+08:00",
     "rainyDay": true,
@@ -17626,7 +17700,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000113",
+    "id": "Restaurant_A15010200H_000112",
     "name": "二馬豆花【西嶼鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -17685,7 +17759,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000113",
+    "sourceId": "Restaurant_A15010200H_000112",
     "qualityScore": 4,
     "updatedAt": "2023-10-30T16:17:48+08:00",
     "rainyDay": true,
@@ -17704,7 +17778,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000106",
+    "id": "Restaurant_A15010200H_000105",
     "name": "三山商號功夫刈包【西嶼鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -17773,7 +17847,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000106",
+    "sourceId": "Restaurant_A15010200H_000105",
     "qualityScore": 4,
     "updatedAt": "2025-07-30T10:21:21+08:00",
     "rainyDay": true,
@@ -17800,7 +17874,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000129",
+    "id": "Restaurant_A15010200H_000128",
     "name": "大池炸粿&鯊魚排【西嶼鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -17859,7 +17933,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000129",
+    "sourceId": "Restaurant_A15010200H_000128",
     "qualityScore": 4,
     "updatedAt": "2026-03-31T17:03:15+08:00",
     "rainyDay": true,
@@ -17878,7 +17952,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000097",
+    "id": "Restaurant_A15010200H_000096",
     "name": "山水牛肉麵【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -17937,7 +18011,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000097",
+    "sourceId": "Restaurant_A15010200H_000096",
     "qualityScore": 4,
     "updatedAt": "2024-05-31T15:38:04+08:00",
     "rainyDay": true,
@@ -18029,7 +18103,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000127",
+    "id": "Restaurant_A15010200H_000126",
     "name": "仁品【白沙鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -18088,7 +18162,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000127",
+    "sourceId": "Restaurant_A15010200H_000126",
     "qualityScore": 4,
     "updatedAt": "2025-07-30T09:52:53+08:00",
     "rainyDay": true,
@@ -18107,7 +18181,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000091",
+    "id": "Restaurant_A15010200H_000090",
     "name": "六六早餐店【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -18166,7 +18240,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000091",
+    "sourceId": "Restaurant_A15010200H_000090",
     "qualityScore": 4,
     "updatedAt": "2025-07-30T10:33:17+08:00",
     "rainyDay": true,
@@ -18185,7 +18259,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000149",
+    "id": "Restaurant_A15010200H_000148",
     "name": "友先燒烤店 (有先燒烤)【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -18244,9 +18318,9 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000149",
+    "sourceId": "Restaurant_A15010200H_000148",
     "qualityScore": 4,
-    "updatedAt": "2026-05-08T17:37:41+08:00",
+    "updatedAt": "2026-07-08T10:57:13+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "familyEvidence": [],
@@ -18408,7 +18482,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000139",
+    "id": "Restaurant_A15010200H_000138",
     "name": "文康滷菜【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -18467,7 +18541,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000139",
+    "sourceId": "Restaurant_A15010200H_000138",
     "qualityScore": 4,
     "updatedAt": "2026-06-09T09:34:06+08:00",
     "rainyDay": true,
@@ -18632,7 +18706,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000107",
+    "id": "Restaurant_A15010200H_000106",
     "name": "外垵刈包 福氣早餐店【西嶼鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -18701,9 +18775,9 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000107",
+    "sourceId": "Restaurant_A15010200H_000106",
     "qualityScore": 4,
-    "updatedAt": "2025-12-26T16:36:45+08:00",
+    "updatedAt": "2026-07-08T09:55:29+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "familyEvidence": [
@@ -18728,7 +18802,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000067",
+    "id": "Restaurant_A15010200H_000066",
     "name": "外婆麵猴【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -18787,9 +18861,9 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000067",
+    "sourceId": "Restaurant_A15010200H_000066",
     "qualityScore": 4,
-    "updatedAt": "2026-06-09T10:28:50+08:00",
+    "updatedAt": "2026-07-08T10:17:22+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "familyEvidence": [],
@@ -18806,7 +18880,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000099",
+    "id": "Restaurant_A15010200H_000098",
     "name": "永明蚵堡【白沙鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -18865,7 +18939,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000099",
+    "sourceId": "Restaurant_A15010200H_000098",
     "qualityScore": 4,
     "updatedAt": "2023-10-30T16:28:10+08:00",
     "rainyDay": true,
@@ -18884,7 +18958,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000066",
+    "id": "Restaurant_A15010200H_000065",
     "name": "吉福小籠湯包【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -18943,7 +19017,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000066",
+    "sourceId": "Restaurant_A15010200H_000065",
     "qualityScore": 4,
     "updatedAt": "2023-10-30T16:51:39+08:00",
     "rainyDay": true,
@@ -18962,7 +19036,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000128",
+    "id": "Restaurant_A15010200H_000127",
     "name": "回家澎湖炸物烤物 【白沙鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -19021,7 +19095,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000128",
+    "sourceId": "Restaurant_A15010200H_000127",
     "qualityScore": 4,
     "updatedAt": "2026-05-08T16:27:03+08:00",
     "rainyDay": true,
@@ -19404,7 +19478,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000053",
+    "id": "Restaurant_A15010200H_000052",
     "name": "找食間【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -19463,7 +19537,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000053",
+    "sourceId": "Restaurant_A15010200H_000052",
     "qualityScore": 4,
     "updatedAt": "2023-10-30T17:05:23+08:00",
     "rainyDay": true,
@@ -19591,7 +19665,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000071",
+    "id": "Restaurant_A15010200H_000070",
     "name": "赤崁炸粿【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -19650,7 +19724,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000071",
+    "sourceId": "Restaurant_A15010200H_000070",
     "qualityScore": 4,
     "updatedAt": "2025-02-10T11:22:05+08:00",
     "rainyDay": true,
@@ -19669,7 +19743,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000058",
+    "id": "Restaurant_A15010200H_000057",
     "name": "車庫麵線【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -19728,7 +19802,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000058",
+    "sourceId": "Restaurant_A15010200H_000057",
     "qualityScore": 4,
     "updatedAt": "2023-11-16T15:06:12+08:00",
     "rainyDay": true,
@@ -19747,7 +19821,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000084",
+    "id": "Restaurant_A15010200H_000083",
     "name": "那朵古早味手工蛋餅早餐車【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -19806,7 +19880,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000084",
+    "sourceId": "Restaurant_A15010200H_000083",
     "qualityScore": 4,
     "updatedAt": "2025-09-04T09:55:56+08:00",
     "rainyDay": true,
@@ -19824,7 +19898,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000056",
+    "id": "Restaurant_A15010200H_000055",
     "name": "享吃飯糰【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -19883,9 +19957,9 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000056",
+    "sourceId": "Restaurant_A15010200H_000055",
     "qualityScore": 4,
-    "updatedAt": "2026-06-16T11:06:07+08:00",
+    "updatedAt": "2026-07-08T10:22:17+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "familyEvidence": [],
@@ -19975,7 +20049,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000110",
+    "id": "Restaurant_A15010200H_000109",
     "name": "兩個番茄農場【湖西鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -20034,7 +20108,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000110",
+    "sourceId": "Restaurant_A15010200H_000109",
     "qualityScore": 4,
     "updatedAt": "2025-07-30T10:15:48+08:00",
     "rainyDay": true,
@@ -20053,7 +20127,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000057",
+    "id": "Restaurant_A15010200H_000056",
     "name": "味良し壽司【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -20112,7 +20186,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000057",
+    "sourceId": "Restaurant_A15010200H_000056",
     "qualityScore": 4,
     "updatedAt": "2025-07-30T11:25:43+08:00",
     "rainyDay": true,
@@ -20277,7 +20351,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000102",
+    "id": "Restaurant_A15010200H_000101",
     "name": "牧羊人咖啡館【西嶼鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -20336,7 +20410,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000102",
+    "sourceId": "Restaurant_A15010200H_000101",
     "qualityScore": 4,
     "updatedAt": "2025-02-10T10:59:00+08:00",
     "rainyDay": true,
@@ -20719,7 +20793,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000100",
+    "id": "Restaurant_A15010200H_000099",
     "name": "阿姨仙人掌冰【白沙鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -20778,9 +20852,9 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000100",
+    "sourceId": "Restaurant_A15010200H_000099",
     "qualityScore": 4,
-    "updatedAt": "2023-10-30T16:27:44+08:00",
+    "updatedAt": "2026-07-08T09:58:27+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "familyEvidence": [],
@@ -20797,7 +20871,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000115",
+    "id": "Restaurant_A15010200H_000114",
     "name": "阿虹的店【西嶼鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -20856,7 +20930,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000115",
+    "sourceId": "Restaurant_A15010200H_000114",
     "qualityScore": 4,
     "updatedAt": "2025-02-10T10:20:46+08:00",
     "rainyDay": true,
@@ -20875,7 +20949,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000125",
+    "id": "Restaurant_A15010200H_000124",
     "name": "阿挺海鮮【西嶼鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -20934,7 +21008,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000125",
+    "sourceId": "Restaurant_A15010200H_000124",
     "qualityScore": 4,
     "updatedAt": "2023-10-30T16:12:40+08:00",
     "rainyDay": true,
@@ -21026,7 +21100,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000083",
+    "id": "Restaurant_A15010200H_000082",
     "name": "阿婆鹹粥【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -21085,7 +21159,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000083",
+    "sourceId": "Restaurant_A15010200H_000082",
     "qualityScore": 4,
     "updatedAt": "2025-07-30T10:47:59+08:00",
     "rainyDay": true,
@@ -21176,7 +21250,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000080",
+    "id": "Restaurant_A15010200H_000079",
     "name": "南海碼頭自助碳烤【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -21235,7 +21309,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000080",
+    "sourceId": "Restaurant_A15010200H_000079",
     "qualityScore": 4,
     "updatedAt": "2025-07-30T10:52:32+08:00",
     "rainyDay": true,
@@ -21254,7 +21328,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000108",
+    "id": "Restaurant_A15010200H_000107",
     "name": "南寮風車有機農場休息站【湖西鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -21313,7 +21387,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000108",
+    "sourceId": "Restaurant_A15010200H_000107",
     "qualityScore": 4,
     "updatedAt": "2025-10-08T13:59:16+08:00",
     "rainyDay": true,
@@ -21477,7 +21551,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000041",
+    "id": "Restaurant_A15010200H_000040",
     "name": "紅瓦小棧餐廳【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -21536,7 +21610,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000041",
+    "sourceId": "Restaurant_A15010200H_000040",
     "qualityScore": 4,
     "updatedAt": "2023-10-30T17:10:46+08:00",
     "rainyDay": true,
@@ -21700,7 +21774,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000114",
+    "id": "Restaurant_A15010200H_000113",
     "name": "原味漁村小吃 【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -21759,7 +21833,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000114",
+    "sourceId": "Restaurant_A15010200H_000113",
     "qualityScore": 4,
     "updatedAt": "2026-05-08T16:32:25+08:00",
     "rainyDay": true,
@@ -21778,7 +21852,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000072",
+    "id": "Restaurant_A15010200H_000071",
     "name": "哪兒呀【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -21837,7 +21911,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000072",
+    "sourceId": "Restaurant_A15010200H_000071",
     "qualityScore": 4,
     "updatedAt": "2023-11-16T12:01:02+08:00",
     "rainyDay": true,
@@ -21856,7 +21930,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000112",
+    "id": "Restaurant_A15010200H_000111",
     "name": "夏至23.5攝影文創咖啡【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -21915,7 +21989,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000112",
+    "sourceId": "Restaurant_A15010200H_000111",
     "qualityScore": 4,
     "updatedAt": "2026-03-09T09:43:45+08:00",
     "rainyDay": true,
@@ -21933,7 +22007,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000060",
+    "id": "Restaurant_A15010200H_000059",
     "name": "浪花串燒【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -21992,7 +22066,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000060",
+    "sourceId": "Restaurant_A15010200H_000059",
     "qualityScore": 4,
     "updatedAt": "2025-07-30T11:23:37+08:00",
     "rainyDay": true,
@@ -22084,7 +22158,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000068",
+    "id": "Restaurant_A15010200H_000067",
     "name": "海沙屋冷飲專賣店【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -22143,7 +22217,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000068",
+    "sourceId": "Restaurant_A15010200H_000067",
     "qualityScore": 4,
     "updatedAt": "2025-12-03T13:27:15+08:00",
     "rainyDay": true,
@@ -22235,7 +22309,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000090",
+    "id": "Restaurant_A15010200H_000089",
     "name": "海島咖啡館【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -22294,7 +22368,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000090",
+    "sourceId": "Restaurant_A15010200H_000089",
     "qualityScore": 4,
     "updatedAt": "2025-07-30T10:34:58+08:00",
     "rainyDay": true,
@@ -22747,7 +22821,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000073",
+    "id": "Restaurant_A15010200H_000072",
     "name": "望安CAFÉ【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -22806,7 +22880,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000073",
+    "sourceId": "Restaurant_A15010200H_000072",
     "qualityScore": 4,
     "updatedAt": "2026-06-09T10:19:29+08:00",
     "rainyDay": true,
@@ -22969,7 +23043,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000120",
+    "id": "Restaurant_A15010200H_000119",
     "name": "盛記東山鴨頭【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -23028,7 +23102,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000120",
+    "sourceId": "Restaurant_A15010200H_000119",
     "qualityScore": 4,
     "updatedAt": "2025-07-30T10:01:49+08:00",
     "rainyDay": true,
@@ -23339,7 +23413,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000146",
+    "id": "Restaurant_A15010200H_000145",
     "name": "魚之屋 無菜單海鮮料理【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -23398,7 +23472,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000146",
+    "sourceId": "Restaurant_A15010200H_000145",
     "qualityScore": 4,
     "updatedAt": "2025-12-03T14:29:57+08:00",
     "rainyDay": true,
@@ -23562,7 +23636,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000133",
+    "id": "Restaurant_A15010200H_000132",
     "name": "魚好刺身專門店【西嶼鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -23621,7 +23695,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000133",
+    "sourceId": "Restaurant_A15010200H_000132",
     "qualityScore": 4,
     "updatedAt": "2026-03-09T09:23:50+08:00",
     "rainyDay": true,
@@ -23787,7 +23861,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000078",
+    "id": "Restaurant_A15010200H_000077",
     "name": "湖光食客義式餐廳【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -23846,7 +23920,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000078",
+    "sourceId": "Restaurant_A15010200H_000077",
     "qualityScore": 4,
     "updatedAt": "2026-05-08T17:01:29+08:00",
     "rainyDay": true,
@@ -23864,7 +23938,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000123",
+    "id": "Restaurant_A15010200H_000122",
     "name": "紫玉仙草 【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -23923,7 +23997,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000123",
+    "sourceId": "Restaurant_A15010200H_000122",
     "qualityScore": 4,
     "updatedAt": "2025-07-30T16:03:54+08:00",
     "rainyDay": true,
@@ -23942,7 +24016,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000119",
+    "id": "Restaurant_A15010200H_000118",
     "name": "舒心食光【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -24001,9 +24075,9 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000119",
+    "sourceId": "Restaurant_A15010200H_000118",
     "qualityScore": 4,
-    "updatedAt": "2025-07-30T10:03:29+08:00",
+    "updatedAt": "2026-07-08T09:40:48+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "familyEvidence": [],
@@ -24312,7 +24386,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000088",
+    "id": "Restaurant_A15010200H_000087",
     "name": "新巴適經典麻辣鍋-澎湖吃到飽【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -24371,7 +24445,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000088",
+    "sourceId": "Restaurant_A15010200H_000087",
     "qualityScore": 4,
     "updatedAt": "2026-05-08T16:49:10+08:00",
     "rainyDay": true,
@@ -24680,7 +24754,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000093",
+    "id": "Restaurant_A15010200H_000092",
     "name": "鼎灣米糕總店【湖西鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -24739,7 +24813,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000093",
+    "sourceId": "Restaurant_A15010200H_000092",
     "qualityScore": 4,
     "updatedAt": "2023-10-30T16:30:17+08:00",
     "rainyDay": true,
@@ -24757,7 +24831,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000131",
+    "id": "Restaurant_A15010200H_000130",
     "name": "福台排骨麵 【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -24816,7 +24890,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000131",
+    "sourceId": "Restaurant_A15010200H_000130",
     "qualityScore": 4,
     "updatedAt": "2026-03-31T16:59:41+08:00",
     "rainyDay": true,
@@ -24908,7 +24982,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000077",
+    "id": "Restaurant_A15010200H_000076",
     "name": "澎島之星BBQ【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -24967,7 +25041,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000077",
+    "sourceId": "Restaurant_A15010200H_000076",
     "qualityScore": 4,
     "updatedAt": "2026-05-08T17:02:00+08:00",
     "rainyDay": true,
@@ -24986,7 +25060,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000069",
+    "id": "Restaurant_A15010200H_000068",
     "name": "澎湖三哥酒釀雞排【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -25045,7 +25119,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000069",
+    "sourceId": "Restaurant_A15010200H_000068",
     "qualityScore": 4,
     "updatedAt": "2025-02-10T11:23:16+08:00",
     "rainyDay": true,
@@ -25064,7 +25138,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000124",
+    "id": "Restaurant_A15010200H_000123",
     "name": "澎湖仙人掌冰城 【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -25123,7 +25197,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000124",
+    "sourceId": "Restaurant_A15010200H_000123",
     "qualityScore": 4,
     "updatedAt": "2025-12-03T11:13:53+08:00",
     "rainyDay": true,
@@ -25142,7 +25216,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000070",
+    "id": "Restaurant_A15010200H_000069",
     "name": "澎湖楊媽媽韭菜盒【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -25201,7 +25275,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000070",
+    "sourceId": "Restaurant_A15010200H_000069",
     "qualityScore": 4,
     "updatedAt": "2026-03-31T17:43:38+08:00",
     "rainyDay": true,
@@ -25220,7 +25294,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000130",
+    "id": "Restaurant_A15010200H_000129",
     "name": "澎湖漁港麵店（漁港麵） 【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -25279,7 +25353,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000130",
+    "sourceId": "Restaurant_A15010200H_000129",
     "qualityScore": 4,
     "updatedAt": "2025-07-30T16:01:07+08:00",
     "rainyDay": true,
@@ -25298,7 +25372,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000109",
+    "id": "Restaurant_A15010200H_000108",
     "name": "澎福古棗味【湖西鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -25357,7 +25431,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000109",
+    "sourceId": "Restaurant_A15010200H_000108",
     "qualityScore": 4,
     "updatedAt": "2025-09-04T09:29:49+08:00",
     "rainyDay": true,
@@ -25449,7 +25523,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000086",
+    "id": "Restaurant_A15010200H_000085",
     "name": "蔡記饌蔬食坊【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -25508,7 +25582,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000086",
+    "sourceId": "Restaurant_A15010200H_000085",
     "qualityScore": 4,
     "updatedAt": "2024-05-31T15:54:59+08:00",
     "rainyDay": true,
@@ -25744,7 +25818,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000092",
+    "id": "Restaurant_A15010200H_000091",
     "name": "嚎鯎海味館【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -25803,9 +25877,9 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000092",
+    "sourceId": "Restaurant_A15010200H_000091",
     "qualityScore": 4,
-    "updatedAt": "2025-02-10T11:04:08+08:00",
+    "updatedAt": "2026-07-08T10:03:13+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "familyEvidence": [],
@@ -25895,7 +25969,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000064",
+    "id": "Restaurant_A15010200H_000063",
     "name": "臨海樓海鮮料理【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -25954,7 +26028,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000064",
+    "sourceId": "Restaurant_A15010200H_000063",
     "qualityScore": 4,
     "updatedAt": "2025-02-10T11:29:01+08:00",
     "rainyDay": true,
@@ -25973,7 +26047,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000082",
+    "id": "Restaurant_A15010200H_000081",
     "name": "鍋道樂和風鍋物料理【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -26032,7 +26106,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000082",
+    "sourceId": "Restaurant_A15010200H_000081",
     "qualityScore": 4,
     "updatedAt": "2023-10-30T16:44:21+08:00",
     "rainyDay": true,
@@ -26269,7 +26343,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000063",
+    "id": "Restaurant_A15010200H_000062",
     "name": "檸檬香茅火鍋【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -26328,7 +26402,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000063",
+    "sourceId": "Restaurant_A15010200H_000062",
     "qualityScore": 4,
     "updatedAt": "2023-10-30T16:55:51+08:00",
     "rainyDay": true,
@@ -26347,7 +26421,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000055",
+    "id": "Restaurant_A15010200H_000054",
     "name": "藍21咖啡輕食【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -26406,7 +26480,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000055",
+    "sourceId": "Restaurant_A15010200H_000054",
     "qualityScore": 4,
     "updatedAt": "2026-05-08T17:12:04+08:00",
     "rainyDay": true,
@@ -26424,7 +26498,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000122",
+    "id": "Restaurant_A15010200H_000121",
     "name": "藍洞Apatite【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -26483,7 +26557,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000122",
+    "sourceId": "Restaurant_A15010200H_000121",
     "qualityScore": 4,
     "updatedAt": "2023-11-16T09:25:43+08:00",
     "rainyDay": true,
@@ -26501,7 +26575,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000085",
+    "id": "Restaurant_A15010200H_000084",
     "name": "藍媽媽仙草店【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -26560,7 +26634,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000085",
+    "sourceId": "Restaurant_A15010200H_000084",
     "qualityScore": 4,
     "updatedAt": "2023-11-16T10:49:20+08:00",
     "rainyDay": true,
@@ -27016,7 +27090,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000074",
+    "id": "Restaurant_A15010200H_000073",
     "name": "轟餅-黑仔旺旺車輪餅【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -27075,7 +27149,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000074",
+    "sourceId": "Restaurant_A15010200H_000073",
     "qualityScore": 4,
     "updatedAt": "2023-10-30T16:46:45+08:00",
     "rainyDay": true,
@@ -27258,7 +27332,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000087",
+    "id": "Restaurant_A15010200H_000086",
     "name": "Addict Restaurant 癮餐廳【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -27317,9 +27391,9 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000087",
+    "sourceId": "Restaurant_A15010200H_000086",
     "qualityScore": 4,
-    "updatedAt": "2026-05-08T16:49:54+08:00",
+    "updatedAt": "2026-07-08T10:05:47+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "familyEvidence": [],
@@ -27408,7 +27482,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000148",
+    "id": "Restaurant_A15010200H_000147",
     "name": "Bunny Café【白沙鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -27467,7 +27541,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000148",
+    "sourceId": "Restaurant_A15010200H_000147",
     "qualityScore": 4,
     "updatedAt": "2026-05-08T17:36:23+08:00",
     "rainyDay": true,
@@ -27485,7 +27559,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000061",
+    "id": "Restaurant_A15010200H_000060",
     "name": "butterfly Cafe'【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -27544,7 +27618,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000061",
+    "sourceId": "Restaurant_A15010200H_000060",
     "qualityScore": 4,
     "updatedAt": "2025-02-10T11:30:17+08:00",
     "rainyDay": true,
@@ -27562,7 +27636,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000111",
+    "id": "Restaurant_A15010200H_000110",
     "name": "Cimei越南大骨湯麵【七美鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -27621,7 +27695,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000111",
+    "sourceId": "Restaurant_A15010200H_000110",
     "qualityScore": 4,
     "updatedAt": "2025-02-10T10:25:50+08:00",
     "rainyDay": true,
@@ -27640,7 +27714,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000062",
+    "id": "Restaurant_A15010200H_000061",
     "name": "Cocktailbar.bella【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -27699,7 +27773,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000062",
+    "sourceId": "Restaurant_A15010200H_000061",
     "qualityScore": 4,
     "updatedAt": "2025-10-30T11:56:50+08:00",
     "rainyDay": true,
@@ -27718,7 +27792,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000059",
+    "id": "Restaurant_A15010200H_000058",
     "name": "G.S Cafe'菊色咖啡【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -27777,7 +27851,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000059",
+    "sourceId": "Restaurant_A15010200H_000058",
     "qualityScore": 4,
     "updatedAt": "2025-02-10T11:31:20+08:00",
     "rainyDay": true,
@@ -27795,7 +27869,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000076",
+    "id": "Restaurant_A15010200H_000075",
     "name": "KRUMP野礦酒吧【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -27854,7 +27928,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000076",
+    "sourceId": "Restaurant_A15010200H_000075",
     "qualityScore": 4,
     "updatedAt": "2023-10-30T16:46:07+08:00",
     "rainyDay": true,
@@ -27873,7 +27947,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000054",
+    "id": "Restaurant_A15010200H_000053",
     "name": "Lun pastry - 倫宅烘焙坊【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -27932,7 +28006,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000054",
+    "sourceId": "Restaurant_A15010200H_000053",
     "qualityScore": 4,
     "updatedAt": "2023-10-30T17:04:50+08:00",
     "rainyDay": true,
@@ -28199,80 +28273,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000009",
-    "name": "七美金城餐廳【七美鄉】",
-    "region": "離島",
-    "city": "澎湖縣",
-    "district": "七美鄉",
-    "ageMin": 3,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "澎湖縣七美鄉南港村14號",
-    "hours": "請至官方網站確認",
-    "lat": 23.1969759101,
-    "lng": 119.4217782241,
-    "image": "https://www.penghu-nsa.gov.tw/FileDownload/TravelInformation/NotSet/20140904171326430.JPG",
-    "imageCandidates": [],
-    "accent": "#d88962",
-    "description": "金城餐廳的特色在於食材新鮮，大多使用當日海鮮魚貨料理。金城餐廳的特色在於食材新鮮，大多使用當日海鮮魚貨料理。",
-    "highlights": [
-      "咖啡甜點",
-      "爸媽充電",
-      "雨天備案"
-    ],
-    "facilities": [
-      "餐飲"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "官方資料尚未提供停車資訊。",
-      "evidence": []
-    },
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%83%E7%BE%8E%E9%87%91%E5%9F%8E%E9%A4%90%E5%BB%B3%E3%80%90%E4%B8%83%E7%BE%8E%E9%84%89%E3%80%91%20%E6%BE%8E%E6%B9%96%E7%B8%A3%E4%B8%83%E7%BE%8E%E9%84%89%E5%8D%97%E6%B8%AF%E6%9D%9114%E8%99%9F",
-    "sources": [
-      {
-        "type": "Instagram",
-        "label": "查看 #七美金城餐廳七美鄉",
-        "url": "https://www.instagram.com/explore/tags/%E4%B8%83%E7%BE%8E%E9%87%91%E5%9F%8E%E9%A4%90%E5%BB%B3%E4%B8%83%E7%BE%8E%E9%84%89/"
-      },
-      {
-        "type": "部落格",
-        "label": "搜尋親子遊記",
-        "url": "https://www.google.com/search?q=%E4%B8%83%E7%BE%8E%E9%87%91%E5%9F%8E%E9%A4%90%E5%BB%B3%E3%80%90%E4%B8%83%E7%BE%8E%E9%84%89%E3%80%91%20%E8%A6%AA%E5%AD%90%20%E9%83%A8%E8%90%BD%E6%A0%BC"
-      }
-    ],
-    "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000009",
-    "qualityScore": 3,
-    "updatedAt": "2025-10-30T14:03:58+08:00",
-    "rainyDay": true,
-    "placeType": "餐飲",
-    "familyEvidence": [],
-    "restaurantTier": "cafe_rainy_backup",
-    "qualityScoreV2": 49,
-    "completeness": {
-      "score": 33,
-      "missing": [
-        "官方網站",
-        "明確開放時間",
-        "票價資訊",
-        "詳細介紹"
-      ]
-    }
-  },
-  {
-    "id": "Restaurant_A15010200H_000094",
+    "id": "Restaurant_A15010200H_000093",
     "name": "大城北牛肉麵【湖西鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -28326,7 +28327,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000094",
+    "sourceId": "Restaurant_A15010200H_000093",
     "qualityScore": 3,
     "updatedAt": "2023-10-30T16:29:47+08:00",
     "rainyDay": true,
@@ -28346,7 +28347,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000034",
+    "id": "Restaurant_A15010200H_000033",
     "name": "小紅莓小吃部【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -28400,7 +28401,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000034",
+    "sourceId": "Restaurant_A15010200H_000033",
     "qualityScore": 3,
     "updatedAt": "2025-07-30T11:53:58+08:00",
     "rainyDay": true,
@@ -28419,7 +28420,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000048",
+    "id": "Restaurant_A15010200H_000047",
     "name": "日新餐廳【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -28473,7 +28474,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000048",
+    "sourceId": "Restaurant_A15010200H_000047",
     "qualityScore": 3,
     "updatedAt": "2025-07-30T11:39:08+08:00",
     "rainyDay": true,
@@ -28566,7 +28567,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000117",
+    "id": "Restaurant_A15010200H_000116",
     "name": "老李胡椒餅【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -28620,7 +28621,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000117",
+    "sourceId": "Restaurant_A15010200H_000116",
     "qualityScore": 3,
     "updatedAt": "2023-10-30T16:16:54+08:00",
     "rainyDay": true,
@@ -28640,7 +28641,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000031",
+    "id": "Restaurant_A15010200H_000030",
     "name": "老街香味麵館【白沙鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -28694,7 +28695,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000031",
+    "sourceId": "Restaurant_A15010200H_000030",
     "qualityScore": 3,
     "updatedAt": "2023-10-30T17:13:21+08:00",
     "rainyDay": true,
@@ -28713,7 +28714,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000022",
+    "id": "Restaurant_A15010200H_000021",
     "name": "西嶼台菜海鮮餐廳【西嶼鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -28767,7 +28768,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000022",
+    "sourceId": "Restaurant_A15010200H_000021",
     "qualityScore": 3,
     "updatedAt": "2023-10-30T17:17:22+08:00",
     "rainyDay": true,
@@ -28786,7 +28787,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000143",
+    "id": "Restaurant_A15010200H_000142",
     "name": "別野餐廳【白沙鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -28840,7 +28841,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000143",
+    "sourceId": "Restaurant_A15010200H_000142",
     "qualityScore": 3,
     "updatedAt": "2026-01-06T16:59:38+08:00",
     "rainyDay": true,
@@ -28859,7 +28860,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000141",
+    "id": "Restaurant_A15010200H_000140",
     "name": "吳記沙拉營養三明治【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -28913,7 +28914,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000141",
+    "sourceId": "Restaurant_A15010200H_000140",
     "qualityScore": 3,
     "updatedAt": "2026-03-31T18:15:58+08:00",
     "rainyDay": true,
@@ -28933,7 +28934,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000126",
+    "id": "Restaurant_A15010200H_000125",
     "name": "赤崁加志魚麵店 【白沙鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -28987,7 +28988,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000126",
+    "sourceId": "Restaurant_A15010200H_000125",
     "qualityScore": 3,
     "updatedAt": "2026-06-09T09:39:30+08:00",
     "rainyDay": true,
@@ -29007,7 +29008,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000101",
+    "id": "Restaurant_A15010200H_000100",
     "name": "花枝丸三兄弟【白沙鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -29061,7 +29062,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000101",
+    "sourceId": "Restaurant_A15010200H_000100",
     "qualityScore": 3,
     "updatedAt": "2026-02-05T09:31:06+08:00",
     "rainyDay": true,
@@ -29081,7 +29082,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000032",
+    "id": "Restaurant_A15010200H_000031",
     "name": "珍海味活海鮮【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -29135,9 +29136,9 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000032",
+    "sourceId": "Restaurant_A15010200H_000031",
     "qualityScore": 3,
-    "updatedAt": "2026-03-31T17:59:24+08:00",
+    "updatedAt": "2026-07-08T10:32:30+08:00",
     "rainyDay": true,
     "placeType": "餐飲",
     "familyEvidence": [],
@@ -29154,7 +29155,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000017",
+    "id": "Restaurant_A15010200H_000016",
     "name": "致仙飲食店【望安鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -29208,7 +29209,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000017",
+    "sourceId": "Restaurant_A15010200H_000016",
     "qualityScore": 3,
     "updatedAt": "2023-10-30T17:19:08+08:00",
     "rainyDay": true,
@@ -29228,7 +29229,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000037",
+    "id": "Restaurant_A15010200H_000036",
     "name": "海世界小吃部【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -29282,7 +29283,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000037",
+    "sourceId": "Restaurant_A15010200H_000036",
     "qualityScore": 3,
     "updatedAt": "2025-02-10T11:41:54+08:00",
     "rainyDay": true,
@@ -29375,7 +29376,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000024",
+    "id": "Restaurant_A15010200H_000023",
     "name": "清心飲食店【西嶼鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -29429,7 +29430,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000024",
+    "sourceId": "Restaurant_A15010200H_000023",
     "qualityScore": 3,
     "updatedAt": "2026-05-08T17:25:23+08:00",
     "rainyDay": true,
@@ -29449,7 +29450,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000030",
+    "id": "Restaurant_A15010200H_000029",
     "name": "富國海鮮川菜胡椒小吃【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -29503,7 +29504,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000030",
+    "sourceId": "Restaurant_A15010200H_000029",
     "qualityScore": 3,
     "updatedAt": "2026-05-08T17:22:42+08:00",
     "rainyDay": true,
@@ -29522,7 +29523,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000081",
+    "id": "Restaurant_A15010200H_000080",
     "name": "朝食暮饗早午餐&宵夜中【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -29576,7 +29577,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000081",
+    "sourceId": "Restaurant_A15010200H_000080",
     "qualityScore": 3,
     "updatedAt": "2025-02-10T11:16:42+08:00",
     "rainyDay": true,
@@ -29596,7 +29597,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000047",
+    "id": "Restaurant_A15010200H_000046",
     "name": "華珍活海鮮【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -29650,7 +29651,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000047",
+    "sourceId": "Restaurant_A15010200H_000046",
     "qualityScore": 3,
     "updatedAt": "2025-07-30T11:41:41+08:00",
     "rainyDay": true,
@@ -29670,7 +29671,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000096",
+    "id": "Restaurant_A15010200H_000095",
     "name": "雲泰（泰式料理）【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -29724,7 +29725,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000096",
+    "sourceId": "Restaurant_A15010200H_000095",
     "qualityScore": 3,
     "updatedAt": "2023-10-30T16:29:06+08:00",
     "rainyDay": true,
@@ -29818,7 +29819,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000043",
+    "id": "Restaurant_A15010200H_000042",
     "name": "嘉賓海鮮川菜館【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -29872,7 +29873,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000043",
+    "sourceId": "Restaurant_A15010200H_000042",
     "qualityScore": 3,
     "updatedAt": "2023-10-30T17:10:11+08:00",
     "rainyDay": true,
@@ -29892,7 +29893,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000049",
+    "id": "Restaurant_A15010200H_000048",
     "name": "漁翁海鮮小吃【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -29946,7 +29947,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000049",
+    "sourceId": "Restaurant_A15010200H_000048",
     "qualityScore": 3,
     "updatedAt": "2023-11-16T15:12:42+08:00",
     "rainyDay": true,
@@ -29965,7 +29966,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000118",
+    "id": "Restaurant_A15010200H_000117",
     "name": "劉正港檸檬汁中正店",
     "region": "離島",
     "city": "澎湖縣",
@@ -30019,7 +30020,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000118",
+    "sourceId": "Restaurant_A15010200H_000117",
     "qualityScore": 3,
     "updatedAt": "2024-04-18T17:12:17+08:00",
     "rainyDay": true,
@@ -30039,7 +30040,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000018",
+    "id": "Restaurant_A15010200H_000017",
     "name": "龍門海鮮【湖西鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -30093,7 +30094,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000018",
+    "sourceId": "Restaurant_A15010200H_000017",
     "qualityScore": 3,
     "updatedAt": "2023-10-30T17:19:25+08:00",
     "rainyDay": true,
@@ -30112,7 +30113,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000079",
+    "id": "Restaurant_A15010200H_000078",
     "name": "謝家肉餅【馬公市】",
     "region": "離島",
     "city": "澎湖縣",
@@ -30166,7 +30167,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000079",
+    "sourceId": "Restaurant_A15010200H_000078",
     "qualityScore": 3,
     "updatedAt": "2025-07-30T10:53:50+08:00",
     "rainyDay": true,
@@ -30186,7 +30187,7 @@
     }
   },
   {
-    "id": "Restaurant_A15010200H_000011",
+    "id": "Restaurant_A15010200H_000010",
     "name": "馨鱻小館【湖西鄉】",
     "region": "離島",
     "city": "澎湖縣",
@@ -30240,7 +30241,7 @@
       }
     ],
     "dataSource": "交通部觀光署餐飲資訊資料庫 V2.1",
-    "sourceId": "Restaurant_A15010200H_000011",
+    "sourceId": "Restaurant_A15010200H_000010",
     "qualityScore": 3,
     "updatedAt": "2023-10-30T17:22:59+08:00",
     "rainyDay": true,
@@ -37990,7 +37991,7 @@
     "dataSource": "osm",
     "sourceId": "node/12896536301",
     "qualityScore": 4,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -38039,7 +38040,7 @@
     "dataSource": "osm",
     "sourceId": "node/7091524767",
     "qualityScore": 4,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -38078,7 +38079,7 @@
     "dataSource": "osm",
     "sourceId": "node/7091524766",
     "qualityScore": 3,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -38127,7 +38128,7 @@
     "dataSource": "osm",
     "sourceId": "node/4532154189",
     "qualityScore": 5,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -38176,7 +38177,7 @@
     "dataSource": "osm",
     "sourceId": "node/5412039685",
     "qualityScore": 5,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -38225,7 +38226,7 @@
     "dataSource": "osm",
     "sourceId": "node/5415716180",
     "qualityScore": 5,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -38274,7 +38275,7 @@
     "dataSource": "osm",
     "sourceId": "node/5439284365",
     "qualityScore": 5,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -38323,7 +38324,7 @@
     "dataSource": "osm",
     "sourceId": "node/8392980417",
     "qualityScore": 5,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -38372,7 +38373,7 @@
     "dataSource": "osm",
     "sourceId": "node/11041690433",
     "qualityScore": 5,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -38421,7 +38422,7 @@
     "dataSource": "osm",
     "sourceId": "node/12923112691",
     "qualityScore": 5,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -38470,7 +38471,7 @@
     "dataSource": "osm",
     "sourceId": "way/330220933",
     "qualityScore": 5,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -38519,7 +38520,7 @@
     "dataSource": "osm",
     "sourceId": "way/1393195099",
     "qualityScore": 5,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -38568,7 +38569,7 @@
     "dataSource": "osm",
     "sourceId": "node/4041952192",
     "qualityScore": 4,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -38617,7 +38618,7 @@
     "dataSource": "osm",
     "sourceId": "node/4109104489",
     "qualityScore": 4,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -38666,7 +38667,7 @@
     "dataSource": "osm",
     "sourceId": "node/4113230089",
     "qualityScore": 4,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -38715,7 +38716,7 @@
     "dataSource": "osm",
     "sourceId": "node/4115555789",
     "qualityScore": 4,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -38764,7 +38765,7 @@
     "dataSource": "osm",
     "sourceId": "node/4185279437",
     "qualityScore": 4,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -38813,7 +38814,7 @@
     "dataSource": "osm",
     "sourceId": "node/4504037691",
     "qualityScore": 4,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -38862,7 +38863,7 @@
     "dataSource": "osm",
     "sourceId": "node/4587300794",
     "qualityScore": 4,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -38911,7 +38912,7 @@
     "dataSource": "osm",
     "sourceId": "node/4593844489",
     "qualityScore": 4,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -38960,7 +38961,7 @@
     "dataSource": "osm",
     "sourceId": "node/4597428090",
     "qualityScore": 4,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -39009,7 +39010,7 @@
     "dataSource": "osm",
     "sourceId": "node/4597685190",
     "qualityScore": 4,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -39058,7 +39059,7 @@
     "dataSource": "osm",
     "sourceId": "node/4686957755",
     "qualityScore": 4,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -39107,7 +39108,7 @@
     "dataSource": "osm",
     "sourceId": "node/5205227142",
     "qualityScore": 4,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -39156,7 +39157,7 @@
     "dataSource": "osm",
     "sourceId": "node/5419211569",
     "qualityScore": 4,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -39205,7 +39206,7 @@
     "dataSource": "osm",
     "sourceId": "node/5512100342",
     "qualityScore": 4,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -39254,7 +39255,7 @@
     "dataSource": "osm",
     "sourceId": "node/10106542142",
     "qualityScore": 4,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -39303,7 +39304,7 @@
     "dataSource": "osm",
     "sourceId": "node/12923162173",
     "qualityScore": 4,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -39352,7 +39353,7 @@
     "dataSource": "osm",
     "sourceId": "node/12923164410",
     "qualityScore": 4,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -39401,7 +39402,7 @@
     "dataSource": "osm",
     "sourceId": "node/12923279643",
     "qualityScore": 4,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -39450,7 +39451,7 @@
     "dataSource": "osm",
     "sourceId": "way/330733837",
     "qualityScore": 4,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -39499,7 +39500,7 @@
     "dataSource": "osm",
     "sourceId": "way/408116839",
     "qualityScore": 4,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -39548,7 +39549,7 @@
     "dataSource": "osm",
     "sourceId": "way/485524555",
     "qualityScore": 4,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -39587,7 +39588,7 @@
     "dataSource": "osm",
     "sourceId": "node/2835983797",
     "qualityScore": 3,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -39626,7 +39627,7 @@
     "dataSource": "osm",
     "sourceId": "node/2835983798",
     "qualityScore": 3,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -39665,7 +39666,7 @@
     "dataSource": "osm",
     "sourceId": "node/2835983799",
     "qualityScore": 3,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -39704,7 +39705,7 @@
     "dataSource": "osm",
     "sourceId": "node/2836007402",
     "qualityScore": 3,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -39743,7 +39744,7 @@
     "dataSource": "osm",
     "sourceId": "node/2836007403",
     "qualityScore": 3,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -39782,7 +39783,7 @@
     "dataSource": "osm",
     "sourceId": "node/2836015227",
     "qualityScore": 3,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -39821,7 +39822,7 @@
     "dataSource": "osm",
     "sourceId": "node/4298578492",
     "qualityScore": 3,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -39860,7 +39861,7 @@
     "dataSource": "osm",
     "sourceId": "node/4334953491",
     "qualityScore": 3,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -39899,7 +39900,7 @@
     "dataSource": "osm",
     "sourceId": "node/4486723290",
     "qualityScore": 3,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -39938,7 +39939,7 @@
     "dataSource": "osm",
     "sourceId": "node/4593918396",
     "qualityScore": 3,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -39977,7 +39978,7 @@
     "dataSource": "osm",
     "sourceId": "node/4597428089",
     "qualityScore": 3,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -40016,7 +40017,7 @@
     "dataSource": "osm",
     "sourceId": "node/4597666590",
     "qualityScore": 3,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -40055,7 +40056,7 @@
     "dataSource": "osm",
     "sourceId": "node/4686957735",
     "qualityScore": 3,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -40094,7 +40095,7 @@
     "dataSource": "osm",
     "sourceId": "node/4813004821",
     "qualityScore": 3,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -40133,7 +40134,7 @@
     "dataSource": "osm",
     "sourceId": "node/4817321924",
     "qualityScore": 3,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -40172,7 +40173,7 @@
     "dataSource": "osm",
     "sourceId": "node/5239314068",
     "qualityScore": 3,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -40211,7 +40212,7 @@
     "dataSource": "osm",
     "sourceId": "node/5439255129",
     "qualityScore": 3,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -40250,7 +40251,7 @@
     "dataSource": "osm",
     "sourceId": "node/8444506917",
     "qualityScore": 3,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -40289,7 +40290,7 @@
     "dataSource": "osm",
     "sourceId": "node/11914957643",
     "qualityScore": 3,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -40328,7 +40329,7 @@
     "dataSource": "osm",
     "sourceId": "way/1116421076",
     "qualityScore": 3,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   },
   {
@@ -40367,7 +40368,7 @@
     "dataSource": "osm",
     "sourceId": "way/1443489517",
     "qualityScore": 3,
-    "updatedAt": "2026-07-05",
+    "updatedAt": "2026-07-09",
     "placeType": "餐飲"
   }
 ]

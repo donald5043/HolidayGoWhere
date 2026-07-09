@@ -134384,6 +134384,58 @@
     "placeType": "餐飲"
   },
   {
+    "id": "osm-node-13108256740",
+    "name": "府城清粥小菜",
+    "region": "中部",
+    "city": "臺中市",
+    "district": "西區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺中市西區美村路一段695",
+    "hours": "請以商家公告為準",
+    "lat": 24.1350463,
+    "lng": 120.6618617,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "府城清粥小菜，位於台灣的餐廳，提供regional料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [
+      "提供兒童座椅"
+    ],
+    "facilities": [
+      "高腳椅",
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E5%BA%9C%E5%9F%8E%E6%B8%85%E7%B2%A5%E5%B0%8F%E8%8F%9C/@24.135046,120.661862,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/13108256740"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/13108256740",
+    "qualityScore": 3,
+    "updatedAt": "2026-07-09",
+    "placeType": "餐飲"
+  },
+  {
     "id": "osm-node-13984707192",
     "name": "昍隅早午餐",
     "region": "中部",
@@ -149016,55 +149068,6 @@
     ],
     "dataSource": "osm",
     "sourceId": "node/5058489843",
-    "qualityScore": 5,
-    "updatedAt": "2026-07-09",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-5083911286",
-    "name": "陶米莊 輕食早餐店",
-    "region": "中部",
-    "city": "臺中市",
-    "district": "太平區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "臺中市太平區中山路三段2巷64",
-    "hours": "Mo-Su 05:30-12:30",
-    "lat": 24.1515119,
-    "lng": 120.7226462,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "陶米莊 輕食早餐店，位於台灣的餐廳，提供breakfast料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "外帶服務"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E9%99%B6%E7%B1%B3%E8%8E%8A%20%E8%BC%95%E9%A3%9F%E6%97%A9%E9%A4%90%E5%BA%97/@24.151512,120.722646,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/5083911286"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/5083911286",
     "qualityScore": 5,
     "updatedAt": "2026-07-09",
     "placeType": "餐飲"
