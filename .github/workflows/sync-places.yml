@@ -26,7 +26,11 @@ jobs:
       - run: npm run sync:farm
       - run: npm run sync:culture
       - run: npm run sync:wikimedia-images
-      - run: npm run sync:osm-restaurants
+      - name: Sync OSM restaurant data
+        # Overpass mirrors are external and can intermittently fail. Keep the
+        # main daily place sync green by reusing the previous OSM dataset when
+        # the fetch fails, matching the standalone OSM workflow behavior.
+        run: npm run sync:osm-restaurants || echo "::warning::Overpass fetch failed — keeping previous OSM data"
       - run: npm run import:osm-restaurants
       - run: npm run import:michelin
       - run: npm run data:quality:check
