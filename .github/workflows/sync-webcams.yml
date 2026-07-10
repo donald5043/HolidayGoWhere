@@ -1,0 +1,68 @@
+name: Sync webcams
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 每天 21:15 UTC（台灣時間 05:15）同步 TDX 公路監視器即時影像清單
+    - cron: '15 21 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Sync TDX CCTV webcams
+        run: npm run sync:webcams
+        env:
+          TDX_CLIENT_ID: ${{ secrets.TDX_CLIENT_ID }}
+          TDX_CLIENT_SECRET: ${{ secrets.TDX_CLIENT_SECRET }}
+
+      - name: Validate webcam data
+        run: |
+          node - <<'NODE'
+          const fs = require('fs')
+          const payload = JSON.parse(fs.readFileSync('public/data/webcams.json', 'utf8'))
+          const webcams = payload.webcams || []
+          const invalid = webcams.filter((cam) =>
+            !cam.id ||
+            !cam.name ||
+            !Number.isFinite(cam.lat) ||
+            !Number.isFinite(cam.lng) ||
+            (cam.kind === 'image' && !String(cam.imageUrl || '').startsWith('https://')) ||
+            (cam.kind === 'youtube' && !cam.youtubeId) ||
+            (cam.kind === 'link' && !String(cam.pageUrl || '').startsWith('https://'))
+          )
+          if (invalid.length) {
+            console.error('Invalid webcams:', invalid.slice(0, 10).map((cam) => cam.id || cam.name))
+            process.exit(1)
+          }
+          if (webcams.length < 50) {
+            console.error(`Too few webcams (${webcams.length}); TDX sync likely failed.`)
+            process.exit(1)
+          }
+          const sizeMb = fs.statSync('public/data/webcams.json').size / 1024 / 1024
+          console.log(`Validated ${webcams.length} webcams (${sizeMb.toFixed(2)} MB).`)
+          NODE
+
+      - name: Commit updated webcam data
+        run: |
+          if git diff --quiet -- public/data/webcams.json; then
+            echo "No webcam changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/webcams.json
+          git commit -m "data: auto-sync webcams [skip ci]"
+          git push

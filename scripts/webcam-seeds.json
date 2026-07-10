@@ -1,0 +1,24 @@
+{
+  "note": "人工整理的風景區官方即時影像。kind: youtube = 官方 YouTube 直播（embed 播放）、link = 官方即時影像頁（外開）。新增項目請務必使用官方來源（風管處、觀光署、國家公園），並確認座標。",
+  "webcams": [
+    {
+      "id": "seed-alishan-eryanping",
+      "name": "二延平步道（阿里山公路隙頂）",
+      "lat": 23.4626,
+      "lng": 120.5977,
+      "kind": "youtube",
+      "youtubeId": "j2L_559nCjc",
+      "pageUrl": "https://www.ali-nsa.net/zh-tw/live-camera",
+      "source": "交通部觀光署阿里山國家風景區管理處"
+    },
+    {
+      "id": "seed-alishan-live-page",
+      "name": "阿里山國家風景區即時影像總覽",
+      "lat": 23.5082,
+      "lng": 120.8033,
+      "kind": "link",
+      "pageUrl": "https://www.ali-nsa.net/zh-tw/live-camera",
+      "source": "交通部觀光署阿里山國家風景區管理處"
+    }
+  ]
+}

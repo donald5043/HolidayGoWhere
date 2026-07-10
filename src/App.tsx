@@ -64,6 +64,7 @@ import { WeekendDiscovery } from './components/WeekendDiscovery'
 import { supabase } from './lib/supabase'
 import { getDeviceId } from './lib/deviceId'
 import { NearbyRestaurants } from './components/NearbyRestaurants'
+import { NearbyWebcams } from './components/NearbyWebcams'
 import { PackingList } from './components/PackingList'
 import { ItineraryPlanner } from './components/ItineraryPlanner'
 import { Mascot } from './components/Mascot'
@@ -2060,6 +2061,7 @@ function App() {
               {selected.placeType !== '餐飲' && (
                 <NearbyRestaurants allPlaces={places} anchor={selected} onOpen={openPlace} />
               )}
+              <NearbyWebcams anchor={selected} />
               {selected.completeness && (
                 <div className="completeness-panel">
                   <div>

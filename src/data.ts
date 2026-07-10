@@ -223,6 +223,32 @@ export type WeatherSummary = {
   fetchedAt: string
 }
 
+export type WebcamKind = 'image' | 'youtube' | 'link'
+
+export type Webcam = {
+  id: string
+  name: string
+  lat: number
+  lng: number
+  kind: WebcamKind
+  /** kind = image：可直接放進 <img> 的快照或 mjpeg 串流網址 */
+  imageUrl?: string
+  /** kind = youtube：官方直播影片 ID */
+  youtubeId?: string
+  /** 官方頁面連結（youtube / link 的備援與外開入口） */
+  pageUrl?: string
+  road?: string
+  source: string
+}
+
+export type WebcamDataset = {
+  schemaVersion: number
+  generatedAt: string
+  attribution: string
+  count: number
+  webcams: Webcam[]
+}
+
 export type HealthAdvisorySource = {
   name: string
   agency: '衛生福利部國民健康署' | '衛生福利部疾病管制署'
