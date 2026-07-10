@@ -75157,6 +75157,106 @@
     "placeType": "餐飲"
   },
   {
+    "id": "osm-node-1397157195",
+    "name": "85度C",
+    "region": "北部",
+    "city": "新北市",
+    "district": "板橋區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "新北市板橋區莒光路64",
+    "hours": "Mo-Su 07:00-23:00",
+    "lat": 25.024094,
+    "lng": 121.4710989,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "85度C，位於台灣的咖啡廳，提供coffee_shop料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "無障礙設施",
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "confirmed",
+      "ramp": "confirmed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "confirmed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/85%E5%BA%A6C/@25.024094,121.471099,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/1397157195"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/1397157195",
+    "qualityScore": 5,
+    "updatedAt": "2026-07-10",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-1820997111",
+    "name": "85度C",
+    "region": "北部",
+    "city": "新北市",
+    "district": "土城區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "新北市土城區裕生路1",
+    "hours": "24/7",
+    "lat": 24.9878873,
+    "lng": 121.4486524,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "85度C，位於台灣的咖啡廳，提供coffee_shop料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "無障礙設施",
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "confirmed",
+      "ramp": "confirmed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "confirmed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/85%E5%BA%A6C/@24.987887,121.448652,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/1820997111"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/1820997111",
+    "qualityScore": 5,
+    "updatedAt": "2026-07-10",
+    "placeType": "餐飲"
+  },
+  {
     "id": "osm-node-2413063627",
     "name": "星巴克",
     "region": "北部",
@@ -75603,6 +75703,56 @@
     "placeType": "餐飲"
   },
   {
+    "id": "osm-node-3673124353",
+    "name": "85度C",
+    "region": "北部",
+    "city": "新北市",
+    "district": "五股區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "新北市五股區成泰路二段156",
+    "hours": "Mo-Su 06:30-24:00",
+    "lat": 25.0840274,
+    "lng": 121.4383548,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "85度C，位於台灣的咖啡廳，提供coffee_shop料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "無障礙設施",
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "confirmed",
+      "ramp": "confirmed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "confirmed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/85%E5%BA%A6C/@25.084027,121.438355,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/3673124353"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/3673124353",
+    "qualityScore": 5,
+    "updatedAt": "2026-07-10",
+    "placeType": "餐飲"
+  },
+  {
     "id": "osm-node-3707814401",
     "name": "星巴克",
     "region": "北部",
@@ -75747,6 +75897,56 @@
     ],
     "dataSource": "osm",
     "sourceId": "node/4492620956",
+    "qualityScore": 5,
+    "updatedAt": "2026-07-10",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-6130072775",
+    "name": "85度C",
+    "region": "北部",
+    "city": "新北市",
+    "district": "中和區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "新北市中和區宜安路65",
+    "hours": "Mo-Su 07:00-23:00",
+    "lat": 24.9971042,
+    "lng": 121.5112316,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "85度C，位於台灣的咖啡廳，提供coffee_shop料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "無障礙設施",
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "confirmed",
+      "ramp": "confirmed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "confirmed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/85%E5%BA%A6C/@24.997104,121.511232,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/6130072775"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/6130072775",
     "qualityScore": 5,
     "updatedAt": "2026-07-10",
     "placeType": "餐飲"
@@ -76406,6 +76606,58 @@
     "placeType": "餐飲"
   },
   {
+    "id": "osm-node-10074326720",
+    "name": "85度C",
+    "region": "北部",
+    "city": "新北市",
+    "district": "板橋區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "新北市板橋區溪北路172",
+    "hours": "Mo-Su 07:00-22:00",
+    "lat": 24.9878503,
+    "lng": 121.4309488,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "85度C，位於台灣的咖啡廳，提供coffee_shop料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [
+      "戶外用餐空間"
+    ],
+    "facilities": [
+      "戶外座位",
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/85%E5%BA%A6C/@24.987850,121.430949,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/10074326720"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/10074326720",
+    "qualityScore": 5,
+    "updatedAt": "2026-07-10",
+    "placeType": "餐飲"
+  },
+  {
     "id": "osm-node-10720239822",
     "name": "牆角咖啡廳",
     "region": "北部",
@@ -76556,6 +76808,58 @@
     ],
     "dataSource": "osm",
     "sourceId": "node/12181417500",
+    "qualityScore": 5,
+    "updatedAt": "2026-07-10",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-13728699206",
+    "name": "85度C",
+    "region": "北部",
+    "city": "新北市",
+    "district": "三峽區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "新北市三峽區中華路46",
+    "hours": "Mo-Fr 06:30-22:00、Sa-Su 07:30-22:00",
+    "lat": 24.9305146,
+    "lng": 121.3721192,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "85度C，位於台灣的咖啡廳，提供coffee_shop料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [
+      "戶外用餐空間"
+    ],
+    "facilities": [
+      "戶外座位",
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/85%E5%BA%A6C/@24.930515,121.372119,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/13728699206"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/13728699206",
     "qualityScore": 5,
     "updatedAt": "2026-07-10",
     "placeType": "餐飲"
@@ -79595,6 +79899,153 @@
     "placeType": "餐飲"
   },
   {
+    "id": "osm-node-2174889595",
+    "name": "85度C",
+    "region": "北部",
+    "city": "新北市",
+    "district": "樹林區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "新北市樹林區中華路68",
+    "hours": "Mo-Su 07:00-23:00",
+    "lat": 24.9817268,
+    "lng": 121.4199807,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "85度C，位於台灣的咖啡廳，提供coffee_shop料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/85%E5%BA%A6C/@24.981727,121.419981,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/2174889595"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/2174889595",
+    "qualityScore": 5,
+    "updatedAt": "2026-07-10",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-2174889602",
+    "name": "85度C",
+    "region": "北部",
+    "city": "新北市",
+    "district": "樹林區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "新北市樹林區中山路一段94",
+    "hours": "Mo-Su 06:00-23:00",
+    "lat": 24.9912751,
+    "lng": 121.4231546,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "85度C，位於台灣的咖啡廳，提供coffee_shop料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/85%E5%BA%A6C/@24.991275,121.423155,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/2174889602"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/2174889602",
+    "qualityScore": 5,
+    "updatedAt": "2026-07-10",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-2290850450",
+    "name": "85度C",
+    "region": "北部",
+    "city": "新北市",
+    "district": "板橋區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "新北市板橋區國光路189",
+    "hours": "Mo-Su 07:00-24:00",
+    "lat": 25.0185321,
+    "lng": 121.4611181,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "85度C，位於台灣的咖啡廳，提供coffee_shop料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/85%E5%BA%A6C/@25.018532,121.461118,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/2290850450"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/2290850450",
+    "qualityScore": 5,
+    "updatedAt": "2026-07-10",
+    "placeType": "餐飲"
+  },
+  {
     "id": "osm-node-2292708733",
     "name": "摩斯漢堡",
     "region": "北部",
@@ -79789,6 +80240,55 @@
     ],
     "dataSource": "osm",
     "sourceId": "node/2543052354",
+    "qualityScore": 5,
+    "updatedAt": "2026-07-10",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-2596888821",
+    "name": "85度C",
+    "region": "北部",
+    "city": "新北市",
+    "district": "中和區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "新北市中和區員山路220",
+    "hours": "Mo-Su 06:00-23:00",
+    "lat": 25.0009823,
+    "lng": 121.4814027,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "85度C，位於台灣的咖啡廳，提供coffee_shop料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/85%E5%BA%A6C/@25.000982,121.481403,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/2596888821"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/2596888821",
     "qualityScore": 5,
     "updatedAt": "2026-07-10",
     "placeType": "餐飲"
@@ -80034,6 +80534,55 @@
     ],
     "dataSource": "osm",
     "sourceId": "node/2618674814",
+    "qualityScore": 5,
+    "updatedAt": "2026-07-10",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-2638374591",
+    "name": "85度C",
+    "region": "北部",
+    "city": "新北市",
+    "district": "板橋區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "新北市板橋區雙十路二段10",
+    "hours": "Mo-Su 07:00-23:00",
+    "lat": 25.0267575,
+    "lng": 121.4766268,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "85度C，位於台灣的咖啡廳，提供coffee_shop料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/85%E5%BA%A6C/@25.026757,121.476627,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/2638374591"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/2638374591",
     "qualityScore": 5,
     "updatedAt": "2026-07-10",
     "placeType": "餐飲"
@@ -80627,6 +81176,104 @@
     "placeType": "餐飲"
   },
   {
+    "id": "osm-node-2977303924",
+    "name": "85度C",
+    "region": "北部",
+    "city": "新北市",
+    "district": "永和區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "新北市永和區保平路22",
+    "hours": "Mo-Su 06:00-24:00",
+    "lat": 25.0075547,
+    "lng": 121.512387,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "85度C，位於台灣的咖啡廳，提供coffee_shop料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/85%E5%BA%A6C/@25.007555,121.512387,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/2977303924"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/2977303924",
+    "qualityScore": 5,
+    "updatedAt": "2026-07-10",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-3149872664",
+    "name": "85度C",
+    "region": "北部",
+    "city": "新北市",
+    "district": "新莊區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "新北市新莊區中平路84",
+    "hours": "Mo-Su 07:00–22:00",
+    "lat": 25.0449622,
+    "lng": 121.4448868,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "85度C，位於台灣的咖啡廳，提供coffee_shop料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/85%E5%BA%A6C/@25.044962,121.444887,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/3149872664"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/3149872664",
+    "qualityScore": 5,
+    "updatedAt": "2026-07-10",
+    "placeType": "餐飲"
+  },
+  {
     "id": "osm-node-3245728370",
     "name": "油庫口蚵仔麵線",
     "region": "北部",
@@ -81068,6 +81715,104 @@
     "placeType": "餐飲"
   },
   {
+    "id": "osm-node-3349564653",
+    "name": "85度C",
+    "region": "北部",
+    "city": "新北市",
+    "district": "三重區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "新北市三重區分子尾街45",
+    "hours": "Mo-Su 07:00-22:00",
+    "lat": 25.0821785,
+    "lng": 121.4893162,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "85度C，位於台灣的咖啡廳，提供coffee_shop料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/85%E5%BA%A6C/@25.082179,121.489316,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/3349564653"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/3349564653",
+    "qualityScore": 5,
+    "updatedAt": "2026-07-10",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-3417501600",
+    "name": "85度C",
+    "region": "北部",
+    "city": "新北市",
+    "district": "中和區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "新北市中和區中正路226",
+    "hours": "Mo-Su 07:00-23:00",
+    "lat": 24.9940458,
+    "lng": 121.4962901,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "85度C，位於台灣的咖啡廳，提供coffee_shop料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/85%E5%BA%A6C/@24.994046,121.496290,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/3417501600"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/3417501600",
+    "qualityScore": 5,
+    "updatedAt": "2026-07-10",
+    "placeType": "餐飲"
+  },
+  {
     "id": "osm-node-3419805453",
     "name": "酒肉朋友創意居酒屋料理",
     "region": "北部",
@@ -81180,7 +81925,7 @@
     "reviews": 0,
     "priceLabel": "請查店家",
     "address": "新北市三峽區文化路152",
-    "hours": "Mo-Su 06:00-24:00",
+    "hours": "Mo-Su 07:00-22:00",
     "lat": 24.9362188,
     "lng": 121.3703666,
     "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
@@ -83291,8 +84036,8 @@
     "priceLabel": "請查店家",
     "address": "新北市板橋區中山路一段266",
     "hours": "Mo-Su 07:30-22:00",
-    "lat": 25.0146091,
-    "lng": 121.4718658,
+    "lat": 25.0146601,
+    "lng": 121.4718492,
     "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
     "accent": "#b98b73",
     "description": "85度C，位於台灣的咖啡廳，提供coffee_shop料理。更多資訊請參考 OpenStreetMap。",
@@ -83310,7 +84055,7 @@
       "strollerFriendly": "notListed",
       "parkingInfo": "停車資訊請向店家確認。"
     },
-    "mapsUrl": "https://www.google.com/maps/search/85%E5%BA%A6C/@25.014609,121.471866,17z",
+    "mapsUrl": "https://www.google.com/maps/search/85%E5%BA%A6C/@25.014660,121.471849,17z",
     "sources": [
       {
         "type": "官方網站",
@@ -83908,6 +84653,104 @@
     ],
     "dataSource": "osm",
     "sourceId": "node/4384740026",
+    "qualityScore": 5,
+    "updatedAt": "2026-07-10",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4426160295",
+    "name": "85度C",
+    "region": "北部",
+    "city": "新北市",
+    "district": "新莊區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "新北市新莊區八德街151",
+    "hours": "Mo-Su 07:00-23:00",
+    "lat": 25.0196434,
+    "lng": 121.4235729,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "85度C，位於台灣的咖啡廳，提供coffee_shop料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/85%E5%BA%A6C/@25.019643,121.423573,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4426160295"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4426160295",
+    "qualityScore": 5,
+    "updatedAt": "2026-07-10",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-4426175739",
+    "name": "85度C",
+    "region": "北部",
+    "city": "新北市",
+    "district": "新莊區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "新北市新莊區建安街103",
+    "hours": "Mo-Su 06:00-23:00",
+    "lat": 25.0242729,
+    "lng": 121.4265839,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "85度C，位於台灣的咖啡廳，提供coffee_shop料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/85%E5%BA%A6C/@25.024273,121.426584,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4426175739"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/4426175739",
     "qualityScore": 5,
     "updatedAt": "2026-07-10",
     "placeType": "餐飲"
@@ -85644,6 +86487,55 @@
     ],
     "dataSource": "osm",
     "sourceId": "node/6155600449",
+    "qualityScore": 5,
+    "updatedAt": "2026-07-10",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-6182991542",
+    "name": "85度C",
+    "region": "北部",
+    "city": "新北市",
+    "district": "新莊區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "咖啡下午茶",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "新北市新莊區昌平街57",
+    "hours": "Mo-Su 07:00-21:30",
+    "lat": 25.0530301,
+    "lng": 121.4546419,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
+    "accent": "#b98b73",
+    "description": "85度C，位於台灣的咖啡廳，提供coffee_shop料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/85%E5%BA%A6C/@25.053030,121.454642,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/6182991542"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/6182991542",
     "qualityScore": 5,
     "updatedAt": "2026-07-10",
     "placeType": "餐飲"
@@ -89006,891 +89898,6 @@
     "placeType": "餐飲"
   },
   {
-    "id": "osm-node-9293527858",
-    "name": "燒肉眾精緻炭火燒肉",
-    "region": "北部",
-    "city": "新北市",
-    "district": "三重區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "新北市三重區自強路一段175",
-    "hours": "Mo-Fr 17:00-22:30; Sa-Su 12:00-22:30",
-    "lat": 25.0674879,
-    "lng": 121.4931078,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "燒肉眾精緻炭火燒肉，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E7%87%92%E8%82%89%E7%9C%BE%E7%B2%BE%E7%B7%BB%E7%82%AD%E7%81%AB%E7%87%92%E8%82%89/@25.067488,121.493108,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/9293527858"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/9293527858",
-    "qualityScore": 5,
-    "updatedAt": "2026-07-10",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-9354948567",
-    "name": "隱居_いざかや-江翠店",
-    "region": "北部",
-    "city": "新北市",
-    "district": "板橋區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "新北市板橋區文化路二段349",
-    "hours": "Mo-Su 17:30-24:00",
-    "lat": 25.0307013,
-    "lng": 121.4726986,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "隱居_いざかや-江翠店，位於台灣的餐廳，提供japanese、kebab料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E9%9A%B1%E5%B1%85_%E3%81%84%E3%81%96%E3%81%8B%E3%82%84-%E6%B1%9F%E7%BF%A0%E5%BA%97/@25.030701,121.472699,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/9354948567"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/9354948567",
-    "qualityScore": 5,
-    "updatedAt": "2026-07-10",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-9365697651",
-    "name": "路易莎咖啡",
-    "region": "北部",
-    "city": "新北市",
-    "district": "三重區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "咖啡下午茶",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "新北市三重區中華路41",
-    "hours": "Mo-Su 07:00-21:00",
-    "lat": 25.0617721,
-    "lng": 121.4835741,
-    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
-    "accent": "#b98b73",
-    "description": "路易莎咖啡，位於台灣的咖啡廳，提供coffee_shop料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "外帶服務"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E8%B7%AF%E6%98%93%E8%8E%8E%E5%92%96%E5%95%A1/@25.061772,121.483574,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/9365697651"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/9365697651",
-    "qualityScore": 5,
-    "updatedAt": "2026-07-10",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-9376359557",
-    "name": "一手私藏世界紅茶",
-    "region": "北部",
-    "city": "新北市",
-    "district": "新店區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "咖啡下午茶",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "新北市新店區民權路21-1",
-    "hours": "10:00-21:30",
-    "lat": 24.9827934,
-    "lng": 121.541793,
-    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
-    "accent": "#b98b73",
-    "description": "一手私藏世界紅茶，位於台灣的咖啡廳，提供bubble_tea料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E4%B8%80%E6%89%8B%E7%A7%81%E8%97%8F%E4%B8%96%E7%95%8C%E7%B4%85%E8%8C%B6/@24.982793,121.541793,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/9376359557"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/9376359557",
-    "qualityScore": 5,
-    "updatedAt": "2026-07-10",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-9613222163",
-    "name": "福勝亭",
-    "region": "北部",
-    "city": "新北市",
-    "district": "新店區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "新北市新店區北新路三段113",
-    "hours": "11:00-21:00",
-    "lat": 24.9823201,
-    "lng": 121.5412797,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "福勝亭，位於台灣的餐廳，提供japanese料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "外帶服務"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E7%A6%8F%E5%8B%9D%E4%BA%AD/@24.982320,121.541280,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/9613222163"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/9613222163",
-    "qualityScore": 5,
-    "updatedAt": "2026-07-10",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-9660492711",
-    "name": "椒麻雞大王",
-    "region": "北部",
-    "city": "新北市",
-    "district": "新莊區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "新北市新莊區中正路516-41",
-    "hours": "Mo-Sa 11:00-20:20; PH closed",
-    "lat": 25.0321024,
-    "lng": 121.4323402,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "椒麻雞大王，位於台灣的餐廳，提供taiwanese料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "外帶服務"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E6%A4%92%E9%BA%BB%E9%9B%9E%E5%A4%A7%E7%8E%8B/@25.032102,121.432340,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/9660492711"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/9660492711",
-    "qualityScore": 5,
-    "updatedAt": "2026-07-10",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-9831175516",
-    "name": "云享小吃店",
-    "region": "北部",
-    "city": "新北市",
-    "district": "新莊區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "新北市新莊區中和街114",
-    "hours": "Tu-Su 11:00-15:00,17:00-21:00",
-    "lat": 25.0474459,
-    "lng": 121.4475568,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "云享小吃店，位於台灣的餐廳，提供chinese、noodle、dumplings料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "外帶服務"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E4%BA%91%E4%BA%AB%E5%B0%8F%E5%90%83%E5%BA%97/@25.047446,121.447557,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/9831175516"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/9831175516",
-    "qualityScore": 5,
-    "updatedAt": "2026-07-10",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-9843008452",
-    "name": "路易莎咖啡",
-    "region": "北部",
-    "city": "新北市",
-    "district": "板橋區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "咖啡下午茶",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "新北市板橋區縣民大道二段277",
-    "hours": "Mo-Su 07:00-21:00",
-    "lat": 25.0177099,
-    "lng": 121.4695966,
-    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
-    "accent": "#b98b73",
-    "description": "路易莎咖啡，位於台灣的咖啡廳，提供coffee_shop料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "外帶服務"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E8%B7%AF%E6%98%93%E8%8E%8E%E5%92%96%E5%95%A1/@25.017710,121.469597,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/9843008452"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/9843008452",
-    "qualityScore": 5,
-    "updatedAt": "2026-07-10",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-9843786897",
-    "name": "拿坡里",
-    "region": "北部",
-    "city": "新北市",
-    "district": "汐止區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "新北市汐止區大同路二段411",
-    "hours": "Mo-Su 11:00-21:30",
-    "lat": 25.0673529,
-    "lng": 121.6584349,
-    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "拿坡里，位於台灣的快餐店，提供pizza、italian、chicken、thai料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E6%8B%BF%E5%9D%A1%E9%87%8C/@25.067353,121.658435,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/9843786897"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/9843786897",
-    "qualityScore": 5,
-    "updatedAt": "2026-07-10",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-10074054756",
-    "name": "藏壽司",
-    "region": "北部",
-    "city": "新北市",
-    "district": "林口區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "新北市林口區文化三路一段356",
-    "hours": "Mo-Th 11:00-21:30; Fr 11:00-22:00; Sa,Su 10:30-22:00",
-    "lat": 25.0709344,
-    "lng": 121.3656375,
-    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "藏壽司，位於台灣的快餐店，提供sushi料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "外帶服務"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E8%97%8F%E5%A3%BD%E5%8F%B8/@25.070934,121.365638,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/10074054756"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/10074054756",
-    "qualityScore": 5,
-    "updatedAt": "2026-07-10",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-10074075004",
-    "name": "冬日向輕食坊",
-    "region": "北部",
-    "city": "新北市",
-    "district": "板橋區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "咖啡下午茶",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "新北市板橋區公館街27",
-    "hours": "Mo-Fr 09:00-18:00",
-    "lat": 25.0153325,
-    "lng": 121.4611491,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "accent": "#b98b73",
-    "description": "冬日向輕食坊，位於台灣的餐廳，提供複合式餐飲料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E5%86%AC%E6%97%A5%E5%90%91%E8%BC%95%E9%A3%9F%E5%9D%8A/@25.015332,121.461149,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/10074075004"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/10074075004",
-    "qualityScore": 5,
-    "updatedAt": "2026-07-10",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-10074091564",
-    "name": "繼光香香雞",
-    "region": "北部",
-    "city": "新北市",
-    "district": "中和區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "新北市中和區中山路三段122",
-    "hours": "Mo-Su 11:00-22:00",
-    "lat": 25.0069225,
-    "lng": 121.4749102,
-    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "繼光香香雞，位於台灣的快餐店，提供fried_food料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "外帶服務"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E7%B9%BC%E5%85%89%E9%A6%99%E9%A6%99%E9%9B%9E/@25.006923,121.474910,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/10074091564"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/10074091564",
-    "qualityScore": 5,
-    "updatedAt": "2026-07-10",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-10074094594",
-    "name": "麥味登",
-    "region": "北部",
-    "city": "新北市",
-    "district": "板橋區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "新北市板橋區廣和街52",
-    "hours": "Mo-Su 06:00-14:30",
-    "lat": 24.9942351,
-    "lng": 121.4622897,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "麥味登，位於台灣的餐廳，提供american、breakfast料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "外帶服務"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E9%BA%A5%E5%91%B3%E7%99%BB/@24.994235,121.462290,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/10074094594"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/10074094594",
-    "qualityScore": 5,
-    "updatedAt": "2026-07-10",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-10074099790",
-    "name": "食日早午餐",
-    "region": "北部",
-    "city": "新北市",
-    "district": "板橋區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "咖啡下午茶",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "新北市板橋區中山路一段158巷7",
-    "hours": "Mo-Sa 06:00-13:00",
-    "lat": 25.0116798,
-    "lng": 121.4662804,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "accent": "#b98b73",
-    "description": "食日早午餐，位於台灣的餐廳，提供brunch料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E9%A3%9F%E6%97%A5%E6%97%A9%E5%8D%88%E9%A4%90/@25.011680,121.466280,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/10074099790"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/10074099790",
-    "qualityScore": 5,
-    "updatedAt": "2026-07-10",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-10074161962",
-    "name": "蕭老先生早午餐（台式飯糰）",
-    "region": "北部",
-    "city": "新北市",
-    "district": "板橋區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "咖啡下午茶",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "新北市板橋區縣民大道三段260",
-    "hours": "Tu-Su 06:00-14:00",
-    "lat": 25.0232827,
-    "lng": 121.4781061,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "accent": "#b98b73",
-    "description": "蕭老先生早午餐（台式飯糰），位於台灣的餐廳，提供chinese料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "外帶服務"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E8%95%AD%E8%80%81%E5%85%88%E7%94%9F%E6%97%A9%E5%8D%88%E9%A4%90%EF%BC%88%E5%8F%B0%E5%BC%8F%E9%A3%AF%E7%B3%B0%EF%BC%89/@25.023283,121.478106,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/10074161962"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/10074161962",
-    "qualityScore": 5,
-    "updatedAt": "2026-07-10",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-10074326720",
-    "name": "85度C",
-    "region": "北部",
-    "city": "新北市",
-    "district": "板橋區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "咖啡下午茶",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "新北市板橋區溪北路172",
-    "hours": "Mo-Sa 07:00-23:00",
-    "lat": 24.9878503,
-    "lng": 121.4309488,
-    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80",
-    "accent": "#b98b73",
-    "description": "85度C，位於台灣的咖啡廳，提供coffee_shop料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [
-      "戶外用餐空間"
-    ],
-    "facilities": [
-      "戶外座位",
-      "外帶服務"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/85%E5%BA%A6C/@24.987850,121.430949,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/10074326720"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/10074326720",
-    "qualityScore": 4,
-    "updatedAt": "2026-07-10",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-10210239488",
-    "name": "角落UTOPIA",
-    "region": "北部",
-    "city": "新北市",
-    "district": "板橋區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "新北市板橋區民族路83",
-    "hours": "Tu-Th 11:30-14:30+,17:00-21:30+; PH,Fr-Su 11:30-15:00+,17:00-21:30+",
-    "lat": 25.0086549,
-    "lng": 121.4657498,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "角落UTOPIA，位於台灣的餐廳，提供burger料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E8%A7%92%E8%90%BDUTOPIA/@25.008655,121.465750,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/10210239488"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/10210239488",
-    "qualityScore": 5,
-    "updatedAt": "2026-07-10",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-10239573314",
-    "name": "壽司郎",
-    "region": "北部",
-    "city": "新北市",
-    "district": "汐止區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "新北市汐止區新台五路一段99",
-    "hours": "Mo-Su 11:00-22:00",
-    "lat": 25.0626459,
-    "lng": 121.649571,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "壽司郎，位於台灣的餐廳，提供sushi料理。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E5%A3%BD%E5%8F%B8%E9%83%8E/@25.062646,121.649571,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/10239573314"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/10239573314",
-    "qualityScore": 5,
-    "updatedAt": "2026-07-10",
-    "placeType": "餐飲"
-  },
-  {
     "id": "osm-node-12836880527",
     "name": "東門市場4.8坪",
     "region": "北部",
@@ -92196,6 +92203,55 @@
     ],
     "dataSource": "osm",
     "sourceId": "node/5301083533",
+    "qualityScore": 5,
+    "updatedAt": "2026-07-10",
+    "placeType": "餐飲"
+  },
+  {
+    "id": "osm-node-5511939821",
+    "name": "錢都涮涮鍋",
+    "region": "北部",
+    "city": "新竹市",
+    "district": "北區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "新竹市北區中正路264",
+    "hours": "Mo-Su 11:00-02:00",
+    "lat": 24.8118509,
+    "lng": 120.9646419,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "錢都涮涮鍋，位於台灣的餐廳，提供hot_pot料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [],
+    "facilities": [
+      "出發前請確認設施"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E9%8C%A2%E9%83%BD%E6%B6%AE%E6%B6%AE%E9%8D%8B/@24.811851,120.964642,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/5511939821"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/5511939821",
     "qualityScore": 5,
     "updatedAt": "2026-07-10",
     "placeType": "餐飲"
@@ -97645,55 +97701,6 @@
     ],
     "dataSource": "osm",
     "sourceId": "node/5492431620",
-    "qualityScore": 4,
-    "updatedAt": "2026-07-10",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-5511939821",
-    "name": "錢都日式涮涮鍋-新竹中正直營店",
-    "region": "北部",
-    "city": "新竹市",
-    "district": "北區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "新竹市北區中正路264",
-    "hours": "Mo-Su 11:00-02:00",
-    "lat": 24.8118509,
-    "lng": 120.9646419,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "錢都日式涮涮鍋-新竹中正直營店，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "出發前請確認設施"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E9%8C%A2%E9%83%BD%E6%97%A5%E5%BC%8F%E6%B6%AE%E6%B6%AE%E9%8D%8B-%E6%96%B0%E7%AB%B9%E4%B8%AD%E6%AD%A3%E7%9B%B4%E7%87%9F%E5%BA%97/@24.811851,120.964642,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/5511939821"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/5511939821",
     "qualityScore": 4,
     "updatedAt": "2026-07-10",
     "placeType": "餐飲"
@@ -134590,6 +134597,58 @@
     "placeType": "餐飲"
   },
   {
+    "id": "osm-node-14002186572",
+    "name": "三德六味蔬食堂",
+    "region": "中部",
+    "city": "臺中市",
+    "district": "西區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室內",
+    "duration": "半日",
+    "category": "室內餐廳",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "請查店家",
+    "address": "臺中市西區五權西四街136",
+    "hours": "請以商家公告為準",
+    "lat": 24.1343999,
+    "lng": 120.6624752,
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "accent": "#d88962",
+    "description": "三德六味蔬食堂，位於台灣的餐廳，提供noodle、tea、hotpot料理。更多資訊請參考 OpenStreetMap。",
+    "highlights": [
+      "提供兒童座椅"
+    ],
+    "facilities": [
+      "高腳椅",
+      "外帶服務"
+    ],
+    "familyAmenities": {
+      "accessibility": "notListed",
+      "ramp": "notListed",
+      "nursingRoom": "notListed",
+      "diaperTable": "notListed",
+      "familyRestroom": "notListed",
+      "parking": "notListed",
+      "strollerFriendly": "notListed",
+      "parkingInfo": "停車資訊請向店家確認。"
+    },
+    "mapsUrl": "https://www.google.com/maps/search/%E4%B8%89%E5%BE%B7%E5%85%AD%E5%91%B3%E8%94%AC%E9%A3%9F%E5%A0%82/@24.134400,120.662475,17z",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/14002186572"
+      }
+    ],
+    "dataSource": "osm",
+    "sourceId": "node/14002186572",
+    "qualityScore": 3,
+    "updatedAt": "2026-07-10",
+    "placeType": "餐飲"
+  },
+  {
     "id": "osm-node-2657775936",
     "name": "喜樂魚Joy Fish 泰式家庭料理餐廳",
     "region": "中部",
@@ -149019,55 +149078,6 @@
     ],
     "dataSource": "osm",
     "sourceId": "node/5032286057",
-    "qualityScore": 5,
-    "updatedAt": "2026-07-10",
-    "placeType": "餐飲"
-  },
-  {
-    "id": "osm-node-5058489843",
-    "name": "亞米雪花冰 十甲店",
-    "region": "中部",
-    "city": "臺中市",
-    "district": "東區",
-    "ageMin": 0,
-    "ageMax": 12,
-    "setting": "室內",
-    "duration": "半日",
-    "category": "室內餐廳",
-    "rating": null,
-    "reviews": 0,
-    "priceLabel": "請查店家",
-    "address": "臺中市東區十甲路367",
-    "hours": "Tu-Su 12:00-23:30",
-    "lat": 24.1445891,
-    "lng": 120.7070396,
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
-    "accent": "#d88962",
-    "description": "亞米雪花冰 十甲店，位於台灣的餐廳。更多資訊請參考 OpenStreetMap。",
-    "highlights": [],
-    "facilities": [
-      "外帶服務"
-    ],
-    "familyAmenities": {
-      "accessibility": "notListed",
-      "ramp": "notListed",
-      "nursingRoom": "notListed",
-      "diaperTable": "notListed",
-      "familyRestroom": "notListed",
-      "parking": "notListed",
-      "strollerFriendly": "notListed",
-      "parkingInfo": "停車資訊請向店家確認。"
-    },
-    "mapsUrl": "https://www.google.com/maps/search/%E4%BA%9E%E7%B1%B3%E9%9B%AA%E8%8A%B1%E5%86%B0%20%E5%8D%81%E7%94%B2%E5%BA%97/@24.144589,120.707040,17z",
-    "sources": [
-      {
-        "type": "官方網站",
-        "label": "OpenStreetMap",
-        "url": "https://www.openstreetmap.org/node/5058489843"
-      }
-    ],
-    "dataSource": "osm",
-    "sourceId": "node/5058489843",
     "qualityScore": 5,
     "updatedAt": "2026-07-10",
     "placeType": "餐飲"
