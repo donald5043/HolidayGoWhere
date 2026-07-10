@@ -6559,6 +6559,111 @@ body.map-expanded-lock .bottom-nav {
 
 .nearby-show-more:hover { background: var(--color-surface); }
 
+.nearby-webcams-section h3 { margin: 0; font-size: 15px; }
+
+.webcam-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.webcam-refresh {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  background: none;
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  font-size: 12px;
+  color: var(--color-primary);
+  cursor: pointer;
+  transition: background var(--transition-fast);
+}
+
+.webcam-refresh:hover { background: var(--color-surface); }
+
+.webcam-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.webcam-card {
+  margin: 0;
+  border-radius: 14px;
+  overflow: hidden;
+  background: var(--color-surface-raised);
+  border: 1px solid var(--color-border);
+}
+
+.webcam-frame {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border: none;
+  background: #1a1a1a;
+}
+
+.webcam-youtube-poster {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.webcam-play-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.65);
+  color: #fff;
+  font-size: 13px;
+}
+
+.webcam-link-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  aspect-ratio: auto;
+  padding: 18px 12px;
+  font-size: 13px;
+  color: var(--color-primary);
+  text-decoration: none;
+  background: var(--color-surface);
+}
+
+.webcam-card figcaption {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 8px 10px;
+}
+
+.webcam-card figcaption strong { font-size: 13px; }
+
+.webcam-card figcaption span {
+  font-size: 11px;
+  color: var(--color-text-muted);
+}
+
+.webcam-disclaimer {
+  display: block;
+  margin-top: 8px;
+  font-size: 11px;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}
+
 .restaurant-card {
   display: flex;
   align-items: center;
