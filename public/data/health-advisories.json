@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-10T07:58:52.898Z",
+  "generatedAt": "2026-07-11T06:35:28.750Z",
   "sourcePolicy": "Only government public data and official Ministry of Health and Welfare / Taiwan CDC sources are allowed. Do not generate medical claims with AI.",
   "syncStatus": {
     "cdc": {
@@ -60,7 +60,7 @@
         "name": "急診傳染病監測統計-腸病毒",
         "agency": "衛生福利部疾病管制署",
         "url": "http://od.cdc.gov.tw/eic/RODS_EnteroviralInfection.json",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "2026-26"
       },
       "evidence": "最新週 2026-26：300，前 5 週中位數：192，倍數：1.56。",
@@ -113,7 +113,7 @@
         "name": "兒童發展篩檢服務",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/List.aspx?nodeid=4856",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "國健署公開資訊"
       },
       "evidence": "國健署公開資訊列出未滿7歲兒童新增6次兒童發展篩檢服務，服務項目包含粗大動作、精細動作、語言認知、社會發展。",
@@ -141,7 +141,7 @@
         "name": "兒童健康手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1139",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "兒童健康手冊"
       },
       "evidence": "國健署兒童健康手冊提供兒童發展、預防接種、緊急狀況處理與衛教資料等章節。",
@@ -169,7 +169,7 @@
         "name": "兒童衛教手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "兒童衛教手冊"
       },
       "evidence": "國健署兒童衛教手冊提供家長及主要照顧者育兒保健資訊，包含嬰兒照護、副食品、營養與預防事故傷害。",
@@ -197,7 +197,7 @@
         "name": "兒童衛教手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "兒童衛教手冊"
       },
       "evidence": "國健署兒童衛教手冊包含副食品添加、嬰幼兒與兒童期營養等育兒保健資訊。",
@@ -225,7 +225,7 @@
         "name": "兒童健康手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1139",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "兒童健康手冊"
       },
       "evidence": "依國健署兒童健康手冊與兒童衛教資料整理，提醒家長出遊前觀察孩子狀態。",
@@ -253,7 +253,7 @@
         "name": "兒童衛教手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "兒童衛教手冊"
       },
       "evidence": "依國健署兒童衛教手冊之兒童照護與營養主題整理。",
@@ -281,7 +281,7 @@
         "name": "兒童衛教手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "兒童衛教手冊"
       },
       "evidence": "依國健署兒童衛教手冊嬰幼兒照護主題整理。",
@@ -309,7 +309,7 @@
         "name": "兒童衛教手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "兒童衛教手冊"
       },
       "evidence": "依國健署兒童衛教手冊嬰幼兒照護與安全睡眠主題整理。",
@@ -337,7 +337,7 @@
         "name": "兒童衛教手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "兒童衛教手冊"
       },
       "evidence": "依國健署兒童衛教手冊嬰幼兒餵食與照護主題整理。",
@@ -365,7 +365,7 @@
         "name": "兒童發展篩檢服務",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/List.aspx?nodeid=4856",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "兒童發展篩檢服務"
       },
       "evidence": "依國健署兒童發展篩檢服務項目整理。",
@@ -393,7 +393,7 @@
         "name": "兒童健康手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1139",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "兒童健康手冊"
       },
       "evidence": "依國健署兒童健康手冊兒童安全與照護概念整理。",
@@ -421,7 +421,7 @@
         "name": "兒童發展篩檢服務",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/List.aspx?nodeid=4856",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "兒童發展篩檢服務"
       },
       "evidence": "依國健署兒童發展篩檢服務語言認知與社會發展面向整理。",
@@ -449,7 +449,7 @@
         "name": "兒童衛教手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "兒童衛教手冊"
       },
       "evidence": "依國健署兒童衛教手冊兒童照護與親子互動主題整理。",
@@ -477,7 +477,7 @@
         "name": "兒童衛教手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "兒童衛教手冊"
       },
       "evidence": "依國健署兒童衛教手冊兒童照護與日常活動主題整理。",
@@ -505,7 +505,7 @@
         "name": "兒童健康手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1139",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "兒童健康手冊"
       },
       "evidence": "依國健署兒童健康手冊兒童事故傷害預防概念整理。",
@@ -533,7 +533,7 @@
         "name": "兒童健康手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1139",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "兒童健康手冊"
       },
       "evidence": "依國健署兒童健康手冊兒童安全與事故傷害預防概念整理。",
@@ -561,7 +561,7 @@
         "name": "兒童健康手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1139",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "兒童健康手冊"
       },
       "evidence": "依國健署兒童健康手冊事故傷害預防主題整理。",
@@ -589,7 +589,7 @@
         "name": "疾病管制署資料開放平台",
         "agency": "衛生福利部疾病管制署",
         "url": "https://data.cdc.gov.tw/zh_TW/pages/developer",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "疾管署開放資料監測"
       },
       "evidence": "依疾管署腸病毒與類流感開放資料監測主題，搭配兒童外出清潔情境整理。",
@@ -617,7 +617,7 @@
         "name": "疾病管制署資料開放平台",
         "agency": "衛生福利部疾病管制署",
         "url": "https://data.cdc.gov.tw/zh_TW/pages/developer",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "腸病毒急診監測資料"
       },
       "evidence": "依疾管署腸病毒急診監測開放資料與親子室內活動情境整理。",
@@ -645,7 +645,7 @@
         "name": "疾病管制署資料開放平台",
         "agency": "衛生福利部疾病管制署",
         "url": "https://data.cdc.gov.tw/zh_TW/pages/developer",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "類流感急診監測資料"
       },
       "evidence": "依疾管署類流感急診監測開放資料與室內活動情境整理。",
@@ -673,7 +673,7 @@
         "name": "疾病管制署資料開放平台",
         "agency": "衛生福利部疾病管制署",
         "url": "https://data.cdc.gov.tw/zh_TW/pages/developer",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "疾管署開放資料監測"
       },
       "evidence": "依疾管署急診傳染病監測資料與兒童出遊情境整理。",
@@ -701,7 +701,7 @@
         "name": "兒童健康手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1139",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "兒童健康手冊"
       },
       "evidence": "依國健署兒童健康手冊安全照護概念，延伸到雨天親子出遊情境。",
@@ -729,7 +729,7 @@
         "name": "兒童衛教手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "兒童衛教手冊"
       },
       "evidence": "依國健署兒童衛教手冊兒童照護與營養補水概念整理。",
@@ -757,7 +757,7 @@
         "name": "兒童健康手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1139",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "兒童健康手冊"
       },
       "evidence": "依國健署兒童健康手冊兒童安全與日常照護概念整理。",
@@ -785,7 +785,7 @@
         "name": "兒童健康手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1139",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "兒童健康手冊"
       },
       "evidence": "依國健署兒童健康手冊兒童照護與外出安全概念整理。",
@@ -813,7 +813,7 @@
         "name": "兒童健康手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1139",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "兒童健康手冊"
       },
       "evidence": "依國健署兒童健康手冊兒童外出照護與安全概念整理。",
@@ -841,7 +841,7 @@
         "name": "兒童衛教手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "兒童衛教手冊"
       },
       "evidence": "依國健署兒童衛教手冊兒童營養與日常照護概念整理。",
@@ -869,7 +869,7 @@
         "name": "兒童衛教手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "兒童衛教手冊"
       },
       "evidence": "依國健署兒童衛教手冊兒童營養與照護概念整理。",
@@ -897,7 +897,7 @@
         "name": "兒童衛教手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "兒童衛教手冊"
       },
       "evidence": "依國健署兒童衛教手冊兒童照護與親子互動概念整理。",
@@ -930,7 +930,7 @@
         "name": "兒童衛教手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "兒童衛教手冊"
       },
       "evidence": "依國健署兒童衛教手冊親子互動與兒童照護概念整理。",
@@ -958,7 +958,7 @@
         "name": "兒童健康手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1139",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "兒童健康手冊"
       },
       "evidence": "依國健署兒童健康手冊兒童外出照護與安全概念整理。",
@@ -986,7 +986,7 @@
         "name": "兒童健康手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1139",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "兒童健康手冊"
       },
       "evidence": "依國健署兒童健康手冊兒童安全與事故傷害預防概念整理。",
@@ -1014,7 +1014,7 @@
         "name": "兒童衛教手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "兒童衛教手冊"
       },
       "evidence": "依國健署兒童衛教手冊兒童照護與親子互動概念整理。",
@@ -1042,7 +1042,7 @@
         "name": "疾病管制署資料開放平台",
         "agency": "衛生福利部疾病管制署",
         "url": "https://data.cdc.gov.tw/zh_TW/pages/developer",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "疾管署開放資料監測"
       },
       "evidence": "依疾管署急診傳染病監測資料與兒童外出清潔情境整理。",
@@ -1070,7 +1070,7 @@
         "name": "兒童衛教手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "兒童衛教手冊"
       },
       "evidence": "依國健署兒童衛教手冊家庭照護與兒童安全概念整理。",
@@ -1098,7 +1098,7 @@
         "name": "兒童衛教手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "兒童衛教手冊"
       },
       "evidence": "依國健署兒童衛教手冊兒童日常照護與親子互動概念整理。",
@@ -1126,7 +1126,7 @@
         "name": "兒童衛教手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1459",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "兒童衛教手冊"
       },
       "evidence": "依國健署兒童衛教手冊親子互動與兒童照護概念整理。",
@@ -1154,7 +1154,7 @@
         "name": "兒童健康手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1139",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "兒童健康手冊"
       },
       "evidence": "依國健署兒童健康手冊兒童外出照護與安全概念整理。",
@@ -1182,7 +1182,7 @@
         "name": "兒童健康手冊",
         "agency": "衛生福利部國民健康署",
         "url": "https://www.hpa.gov.tw/Pages/EBook.aspx?nodeid=1139",
-        "fetchedAt": "2026-07-10T07:58:52.898Z",
+        "fetchedAt": "2026-07-11T06:35:28.750Z",
         "dataPeriod": "兒童健康手冊"
       },
       "evidence": "依國健署兒童健康手冊外出安全照護概念整理。",
