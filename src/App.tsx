@@ -389,7 +389,8 @@ function App() {
   const [mobileMapInteractive, setMobileMapInteractive] = useState(false)
   const [osmRestaurants, setOsmRestaurants] = useState<Place[]>([])
   const [osmRestaurantsLoaded, setOsmRestaurantsLoaded] = useState(false)
-  const viewportRequestRegion = useRef<RegionName | null>(null)
+  // 目前地圖視野對應的資料請求 key（涵蓋的分區組合），用來丟棄過期的載入結果
+  const viewportRequestRegion = useRef<string | null>(null)
   const mapViewportSyncTimer = useRef<number | null>(null)
   const lastViewportWeatherRegion = useRef<RegionName | null>(null)
   const autoLoadedLocationRegion = useRef(false)
@@ -639,76 +640,91 @@ function App() {
     }
 
     mapViewportSyncTimer.current = window.setTimeout(() => {
-      const debouncedRegion = regionFromCoordinate(nextViewport.center)
-      if (!debouncedRegion) {
+      // 只看中心點會在分區交界出錯：資料依縣市分檔（嘉義＝南部），但座標判區是直線緯度
+      // （lat 23.45），嘉義市整區都在線的「中部」側，中心在蘭潭時就載不到南部檔的景點。
+      // 因此取樣視野四角＋四邊中點，並外擴 0.2°（約 22 km，涵蓋縣市界與緯度線的最大錯位帶），
+      // 把視野附近的分區全部載入合併。
+      const { center, bounds } = nextViewport
+      const pad = 0.2
+      const north = bounds.north + pad
+      const south = bounds.south - pad
+      const east = bounds.east + pad
+      const west = bounds.west - pad
+      const midLat = (north + south) / 2
+      const midLng = (east + west) / 2
+      const samplePoints = [
+        center,
+        { lat: north, lng: west },
+        { lat: north, lng: east },
+        { lat: south, lng: west },
+        { lat: south, lng: east },
+        { lat: north, lng: midLng },
+        { lat: south, lng: midLng },
+        { lat: midLat, lng: west },
+        { lat: midLat, lng: east },
+      ]
+      const visibleRegions = [...new Set(
+        samplePoints
+          .map(regionFromCoordinate)
+          .filter((item): item is RegionName => item !== null),
+      )]
+      if (!visibleRegions.length) {
         viewportRequestRegion.current = null
         setLocationMessage('地圖已移到資料範圍外，請移回臺灣附近。')
         return
       }
 
-      viewportRequestRegion.current = debouncedRegion
-      if (region !== debouncedRegion) {
-        setRegion(debouncedRegion)
+      const primaryRegion = regionFromCoordinate(center) ?? visibleRegions[0]
+      const requestKey = visibleRegions.join('+')
+      const alreadyApplied = viewportRequestRegion.current === requestKey && placesStatus === 'ready'
+      viewportRequestRegion.current = requestKey
+      if (region !== primaryRegion) {
+        setRegion(primaryRegion)
       }
 
-      if (lastViewportWeatherRegion.current !== debouncedRegion) {
-        lastViewportWeatherRegion.current = debouncedRegion
-        loadWeather(nextViewport.center.lat, nextViewport.center.lng, () => viewportRequestRegion.current === debouncedRegion)
+      if (lastViewportWeatherRegion.current !== primaryRegion) {
+        lastViewportWeatherRegion.current = primaryRegion
+        loadWeather(center.lat, center.lng, () => viewportRequestRegion.current === requestKey)
       }
 
-      const cached = placeCache[debouncedRegion]
-      if (cached) {
-        if (region !== debouncedRegion || placesStatus !== 'ready') {
-          setPlaces(cached)
-          setPlacesStatus('ready')
-        }
-        return
+      if (alreadyApplied) return
+
+      if (visibleRegions.some((item) => !placeCache[item])) {
+        setPlacesStatus('loading')
       }
-
-      if (region === debouncedRegion && placesStatus === 'ready') return
-
-      setPlacesStatus('loading')
-      void regionLoaders[debouncedRegion]()
-        .then((loaded) => {
-          setPlaceCache((current) => ({ ...current, [debouncedRegion]: loaded }))
-          if (viewportRequestRegion.current !== debouncedRegion) return
-          setPlaces(loaded)
+      void Promise.all(
+        visibleRegions.map(async (item) => ({
+          region: item,
+          loaded: placeCache[item] ?? await regionLoaders[item](),
+          fromCache: Boolean(placeCache[item]),
+        })),
+      )
+        .then((results) => {
+          const fetched = results.filter((result) => !result.fromCache)
+          if (fetched.length) {
+            setPlaceCache((current) => {
+              const next = { ...current }
+              for (const result of fetched) next[result.region] = result.loaded
+              return next
+            })
+          }
+          if (viewportRequestRegion.current !== requestKey) return
+          const seen = new Set<string>()
+          const merged: Place[] = []
+          for (const result of results) {
+            for (const place of result.loaded) {
+              if (seen.has(place.id)) continue
+              seen.add(place.id)
+              merged.push(place)
+            }
+          }
+          setPlaces(merged)
           setPlacesStatus('ready')
         })
         .catch(() => {
-          if (viewportRequestRegion.current === debouncedRegion) setPlacesStatus('error')
+          if (viewportRequestRegion.current === requestKey) setPlacesStatus('error')
         })
     }, MAP_VIEWPORT_SYNC_DELAY)
-    return
-    const nextRegion = regionFromCoordinate(nextViewport.center) as RegionName
-    if (!nextRegion) {
-      setLocationMessage('地圖已移到資料範圍外，請移回臺灣附近。')
-      return
-    }
-
-    viewportRequestRegion.current = nextRegion
-    setRegion(nextRegion)
-    setLocationMessage(`已依地圖中心載入${nextRegion}景點，拖曳或縮放可繼續探索。`)
-    loadWeather(nextViewport.center.lat, nextViewport.center.lng, () => viewportRequestRegion.current === nextRegion)
-
-    const cached = placeCache[nextRegion] as Place[] | undefined
-    if (cached) {
-      setPlaces(cached!)
-      setPlacesStatus('ready')
-      return
-    }
-
-    setPlacesStatus('loading')
-    void regionLoaders[nextRegion]()
-      .then((loaded) => {
-        setPlaceCache((current) => ({ ...current, [nextRegion]: loaded }))
-        if (viewportRequestRegion.current !== nextRegion) return
-        setPlaces(loaded)
-        setPlacesStatus('ready')
-      })
-      .catch(() => {
-        if (viewportRequestRegion.current === nextRegion) setPlacesStatus('error')
-      })
   }, [placeCache, placesStatus, region, loadWeather, setLocationMessage, setPlaceCache, setPlaces, setPlacesStatus, setRegion])
 
   useEffect(() => {
