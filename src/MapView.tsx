@@ -187,6 +187,11 @@ function TrackMapViewport({
     },
   })
 
+  // 開發模式暴露 map 實例，讓自動化測試可以模擬拖曳（fire('dragstart') 後 setView）
+  if (import.meta.env.DEV) {
+    (window as unknown as { __leafletMap?: unknown }).__leafletMap = map
+  }
+
   return null
 }
 
