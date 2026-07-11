@@ -95,7 +95,8 @@ export function NearbyWebcams({ anchor }: Props) {
   const [tick, setTick] = useState(() => Date.now())
 
   useEffect(() => {
-    fetchPublicJson<WebcamDataset>('data/webcams.json')
+    // 監視器清單每天更新、串流網址會失效，不能用 force-cache 無限期快取
+    fetchPublicJson<WebcamDataset>('data/webcams.json', { cache: 'default' })
       .then((dataset) => setWebcams(dataset.webcams ?? []))
       .catch(() => {/* silent：沒有資料就不顯示區塊 */})
   }, [])

@@ -28,6 +28,26 @@ const TDX_SOURCES = [
     agency: '交通部公路局',
     url: 'https://tdx.transportdata.tw/api/basic/v2/Road/Traffic/CCTV/Highway?%24format=JSON',
   },
+  // 離島沒有國道/省道 CCTV，補抓縣市監視器；這幾縣不一定有上架 TDX，
+  // optional 來源抓不到不會讓同步失敗
+  {
+    prefix: 'city-penghu',
+    agency: '澎湖縣政府',
+    url: 'https://tdx.transportdata.tw/api/basic/v2/Road/Traffic/CCTV/City/PenghuCounty?%24format=JSON',
+    optional: true,
+  },
+  {
+    prefix: 'city-kinmen',
+    agency: '金門縣政府',
+    url: 'https://tdx.transportdata.tw/api/basic/v2/Road/Traffic/CCTV/City/KinmenCounty?%24format=JSON',
+    optional: true,
+  },
+  {
+    prefix: 'city-lienchiang',
+    agency: '連江縣政府',
+    url: 'https://tdx.transportdata.tw/api/basic/v2/Road/Traffic/CCTV/City/LienchiangCounty?%24format=JSON',
+    optional: true,
+  },
 ]
 
 const PLACE_FILES = [
@@ -226,12 +246,12 @@ async function syncTdxWebcams(previousWebcams) {
       )
       const items = Array.isArray(payload) ? payload : payload?.CCTVs ?? []
       const normalized = items.map((item) => normalizeTdxCctv(item, source)).filter(Boolean)
-      if (!normalized.length) throw new Error(`no usable CCTV entries (raw: ${items.length})`)
+      if (!normalized.length && !source.optional) throw new Error(`no usable CCTV entries (raw: ${items.length})`)
       webcams.push(...normalized)
       status[source.prefix] = { ok: true, raw: items.length, kept: normalized.length }
     } catch (error) {
       const reused = previousWebcams.filter((cam) => cam.id.startsWith(`${source.prefix}-`))
-      if (!reused.length && IS_CI) throw error
+      if (!reused.length && IS_CI && !source.optional) throw error
       console.warn(`[webcams] TDX ${source.prefix} failed (${error.message}); reusing ${reused.length} previous entries.`)
       webcams.push(...reused)
       status[source.prefix] = { ok: false, error: error.message, reused: reused.length }

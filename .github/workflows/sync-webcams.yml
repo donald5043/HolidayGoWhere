@@ -64,5 +64,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add public/data/webcams.json
-          git commit -m "data: auto-sync webcams [skip ci]"
+          # 不加 [skip ci]：資料更新後需要觸發 Pages 重新部署，網站才拿得到新清單
+          git commit -m "data: auto-sync webcams"
           git push
