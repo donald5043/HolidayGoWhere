@@ -139,14 +139,20 @@ function normalizeTdxCctv(item, source) {
   if (lat < TAIWAN_BBOX.minLat || lat > TAIWAN_BBOX.maxLat) return null
   if (lng < TAIWAN_BBOX.minLng || lng > TAIWAN_BBOX.maxLng) return null
 
-  // 優先用快照圖，其次用可直接放進 <img> 的 mjpeg 串流；
+  // imageUrl = 靜態快照（低流量、預設顯示），streamUrl = mjpeg 直播（點擊才播）；
   // GitHub Pages 是 https，http 影像會被瀏覽器擋掉，直接略過
-  const imageUrl = isHttpsUrl(item.VideoImageURL) ? item.VideoImageURL : null
-  const streamUrl = isHttpsUrl(item.VideoStreamURL) ? item.VideoStreamURL : null
-  const displayUrl = imageUrl || streamUrl
-  if (!displayUrl) return null
-  // m3u8/mpd/rtsp 需要額外播放器，MVP 先略過
-  if (/\.m3u8|\.mpd|^rtsp:/i.test(displayUrl)) return null
+  let imageUrl = isHttpsUrl(item.VideoImageURL) ? item.VideoImageURL : null
+  let streamUrl = isHttpsUrl(item.VideoStreamURL) ? item.VideoStreamURL : null
+  // m3u8/mpd/rtsp 需要額外播放器，先不用
+  if (streamUrl && /\.m3u8|\.mpd|^rtsp:/i.test(streamUrl)) streamUrl = null
+  // 公路局 TDX 給的串流主機常和快照不同且會 404，快照網址去掉 /snapshot 才是可靠的串流位置
+  if (imageUrl?.endsWith('/snapshot')) streamUrl = imageUrl.slice(0, -'/snapshot'.length)
+  // 高公局只有 mjpeg，會被誤填進 VideoImageURL 的情況也修正回 streamUrl
+  if (imageUrl && /bmjpg|mjpg|mjpeg/i.test(imageUrl)) {
+    streamUrl = streamUrl || imageUrl
+    imageUrl = null
+  }
+  if (!imageUrl && !streamUrl) return null
 
   const id = `${source.prefix}-${String(item.CCTVID || '').trim()}`
   if (id === `${source.prefix}-`) return null
@@ -157,7 +163,8 @@ function normalizeTdxCctv(item, source) {
     lat: Number(lat.toFixed(5)),
     lng: Number(lng.toFixed(5)),
     kind: 'image',
-    imageUrl: displayUrl,
+    imageUrl: imageUrl || undefined,
+    streamUrl: streamUrl || undefined,
     road: String(item.RoadName || '').trim() || undefined,
     source: source.agency,
   }
