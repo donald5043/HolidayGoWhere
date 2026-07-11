@@ -231,8 +231,10 @@ export type Webcam = {
   lat: number
   lng: number
   kind: WebcamKind
-  /** kind = image：可直接放進 <img> 的快照或 mjpeg 串流網址 */
+  /** kind = image：靜態快照網址（單張 jpg） */
   imageUrl?: string
+  /** kind = image：mjpeg 即時串流網址（點擊看直播用） */
+  streamUrl?: string
   /** kind = youtube：官方直播影片 ID */
   youtubeId?: string
   /** 官方頁面連結（youtube / link 的備援與外開入口） */

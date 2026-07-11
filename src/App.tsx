@@ -63,6 +63,7 @@ import { MapView, type MapViewport } from './MapView'
 import { WeekendDiscovery } from './components/WeekendDiscovery'
 import { supabase } from './lib/supabase'
 import { getDeviceId } from './lib/deviceId'
+import { CollapsibleSection } from './components/CollapsibleSection'
 import { NearbyRestaurants } from './components/NearbyRestaurants'
 import { NearbyWebcams } from './components/NearbyWebcams'
 import { PackingList } from './components/PackingList'
@@ -2058,57 +2059,45 @@ function App() {
                   {selected.eventEnd && ` 至 ${new Date(selected.eventEnd).toLocaleDateString('zh-TW')}`}
                 </div>
               )}
-              {selected.placeType !== '餐飲' && (
-                <NearbyRestaurants allPlaces={places} anchor={selected} onOpen={openPlace} />
-              )}
-              <NearbyWebcams anchor={selected} />
-              {selected.completeness && (
-                <div className="completeness-panel">
-                  <div>
-                    <strong>資訊完整度 {selected.completeness.score}%</strong>
-                    <span>資料更新：{selected.updatedAt ? new Date(selected.updatedAt).toLocaleDateString('zh-TW') : '未提供'}</span>
-                  </div>
-                  {selected.completeness.missing.length > 0 && (
-                    <small>尚缺：{selected.completeness.missing.join('、')}</small>
-                  )}
-                </div>
-              )}
-              {aiInsights[selected.id] && (
-                <div className="ai-insight">
-                  <div className="ai-heading">
-                    <span><Bot size={18} />AI 親子摘要</span>
-                    <small>本機 AI 整理</small>
-                  </div>
-                  <p>{aiInsights[selected.id].summary || aiInsights[selected.id].familySummary}</p>
-                  <div className="ai-badges">
-                    <span>雨天：{aiInsights[selected.id].rainyDay || aiInsights[selected.id].rainyDayTip || '未確認'}</span>
-                    <span>推車：{aiInsights[selected.id].stroller || '未確認'}</span>
-                  </div>
-                  <ul>
-                    {(aiInsights[selected.id].whyForKids || aiInsights[selected.id].parentFriendlyTags || []).map((item) => <li key={item}>{item}</li>)}
-                  </ul>
-                  {(aiInsights[selected.id].tips?.length || 0) > 0 && (
-                    <div className="ai-tip">行前提醒：{aiInsights[selected.id].tips?.join('；')}</div>
-                  )}
-                  <small className="ai-disclaimer">AI 根據官方開放資料整理，實際資訊請以官方網站為準。</small>
-                </div>
-              )}
-              <div className="info-list">
-                <div><MapPin /><span><small>地址</small>{selected.address}</span></div>
-                <div><Clock3 /><span><small>開放時間</small>{selected.hours}</span></div>
-                <div><Baby /><span><small>適合年齡</small>{selected.ageMin}–{selected.ageMax} 歲・{selected.setting}・{selected.duration}</span></div>
-                <div><Ticket /><span><small>票價</small>{selected.priceLabel}</span></div>
-                <div><Database /><span><small>資料來源</small>{selected.dataSource}</span></div>
-              </div>
               <div className="detail-section">
                 <h3>孩子會喜歡</h3>
                 <div className="highlight-grid">
                   {selected.highlights.map((item) => <span key={item}><Star size={10} /> {item}</span>)}
                 </div>
               </div>
+              <div className="info-list">
+                <div><MapPin /><span><small>地址</small>{selected.address}</span></div>
+                <div><Clock3 /><span><small>開放時間</small>{selected.hours}</span></div>
+                <div><Baby /><span><small>適合年齡</small>{selected.ageMin}–{selected.ageMax} 歲・{selected.setting}・{selected.duration}</span></div>
+                <div><Ticket /><span><small>票價</small>{selected.priceLabel}</span></div>
+              </div>
+              <a className="maps-cta" href={selected.mapsUrl} target="_blank" rel="noreferrer">
+                <Navigation size={19} />在 Google 地圖查看路線
+              </a>
+              <NearbyWebcams anchor={selected} />
               <PackingList place={selected} weather={weather} />
-              <div className="detail-section">
-                <h3>親子友善設施</h3>
+              {selected.placeType !== '餐飲' && (
+                <NearbyRestaurants allPlaces={places} anchor={selected} onOpen={openPlace} />
+              )}
+              {aiInsights[selected.id] && (
+                <CollapsibleSection icon={<Bot size={16} />} title="AI 親子摘要" hint="本機 AI 整理">
+                  <div className="ai-insight">
+                    <p>{aiInsights[selected.id].summary || aiInsights[selected.id].familySummary}</p>
+                    <div className="ai-badges">
+                      <span>雨天：{aiInsights[selected.id].rainyDay || aiInsights[selected.id].rainyDayTip || '未確認'}</span>
+                      <span>推車：{aiInsights[selected.id].stroller || '未確認'}</span>
+                    </div>
+                    <ul>
+                      {(aiInsights[selected.id].whyForKids || aiInsights[selected.id].parentFriendlyTags || []).map((item) => <li key={item}>{item}</li>)}
+                    </ul>
+                    {(aiInsights[selected.id].tips?.length || 0) > 0 && (
+                      <div className="ai-tip">行前提醒：{aiInsights[selected.id].tips?.join('；')}</div>
+                    )}
+                    <small className="ai-disclaimer">AI 根據官方開放資料整理，實際資訊請以官方網站為準。</small>
+                  </div>
+                </CollapsibleSection>
+              )}
+              <CollapsibleSection icon={<Accessibility size={16} />} title="親子友善設施與停車">
                 {selected.familyAmenities && (
                   <>
                     <div className="amenity-grid">
@@ -2162,9 +2151,13 @@ function App() {
                     <span>{selected.familyAmenities.parkingInfo}</span>
                   </div>
                 )}
-              </div>
-              <div className="detail-section">
-                <h3>爸媽最近回報</h3>
+              </CollapsibleSection>
+              <CollapsibleSection
+                icon={<NotebookPen size={16} />}
+                title="爸媽回報與真實分享"
+                hint={reports[selected.id] ? '已回報' : undefined}
+              >
+                <h4 className="collapsible-subheading">最近回報</h4>
                 {reports[selected.id] ? (
                   <div className="parent-report-summary">
                     <div>
@@ -2195,22 +2188,41 @@ function App() {
                     onSave={saveReport}
                   />
                 )}
-              </div>
-              <div className="detail-section">
-                <h3>爸媽真實分享</h3>
-                <div className="source-list">
-                  {selected.sources.map((source) => (
-                    <a href={source.url} target="_blank" rel="noreferrer" key={source.url}>
-                      {source.type === 'Instagram' ? <Instagram /> : <ExternalLink />}
-                      <span><small>{source.type}</small>{source.label}</span>
-                      <ExternalLink size={15} />
-                    </a>
-                  ))}
+                {selected.sources.length > 0 && (
+                  <>
+                    <h4 className="collapsible-subheading">部落格與 Instagram 分享</h4>
+                    <div className="source-list">
+                      {selected.sources.map((source) => (
+                        <a href={source.url} target="_blank" rel="noreferrer" key={source.url}>
+                          {source.type === 'Instagram' ? <Instagram /> : <ExternalLink />}
+                          <span><small>{source.type}</small>{source.label}</span>
+                          <ExternalLink size={15} />
+                        </a>
+                      ))}
+                    </div>
+                  </>
+                )}
+              </CollapsibleSection>
+              <CollapsibleSection
+                icon={<Database size={16} />}
+                title="資料來源與完整度"
+                hint={selected.completeness ? `完整度 ${selected.completeness.score}%` : undefined}
+              >
+                {selected.completeness && (
+                  <div className="completeness-panel">
+                    <div>
+                      <strong>資訊完整度 {selected.completeness.score}%</strong>
+                      <span>資料更新：{selected.updatedAt ? new Date(selected.updatedAt).toLocaleDateString('zh-TW') : '未提供'}</span>
+                    </div>
+                    {selected.completeness.missing.length > 0 && (
+                      <small>尚缺：{selected.completeness.missing.join('、')}</small>
+                    )}
+                  </div>
+                )}
+                <div className="info-list">
+                  <div><Database /><span><small>資料來源</small>{selected.dataSource}</span></div>
                 </div>
-              </div>
-              <a className="maps-cta" href={selected.mapsUrl} target="_blank" rel="noreferrer">
-                <Navigation size={19} />在 Google 地圖查看路線
-              </a>
+              </CollapsibleSection>
             </div>
           </aside>
         </div>

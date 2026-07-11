@@ -39,7 +39,9 @@ jobs:
             !cam.name ||
             !Number.isFinite(cam.lat) ||
             !Number.isFinite(cam.lng) ||
-            (cam.kind === 'image' && !String(cam.imageUrl || '').startsWith('https://')) ||
+            (cam.kind === 'image' &&
+              !String(cam.imageUrl || '').startsWith('https://') &&
+              !String(cam.streamUrl || '').startsWith('https://')) ||
             (cam.kind === 'youtube' && !cam.youtubeId) ||
             (cam.kind === 'link' && !String(cam.pageUrl || '').startsWith('https://'))
           )

@@ -3,6 +3,7 @@ import { Utensils } from 'lucide-react'
 import type { Place, RestaurantCategory } from '../data'
 import { fetchPublicJson } from '../lib/fetchPublicJson'
 import { classifyRestaurant, categoryPriority, CATEGORY_LABEL } from '../services/restaurantClassifier'
+import { CollapsibleSection } from './CollapsibleSection'
 import { RestaurantCard } from './RestaurantCard'
 
 function haversineKm(from: { lat: number; lng: number }, to: { lat: number; lng: number }): number {
@@ -158,8 +159,12 @@ export function NearbyRestaurants({ allPlaces, anchor, onOpen }: Props) {
   const hiddenCount = totalCount - restaurants.length
 
   return (
-    <div className="detail-section nearby-restaurants-section">
-      <h3><Utensils size={15} /> 附近餐廳</h3>
+    <CollapsibleSection
+      icon={<Utensils size={16} />}
+      title="附近餐廳"
+      hint={totalCount > 0 ? `${radiusKm} km 內 ${totalCount} 間` : undefined}
+      className="nearby-restaurants-section"
+    >
       {filterRow}
       {radiusRow}
       {restaurants.length === 0 ? (
@@ -189,6 +194,6 @@ export function NearbyRestaurants({ allPlaces, anchor, onOpen }: Props) {
           )}
         </>
       )}
-    </div>
+    </CollapsibleSection>
   )
 }

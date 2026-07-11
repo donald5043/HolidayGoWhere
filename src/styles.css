@@ -6559,14 +6559,114 @@ body.map-expanded-lock .bottom-nav {
 
 .nearby-show-more:hover { background: var(--color-surface); }
 
-.nearby-webcams-section h3 { margin: 0; font-size: 15px; }
+/* 詳情頁收合區塊，視覺沿用 packing-list 卡片樣式 */
+.collapsible-section {
+  padding: 0 !important;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1.5px solid var(--color-border);
+}
 
-.webcam-heading {
+.collapsible-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 13px 16px;
+  border: 0;
+  background: var(--color-surface);
+  cursor: pointer;
+  text-align: left;
+  transition: background var(--transition-fast);
+}
+
+.collapsible-toggle:hover { background: var(--color-surface-soft); }
+
+.collapsible-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.collapsible-meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--color-muted);
+  flex-shrink: 0;
+}
+
+.collapsible-hint {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 8px;
+  background: var(--color-surface-soft);
+}
+
+.collapsible-body {
+  border-top: 1.5px solid var(--color-border);
+  padding: 12px 14px 14px;
+  background: var(--color-surface-soft);
+}
+
+.collapsible-subheading {
+  margin: 0 0 8px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--color-muted);
+}
+
+.collapsible-subheading:not(:first-child) { margin-top: 14px; }
+
+.webcam-toolbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 8px;
   margin-bottom: 8px;
+  font-size: 11px;
+  color: var(--color-muted);
+}
+
+.webcam-empty {
+  margin: 0;
+  font-size: 13px;
+  color: var(--color-muted);
+}
+
+.webcam-frame-toggle {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.webcam-live-badge {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 9px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  pointer-events: none;
+}
+
+.webcam-live-badge.is-live {
+  background: rgba(220, 38, 38, 0.9);
 }
 
 .webcam-refresh {
