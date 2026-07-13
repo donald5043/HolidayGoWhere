@@ -16,10 +16,19 @@ function haversineKm(from: { lat: number; lng: number }, to: { lat: number; lng:
   return R * 2 * Math.asin(Math.sqrt(a))
 }
 
-const RADIUS_KM = 10
+// 風景區官方實況（YouTube 直播、風管處鏡頭）真的照得到景點，半徑放寬；
+// 公路 CCTV 只照得到路面，離景點遠就沒參考價值，半徑收緊且永遠排在實況後面
+const SCENIC_RADIUS_KM = 10
+const ROAD_RADIUS_KM = 4
 const MAX_SHOWN = 3
+const MAX_ROAD_SHOWN = 2
 const SNAPSHOT_REFRESH_MS = 20000
 const LIVE_MAX_MS = 60000
+
+/** 高公局／公路局的路況鏡頭；其餘（seed 風景區、離島縣市）視為現場實況 */
+function isRoadCam(cam: Webcam) {
+  return cam.id.startsWith('freeway-') || cam.id.startsWith('highway-')
+}
 
 // 監視器清單一個 session 只抓一次，之後開任何景點詳情都直接重用
 let webcamsPromise: Promise<Webcam[]> | null = null
@@ -182,7 +191,7 @@ function WebcamFrame({ webcam, tick, isLive, liveStartedAt, onToggleLive, onFail
   )
 }
 
-function WebcamList({ items }: { items: { cam: Webcam; dist: number }[] }) {
+function WebcamList({ items }: { items: { cam: Webcam; dist: number; road: boolean }[] }) {
   const [tick, setTick] = useState(() => Date.now())
   const [failedIds, setFailedIds] = useState<Set<string>>(new Set())
   const [liveId, setLiveId] = useState<string | null>(null)
@@ -242,7 +251,7 @@ function WebcamList({ items }: { items: { cam: Webcam; dist: number }[] }) {
         </button>
       </div>
       <div className="webcam-list">
-        {visible.map(({ cam, dist }) => (
+        {visible.map(({ cam, dist, road }) => (
           <figure key={cam.id} className="webcam-card">
             <WebcamFrame
               webcam={cam}
@@ -254,13 +263,17 @@ function WebcamList({ items }: { items: { cam: Webcam; dist: number }[] }) {
             />
             <figcaption>
               <strong>{cam.name}</strong>
-              <span>距離約 {formatDistance(dist)}・{cam.source}</span>
+              <span>
+                <em className={`webcam-tag${road ? ' is-road' : ''}`}>{road ? '路況' : '現場'}</em>
+                距離約 {formatDistance(dist)}・{cam.source}
+              </span>
             </figcaption>
           </figure>
         ))}
       </div>
       <small className="webcam-disclaimer">
-        影像為公路監視器與官方直播，可能短暫斷線或延遲；直播播放 60 秒後自動停止以節省流量。實際狀況以現場為準。
+        「現場」為風景區官方直播、「路況」為附近公路監視器（照的是路面，僅供出發前參考天氣與車流）；
+        可能短暫斷線或延遲，直播播放 60 秒後自動停止以節省流量。實際狀況以現場為準。
       </small>
     </>
   )
@@ -284,19 +297,20 @@ export function NearbyWebcams({ anchor }: Props) {
   }, [])
 
   const nearby = useMemo(() => {
-    return webcams
-      .map((cam) => ({ cam, dist: haversineKm(anchor, cam) }))
-      .filter(({ dist }) => dist <= RADIUS_KM)
-      .sort((a, b) => a.dist - b.dist)
-      .slice(0, MAX_SHOWN)
+    const scored = webcams.map((cam) => ({ cam, dist: haversineKm(anchor, cam), road: isRoadCam(cam) }))
+    const byDist = (a: { dist: number }, b: { dist: number }) => a.dist - b.dist
+    const scenic = scored.filter((e) => !e.road && e.dist <= SCENIC_RADIUS_KM).sort(byDist)
+    const road = scored.filter((e) => e.road && e.dist <= ROAD_RADIUS_KM).sort(byDist)
+    return [...scenic, ...road.slice(0, MAX_ROAD_SHOWN)].slice(0, MAX_SHOWN)
   }, [webcams, anchor])
 
   if (!nearby.length) return null
 
+  const hasScenic = nearby.some((e) => !e.road)
   return (
     <CollapsibleSection
       icon={<Cctv size={16} />}
-      title="現場天氣即時影像"
+      title={hasScenic ? '現場天氣即時影像' : '沿途路況即時影像'}
       hint={`${nearby.length} 支・最近 ${formatDistance(nearby[0].dist)}`}
     >
       <WebcamList items={nearby} />

@@ -2090,7 +2090,6 @@ function App() {
               <a className="maps-cta" href={selected.mapsUrl} target="_blank" rel="noreferrer">
                 <Navigation size={19} />在 Google 地圖查看路線
               </a>
-              <NearbyWebcams anchor={selected} />
               <PackingList place={selected} weather={weather} />
               {selected.placeType !== '餐飲' && (
                 <NearbyRestaurants allPlaces={places} anchor={selected} onOpen={openPlace} />
@@ -2168,6 +2167,7 @@ function App() {
                   </div>
                 )}
               </CollapsibleSection>
+              <NearbyWebcams anchor={selected} />
               <CollapsibleSection
                 icon={<NotebookPen size={16} />}
                 title="爸媽回報與真實分享"

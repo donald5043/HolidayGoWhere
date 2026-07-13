@@ -6756,6 +6756,23 @@ body.map-expanded-lock .bottom-nav {
   color: var(--color-text-muted);
 }
 
+.webcam-tag {
+  display: inline-block;
+  margin-right: 6px;
+  padding: 1px 6px;
+  border-radius: 999px;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  background: rgba(16, 185, 129, 0.14);
+  color: #059669;
+}
+
+.webcam-tag.is-road {
+  background: rgba(100, 116, 139, 0.16);
+  color: var(--color-text-muted);
+}
+
 .webcam-disclaimer {
   display: block;
   margin-top: 8px;

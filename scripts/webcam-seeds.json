@@ -1,15 +1,1105 @@
 {
-  "note": "人工整理的風景區官方即時影像。kind: youtube = 官方 YouTube 直播（embed 播放）、link = 官方即時影像頁（外開）。新增項目請務必使用官方來源（風管處、觀光署、國家公園），並確認座標。",
+  "note": "官方景點即時影像。seed-twnet-* 來自交通部觀光署即時影像總覽(taiwan.net.tw sNo=0042331);seed-yms/forest/spnp/ktnp/ntpc/fss/wl/ysnp-* 來自各國家公園、林業署、新北觀旅局、退輔會農場官方頁面或頻道,YouTube ID 均經 oembed 驗證。新增項目請務必使用官方來源並確認座標。",
   "webcams": [
     {
-      "id": "seed-alishan-eryanping",
-      "name": "二延平步道（阿里山公路隙頂）",
+      "id": "seed-twnet-24232",
+      "name": "北寮摩西分海",
+      "lat": 23.5979,
+      "lng": 119.67256,
+      "kind": "youtube",
+      "youtubeId": "zgPJbQzlQmw",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=24232",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-24233",
+      "name": "白沙灣",
+      "lat": 25.28431,
+      "lng": 121.5172,
+      "kind": "youtube",
+      "youtubeId": "FbB8WDUXXqU",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=24233",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-24234",
+      "name": "石梯坪",
+      "lat": 23.48868,
+      "lng": 121.51379,
+      "kind": "youtube",
+      "youtubeId": "mXnigLvIL0Q",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=24234",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-24235",
+      "name": "太平雲梯",
+      "lat": 23.5596,
+      "lng": 120.60008,
+      "kind": "youtube",
+      "youtubeId": "dY2cRNr5Buw",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=24235",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-24236",
+      "name": "鯉魚潭",
+      "lat": 23.92783,
+      "lng": 121.50988,
+      "kind": "youtube",
+      "youtubeId": "aaKOV4qkDHw",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=24236",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-24237",
+      "name": "鹿野高台",
+      "lat": 22.91645,
+      "lng": 121.12159,
+      "kind": "youtube",
+      "youtubeId": "rvc1klNIgQc",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=24237",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-24239",
+      "name": "二延平步道",
       "lat": 23.4626,
       "lng": 120.5977,
       "kind": "youtube",
       "youtubeId": "j2L_559nCjc",
-      "pageUrl": "https://www.ali-nsa.net/zh-tw/live-camera",
-      "source": "交通部觀光署阿里山國家風景區管理處"
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=24239",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-24240",
+      "name": "里佳資訊站",
+      "lat": 23.40522,
+      "lng": 120.72061,
+      "kind": "youtube",
+      "youtubeId": "zDt8FBPozZQ",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=24240",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-24241",
+      "name": "牛埔仔大草原",
+      "lat": 23.44366,
+      "lng": 120.59088,
+      "kind": "youtube",
+      "youtubeId": "hMYs60qtkK8",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=24241",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-24242",
+      "name": "三仙台",
+      "lat": 23.12367,
+      "lng": 121.4129,
+      "kind": "youtube",
+      "youtubeId": "dQ7Sd6PGLdA",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=24242",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-24243",
+      "name": "野柳地質公園",
+      "lat": 25.20529,
+      "lng": 121.68993,
+      "kind": "youtube",
+      "youtubeId": "ZjuY4qKaj40",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=24243",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-24244",
+      "name": "都歷遊客中心",
+      "lat": 23.02035,
+      "lng": 121.32496,
+      "kind": "youtube",
+      "youtubeId": "JhQuR77AR7U",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=24244",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-24245",
+      "name": "高美濕地",
+      "lat": 24.31195,
+      "lng": 120.54981,
+      "kind": "youtube",
+      "youtubeId": "fjhg3gAnMFg",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=24245",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-24246",
+      "name": "加路蘭遊憩區",
+      "lat": 22.80851,
+      "lng": 121.19714,
+      "kind": "youtube",
+      "youtubeId": "AKl3F6cAY2Q",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=24246",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-24247",
+      "name": "六十石山",
+      "lat": 23.22092,
+      "lng": 121.31118,
+      "kind": "youtube",
+      "youtubeId": "DliL9uMtPrI",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=24247",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-24248",
+      "name": "赤科山",
+      "lat": 23.39625,
+      "lng": 121.38697,
+      "kind": "youtube",
+      "youtubeId": "5GTFLN9gZrc",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=24248",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-24249",
+      "name": "長虹橋",
+      "lat": 23.46767,
+      "lng": 121.48885,
+      "kind": "youtube",
+      "youtubeId": "JnD8Rk3o0BM",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=24249",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-24250",
+      "name": "觸口遊客中心",
+      "lat": 23.44627,
+      "lng": 120.58526,
+      "kind": "youtube",
+      "youtubeId": "8KnqJBf_dow",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=24250",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-24251",
+      "name": "大石鼻山",
+      "lat": 23.69686,
+      "lng": 121.5509,
+      "kind": "youtube",
+      "youtubeId": "JkoXcXI04Qk",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=24251",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-24252",
+      "name": "南寮漁港",
+      "lat": 22.6601,
+      "lng": 121.47443,
+      "kind": "youtube",
+      "youtubeId": "wTHhv7M0vCI",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=24252",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-24253",
+      "name": "生力農場",
+      "lat": 23.43172,
+      "lng": 120.66434,
+      "kind": "youtube",
+      "youtubeId": "agEzlv9n9Eg",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=24253",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-24254",
+      "name": "柴口浮潛區",
+      "lat": 22.67664,
+      "lng": 121.48288,
+      "kind": "youtube",
+      "youtubeId": "a8nJQr5rBGs",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=24254",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-24255",
+      "name": "和平島",
+      "lat": 25.16063,
+      "lng": 121.76385,
+      "kind": "youtube",
+      "youtubeId": "g-T8NbF9xlQ",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=24255",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-24349",
+      "name": "桃花心木步道",
+      "lat": 22.89064,
+      "lng": 120.62234,
+      "kind": "youtube",
+      "youtubeId": "1pEeAYM0C_w",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=24349",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-24350",
+      "name": "屏東平原眺景",
+      "lat": 22.67569,
+      "lng": 120.70812,
+      "kind": "youtube",
+      "youtubeId": "iW2P7TM9SaY",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=24350",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-24518",
+      "name": "井仔腳瓦盤鹽田",
+      "lat": 23.25883,
+      "lng": 120.10757,
+      "kind": "youtube",
+      "youtubeId": "Hr6OdfOmboI",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=24518",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-24519",
+      "name": "梨山攬勝樓",
+      "lat": 24.25476,
+      "lng": 121.24524,
+      "kind": "youtube",
+      "youtubeId": "mxf3jCDZUOE",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=24519",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-24520",
+      "name": "梨山賓館",
+      "lat": 24.25429,
+      "lng": 121.25158,
+      "kind": "youtube",
+      "youtubeId": "XG5Hm6OMBtA",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=24520",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-24521",
+      "name": "梨山櫻緣丘",
+      "lat": 24.25553,
+      "lng": 121.25742,
+      "kind": "youtube",
+      "youtubeId": "NhzycUzqwV8",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=24521",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-24996",
+      "name": "望高寮",
+      "lat": 24.14471,
+      "lng": 120.57832,
+      "kind": "youtube",
+      "youtubeId": "lhXXhDyjFtI",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=24996",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-24999",
+      "name": "象山看臺北",
+      "lat": 25.02722,
+      "lng": 121.5765,
+      "kind": "youtube",
+      "youtubeId": "z_fY1pj1VBw",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=24999",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25000",
+      "name": "大稻埕碼頭",
+      "lat": 25.05662,
+      "lng": 121.50714,
+      "kind": "youtube",
+      "youtubeId": "Ndo_8RuefH4",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25000",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25001",
+      "name": "劍潭山微風平台",
+      "lat": 25.0841,
+      "lng": 121.52847,
+      "kind": "youtube",
+      "youtubeId": "34h_Cy_n0Ok",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25001",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25002",
+      "name": "碧山巖",
+      "lat": 25.09689,
+      "lng": 121.58771,
+      "kind": "youtube",
+      "youtubeId": "uvwfYzwY8tg",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25002",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25003",
+      "name": "大佳河濱公園",
+      "lat": 25.07469,
+      "lng": 121.5411,
+      "kind": "youtube",
+      "youtubeId": "fP4ecxfsJos",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25003",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25004",
+      "name": "淡水漁人碼頭",
+      "lat": 25.18308,
+      "lng": 121.41208,
+      "kind": "youtube",
+      "youtubeId": "xwAWSh35uuw",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25004",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25011",
+      "name": "多良車站",
+      "lat": 22.50749,
+      "lng": 120.95888,
+      "kind": "youtube",
+      "youtubeId": "UCG1aXVO8H8",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25011",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25012",
+      "name": "池上天堂路",
+      "lat": 23.09505,
+      "lng": 121.21569,
+      "kind": "youtube",
+      "youtubeId": "6kUEK3LVrro",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25012",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25013",
+      "name": "富山",
+      "lat": 22.8368,
+      "lng": 121.18638,
+      "kind": "youtube",
+      "youtubeId": "Rsq95SQ26bY",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25013",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25014",
+      "name": "金樽",
+      "lat": 22.96024,
+      "lng": 121.28963,
+      "kind": "youtube",
+      "youtubeId": "q3KJt-SZc2s",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25014",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25015",
+      "name": "杉原灣",
+      "lat": 22.83095,
+      "lng": 121.1861,
+      "kind": "youtube",
+      "youtubeId": "VqS_Y8ZCj6M",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25015",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25016",
+      "name": "華源曙光觀景台",
+      "lat": 22.66006,
+      "lng": 121.02117,
+      "kind": "youtube",
+      "youtubeId": "TY4qQElcUrA",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25016",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25017",
+      "name": "金崙大橋",
+      "lat": 22.52864,
+      "lng": 120.96715,
+      "kind": "youtube",
+      "youtubeId": "9QqBz3kNHis",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25017",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25018",
+      "name": "富岡漁港",
+      "lat": 22.7912,
+      "lng": 121.1928,
+      "kind": "youtube",
+      "youtubeId": "D945F_dauls",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25018",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25048",
+      "name": "永安漁港",
+      "lat": 24.98794,
+      "lng": 121.01492,
+      "kind": "youtube",
+      "youtubeId": "tD_a03trUvE",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25048",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25049",
+      "name": "石門水庫",
+      "lat": 24.81063,
+      "lng": 121.24419,
+      "kind": "youtube",
+      "youtubeId": "GUCaVR88ZFU",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25049",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25050",
+      "name": "大溪橋",
+      "lat": 24.8851,
+      "lng": 121.2826,
+      "kind": "youtube",
+      "youtubeId": "oFJ6gCaBb_Q",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25050",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25051",
+      "name": "虎頭山奧爾森林學堂",
+      "lat": 25.00182,
+      "lng": 121.32757,
+      "kind": "youtube",
+      "youtubeId": "yQSmajHyMhU",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25051",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25052",
+      "name": "虎頭山環保公園",
+      "lat": 25.01205,
+      "lng": 121.32839,
+      "kind": "youtube",
+      "youtubeId": "tu_gsIkNt-w",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25052",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25053",
+      "name": "大溪老街",
+      "lat": 24.88518,
+      "lng": 121.28747,
+      "kind": "youtube",
+      "youtubeId": "XUWjAsajKXg",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25053",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25054",
+      "name": "慈湖水岸廣場",
+      "lat": 24.84161,
+      "lng": 121.29369,
+      "kind": "youtube",
+      "youtubeId": "pSQ0e-ZTZ5g",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25054",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25056",
+      "name": "角板山梅園",
+      "lat": 24.81406,
+      "lng": 121.35066,
+      "kind": "youtube",
+      "youtubeId": "-xT1bZhWLuU",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25056",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25057",
+      "name": "角板山生態池",
+      "lat": 24.81607,
+      "lng": 121.34975,
+      "kind": "youtube",
+      "youtubeId": "XEbo8NzMTbQ",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25057",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25058",
+      "name": "角板山思親亭",
+      "lat": 24.81555,
+      "lng": 121.34822,
+      "kind": "youtube",
+      "youtubeId": "3Za9y4z_Lzc",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25058",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25060",
+      "name": "小烏來天空步道",
+      "lat": 24.79033,
+      "lng": 121.3755,
+      "kind": "youtube",
+      "youtubeId": "neaiCec1kec",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25060",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25061",
+      "name": "三龜戲水觀景平台",
+      "lat": 24.68338,
+      "lng": 121.39276,
+      "kind": "youtube",
+      "youtubeId": "5YDXZ1aiR5Y",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25061",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25062",
+      "name": "拉拉山遊客中心",
+      "lat": 24.67978,
+      "lng": 121.38396,
+      "kind": "youtube",
+      "youtubeId": "YkIUZjVlhv4",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25062",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25114",
+      "name": "奮起湖",
+      "lat": 23.50606,
+      "lng": 120.69578,
+      "kind": "youtube",
+      "youtubeId": "B6eki-0-w0g",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25114",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25263",
+      "name": "虎山巖金針花",
+      "lat": 24.04361,
+      "lng": 120.55852,
+      "kind": "youtube",
+      "youtubeId": "vTDmOvNLm1w",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25263",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25619",
+      "name": "德基水庫",
+      "lat": 24.25553,
+      "lng": 121.16745,
+      "kind": "youtube",
+      "youtubeId": "ZayKvJKDPWc",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25619",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25646",
+      "name": "建功嶼",
+      "lat": 24.42746,
+      "lng": 118.30005,
+      "kind": "youtube",
+      "youtubeId": "uh_yNAE01w8",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25646",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25648",
+      "name": "金樽遊憩區",
+      "lat": 22.9451,
+      "lng": 121.27975,
+      "kind": "youtube",
+      "youtubeId": "ZdqHgQwvZOw",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25648",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25649",
+      "name": "綠島帆船鼻",
+      "lat": 22.6354,
+      "lng": 121.5069,
+      "kind": "youtube",
+      "youtubeId": "fv1yFousBvc",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25649",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25651",
+      "name": "壽山情人觀景台",
+      "lat": 22.62544,
+      "lng": 120.27415,
+      "kind": "youtube",
+      "youtubeId": "C03Itx8iSC0",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25651",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25652",
+      "name": "蓮池潭",
+      "lat": 22.6833,
+      "lng": 120.29664,
+      "kind": "youtube",
+      "youtubeId": "BnPoNatG-HE",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25652",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25653",
+      "name": "旗津海水浴場",
+      "lat": 22.61019,
+      "lng": 120.25662,
+      "kind": "youtube",
+      "youtubeId": "ka7FV0sCvxQ",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25653",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25654",
+      "name": "九份",
+      "lat": 25.10871,
+      "lng": 121.84041,
+      "kind": "youtube",
+      "youtubeId": "XSD5ptYisw8",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25654",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25655",
+      "name": "烘爐地",
+      "lat": 24.9718,
+      "lng": 121.49507,
+      "kind": "youtube",
+      "youtubeId": "xxMRjVwCQ3o",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25655",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25686",
+      "name": "六龜彩虹山大佛",
+      "lat": 23.05529,
+      "lng": 120.67691,
+      "kind": "youtube",
+      "youtubeId": "4hYBht0EbD4",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25686",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25687",
+      "name": "禮納里遊客中心",
+      "lat": 22.69989,
+      "lng": 120.64415,
+      "kind": "youtube",
+      "youtubeId": "ygvcl4e_OI0",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25687",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25688",
+      "name": "諦願寺",
+      "lat": 23.00996,
+      "lng": 120.6388,
+      "kind": "youtube",
+      "youtubeId": "1IMPS7Ew_c0",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25688",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25698",
+      "name": "福隆海水浴場",
+      "lat": 25.022,
+      "lng": 121.94315,
+      "kind": "youtube",
+      "youtubeId": "Rhkr8qJOFO4",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25698",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25699",
+      "name": "鼻頭服務區",
+      "lat": 25.12404,
+      "lng": 121.91288,
+      "kind": "youtube",
+      "youtubeId": "4VBfBgnhJUE",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25699",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25700",
+      "name": "外澳沙灘",
+      "lat": 24.87781,
+      "lng": 121.82247,
+      "kind": "youtube",
+      "youtubeId": "UgoT-QTbYvo",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25700",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25701",
+      "name": "134高地",
+      "lat": 24.44649,
+      "lng": 118.39964,
+      "kind": "youtube",
+      "youtubeId": "-srNHTE-Nf0",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25701",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25706",
+      "name": "八卦山大佛",
+      "lat": 24.07849,
+      "lng": 120.54882,
+      "kind": "youtube",
+      "youtubeId": "h3S24T2pqtc",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25706",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25980",
+      "name": "中角灣",
+      "lat": 25.23933,
+      "lng": 121.63352,
+      "kind": "youtube",
+      "youtubeId": "iJphhU-iaTA",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25980",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25998",
+      "name": "布袋新岑公園",
+      "lat": 23.34277,
+      "lng": 120.17251,
+      "kind": "youtube",
+      "youtubeId": "8sZrrRHPZ70",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25998",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-25999",
+      "name": "布袋濕地生態園區(一)",
+      "lat": 23.36268,
+      "lng": 120.17251,
+      "kind": "youtube",
+      "youtubeId": "KiCMukzpICU",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=25999",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-27855",
+      "name": "彰化王功漁港",
+      "lat": 23.96985,
+      "lng": 120.32659,
+      "kind": "youtube",
+      "youtubeId": "bsmxwRLdB3k",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=27855",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-28187",
+      "name": "火山碧雲寺",
+      "lat": 23.32524,
+      "lng": 120.48086,
+      "kind": "youtube",
+      "youtubeId": "zkX6X9p-6iA",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=28187",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-28188",
+      "name": "官田遊客中心",
+      "lat": 23.18843,
+      "lng": 120.33557,
+      "kind": "youtube",
+      "youtubeId": "kT-MGYO6bS0",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=28188",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-28189",
+      "name": "二寮觀景平臺",
+      "lat": 22.99549,
+      "lng": 120.41036,
+      "kind": "youtube",
+      "youtubeId": "xbojeDKjcaM",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=28189",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-29134",
+      "name": "曾文水庫",
+      "lat": 23.24824,
+      "lng": 120.53644,
+      "kind": "youtube",
+      "youtubeId": "EH4V8IwFIp4",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=29134",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-29347",
+      "name": "馬崗哨所",
+      "lat": 25.017,
+      "lng": 121.99,
+      "kind": "youtube",
+      "youtubeId": "z5K_gNWK8ZM",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=29347",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-29348",
+      "name": "龍洞灣觀景台",
+      "lat": 25.11,
+      "lng": 121.922,
+      "kind": "youtube",
+      "youtubeId": "R1dzTS0xH3g",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=29348",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-29715",
+      "name": "南竿鐵堡",
+      "lat": 26.14223,
+      "lng": 119.9209,
+      "kind": "youtube",
+      "youtubeId": "0JpPVzxCxJM",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=29715",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-29765",
+      "name": "大福西",
+      "lat": 22.33182,
+      "lng": 120.37122,
+      "kind": "youtube",
+      "youtubeId": "zXYwAdPTLls",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=29765",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-29766",
+      "name": "望海亭",
+      "lat": 22.35342,
+      "lng": 120.37047,
+      "kind": "youtube",
+      "youtubeId": "-KQE12zWVbc",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=29766",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-29767",
+      "name": "遊一區遊客中心",
+      "lat": 22.454,
+      "lng": 120.47897,
+      "kind": "youtube",
+      "youtubeId": "uKVPPfmnQYM",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=29767",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-29931",
+      "name": "舊草嶺自行車隧道南口",
+      "lat": 24.98358,
+      "lng": 121.95523,
+      "kind": "youtube",
+      "youtubeId": "Br1w0sIvO3U",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=29931",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-29932",
+      "name": "永鎮濱海驛站",
+      "lat": 24.77634,
+      "lng": 121.81678,
+      "kind": "youtube",
+      "youtubeId": "HVcowpes0qA",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=29932",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-30090",
+      "name": "布袋濕地生態園區(二)",
+      "lat": 23.36268,
+      "lng": 120.17251,
+      "kind": "youtube",
+      "youtubeId": "CbRX1s7cskU",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=30090",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-30091",
+      "name": "北門潟湖",
+      "lat": 23.25986,
+      "lng": 120.10641,
+      "kind": "youtube",
+      "youtubeId": "EDRKQ5ddlr0",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=30091",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-30092",
+      "name": "觀音山硬漢嶺",
+      "lat": 25.1374,
+      "lng": 121.42608,
+      "kind": "youtube",
+      "youtubeId": "Kbkn-TGoa_0",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=30092",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-30093",
+      "name": "老梅綠石槽",
+      "lat": 25.29263,
+      "lng": 121.54472,
+      "kind": "youtube",
+      "youtubeId": "Wefj3zbl-tI",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=30093",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-30094",
+      "name": "峨眉湖",
+      "lat": 24.67984,
+      "lng": 120.98521,
+      "kind": "youtube",
+      "youtubeId": "L9y1pwGktQg",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=30094",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-30095",
+      "name": "彰化平原",
+      "lat": 24.07825,
+      "lng": 120.54763,
+      "kind": "youtube",
+      "youtubeId": "RaTbGYKMUtk",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=30095",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-30096",
+      "name": "峨眉湖(大埔水庫)",
+      "lat": 24.67863,
+      "lng": 120.98517,
+      "kind": "youtube",
+      "youtubeId": "AE1wiaqDZjw",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=30096",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-30098",
+      "name": "隘門沙灘",
+      "lat": 23.55553,
+      "lng": 119.63878,
+      "kind": "youtube",
+      "youtubeId": "u3g1cwBS1Fs",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=30098",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-30099",
+      "name": "南海遊客中心浮動碼頭",
+      "lat": 23.57016,
+      "lng": 119.57259,
+      "kind": "youtube",
+      "youtubeId": "9HD_sCAIyWk",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=30099",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-30100",
+      "name": "七美南滬港碼頭",
+      "lat": 23.19498,
+      "lng": 119.41875,
+      "kind": "youtube",
+      "youtubeId": "CAZ-CbzrIs0",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=30100",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-30101",
+      "name": "菓葉觀日樓",
+      "lat": 23.57926,
+      "lng": 119.68089,
+      "kind": "youtube",
+      "youtubeId": "oPZoY2mKrFE",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=30101",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-30102",
+      "name": "伊達邵碼頭",
+      "lat": 23.84997,
+      "lng": 120.92971,
+      "kind": "youtube",
+      "youtubeId": "9aIfsgNn5Hg",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=30102",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-30103",
+      "name": "達克拉哈水上自行車步道",
+      "lat": 23.8694,
+      "lng": 120.92897,
+      "kind": "youtube",
+      "youtubeId": "TOUuWSMt8c4",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=30103",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-30104",
+      "name": "文武廟",
+      "lat": 23.87026,
+      "lng": 120.92747,
+      "kind": "youtube",
+      "youtubeId": "xkwMHZB2-Mc",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=30104",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-30105",
+      "name": "慈恩塔",
+      "lat": 23.84375,
+      "lng": 120.92068,
+      "kind": "youtube",
+      "youtubeId": "OoTcEpfPvfk",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=30105",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-30106",
+      "name": "金龍山",
+      "lat": 23.90299,
+      "lng": 120.90648,
+      "kind": "youtube",
+      "youtubeId": "JGEqSABK658",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=30106",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-30107",
+      "name": "九蛙疊像",
+      "lat": 23.85897,
+      "lng": 120.93569,
+      "kind": "youtube",
+      "youtubeId": "Ko6dLDMIgSQ",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=30107",
+      "source": "交通部觀光署"
+    },
+    {
+      "id": "seed-twnet-30108",
+      "name": "中興停車場",
+      "lat": 23.86589,
+      "lng": 120.91145,
+      "kind": "youtube",
+      "youtubeId": "DCiS_15lXDA",
+      "pageUrl": "https://www.taiwan.net.tw/m1.aspx?sNo=0042331&uid=30108",
+      "source": "交通部觀光署"
     },
     {
       "id": "seed-alishan-live-page",
@@ -19,6 +1109,396 @@
       "kind": "link",
       "pageUrl": "https://www.ali-nsa.net/zh-tw/live-camera",
       "source": "交通部觀光署阿里山國家風景區管理處"
+    },
+    {
+      "id": "seed-yms-qingtiangang",
+      "name": "陽明山擎天崗草原",
+      "lat": 25.165,
+      "lng": 121.577,
+      "youtubeId": "6HeYP46CMgg",
+      "pageUrl": "https://www.ymsnp.gov.tw/ch/sglarticle/live-cam-overview",
+      "source": "內政部國家公園署陽明山國家公園管理處",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-yms-erziping",
+      "name": "陽明山二子坪停車場",
+      "lat": 25.1828,
+      "lng": 121.5303,
+      "youtubeId": "d9KuXrPCWYU",
+      "pageUrl": "https://www.ymsnp.gov.tw/ch/sglarticle/live-cam-overview",
+      "source": "內政部國家公園署陽明山國家公園管理處",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-yms-xiaoyoukeng",
+      "name": "陽明山小油坑停車場",
+      "lat": 25.176,
+      "lng": 121.547,
+      "youtubeId": "kKD-ZBLs8-4",
+      "pageUrl": "https://www.ymsnp.gov.tw/ch/sglarticle/live-cam-overview",
+      "source": "內政部國家公園署陽明山國家公園管理處",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-yms-lengshuikeng",
+      "name": "陽明山冷水坑停車場",
+      "lat": 25.1642,
+      "lng": 121.5627,
+      "youtubeId": "GB64WeZZQPQ",
+      "pageUrl": "https://www.ymsnp.gov.tw/ch/sglarticle/live-cam-overview",
+      "source": "內政部國家公園署陽明山國家公園管理處",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-yms-datun",
+      "name": "大屯自然公園",
+      "lat": 25.1796,
+      "lng": 121.522,
+      "youtubeId": "6ghffcNt3Nw",
+      "pageUrl": "https://www.ymsnp.gov.tw/ch/sglarticle/live-cam-overview",
+      "source": "內政部國家公園署陽明山國家公園管理處",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-yms-yangmingshuwu",
+      "name": "陽明書屋遠眺台北盆地",
+      "lat": 25.157,
+      "lng": 121.5365,
+      "youtubeId": "RttyIGHbN_w",
+      "pageUrl": "https://www.ymsnp.gov.tw/ch/sglarticle/live-cam-overview",
+      "source": "內政部國家公園署陽明山國家公園管理處",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-forest-alishan-ogasawara",
+      "name": "阿里山小笠原平台(觀日出)",
+      "lat": 23.5069,
+      "lng": 120.814,
+      "youtubeId": "6Y97q9KrhwA",
+      "pageUrl": "https://www.youtube.com/@fancarecreation/streams",
+      "source": "農業部林業及自然保育署",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-forest-alishan-railway",
+      "name": "阿里山林業鐵路(阿里山車站)",
+      "lat": 23.5106,
+      "lng": 120.8021,
+      "youtubeId": "8cq-t5yKjvs",
+      "pageUrl": "https://www.youtube.com/@fancarecreation/streams",
+      "source": "農業部林業及自然保育署",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-forest-dongyanshan",
+      "name": "東眼山國家森林遊樂區",
+      "lat": 24.8217,
+      "lng": 121.4038,
+      "youtubeId": "5Txm70G4CLo",
+      "pageUrl": "https://www.youtube.com/@fancarecreation/streams",
+      "source": "農業部林業及自然保育署",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-forest-taipingshan-bongbong",
+      "name": "太平山蹦蹦車站",
+      "lat": 24.498,
+      "lng": 121.5342,
+      "youtubeId": "enD2lFVDNiU",
+      "pageUrl": "https://tps.forest.gov.tw/",
+      "source": "農業部林業及自然保育署",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-forest-taipingshan-platform",
+      "name": "太平山景觀平台",
+      "lat": 24.496,
+      "lng": 121.53,
+      "youtubeId": "YcazXhwRf4g",
+      "pageUrl": "https://tps.forest.gov.tw/",
+      "source": "農業部林業及自然保育署",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-forest-baxianshan",
+      "name": "八仙山國家森林遊樂區",
+      "lat": 24.2044,
+      "lng": 120.9096,
+      "youtubeId": "Ma4jFAs3lYw",
+      "pageUrl": "https://www.youtube.com/@fancarecreation/streams",
+      "source": "農業部林業及自然保育署",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-forest-kenting-guanhailou",
+      "name": "墾丁森林遊樂區觀海樓",
+      "lat": 21.9673,
+      "lng": 120.8129,
+      "youtubeId": "KfBv0kT3ezE",
+      "pageUrl": "https://www.youtube.com/@fancarecreation/streams",
+      "source": "農業部林業及自然保育署",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-forest-manyueyuan",
+      "name": "滿月圓國家森林遊樂區",
+      "lat": 24.8272,
+      "lng": 121.4432,
+      "youtubeId": "G7xk5xYxe-w",
+      "pageUrl": "https://www.youtube.com/@fancarecreation/streams",
+      "source": "農業部林業及自然保育署",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-forest-neidong",
+      "name": "內洞國家森林遊樂區",
+      "lat": 24.8266,
+      "lng": 121.5312,
+      "youtubeId": "6vdny5aFyNY",
+      "pageUrl": "https://www.youtube.com/@fancarecreation/streams",
+      "source": "農業部林業及自然保育署",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-spnp-guanwu",
+      "name": "雪霸觀霧遊憩區",
+      "lat": 24.5057,
+      "lng": 121.1105,
+      "youtubeId": "Isp6RQiuxNo",
+      "pageUrl": "https://www.spnp.gov.tw/",
+      "source": "內政部國家公園署雪霸國家公園管理處",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-spnp-wenshui",
+      "name": "雪霸汶水遊客中心",
+      "lat": 24.4467,
+      "lng": 120.9047,
+      "youtubeId": "VgmWVBUsfGo",
+      "pageUrl": "https://www.spnp.gov.tw/",
+      "source": "內政部國家公園署雪霸國家公園管理處",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-spnp-wuling",
+      "name": "雪霸武陵遊憩區",
+      "lat": 24.3505,
+      "lng": 121.3077,
+      "youtubeId": "aGOFDlySzoQ",
+      "pageUrl": "https://www.spnp.gov.tw/",
+      "source": "內政部國家公園署雪霸國家公園管理處",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-spnp-xuejian",
+      "name": "雪霸雪見遊憩區",
+      "lat": 24.3711,
+      "lng": 121.018,
+      "youtubeId": "2KDE860OW_A",
+      "pageUrl": "https://www.spnp.gov.tw/",
+      "source": "內政部國家公園署雪霸國家公園管理處",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-ktnp-street-gate",
+      "name": "墾丁大街(牌樓)",
+      "lat": 21.9497,
+      "lng": 120.7768,
+      "youtubeId": "l0MykkrTvo4",
+      "pageUrl": "https://www.ktnp.gov.tw/cp.aspx?n=5DE406C89FFD8BCF",
+      "source": "內政部國家公園署墾丁國家公園管理處",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-ktnp-street-south",
+      "name": "墾丁大街(南下)",
+      "lat": 21.944,
+      "lng": 120.796,
+      "youtubeId": "hrpwltQqtq0",
+      "pageUrl": "https://www.ktnp.gov.tw/cp.aspx?n=5DE406C89FFD8BCF",
+      "source": "內政部國家公園署墾丁國家公園管理處",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-ktnp-chuanfanshi",
+      "name": "船帆石沙灘",
+      "lat": 21.9264,
+      "lng": 120.8231,
+      "youtubeId": "7WOJMh_eSfY",
+      "pageUrl": "https://www.ktnp.gov.tw/cp.aspx?n=5DE406C89FFD8BCF",
+      "source": "內政部國家公園署墾丁國家公園管理處",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-ktnp-houbihu",
+      "name": "後壁湖遊艇港",
+      "lat": 21.9407,
+      "lng": 120.7444,
+      "youtubeId": "pmEp7abtH1o",
+      "pageUrl": "https://www.ktnp.gov.tw/cp.aspx?n=5DE406C89FFD8BCF",
+      "source": "內政部國家公園署墾丁國家公園管理處",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-ntpc-fishermans-wharf",
+      "name": "淡水漁人碼頭(情人橋)",
+      "lat": 25.1826,
+      "lng": 121.411,
+      "youtubeId": "xwAWSh35uuw",
+      "pageUrl": "https://newtaipei.travel/zh-tw/live-camera/1",
+      "source": "新北市政府觀光旅遊局",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-ntpc-hongludi",
+      "name": "中和烘爐地南山福德宮",
+      "lat": 24.9896,
+      "lng": 121.4923,
+      "youtubeId": "xxMRjVwCQ3o",
+      "pageUrl": "https://newtaipei.travel/zh-tw/live-camera/5",
+      "source": "新北市政府觀光旅遊局",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-ntpc-jiufen",
+      "name": "九份開成殿",
+      "lat": 25.1088,
+      "lng": 121.8448,
+      "youtubeId": "XSD5ptYisw8",
+      "pageUrl": "https://newtaipei.travel/zh-tw/live-camera/6",
+      "source": "新北市政府觀光旅遊局",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-ntpc-shifen-waterfall",
+      "name": "十分瀑布公園",
+      "lat": 25.0479,
+      "lng": 121.785,
+      "youtubeId": "HirBQsQEUeA",
+      "pageUrl": "https://newtaipei.travel/zh-tw/live-camera/13",
+      "source": "新北市政府觀光旅遊局",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-ntpc-bali",
+      "name": "八里左岸",
+      "lat": 25.1596,
+      "lng": 121.4344,
+      "youtubeId": "di-4DCblWq4",
+      "pageUrl": "https://newtaipei.travel/zh-tw/live-camera/17",
+      "source": "新北市政府觀光旅遊局",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-fss-baiyingyuan",
+      "name": "福壽山農場百櫻園",
+      "lat": 24.245,
+      "lng": 121.242,
+      "youtubeId": "CHJ4I5w5WtQ",
+      "pageUrl": "https://www.fushoushan.com.tw/Outer/LiveStream",
+      "source": "退輔會福壽山農場",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-fss-yuanyanghu",
+      "name": "福壽山農場鴛鴦湖步道",
+      "lat": 24.228,
+      "lng": 121.248,
+      "youtubeId": "_2mrPUNxxGI",
+      "pageUrl": "https://www.fushoushan.com.tw/Outer/LiveStream",
+      "source": "退輔會福壽山農場",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-fss-songlu",
+      "name": "福壽山農場松廬楓情",
+      "lat": 24.232,
+      "lng": 121.243,
+      "youtubeId": "cY3tr4kbB5Q",
+      "pageUrl": "https://www.fushoushan.com.tw/Outer/LiveStream",
+      "source": "退輔會福壽山農場",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-fss-camping",
+      "name": "福壽山農場露營區",
+      "lat": 24.2129,
+      "lng": 121.2544,
+      "youtubeId": "mxauVquJdbs",
+      "pageUrl": "https://www.fushoushan.com.tw/Outer/LiveStream",
+      "source": "退輔會福壽山農場",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-fss-visitor-center",
+      "name": "福壽山農場旅遊服務中心",
+      "lat": 24.232,
+      "lng": 121.242,
+      "youtubeId": "reUph_ggZdo",
+      "pageUrl": "https://www.fushoushan.com.tw/Outer/LiveStream",
+      "source": "退輔會福壽山農場",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-fss-qianyingyuan",
+      "name": "福壽山農場千櫻園",
+      "lat": 24.2496,
+      "lng": 121.2338,
+      "youtubeId": "uEij55cXE6o",
+      "pageUrl": "https://www.fushoushan.com.tw/Outer/LiveStream",
+      "source": "退輔會福壽山農場",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-fss-tianchi",
+      "name": "福壽山農場天池",
+      "lat": 24.2167,
+      "lng": 121.2493,
+      "youtubeId": "xYBaAtK9CHs",
+      "pageUrl": "https://www.fushoushan.com.tw/Outer/LiveStream",
+      "source": "退輔會福壽山農場",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-wl-tollgate",
+      "name": "武陵農場收費站",
+      "lat": 24.3222,
+      "lng": 121.3108,
+      "youtubeId": "-FFpnq4vkU0",
+      "pageUrl": "https://www.wuling-farm.com.tw/tw/album/video.php?kind=11",
+      "source": "退輔會武陵農場",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-wl-flower-field",
+      "name": "武陵農場金針花海",
+      "lat": 24.352,
+      "lng": 121.309,
+      "youtubeId": "Riws55Y69jE",
+      "pageUrl": "https://www.wuling-farm.com.tw/tw/album/video.php?kind=11",
+      "source": "退輔會武陵農場",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-wl-teahouse",
+      "name": "武陵農場茶莊",
+      "lat": 24.3557,
+      "lng": 121.3055,
+      "youtubeId": "hiFIrN7QvQ0",
+      "pageUrl": "https://www.wuling-farm.com.tw/tw/album/video.php?kind=11",
+      "source": "退輔會武陵農場",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-ysnp-tataka",
+      "name": "玉山塔塔加遊客中心",
+      "lat": 23.4886,
+      "lng": 120.8852,
+      "kind": "image",
+      "streamUrl": "https://tataka.ysnp.gov.tw/mjpg/video.mjpg",
+      "pageUrl": "https://www.ysnp.gov.tw/TouristCenter/4ea53791-6ab9-41d0-8fb7-34f4450de7a4?Tab=5",
+      "source": "內政部國家公園署玉山國家公園管理處"
     }
   ]
 }
