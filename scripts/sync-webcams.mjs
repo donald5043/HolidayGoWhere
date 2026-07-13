@@ -17,6 +17,35 @@ const FETCH_TIMEOUT_MS = Number(process.env.TDX_FETCH_TIMEOUT_MS || 60000)
 const PLACE_RADIUS_KM = Number(process.env.WEBCAM_PLACE_RADIUS_KM || 5)
 
 const TDX_TOKEN_URL = 'https://tdx.transportdata.tw/auth/realms/TDXConnect/protocol/openid-connect/token'
+
+// 縣市政府的路口/道路 CCTV:市區景點(如中和恐龍園區旁的新北環快)靠這些才有路況。
+// 各縣市上架 TDX 的情況不一,全部標 optional,抓不到不讓同步失敗。
+// 注意:prefix 一律 city- 開頭,前端據此歸類為「路況」鏡頭。
+const CITY_SOURCES = [
+  ['city-taipei', 'Taipei', '臺北市政府'],
+  ['city-newtaipei', 'NewTaipei', '新北市政府'],
+  ['city-taoyuan', 'Taoyuan', '桃園市政府'],
+  ['city-taichung', 'Taichung', '臺中市政府'],
+  ['city-tainan', 'Tainan', '臺南市政府'],
+  ['city-kaohsiung', 'Kaohsiung', '高雄市政府'],
+  ['city-keelung', 'Keelung', '基隆市政府'],
+  ['city-hsinchu', 'Hsinchu', '新竹市政府'],
+  ['city-hsinchucounty', 'HsinchuCounty', '新竹縣政府'],
+  ['city-miaoli', 'MiaoliCounty', '苗栗縣政府'],
+  ['city-changhua', 'ChanghuaCounty', '彰化縣政府'],
+  ['city-nantou', 'NantouCounty', '南投縣政府'],
+  ['city-yunlin', 'YunlinCounty', '雲林縣政府'],
+  ['city-chiayi', 'Chiayi', '嘉義市政府'],
+  ['city-chiayicounty', 'ChiayiCounty', '嘉義縣政府'],
+  ['city-pingtung', 'PingtungCounty', '屏東縣政府'],
+  ['city-yilan', 'YilanCounty', '宜蘭縣政府'],
+  ['city-hualien', 'HualienCounty', '花蓮縣政府'],
+  ['city-taitung', 'TaitungCounty', '臺東縣政府'],
+  ['city-penghu', 'PenghuCounty', '澎湖縣政府'],
+  ['city-kinmen', 'KinmenCounty', '金門縣政府'],
+  ['city-lienchiang', 'LienchiangCounty', '連江縣政府'],
+]
+
 const TDX_SOURCES = [
   {
     prefix: 'freeway',
@@ -28,26 +57,12 @@ const TDX_SOURCES = [
     agency: '交通部公路局',
     url: 'https://tdx.transportdata.tw/api/basic/v2/Road/Traffic/CCTV/Highway?%24format=JSON',
   },
-  // 離島沒有國道/省道 CCTV，補抓縣市監視器；這幾縣不一定有上架 TDX，
-  // optional 來源抓不到不會讓同步失敗
-  {
-    prefix: 'city-penghu',
-    agency: '澎湖縣政府',
-    url: 'https://tdx.transportdata.tw/api/basic/v2/Road/Traffic/CCTV/City/PenghuCounty?%24format=JSON',
+  ...CITY_SOURCES.map(([prefix, city, agency]) => ({
+    prefix,
+    agency,
+    url: `https://tdx.transportdata.tw/api/basic/v2/Road/Traffic/CCTV/City/${city}?%24format=JSON`,
     optional: true,
-  },
-  {
-    prefix: 'city-kinmen',
-    agency: '金門縣政府',
-    url: 'https://tdx.transportdata.tw/api/basic/v2/Road/Traffic/CCTV/City/KinmenCounty?%24format=JSON',
-    optional: true,
-  },
-  {
-    prefix: 'city-lienchiang',
-    agency: '連江縣政府',
-    url: 'https://tdx.transportdata.tw/api/basic/v2/Road/Traffic/CCTV/City/LienchiangCounty?%24format=JSON',
-    optional: true,
-  },
+  })),
 ]
 
 const PLACE_FILES = [

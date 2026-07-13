@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { TrafficCone } from 'lucide-react'
 import type { CongestedSection, Place, TrafficDataset, Webcam } from '../data'
-import { haversineKm, isRoadCam, loadWebcams } from '../lib/webcams'
+import { haversineKm, loadWebcams } from '../lib/webcams'
 import { CollapsibleSection } from './CollapsibleSection'
 import { WebcamList, type WebcamListItem } from './NearbyWebcams'
 
@@ -128,7 +128,10 @@ export function RouteTrafficAlert({ anchor, userLocation }: Props) {
       .filter(({ km }) => km <= CORRIDOR_KM)
       .sort((a, b) => a.section.speed - b.section.speed)
 
-    const roadCams = webcams.filter(isRoadCam)
+    // 壅塞路段都在國道/快速公路上,佐證畫面限高公局/公路局鏡頭(縣市路口鏡頭照不到高架路面)
+    const roadCams = webcams.filter(
+      (cam) => cam.id.startsWith('freeway-') || cam.id.startsWith('highway-'),
+    )
     const usedCams = new Set<string>()
     const items: (WebcamListItem & { section: CongestedSection })[] = []
     for (const { section } of onCorridor) {
