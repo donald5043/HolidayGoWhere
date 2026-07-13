@@ -13,6 +13,8 @@ const MAX_PANORAMA_SHOWN = 1
 const ROAD_RADIUS_KM = 4
 const MAX_SHOWN = 3
 const MAX_ROAD_SHOWN = 2
+// 額外保留的路況備援:鏡頭常有斷線,列表顯示前 3 支「載得出來」的
+const ROAD_BACKUPS = 4
 const SNAPSHOT_REFRESH_MS = 20000
 const LIVE_MAX_MS = 60000
 
@@ -220,7 +222,8 @@ export function WebcamList({ items }: { items: WebcamListItem[] }) {
     setTick(Date.now())
   }
 
-  const visible = items.filter(({ cam }) => !failedIds.has(cam.id))
+  // 失效的鏡頭由後面的候選遞補,最多顯示 MAX_SHOWN 支
+  const visible = items.filter(({ cam }) => !failedIds.has(cam.id)).slice(0, MAX_SHOWN)
   if (!visible.length) {
     return <p className="webcam-empty">影像來源暫時無法連線，稍後再試試。</p>
   }
@@ -300,8 +303,13 @@ export function NearbyWebcams({ anchor }: Props) {
             .filter((e) => e.panorama && e.dist <= PANORAMA_RADIUS_KM)
             .sort(byDist)
             .slice(0, MAX_PANORAMA_SHOWN)
-    const road = scored.filter((e) => e.road && e.dist <= ROAD_RADIUS_KM).sort(byDist)
-    return [...scenic, ...panorama, ...road.slice(0, MAX_ROAD_SHOWN)].slice(0, MAX_SHOWN)
+    // 路況鏡頭:有快照的(可直接顯示畫面)優先,link 播放頁其次;
+    // 多留幾支備援,顯示時鏡頭失效可自動遞補,不會 3 支只剩 1 支
+    const road = scored
+      .filter((e) => e.road && e.dist <= ROAD_RADIUS_KM)
+      .sort((a, b) => Number(a.cam.kind === 'link') - Number(b.cam.kind === 'link') || a.dist - b.dist)
+      .slice(0, MAX_ROAD_SHOWN + ROAD_BACKUPS)
+    return [...scenic, ...panorama, ...road]
   }, [webcams, anchor])
 
   if (!nearby.length) return null
@@ -311,7 +319,7 @@ export function NearbyWebcams({ anchor }: Props) {
     <CollapsibleSection
       icon={<Cctv size={16} />}
       title={hasScenic ? '現場天氣即時影像' : '沿途路況即時影像'}
-      hint={`${nearby.length} 支・最近 ${formatDistance(nearby[0].dist)}`}
+      hint={`${Math.min(nearby.length, MAX_SHOWN)} 支・最近 ${formatDistance(nearby[0].dist)}`}
     >
       <WebcamList items={nearby} />
     </CollapsibleSection>

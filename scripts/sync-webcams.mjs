@@ -62,8 +62,14 @@ const TDX_SOURCES = [
     agency,
     url: `https://tdx.transportdata.tw/api/basic/v2/Road/Traffic/CCTV/City/${city}?%24format=JSON`,
     optional: true,
+    city: true,
   })),
 ]
+
+/** 裸影像/串流網址(可直接塞 <img>);縣市常給 HTML 播放頁,塞 <img> 會直接失敗 */
+function looksLikeRawStream(url) {
+  return /\.(jpe?g|png|gif)(\?|$)|mjpe?g|bmjpg|snapshot|\.cgi/i.test(String(url || ''))
+}
 
 const PLACE_FILES = [
   'places-featured.json',
@@ -172,16 +178,26 @@ function normalizeTdxCctv(item, source) {
   const id = `${source.prefix}-${String(item.CCTVID || '').trim()}`
   if (id === `${source.prefix}-`) return null
 
-  return {
+  const base = {
     id,
     name: cctvName(item),
     lat: Number(lat.toFixed(5)),
     lng: Number(lng.toFixed(5)),
+    road: String(item.RoadName || '').trim() || undefined,
+    source: source.agency,
+  }
+
+  // 縣市 CCTV 的 VideoStreamURL 幾乎都是 HTML 播放頁(台北 index.html、新北
+  // ShowFrame4CCTV、桃園 /play/...),不能當 <img> 來源;改成 link 卡片外開
+  if (source.city && !imageUrl && !looksLikeRawStream(streamUrl)) {
+    return { ...base, kind: 'link', pageUrl: streamUrl }
+  }
+
+  return {
+    ...base,
     kind: 'image',
     imageUrl: imageUrl || undefined,
     streamUrl: streamUrl || undefined,
-    road: String(item.RoadName || '').trim() || undefined,
-    source: source.agency,
   }
 }
 
