@@ -240,6 +240,8 @@ export type Webcam = {
   /** 官方頁面連結（youtube / link 的備援與外開入口） */
   pageUrl?: string
   road?: string
+  /** panorama = 俯瞰型鏡頭(遠眺盆地/平原/夜景),涵蓋範圍廣,可用較大半徑補位 */
+  view?: 'panorama'
   source: string
 }
 
