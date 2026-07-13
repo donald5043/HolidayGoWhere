@@ -6773,6 +6773,20 @@ body.map-expanded-lock .bottom-nav {
   color: var(--color-text-muted);
 }
 
+.webcam-tag.is-jam {
+  background: rgba(220, 38, 38, 0.14);
+  color: #dc2626;
+}
+
+/* 塞車警示區塊:紅色描邊讓它在詳情頁裡一眼可辨 */
+.traffic-alert {
+  border: 1px solid rgba(220, 38, 38, 0.4);
+}
+
+.traffic-alert .collapsible-toggle .collapsible-label {
+  color: #dc2626;
+}
+
 .webcam-disclaimer {
   display: block;
   margin-top: 8px;

@@ -66,6 +66,7 @@ import { getDeviceId } from './lib/deviceId'
 import { CollapsibleSection } from './components/CollapsibleSection'
 import { NearbyRestaurants } from './components/NearbyRestaurants'
 import { NearbyWebcams } from './components/NearbyWebcams'
+import { RouteTrafficAlert } from './components/RouteTrafficAlert'
 import { PackingList } from './components/PackingList'
 import { ItineraryPlanner } from './components/ItineraryPlanner'
 import { Mascot } from './components/Mascot'
@@ -2090,6 +2091,7 @@ function App() {
               <a className="maps-cta" href={selected.mapsUrl} target="_blank" rel="noreferrer">
                 <Navigation size={19} />在 Google 地圖查看路線
               </a>
+              <RouteTrafficAlert anchor={selected} userLocation={userLocation} />
               <PackingList place={selected} weather={weather} />
               {selected.placeType !== '餐飲' && (
                 <NearbyRestaurants allPlaces={places} anchor={selected} onOpen={openPlace} />

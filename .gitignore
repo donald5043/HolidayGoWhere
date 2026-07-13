@@ -5,3 +5,4 @@ dist
 *.log
 *.tsbuildinfo
 .DS_Store
+traffic.json

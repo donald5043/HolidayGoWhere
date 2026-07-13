@@ -251,6 +251,26 @@ export type WebcamDataset = {
   webcams: Webcam[]
 }
 
+export type CongestedSection = {
+  id: string
+  road: string
+  name: string
+  dir?: string
+  /** 目前路段車速 km/h */
+  speed: number
+  lat: number
+  lng: number
+}
+
+export type TrafficDataset = {
+  schemaVersion: number
+  generatedAt: string
+  attribution: string
+  congestedSpeedKmh: number
+  count: number
+  congested: CongestedSection[]
+}
+
 export type HealthAdvisorySource = {
   name: string
   agency: '衛生福利部國民健康署' | '衛生福利部疾病管制署'
