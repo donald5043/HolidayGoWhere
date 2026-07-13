@@ -290,12 +290,14 @@ export function NearbyWebcams({ anchor }: Props) {
       panorama: cam.view === 'panorama',
     }))
     const byDist = (a: { dist: number }, b: { dist: number }) => a.dist - b.dist
-    const scenic = scored.filter((e) => !e.road && e.dist <= SCENIC_RADIUS_KM).sort(byDist)
+    // 俯瞰型鏡頭照的是遠景,再近也不是「現場」(例:烘爐地距中和恐龍園區 2km,
+    // 但畫面是山腰俯瞰),一律歸「遠眺」類,避免佔掉現場名額、擠掉真正有用的路況鏡頭
+    const scenic = scored.filter((e) => !e.road && !e.panorama && e.dist <= SCENIC_RADIUS_KM).sort(byDist)
     const panorama =
       anchor.setting === '室內'
         ? []
         : scored
-            .filter((e) => e.panorama && e.dist > SCENIC_RADIUS_KM && e.dist <= PANORAMA_RADIUS_KM)
+            .filter((e) => e.panorama && e.dist <= PANORAMA_RADIUS_KM)
             .sort(byDist)
             .slice(0, MAX_PANORAMA_SHOWN)
     const road = scored.filter((e) => e.road && e.dist <= ROAD_RADIUS_KM).sort(byDist)
