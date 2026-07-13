@@ -1,5 +1,5 @@
 {
-  "note": "官方景點即時影像。seed-twnet-* 來自交通部觀光署即時影像總覽(taiwan.net.tw sNo=0042331),由 scratchpad 爬蟲整理並逐一驗證 YouTube ID 有效、座標抽查誤差 <1km。新增項目請務必使用官方來源(風管處、觀光署、國家公園)並確認座標。",
+  "note": "官方景點即時影像。seed-twnet-* 來自交通部觀光署即時影像總覽(taiwan.net.tw sNo=0042331);seed-yms/forest/spnp/ktnp/ntpc/fss/wl/ysnp-* 來自各國家公園、林業署、新北觀旅局、退輔會農場官方頁面或頻道,YouTube ID 均經 oembed 驗證。新增項目請務必使用官方來源並確認座標。",
   "webcams": [
     {
       "id": "seed-twnet-24232",
@@ -1109,6 +1109,396 @@
       "kind": "link",
       "pageUrl": "https://www.ali-nsa.net/zh-tw/live-camera",
       "source": "交通部觀光署阿里山國家風景區管理處"
+    },
+    {
+      "id": "seed-yms-qingtiangang",
+      "name": "陽明山擎天崗草原",
+      "lat": 25.165,
+      "lng": 121.577,
+      "youtubeId": "6HeYP46CMgg",
+      "pageUrl": "https://www.ymsnp.gov.tw/ch/sglarticle/live-cam-overview",
+      "source": "內政部國家公園署陽明山國家公園管理處",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-yms-erziping",
+      "name": "陽明山二子坪停車場",
+      "lat": 25.1828,
+      "lng": 121.5303,
+      "youtubeId": "d9KuXrPCWYU",
+      "pageUrl": "https://www.ymsnp.gov.tw/ch/sglarticle/live-cam-overview",
+      "source": "內政部國家公園署陽明山國家公園管理處",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-yms-xiaoyoukeng",
+      "name": "陽明山小油坑停車場",
+      "lat": 25.176,
+      "lng": 121.547,
+      "youtubeId": "kKD-ZBLs8-4",
+      "pageUrl": "https://www.ymsnp.gov.tw/ch/sglarticle/live-cam-overview",
+      "source": "內政部國家公園署陽明山國家公園管理處",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-yms-lengshuikeng",
+      "name": "陽明山冷水坑停車場",
+      "lat": 25.1642,
+      "lng": 121.5627,
+      "youtubeId": "GB64WeZZQPQ",
+      "pageUrl": "https://www.ymsnp.gov.tw/ch/sglarticle/live-cam-overview",
+      "source": "內政部國家公園署陽明山國家公園管理處",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-yms-datun",
+      "name": "大屯自然公園",
+      "lat": 25.1796,
+      "lng": 121.522,
+      "youtubeId": "6ghffcNt3Nw",
+      "pageUrl": "https://www.ymsnp.gov.tw/ch/sglarticle/live-cam-overview",
+      "source": "內政部國家公園署陽明山國家公園管理處",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-yms-yangmingshuwu",
+      "name": "陽明書屋遠眺台北盆地",
+      "lat": 25.157,
+      "lng": 121.5365,
+      "youtubeId": "RttyIGHbN_w",
+      "pageUrl": "https://www.ymsnp.gov.tw/ch/sglarticle/live-cam-overview",
+      "source": "內政部國家公園署陽明山國家公園管理處",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-forest-alishan-ogasawara",
+      "name": "阿里山小笠原平台(觀日出)",
+      "lat": 23.5069,
+      "lng": 120.814,
+      "youtubeId": "6Y97q9KrhwA",
+      "pageUrl": "https://www.youtube.com/@fancarecreation/streams",
+      "source": "農業部林業及自然保育署",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-forest-alishan-railway",
+      "name": "阿里山林業鐵路(阿里山車站)",
+      "lat": 23.5106,
+      "lng": 120.8021,
+      "youtubeId": "8cq-t5yKjvs",
+      "pageUrl": "https://www.youtube.com/@fancarecreation/streams",
+      "source": "農業部林業及自然保育署",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-forest-dongyanshan",
+      "name": "東眼山國家森林遊樂區",
+      "lat": 24.8217,
+      "lng": 121.4038,
+      "youtubeId": "5Txm70G4CLo",
+      "pageUrl": "https://www.youtube.com/@fancarecreation/streams",
+      "source": "農業部林業及自然保育署",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-forest-taipingshan-bongbong",
+      "name": "太平山蹦蹦車站",
+      "lat": 24.498,
+      "lng": 121.5342,
+      "youtubeId": "enD2lFVDNiU",
+      "pageUrl": "https://tps.forest.gov.tw/",
+      "source": "農業部林業及自然保育署",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-forest-taipingshan-platform",
+      "name": "太平山景觀平台",
+      "lat": 24.496,
+      "lng": 121.53,
+      "youtubeId": "YcazXhwRf4g",
+      "pageUrl": "https://tps.forest.gov.tw/",
+      "source": "農業部林業及自然保育署",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-forest-baxianshan",
+      "name": "八仙山國家森林遊樂區",
+      "lat": 24.2044,
+      "lng": 120.9096,
+      "youtubeId": "Ma4jFAs3lYw",
+      "pageUrl": "https://www.youtube.com/@fancarecreation/streams",
+      "source": "農業部林業及自然保育署",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-forest-kenting-guanhailou",
+      "name": "墾丁森林遊樂區觀海樓",
+      "lat": 21.9673,
+      "lng": 120.8129,
+      "youtubeId": "KfBv0kT3ezE",
+      "pageUrl": "https://www.youtube.com/@fancarecreation/streams",
+      "source": "農業部林業及自然保育署",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-forest-manyueyuan",
+      "name": "滿月圓國家森林遊樂區",
+      "lat": 24.8272,
+      "lng": 121.4432,
+      "youtubeId": "G7xk5xYxe-w",
+      "pageUrl": "https://www.youtube.com/@fancarecreation/streams",
+      "source": "農業部林業及自然保育署",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-forest-neidong",
+      "name": "內洞國家森林遊樂區",
+      "lat": 24.8266,
+      "lng": 121.5312,
+      "youtubeId": "6vdny5aFyNY",
+      "pageUrl": "https://www.youtube.com/@fancarecreation/streams",
+      "source": "農業部林業及自然保育署",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-spnp-guanwu",
+      "name": "雪霸觀霧遊憩區",
+      "lat": 24.5057,
+      "lng": 121.1105,
+      "youtubeId": "Isp6RQiuxNo",
+      "pageUrl": "https://www.spnp.gov.tw/",
+      "source": "內政部國家公園署雪霸國家公園管理處",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-spnp-wenshui",
+      "name": "雪霸汶水遊客中心",
+      "lat": 24.4467,
+      "lng": 120.9047,
+      "youtubeId": "VgmWVBUsfGo",
+      "pageUrl": "https://www.spnp.gov.tw/",
+      "source": "內政部國家公園署雪霸國家公園管理處",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-spnp-wuling",
+      "name": "雪霸武陵遊憩區",
+      "lat": 24.3505,
+      "lng": 121.3077,
+      "youtubeId": "aGOFDlySzoQ",
+      "pageUrl": "https://www.spnp.gov.tw/",
+      "source": "內政部國家公園署雪霸國家公園管理處",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-spnp-xuejian",
+      "name": "雪霸雪見遊憩區",
+      "lat": 24.3711,
+      "lng": 121.018,
+      "youtubeId": "2KDE860OW_A",
+      "pageUrl": "https://www.spnp.gov.tw/",
+      "source": "內政部國家公園署雪霸國家公園管理處",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-ktnp-street-gate",
+      "name": "墾丁大街(牌樓)",
+      "lat": 21.9497,
+      "lng": 120.7768,
+      "youtubeId": "l0MykkrTvo4",
+      "pageUrl": "https://www.ktnp.gov.tw/cp.aspx?n=5DE406C89FFD8BCF",
+      "source": "內政部國家公園署墾丁國家公園管理處",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-ktnp-street-south",
+      "name": "墾丁大街(南下)",
+      "lat": 21.944,
+      "lng": 120.796,
+      "youtubeId": "hrpwltQqtq0",
+      "pageUrl": "https://www.ktnp.gov.tw/cp.aspx?n=5DE406C89FFD8BCF",
+      "source": "內政部國家公園署墾丁國家公園管理處",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-ktnp-chuanfanshi",
+      "name": "船帆石沙灘",
+      "lat": 21.9264,
+      "lng": 120.8231,
+      "youtubeId": "7WOJMh_eSfY",
+      "pageUrl": "https://www.ktnp.gov.tw/cp.aspx?n=5DE406C89FFD8BCF",
+      "source": "內政部國家公園署墾丁國家公園管理處",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-ktnp-houbihu",
+      "name": "後壁湖遊艇港",
+      "lat": 21.9407,
+      "lng": 120.7444,
+      "youtubeId": "pmEp7abtH1o",
+      "pageUrl": "https://www.ktnp.gov.tw/cp.aspx?n=5DE406C89FFD8BCF",
+      "source": "內政部國家公園署墾丁國家公園管理處",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-ntpc-fishermans-wharf",
+      "name": "淡水漁人碼頭(情人橋)",
+      "lat": 25.1826,
+      "lng": 121.411,
+      "youtubeId": "xwAWSh35uuw",
+      "pageUrl": "https://newtaipei.travel/zh-tw/live-camera/1",
+      "source": "新北市政府觀光旅遊局",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-ntpc-hongludi",
+      "name": "中和烘爐地南山福德宮",
+      "lat": 24.9896,
+      "lng": 121.4923,
+      "youtubeId": "xxMRjVwCQ3o",
+      "pageUrl": "https://newtaipei.travel/zh-tw/live-camera/5",
+      "source": "新北市政府觀光旅遊局",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-ntpc-jiufen",
+      "name": "九份開成殿",
+      "lat": 25.1088,
+      "lng": 121.8448,
+      "youtubeId": "XSD5ptYisw8",
+      "pageUrl": "https://newtaipei.travel/zh-tw/live-camera/6",
+      "source": "新北市政府觀光旅遊局",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-ntpc-shifen-waterfall",
+      "name": "十分瀑布公園",
+      "lat": 25.0479,
+      "lng": 121.785,
+      "youtubeId": "HirBQsQEUeA",
+      "pageUrl": "https://newtaipei.travel/zh-tw/live-camera/13",
+      "source": "新北市政府觀光旅遊局",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-ntpc-bali",
+      "name": "八里左岸",
+      "lat": 25.1596,
+      "lng": 121.4344,
+      "youtubeId": "di-4DCblWq4",
+      "pageUrl": "https://newtaipei.travel/zh-tw/live-camera/17",
+      "source": "新北市政府觀光旅遊局",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-fss-baiyingyuan",
+      "name": "福壽山農場百櫻園",
+      "lat": 24.245,
+      "lng": 121.242,
+      "youtubeId": "CHJ4I5w5WtQ",
+      "pageUrl": "https://www.fushoushan.com.tw/Outer/LiveStream",
+      "source": "退輔會福壽山農場",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-fss-yuanyanghu",
+      "name": "福壽山農場鴛鴦湖步道",
+      "lat": 24.228,
+      "lng": 121.248,
+      "youtubeId": "_2mrPUNxxGI",
+      "pageUrl": "https://www.fushoushan.com.tw/Outer/LiveStream",
+      "source": "退輔會福壽山農場",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-fss-songlu",
+      "name": "福壽山農場松廬楓情",
+      "lat": 24.232,
+      "lng": 121.243,
+      "youtubeId": "cY3tr4kbB5Q",
+      "pageUrl": "https://www.fushoushan.com.tw/Outer/LiveStream",
+      "source": "退輔會福壽山農場",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-fss-camping",
+      "name": "福壽山農場露營區",
+      "lat": 24.2129,
+      "lng": 121.2544,
+      "youtubeId": "mxauVquJdbs",
+      "pageUrl": "https://www.fushoushan.com.tw/Outer/LiveStream",
+      "source": "退輔會福壽山農場",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-fss-visitor-center",
+      "name": "福壽山農場旅遊服務中心",
+      "lat": 24.232,
+      "lng": 121.242,
+      "youtubeId": "reUph_ggZdo",
+      "pageUrl": "https://www.fushoushan.com.tw/Outer/LiveStream",
+      "source": "退輔會福壽山農場",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-fss-qianyingyuan",
+      "name": "福壽山農場千櫻園",
+      "lat": 24.2496,
+      "lng": 121.2338,
+      "youtubeId": "uEij55cXE6o",
+      "pageUrl": "https://www.fushoushan.com.tw/Outer/LiveStream",
+      "source": "退輔會福壽山農場",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-fss-tianchi",
+      "name": "福壽山農場天池",
+      "lat": 24.2167,
+      "lng": 121.2493,
+      "youtubeId": "xYBaAtK9CHs",
+      "pageUrl": "https://www.fushoushan.com.tw/Outer/LiveStream",
+      "source": "退輔會福壽山農場",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-wl-tollgate",
+      "name": "武陵農場收費站",
+      "lat": 24.3222,
+      "lng": 121.3108,
+      "youtubeId": "-FFpnq4vkU0",
+      "pageUrl": "https://www.wuling-farm.com.tw/tw/album/video.php?kind=11",
+      "source": "退輔會武陵農場",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-wl-flower-field",
+      "name": "武陵農場金針花海",
+      "lat": 24.352,
+      "lng": 121.309,
+      "youtubeId": "Riws55Y69jE",
+      "pageUrl": "https://www.wuling-farm.com.tw/tw/album/video.php?kind=11",
+      "source": "退輔會武陵農場",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-wl-teahouse",
+      "name": "武陵農場茶莊",
+      "lat": 24.3557,
+      "lng": 121.3055,
+      "youtubeId": "hiFIrN7QvQ0",
+      "pageUrl": "https://www.wuling-farm.com.tw/tw/album/video.php?kind=11",
+      "source": "退輔會武陵農場",
+      "kind": "youtube"
+    },
+    {
+      "id": "seed-ysnp-tataka",
+      "name": "玉山塔塔加遊客中心",
+      "lat": 23.4886,
+      "lng": 120.8852,
+      "kind": "image",
+      "streamUrl": "https://tataka.ysnp.gov.tw/mjpg/video.mjpg",
+      "pageUrl": "https://www.ysnp.gov.tw/TouristCenter/4ea53791-6ab9-41d0-8fb7-34f4450de7a4?Tab=5",
+      "source": "內政部國家公園署玉山國家公園管理處"
     }
   ]
 }
