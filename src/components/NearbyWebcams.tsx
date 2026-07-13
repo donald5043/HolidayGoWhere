@@ -1,20 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { Cctv, ExternalLink, Play, RefreshCw, Square } from 'lucide-react'
-import type { Place, Webcam, WebcamDataset } from '../data'
-import { fetchPublicJson } from '../lib/fetchPublicJson'
+import type { Place, Webcam } from '../data'
+import { haversineKm, isRoadCam, loadWebcams } from '../lib/webcams'
 import { CollapsibleSection } from './CollapsibleSection'
-
-function haversineKm(from: { lat: number; lng: number }, to: { lat: number; lng: number }): number {
-  const R = 6371
-  const dLat = (to.lat - from.lat) * (Math.PI / 180)
-  const dLng = (to.lng - from.lng) * (Math.PI / 180)
-  const a =
-    Math.sin(dLat / 2) ** 2 +
-    Math.cos(from.lat * (Math.PI / 180)) *
-      Math.cos(to.lat * (Math.PI / 180)) *
-      Math.sin(dLng / 2) ** 2
-  return R * 2 * Math.asin(Math.sqrt(a))
-}
 
 // 風景區官方實況（YouTube 直播、風管處鏡頭）真的照得到景點，半徑放寬；
 // 公路 CCTV 只照得到路面，離景點遠就沒參考價值，半徑收緊且永遠排在實況後面
@@ -24,26 +12,6 @@ const MAX_SHOWN = 3
 const MAX_ROAD_SHOWN = 2
 const SNAPSHOT_REFRESH_MS = 20000
 const LIVE_MAX_MS = 60000
-
-/** 高公局／公路局的路況鏡頭；其餘（seed 風景區、離島縣市）視為現場實況 */
-function isRoadCam(cam: Webcam) {
-  return cam.id.startsWith('freeway-') || cam.id.startsWith('highway-')
-}
-
-// 監視器清單一個 session 只抓一次，之後開任何景點詳情都直接重用
-let webcamsPromise: Promise<Webcam[]> | null = null
-function loadWebcams(): Promise<Webcam[]> {
-  if (!webcamsPromise) {
-    // 清單每天更新、串流網址會失效，不能用 force-cache 無限期快取
-    webcamsPromise = fetchPublicJson<WebcamDataset>('data/webcams.json', { cache: 'default' })
-      .then((dataset) => dataset.webcams ?? [])
-      .catch(() => {
-        webcamsPromise = null
-        return []
-      })
-  }
-  return webcamsPromise
-}
 
 function isMjpegUrl(url: string) {
   return /bmjpg|mjpg|mjpeg/i.test(url)
@@ -191,7 +159,17 @@ function WebcamFrame({ webcam, tick, isLive, liveStartedAt, onToggleLive, onFail
   )
 }
 
-function WebcamList({ items }: { items: { cam: Webcam; dist: number; road: boolean }[] }) {
+export type WebcamListItem = {
+  cam: Webcam
+  dist: number
+  road: boolean
+  /** 取代「距離約 X」的自訂說明（塞車警示用：路段名與車速） */
+  note?: string
+  /** 標成紅色「壅塞」標籤 */
+  alert?: boolean
+}
+
+export function WebcamList({ items }: { items: WebcamListItem[] }) {
   const [tick, setTick] = useState(() => Date.now())
   const [failedIds, setFailedIds] = useState<Set<string>>(new Set())
   const [liveId, setLiveId] = useState<string | null>(null)
@@ -251,7 +229,7 @@ function WebcamList({ items }: { items: { cam: Webcam; dist: number; road: boole
         </button>
       </div>
       <div className="webcam-list">
-        {visible.map(({ cam, dist, road }) => (
+        {visible.map(({ cam, dist, road, note, alert }) => (
           <figure key={cam.id} className="webcam-card">
             <WebcamFrame
               webcam={cam}
@@ -264,8 +242,10 @@ function WebcamList({ items }: { items: { cam: Webcam; dist: number; road: boole
             <figcaption>
               <strong>{cam.name}</strong>
               <span>
-                <em className={`webcam-tag${road ? ' is-road' : ''}`}>{road ? '路況' : '現場'}</em>
-                距離約 {formatDistance(dist)}・{cam.source}
+                <em className={`webcam-tag${alert ? ' is-jam' : road ? ' is-road' : ''}`}>
+                  {alert ? '壅塞' : road ? '路況' : '現場'}
+                </em>
+                {note ?? `距離約 ${formatDistance(dist)}`}・{cam.source}
               </span>
             </figcaption>
           </figure>
