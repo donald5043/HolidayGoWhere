@@ -4,9 +4,12 @@ import type { Place, Webcam } from '../data'
 import { haversineKm, isRoadCam, loadWebcams } from '../lib/webcams'
 import { CollapsibleSection } from './CollapsibleSection'
 
-// 風景區官方實況（YouTube 直播、風管處鏡頭）真的照得到景點，半徑放寬；
-// 公路 CCTV 只照得到路面，離景點遠就沒參考價值，半徑收緊且永遠排在實況後面
-const SCENIC_RADIUS_KM = 10
+// 「現場」必須名符其實:只收真的在景點同一區的鏡頭
+const SCENIC_RADIUS_KM = 3
+// 俯瞰型鏡頭(象山看臺北、硬漢嶺這類)照的是整個盆地/平原,遠一點仍能看天氣,
+// 用大半徑當補位,但排在現場鏡頭後面且最多 1 支;室內景點不需要看區域天氣,不套用
+const PANORAMA_RADIUS_KM = 12
+const MAX_PANORAMA_SHOWN = 1
 const ROAD_RADIUS_KM = 4
 const MAX_SHOWN = 3
 const MAX_ROAD_SHOWN = 2
@@ -163,6 +166,8 @@ export type WebcamListItem = {
   cam: Webcam
   dist: number
   road: boolean
+  /** 俯瞰型鏡頭,標成「遠眺」 */
+  panorama?: boolean
   /** 取代「距離約 X」的自訂說明（塞車警示用：路段名與車速） */
   note?: string
   /** 標成紅色「壅塞」標籤 */
@@ -229,7 +234,7 @@ export function WebcamList({ items }: { items: WebcamListItem[] }) {
         </button>
       </div>
       <div className="webcam-list">
-        {visible.map(({ cam, dist, road, note, alert }) => (
+        {visible.map(({ cam, dist, road, panorama, note, alert }) => (
           <figure key={cam.id} className="webcam-card">
             <WebcamFrame
               webcam={cam}
@@ -242,8 +247,8 @@ export function WebcamList({ items }: { items: WebcamListItem[] }) {
             <figcaption>
               <strong>{cam.name}</strong>
               <span>
-                <em className={`webcam-tag${alert ? ' is-jam' : road ? ' is-road' : ''}`}>
-                  {alert ? '壅塞' : road ? '路況' : '現場'}
+                <em className={`webcam-tag${alert ? ' is-jam' : road ? ' is-road' : panorama ? ' is-panorama' : ''}`}>
+                  {alert ? '壅塞' : road ? '路況' : panorama ? '遠眺' : '現場'}
                 </em>
                 {note ?? `距離約 ${formatDistance(dist)}`}・{cam.source}
               </span>
@@ -252,7 +257,8 @@ export function WebcamList({ items }: { items: WebcamListItem[] }) {
         ))}
       </div>
       <small className="webcam-disclaimer">
-        「現場」為風景區官方直播、「路況」為附近公路監視器（照的是路面，僅供出發前參考天氣與車流）；
+        「現場」為景點 3 公里內的官方直播、「遠眺」為可看到整片區域天氣的俯瞰鏡頭、
+        「路況」為附近公路監視器（照的是路面，僅供出發前參考車流）；
         可能短暫斷線或延遲，直播播放 60 秒後自動停止以節省流量。實際狀況以現場為準。
       </small>
     </>
@@ -277,11 +283,23 @@ export function NearbyWebcams({ anchor }: Props) {
   }, [])
 
   const nearby = useMemo(() => {
-    const scored = webcams.map((cam) => ({ cam, dist: haversineKm(anchor, cam), road: isRoadCam(cam) }))
+    const scored = webcams.map((cam) => ({
+      cam,
+      dist: haversineKm(anchor, cam),
+      road: isRoadCam(cam),
+      panorama: cam.view === 'panorama',
+    }))
     const byDist = (a: { dist: number }, b: { dist: number }) => a.dist - b.dist
     const scenic = scored.filter((e) => !e.road && e.dist <= SCENIC_RADIUS_KM).sort(byDist)
+    const panorama =
+      anchor.setting === '室內'
+        ? []
+        : scored
+            .filter((e) => e.panorama && e.dist > SCENIC_RADIUS_KM && e.dist <= PANORAMA_RADIUS_KM)
+            .sort(byDist)
+            .slice(0, MAX_PANORAMA_SHOWN)
     const road = scored.filter((e) => e.road && e.dist <= ROAD_RADIUS_KM).sort(byDist)
-    return [...scenic, ...road.slice(0, MAX_ROAD_SHOWN)].slice(0, MAX_SHOWN)
+    return [...scenic, ...panorama, ...road.slice(0, MAX_ROAD_SHOWN)].slice(0, MAX_SHOWN)
   }, [webcams, anchor])
 
   if (!nearby.length) return null

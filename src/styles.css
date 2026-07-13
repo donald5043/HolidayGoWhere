@@ -6773,6 +6773,11 @@ body.map-expanded-lock .bottom-nav {
   color: var(--color-text-muted);
 }
 
+.webcam-tag.is-panorama {
+  background: rgba(59, 130, 246, 0.14);
+  color: #2563eb;
+}
+
 .webcam-tag.is-jam {
   background: rgba(220, 38, 38, 0.14);
   color: #dc2626;
