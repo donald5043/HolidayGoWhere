@@ -7,6 +7,9 @@ import { CollapsibleSection } from './CollapsibleSection'
 // 風景區官方實況（YouTube 直播、風管處鏡頭）真的照得到景點，半徑放寬；
 // 公路 CCTV 只照得到路面，離景點遠就沒參考價值，半徑收緊且永遠排在實況後面
 const SCENIC_RADIUS_KM = 10
+// 室內景點（觀光工廠、親子館）看遠方山頂海邊的風景鏡頭沒有意義，
+// 只保留真的在同一區的畫面（例：林口的文具觀光工廠不該顯示 9km 外的八里左岸）
+const SCENIC_RADIUS_INDOOR_KM = 4
 const ROAD_RADIUS_KM = 4
 const MAX_SHOWN = 3
 const MAX_ROAD_SHOWN = 2
@@ -277,9 +280,10 @@ export function NearbyWebcams({ anchor }: Props) {
   }, [])
 
   const nearby = useMemo(() => {
+    const scenicRadiusKm = anchor.setting === '室內' ? SCENIC_RADIUS_INDOOR_KM : SCENIC_RADIUS_KM
     const scored = webcams.map((cam) => ({ cam, dist: haversineKm(anchor, cam), road: isRoadCam(cam) }))
     const byDist = (a: { dist: number }, b: { dist: number }) => a.dist - b.dist
-    const scenic = scored.filter((e) => !e.road && e.dist <= SCENIC_RADIUS_KM).sort(byDist)
+    const scenic = scored.filter((e) => !e.road && e.dist <= scenicRadiusKm).sort(byDist)
     const road = scored.filter((e) => e.road && e.dist <= ROAD_RADIUS_KM).sort(byDist)
     return [...scenic, ...road.slice(0, MAX_ROAD_SHOWN)].slice(0, MAX_SHOWN)
   }, [webcams, anchor])
