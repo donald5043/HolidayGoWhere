@@ -1,9 +1,9 @@
 import { useEffect, useMemo, useState } from 'react'
 import { TrafficCone } from 'lucide-react'
-import type { CongestedSection, Place, TrafficDataset, Webcam } from '../data'
-import { haversineKm, loadWebcams } from '../lib/webcams'
+import type { Place, TrafficDataset, Webcam } from '../data'
+import { haversineKm, loadWebcams, matchCongestionToRoadCams, type RoutePoint } from '../lib/webcams'
 import { CollapsibleSection } from './CollapsibleSection'
-import { WebcamList, type WebcamListItem } from './NearbyWebcams'
+import { WebcamList } from './NearbyWebcams'
 
 // 壅塞清單由 GitHub Actions 每 10 分鐘從 TDX 更新後推到 live-traffic 分支;
 // raw.githubusercontent.com 有 CORS * 且快取 5 分鐘,靜態站不需要任何後端
@@ -22,8 +22,6 @@ const MAX_ALERTS = 3
 
 // OSRM 公開示範伺服器:免金鑰、CORS *,含替代路線(同時涵蓋國1/國3 之類的選擇)
 const OSRM_URL = 'https://router.project-osrm.org/route/v1/driving'
-
-type RoutePoint = [number, number] // [lng, lat](GeoJSON 順序)
 
 const routeCache = new Map<string, Promise<RoutePoint[][] | null>>()
 function loadRoutes(from: { lat: number; lng: number }, to: { lat: number; lng: number }): Promise<RoutePoint[][] | null> {
@@ -46,28 +44,6 @@ function loadRoutes(from: { lat: number; lng: number }, to: { lat: number; lng: 
     routeCache.set(key, promise)
   }
   return promise
-}
-
-/** 點到路由折線的最短距離(km);等距圓柱近似,台灣尺度誤差可忽略 */
-function distanceToRoutesKm(point: { lat: number; lng: number }, routes: RoutePoint[][]): number {
-  const ky = 110.57
-  const kx = Math.cos(point.lat * (Math.PI / 180)) * 111.32
-  let best = Infinity
-  for (const route of routes) {
-    for (let i = 1; i < route.length; i += 1) {
-      const ax = (route[i - 1][0] - point.lng) * kx
-      const ay = (route[i - 1][1] - point.lat) * ky
-      const bx = (route[i][0] - point.lng) * kx
-      const by = (route[i][1] - point.lat) * ky
-      const dx = bx - ax
-      const dy = by - ay
-      const lenSq = dx * dx + dy * dy
-      const t = lenSq > 0 ? Math.max(0, Math.min(1, -(ax * dx + ay * dy) / lenSq)) : 0
-      const km = Math.hypot(ax + dx * t, ay + dy * t)
-      if (km < best) best = km
-    }
-  }
-  return best
 }
 
 let trafficPromise: Promise<TrafficDataset | null> | null = null
@@ -123,37 +99,16 @@ export function RouteTrafficAlert({ anchor, userLocation }: Props) {
     if (!tripEligible || !traffic?.congested?.length || !routes?.length) return []
     if (Date.now() - Date.parse(traffic.generatedAt) > MAX_AGE_MS) return []
 
-    const onCorridor = traffic.congested
-      .map((section) => ({ section, km: distanceToRoutesKm(section, routes) }))
-      .filter(({ km }) => km <= CORRIDOR_KM)
-      .sort((a, b) => a.section.speed - b.section.speed)
-
     // 壅塞路段都在國道/快速公路上,佐證畫面限高公局/公路局鏡頭(縣市路口鏡頭照不到高架路面)
     const roadCams = webcams.filter(
       (cam) => cam.id.startsWith('freeway-') || cam.id.startsWith('highway-'),
     )
-    const usedCams = new Set<string>()
-    const items: (WebcamListItem & { section: CongestedSection })[] = []
-    for (const { section } of onCorridor) {
-      if (items.length >= MAX_ALERTS) break
-      let best: { cam: Webcam; dist: number } | null = null
-      for (const cam of roadCams) {
-        if (usedCams.has(cam.id)) continue
-        const dist = haversineKm(section, cam)
-        if (dist <= CAM_MATCH_KM && (!best || dist < best.dist)) best = { cam, dist }
-      }
-      if (!best) continue
-      usedCams.add(best.cam.id)
-      const dirLabel = section.dir ? `(${section.dir})` : ''
-      items.push({
-        ...best,
-        road: true,
-        alert: true,
-        note: `${section.road}${dirLabel} ${section.name}・目前車速約 ${section.speed} km/h`,
-        section,
-      })
-    }
-    return items
+    const matched = matchCongestionToRoadCams(traffic.congested, routes, roadCams, {
+      corridorKm: CORRIDOR_KM,
+      camMatchKm: CAM_MATCH_KM,
+      maxAlerts: MAX_ALERTS,
+    })
+    return matched.map((item) => ({ ...item, road: true, alert: true }))
   }, [tripEligible, traffic, routes, webcams])
 
   if (!alerts.length) return null
