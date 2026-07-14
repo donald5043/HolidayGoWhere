@@ -2097,6 +2097,57 @@ function App() {
                 <NearbyWebcams anchor={selected} />
                 <PackingList place={selected} weather={weather} />
               </div>
+              <CollapsibleSection
+                icon={<NotebookPen size={16} />}
+                title="爸媽回報與真實分享"
+                hint={reports[selected.id] ? '已回報・謝謝分享' : '尚無回報・當第一位分享的家長'}
+              >
+                <h4 className="collapsible-subheading">最近回報</h4>
+                {reports[selected.id] ? (
+                  <div className="parent-report-summary">
+                    <div>
+                      <CheckCircle2 size={18} />
+                      <span>
+                        <strong>{new Date(reports[selected.id].visitedAt).toLocaleDateString('zh-TW')} 去過</strong>
+                        <small>{reports[selected.id].liked ? '孩子喜歡這裡' : '體驗普通'}</small>
+                      </span>
+                    </div>
+                    {reports[selected.id].note && <p>{reports[selected.id].note}</p>}
+                    <button onClick={() => setShowReportForm(true)}>更新回報</button>
+                  </div>
+                ) : (
+                  <button className="report-start" onClick={() => setShowReportForm(true)}>
+                    <NotebookPen size={17} />我最近去過，補充現場資訊
+                  </button>
+                )}
+                {showReportForm && (
+                  <ReportForm
+                    reportLiked={reportLiked}
+                    setReportLiked={setReportLiked}
+                    reportAmenities={reportAmenities}
+                    setReportAmenities={setReportAmenities}
+                    reportNote={reportNote}
+                    setReportNote={setReportNote}
+                    synced={Boolean(supabase)}
+                    onCancel={() => setShowReportForm(false)}
+                    onSave={saveReport}
+                  />
+                )}
+                {selected.sources.length > 0 && (
+                  <>
+                    <h4 className="collapsible-subheading">部落格與 Instagram 分享</h4>
+                    <div className="source-list">
+                      {selected.sources.map((source) => (
+                        <a href={source.url} target="_blank" rel="noreferrer" key={source.url}>
+                          {source.type === 'Instagram' ? <Instagram /> : <ExternalLink />}
+                          <span><small>{source.type}</small>{source.label}</span>
+                          <ExternalLink size={15} />
+                        </a>
+                      ))}
+                    </div>
+                  </>
+                )}
+              </CollapsibleSection>
               {selected.placeType !== '餐飲' && (
                 <NearbyRestaurants allPlaces={places} anchor={selected} onOpen={openPlace} />
               )}
@@ -2171,57 +2222,6 @@ function App() {
                     <strong>停車說明</strong>
                     <span>{selected.familyAmenities.parkingInfo}</span>
                   </div>
-                )}
-              </CollapsibleSection>
-              <CollapsibleSection
-                icon={<NotebookPen size={16} />}
-                title="爸媽回報與真實分享"
-                hint={reports[selected.id] ? '已回報' : undefined}
-              >
-                <h4 className="collapsible-subheading">最近回報</h4>
-                {reports[selected.id] ? (
-                  <div className="parent-report-summary">
-                    <div>
-                      <CheckCircle2 size={18} />
-                      <span>
-                        <strong>{new Date(reports[selected.id].visitedAt).toLocaleDateString('zh-TW')} 去過</strong>
-                        <small>{reports[selected.id].liked ? '孩子喜歡這裡' : '體驗普通'}</small>
-                      </span>
-                    </div>
-                    {reports[selected.id].note && <p>{reports[selected.id].note}</p>}
-                    <button onClick={() => setShowReportForm(true)}>更新回報</button>
-                  </div>
-                ) : (
-                  <button className="report-start" onClick={() => setShowReportForm(true)}>
-                    <NotebookPen size={17} />我最近去過，補充現場資訊
-                  </button>
-                )}
-                {showReportForm && (
-                  <ReportForm
-                    reportLiked={reportLiked}
-                    setReportLiked={setReportLiked}
-                    reportAmenities={reportAmenities}
-                    setReportAmenities={setReportAmenities}
-                    reportNote={reportNote}
-                    setReportNote={setReportNote}
-                    synced={Boolean(supabase)}
-                    onCancel={() => setShowReportForm(false)}
-                    onSave={saveReport}
-                  />
-                )}
-                {selected.sources.length > 0 && (
-                  <>
-                    <h4 className="collapsible-subheading">部落格與 Instagram 分享</h4>
-                    <div className="source-list">
-                      {selected.sources.map((source) => (
-                        <a href={source.url} target="_blank" rel="noreferrer" key={source.url}>
-                          {source.type === 'Instagram' ? <Instagram /> : <ExternalLink />}
-                          <span><small>{source.type}</small>{source.label}</span>
-                          <ExternalLink size={15} />
-                        </a>
-                      ))}
-                    </div>
-                  </>
                 )}
               </CollapsibleSection>
               <CollapsibleSection
