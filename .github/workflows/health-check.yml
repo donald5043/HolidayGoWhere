@@ -1,0 +1,74 @@
+name: Weekly health check
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 每週一 01:00 UTC(台灣時間週一 09:00)
+    - cron: '0 1 * * 1'
+
+permissions:
+  contents: read
+  issues: write
+  actions: read
+
+jobs:
+  health-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Run health check
+        id: check
+        continue-on-error: true
+        run: node scripts/health-check.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          HEALTH_CHECK_OUTPUT: ${{ runner.temp }}/health-check-report.md
+
+      - name: Ensure health-check label exists
+        if: steps.check.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create health-check --color FBCA04 --description "每週健康檢查自動回報" 2>/dev/null || true
+
+      - name: Find existing health-check issue
+        if: steps.check.outcome == 'failure'
+        id: existing
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          number=$(gh issue list --label health-check --state open --json number --jq '.[0].number // empty')
+          echo "number=$number" >> "$GITHUB_OUTPUT"
+
+      - name: File or update issue
+        if: steps.check.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          body="$(cat "$RUNNER_TEMP/health-check-report.md")"
+          if [ -n "${{ steps.existing.outputs.number }}" ]; then
+            gh issue comment "${{ steps.existing.outputs.number }}" --body "$body"
+          else
+            gh issue create --title "每週健康檢查發現問題" --label health-check --body "$body"
+          fi
+
+      # 連續兩週正常就關閉舊 issue,避免看板留著過期警訊
+      - name: Close resolved issue
+        if: steps.check.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          number=$(gh issue list --label health-check --state open --json number --jq '.[0].number // empty')
+          if [ -n "$number" ]; then
+            gh issue comment "$number" --body "本次檢查恢復正常，關閉此 issue。"
+            gh issue close "$number"
+          fi
+
+      - name: Fail job if unhealthy
+        if: steps.check.outcome == 'failure'
+        run: exit 1

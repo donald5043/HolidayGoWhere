@@ -1,20 +1,9 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { Cctv, ExternalLink, Play, RefreshCw, Square } from 'lucide-react'
 import type { Place, Webcam } from '../data'
-import { haversineKm, isRoadCam, loadWebcams } from '../lib/webcams'
+import { loadWebcams, MAX_SHOWN, selectNearbyWebcams } from '../lib/webcams'
 import { CollapsibleSection } from './CollapsibleSection'
 
-// 「現場」必須名符其實:只收真的在景點同一區的鏡頭
-const SCENIC_RADIUS_KM = 3
-// 俯瞰型鏡頭(象山看臺北、硬漢嶺這類)照的是整個盆地/平原,遠一點仍能看天氣,
-// 用大半徑當補位,但排在現場鏡頭後面且最多 1 支;室內景點不需要看區域天氣,不套用
-const PANORAMA_RADIUS_KM = 12
-const MAX_PANORAMA_SHOWN = 1
-const ROAD_RADIUS_KM = 4
-const MAX_SHOWN = 3
-const MAX_ROAD_SHOWN = 2
-// 額外保留的路況備援:鏡頭常有斷線,列表顯示前 3 支「載得出來」的
-const ROAD_BACKUPS = 4
 const SNAPSHOT_REFRESH_MS = 20000
 const LIVE_MAX_MS = 60000
 
@@ -285,32 +274,7 @@ export function NearbyWebcams({ anchor }: Props) {
     }
   }, [])
 
-  const nearby = useMemo(() => {
-    const scored = webcams.map((cam) => ({
-      cam,
-      dist: haversineKm(anchor, cam),
-      road: isRoadCam(cam),
-      panorama: cam.view === 'panorama',
-    }))
-    const byDist = (a: { dist: number }, b: { dist: number }) => a.dist - b.dist
-    // 俯瞰型鏡頭照的是遠景,再近也不是「現場」(例:烘爐地距中和恐龍園區 2km,
-    // 但畫面是山腰俯瞰),一律歸「遠眺」類,避免佔掉現場名額、擠掉真正有用的路況鏡頭
-    const scenic = scored.filter((e) => !e.road && !e.panorama && e.dist <= SCENIC_RADIUS_KM).sort(byDist)
-    const panorama =
-      anchor.setting === '室內'
-        ? []
-        : scored
-            .filter((e) => e.panorama && e.dist <= PANORAMA_RADIUS_KM)
-            .sort(byDist)
-            .slice(0, MAX_PANORAMA_SHOWN)
-    // 路況鏡頭:有快照的(可直接顯示畫面)優先,link 播放頁其次;
-    // 多留幾支備援,顯示時鏡頭失效可自動遞補,不會 3 支只剩 1 支
-    const road = scored
-      .filter((e) => e.road && e.dist <= ROAD_RADIUS_KM)
-      .sort((a, b) => Number(a.cam.kind === 'link') - Number(b.cam.kind === 'link') || a.dist - b.dist)
-      .slice(0, MAX_ROAD_SHOWN + ROAD_BACKUPS)
-    return [...scenic, ...panorama, ...road]
-  }, [webcams, anchor])
+  const nearby = useMemo(() => selectNearbyWebcams(anchor, webcams), [webcams, anchor])
 
   if (!nearby.length) return null
 
