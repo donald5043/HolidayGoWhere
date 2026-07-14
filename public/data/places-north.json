@@ -169694,5 +169694,3137 @@
     "qualityScore": 7,
     "updatedAt": "2026-07-13",
     "placeType": "餐飲"
+  },
+  {
+    "id": "taipei-park-44",
+    "name": "立農公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "北投區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市北投區承德路七段378號",
+    "hours": "24 小時開放",
+    "lat": 25.11879,
+    "lng": 121.50351,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "立農公園坐落於北投區承德路七段與吉利街口，公園開闢於78、79年，面積約有1萬7千平方公尺，園內種植包括九重葛、矮仙丹花、茄苳、黑板樹及龍柏等植物，為公園內增添不少色彩，還設有一座環形露天廣場供民眾舉辦各類活動，讓民眾在欣賞美景之餘，可以運動與休憩。在花廊廣場區的後方有一片大榕樹群落，作為綠蔭休憩區，沿著步道越過大片草皮，即可到達熱鬧的遊戲區，有籃球場、羽球場及溜冰場及兒童遊具組合，讓大人、小孩皆能盡情快樂地遊玩，旁邊的花廊，可作為運動後的休息場所。在公園西北側保留了農業時代重要的灌溉水渠「八仙圳」的遺跡，此亦為立農公園的一大特色，更使立農公園平添文化歷史的氣息。\n現場設施類別：沙坑、搖搖樂、旋轉台、翹翹板、組合遊具、極限飛輪 等、涼亭、公廁、生飲台、運動設施、溜冰場、籃球場、羽球場、大轉輪、三人扭腰器、太空漫步器、上肢牽引器、腰背按摩器。",
+    "highlights": [
+      "共融遊戲場",
+      "沙坑",
+      "搖搖樂",
+      "旋轉台",
+      "翹翹板",
+      "組合遊具",
+      "極限飛輪 等",
+      "涼亭"
+    ],
+    "facilities": [
+      "共融遊戲場",
+      "沙坑",
+      "搖搖樂",
+      "旋轉台",
+      "翹翹板",
+      "組合遊具",
+      "極限飛輪 等",
+      "涼亭"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AB%8B%E8%BE%B2%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%E6%89%BF%E5%BE%B7%E8%B7%AF%E4%B8%83%E6%AE%B5378%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-44",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:16:29.958Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-360",
+    "name": "奇岩1號公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市磺港路208號(奇岩新社區公一)",
+    "hours": "24 小時開放",
+    "lat": 25.128339,
+    "lng": 121.503698,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "奇岩1號公園位於北投區磺港路旁奇岩重劃區內，公園面積為18,729平方公尺並於102年開闢，奇岩1號公園規劃時保留大量當地原生樹木(如榕樹、樟樹及構樹)，並引中崙仔溝溪水設置生態池，池邊種植水生植物豐富水池景觀，目前亦有白鴨、魚及龜鱉等生活於池內，形成一個完整的生態。沿著磺港路設有自行車道，可環繞奇岩重劃區觀賞各公園景觀，池邊亦設有環湖步道、觀賞平台與休憩涼亭，傍晚時兒童遊戲區總是充滿著小孩的歡樂聲，長輩話家常於周邊座椅上，構成一幅溫馨天倫畫，公園範圍狹長，適合環繞公園運動休憩，如您經過此地，建議您闔家到此一遊。\n現場設施類別：組合遊具、攀爬設施、涼亭、公廁、生飲台。",
+    "highlights": [
+      "共融遊戲場",
+      "組合遊具",
+      "攀爬設施",
+      "涼亭",
+      "公廁",
+      "生飲台"
+    ],
+    "facilities": [
+      "共融遊戲場",
+      "組合遊具",
+      "攀爬設施",
+      "涼亭",
+      "公廁",
+      "生飲台"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A5%87%E5%B2%A91%E8%99%9F%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E7%A3%BA%E6%B8%AF%E8%B7%AF208%E8%99%9F(%E5%A5%87%E5%B2%A9%E6%96%B0%E7%A4%BE%E5%8D%80%E5%85%AC%E4%B8%80)",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-360",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:16:31.083Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-141",
+    "name": "知行公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "北投區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市北投區關渡里知行路225巷",
+    "hours": "24 小時開放",
+    "lat": 25.11973,
+    "lng": 121.466652,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "本公園屬中生代公園。公園面積：2759平方公尺。公園位置：知行路225巷，座落關渡里區內。公園沿革：於民國78年開闢，92年完成社改。\n現場設施類別：組合遊具、翹翹板、搖搖樂、涼亭、肩關節康復器、雙人坐推座拉訓練器、雙人滑雪器、上肢牽引器。",
+    "highlights": [
+      "共融遊戲場",
+      "組合遊具",
+      "翹翹板",
+      "搖搖樂",
+      "涼亭",
+      "肩關節康復器",
+      "雙人坐推座拉訓練器",
+      "雙人滑雪器"
+    ],
+    "facilities": [
+      "共融遊戲場",
+      "組合遊具",
+      "翹翹板",
+      "搖搖樂",
+      "涼亭",
+      "肩關節康復器",
+      "雙人坐推座拉訓練器",
+      "雙人滑雪器"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%9F%A5%E8%A1%8C%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%E9%97%9C%E6%B8%A1%E9%87%8C%E7%9F%A5%E8%A1%8C%E8%B7%AF225%E5%B7%B7",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-141",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:16:32.230Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-871",
+    "name": "洲美(公4)公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "北投區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市北投區洲美街122號",
+    "hours": "24 小時開放",
+    "lat": 25.100089,
+    "lng": 121.506347,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "位於三王宮及洲美屈原宮旁的新闢公園，設有兒童遊戲場、體健設施區、多功能球場、動物友善空間、歷史廣場及龍舟展示棚等，其中兒童遊戲場提供能攀爬及旋轉等機能設施。\n現場設施類別：組合遊具、大旋轉組、旋轉桶椅、攀爬組、雙人浪板.雙人座推、划船器、雙人漫步器。",
+    "highlights": [
+      "共融遊戲場",
+      "組合遊具",
+      "大旋轉組",
+      "旋轉桶椅",
+      "攀爬組",
+      "雙人浪板.雙人座推",
+      "划船器",
+      "雙人漫步器"
+    ],
+    "facilities": [
+      "共融遊戲場",
+      "組合遊具",
+      "大旋轉組",
+      "旋轉桶椅",
+      "攀爬組",
+      "雙人浪板.雙人座推",
+      "划船器",
+      "雙人漫步器"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B4%B2%E7%BE%8E(%E5%85%AC4)%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%E6%B4%B2%E7%BE%8E%E8%A1%97122%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-871",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:16:33.368Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-113",
+    "name": "新興公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "北投區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市北投區新興路145號旁(六期重劃)",
+    "hours": "24 小時開放",
+    "lat": 25.13934,
+    "lng": 121.48703,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "新興公園開闢於民國91年度，面積約為2,931平方公尺，座落於新興路145號的小巷道旁，園區範圍方正，園內步道為一環繞園區之設計，園內設有兒童組合遊具、涼亭、座椅、廣場等設施，園內樹蔭茂密，可以遮蔽酷暑，適合附近居民朋友前來休憩走動，或是攜帶小朋友一同前來運動遊玩。\n現場設施類別：組合遊具、涼亭、生飲台、腰背按摩器、大轉輪、伸腰伸背器、上肢牽引器、漫步器。",
+    "highlights": [
+      "特色公園",
+      "組合遊具",
+      "涼亭",
+      "生飲台",
+      "腰背按摩器",
+      "大轉輪",
+      "伸腰伸背器",
+      "上肢牽引器"
+    ],
+    "facilities": [
+      "特色公園",
+      "組合遊具",
+      "涼亭",
+      "生飲台",
+      "腰背按摩器",
+      "大轉輪",
+      "伸腰伸背器",
+      "上肢牽引器"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E8%88%88%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%E6%96%B0%E8%88%88%E8%B7%AF145%E8%99%9F%E6%97%81(%E5%85%AD%E6%9C%9F%E9%87%8D%E5%8A%83)",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-113",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:16:35.519Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-747",
+    "name": "榮富公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "北投區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市北投區榮華三路及磺溪旁(過天母橋)",
+    "hours": "24 小時開放",
+    "lat": 25.114229,
+    "lng": 121.524727,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "榮富公園開闢於民國88年，面積約9135平方公尺，座落於榮華三路旁，園內有涼亭、兒童組合遊具等設施，該園緊鄰磺溪健康步道，在您健走或騎完自行車之虞，不妨到榮富公園內稍做休息，感受樹木環繞的自然氣息，充分體驗磺溪之美。\n現場設施類別：組合遊具、鞦韆、MONKEYBAR、彈跳床、木隧道 等、涼亭、上肢牽引器、單槓、雙槓、漫步器。",
+    "highlights": [
+      "共融遊戲場",
+      "組合遊具",
+      "鞦韆",
+      "MONKEYBAR",
+      "彈跳床",
+      "木隧道 等",
+      "涼亭",
+      "上肢牽引器"
+    ],
+    "facilities": [
+      "共融遊戲場",
+      "組合遊具",
+      "鞦韆",
+      "MONKEYBAR",
+      "彈跳床",
+      "木隧道 等",
+      "涼亭",
+      "上肢牽引器"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A6%AE%E5%AF%8C%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%E6%A6%AE%E8%8F%AF%E4%B8%89%E8%B7%AF%E5%8F%8A%E7%A3%BA%E6%BA%AA%E6%97%81(%E9%81%8E%E5%A4%A9%E6%AF%8D%E6%A9%8B)",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-747",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:16:36.806Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-867",
+    "name": "福星(公1)公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "北投區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市北投區文林北路255號",
+    "hours": "24 小時開放",
+    "lat": 25.108828,
+    "lng": 121.512326,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "福星(公1)公園 全新的福星公園遊戲場，擁有火山滑梯、沈船沙坑、叢林攀爬、溜索、彈跳床、恐龍化石等主題式遊戲場任你玩，而最吸睛的恐龍化石造型遊具，能讓小朋友自由穿梭還能攀爬上去，滿足小朋友當英雄征服恐龍的滿足感。\n現場設施類別：攀爬組、雙滑軌溜索、彈跳床、旋轉台、磨石子溜滑梯、沙坑.仿古代沉船、盪鞦韆、單槓、上肢牽引器、肩關節康復器、雙人漫步器、雙人浪板、腰背按摩器。",
+    "highlights": [
+      "共融遊戲場",
+      "攀爬組",
+      "雙滑軌溜索",
+      "彈跳床",
+      "旋轉台",
+      "磨石子溜滑梯",
+      "沙坑.仿古代沉船",
+      "盪鞦韆"
+    ],
+    "facilities": [
+      "共融遊戲場",
+      "攀爬組",
+      "雙滑軌溜索",
+      "彈跳床",
+      "旋轉台",
+      "磨石子溜滑梯",
+      "沙坑.仿古代沉船",
+      "盪鞦韆"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E6%98%9F(%E5%85%AC1)%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%E6%96%87%E6%9E%97%E5%8C%97%E8%B7%AF255%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-867",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:16:37.932Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-866",
+    "name": "線形公園-芝山明德段",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "北投區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市北投區線形公園東華街一段",
+    "hours": "24 小時開放",
+    "lat": 25.112373,
+    "lng": 121.51714,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "線形公園-芝山明德段",
+    "highlights": [
+      "特色公園"
+    ],
+    "facilities": [
+      "特色公園"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B7%9A%E5%BD%A2%E5%85%AC%E5%9C%92-%E8%8A%9D%E5%B1%B1%E6%98%8E%E5%BE%B7%E6%AE%B5%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%E7%B7%9A%E5%BD%A2%E5%85%AC%E5%9C%92%E6%9D%B1%E8%8F%AF%E8%A1%97%E4%B8%80%E6%AE%B5",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-866",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:16:39.058Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-1012",
+    "name": "線形公園（大同里）北投29號",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "北投區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市北投區北投路2段55號斜對面",
+    "hours": "24 小時開放",
+    "lat": 25.133587,
+    "lng": 121.497223,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "捷運沿線 北投站 線形公園（大同里）遊戲場 北投29號",
+    "highlights": [
+      "共融遊戲場"
+    ],
+    "facilities": [
+      "共融遊戲場"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B7%9A%E5%BD%A2%E5%85%AC%E5%9C%92%EF%BC%88%E5%A4%A7%E5%90%8C%E9%87%8C%EF%BC%89%E5%8C%97%E6%8A%9529%E8%99%9F%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%E5%8C%97%E6%8A%95%E8%B7%AF2%E6%AE%B555%E8%99%9F%E6%96%9C%E5%B0%8D%E9%9D%A2",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-1012",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:16:40.184Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-586",
+    "name": "天母公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "士林區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市士林區中山北路7段141巷旁",
+    "hours": "24 小時開放",
+    "lat": 25.125909,
+    "lng": 121.530518,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "本公園面積57,815㎡、緊鄰磺溪，屬一自然型態之公園，於民國60年間闢建，園中樹木皆已成林、高聳成蔭，是士林、天母地區民眾重要的綠地及休憩場所。一進入公園即可見數株橡膠老樹，四周充滿南洋風情；園內巨大的榕樹更襯出ㄧ片綠意盎然。 公園略呈長型，規劃設計有多項運動設施，如籃球、羽球、溜冰場、健康步道等，如此全方位的考量，適合闔家一同前往休憩、參與創意並抒發心情。 磺溪靜靜川流本區，遊客漫步於林間步道，不同的景緻展現出寧靜、雅緻的感受。附近高級住宅林立，各項動靜態的設計，既有鮮明活力，又可享自然天成的林意。\n現場設施類別：攀爬滑梯、擺盪大繩、磨石子滑梯、沙坑、旋轉設施 等、溜冰場、羽球場、籃球場爬架、單槓、雙人太空漫步、三人轉腰、三人上肢牽引期 、雙人太空漫步、雙人肩關節康復器、單槓。",
+    "highlights": [
+      "共融遊戲場",
+      "攀爬滑梯",
+      "擺盪大繩",
+      "磨石子滑梯",
+      "沙坑",
+      "旋轉設施 等",
+      "溜冰場",
+      "羽球場"
+    ],
+    "facilities": [
+      "共融遊戲場",
+      "攀爬滑梯",
+      "擺盪大繩",
+      "磨石子滑梯",
+      "沙坑",
+      "旋轉設施 等",
+      "溜冰場",
+      "羽球場"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E6%AF%8D%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E4%B8%AD%E5%B1%B1%E5%8C%97%E8%B7%AF7%E6%AE%B5141%E5%B7%B7%E6%97%81",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-586",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:16:41.308Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-700",
+    "name": "克強公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "士林區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市士林區磺溪街55巷",
+    "hours": "24 小時開放",
+    "lat": 25.107986,
+    "lng": 121.521967,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "從捷運芝山站2號出口徒步10分鐘就可到達，位在本市磺溪街55巷，也就是蘭雅國小和磺溪間的克強公園，90年年底闢建完成，面積約有1.6公頃。園內的克強游泳池，也就是從前臺北人所熟知的「天母游泳池」，陪伴許多臺北人度過一年又一年的炎炎夏日。 靠近磺溪旁的涼亭也是晨間、黃昏時段，附近居民運動後休憩談天話家常的好所在。園內鳳凰木、榕樹、黑板木、阿勃勒等多樣喬木，展開枝幹綠意盎然，散發各種氣味的芬多精，藉由呼吸、皮膚接觸，遊園民眾也吸收到了這些空氣中的維他命。 與榮華、蘭興、蘭興一、蘭興二、磺溪、天母等公園，像一起灑落在磺溪兩岸的綠寶石，艶陽高照時閃閃發光，璀璨奪目；陰霾斜雨時詩意迷濛、氤蘊瀰瀰，無論晴雨，都讓人想來一趟美麗的串聯。\n現場設施類別：鞦韆、跳跳木樁、流動攀爬網、伸展架、涼亭、生飲台、上肢牽引器、三人轉腰器、肩關節康復器、雙人漫步機、划船機、戶外跑步機、坐式腳踏車。",
+    "highlights": [
+      "特色公園",
+      "鞦韆",
+      "跳跳木樁",
+      "流動攀爬網",
+      "伸展架",
+      "涼亭",
+      "生飲台",
+      "上肢牽引器"
+    ],
+    "facilities": [
+      "特色公園",
+      "鞦韆",
+      "跳跳木樁",
+      "流動攀爬網",
+      "伸展架",
+      "涼亭",
+      "生飲台",
+      "上肢牽引器"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%8B%E5%BC%B7%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E7%A3%BA%E6%BA%AA%E8%A1%9755%E5%B7%B7",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-700",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:16:42.433Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-621",
+    "name": "東和公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "士林區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市士林區中山北路7段114巷旁",
+    "hours": "24 小時開放",
+    "lat": 25.1226,
+    "lng": 121.533686,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "由中山北路七段114巷穿過天母東路86巷就可以到達東和公園，它的面積約有3.1公頃，於民國88年闢建完成，備有平面停車場、表演舞台，羽球場等設施，玉潮坑溪及其支流穿越其間，可說是純粹自然與休閒功能兼備的都會公園。每到假日就吸引許多全家大小來到公園遊憩，尤其在停車場上方斜坡草坪，享受滑草嬉戲或悠閒躺滾的天倫之樂。 園內植有山櫻花、阿勃勒、大花紫薇、欒樹、艷紫荊、楓香等喬木，隨著春、夏、秋、冬輪番在園內上色，使附近居民生活也跟著四季更迭有著多彩的變化。而潺潺溪流、樹木參天，於轉身間偶然也會發現藍鵲、灰樹鵲、黑冠麻鷺、松鼠等穿梭其間，像極了一個偌大的自然教室，是兼具知性與感性的優美空間。 更特別的是，東和公園不僅與天和公園綠意相乘，並且還以中山北路為界與天母公園，形成天母地區的二條綠帶，宛如左右肺片，讓整個區域時時充滿了氧氣，處處呈現著健康樂活的景象。\n現場設施類別：溜滑梯、攀爬網、傳聲筒、溜滑梯入口及顏色板、盪鞦韆 等、涼亭、體健設施(含單槓)、羽球場雙人浪板、雙人肩關節康復器、雙人坐拉、雙人浪板、單槓。",
+    "highlights": [
+      "特色公園",
+      "溜滑梯",
+      "攀爬網",
+      "傳聲筒",
+      "溜滑梯入口及顏色板",
+      "盪鞦韆 等",
+      "涼亭",
+      "體健設施(含單槓)"
+    ],
+    "facilities": [
+      "特色公園",
+      "溜滑梯",
+      "攀爬網",
+      "傳聲筒",
+      "溜滑梯入口及顏色板",
+      "盪鞦韆 等",
+      "涼亭",
+      "體健設施(含單槓)"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E5%92%8C%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E4%B8%AD%E5%B1%B1%E5%8C%97%E8%B7%AF7%E6%AE%B5114%E5%B7%B7%E6%97%81",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-621",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:16:43.558Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-317",
+    "name": "後港公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "士林區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市士林區承德路五段78號旁（度量衡檢定所旁）",
+    "hours": "24 小時開放",
+    "lat": 25.093237,
+    "lng": 121.514454,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "鄰近基隆河畔的後港公園，是居民親近的後花園。磚砌的拱門、古樸小徑，流露靜謐穩重氣息，古樸的氣氛讓人宛若遠離塵囂。\n現場設施類別：組合遊具(村莊高塔)、搖搖樂、盪鞦韆、攀爬遊具組、直飲台、涼亭、無障礙景觀公廁、雙人浪板、雙人坐推器、雙人肩關節康復器、單槓。",
+    "highlights": [
+      "特色公園",
+      "組合遊具(村莊高塔)",
+      "搖搖樂",
+      "盪鞦韆",
+      "攀爬遊具組",
+      "直飲台",
+      "涼亭",
+      "無障礙景觀公廁"
+    ],
+    "facilities": [
+      "特色公園",
+      "組合遊具(村莊高塔)",
+      "搖搖樂",
+      "盪鞦韆",
+      "攀爬遊具組",
+      "直飲台",
+      "涼亭",
+      "無障礙景觀公廁"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BE%8C%E6%B8%AF%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E6%89%BF%E5%BE%B7%E8%B7%AF%E4%BA%94%E6%AE%B578%E8%99%9F%E6%97%81%EF%BC%88%E5%BA%A6%E9%87%8F%E8%A1%A1%E6%AA%A2%E5%AE%9A%E6%89%80%E6%97%81%EF%BC%89",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-317",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:16:45.025Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-526",
+    "name": "海光公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "士林區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市士林區環河北路三段與葫蘆街交口",
+    "hours": "24 小時開放",
+    "lat": 25.08185,
+    "lng": 121.507881,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "葫蘆國小前的海光公園，園內除了有涼亭、籃球場、兒童遊戲區、地下停車場等設施，滿足不同年齡層的生活需求外，還座落著葫蘆堵居民的信仰中心海光宮。是相傳有一農民在基隆河與淡水河交界處番仔溝，發現觀音佛祖神尊，在村民們建造小型的磚石廟宇，將觀音佛祖神尊奉祀於內，取名為「海光宮」。 知道嗎？士林區最老的樹就在園內，樹蔭寬廣，矗立中央，不僅提供民眾生活休閒的綠色空間，也守護著公園內的一草一木。又由於西依鄰著環河北路，高架道路又貫穿其上，凡駕駛行經於此，滿眼花草綠樹，疲勞視覺頓時放鬆了許多。 海光公園是最融入社區生活的都會公園，伴著遠近遐邇的海光宮古老傳說，又提供交通便捷的功能性，文化與文明的交錯，一種絶對的生活感。\n現場設施類別：攀爬架、組合遊具、旋轉台、旋轉陀螺、盪鞦韆、籃球場、籃球場(半場)、雙人坐推、雙人大轉輪、滑雪器、划船器、雙人漫步器、雙人浪板、單人健騎。",
+    "highlights": [
+      "特色公園",
+      "攀爬架",
+      "組合遊具",
+      "旋轉台",
+      "旋轉陀螺",
+      "盪鞦韆",
+      "籃球場",
+      "籃球場(半場)"
+    ],
+    "facilities": [
+      "特色公園",
+      "攀爬架",
+      "組合遊具",
+      "旋轉台",
+      "旋轉陀螺",
+      "盪鞦韆",
+      "籃球場",
+      "籃球場(半場)"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E5%85%89%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E7%92%B0%E6%B2%B3%E5%8C%97%E8%B7%AF%E4%B8%89%E6%AE%B5%E8%88%87%E8%91%AB%E8%98%86%E8%A1%97%E4%BA%A4%E5%8F%A3",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-526",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:16:46.150Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-783",
+    "name": "福中公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "士林區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市士林區福港街107巷百齡國小附近",
+    "hours": "24 小時開放",
+    "lat": 25.087919,
+    "lng": 121.518837,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "福中公園從人文素材出發，透過步道規劃導覽，娓娓道來福港地區的歷史人文。相映著台灣欒樹黃紅簇擁以及環狀花木林蔭，好不熱鬧。\n現場設施類別：蝴蝶翹翹板、鳥巢盪鞦韆、一般坐式盪鞦韆、組合遊具、旋轉盤、直飲台、涼亭、單槓、雙人大轉輪、雙人坐拉、雙人漫步機、上肢牽引器。",
+    "highlights": [
+      "共融遊戲場",
+      "蝴蝶翹翹板",
+      "鳥巢盪鞦韆",
+      "一般坐式盪鞦韆",
+      "組合遊具",
+      "旋轉盤",
+      "直飲台",
+      "涼亭"
+    ],
+    "facilities": [
+      "共融遊戲場",
+      "蝴蝶翹翹板",
+      "鳥巢盪鞦韆",
+      "一般坐式盪鞦韆",
+      "組合遊具",
+      "旋轉盤",
+      "直飲台",
+      "涼亭"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E4%B8%AD%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E7%A6%8F%E6%B8%AF%E8%A1%97107%E5%B7%B7%E7%99%BE%E9%BD%A1%E5%9C%8B%E5%B0%8F%E9%99%84%E8%BF%91",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-783",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:16:47.278Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-734",
+    "name": "蘭雅1號公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "士林區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市士林區忠誠路2段24號旁",
+    "hours": "24 小時開放",
+    "lat": 25.109932,
+    "lng": 121.529112,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "忠誠路二段上，兩塊方整的綠地組成了面積1.1公頃的蘭雅公園，園內設施除有兒童遊戲區、溜冰場、彩繪涼亭、健康步道，提供民眾完善的休憩空間外，尤其地下停車場更增加附近上班族及居民的便利性。 園內共植3百餘株喬木，列有33株為本市受保護樹木，綠蔭濃密，保護樹木不遺餘力。走在這花木扶疏的綠園裡，可以感受到這些老樹，曾經陪伴多少人的孩童稚氣、年少輕狂、中年睿智、銀髮樂活的人生四季，是居民共同守護的園地。 為提供市民「無菸、清新」的休憩新天地，推動蘭雅公園成為無菸公園，並設置禁菸告示牌，由無菸志工協助巡視勸導，創造無菸支持性環境，讓民眾都能體驗好山、好水、好樣的無菸環境。\n現場設施類別：組合遊具搖搖樂、木座組合游具、溜冰場、地下停車場、單人滑雪、單人健騎、雙人座蹬、告示牌、單人滑船、雙人伸腰伸背器、雙人肩關節康復器、單槓、上肢牽引器。",
+    "highlights": [
+      "特色公園",
+      "組合遊具搖搖樂",
+      "木座組合游具",
+      "溜冰場",
+      "地下停車場",
+      "單人滑雪",
+      "單人健騎",
+      "雙人座蹬"
+    ],
+    "facilities": [
+      "特色公園",
+      "組合遊具搖搖樂",
+      "木座組合游具",
+      "溜冰場",
+      "地下停車場",
+      "單人滑雪",
+      "單人健騎",
+      "雙人座蹬"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%98%AD%E9%9B%851%E8%99%9F%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E5%BF%A0%E8%AA%A0%E8%B7%AF2%E6%AE%B524%E8%99%9F%E6%97%81",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-734",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:16:48.438Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-840",
+    "name": "蘭雅公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "士林區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市士林區忠誠路2段32巷旁",
+    "hours": "24 小時開放",
+    "lat": 25.109744,
+    "lng": 121.529919,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "忠誠路二段上，兩塊方整的綠地組成了面積1.1公頃的蘭雅公園，園內設施除有兒童遊戲區、溜冰場、彩繪涼亭、健康步道，提供民眾完善的休憩空間外，尤其地下停車場更增加附近上班族及居民的便利性。 園內共植3百餘株喬木，列有33株為本市受保護樹木，綠蔭濃密，保護樹木不遺餘力。走在這花木扶疏的綠園裡，可以感受到這些老樹，曾經陪伴多少人的孩童稚氣、年少輕狂、中年睿智、銀髮樂活的人生四季，是居民共同守護的園地。 為提供市民「無菸、清新」的休憩新天地，推動蘭雅公園成為無菸公園，並設置禁菸告示牌，由無菸志工協助巡視勸導，創造無菸支持性環境，讓民眾都能體驗好山、好水、好樣的無菸環境。\n現場設施類別：城堡遊戲組、大轉轉杯、單人健騎器、腰背按摩器、單人漫步器。",
+    "highlights": [
+      "特色公園",
+      "城堡遊戲組",
+      "大轉轉杯",
+      "單人健騎器",
+      "腰背按摩器",
+      "單人漫步器"
+    ],
+    "facilities": [
+      "特色公園",
+      "城堡遊戲組",
+      "大轉轉杯",
+      "單人健騎器",
+      "腰背按摩器",
+      "單人漫步器"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%98%AD%E9%9B%85%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E5%BF%A0%E8%AA%A0%E8%B7%AF2%E6%AE%B532%E5%B7%B7%E6%97%81",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-840",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:16:49.561Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-948",
+    "name": "福德綠地A",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "士林區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市士林區重慶北路四段1巷，高速公路交流道旁",
+    "hours": "24 小時開放",
+    "lat": 25.079538,
+    "lng": 121.512395,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "福德綠地(士林138號)位於重慶北路四段1巷，高速公路交流道旁，綠地內設有福德宮為週邊民眾之信仰中心。另有各種遊樂設施及運動器材，更設有一座溜冰場提供有興趣的民眾使用。",
+    "highlights": [
+      "特色公園"
+    ],
+    "facilities": [
+      "特色公園"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E5%BE%B7%E7%B6%A0%E5%9C%B0A%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E9%87%8D%E6%85%B6%E5%8C%97%E8%B7%AF%E5%9B%9B%E6%AE%B51%E5%B7%B7%EF%BC%8C%E9%AB%98%E9%80%9F%E5%85%AC%E8%B7%AF%E4%BA%A4%E6%B5%81%E9%81%93%E6%97%81",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-948",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:16:50.687Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-106",
+    "name": "永直公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "中山區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市中山區北安路608巷14弄1號",
+    "hours": "24 小時開放",
+    "lat": 25.08147,
+    "lng": 121.550529,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "永直公園為「人文藝術」公園，附近有香火鼎盛的植福宮，常有外國觀光客前來朝聖，園內造型花架為視覺焦點所在，新穎的造型，給人一種鮮耀的感覺。\n現場設施類別：組合遊具、涼亭、直飲台、廁所、滑雪器、雙人扭腰器、肩關節復健器、單槓。",
+    "highlights": [
+      "特色公園",
+      "組合遊具",
+      "涼亭",
+      "直飲台",
+      "廁所",
+      "滑雪器",
+      "雙人扭腰器",
+      "肩關節復健器"
+    ],
+    "facilities": [
+      "特色公園",
+      "組合遊具",
+      "涼亭",
+      "直飲台",
+      "廁所",
+      "滑雪器",
+      "雙人扭腰器",
+      "肩關節復健器"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B0%B8%E7%9B%B4%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E5%8C%97%E5%AE%89%E8%B7%AF608%E5%B7%B714%E5%BC%841%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-106",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:16:51.812Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-77",
+    "name": "明水公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "中山區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市中山區北安路538巷1弄1號前",
+    "hours": "24 小時開放",
+    "lat": 25.078819,
+    "lng": 121.548058,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "明水公園位於北安路538巷口，鄰永安國小，公園面積約1公頃，是一個小巧卻機能豐富的公園。走進公園內直接映入眼簾的是滿滿的綠意、挺拔的大王椰子、茂盛的水黃皮、色彩豐富的臺灣欒樹以及洋玉蘭、櫻花、楓香、鳳凰木、榕樹、茄苳、豔紫荊等十餘種喬木，配合不同的時期開花與變色落葉，充分展現四季變換之美，加上青翠宜人的美麗草皮，漫步其間彷彿在轉瞬間遠離塵囂，常見許多遊客在長椅上冥想，洗去一身疲累並紓緩各種壓力。 公園內的設施有供學童恣意滑動的溜冰場、攀爬嬉戲的兒童遊戲場、讓社區居民來此聚會話家常的休憩涼亭、婆婆媽媽們舒緩筋骨的林下運動廣場等，還有迂迴卻不複雜的步道，讓不大的明水公園卻能藉此有柳暗花明又一村的遊憩體驗，充分提供附近居民一個舒展身心、運動健身的最佳去處。由於本公園緊鄰開放校園的永安國小，所以常見學童們呼朋引伴的在這裡玩得不亦樂乎，在學童們活潑的跑跳之餘，遊戲區舖設的彈性地墊充分確保兒童遊戲時的安全。102年因應設施老舊進行公園更新工程，整合園內體健設施，重新規劃兒童遊戲區，在園內的大榕樹下設計樹屋平台，不僅提供遮陰功能，更能與植物接近也增加趣味性。 在明水公園裡有充滿知性的多樣性特色植栽及富有感性的宜人配置，讓你流連忘返，更有讓你玩得盡興的各項遊樂設施，有機會到這附近，別忘了給自己幾分鐘的時間，體驗一下明水公園的迷人之處。\n現場設施類別：旋轉杯、搖搖馬、旋轉棒、組合遊具、磨石溜滑梯、體健設施、溜冰場。",
+    "highlights": [
+      "共融遊戲場",
+      "旋轉杯",
+      "搖搖馬",
+      "旋轉棒",
+      "組合遊具",
+      "磨石溜滑梯",
+      "體健設施",
+      "溜冰場"
+    ],
+    "facilities": [
+      "共融遊戲場",
+      "旋轉杯",
+      "搖搖馬",
+      "旋轉棒",
+      "組合遊具",
+      "磨石溜滑梯",
+      "體健設施",
+      "溜冰場"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%98%8E%E6%B0%B4%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E5%8C%97%E5%AE%89%E8%B7%AF538%E5%B7%B71%E5%BC%841%E8%99%9F%E5%89%8D",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-77",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:16:52.938Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-818",
+    "name": "大港墘公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "內湖區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市內湖區港墘里瑞光路393號",
+    "hours": "24 小時開放",
+    "lat": 25.077415,
+    "lng": 121.572997,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "公園北接金面山、南接基隆河，具生態跳島的潛力，公園從橫向到縱向多元串連，便能充分發揮都市綠網的機能，創造出讓人感受寧靜的空間，或讓人舒放、一望無際的寬闊大草坪。\n現場設施類別：共融式遊戲場(磨石滑梯、鳥巢式鞦韆、翹翹板、攀爬組、戲沙坑、管型山丘、坡上遊具)。",
+    "highlights": [
+      "共融遊戲場",
+      "共融式遊戲場(磨石滑梯",
+      "鳥巢式鞦韆",
+      "翹翹板",
+      "攀爬組",
+      "戲沙坑",
+      "管型山丘",
+      "坡上遊具)"
+    ],
+    "facilities": [
+      "共融遊戲場",
+      "共融式遊戲場(磨石滑梯",
+      "鳥巢式鞦韆",
+      "翹翹板",
+      "攀爬組",
+      "戲沙坑",
+      "管型山丘",
+      "坡上遊具)"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%B8%AF%E5%A2%98%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%85%A7%E6%B9%96%E5%8D%80%E6%B8%AF%E5%A2%98%E9%87%8C%E7%91%9E%E5%85%89%E8%B7%AF393%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-818",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:16:54.066Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-7",
+    "name": "明美公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "內湖區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市內湖區南京東路六段北側（羊稠小段五期重劃區）",
+    "hours": "24 小時開放",
+    "lat": 25.06222,
+    "lng": 121.586197,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "明美公園位於內湖區舊宗路與南京東路6段交叉口，屬於內湖五期重劃區，公園形狀呈現倒L型，包含公園主體及一長形帶狀綠地，公園主要區塊設有花架休憩區、兒童遊戲場。沿著南京東路的狹長綠帶，利用原有地形地貌闢建而成，並以土丘區隔南京東路6段與公園，用以阻隔馬路上的車流噪音，使得明美公園自成一格，公園內以簡單的園路貫穿綠地，漫步於公園內別有一番獨特於都市喧囂的感受。另外公園全區沿線人行道，市民更可全家出遊，園內的兒童遊憩區適合小孩子遊玩，大人坐在一旁的椅子上，一面照顧小孩一面享受公園的環境。\n現場設施類別：溜滑梯 、彈跳床、攀爬架、鞦韆、沙坑、智慧路燈、涼亭、景觀公廁、原地支撐跳欄、仰臥舉腿、撐體向上、引體向上、划船器、雙人肩關節康復器。",
+    "highlights": [
+      "特色公園",
+      "溜滑梯",
+      "彈跳床",
+      "攀爬架",
+      "鞦韆",
+      "沙坑",
+      "智慧路燈",
+      "涼亭"
+    ],
+    "facilities": [
+      "特色公園",
+      "溜滑梯",
+      "彈跳床",
+      "攀爬架",
+      "鞦韆",
+      "沙坑",
+      "智慧路燈",
+      "涼亭"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%98%8E%E7%BE%8E%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%85%A7%E6%B9%96%E5%8D%80%E5%8D%97%E4%BA%AC%E6%9D%B1%E8%B7%AF%E5%85%AD%E6%AE%B5%E5%8C%97%E5%81%B4%EF%BC%88%E7%BE%8A%E7%A8%A0%E5%B0%8F%E6%AE%B5%E4%BA%94%E6%9C%9F%E9%87%8D%E5%8A%83%E5%8D%80%EF%BC%89",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-7",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:16:55.193Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-52",
+    "name": "石潭公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "內湖區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市內湖區內湖成功路二段東側（麥帥公路兩側）",
+    "hours": "24 小時開放",
+    "lat": 25.06312,
+    "lng": 121.593208,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "位於內湖區成功路二段的石潭公園，開闢於民國87年，全區共佔地55,660平方公尺，坐落在麥帥公路兩側，自成功路二段延伸安康路的全段，提供市民休閒活動的空間和豐富的運動設施。園內有一片完整且開闊的草坪，適合各種戶外活動，玩累了就可以到旁邊的涼亭休息。因為地勢較高，草坪的視野遼闊，可以欣賞環東大橋精湛的力學工藝，以及遠眺信義區的臺北101。除此之外，草坪內還有展演廣場，有別於水泥地坪，這裡從階梯座椅到表演舞臺都是由草皮構成，減少了人工設施也柔和了銳利的畫面，讓表演變得格外親切自在。公園北側的林蔭步道也可以讓想要逃離酷暑烈日的你隔離城市的喧囂，享受一下沁涼暢快的森林浴。沿著步道，隨時可在身旁的座椅停下腳步，在充滿綠意的環境裡和好朋友談天說地。 公園裡另外設有籃球場、網球場，充分提供市民健身揮汗的場地。2座兒童遊戲區更是有別於其他地方，多了連續的溜滑梯和搖搖樂遊具，非常受到小朋友們的喜愛，也是建立親子互動的好地方。每到周末許多家長帶著小朋友到此遊玩，也歡迎您來石潭公園走走。\n現場設施類別：磨石滑梯、共融式遊具(鞦韆、翹翹板、搖搖樂、攀爬組、起伏平衡木、跳樁組合)、涼亭、景觀台、籃球場、網球場、撐體前進、撐體向上、鯉魚翻身、引體向上、步步高升。",
+    "highlights": [
+      "共融遊戲場",
+      "磨石滑梯",
+      "共融式遊具(鞦韆",
+      "翹翹板",
+      "搖搖樂",
+      "攀爬組",
+      "起伏平衡木",
+      "跳樁組合)"
+    ],
+    "facilities": [
+      "共融遊戲場",
+      "磨石滑梯",
+      "共融式遊具(鞦韆",
+      "翹翹板",
+      "搖搖樂",
+      "攀爬組",
+      "起伏平衡木",
+      "跳樁組合)"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%9F%B3%E6%BD%AD%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%85%A7%E6%B9%96%E5%8D%80%E5%85%A7%E6%B9%96%E6%88%90%E5%8A%9F%E8%B7%AF%E4%BA%8C%E6%AE%B5%E6%9D%B1%E5%81%B4%EF%BC%88%E9%BA%A5%E5%B8%A5%E5%85%AC%E8%B7%AF%E5%85%A9%E5%81%B4%EF%BC%89",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-52",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:16:56.318Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-140",
+    "name": "紫陽綠地",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "內湖區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市內湖區陽光街55號、內湖高中後面",
+    "hours": "24 小時開放",
+    "lat": 25.07641,
+    "lng": 121.5868,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "紫陽公園位於陽光街55號.內湖高中後面，面積12,125平方公尺，西元1991年闢建。公園綠地是兒童最常玩耍的地方，也是民眾運動及休閒的好去處。在推動無菸公園後，民眾在公園休憩身心的同時，除了遠離二手菸的危害，也減少抽菸民眾亂丟菸蒂所造成的環境污染，使得公園綠地清潔維護更容易，也提供市民一個「無菸、清新、乾淨」的休憩新天地。 在拒菸的理念下，為了市民健康，臺北市政府衛生局在96年於本市12個行政區中各擇一社區鄰里公園、廣場或動物園等人潮較易聚集之開放空間，作為推動無菸環境的起始點，建立一個未來本市其他區域推動時之參考典範。紫陽公園為內湖區第一座無菸公園，103年4月1日起公園綠地除設吸菸區外全面禁止吸菸，該綠地由熱心市民成立「紫陽拒菸志工隊」。每週一至週五上、下午及晚上各1次，協助無菸公園巡邏、菸害防制宣導、吸菸者規勸、維持環境清潔（菸蒂清除）、健康促進宣導活動。 紫陽公園內種植濃密的榕樹、樟樹、黑板樹、茄冬、台灣灤樹、水黃皮、大花紫薇、羅漢松、福木、大葉山橄等十餘種喬木，休閒健身功能極為完備，除設有一圓形廣場、溜冰場、攀爬架、溜滑梯、搖搖樂及單桿體健設施等，每年都藉圓形廣場辦理中秋晚會活動、母親節寫生比賽活動及生態巡禮活動，帶給市民無限歡樂及一個健康休憩場所，更有附近的學童來到兒童遊樂區校外教學，進行球類、遊戲等活動，將此無菸公園綠地發揮至淋漓盡致。\n現場設施類別：涼亭4座、仰臥起坐、雙桿(支撐前進)、單桿、羽毛球場、溜冰場。",
+    "highlights": [
+      "特色公園",
+      "涼亭4座",
+      "仰臥起坐",
+      "雙桿(支撐前進)",
+      "單桿",
+      "羽毛球場",
+      "溜冰場"
+    ],
+    "facilities": [
+      "特色公園",
+      "涼亭4座",
+      "仰臥起坐",
+      "雙桿(支撐前進)",
+      "單桿",
+      "羽毛球場",
+      "溜冰場"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B4%AB%E9%99%BD%E7%B6%A0%E5%9C%B0%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%85%A7%E6%B9%96%E5%8D%80%E9%99%BD%E5%85%89%E8%A1%9755%E8%99%9F%E3%80%81%E5%85%A7%E6%B9%96%E9%AB%98%E4%B8%AD%E5%BE%8C%E9%9D%A2",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-140",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:16:57.446Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-341",
+    "name": "景化公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "大同區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市大同區伊寧街9巷",
+    "hours": "24 小時開放",
+    "lat": 25.065359,
+    "lng": 121.512741,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "景化公園位於延平北路3段61巷及伊寧街9巷交會處，週遭皆為早期巴洛克式矮樓層建築物住宅區，為本座公園增添不少特色，園內設有涼亭、組合遊具及水池等休憩設施，為老社區帶來熱鬧的氣氛。\n現場設施類別：宇宙穿梭機、時空訊息牆、景化小飛碟、黃金光束坡、涼亭、大轉輪、雙人太空漫步器、腰背按摩器。",
+    "highlights": [
+      "共融遊戲場",
+      "宇宙穿梭機",
+      "時空訊息牆",
+      "景化小飛碟",
+      "黃金光束坡",
+      "涼亭",
+      "大轉輪",
+      "雙人太空漫步器"
+    ],
+    "facilities": [
+      "共融遊戲場",
+      "宇宙穿梭機",
+      "時空訊息牆",
+      "景化小飛碟",
+      "黃金光束坡",
+      "涼亭",
+      "大轉輪",
+      "雙人太空漫步器"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%99%AF%E5%8C%96%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%E4%BC%8A%E5%AF%A7%E8%A1%979%E5%B7%B7",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-341",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:16:58.571Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-325",
+    "name": "三民公園A",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "松山區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市松山區三民路，撫遠街298號",
+    "hours": "24 小時開放",
+    "lat": 25.06138,
+    "lng": 121.566963,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "三民公園位於松山區新益里新東街、塔悠路及與撫遠街261巷旁，為一長條形帶狀公園，經撫遠街一分為二，公園西側設有三民公園溫水游泳池，是夏日市民消暑及冬天運動的好去處，臨新東街的口袋公園是逛市場歇歇腿的好地方，長椅上帶著大量蔬果食材的主婦望著草地上嬉戲的兒童是這裡常見的溫馨畫面。公園東側豐富的兒童遊具及體健設施是老少咸宜的運動健身場所，茂密的喬木圍繞著青翠草皮提供寬闊且舒適的活動空間，綜合廣場與及活動舞台是居民跳舞運動及舉辦各類活動的重要空間，塔悠路旁的溜冰場更是頗受歡迎的直排輪樂園。 公園內喬木種類豐富，除常見的榕樹外，高聳挺拔的白千層、提供涼爽遮蔭的茄苳、獨角仙最愛的光蠟樹、南洋風味的蒲葵等，加上隨季節便花盛開豔麗花朵的臺灣欒樹、豔紫荊、仙丹花及杜鵑等觀花性喬灌木，彷彿舞動在琴譜上美妙的音符般分布在帶狀的三民公園上，值得到此親身體驗喔。\n現場設施類別：立體遊戲組、沙坑、溜冰場、涼亭、單槓、伏地挺身雙人肩關節康復器、雙人轉腰器。",
+    "highlights": [
+      "共融遊戲場",
+      "立體遊戲組",
+      "沙坑",
+      "溜冰場",
+      "涼亭",
+      "單槓",
+      "伏地挺身雙人肩關節康復器",
+      "雙人轉腰器"
+    ],
+    "facilities": [
+      "共融遊戲場",
+      "立體遊戲組",
+      "沙坑",
+      "溜冰場",
+      "涼亭",
+      "單槓",
+      "伏地挺身雙人肩關節康復器",
+      "雙人轉腰器"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E6%B0%91%E5%85%AC%E5%9C%92A%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%E4%B8%89%E6%B0%91%E8%B7%AF%EF%BC%8C%E6%92%AB%E9%81%A0%E8%A1%97298%E8%99%9F",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-325",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:16:59.699Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-570",
+    "name": "吉祥公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "松山區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市松山區八德路四段245巷52弄至56弄間",
+    "hours": "24 小時開放",
+    "lat": 25.050533,
+    "lng": 121.564049,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "吉祥公園為一座多功能的鄰里公園，樹蔭下的泥土地鋪設地磚及種植花草，兼顧造型與實用的設計，而局部草花的造景，讓公園顯得俏皮有活力。\n現場設施類別：組合遊具、翹翹板、涼亭、腹肌器、扭腰器、單槓、大轉輪、雙人太空漫步機、單人太空漫步機。",
+    "highlights": [
+      "特色公園",
+      "組合遊具",
+      "翹翹板",
+      "涼亭",
+      "腹肌器",
+      "扭腰器",
+      "單槓",
+      "大轉輪"
+    ],
+    "facilities": [
+      "特色公園",
+      "組合遊具",
+      "翹翹板",
+      "涼亭",
+      "腹肌器",
+      "扭腰器",
+      "單槓",
+      "大轉輪"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%90%89%E7%A5%A5%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%E5%85%AB%E5%BE%B7%E8%B7%AF%E5%9B%9B%E6%AE%B5245%E5%B7%B752%E5%BC%84%E8%87%B356%E5%BC%84%E9%96%93",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-570",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:17:00.824Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-813",
+    "name": "孝德公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "萬華區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市萬華區寶興街140巷17弄",
+    "hours": "24 小時開放",
+    "lat": 25.024124,
+    "lng": 121.49425,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "前「榮民印刷廠」在臺北市政府、地方民意代表及里長通力合作下闢建成為公園綠地，命名為「孝德公園」，並於105年8月22日正式揭幕，提供里民一處休憩閒話家常的好所在。\n現場設施類別：鞦韆、搖搖樂、肩關節康復器、單人漫步器、大轉輪。",
+    "highlights": [
+      "共融遊戲場",
+      "鞦韆",
+      "搖搖樂",
+      "肩關節康復器",
+      "單人漫步器",
+      "大轉輪"
+    ],
+    "facilities": [
+      "共融遊戲場",
+      "鞦韆",
+      "搖搖樂",
+      "肩關節康復器",
+      "單人漫步器",
+      "大轉輪"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AD%9D%E5%BE%B7%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E5%8D%80%E5%AF%B6%E8%88%88%E8%A1%97140%E5%B7%B717%E5%BC%84",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-813",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:17:01.972Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-584",
+    "name": "長沙公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "萬華區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市萬華區環河南路一段、長沙街二段交口",
+    "hours": "24 小時開放",
+    "lat": 25.0415,
+    "lng": 121.499924,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "位於昔時水陸交易市集，外圍以喬木構成綠色廊道，深具歷史文化特色。\n現場設施類別：組合遊具、搖搖樂、扭腰器、雙人腰背按摩器。",
+    "highlights": [
+      "特色公園",
+      "組合遊具",
+      "搖搖樂",
+      "扭腰器",
+      "雙人腰背按摩器"
+    ],
+    "facilities": [
+      "特色公園",
+      "組合遊具",
+      "搖搖樂",
+      "扭腰器",
+      "雙人腰背按摩器"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%95%B7%E6%B2%99%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E5%8D%80%E7%92%B0%E6%B2%B3%E5%8D%97%E8%B7%AF%E4%B8%80%E6%AE%B5%E3%80%81%E9%95%B7%E6%B2%99%E8%A1%97%E4%BA%8C%E6%AE%B5%E4%BA%A4%E5%8F%A3",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-584",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:17:03.094Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-320",
+    "name": "錦德公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "萬華區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市萬華區德昌街與西園路二段281巷交叉口",
+    "hours": "24 小時開放",
+    "lat": 25.0233,
+    "lng": 121.492363,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "本公園規劃有入口廣場、園路、休憩座椅等，搭配綠美化呈現綠蔭景緻，塑造簡約之都市綠地空間，提供里民悠閒活動最佳地方。\n現場設施類別：組合遊具、翹翹板、搖搖樂、直飲台、單槓、雙人漫步器、伸腰伸背器、肩關節康復器、大轉輪。",
+    "highlights": [
+      "共融遊戲場",
+      "組合遊具",
+      "翹翹板",
+      "搖搖樂",
+      "直飲台",
+      "單槓",
+      "雙人漫步器",
+      "伸腰伸背器"
+    ],
+    "facilities": [
+      "共融遊戲場",
+      "組合遊具",
+      "翹翹板",
+      "搖搖樂",
+      "直飲台",
+      "單槓",
+      "雙人漫步器",
+      "伸腰伸背器"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%8C%A6%E5%BE%B7%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E5%8D%80%E5%BE%B7%E6%98%8C%E8%A1%97%E8%88%87%E8%A5%BF%E5%9C%92%E8%B7%AF%E4%BA%8C%E6%AE%B5281%E5%B7%B7%E4%BA%A4%E5%8F%89%E5%8F%A3",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-320",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:17:04.225Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-384",
+    "name": "永昌公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "中正區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市中正區寧波西街181巷30號前",
+    "hours": "24 小時開放",
+    "lat": 25.02623,
+    "lng": 121.509956,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "本園周遭皆為住宅區，居民型態多元且人文氣息濃厚，設有涼亭、兒童遊憩區、健身廣場及花架休憩區等多項設施，並搭配木製花廊平台，提供周遭民眾休憩及社交集會場所，榕樹、黑板樹、猢猻木及金露花圍繞在外串起公園半壁林蔭，各式開花植物巧妙地搭配光與影配置成景，架構出柔合多層次的混種植被造景。另多種誘蝶及誘鳥植栽及應用優型花缽，完美地展現別出心裁的都會風格，花木扶疏步道整潔，維護精緻，散步於園中自感怡然恬適。園內優質綠色活動空間，搭配主體景觀點綴區塊花卉提供各類鳥類及松鼠等生物良好的棲息空間，提供學童認識植栽型態及生態觀察之絕佳環境。\n現場設施類別：磨石滑梯、直飲台、雙人肩關節康復器、單人漫步器、單槓、復健型體健設施。",
+    "highlights": [
+      "特色公園",
+      "磨石滑梯",
+      "直飲台",
+      "雙人肩關節康復器",
+      "單人漫步器",
+      "單槓",
+      "復健型體健設施"
+    ],
+    "facilities": [
+      "特色公園",
+      "磨石滑梯",
+      "直飲台",
+      "雙人肩關節康復器",
+      "單人漫步器",
+      "單槓",
+      "復健型體健設施"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B0%B8%E6%98%8C%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E5%AF%A7%E6%B3%A2%E8%A5%BF%E8%A1%97181%E5%B7%B730%E8%99%9F%E5%89%8D",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-384",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:17:05.352Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-74",
+    "name": "牯嶺公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "中正區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市中正區牯嶺街141號前",
+    "hours": "24 小時開放",
+    "lat": 25.023121,
+    "lng": 121.518677,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "園內許多動物銅雕、石雕及景觀雕塑，為本園一大特色；每年12月至3月為櫻花盛開季節，每屆冬末春初，櫻花盛開之際，各地人潮不約而同大量湧入，櫻花盛開時，里內即舉辦「賞櫻花‧海鮮大餐」活動，邀集社區民眾一同賞櫻，美不勝收。\n現場設施類別：組合遊具、攀爬組、直飲台、運動場、涼亭、單槓、單人漫步機、划船器、雙人肩關節康復器。",
+    "highlights": [
+      "特色公園",
+      "組合遊具",
+      "攀爬組",
+      "直飲台",
+      "運動場",
+      "涼亭",
+      "單槓",
+      "單人漫步機"
+    ],
+    "facilities": [
+      "特色公園",
+      "組合遊具",
+      "攀爬組",
+      "直飲台",
+      "運動場",
+      "涼亭",
+      "單槓",
+      "單人漫步機"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%89%AF%E5%B6%BA%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E7%89%AF%E5%B6%BA%E8%A1%97141%E8%99%9F%E5%89%8D",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-74",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:17:06.476Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-243",
+    "name": "連雲公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "中正區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市中正區連雲街37巷與新生南路一段146巷交口.",
+    "hours": "24 小時開放",
+    "lat": 25.03521,
+    "lng": 121.531822,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "連雲公園位於新生南路1段巷內，地處幽靜、樹蔭茂密，社區老人喜聚集於此閒話家常，園內設置一少見的純木造古風涼亭，白色軟石圍繞著蜿蜒曲線型的石板步道如小橋流水般營造出古色古香之清冽感受，公園內亦提供寬敞廣場、遊樂設施、溜冰場及運動設施等配合著具有歷史意義的爬架、水泥滑梯及彩色花架，充分滿足民眾各類休憩需求更鮮活了公園整體意象。\n現場設施類別：磨石滑梯、鞦韆、運動場、洗手臺、單人漫步機、划船器、單槓、手部訓練器。",
+    "highlights": [
+      "共融遊戲場",
+      "磨石滑梯",
+      "鞦韆",
+      "運動場",
+      "洗手臺",
+      "單人漫步機",
+      "划船器",
+      "單槓"
+    ],
+    "facilities": [
+      "共融遊戲場",
+      "磨石滑梯",
+      "鞦韆",
+      "運動場",
+      "洗手臺",
+      "單人漫步機",
+      "划船器",
+      "單槓"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%80%A3%E9%9B%B2%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E9%80%A3%E9%9B%B2%E8%A1%9737%E5%B7%B7%E8%88%87%E6%96%B0%E7%94%9F%E5%8D%97%E8%B7%AF%E4%B8%80%E6%AE%B5146%E5%B7%B7%E4%BA%A4%E5%8F%A3.",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-243",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:17:07.602Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-412",
+    "name": "瑠公圳公園 ",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "大安區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市大安區復興南路至建國南路",
+    "hours": "24 小時開放",
+    "lat": 25.04361,
+    "lng": 121.543121,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "瑠公圳公園係於70年度開闢，面積約12,423 平方公尺，鄰市民大道旁，自建國南路至復興南路，為一狹長帶狀公園。 瑠公圳公園位處於市中心，附近商機活絡，周邊緊鄰住家、商號及學校，本公園不僅提供當地居民休憩晨運，亦有上班人士就近於園內作短暫休憩。園內植有榔榆、第倫桃、黃脈莿桐等喬木，可供遮蔭，亦設有涼亭供遊客休息，另設有兒童遊戲場2處如：搖搖樂、鞦韆、蹺蹺板、組合遊具、等等，廣受家長及孩童歡迎，在此百貨商圈，商辦林立之市區中，實屬休憩功能完整，鬧中取靜之一隅。\n現場設施類別：滑梯、翹翹板、鞦韆、組合遊具、搖搖樂、特色遊具、涼亭、平衡木、仰臥起坐、單槓、水平吊梯。",
+    "highlights": [
+      "共融遊戲場",
+      "滑梯",
+      "翹翹板",
+      "鞦韆",
+      "組合遊具",
+      "搖搖樂",
+      "特色遊具",
+      "涼亭"
+    ],
+    "facilities": [
+      "共融遊戲場",
+      "滑梯",
+      "翹翹板",
+      "鞦韆",
+      "組合遊具",
+      "搖搖樂",
+      "特色遊具",
+      "涼亭"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%91%A0%E5%85%AC%E5%9C%B3%E5%85%AC%E5%9C%92%20%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E5%BE%A9%E8%88%88%E5%8D%97%E8%B7%AF%E8%87%B3%E5%BB%BA%E5%9C%8B%E5%8D%97%E8%B7%AF",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-412",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:17:08.727Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-837",
+    "name": "金山公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "大安區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市大安區金山南路二段92巷底",
+    "hours": "24 小時開放",
+    "lat": 25.03096,
+    "lng": 121.524756,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "民國76年由郵政總局捐贈，107年規劃新建，已於108年12月18日正式開放。\n現場設施類別：幸運餅乾溜滑梯、吊床、攀爬網、圓環滑動、上半身伸展、踏板伸展、懸吊伸展。",
+    "highlights": [
+      "特色公園",
+      "幸運餅乾溜滑梯",
+      "吊床",
+      "攀爬網",
+      "圓環滑動",
+      "上半身伸展",
+      "踏板伸展",
+      "懸吊伸展"
+    ],
+    "facilities": [
+      "特色公園",
+      "幸運餅乾溜滑梯",
+      "吊床",
+      "攀爬網",
+      "圓環滑動",
+      "上半身伸展",
+      "踏板伸展",
+      "懸吊伸展"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E5%B1%B1%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E9%87%91%E5%B1%B1%E5%8D%97%E8%B7%AF%E4%BA%8C%E6%AE%B592%E5%B7%B7%E5%BA%95",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-837",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:17:09.851Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-709",
+    "name": "五常公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "信義區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市信義區松隆路272號與永吉路225巷邊",
+    "hours": "24 小時開放",
+    "lat": 25.047689,
+    "lng": 121.574341,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "本公園屬中生代公園。公園面積：6942平方公尺。 公園位置：松隆路272號與永吉路225巷邊。 公園沿革：於民國73年開闢，84年7月1日接收，92年社改整修完成。 公園特色： 五常公園公園呈梯形配置，公園內可概分為植栽區、活動區及休憩區，其中活動區有溜冰場及兒童遊戲場，設置多功能組合遊具、搖搖樂、翹翹板及單槓可供小朋友玩耍，園內多處花架與涼亭組合形成休憩區，提供附近居民休憩或下棋的場地。公園之植栽區亦可區分為東南果樹區、西北面美人樹區及西面楓葉翅子樹區，為公園之綠美化增添不少之光彩。\n現場設施類別：組合遊具、搖搖樂、滑梯、翹翹板、溜冰場、扭腰器、腰背訓練器、單槓、上肢牽引器。",
+    "highlights": [
+      "特色公園",
+      "組合遊具",
+      "搖搖樂",
+      "滑梯",
+      "翹翹板",
+      "溜冰場",
+      "扭腰器",
+      "腰背訓練器"
+    ],
+    "facilities": [
+      "特色公園",
+      "組合遊具",
+      "搖搖樂",
+      "滑梯",
+      "翹翹板",
+      "溜冰場",
+      "扭腰器",
+      "腰背訓練器"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%94%E5%B8%B8%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%E6%9D%BE%E9%9A%86%E8%B7%AF272%E8%99%9F%E8%88%87%E6%B0%B8%E5%90%89%E8%B7%AF225%E5%B7%B7%E9%82%8A",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-709",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:17:10.994Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-671",
+    "name": "四育公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "信義區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市信義區虎林街50巷與永吉路321巷邊",
+    "hours": "24 小時開放",
+    "lat": 25.046761,
+    "lng": 121.575142,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "本公園屬中生代公園。公園面積：1766平方公尺。 公園位置：虎林街30巷與永吉路321巷邊。 公園沿革：於民國76年開闢，84年7月1日接收，並於90年12月重新整建完成。 公園特色： 「四育公園」行政轄屬信義區四育里，原名「正義公園」，91年應里民之建議更名為「四育公園」。本公園呈現特質為陽光活力，結合兒童遊憩空間，擴大廣埸的容受力，並利用空間互動語彙，植栽與材質的特性，創造親切之社區活動空間，增加整體園區之空間韻律感，提昇居民之親園活動品質，花籬的設計隔離週邊停車雜亂景象的衝擊，東側入口意象廣埸設計，凝聚公園陽光活力及廣場整體感，提升社區公供休憩設施之服務品質，造就社區的優質生活環境。\n現場設施類別：組合遊具、搖搖樂、涼亭、單槓。",
+    "highlights": [
+      "特色公園",
+      "組合遊具",
+      "搖搖樂",
+      "涼亭",
+      "單槓"
+    ],
+    "facilities": [
+      "特色公園",
+      "組合遊具",
+      "搖搖樂",
+      "涼亭",
+      "單槓"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9B%9B%E8%82%B2%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%E8%99%8E%E6%9E%97%E8%A1%9750%E5%B7%B7%E8%88%87%E6%B0%B8%E5%90%89%E8%B7%AF321%E5%B7%B7%E9%82%8A",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-671",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:17:12.118Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-118",
+    "name": "永春崗公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "信義區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市信義區松山路656巷2號旁",
+    "hours": "24 小時開放",
+    "lat": 25.03171,
+    "lng": 121.577591,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "永春崗公園位於信義區松山路656巷2號旁，於民國69年開闢，面積11,302平方公尺。永春崗公園為階梯式坡地公園，共分三層，由公園入口石階步行向上，可達體健設施區、溜冰場及兒童遊樂場，其中體健設施旁種滿茉莉花之階梯花台，不僅有園椅可讓民眾休憩，於夏、秋之際花朵盛開，清新淡雅的茉莉花香撲鼻而來，更可滿足民眾視覺及嗅覺雙重享受!沿著石階上至最頂層，映入眼簾的是台北101矗立於大台北盆地上，在這裡可以靜靜地俯瞰市區，夜晚更可以觀賞到美麗的夜景，尤其跨年期間，公園更是觀賞101煙火的最佳地點之一。 永春崗公園位於信義區松山路656巷2號旁，於民國69年開闢，面積11,302平方公尺。永春崗公園為階梯式坡地公園，共分三層，由公園入口石階步行向上，可達體健設施區、溜冰場及兒童遊樂場，其中體健設施旁種滿茉莉花之階梯花台，不僅有園椅可讓民眾休憩，於夏、秋之際花朵盛開，清新淡雅的茉莉花香撲鼻而來，更可滿足民眾視覺及嗅覺雙重享受!沿著石階上至最頂層，映入眼簾的是台北101矗立於大台北盆地上，在這裡可以靜靜地俯瞰市區，夜晚更可以觀賞到美麗的夜景，尤其跨年期間，公園更是觀賞101煙火的最佳地點之一。 永春崗公園亦是四獸山（包含虎山、豹山、獅山與象山）自然公園的登山入口之一，可連通至象山，因此假日時公園總是吸引大批登山人潮，民眾除了可從這裡出入四獸山外，亦可利用公園內多種運動設施，在登山之餘，還可選擇適合自己的健康運動方式，歡迎民眾有機會來此一遊，享受芬多精!\n現場設施類別：組合遊具、搖搖樂、滑梯、翹翹板、直飲台、單槓、水平吊梯、支撐前進、漫步機、划船機。",
+    "highlights": [
+      "特色公園",
+      "組合遊具",
+      "搖搖樂",
+      "滑梯",
+      "翹翹板",
+      "直飲台",
+      "單槓",
+      "水平吊梯"
+    ],
+    "facilities": [
+      "特色公園",
+      "組合遊具",
+      "搖搖樂",
+      "滑梯",
+      "翹翹板",
+      "直飲台",
+      "單槓",
+      "水平吊梯"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B0%B8%E6%98%A5%E5%B4%97%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%E6%9D%BE%E5%B1%B1%E8%B7%AF656%E5%B7%B72%E8%99%9F%E6%97%81",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-118",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:17:13.242Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-658",
+    "name": "松德公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "信義區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市信義區松德路180巷8之1號對面",
+    "hours": "24 小時開放",
+    "lat": 25.03602,
+    "lng": 121.573288,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "位於信義區松德路180巷內、興雅國中西側，面積約1公頃，於民國80年開闢的松德公園，是想徜徉於濃濃綠蔭下，享受新鮮空氣的好選擇。園區內具有中央大草坪、綠園道、體健設施及兒童遊戲區供市民休憩活動，更有鄉土植物主題園，搭配解說牌，極富教育意義。 從使君子花架拱門進入，常可見民眾在中央大草坪區活動遊玩，除此之外，廣闊的下凹式草坪可停留雨水減少逕流、涵養地下水分，是臺北市第一個以下凹式草坪作為回收雨水功能之公園。若有災害發生時，廣大的草坪亦可提供緊急避難收容的功能，是信義區的防災公園。 位於信義區松德路180巷內、興雅國中西側，面積約1公頃，於民國80年開闢的松德公園，是想徜徉於濃濃綠蔭下，享受新鮮空氣的好選擇。園區內具有中央大草坪、綠園道、體健設施及兒童遊戲區供市民休憩活動，更有鄉土植物主題園，搭配解說牌，極富教育意義。 從使君子花架拱門進入，常可見民眾在中央大草坪區活動遊玩，除此之外，廣闊的下凹式草坪可停留雨水減少逕流、涵養地下水分，是臺北市第一個以下凹式草坪作為回收雨水功能之公園。若有災害發生時，廣大的草坪亦可提供緊急避難收容的功能，是信義區的防災公園。 本公園為長方型基地，外圍留設步道及體健設施，沿著步道的口袋花園，設計各種鄉土植物，包含月桃、野牡丹、茶梅、含笑、樹蘭、九芎、玉蘭、水黃皮、榔榆、樟、流蘇、大葉欖仁和楓香等，配合解說牌向民眾說明植物的種類及特性，增添公園的教育功能。公園南側綠地種植數株優雅的黃花風鈴木，若在三月來此，可以欣賞到如金鈴般的黃花，隨春風拂動好似在為春天譜上一曲。 除了欣賞植物的綠意盎然，不妨靜下心細細聆聽各式鳥鳴叫聲，園區內豐富的植栽，吸引許多鳥類駐足於此，例如紅嘴黑鵯、五色鳥、繡眼畫眉、紅鳩、白頭翁、樹鵲、大卷尾、綠繡眼等，有機會不妨來這裡走走，在樹下悠哉享受遠離喧囂的寧靜氛圍。\n現場設施類別：組合遊具、搖搖樂、涼亭、伏地挺身、支撐前進、腿部運動、大轉輪、伸腰伸背器、漫步機、單槓、水平吊梯。",
+    "highlights": [
+      "共融遊戲場",
+      "組合遊具",
+      "搖搖樂",
+      "涼亭",
+      "伏地挺身",
+      "支撐前進",
+      "腿部運動",
+      "大轉輪"
+    ],
+    "facilities": [
+      "共融遊戲場",
+      "組合遊具",
+      "搖搖樂",
+      "涼亭",
+      "伏地挺身",
+      "支撐前進",
+      "腿部運動",
+      "大轉輪"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BE%E5%BE%B7%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%E6%9D%BE%E5%BE%B7%E8%B7%AF180%E5%B7%B78%E4%B9%8B1%E8%99%9F%E5%B0%8D%E9%9D%A2",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-658",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:17:14.370Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-852",
+    "name": "糶米公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "信義區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市信義區吳興街600巷旁",
+    "hours": "24 小時開放",
+    "lat": 25.018614,
+    "lng": 121.572468,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "新闢糶米公園前身為既有違建空屋長年佔用，導致環境雜亂及排水不易之情況，近年來公園處致力於閒置空地加以活化，提升環境品質，於106年展開更新建工程計畫，將山坡地有效改善環境外，增加一處全齡的休憩空間。 完工後的糶米公園，公園中的米粒廣場結合在地人文歷史，並增加綠地廣場的休憩空間，以環景步道串聯全區公園的行走動線，提供樹及綠地景觀，並藉由新增體健設施及兒童遊戲場，擴展戶外活動的空間，加強鄰里間的交流關係。\n現場設施類別：親子鞦韆、拱型兩人座鞦韆、溜滑梯、肩關節康復器、雙人坐拉訓練器。",
+    "highlights": [
+      "特色公園",
+      "親子鞦韆",
+      "拱型兩人座鞦韆",
+      "溜滑梯",
+      "肩關節康復器",
+      "雙人坐拉訓練器"
+    ],
+    "facilities": [
+      "特色公園",
+      "親子鞦韆",
+      "拱型兩人座鞦韆",
+      "溜滑梯",
+      "肩關節康復器",
+      "雙人坐拉訓練器"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B3%B6%E7%B1%B3%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%E5%90%B3%E8%88%88%E8%A1%97600%E5%B7%B7%E6%97%81",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-852",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:17:15.495Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-601",
+    "name": "中研公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "南港區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市南港區研究路2段12巷58弄",
+    "hours": "24 小時開放",
+    "lat": 25.04689,
+    "lng": 121.613052,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "中研公園於民國78年闢建，佔地約1.5公頃，位於研究院路二段12巷內，園內喬木種類包括水黃皮、第倫桃、樟樹、阿勃勒、大王椰子、蒲葵、榔榆、羊蹄甲、台灣欒樹、楓香、大花紫薇、黑板樹及榕樹等；灌木包括桂花、變葉木、朱蕉、春不老、南美朱槿、野牡丹、金英樹、七里香等觀花及觀葉植物，配合入口意象、設施界定、地形景觀等配置綠化，營造出四季變化之美。 屬於一座綜合性公園，主要設施有網球場、籃球場、PU跑道、兒童遊戲場、兩座涼亭及溜冰場，提供鄰近里民平日休憩、運動、三代同遊之優良場所，動、靜態活動結合，呈現中研公園和諧的面貌。\n現場設施類別：沙坑遊戲桌、旋轉杯、旋轉飛輪、鳥巢鞦韆、搖搖樂、組合遊具、慢跑道、溜冰場、網球場、籃球場、涼亭、伏地挺身、划船器、抬頭挺胸、單槓、雙人浪板器。",
+    "highlights": [
+      "共融遊戲場",
+      "沙坑遊戲桌",
+      "旋轉杯",
+      "旋轉飛輪",
+      "鳥巢鞦韆",
+      "搖搖樂",
+      "組合遊具",
+      "慢跑道"
+    ],
+    "facilities": [
+      "共融遊戲場",
+      "沙坑遊戲桌",
+      "旋轉杯",
+      "旋轉飛輪",
+      "鳥巢鞦韆",
+      "搖搖樂",
+      "組合遊具",
+      "慢跑道"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E7%A0%94%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%E7%A0%94%E7%A9%B6%E8%B7%AF2%E6%AE%B512%E5%B7%B758%E5%BC%84",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-601",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:17:16.620Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-730",
+    "name": "東陽公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "南港區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市南港區重陽路187巷旁",
+    "hours": "24 小時開放",
+    "lat": 25.05744,
+    "lng": 121.603737,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "公園內設有籃球場、羽球場、兒童遊戲場、溜冰場、涼亭等多項設施，體貼各年齡層的需求，使用率極高。\n現場設施類別：魔王之塔、鳥巢鞦韆、综合活動場、籃球場、溜冰場、涼亭、大轉輪、單槓。",
+    "highlights": [
+      "共融遊戲場",
+      "魔王之塔",
+      "鳥巢鞦韆",
+      "综合活動場",
+      "籃球場",
+      "溜冰場",
+      "涼亭",
+      "大轉輪"
+    ],
+    "facilities": [
+      "共融遊戲場",
+      "魔王之塔",
+      "鳥巢鞦韆",
+      "综合活動場",
+      "籃球場",
+      "溜冰場",
+      "涼亭",
+      "大轉輪"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E9%99%BD%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%E9%87%8D%E9%99%BD%E8%B7%AF187%E5%B7%B7%E6%97%81",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-730",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:17:17.745Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-406",
+    "name": "萬福公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "南港區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市南港區忠孝東路六段70巷10號對面",
+    "hours": "24 小時開放",
+    "lat": 25.046249,
+    "lng": 121.58445,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "萬福公園位於忠孝東路6段70巷內，面積1954平方公尺，於民國73年開闢屬社區型的鄰里公園，本公園面積雖小但設施卻很多元，具有涼亭、兒童遊戲場、小型表演場及體健設施等多樣性的空間，為當地居民活動聚會的好場所。 公園內種植有刺桐、鳳凰木、台灣欒樹、小葉欖仁及櫻花等喬木，部分喬木下方種植耐陰性強的白鶴芋及鵝掌藤等觀葉植物，利用高矮不同之植栽配置，呈現複層式效果。園路周邊種植有仙丹、桂花、樹蘭、杜鵑、野牡丹等開花性灌木及入口節點搭配植栽設計，開花時節，色彩奪目艷麗，增添公園美景，隨著四季變化有不同的綠化景觀，是提供市民紓解身心的小空間。\n現場設施類別：組合遊具、生態小屋、抬頭挺胸、漫步機、大轉輪、浪板器。",
+    "highlights": [
+      "特色公園",
+      "組合遊具",
+      "生態小屋",
+      "抬頭挺胸",
+      "漫步機",
+      "大轉輪",
+      "浪板器"
+    ],
+    "facilities": [
+      "特色公園",
+      "組合遊具",
+      "生態小屋",
+      "抬頭挺胸",
+      "漫步機",
+      "大轉輪",
+      "浪板器"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%90%AC%E7%A6%8F%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%E5%BF%A0%E5%AD%9D%E6%9D%B1%E8%B7%AF%E5%85%AD%E6%AE%B570%E5%B7%B710%E8%99%9F%E5%B0%8D%E9%9D%A2",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-406",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:17:18.872Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-41",
+    "name": "聯成公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "南港區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市南港區忠孝東路六段250巷1弄",
+    "hours": "24 小時開放",
+    "lat": 25.046591,
+    "lng": 121.587219,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "位於南港區忠孝東路6段250巷1弄內的聯成公園園內周邊種植臺灣欒樹，臺灣欒樹為臺灣的原生特有種植物，具有樹姿優美、生長快速、樹勢強健、耐空氣污染、綠蔭效果佳且色彩多變化等優點，惟有紅姬緣椿象棲息，春季大量繁殖易遭市民反感，常被誤認為害蟲，然紅姬緣椿象主要係以吸食臺灣欒樹汁液維生，對樹木並無害，成蟲壽命僅2個月，且無法適應溼熱天氣，5月份就會慢慢消失，另紅姬緣椿象也是鳥類之食物，為生態食物鏈中的重要角色。園內也有種植西印度櫻桃、楊桃、芭樂、桃、李等果樹，供孩童學習觀察平日所食用之水果生長過程，富有教學意義。\n現場設施類別：共融式遊具、旋轉飛輪、溜冰場、大轉輪、漫步機、單槓。",
+    "highlights": [
+      "共融遊戲場",
+      "共融式遊具",
+      "旋轉飛輪",
+      "溜冰場",
+      "大轉輪",
+      "漫步機",
+      "單槓"
+    ],
+    "facilities": [
+      "共融遊戲場",
+      "共融式遊具",
+      "旋轉飛輪",
+      "溜冰場",
+      "大轉輪",
+      "漫步機",
+      "單槓"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%81%AF%E6%88%90%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%E5%BF%A0%E5%AD%9D%E6%9D%B1%E8%B7%AF%E5%85%AD%E6%AE%B5250%E5%B7%B71%E5%BC%84",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-41",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:17:19.997Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-952",
+    "name": "四分綠地B1",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "南港區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市南港區研究院路二段182巷58弄6-3號對面",
+    "hours": "24 小時開放",
+    "lat": 25.036249,
+    "lng": 121.614774,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "四分綠地A位於研究院路二段182巷58弄6-3號對面，綠地內的設施有親子盪鞦韆。",
+    "highlights": [
+      "共融遊戲場"
+    ],
+    "facilities": [
+      "共融遊戲場"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9B%9B%E5%88%86%E7%B6%A0%E5%9C%B0B1%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%E7%A0%94%E7%A9%B6%E9%99%A2%E8%B7%AF%E4%BA%8C%E6%AE%B5182%E5%B7%B758%E5%BC%846-3%E8%99%9F%E5%B0%8D%E9%9D%A2",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-952",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:17:21.120Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-603",
+    "name": "四分綠地D",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "南港區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市南港區左至研究院路三段68巷北側右至凌雲街北側",
+    "hours": "24 小時開放",
+    "lat": 25.03395,
+    "lng": 121.612416,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "四分綠地位於研究院路三段68巷6號旁，緊鄰四分溪，面積7,207平方公尺。美其名四分有四個區塊分屬不同型態小巧卻機能豐富的綠地。綠地一片滿滿綠意的灌木及濃密的樟樹、烏臼、肯氏南洋杉、楓香、鳳凰木、榕樹、茄苳、豔紫荊、合歡、桂花、玫瑰、九重葛、日日春、茉莉花等十餘種喬木，配合不同的時期灌木開花與變色落葉，充分展現四季變換之美，加上青翠宜人的美麗草皮，漫步其間彷彿在轉瞬間遠離塵囂，常見許多老人在涼亭內長椅上冥想，或下棋洗去一身疲累並紓緩各種壓力。 綠地內的設施有供學童恣意滑動的溜冰場、攀爬嬉戲的兒童遊戲場、大草坪設有搭配大象、牛隻、小鹿、烏龜、暴龍、原角龍、斑馬、企鵝家族動物造型雕塑、涼亭、健康步道等設施。讓社區居民來此聚會話家常、下棋的休憩涼亭、里民藉著單桿、仰臥起坐、伏地挺身等體健設施舒緩筋骨，還有迂迴卻不複雜的步道來來回回漫步，由於本綠地緊鄰國宅，所以常見學童們呼朋引伴的在這裡玩得不亦樂乎，在學童們活潑的跑跳之餘，組合遊具遊戲區舖設的彈性地墊充分確保兒童遊戲時的安全。更有新設36部Uibe造福當地里民閒暇之餘騎著鐵馬漫遊綠地四周享受大自然恬適之情，上班族學童更有了它節省通勤時間又可奔馳中享受運動的樂趣，本綠地提供附近居民一個舒展身心、運動健身的最佳去處。\n現場設施類別：旋轉杯,鳥巢鞦韆,親子鞦韆、仰臥起坐、伏地挺身。",
+    "highlights": [
+      "共融遊戲場",
+      "旋轉杯",
+      "鳥巢鞦韆",
+      "親子鞦韆",
+      "仰臥起坐",
+      "伏地挺身"
+    ],
+    "facilities": [
+      "共融遊戲場",
+      "旋轉杯",
+      "鳥巢鞦韆",
+      "親子鞦韆",
+      "仰臥起坐",
+      "伏地挺身"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9B%9B%E5%88%86%E7%B6%A0%E5%9C%B0D%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%E5%B7%A6%E8%87%B3%E7%A0%94%E7%A9%B6%E9%99%A2%E8%B7%AF%E4%B8%89%E6%AE%B568%E5%B7%B7%E5%8C%97%E5%81%B4%E5%8F%B3%E8%87%B3%E5%87%8C%E9%9B%B2%E8%A1%97%E5%8C%97%E5%81%B4",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-603",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:17:22.245Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-859",
+    "name": "辛亥生態公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "文山區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市文山區辛亥路四段至興德路間",
+    "hours": "24 小時開放",
+    "lat": 25.003685,
+    "lng": 121.556764,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "辛亥生態公園位於辛亥路四段及興德路間，緊鄰捷運辛亥站，面積共18,037平方公尺，過去曾為憲兵營區，於民國109年開闢為公園，交通便利，環境優美。 為營造自然生態景觀於園內種植甜根子草及蘆葦，並打造出香草園區供民眾親近。兒童遊戲區設有溜滑梯、沙桌、搖滾盤、旋轉杯等結合了攀、爬、滑、彈跳、平衡等多樣設施元素，讓孩童強化身體機能。",
+    "highlights": [
+      "共融遊戲場"
+    ],
+    "facilities": [
+      "共融遊戲場"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%BE%9B%E4%BA%A5%E7%94%9F%E6%85%8B%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%96%87%E5%B1%B1%E5%8D%80%E8%BE%9B%E4%BA%A5%E8%B7%AF%E5%9B%9B%E6%AE%B5%E8%87%B3%E8%88%88%E5%BE%B7%E8%B7%AF%E9%96%93",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-859",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:17:23.371Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-129",
+    "name": "景美公園(原萬慶公園)",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "文山區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市文山區育英街45巷旁",
+    "hours": "24 小時開放",
+    "lat": 24.99402,
+    "lng": 121.537598,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "萬慶公園位於本市文山區景美里育英街45巷旁，開闢面積為16,813平方公尺，屬下凹式的狹長帶狀公園，鄰近羅斯福路六段、景美溪及景美河濱公園，靠近景美捷運站，附近有景美夜市可遊玩採買，公園附近尚有祖師廟及義民廟，使萬慶公園亦為香客經過暫時歇腳的地點。 萬慶公園自民國80年開闢後，陸續加入緊鄰其旁之景美公園及堤防用地變更為公園等地，整區合併為萬慶公園，所以在公園中段步道旁仍可見「景美公園」石碑。 民國109年6月9日區務會議改名為景美公園。 園內設有涼亭、體健設施及溜冰場、健康步道等遊憩設施，為全家大小晨間運動及平日休憩運動的良好去處。園內植栽有數株於台灣光復前即已栽植之榕樹及先期種植之尤加利樹，還有阿勃勒、風鈴木、鳳凰木、洋紫荊、龍柏、台灣欒樹、桂花、紅葉赤楠、扶桑、白鶴芋、藍星花等觀賞植物重點美化佈置，碧草如茵，花木扶疏，令人一進園內即感到無限綠意與幽靜，於園內短暫駐足時還可發現許多鳥類的蹤跡，鳥語花香，相互成趣。若要體驗萬慶公園的丰采，歡迎各位入園欣賞。\n現場設施類別：組合遊具、攀爬遊具、體能木樁、半球形旋轉杯、鳥巢鞦韆、水龍頭、涼亭、直飲台、划船器、雙人肩關節康復器、單人漫步機、溜冰場、健康步道。",
+    "highlights": [
+      "共融遊戲場",
+      "組合遊具",
+      "攀爬遊具",
+      "體能木樁",
+      "半球形旋轉杯",
+      "鳥巢鞦韆",
+      "水龍頭",
+      "涼亭"
+    ],
+    "facilities": [
+      "共融遊戲場",
+      "組合遊具",
+      "攀爬遊具",
+      "體能木樁",
+      "半球形旋轉杯",
+      "鳥巢鞦韆",
+      "水龍頭",
+      "涼亭"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%99%AF%E7%BE%8E%E5%85%AC%E5%9C%92(%E5%8E%9F%E8%90%AC%E6%85%B6%E5%85%AC%E5%9C%92)%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%96%87%E5%B1%B1%E5%8D%80%E8%82%B2%E8%8B%B1%E8%A1%9745%E5%B7%B7%E6%97%81",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-129",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:17:24.496Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-535",
+    "name": "萬芳4號公園",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "文山區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市文山區萬和街1號對面",
+    "hours": "24 小時開放",
+    "lat": 25.001539,
+    "lng": 121.567528,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "萬芳4號公園位於文山區萬芳里，於民國73年間開闢完成，公園面積為13,476平方公尺，正對面即為萬芳國小，附近有萬芳里民活動中心、萬芳派出所、萬芳社區，且鄰近捷運萬芳社區站並有公車路網，交通便利，環境優良。萬芳地區的好山好水，吸引了外地移民來萬芳落腳，成為文山區人文薈萃之精華地區。 萬芳4號公園為萬芳里內之優良公園，園內設有籃球場、溜冰場、休憩涼亭、兒童遊具、公廁及體健設施等可供市民、運動休息，另有游泳池及滑水道可提供喜愛游泳的市民使用，不論平時或假日都可見到前來遊憩的的市民朋友，包含扶老攜幼的親子同遊活動。公園內種植有榕樹、福木、羅漢松、厚葉石斑木、朱槿、馬纓丹等觀賞植物，除提供視覺綠意、乘涼綠蔭之外尚可吸引蝴蝶前來覓食。萬芳4號公園整體規劃設計以乾淨簡單清爽取勝，萬芳4號公園之美，歡迎大家親自來體驗。\n現場設施類別：沙坑,鳥巢鞦韆,管形山丘、溜冰場、籃球場、體健設施(含單槓)。",
+    "highlights": [
+      "共融遊戲場",
+      "沙坑",
+      "鳥巢鞦韆",
+      "管形山丘",
+      "溜冰場",
+      "籃球場",
+      "體健設施(含單槓)"
+    ],
+    "facilities": [
+      "共融遊戲場",
+      "沙坑",
+      "鳥巢鞦韆",
+      "管形山丘",
+      "溜冰場",
+      "籃球場",
+      "體健設施(含單槓)"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%90%AC%E8%8A%B34%E8%99%9F%E5%85%AC%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%96%87%E5%B1%B1%E5%8D%80%E8%90%AC%E5%92%8C%E8%A1%971%E8%99%9F%E5%B0%8D%E9%9D%A2",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-535",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:17:25.620Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
+  },
+  {
+    "id": "taipei-park-504",
+    "name": "文山50號綠地",
+    "region": "北部",
+    "city": "臺北市",
+    "district": "文山區",
+    "ageMin": 0,
+    "ageMax": 12,
+    "setting": "室外",
+    "duration": "半日",
+    "category": "親子樂園",
+    "rating": null,
+    "reviews": 0,
+    "priceLabel": "免費",
+    "address": "臺北市文山區秀明路2段24巷",
+    "hours": "24 小時開放",
+    "lat": 24.990789,
+    "lng": 121.575089,
+    "image": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?auto=format&fit=crop&w=900&q=80",
+    "imageCandidates": [],
+    "accent": "#ff8066",
+    "description": "位於新光路1段65巷55號對面，建於民國80年，佔地面積262平方公尺，綠地內有金露華、厚葉女貞、朱蕉、彩虹竹芋、朱槿、大葉銨、榕樹、黑板樹、阿伯樂、杜鵑花、灌木喬木來美化市容景觀。\n現場設施類別：樹屋滑梯組、五人座轉轉椅、長頸鹿遊戲板、單槓。",
+    "highlights": [
+      "特色公園",
+      "樹屋滑梯組",
+      "五人座轉轉椅",
+      "長頸鹿遊戲板",
+      "單槓"
+    ],
+    "facilities": [
+      "特色公園",
+      "樹屋滑梯組",
+      "五人座轉轉椅",
+      "長頸鹿遊戲板",
+      "單槓"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%87%E5%B1%B150%E8%99%9F%E7%B6%A0%E5%9C%B0%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%96%87%E5%B1%B1%E5%8D%80%E7%A7%80%E6%98%8E%E8%B7%AF2%E6%AE%B524%E5%B7%B7",
+    "sources": [
+      {
+        "type": "官方網站",
+        "label": "臺北市政府開放資料：公園走透透臺北新花漾",
+        "url": "https://parks.gov.taipei/"
+      }
+    ],
+    "dataSource": "臺北市政府開放資料（公園基本資料）",
+    "sourceId": "taipei-park-504",
+    "qualityScore": 20,
+    "updatedAt": "2026-07-14T11:17:26.745Z",
+    "rainyDay": false,
+    "placeType": "景點",
+    "completeness": {
+      "score": 55,
+      "missing": [
+        "官方照片",
+        "親子設施確認",
+        "票價與開放時間請以現場為準"
+      ]
+    }
   }
 ]

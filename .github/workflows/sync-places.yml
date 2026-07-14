@@ -25,6 +25,7 @@ jobs:
       - run: npm run sync:forest
       - run: npm run sync:farm
       - run: npm run sync:culture
+      - run: npm run sync:taipei-parks
       - run: npm run sync:wikimedia-images
       - name: Sync OSM restaurant data
         # Overpass mirrors are external and can intermittently fail. Keep the
