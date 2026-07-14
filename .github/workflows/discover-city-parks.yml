@@ -2,6 +2,10 @@ name: Discover city park APIs (temporary research)
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - scripts/discover-city-parks.mjs
+      - .github/workflows/discover-city-parks.yml
 
 jobs:
   discover:
