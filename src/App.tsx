@@ -26,6 +26,7 @@ import {
   LocateFixed,
   MapPin,
   Maximize2,
+  MessageCircleHeart,
   Minimize2,
   Mountain,
   Navigation,
@@ -86,6 +87,7 @@ import { MichelinBadge, PlaceCard, PlaceImage } from './components/PlaceCard'
 import { FilterSheet } from './components/FilterSheet'
 import { ReportForm } from './components/ReportForm'
 import { ProfileDrawer } from './components/ProfileDrawer'
+import { AuthorNoteDrawer } from './components/AuthorNoteDrawer'
 import { TodayInspiration } from './components/TodayInspiration'
 import { NotificationSheet } from './components/NotificationSheet'
 import { QMomHealthAdvisory } from './components/QMomHealthAdvisory'
@@ -397,6 +399,7 @@ function App() {
   const autoLoadedLocationRegion = useRef(false)
   const [activeTab, setActiveTab] = useState<'home' | 'explore' | 'favorites' | 'profile'>('home')
   const [showProfile, setShowProfile] = useState(false)
+  const [showAuthorNote, setShowAuthorNote] = useState(false)
   const [showNotifications, setShowNotifications] = useState(false)
   const [showConcierge, setShowConcierge] = useState(false)
   const [seenNotificationKey, setSeenNotificationKey] = useState(() => localStorage.getItem('holiday-notification-seen') || '')
@@ -1139,6 +1142,7 @@ function App() {
     playUiSound('tap')
     setActiveTab(tab)
     setShowProfile(false)
+    setShowAuthorNote(false)
     setShowNotifications(false)
     window.setTimeout(
       () => {
@@ -1154,6 +1158,7 @@ function App() {
     playUiSound('tap')
     setActiveTab('home')
     setShowProfile(false)
+    setShowAuthorNote(false)
     setShowNotifications(false)
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
@@ -1161,7 +1166,15 @@ function App() {
   const openProfile = () => {
     playUiSound('open')
     setShowNotifications(false)
+    setShowAuthorNote(false)
     setShowProfile(true)
+  }
+
+  const openAuthorNote = () => {
+    playUiSound('open')
+    setShowNotifications(false)
+    setShowProfile(false)
+    setShowAuthorNote(true)
   }
 
   const openNotifications = () => {
@@ -1227,10 +1240,11 @@ function App() {
           <BrandLogo />
         </a>
         <nav className="desktop-nav" aria-label="桌面主要導覽">
-          <button className={activeTab === 'home' && !showProfile ? 'active' : ''} onClick={openHome}><Home size={17} /><span>首頁</span></button>
-          <button className={activeTab === 'explore' && !showProfile ? 'active' : ''} onClick={() => openExplore('explore')}><Compass size={17} /><span>探索</span></button>
-          <button className={activeTab === 'favorites' && !showProfile ? 'active' : ''} onClick={() => openExplore('favorites')}><Heart size={17} /><span>收藏</span></button>
+          <button className={activeTab === 'home' && !showProfile && !showAuthorNote ? 'active' : ''} onClick={openHome}><Home size={17} /><span>首頁</span></button>
+          <button className={activeTab === 'explore' && !showProfile && !showAuthorNote ? 'active' : ''} onClick={() => openExplore('explore')}><Compass size={17} /><span>探索</span></button>
+          <button className={activeTab === 'favorites' && !showProfile && !showAuthorNote ? 'active' : ''} onClick={() => openExplore('favorites')}><Heart size={17} /><span>收藏</span></button>
           <button className={showProfile ? 'active' : ''} onClick={openProfile}><Baby size={17} /><span>我的</span></button>
+          <button className={showAuthorNote ? 'active' : ''} onClick={openAuthorNote}><MessageCircleHeart size={17} /><span>Q爸的話</span></button>
         </nav>
         <div className="topbar-actions">
           <button className="icon-button" onClick={toggleSound} aria-label={soundEnabled ? '關閉介面音效' : '開啟介面音效'}>
@@ -1973,11 +1987,15 @@ function App() {
       )}
 
       <nav className="bottom-nav" aria-label="主要導覽">
-        <button className={activeTab === 'home' && !showProfile ? 'active' : ''} onClick={openHome}><Home size={21} /><span>首頁</span></button>
-        <button className={activeTab === 'explore' && !showProfile ? 'active' : ''} onClick={() => openExplore('explore')}><Compass size={21} /><span>探索</span></button>
-        <button className={activeTab === 'favorites' && !showProfile ? 'active' : ''} onClick={() => openExplore('favorites')}><Heart size={21} /><span>收藏</span></button>
-        <button className={showProfile ? 'active' : ''} onClick={openProfile}><Baby size={21} /><span>我的</span></button>
-        <span className="nav-indicator" style={{ '--nav-index': showProfile ? 3 : activeTab === 'home' ? 0 : activeTab === 'explore' ? 1 : 2 } as CSSProperties} />
+        <button className={activeTab === 'home' && !showProfile && !showAuthorNote ? 'active' : ''} onClick={openHome}><Home size={20} /><span>首頁</span></button>
+        <button className={activeTab === 'explore' && !showProfile && !showAuthorNote ? 'active' : ''} onClick={() => openExplore('explore')}><Compass size={20} /><span>探索</span></button>
+        <button className={activeTab === 'favorites' && !showProfile && !showAuthorNote ? 'active' : ''} onClick={() => openExplore('favorites')}><Heart size={20} /><span>收藏</span></button>
+        <button className={showProfile ? 'active' : ''} onClick={openProfile}><Baby size={20} /><span>我的</span></button>
+        <button className={showAuthorNote ? 'active' : ''} onClick={openAuthorNote}><MessageCircleHeart size={20} /><span>Q爸的話</span></button>
+        <span
+          className="nav-indicator"
+          style={{ '--nav-index': showAuthorNote ? 4 : showProfile ? 3 : activeTab === 'home' ? 0 : activeTab === 'explore' ? 1 : 2 } as CSSProperties}
+        />
       </nav>
 
       {showProfile && (
@@ -1990,6 +2008,10 @@ function App() {
           onViewFavorites={() => { setShowProfile(false); openExplore('favorites') }}
           onAdjustPreferences={() => { setShowProfile(false); setShowFilters(true); openExplore('explore') }}
         />
+      )}
+
+      {showAuthorNote && (
+        <AuthorNoteDrawer onClose={() => setShowAuthorNote(false)} />
       )}
 
       {showConcierge && (
