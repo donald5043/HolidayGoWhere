@@ -17,6 +17,7 @@
     "sync:forest": "node scripts/sync-forest.mjs && npm run data:publish",
     "sync:farm": "node scripts/sync-farm.mjs && npm run data:publish",
     "sync:culture": "node scripts/sync-culture.mjs && npm run data:publish",
+    "sync:taipei-parks": "node scripts/sync-taipei-parks.mjs && npm run data:publish",
     "sync:wikimedia-images": "node scripts/sync-wikimedia-images.mjs && npm run data:publish",
     "import:osm-restaurants": "node scripts/import-osm-restaurants.mjs && npm run data:publish",
     "sync:osm-restaurants": "node scripts/sync-osm-restaurants.mjs && npm run data:publish",
