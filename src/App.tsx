@@ -2091,8 +2091,12 @@ function App() {
               <a className="maps-cta" href={selected.mapsUrl} target="_blank" rel="noreferrer">
                 <Navigation size={19} />在 Google 地圖查看路線
               </a>
-              <RouteTrafficAlert anchor={selected} userLocation={userLocation} />
-              <PackingList place={selected} weather={weather} />
+              <div className="predeparture-group">
+                <h3 className="predeparture-heading"><Compass size={15} />出發前看一眼</h3>
+                <RouteTrafficAlert anchor={selected} userLocation={userLocation} />
+                <NearbyWebcams anchor={selected} />
+                <PackingList place={selected} weather={weather} />
+              </div>
               {selected.placeType !== '餐飲' && (
                 <NearbyRestaurants allPlaces={places} anchor={selected} onOpen={openPlace} />
               )}
@@ -2169,7 +2173,6 @@ function App() {
                   </div>
                 )}
               </CollapsibleSection>
-              <NearbyWebcams anchor={selected} />
               <CollapsibleSection
                 icon={<NotebookPen size={16} />}
                 title="爸媽回報與真實分享"
