@@ -9,7 +9,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "test": "vitest run",
-    "preview": "vite preview",
+    "preview": "npm run build && wrangler dev",
     "data:publish": "node scripts/sync-public-data.mjs",
     "data:publish:check": "node scripts/sync-public-data.mjs --check",
     "sync:places": "node scripts/sync-places.mjs && npm run data:publish",
@@ -28,7 +28,8 @@
     "sync:rescue": "node scripts/sync-rescue-supplies.mjs",
     "data:quality": "node scripts/data-quality-report.mjs",
     "data:quality:check": "node scripts/data-quality-report.mjs --check",
-    "ai:enrich": "node scripts/enrich-ai.mjs && npm run data:publish"
+    "ai:enrich": "node scripts/enrich-ai.mjs && npm run data:publish",
+    "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.108.2",
@@ -40,6 +41,7 @@
     "react-leaflet": "^4.2.1"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.47.0",
     "@eslint/js": "^9.17.0",
     "@types/adm-zip": "^0.5.8",
     "@types/react": "^18.3.18",
@@ -54,6 +56,7 @@
     "typescript-eslint": "^8.18.2",
     "vite": "^6.0.5",
     "vite-plugin-pwa": "^0.21.1",
-    "vitest": "^4.1.10"
+    "vitest": "^4.1.10",
+    "wrangler": "^4.114.0"
   }
 }
