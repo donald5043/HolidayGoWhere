@@ -6,3 +6,9 @@ dist
 *.tsbuildinfo
 .DS_Store
 traffic.json
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example
