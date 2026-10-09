@@ -3,8 +3,7 @@
  *
  * 純規則式意圖解析 + 本地資料檢索，零後端、零 API 費用，
  * 在所有裝置（含 iPhone 加入主畫面的 PWA）都能完整運作。
- * Gemini Nano（promptApi.ts）只負責把模板回覆改寫得更口語，
- * 推薦名單一律出自這裡的檢索結果，不會憑空生出地點。
+ * 推薦名單只使用這裡的規則與既有資料，不呼叫模型或外部文字服務。
  */
 
 import type { Place, Region, WeatherSummary } from '../data'

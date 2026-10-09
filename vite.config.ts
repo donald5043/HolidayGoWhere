@@ -8,6 +8,15 @@ const base = process.env.GITHUB_PAGES === 'true' ? '/HolidayGoWhere/' : '/'
 
 export default defineConfig({
   base,
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'map-vendor': ['leaflet', 'react-leaflet'],
+        },
+      },
+    },
+  },
   plugins: [react(), VitePWA({
     registerType: 'autoUpdate',
     includeAssets: ['favicon.png', 'favicon.svg'],
@@ -23,17 +32,18 @@ export default defineConfig({
         '**/places-south-*.js',
         '**/places-east-*.js',
         '**/places-islands-*.js',
-        '**/restaurants-osm-*.js'
+        '**/restaurants-osm-*.js',
+        '**/restaurants-osm-*.json'
       ],
       runtimeCaching: [
         {
-          urlPattern: /\/data\/(places|restaurants|ai-insights|health-advisories|medical-facilities|rescue-supplies).*\.json$/,
-          handler: 'CacheFirst',
+          urlPattern: /\/data\/(places|restaurants|health-advisories|medical-facilities|rescue-supplies|webcams).*\.json$/,
+          handler: 'StaleWhileRevalidate',
           options: {
             cacheName: 'holiday-public-data',
             expiration: {
-              maxEntries: 16,
-              maxAgeSeconds: 7 * 24 * 60 * 60
+              maxEntries: 24,
+              maxAgeSeconds: 24 * 60 * 60
             }
           }
         }

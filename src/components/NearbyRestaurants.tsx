@@ -42,6 +42,14 @@ const MAX_DIVERSE = 5   // default cap with diversity
 const MAX_PER_CAT = 2   // max per category in diverse view
 const MAX_EXPANDED = 10 // cap when user expands
 
+const OSM_REGION_FILES: Record<Place['region'], string> = {
+  北部: 'restaurants-osm-north.json',
+  中部: 'restaurants-osm-central.json',
+  南部: 'restaurants-osm-south.json',
+  東部: 'restaurants-osm-east.json',
+  離島: 'restaurants-osm-islands.json',
+}
+
 export function NearbyRestaurants({ allPlaces, anchor, onOpen }: Props) {
   const [featured, setFeatured] = useState<Place[]>([])
   const [osm, setOsm] = useState<Place[]>([])
@@ -56,10 +64,10 @@ export function NearbyRestaurants({ allPlaces, anchor, onOpen }: Props) {
     fetchPublicJson<Place[]>('data/restaurants-featured.json')
       .then((restaurants) => setFeatured(restaurants))
       .catch(() => {/* silent */})
-    fetchPublicJson<Place[]>('data/restaurants-osm.json')
+    fetchPublicJson<Place[]>(`data/${OSM_REGION_FILES[anchor.region]}`)
       .then((restaurants) => setOsm(restaurants))
       .catch(() => {/* silent */})
-  }, [])
+  }, [anchor.region])
 
   const { restaurants, totalCount } = useMemo(() => {
     const seen = new Set(allPlaces.filter((p) => p.placeType === '餐飲').map((p) => p.id))

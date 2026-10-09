@@ -288,7 +288,7 @@ async function main() {
       facilities: facilitiesFor(tags),
       familyAmenities: hasFamilyInfo ? familyAmenitiesFor(tags) : undefined,
       mapsUrl: mapsUrlFor(name, lat, lng),
-      sources: [{ type: '官方網站', label: 'OpenStreetMap', url: `https://www.openstreetmap.org/${el.type}/${el.id}` }],
+      sources: [{ type: '開放資料', label: 'OpenStreetMap', url: `https://www.openstreetmap.org/${el.type}/${el.id}` }],
       dataSource: 'osm',
       sourceId: `${el.type}/${el.id}`,
       qualityScore: 3 + (tags.website || tags['contact:website'] ? 1 : 0) + (tags.opening_hours ? 1 : 0),

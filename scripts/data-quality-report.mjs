@@ -165,8 +165,10 @@ ${markdownTable(Object.entries(categoryCounts).sort((a, b) => b[1] - a[1]).slice
 ${failures.length ? `## Failures\n\n${failures.map((item) => `- ${item}`).join('\n')}\n` : ''}
 `
 
-  await fs.mkdir(path.dirname(REPORT_FILE), { recursive: true })
-  await fs.writeFile(REPORT_FILE, report, 'utf8')
+  if (!process.argv.includes('--check')) {
+    await fs.mkdir(path.dirname(REPORT_FILE), { recursive: true })
+    await fs.writeFile(REPORT_FILE, report, 'utf8')
+  }
   console.log(report)
 
   if (process.argv.includes('--check') && failures.length) {

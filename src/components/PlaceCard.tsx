@@ -14,6 +14,7 @@ import {
 import type { Place } from '../data'
 import { BAD_PLACEHOLDER_IMAGES, FALLBACK_IMAGE } from '../imageUtils'
 import { compactNumber } from '../lib/format'
+import { getFreshnessInfo, isOfficialSource } from '../lib/placeSearch'
 
 export function PlaceImage({
   place,
@@ -88,6 +89,7 @@ export function PlaceCard({
   onFavorite: () => void
   distance?: number
 }) {
+  const freshness = getFreshnessInfo(place.updatedAt)
   return (
     <article className="place-card" onClick={onOpen}>
       <div className="place-image-wrap">
@@ -133,6 +135,7 @@ export function PlaceCard({
               資訊 {place.completeness.score}%
             </span>
           )}
+          <span className={`freshness-badge freshness-${freshness.level}`}>{freshness.label}</span>
         </div>
         <div className="meta-row">
           <span><MapPin size={14} />{place.city} {place.district}</span>
@@ -142,7 +145,7 @@ export function PlaceCard({
               <span className="reviews">({compactNumber(place.reviews)})</span>
             </>
           ) : (
-            <span className="official-data"><Database size={13} />官方資料</span>
+            <span className="official-data"><Database size={13} />{isOfficialSource(place) ? '官方資料' : '開放資料'}</span>
           )}
         </div>
         <p>{place.description}</p>

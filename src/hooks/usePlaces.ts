@@ -1,11 +1,10 @@
 import { useEffect, useState } from 'react'
-import type { AiInsight, Place } from '../data'
+import type { Place } from '../data'
 import { fetchPublicJson } from '../lib/fetchPublicJson'
 
 export function usePlaces() {
   const [places, setPlaces] = useState<Place[]>([])
   const [placeCache, setPlaceCache] = useState<Partial<Record<string, Place[]>>>({})
-  const [aiInsights, setAiInsights] = useState<Record<string, AiInsight>>({})
   const [placesStatus, setPlacesStatus] = useState<'loading' | 'ready' | 'error'>('loading')
 
   useEffect(() => {
@@ -25,11 +24,5 @@ export function usePlaces() {
     }
   }, [])
 
-  useEffect(() => {
-    fetchPublicJson<Record<string, AiInsight>>('data/ai-insights.json')
-      .then((insights) => setAiInsights(insights))
-      .catch(() => setAiInsights({}))
-  }, [])
-
-  return { places, setPlaces, placeCache, setPlaceCache, aiInsights, placesStatus, setPlacesStatus }
+  return { places, setPlaces, placeCache, setPlaceCache, placesStatus, setPlacesStatus }
 }

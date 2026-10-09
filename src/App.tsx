@@ -6,7 +6,6 @@ import {
   ArrowUpRight,
   Baby,
   Bell,
-  Bot,
   Building2,
   CalendarCheck,
   CalendarDays,
@@ -95,6 +94,8 @@ import { ConciergeChat } from './components/ConciergeChat'
 import { ConciergeFab } from './components/ConciergeFab'
 import { compactNumber } from './lib/format'
 import { fetchPublicJson } from './lib/fetchPublicJson'
+import { trackActivity } from './lib/activityLog'
+import { getFreshnessInfo, isOfficialSource, scorePlaceSearch } from './lib/placeSearch'
 
 const regionIcons: Partial<Record<(typeof regions)[number], ReactNode>> = {
   北部: <Building2 size={14} />,
@@ -250,45 +251,6 @@ function scorePersonalityForPlace(place: Place): Record<PersonalityId, number> {
   }
 }
 
-function normalizeSearchText(value: string) {
-  return value
-    .normalize('NFKC')
-    .toLocaleLowerCase('zh-TW')
-    .replace(/臺/g, '台')
-    .replace(/[，,。./／|｜・、\-—_]+/g, ' ')
-    .replace(/\s+/g, ' ')
-    .trim()
-}
-
-function buildPlaceSearchText(place: Place) {
-  const amenityEvidence = place.familyEvidence
-    ?.map((evidence) => `${evidence.label} ${evidence.note} ${evidence.source}`)
-    .join(' ')
-  return normalizeSearchText([
-    place.name,
-    place.region,
-    place.city,
-    place.district,
-    place.category,
-    place.setting,
-    place.duration,
-    place.placeType,
-    place.restaurantCategory,
-    place.restaurantTier,
-    place.chain,
-    place.cuisine,
-    place.priceLabel,
-    place.address,
-    place.hours,
-    place.description,
-    place.highlights?.join(' '),
-    place.facilities?.join(' '),
-    place.dataSource,
-    place.sources?.map((source) => `${source.type} ${source.label}`).join(' '),
-    amenityEvidence,
-  ].filter(Boolean).join(' '))
-}
-
 function computePersonality(interactedIds: string[], places: Place[]): PersonalityId | null {
   const unique = [...new Set(interactedIds)].slice(-40)
   if (unique.length < 3) return null
@@ -329,6 +291,14 @@ const regionLoaders: Record<RegionName, () => Promise<Place[]>> = {
   離島: () => fetchPublicJson<Place[]>('data/places-islands.json'),
 }
 
+const restaurantRegionLoaders: Record<RegionName, () => Promise<Place[]>> = {
+  北部: () => fetchPublicJson<Place[]>('data/restaurants-osm-north.json'),
+  中部: () => fetchPublicJson<Place[]>('data/restaurants-osm-central.json'),
+  南部: () => fetchPublicJson<Place[]>('data/restaurants-osm-south.json'),
+  東部: () => fetchPublicJson<Place[]>('data/restaurants-osm-east.json'),
+  離島: () => fetchPublicJson<Place[]>('data/restaurants-osm-islands.json'),
+}
+
 function distanceInKm(
   from: { lat: number; lng: number },
   to: { lat: number; lng: number },
@@ -363,7 +333,7 @@ function weatherRainText(weather: WeatherSummary) {
 }
 
 function App() {
-  const { places, setPlaces, placeCache, setPlaceCache, aiInsights, placesStatus, setPlacesStatus } = usePlaces()
+  const { places, setPlaces, placeCache, setPlaceCache, placesStatus, setPlacesStatus } = usePlaces()
   const {
     query, setQuery,
     region, setRegion,
@@ -390,8 +360,8 @@ function App() {
   const [isCompactResultsView, setIsCompactResultsView] = useState(false)
   const [isMobilePortraitMap, setIsMobilePortraitMap] = useState(false)
   const [mobileMapInteractive, setMobileMapInteractive] = useState(false)
-  const [osmRestaurants, setOsmRestaurants] = useState<Place[]>([])
-  const [osmRestaurantsLoaded, setOsmRestaurantsLoaded] = useState(false)
+  const [restaurantCache, setRestaurantCache] = useState<Partial<Record<RegionName, Place[]>>>({})
+  const [restaurantsStatus, setRestaurantsStatus] = useState<'idle' | 'loading' | 'ready' | 'error'>('idle')
   // 目前地圖視野對應的資料請求 key（涵蓋的分區組合），用來丟棄過期的載入結果
   const viewportRequestRegion = useRef<string | null>(null)
   const mapViewportSyncTimer = useRef<number | null>(null)
@@ -740,17 +710,31 @@ function App() {
   }, [])
 
   useEffect(() => {
-    if (!restaurantOnly || osmRestaurantsLoaded) return
-    fetchPublicJson<Place[]>('data/restaurants-osm.json')
+    if (!restaurantOnly || region === '全部') return
+    if (restaurantCache[region]) {
+      setRestaurantsStatus('ready')
+      return
+    }
+    let active = true
+    setRestaurantsStatus('loading')
+    restaurantRegionLoaders[region]()
       .then((restaurants) => {
-        setOsmRestaurants(restaurants)
-        setOsmRestaurantsLoaded(true)
+        if (!active) return
+        setRestaurantCache((current) => ({ ...current, [region]: restaurants }))
+        setRestaurantsStatus('ready')
       })
       .catch(() => {
-        setOsmRestaurants([])
-        setOsmRestaurantsLoaded(true)
+        if (active) setRestaurantsStatus('error')
       })
-  }, [restaurantOnly, osmRestaurantsLoaded])
+    return () => { active = false }
+  }, [restaurantOnly, region, restaurantCache])
+
+  const osmRestaurants = useMemo(
+    () => region === '全部'
+      ? Object.values(restaurantCache).flatMap((items) => items ?? [])
+      : restaurantCache[region] ?? [],
+    [region, restaurantCache],
+  )
 
   const scopedRescuePlaces = useMemo(() => {
     if (!rescueOnly || !rescuePlaces.length) return [] as Place[]
@@ -839,10 +823,8 @@ function App() {
 
   const filteredPlaces = useMemo(() => {
     const [minAge, maxAge] = age === 'all' ? [0, 99] : age.split('-').map(Number)
-    const queryTokens = normalizeSearchText(query).split(' ').filter(Boolean)
     const matches = sourcePlaces.filter((place) => {
-      const searchText = buildPlaceSearchText(place)
-      const textMatches = queryTokens.length === 0 || queryTokens.every((token) => searchText.includes(token))
+      const textMatches = scorePlaceSearch(place, query).matches
       if (rescueOnly) return textMatches
       const ageMatches = age === '0-2'
         ? place.ageMin === 0
@@ -865,6 +847,8 @@ function App() {
     const sortLocation = userLocation
     const rank = (place: Place) => {
       let score = getQualityScore(place)
+      score += scorePlaceSearch(place, query).score * 1.8
+      score += getFreshnessInfo(place.updatedAt).score
       if (weather && !restaurantOnly && !rescueOnly) {
         if (rainyWeather && place.rainyDay) score += 18
         if (hotWeather && place.setting !== '室外') score += 12
@@ -929,7 +913,13 @@ function App() {
   const mapAreaLabel = mapViewport
     ? `${viewportPlaces.length} 筆在目前地圖範圍`
     : `${displayedPlaces.length} 筆符合條件`
-  const currentPlacesStatus = rescueOnly ? rescueStatus : placesStatus
+  const currentPlacesStatus = rescueOnly
+    ? rescueStatus
+    : restaurantOnly && restaurantsStatus === 'loading'
+      ? 'loading'
+      : restaurantOnly && restaurantsStatus === 'error'
+        ? 'error'
+        : placesStatus
   const currentModeLabel = rescueOnly ? '救援據點' : restaurantOnly ? '親子餐廳' : '景點'
   const currentListTitle = rescueOnly ? '附近親子救援' : activeTab === 'favorites' ? '收藏的景點' : '週末靈感地圖'
   const currentKicker = rescueOnly ? '親子救援' : activeTab === 'favorites' ? '我的收藏' : '為你精選'
@@ -1044,6 +1034,7 @@ function App() {
 
   const openPlace = useCallback((place: Place) => {
     playUiSound('open')
+    trackActivity('place_open', place.id)
     setSelected(place)
     setMapSelected(place)
     setClickHistory((prev) => [...prev.slice(-99), place.id])
@@ -1061,7 +1052,11 @@ function App() {
 
   const toggleFavorite = (id: string) => {
     playUiSound('favorite')
-    setFavorites((current) => current.includes(id) ? current.filter((item) => item !== id) : [...current, id])
+    setFavorites((current) => {
+      const removing = current.includes(id)
+      trackActivity(removing ? 'favorite_remove' : 'favorite_add', id)
+      return removing ? current.filter((item) => item !== id) : [...current, id]
+    })
   }
 
   const clearFilters = () => {
@@ -1187,6 +1182,7 @@ function App() {
 
   const saveReport = () => {
     if (!selected) return
+    trackActivity('report_save', selected.id)
     const now = new Date().toISOString()
     setReports((current) => {
       const visitedAt = current[selected.id]?.visitedAt || now
@@ -2076,7 +2072,10 @@ function App() {
               {selected.rating !== null ? (
                 <div className="rating-line"><Star size={17} fill="currentColor" /> <strong>{selected.rating}</strong> Google 評分・{compactNumber(selected.reviews)} 則評論</div>
               ) : (
-                <div className="rating-line official-line"><Database size={17} />交通部觀光署官方開放資料</div>
+                <div className="rating-line official-line">
+                  <Database size={17} />
+                  {isOfficialSource(selected) ? '政府或官方開放資料' : '社群開放資料・尚無可驗證評分'}
+                </div>
               )}
               {selected.michelinAward && (
                 <div className="michelin-banner">
@@ -2110,7 +2109,13 @@ function App() {
                 <div><Baby /><span><small>適合年齡</small>{selected.ageMin}–{selected.ageMax} 歲・{selected.setting}・{selected.duration}</span></div>
                 <div><Ticket /><span><small>票價</small>{selected.priceLabel}</span></div>
               </div>
-              <a className="maps-cta" href={selected.mapsUrl} target="_blank" rel="noreferrer">
+              <a
+                className="maps-cta"
+                href={selected.mapsUrl}
+                target="_blank"
+                rel="noreferrer"
+                onClick={() => trackActivity('navigate', selected.id)}
+              >
                 <Navigation size={19} />在 Google 地圖查看路線
               </a>
               <div className="predeparture-group">
@@ -2157,12 +2162,12 @@ function App() {
                 )}
                 {selected.sources.length > 0 && (
                   <>
-                    <h4 className="collapsible-subheading">部落格與 Instagram 分享</h4>
+                    <h4 className="collapsible-subheading">延伸閱讀與參考連結</h4>
                     <div className="source-list">
                       {selected.sources.map((source) => (
                         <a href={source.url} target="_blank" rel="noreferrer" key={source.url}>
                           {source.type === 'Instagram' ? <Instagram /> : <ExternalLink />}
-                          <span><small>{source.type}</small>{source.label}</span>
+                          <span><small>{source.label === 'OpenStreetMap' ? '開放地圖' : source.type}</small>{source.label}</span>
                           <ExternalLink size={15} />
                         </a>
                       ))}
@@ -2172,24 +2177,6 @@ function App() {
               </CollapsibleSection>
               {selected.placeType !== '餐飲' && (
                 <NearbyRestaurants allPlaces={places} anchor={selected} onOpen={openPlace} />
-              )}
-              {aiInsights[selected.id] && (
-                <CollapsibleSection icon={<Bot size={16} />} title="AI 親子摘要" hint="本機 AI 整理">
-                  <div className="ai-insight">
-                    <p>{aiInsights[selected.id].summary || aiInsights[selected.id].familySummary}</p>
-                    <div className="ai-badges">
-                      <span>雨天：{aiInsights[selected.id].rainyDay || aiInsights[selected.id].rainyDayTip || '未確認'}</span>
-                      <span>推車：{aiInsights[selected.id].stroller || '未確認'}</span>
-                    </div>
-                    <ul>
-                      {(aiInsights[selected.id].whyForKids || aiInsights[selected.id].parentFriendlyTags || []).map((item) => <li key={item}>{item}</li>)}
-                    </ul>
-                    {(aiInsights[selected.id].tips?.length || 0) > 0 && (
-                      <div className="ai-tip">行前提醒：{aiInsights[selected.id].tips?.join('；')}</div>
-                    )}
-                    <small className="ai-disclaimer">AI 根據官方開放資料整理，實際資訊請以官方網站為準。</small>
-                  </div>
-                </CollapsibleSection>
               )}
               <CollapsibleSection icon={<Accessibility size={16} />} title="親子友善設施與停車">
                 {selected.familyAmenities && (
@@ -2249,8 +2236,13 @@ function App() {
               <CollapsibleSection
                 icon={<Database size={16} />}
                 title="資料來源與完整度"
-                hint={selected.completeness ? `完整度 ${selected.completeness.score}%` : undefined}
+                hint={getFreshnessInfo(selected.updatedAt).label}
               >
+                <div className={`freshness-panel freshness-${getFreshnessInfo(selected.updatedAt).level}`}>
+                  <strong>{getFreshnessInfo(selected.updatedAt).label}</strong>
+                  <span>{getFreshnessInfo(selected.updatedAt).description}</span>
+                  <small>更新日期是資料來源的同步日期，不等同現場查核日期。</small>
+                </div>
                 {selected.completeness && (
                   <div className="completeness-panel">
                     <div>
@@ -2265,6 +2257,17 @@ function App() {
                 <div className="info-list">
                   <div><Database /><span><small>資料來源</small>{selected.dataSource}</span></div>
                 </div>
+                {selected.sources.length > 0 && (
+                  <div className="source-list source-list--data">
+                    {selected.sources.map((source) => (
+                      <a href={source.url} target="_blank" rel="noreferrer" key={`data-${source.url}`}>
+                        <ExternalLink size={15} />
+                        <span><small>{source.label === 'OpenStreetMap' ? '開放地圖' : source.type}</small>{source.label}</span>
+                        <ExternalLink size={14} />
+                      </a>
+                    ))}
+                  </div>
+                )}
               </CollapsibleSection>
             </div>
           </aside>

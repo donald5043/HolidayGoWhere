@@ -1,7 +1,7 @@
 export type Region = '北部' | '中部' | '南部' | '東部' | '離島'
 export type Setting = '室內' | '室外' | '室內外'
 export type Duration = '半日' | '一日' | '晚上'
-export type SourceType = '官方網站' | '部落格' | 'Instagram' | 'Wikipedia'
+export type SourceType = '官方網站' | '開放資料' | '部落格' | 'Instagram' | 'Wikipedia'
 export type AmenityStatus = 'confirmed' | 'notListed'
 export type FamilyAmenityKey =
   | 'accessibility'
@@ -38,24 +38,6 @@ export type FamilyEvidence = {
   url: string
   note: string
 }
-export type AiInsight = {
-  summary?: string
-  whyForKids?: string[]
-  rainyDay?: '適合' | '部分適合' | '不適合' | '未知'
-  stroller?: '友善' | '部分友善' | '不友善' | '未知'
-  tips?: string[]
-  confidence?: number
-  familySummary?: string
-  rainyDayTip?: string
-  recommendedAge?: string
-  visitDuration?: string
-  parentFriendlyTags?: string[]
-  model: string
-  sourceHash?: string
-  generatedAt: string
-  migrated?: boolean
-}
-
 export type RestaurantCategory =
   | 'family_chain'
   | 'mall_food_court'

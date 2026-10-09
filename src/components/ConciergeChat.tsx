@@ -3,7 +3,6 @@ import { ChevronRight, ExternalLink, MapPin, Mic, Send, Sparkles, X } from 'luci
 import type { Place, RescueSupply, WeatherSummary } from '../data'
 import { answerQuery, parseIntent, regionForCity, GREETING_CHIPS, GREETING_TEXT, type ConciergePick } from '../services/concierge'
 import { rescueSupplyToPlace } from '../hooks/useRescueSupplies'
-import { isNanoReady, rewriteWithNano } from '../services/promptApi'
 import { fetchPublicJson } from '../lib/fetchPublicJson'
 import { Mascot } from './Mascot'
 import { PlaceImage } from './PlaceCard'
@@ -91,7 +90,6 @@ export function ConciergeChat({ places, weather, userLocation, onClose, onOpenPl
   })
   const [input, setInput] = useState('')
   const [thinking, setThinking] = useState(false)
-  const [nanoActive, setNanoActive] = useState(false)
   const [listening, setListening] = useState(false)
   const [featuredRestaurants, setFeaturedRestaurants] = useState<Place[]>([])
   const shownIdsRef = useRef<Set<string>>(new Set())
@@ -109,7 +107,6 @@ export function ConciergeChat({ places, weather, userLocation, onClose, onOpenPl
   const speechSupported = useMemo(() => getSpeechRecognition() !== null, [])
 
   useEffect(() => {
-    isNanoReady().then(setNanoActive).catch(() => setNanoActive(false))
     // 首頁 featured 資料集餐廳很少，補上精選餐廳讓「吃什麼」類問題有料可答
     fetchPublicJson<Place[]>('data/restaurants-featured.json')
       .then(setFeaturedRestaurants)
@@ -226,19 +223,14 @@ export function ConciergeChat({ places, weather, userLocation, onClose, onOpenPl
     })
     for (const pick of answer.picks) shownIdsRef.current.add(pick.place.id)
 
-    let text = answer.text
-    if (nanoActive && answer.picks.length > 0) {
-      const rewritten = await rewriteWithNano(answer.text)
-      if (rewritten) text = rewritten
-    }
     await minDelay
 
     setMessages((current) => [
       ...current,
-      { id: nextId(), role: 'assistant', text, picks: answer.picks, chips: answer.chips, mapsSearch: answer.mapsSearch },
+      { id: nextId(), role: 'assistant', text: answer.text, picks: answer.picks, chips: answer.chips, mapsSearch: answer.mapsSearch },
     ])
     setThinking(false)
-  }, [conciergePlaces, messages.length, nanoActive, thinking, userLocation, weather])
+  }, [conciergePlaces, messages.length, thinking, userLocation, weather])
 
   const toggleVoice = useCallback(() => {
     // 聆聽中再按一次 = 取消，回到打字輸入
@@ -279,7 +271,7 @@ export function ConciergeChat({ places, weather, userLocation, onClose, onOpenPl
             <strong>Q媽隨行管家</strong>
             <span className="concierge-engine">
               <Sparkles size={11} />
-              {nanoActive ? '裝置端 AI・對話不離開手機' : '智慧推薦・全程免費'}
+              本機規則比對・問題不會上傳
             </span>
           </div>
           <button className="modal-close concierge-close" onClick={onClose} aria-label="關閉"><X /></button>

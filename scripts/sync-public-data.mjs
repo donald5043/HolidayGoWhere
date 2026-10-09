@@ -8,7 +8,6 @@ const GENERATED_DIR = path.join(ROOT, 'src', 'generated')
 const PUBLIC_DATA_DIR = path.join(ROOT, 'public', 'data')
 
 const FRONTEND_DATA_FILES = [
-  'ai-insights.json',
   'places-central.json',
   'places-east.json',
   'places-featured.json',
@@ -16,8 +15,18 @@ const FRONTEND_DATA_FILES = [
   'places-north.json',
   'places-south.json',
   'restaurants-featured.json',
-  'restaurants-osm.json',
 ]
+
+const RESTAURANT_SHARDS = {
+  'restaurants-osm-north.json': '北部',
+  'restaurants-osm-central.json': '中部',
+  'restaurants-osm-south.json': '南部',
+  'restaurants-osm-east.json': '東部',
+  'restaurants-osm-islands.json': '離島',
+}
+
+const PUBLISHED_DATA_FILES = [...FRONTEND_DATA_FILES, ...Object.keys(RESTAURANT_SHARDS)]
+let restaurantSourcePromise
 
 function sha256(buffer) {
   return createHash('sha256').update(buffer).digest('hex')
@@ -32,10 +41,18 @@ async function readMaybe(file) {
   }
 }
 
+async function expectedBuffer(filename) {
+  const region = RESTAURANT_SHARDS[filename]
+  if (!region) return readMaybe(path.join(GENERATED_DIR, filename))
+  restaurantSourcePromise ??= fs.readFile(path.join(GENERATED_DIR, 'restaurants-osm.json'), 'utf8')
+    .then((raw) => JSON.parse(raw))
+  const restaurants = await restaurantSourcePromise
+  return Buffer.from(JSON.stringify(restaurants.filter((place) => place.region === region), null, 2))
+}
+
 async function compareFile(filename) {
-  const source = path.join(GENERATED_DIR, filename)
   const target = path.join(PUBLIC_DATA_DIR, filename)
-  const sourceBuffer = await readMaybe(source)
+  const sourceBuffer = await expectedBuffer(filename)
   const targetBuffer = await readMaybe(target)
 
   if (!sourceBuffer) return { filename, status: 'missing-source' }
@@ -45,7 +62,7 @@ async function compareFile(filename) {
 }
 
 async function checkPublicData() {
-  const results = await Promise.all(FRONTEND_DATA_FILES.map(compareFile))
+  const results = await Promise.all(PUBLISHED_DATA_FILES.map(compareFile))
   const failures = results.filter((result) => result.status !== 'ok')
 
   if (failures.length) {
@@ -58,7 +75,7 @@ async function checkPublicData() {
     return
   }
 
-  console.log(`public/data check passed (${FRONTEND_DATA_FILES.length} files).`)
+  console.log(`public/data check passed (${PUBLISHED_DATA_FILES.length} files).`)
 }
 
 async function syncPublicData() {
@@ -66,10 +83,9 @@ async function syncPublicData() {
 
   let copied = 0
   let bytes = 0
-  for (const filename of FRONTEND_DATA_FILES) {
-    const source = path.join(GENERATED_DIR, filename)
+  for (const filename of PUBLISHED_DATA_FILES) {
     const target = path.join(PUBLIC_DATA_DIR, filename)
-    const sourceBuffer = await fs.readFile(source)
+    const sourceBuffer = await expectedBuffer(filename)
     const targetBuffer = await readMaybe(target)
 
     if (!targetBuffer || sha256(sourceBuffer) !== sha256(targetBuffer)) {

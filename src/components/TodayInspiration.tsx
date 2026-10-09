@@ -18,15 +18,11 @@ import {
 import type { HealthAdvisory, Place, WeatherSummary } from '../data'
 import { Mascot } from './Mascot'
 import { PlaceImage } from './PlaceCard'
-import type { CdcStatus } from './QMomHealthAdvisory'
+import { QMomHealthAdvisory, type CdcStatus } from './QMomHealthAdvisory'
 
 const WeekendInteractionHub = lazy(() =>
   import('./WeekendInteractionHub').then((module) => ({ default: module.WeekendInteractionHub })),
 )
-const QMomHealthAdvisory = lazy(() =>
-  import('./QMomHealthAdvisory').then((module) => ({ default: module.QMomHealthAdvisory })),
-)
-
 type ScenarioKey = 'rainy' | 'energy' | 'stroller' | 'parents'
 
 type Props = {
